@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Project",
+			"Path": "C:\\Users\\julia\\Documents\\UE4_Project\\ProjectUE4Game\\Project\\Source\\Project.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ProjectEditor",
+			"Path": "C:\\Users\\julia\\Documents\\UE4_Project\\ProjectUE4Game\\Project\\Source\\ProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
