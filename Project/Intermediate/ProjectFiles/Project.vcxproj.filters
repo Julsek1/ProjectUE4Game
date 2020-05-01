@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{28063375-B8E4-41E9-874F-3A26BF12C44B}</UniqueIdentifier>
+      <UniqueIdentifier>{DDEAA5AF-144C-4157-AD99-361D240E4A1A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{021C1219-6ACE-4342-A615-936C217DC2D6}</UniqueIdentifier>
+      <UniqueIdentifier>{D67922E3-6757-4A9C-A638-B260080C9944}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Project">
-      <UniqueIdentifier>{7149BF0A-B7C8-4FEB-B06D-71ED04C443CC}</UniqueIdentifier>
+      <UniqueIdentifier>{E6C08F75-8B73-4CC4-AC36-F2A32D8DD4E8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Project\Project.Build.cs">
       <Filter>Source\Project</Filter>
@@ -41,5 +41,21 @@
     <ClInclude Include="..\..\Source\Project\ProjectGameModeBase.h">
       <Filter>Source\Project</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Project\TwinStickShooterPlayer.cpp">
+      <Filter>Source\Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project\TwinStickShooterPlayer.h">
+      <Filter>Source\Project</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Project\LevelLoader.h">
+      <Filter>Source\Project</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Project\LevelLoader.cpp">
+      <Filter>Source\Project</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
