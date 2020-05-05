@@ -2,10 +2,12 @@
 
 #pragma once
 
+#include "Camera/CameraComponent.h"
 #include "Components/InputComponent.h"
+#include "Components/StaticMeshComponent.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "Camera/CameraComponent.h"
+#include "GameFramework/SpringArmComponent.h"
 
 #include "TwinStickShooterPlayer.generated.h"
 
@@ -35,6 +37,9 @@ public:
 	UFUNCTION()
 		void MoveRight(float Horizontal);
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UCameraComponent* Camera;
+	UPROPERTY(VisibleAnywhere, BluePrintReadOnly)
+		UCameraComponent* Camera = nullptr;
+
+	UPROPERTY(VisibleAnywhere, BluePrintReadOnly)
+		USpringArmComponent* SpringArm = nullptr;
 };
