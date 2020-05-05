@@ -2,10 +2,13 @@
 
 
 #include "LevelLoader.h"
+#include "CustomGameInstance.h"
+#include "Engine/GameInstance.h"
 #include "Engine/World.h"
 #include "GameFramework/Actor.h"
 #include "GameFramework/PlayerController.h"
 #include "Kismet/GameplayStatics.h"
+#include "TwinStickShooterPlayer.h"
 
 // Sets default values for this component's properties
 ULevelLoader::ULevelLoader()
@@ -38,7 +41,14 @@ void ULevelLoader::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 
 	// ...
 
-	if (LevelName != "" && Trigger && !LoadingLevel && Trigger->IsOverlappingActor(GetWorld()->GetFirstPlayerController()->GetPawn()))
+	ACharacter* Player = GetWorld()->GetFirstPlayerController()->GetCharacter();
+
+	if (Cast<ATwinStickShooterPlayer>(Player) != nullptr)
+	{
+		GetWorld()->GetGameInstance<UCustomGameInstance>()->PlayerHealth = Cast<ATwinStickShooterPlayer>(Player)->Health;
+	}
+
+	if (LevelName != "" && Trigger && !LoadingLevel && Trigger->IsOverlappingActor(GetWorld()->GetFirstPlayerController()->GetPawn()))//GetWorld()->GetFirstPlayerController()->GetCharacter(); Can be changed to player later, will not work in hub world as is
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Loading the next level"));
 		LoadingLevel = true;

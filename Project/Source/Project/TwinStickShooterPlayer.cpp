@@ -2,7 +2,9 @@
 
 
 #include "TwinStickShooterPlayer.h"
+#include "CustomGameInstance.h"
 #include "Engine/Engine.h"
+#include "Engine/GameInstance.h"
 #include "GameFramework/Controller.h"
 
 // Sets default values
@@ -19,12 +21,15 @@ ATwinStickShooterPlayer::ATwinStickShooterPlayer()
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
 	Camera->bUsePawnControlRotation = false;
+
 }
 
 // Called when the game starts or when spawned
 void ATwinStickShooterPlayer::BeginPlay()
 {
 	Super::BeginPlay();
+
+	Health = GetWorld()->GetGameInstance<UCustomGameInstance>()->PlayerHealth;
 
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("We are using TwinStickShooterPlayer"));
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Health: %f"), Health));
@@ -109,4 +114,6 @@ void ATwinStickShooterPlayer::Heal(float HealingAmount)
 	{
 		Health = 1;
 	}
+
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Health: %f"), Health));
 }

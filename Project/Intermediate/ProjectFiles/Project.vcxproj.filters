@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{DDEAA5AF-144C-4157-AD99-361D240E4A1A}</UniqueIdentifier>
+      <UniqueIdentifier>{219B3079-D92F-40A3-9A7B-78548E63308F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D67922E3-6757-4A9C-A638-B260080C9944}</UniqueIdentifier>
+      <UniqueIdentifier>{16A03FF8-A6B9-430B-89AA-7F08C2EE265F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,9 +23,30 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\Project">
-      <UniqueIdentifier>{E6C08F75-8B73-4CC4-AC36-F2A32D8DD4E8}</UniqueIdentifier>
+      <UniqueIdentifier>{E84AFC68-73D8-40CC-A4F0-8A03C4DD8B5E}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Project\CustomGameInstance.cpp">
+      <Filter>Source\Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project\CustomGameInstance.h">
+      <Filter>Source\Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Project\HealthPickup.cpp">
+      <Filter>Source\Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project\HealthPickup.h">
+      <Filter>Source\Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Project\LevelLoader.cpp">
+      <Filter>Source\Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project\LevelLoader.h">
+      <Filter>Source\Project</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Project\Project.Build.cs">
       <Filter>Source\Project</Filter>
     </None>
@@ -47,21 +68,5 @@
     <ClInclude Include="..\..\Source\Project\TwinStickShooterPlayer.h">
       <Filter>Source\Project</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Project\LevelLoader.h">
-      <Filter>Source\Project</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Project\HealthPickup.h">
-      <Filter>Source\Project</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\Project\LevelLoader.cpp">
-      <Filter>Source\Project</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Project\HealthPickup.cpp">
-      <Filter>Source\Project</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
