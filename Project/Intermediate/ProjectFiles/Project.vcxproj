@@ -272,8 +272,10 @@
     <None Include="..\..\Config\DefaultEngine.ini" />
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Source\Project\Project.Build.cs" />
+    <ClCompile Include="..\..\Source\Project\HealthPickup.cpp" />
     <ClCompile Include="..\..\Source\Project\LevelLoader.cpp" />
     <ClCompile Include="..\..\Source\Project\Project.cpp" />
+    <ClInclude Include="..\..\Source\Project\HealthPickup.h" />
     <ClInclude Include="..\..\Source\Project\LevelLoader.h" />
     <ClInclude Include="..\..\Source\Project\Project.h" />
     <ClCompile Include="..\..\Source\Project\ProjectGameModeBase.cpp" />

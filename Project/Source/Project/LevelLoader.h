@@ -28,5 +28,7 @@ public:
 private:
 	UPROPERTY(EditAnywhere)
 		ATriggerVolume* Trigger = nullptr;
+	UPROPERTY(EditAnywhere)
+		FName LevelName = "";
 	bool LoadingLevel = false;
 };

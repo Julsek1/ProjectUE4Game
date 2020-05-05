@@ -59,7 +59,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ULevelLoader); \
 
 
 #define Project_Source_Project_LevelLoader_h_14_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__Trigger() { return STRUCT_OFFSET(ULevelLoader, Trigger); }
+	FORCEINLINE static uint32 __PPO__Trigger() { return STRUCT_OFFSET(ULevelLoader, Trigger); } \
+	FORCEINLINE static uint32 __PPO__LevelName() { return STRUCT_OFFSET(ULevelLoader, LevelName); }
 
 
 #define Project_Source_Project_LevelLoader_h_11_PROLOG

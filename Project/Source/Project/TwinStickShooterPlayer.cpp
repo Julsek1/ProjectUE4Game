@@ -27,7 +27,8 @@ void ATwinStickShooterPlayer::BeginPlay()
 	Super::BeginPlay();
 
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("We are using TwinStickShooterPlayer"));
-	//UE_LOG(LogTemp, Warning, TEXT("Hello"));
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Health: %f"), Health));
+
 }
 
 // Called every frame
@@ -95,3 +96,17 @@ void ATwinStickShooterPlayer::Rotate()
 
 }
 
+//void ATwinStickShooterPlayer::TakeDamage(float Damage)
+//{
+//	Health -= Damage;
+//}
+
+void ATwinStickShooterPlayer::Heal(float HealingAmount)
+{
+	Health += HealingAmount;
+
+	if (Health >= 1)
+	{
+		Health = 1;
+	}
+}

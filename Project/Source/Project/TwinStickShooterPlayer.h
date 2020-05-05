@@ -33,21 +33,23 @@ public:
 
 	UFUNCTION()
 		void MoveForward(float Vertical);
-
 	UFUNCTION()
 		void MoveRight(float Horizontal);
-
-	UPROPERTY(VisibleAnywhere, BluePrintReadOnly)
-		UCameraComponent* Camera = nullptr;
-
-	UPROPERTY(VisibleAnywhere, BluePrintReadOnly)
-		USpringArmComponent* SpringArm = nullptr;
-
 	UFUNCTION()
 		void RotateX(float RotationX);
-
 	UFUNCTION()
 		void RotateY(float RotationY);
+	/*UFUNCTION()
+		void TakeDamage(float Damage);*/
+	UFUNCTION()
+		void Heal(float Health);
+	
+	UPROPERTY(VisibleAnywhere, BluePrintReadOnly)
+		UCameraComponent* Camera = nullptr;
+	UPROPERTY(VisibleAnywhere, BluePrintReadOnly)
+		USpringArmComponent* SpringArm = nullptr;
+	UPROPERTY(VisibleAnywhere)
+		float Health = 0.1f;
 
 private:
 	float CharacterRotationX = 0.f;

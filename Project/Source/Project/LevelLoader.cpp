@@ -38,12 +38,12 @@ void ULevelLoader::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 
 	// ...
 
-	if (Trigger && !LoadingLevel && Trigger->IsOverlappingActor(GetWorld()->GetFirstPlayerController()->GetPawn()))
+	if (LevelName != "" && Trigger && !LoadingLevel && Trigger->IsOverlappingActor(GetWorld()->GetFirstPlayerController()->GetPawn()))
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Loading the next level"));
 		LoadingLevel = true;
 		//load level
-		UGameplayStatics::OpenLevel(this, "Testing");
+		UGameplayStatics::OpenLevel(this, LevelName);
 
 		//How do I set the gamemode
 

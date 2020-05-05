@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 	PROJECT_API UClass* Z_Construct_UClass_ATwinStickShooterPlayer();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_Project();
+	PROJECT_API UFunction* Z_Construct_UFunction_ATwinStickShooterPlayer_Heal();
 	PROJECT_API UFunction* Z_Construct_UFunction_ATwinStickShooterPlayer_MoveForward();
 	PROJECT_API UFunction* Z_Construct_UFunction_ATwinStickShooterPlayer_MoveRight();
 	PROJECT_API UFunction* Z_Construct_UFunction_ATwinStickShooterPlayer_RotateX();
@@ -28,12 +29,47 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 	{
 		UClass* Class = ATwinStickShooterPlayer::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "Heal", &ATwinStickShooterPlayer::execHeal },
 			{ "MoveForward", &ATwinStickShooterPlayer::execMoveForward },
 			{ "MoveRight", &ATwinStickShooterPlayer::execMoveRight },
 			{ "RotateX", &ATwinStickShooterPlayer::execRotateX },
 			{ "RotateY", &ATwinStickShooterPlayer::execRotateY },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ATwinStickShooterPlayer_Heal_Statics
+	{
+		struct TwinStickShooterPlayer_eventHeal_Parms
+		{
+			float Health;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Health;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ATwinStickShooterPlayer_Heal_Statics::NewProp_Health = { "Health", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TwinStickShooterPlayer_eventHeal_Parms, Health), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATwinStickShooterPlayer_Heal_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATwinStickShooterPlayer_Heal_Statics::NewProp_Health,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATwinStickShooterPlayer_Heal_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "/*UFUNCTION()\n\x09\x09void TakeDamage(float Damage);*/" },
+		{ "ModuleRelativePath", "TwinStickShooterPlayer.h" },
+		{ "ToolTip", "UFUNCTION()\n               void TakeDamage(float Damage);" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATwinStickShooterPlayer_Heal_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATwinStickShooterPlayer, nullptr, "Heal", nullptr, nullptr, sizeof(TwinStickShooterPlayer_eventHeal_Parms), Z_Construct_UFunction_ATwinStickShooterPlayer_Heal_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ATwinStickShooterPlayer_Heal_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATwinStickShooterPlayer_Heal_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATwinStickShooterPlayer_Heal_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATwinStickShooterPlayer_Heal()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATwinStickShooterPlayer_Heal_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_ATwinStickShooterPlayer_MoveForward_Statics
 	{
@@ -175,6 +211,10 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Health_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Health;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpringArm_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SpringArm;
@@ -191,6 +231,7 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Project,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ATwinStickShooterPlayer_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ATwinStickShooterPlayer_Heal, "Heal" }, // 1654038882
 		{ &Z_Construct_UFunction_ATwinStickShooterPlayer_MoveForward, "MoveForward" }, // 2065143307
 		{ &Z_Construct_UFunction_ATwinStickShooterPlayer_MoveRight, "MoveRight" }, // 4047352493
 		{ &Z_Construct_UFunction_ATwinStickShooterPlayer_RotateX, "RotateX" }, // 2179306797
@@ -203,6 +244,13 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 		{ "ModuleRelativePath", "TwinStickShooterPlayer.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_Health_MetaData[] = {
+		{ "Category", "TwinStickShooterPlayer" },
+		{ "ModuleRelativePath", "TwinStickShooterPlayer.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_Health = { "Health", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATwinStickShooterPlayer, Health), METADATA_PARAMS(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_Health_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_Health_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_SpringArm_MetaData[] = {
 		{ "Category", "TwinStickShooterPlayer" },
@@ -220,6 +268,7 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_Camera = { "Camera", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATwinStickShooterPlayer, Camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_Camera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_Camera_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATwinStickShooterPlayer_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_Health,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_SpringArm,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_Camera,
 	};
@@ -250,7 +299,7 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATwinStickShooterPlayer, 1231950713);
+	IMPLEMENT_CLASS(ATwinStickShooterPlayer, 1947711932);
 	template<> PROJECT_API UClass* StaticClass<ATwinStickShooterPlayer>()
 	{
 		return ATwinStickShooterPlayer::StaticClass();

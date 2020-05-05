@@ -16,6 +16,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define Project_Source_Project_TwinStickShooterPlayer_h_17_SPARSE_DATA
 #define Project_Source_Project_TwinStickShooterPlayer_h_17_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execHeal) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Health); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Heal(Z_Param_Health); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execRotateY) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_RotationY); \
@@ -54,6 +63,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define Project_Source_Project_TwinStickShooterPlayer_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHeal) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Health); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Heal(Z_Param_Health); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execRotateY) \
 	{ \
