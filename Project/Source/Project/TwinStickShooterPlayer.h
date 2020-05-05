@@ -42,4 +42,16 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BluePrintReadOnly)
 		USpringArmComponent* SpringArm = nullptr;
+
+	UFUNCTION()
+		void RotateX(float RotationX);
+
+	UFUNCTION()
+		void RotateY(float RotationY);
+
+private:
+	float CharacterRotationX = 0.f;
+	float CharacterRotationY = 0.f;
+
+	void Rotate();
 };

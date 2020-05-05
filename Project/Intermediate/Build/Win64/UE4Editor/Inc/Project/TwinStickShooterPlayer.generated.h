@@ -16,6 +16,24 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define Project_Source_Project_TwinStickShooterPlayer_h_17_SPARSE_DATA
 #define Project_Source_Project_TwinStickShooterPlayer_h_17_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execRotateY) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_RotationY); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RotateY(Z_Param_RotationY); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execRotateX) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_RotationX); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RotateX(Z_Param_RotationX); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execMoveRight) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_Horizontal); \
@@ -36,6 +54,24 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define Project_Source_Project_TwinStickShooterPlayer_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execRotateY) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_RotationY); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RotateY(Z_Param_RotationY); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execRotateX) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_RotationX); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RotateX(Z_Param_RotationX); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execMoveRight) \
 	{ \

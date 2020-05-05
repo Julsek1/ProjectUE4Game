@@ -35,12 +35,6 @@ void ATwinStickShooterPlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (Camera)
-	{
-		FString CameraRot = Camera->GetComponentRotation().ToCompactString();
-		UE_LOG(LogTemp, Warning, TEXT("Camera rotation: %s"), *CameraRot);
-	}
-
 }
 
 // Called to bind functionality to input
@@ -50,6 +44,8 @@ void ATwinStickShooterPlayer::SetupPlayerInputComponent(UInputComponent* PlayerI
 
 	PlayerInputComponent->BindAxis("TSForward", this, &ATwinStickShooterPlayer::MoveForward);
 	PlayerInputComponent->BindAxis("TSRight", this, &ATwinStickShooterPlayer::MoveRight);
+	PlayerInputComponent->BindAxis("TSRotateX", this, &ATwinStickShooterPlayer::RotateX);
+	PlayerInputComponent->BindAxis("TSRotateY", this, &ATwinStickShooterPlayer::RotateY);
 }
 
 void ATwinStickShooterPlayer::MoveForward(float Vertical)
@@ -58,10 +54,10 @@ void ATwinStickShooterPlayer::MoveForward(float Vertical)
 
 	//FVector Direction = Camera->GetComponentRotation().Vector;
 	//FVector Direction = GetOwner()->GetActorForwardVector();
-	FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::X);
+	//FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::X);
 
 	//get camera rotation forward vector to use as direction
-	Direction = Camera->GetForwardVector();
+	FVector Direction = Camera->GetForwardVector();
 	AddMovementInput(Direction, Vertical);
 }
 
@@ -69,9 +65,28 @@ void ATwinStickShooterPlayer::MoveRight(float Horizontal)
 {
 	//FVector Direction = GetOwner()->GetActorRightVector();
 
-	FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::Y);
-	Direction = Camera->GetRightVector();
+	//FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::Y);
+	FVector Direction = Camera->GetRightVector();
 
 	AddMovementInput(Direction, Horizontal);
+}
+
+void ATwinStickShooterPlayer::RotateX(float RotationX)
+{
+	CharacterRotationX = RotationX;
+	Rotate();
+}
+
+void ATwinStickShooterPlayer::RotateY(float RotationY)
+{
+	CharacterRotationY = RotationY;
+	Rotate();
+}
+
+void ATwinStickShooterPlayer::Rotate()
+{
+	FVector CharacterVector(CharacterRotationY, CharacterRotationX, 0.f);
+	FRotator CharacterRotation = CharacterVector.Rotation();
+	GetController()->SetControlRotation(CharacterRotation);
 }
 
