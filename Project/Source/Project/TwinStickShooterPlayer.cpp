@@ -86,7 +86,12 @@ void ATwinStickShooterPlayer::RotateY(float RotationY)
 void ATwinStickShooterPlayer::Rotate()
 {
 	FVector CharacterVector(CharacterRotationY, CharacterRotationX, 0.f);
-	FRotator CharacterRotation = CharacterVector.Rotation();
-	GetController()->SetControlRotation(CharacterRotation);
+
+	if (CharacterVector.Size() > 0.1)
+	{
+		FRotator CharacterRotation = CharacterVector.Rotation();
+		GetController()->SetControlRotation(CharacterRotation);
+	}
+
 }
 

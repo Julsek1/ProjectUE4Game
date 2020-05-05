@@ -12960,3 +12960,573 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.05-16.31.55:492][681]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2020.05.05-16.31.55:495][681]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
 [2020.05.05-16.31.55:548][684]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2020.05.05-16.34.53:588][311]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.05-16.34.53:609][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.05-16.34.53:609][311]PIE: New page: PIE session: Testing (May 5, 2020, 8:34:53 AM)
+[2020.05.05-16.34.53:609][311]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.05-16.34.53:612][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002328s)
+[2020.05.05-16.34.53:612][311]LogAIModule: Creating AISystem for world Testing
+[2020.05.05-16.34.53:613][311]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2020.05.05-16.34.53:613][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Testing.Testing to /Game/Phil/Levels/UEDPIE_0_Testing.Testing (0.003461s)
+[2020.05.05-16.34.53:644][311]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.05.05-16.34.53:644][311]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.05-16.34.53:644][311]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.05-16.34.53:644][311]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.05-16.34.53:644][311]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.05-16.34.53:644][311]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.05-16.34.53:645][311]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.05-16.34.53:645][311]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.05-16.34.53:645][311]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.05-16.34.53:645][311]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.05-16.34.53:645][311]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.05-16.34.53:666][311]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.05-16.34.53:666][311]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.05-16.34.53:666][311]LogAudioMixer: Display: Is Default: Yes
+[2020.05.05-16.34.53:666][311]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.05-16.34.53:666][311]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.05-16.34.53:666][311]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.05-16.34.53:666][311]LogAudioMixer: Display: Channel Order:
+[2020.05.05-16.34.53:666][311]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.05-16.34.53:666][311]LogAudioMixer: Display: 1: FrontRight
+[2020.05.05-16.34.53:680][311]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.05-16.34.53:681][311]LogInit: FAudioDevice initialized.
+[2020.05.05-16.34.53:686][311]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.05-16.34.53:687][311]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Testing.Testing up for play (max tick rate 60) at 2020.05.05-12.34.53
+[2020.05.05-16.34.53:688][311]LogWorld: Bringing up level for play took: 0.000510
+[2020.05.05-16.34.53:688][311]LogOnline: OSS: Creating online subsystem instance for: :Context_47
+[2020.05.05-16.34.53:691][311]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Testing -0.279
+[2020.05.05-16.35.51:756][789]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.35.51:756][789]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.35.51:757][789]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.05-16.35.51:757][789]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.05-16.35.51:757][789]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.35.51:757][789]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2020.05.05-16.35.51:757][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.05-16.35.51:767][789]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.05-16.35.51:771][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.05-16.35.51:805][789]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.35.51:808][789]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.05-16.35.51:811][789]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.05.05-16.35.51:868][792]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2020.05.05-16.38.31:466][432]LogHotReload: New module detected: UE4Editor-Project-0032.dll
+[2020.05.05-16.38.32:162][435]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.05-16.38.32:213][435]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.05.05-16.38.32:248][435]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.05.05-16.38.32:252][435]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2020.05.05-16.38.32:339][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2020.05.05-16.38.32:353][435]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 3021 classes and 724 folders.
+[2020.05.05-16.38.32:356][435]Display: HotReload took  0.2s.
+[2020.05.05-16.38.36:925][616]Candidate modules for hot reload:
+[2020.05.05-16.38.36:925][616]  Project
+[2020.05.05-16.38.36:925][616]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project,1184 Win64 Development -TargetType=Editor -Project="C:/Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Project.uproject" "C:/Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Project.uproject"  -IgnoreJunk]
+[2020.05.05-16.38.36:927][616]Warning: Starting HotReload took  0.0s.
+[2020.05.05-16.38.38:689][703]CompilerResultsLog: New page: Compilation - May 5, 2020, 8:38:38 AM
+[2020.05.05-16.38.38:690][703]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game).
+[2020.05.05-16.38.38:690][703]CompilerResultsLog: Building ProjectEditor...
+[2020.05.05-16.38.38:690][703]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.05-16.38.38:690][703]CompilerResultsLog: Building 3 actions with 12 processes...
+[2020.05.05-16.38.38:690][703]CompilerResultsLog:   [1/3] UE4Editor-Project-1184.lib
+[2020.05.05-16.38.38:690][703]CompilerResultsLog:      Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-1184.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-1184.exp
+[2020.05.05-16.38.38:690][703]CompilerResultsLog:   [2/3] UE4Editor-Project-1184.dll
+[2020.05.05-16.38.38:690][703]CompilerResultsLog:      Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-1184.suppressed.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-1184.suppressed.exp
+[2020.05.05-16.38.38:690][703]CompilerResultsLog:   [3/3] ProjectEditor.target
+[2020.05.05-16.38.38:690][703]CompilerResultsLog: Total time in Parallel executor: 0.78 seconds
+[2020.05.05-16.38.38:690][703]CompilerResultsLog: Total execution time: 1.68 seconds
+[2020.05.05-16.38.38:690][703]LogMainFrame: MainFrame: Module compiling took 1.767 seconds
+[2020.05.05-16.38.38:772][703]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2020.05.05-16.38.38:797][703]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.05.05-16.38.38:801][703]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2020.05.05-16.38.38:905][703]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2020.05.05-16.38.38:918][703]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 3021 classes and 724 folders.
+[2020.05.05-16.38.38:918][703]Display: HotReload took  2.0s.
+[2020.05.05-16.38.39:663][732]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.05-16.38.39:690][732]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.05-16.38.39:690][732]PIE: New page: PIE session: Testing (May 5, 2020, 8:38:39 AM)
+[2020.05.05-16.38.39:690][732]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.05-16.38.39:692][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002127s)
+[2020.05.05-16.38.39:693][732]LogAIModule: Creating AISystem for world Testing
+[2020.05.05-16.38.39:693][732]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2020.05.05-16.38.39:693][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Testing.Testing to /Game/Phil/Levels/UEDPIE_0_Testing.Testing (0.003115s)
+[2020.05.05-16.38.39:754][732]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2020.05.05-16.38.39:754][732]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.05-16.38.39:754][732]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.05-16.38.39:754][732]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.05-16.38.39:754][732]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.05-16.38.39:754][732]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.05-16.38.39:754][732]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.05-16.38.39:754][732]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.05-16.38.39:754][732]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.05-16.38.39:754][732]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.05-16.38.39:754][732]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.05-16.38.39:776][732]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.05-16.38.39:776][732]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.05-16.38.39:776][732]LogAudioMixer: Display: Is Default: Yes
+[2020.05.05-16.38.39:776][732]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.05-16.38.39:776][732]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.05-16.38.39:776][732]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.05-16.38.39:776][732]LogAudioMixer: Display: Channel Order:
+[2020.05.05-16.38.39:776][732]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.05-16.38.39:776][732]LogAudioMixer: Display: 1: FrontRight
+[2020.05.05-16.38.39:786][732]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.05-16.38.39:787][732]LogInit: FAudioDevice initialized.
+[2020.05.05-16.38.39:795][732]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.05-16.38.39:796][732]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Testing.Testing up for play (max tick rate 60) at 2020.05.05-12.38.39
+[2020.05.05-16.38.39:796][732]LogWorld: Bringing up level for play took: 0.000473
+[2020.05.05-16.38.39:796][732]LogOnline: OSS: Creating online subsystem instance for: :Context_48
+[2020.05.05-16.38.39:798][732]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Testing -0.171
+[2020.05.05-16.39.03:845][174]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.39.03:845][174]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.39.03:845][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.05-16.39.03:845][174]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.05-16.39.03:846][174]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.39.03:846][174]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2020.05.05-16.39.03:846][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.05-16.39.03:854][174]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.05-16.39.03:859][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.05-16.39.03:890][174]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.39.03:893][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.05-16.39.03:898][174]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2020.05.05-16.39.03:951][177]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2020.05.05-16.39.10:435][316]LogHotReload: New module detected: UE4Editor-Project-0034.dll
+[2020.05.05-16.39.10:480][317]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.05-16.39.10:535][317]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.05.05-16.39.10:561][317]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2020.05.05-16.39.10:566][317]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2020.05.05-16.39.10:655][317]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2020.05.05-16.39.10:669][317]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 3021 classes and 724 folders.
+[2020.05.05-16.39.10:671][317]Display: HotReload took  0.2s.
+[2020.05.05-16.39.12:109][321]Candidate modules for hot reload:
+[2020.05.05-16.39.12:109][321]  Project
+[2020.05.05-16.39.12:109][321]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project,1224 Win64 Development -TargetType=Editor -Project="C:/Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Project.uproject" "C:/Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Project.uproject"  -IgnoreJunk]
+[2020.05.05-16.39.12:110][321]Warning: Starting HotReload took  0.0s.
+[2020.05.05-16.39.13:834][414]CompilerResultsLog: New page: Compilation - May 5, 2020, 8:39:13 AM
+[2020.05.05-16.39.13:834][414]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game).
+[2020.05.05-16.39.13:834][414]CompilerResultsLog: Building ProjectEditor...
+[2020.05.05-16.39.13:834][414]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.05-16.39.13:834][414]CompilerResultsLog: Building 3 actions with 12 processes...
+[2020.05.05-16.39.13:834][414]CompilerResultsLog:   [1/3] UE4Editor-Project-1224.lib
+[2020.05.05-16.39.13:835][414]CompilerResultsLog:      Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-1224.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-1224.exp
+[2020.05.05-16.39.13:835][414]CompilerResultsLog:   [2/3] UE4Editor-Project-1224.dll
+[2020.05.05-16.39.13:835][414]CompilerResultsLog:      Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-1224.suppressed.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-1224.suppressed.exp
+[2020.05.05-16.39.13:835][414]CompilerResultsLog:   [3/3] ProjectEditor.target
+[2020.05.05-16.39.13:835][414]CompilerResultsLog: Total time in Parallel executor: 0.77 seconds
+[2020.05.05-16.39.13:835][414]CompilerResultsLog: Total execution time: 1.66 seconds
+[2020.05.05-16.39.13:835][414]LogMainFrame: MainFrame: Module compiling took 1.730 seconds
+[2020.05.05-16.39.13:898][414]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2020.05.05-16.39.13:924][414]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.05.05-16.39.13:928][414]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2020.05.05-16.39.14:047][414]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2020.05.05-16.39.14:063][414]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 3021 classes and 724 folders.
+[2020.05.05-16.39.14:063][414]Display: HotReload took  2.0s.
+[2020.05.05-16.39.14:782][443]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.05-16.39.14:800][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.05-16.39.14:800][443]PIE: New page: PIE session: Testing (May 5, 2020, 8:39:14 AM)
+[2020.05.05-16.39.14:800][443]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.05-16.39.14:802][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001707s)
+[2020.05.05-16.39.14:803][443]LogAIModule: Creating AISystem for world Testing
+[2020.05.05-16.39.14:803][443]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2020.05.05-16.39.14:803][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Testing.Testing to /Game/Phil/Levels/UEDPIE_0_Testing.Testing (0.002665s)
+[2020.05.05-16.39.14:863][443]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2020.05.05-16.39.14:863][443]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.05-16.39.14:863][443]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.05-16.39.14:863][443]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.05-16.39.14:863][443]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.05-16.39.14:863][443]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.05-16.39.14:863][443]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.05-16.39.14:863][443]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.05-16.39.14:863][443]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.05-16.39.14:864][443]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.05-16.39.14:864][443]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.05-16.39.14:885][443]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.05-16.39.14:885][443]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.05-16.39.14:885][443]LogAudioMixer: Display: Is Default: Yes
+[2020.05.05-16.39.14:885][443]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.05-16.39.14:885][443]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.05-16.39.14:885][443]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.05-16.39.14:885][443]LogAudioMixer: Display: Channel Order:
+[2020.05.05-16.39.14:885][443]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.05-16.39.14:885][443]LogAudioMixer: Display: 1: FrontRight
+[2020.05.05-16.39.14:895][443]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.05-16.39.14:896][443]LogInit: FAudioDevice initialized.
+[2020.05.05-16.39.14:902][443]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.05-16.39.14:903][443]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Testing.Testing up for play (max tick rate 60) at 2020.05.05-12.39.14
+[2020.05.05-16.39.14:903][443]LogWorld: Bringing up level for play took: 0.000400
+[2020.05.05-16.39.14:903][443]LogOnline: OSS: Creating online subsystem instance for: :Context_49
+[2020.05.05-16.39.14:905][443]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Testing 0.935
+[2020.05.05-16.39.24:332][  8]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.39.24:333][  8]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.39.24:333][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.05-16.39.24:333][  8]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.05-16.39.24:333][  8]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.39.24:333][  8]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2020.05.05-16.39.24:333][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.05-16.39.24:342][  8]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.05-16.39.24:346][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.05-16.39.24:374][  8]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.39.24:377][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.05-16.39.24:380][  8]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.05.05-16.39.24:438][ 11]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2020.05.05-16.39.34:090][171]LogHotReload: New module detected: UE4Editor-Project-0036.dll
+[2020.05.05-16.39.34:437][173]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.05-16.39.34:497][173]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.05.05-16.39.34:529][173]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2020.05.05-16.39.34:534][173]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2020.05.05-16.39.34:611][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.05.05-16.39.34:624][173]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 3021 classes and 724 folders.
+[2020.05.05-16.39.34:628][173]Display: HotReload took  0.2s.
+[2020.05.05-16.39.36:099][177]Candidate modules for hot reload:
+[2020.05.05-16.39.36:099][177]  Project
+[2020.05.05-16.39.36:099][177]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project,5019 Win64 Development -TargetType=Editor -Project="C:/Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Project.uproject" "C:/Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Project.uproject"  -IgnoreJunk]
+[2020.05.05-16.39.36:101][177]Warning: Starting HotReload took  0.0s.
+[2020.05.05-16.39.37:828][266]CompilerResultsLog: New page: Compilation - May 5, 2020, 8:39:37 AM
+[2020.05.05-16.39.37:828][266]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game).
+[2020.05.05-16.39.37:828][266]CompilerResultsLog: Building ProjectEditor...
+[2020.05.05-16.39.37:828][266]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.05-16.39.37:828][266]CompilerResultsLog: Building 3 actions with 12 processes...
+[2020.05.05-16.39.37:828][266]CompilerResultsLog:   [1/3] UE4Editor-Project-5019.lib
+[2020.05.05-16.39.37:828][266]CompilerResultsLog:      Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-5019.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-5019.exp
+[2020.05.05-16.39.37:828][266]CompilerResultsLog:   [2/3] UE4Editor-Project-5019.dll
+[2020.05.05-16.39.37:828][266]CompilerResultsLog:      Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-5019.suppressed.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-5019.suppressed.exp
+[2020.05.05-16.39.37:828][266]CompilerResultsLog:   [3/3] ProjectEditor.target
+[2020.05.05-16.39.37:828][266]CompilerResultsLog: Total time in Parallel executor: 0.77 seconds
+[2020.05.05-16.39.37:828][266]CompilerResultsLog: Total execution time: 1.65 seconds
+[2020.05.05-16.39.37:828][266]LogMainFrame: MainFrame: Module compiling took 1.732 seconds
+[2020.05.05-16.39.37:894][266]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2020.05.05-16.39.37:919][266]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.05.05-16.39.37:924][266]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2020.05.05-16.39.38:013][266]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2020.05.05-16.39.38:032][266]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 3021 classes and 724 folders.
+[2020.05.05-16.39.38:032][266]Display: HotReload took  1.9s.
+[2020.05.05-16.39.38:855][299]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.05-16.39.38:875][299]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.05-16.39.38:876][299]PIE: New page: PIE session: Testing (May 5, 2020, 8:39:38 AM)
+[2020.05.05-16.39.38:876][299]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.05-16.39.38:877][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001644s)
+[2020.05.05-16.39.38:878][299]LogAIModule: Creating AISystem for world Testing
+[2020.05.05-16.39.38:878][299]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2020.05.05-16.39.38:878][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Testing.Testing to /Game/Phil/Levels/UEDPIE_0_Testing.Testing (0.002569s)
+[2020.05.05-16.39.38:930][299]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2020.05.05-16.39.38:930][299]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.05-16.39.38:930][299]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.05-16.39.38:930][299]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.05-16.39.38:930][299]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.05-16.39.38:930][299]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.05-16.39.38:930][299]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.05-16.39.38:930][299]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.05-16.39.38:930][299]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.05-16.39.38:931][299]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.05-16.39.38:931][299]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.05-16.39.38:952][299]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.05-16.39.38:952][299]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.05-16.39.38:952][299]LogAudioMixer: Display: Is Default: Yes
+[2020.05.05-16.39.38:952][299]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.05-16.39.38:952][299]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.05-16.39.38:952][299]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.05-16.39.38:952][299]LogAudioMixer: Display: Channel Order:
+[2020.05.05-16.39.38:952][299]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.05-16.39.38:952][299]LogAudioMixer: Display: 1: FrontRight
+[2020.05.05-16.39.38:962][299]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.05-16.39.38:963][299]LogInit: FAudioDevice initialized.
+[2020.05.05-16.39.38:968][299]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.05-16.39.38:969][299]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Testing.Testing up for play (max tick rate 60) at 2020.05.05-12.39.38
+[2020.05.05-16.39.38:969][299]LogWorld: Bringing up level for play took: 0.000521
+[2020.05.05-16.39.38:970][299]LogOnline: OSS: Creating online subsystem instance for: :Context_50
+[2020.05.05-16.39.38:972][299]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Testing 1.002
+[2020.05.05-16.40.28:105][245]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.40.28:105][245]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.40.28:105][245]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.05-16.40.28:105][245]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.05-16.40.28:105][245]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.40.28:105][245]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2020.05.05-16.40.28:106][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.05-16.40.28:112][245]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.05-16.40.28:118][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.05-16.40.28:148][245]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.40.28:151][245]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.05-16.40.28:155][245]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2020.05.05-16.40.28:210][248]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2020.05.05-16.40.34:575][400]LogHotReload: New module detected: UE4Editor-Project-0038.dll
+[2020.05.05-16.40.34:922][402]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.05-16.40.34:981][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.05.05-16.40.35:010][402]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.05.05-16.40.35:014][402]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2020.05.05-16.40.35:100][402]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.05.05-16.40.35:113][402]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 3021 classes and 724 folders.
+[2020.05.05-16.40.35:116][402]Display: HotReload took  0.2s.
+[2020.05.05-16.40.37:020][448]Candidate modules for hot reload:
+[2020.05.05-16.40.37:020][448]  Project
+[2020.05.05-16.40.37:020][448]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project,7796 Win64 Development -TargetType=Editor -Project="C:/Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Project.uproject" "C:/Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Project.uproject"  -IgnoreJunk]
+[2020.05.05-16.40.37:021][448]Warning: Starting HotReload took  0.0s.
+[2020.05.05-16.40.38:765][535]CompilerResultsLog: New page: Compilation - May 5, 2020, 8:40:38 AM
+[2020.05.05-16.40.38:765][535]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game).
+[2020.05.05-16.40.38:765][535]CompilerResultsLog: Building ProjectEditor...
+[2020.05.05-16.40.38:765][535]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.05-16.40.38:765][535]CompilerResultsLog: Building 3 actions with 12 processes...
+[2020.05.05-16.40.38:765][535]CompilerResultsLog:   [1/3] UE4Editor-Project-7796.lib
+[2020.05.05-16.40.38:765][535]CompilerResultsLog:      Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-7796.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-7796.exp
+[2020.05.05-16.40.38:765][535]CompilerResultsLog:   [2/3] UE4Editor-Project-7796.dll
+[2020.05.05-16.40.38:765][535]CompilerResultsLog:      Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-7796.suppressed.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-7796.suppressed.exp
+[2020.05.05-16.40.38:765][535]CompilerResultsLog:   [3/3] ProjectEditor.target
+[2020.05.05-16.40.38:765][535]CompilerResultsLog: Total time in Parallel executor: 0.77 seconds
+[2020.05.05-16.40.38:765][535]CompilerResultsLog: Total execution time: 1.66 seconds
+[2020.05.05-16.40.38:765][535]LogMainFrame: MainFrame: Module compiling took 1.747 seconds
+[2020.05.05-16.40.38:848][535]LogUObjectHash: Compacting FUObjectHashTables data took   7.72ms
+[2020.05.05-16.40.38:884][535]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.05.05-16.40.38:890][535]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2020.05.05-16.40.38:992][535]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2020.05.05-16.40.39:006][535]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 3021 classes and 724 folders.
+[2020.05.05-16.40.39:006][535]Display: HotReload took  2.0s.
+[2020.05.05-16.40.39:611][556]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.05-16.40.39:629][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.05-16.40.39:629][556]PIE: New page: PIE session: Testing (May 5, 2020, 8:40:39 AM)
+[2020.05.05-16.40.39:629][556]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.05-16.40.39:630][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001571s)
+[2020.05.05-16.40.39:631][556]LogAIModule: Creating AISystem for world Testing
+[2020.05.05-16.40.39:631][556]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2020.05.05-16.40.39:631][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Testing.Testing to /Game/Phil/Levels/UEDPIE_0_Testing.Testing (0.002468s)
+[2020.05.05-16.40.39:694][556]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2020.05.05-16.40.39:694][556]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.05-16.40.39:694][556]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.05-16.40.39:695][556]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.05-16.40.39:695][556]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.05-16.40.39:695][556]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.05-16.40.39:695][556]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.05-16.40.39:695][556]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.05-16.40.39:695][556]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.05-16.40.39:695][556]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.05-16.40.39:695][556]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.05-16.40.39:725][556]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.05-16.40.39:725][556]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.05-16.40.39:725][556]LogAudioMixer: Display: Is Default: Yes
+[2020.05.05-16.40.39:725][556]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.05-16.40.39:725][556]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.05-16.40.39:725][556]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.05-16.40.39:725][556]LogAudioMixer: Display: Channel Order:
+[2020.05.05-16.40.39:725][556]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.05-16.40.39:725][556]LogAudioMixer: Display: 1: FrontRight
+[2020.05.05-16.40.39:734][556]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.05-16.40.39:735][556]LogInit: FAudioDevice initialized.
+[2020.05.05-16.40.39:746][556]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.05-16.40.39:747][556]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Testing.Testing up for play (max tick rate 60) at 2020.05.05-12.40.39
+[2020.05.05-16.40.39:747][556]LogWorld: Bringing up level for play took: 0.000435
+[2020.05.05-16.40.39:747][556]LogOnline: OSS: Creating online subsystem instance for: :Context_51
+[2020.05.05-16.40.39:749][556]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Testing -0.221
+[2020.05.05-16.40.49:545][143]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.40.49:545][143]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.40.49:545][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.05-16.40.49:545][143]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.05-16.40.49:545][143]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.40.49:545][143]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2020.05.05-16.40.49:545][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.05-16.40.49:556][143]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.05-16.40.49:560][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.05-16.40.49:591][143]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.40.49:593][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.05-16.40.49:598][143]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2020.05.05-16.40.49:659][146]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2020.05.05-16.40.57:649][262]LogHotReload: New module detected: UE4Editor-Project-0040.dll
+[2020.05.05-16.40.57:664][263]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.05-16.40.57:714][263]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.05.05-16.40.57:738][263]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.05.05-16.40.57:743][263]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2020.05.05-16.40.57:821][263]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.05.05-16.40.57:835][263]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 3021 classes and 724 folders.
+[2020.05.05-16.40.57:838][263]Display: HotReload took  0.2s.
+[2020.05.05-16.40.58:679][266]Candidate modules for hot reload:
+[2020.05.05-16.40.58:679][266]  Project
+[2020.05.05-16.40.58:679][266]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project,2075 Win64 Development -TargetType=Editor -Project="C:/Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Project.uproject" "C:/Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Project.uproject"  -IgnoreJunk]
+[2020.05.05-16.40.58:681][266]Warning: Starting HotReload took  0.0s.
+[2020.05.05-16.41.00:440][354]CompilerResultsLog: New page: Compilation - May 5, 2020, 8:41:00 AM
+[2020.05.05-16.41.00:440][354]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game).
+[2020.05.05-16.41.00:440][354]CompilerResultsLog: Building ProjectEditor...
+[2020.05.05-16.41.00:440][354]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.05-16.41.00:441][354]CompilerResultsLog: Building 3 actions with 12 processes...
+[2020.05.05-16.41.00:441][354]CompilerResultsLog:   [1/3] UE4Editor-Project-2075.lib
+[2020.05.05-16.41.00:441][354]CompilerResultsLog:      Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-2075.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-2075.exp
+[2020.05.05-16.41.00:441][354]CompilerResultsLog:   [2/3] UE4Editor-Project-2075.dll
+[2020.05.05-16.41.00:441][354]CompilerResultsLog:      Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-2075.suppressed.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-2075.suppressed.exp
+[2020.05.05-16.41.00:441][354]CompilerResultsLog:   [3/3] ProjectEditor.target
+[2020.05.05-16.41.00:441][354]CompilerResultsLog: Total time in Parallel executor: 0.81 seconds
+[2020.05.05-16.41.00:441][354]CompilerResultsLog: Total execution time: 1.69 seconds
+[2020.05.05-16.41.00:441][354]LogMainFrame: MainFrame: Module compiling took 1.766 seconds
+[2020.05.05-16.41.00:503][354]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2020.05.05-16.41.00:528][354]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.05.05-16.41.00:532][354]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2020.05.05-16.41.00:616][354]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2020.05.05-16.41.00:630][354]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 3021 classes and 724 folders.
+[2020.05.05-16.41.00:630][354]Display: HotReload took  2.0s.
+[2020.05.05-16.41.01:434][388]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.05-16.41.01:453][388]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.05-16.41.01:453][388]PIE: New page: PIE session: Testing (May 5, 2020, 8:41:01 AM)
+[2020.05.05-16.41.01:453][388]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.05-16.41.01:455][388]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001607s)
+[2020.05.05-16.41.01:455][388]LogAIModule: Creating AISystem for world Testing
+[2020.05.05-16.41.01:455][388]LogPlayLevel: PIE: World Init took: (0.000800s)
+[2020.05.05-16.41.01:455][388]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Testing.Testing to /Game/Phil/Levels/UEDPIE_0_Testing.Testing (0.002501s)
+[2020.05.05-16.41.01:519][388]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2020.05.05-16.41.01:519][388]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.05-16.41.01:519][388]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.05-16.41.01:519][388]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.05-16.41.01:519][388]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.05-16.41.01:519][388]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.05-16.41.01:519][388]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.05-16.41.01:519][388]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.05-16.41.01:520][388]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.05-16.41.01:520][388]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.05-16.41.01:520][388]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.05-16.41.01:541][388]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.05-16.41.01:541][388]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.05-16.41.01:541][388]LogAudioMixer: Display: Is Default: Yes
+[2020.05.05-16.41.01:541][388]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.05-16.41.01:541][388]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.05-16.41.01:541][388]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.05-16.41.01:541][388]LogAudioMixer: Display: Channel Order:
+[2020.05.05-16.41.01:541][388]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.05-16.41.01:541][388]LogAudioMixer: Display: 1: FrontRight
+[2020.05.05-16.41.01:556][388]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.05-16.41.01:557][388]LogInit: FAudioDevice initialized.
+[2020.05.05-16.41.01:565][388]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.05-16.41.01:566][388]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Testing.Testing up for play (max tick rate 60) at 2020.05.05-12.41.01
+[2020.05.05-16.41.01:566][388]LogWorld: Bringing up level for play took: 0.000402
+[2020.05.05-16.41.01:566][388]LogOnline: OSS: Creating online subsystem instance for: :Context_52
+[2020.05.05-16.41.01:568][388]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Testing -0.402
+[2020.05.05-16.41.36:998][512]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.41.36:998][512]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.41.36:999][512]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.05-16.41.36:999][512]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.05-16.41.36:999][512]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.41.36:999][512]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2020.05.05-16.41.36:999][512]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.05-16.41.37:007][512]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.05-16.41.37:016][512]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.05-16.41.37:047][512]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.41.37:050][512]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.05-16.41.37:053][512]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2020.05.05-16.41.37:107][515]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2020.05.05-16.41.58:445][795]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.05-16.41.58:468][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.05-16.41.58:468][795]PIE: New page: PIE session: Testing (May 5, 2020, 8:41:58 AM)
+[2020.05.05-16.41.58:468][795]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.05-16.41.58:470][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001688s)
+[2020.05.05-16.41.58:471][795]LogAIModule: Creating AISystem for world Testing
+[2020.05.05-16.41.58:471][795]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2020.05.05-16.41.58:471][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Testing.Testing to /Game/Phil/Levels/UEDPIE_0_Testing.Testing (0.002672s)
+[2020.05.05-16.41.58:504][795]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2020.05.05-16.41.58:505][795]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.05-16.41.58:505][795]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.05-16.41.58:505][795]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.05-16.41.58:505][795]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.05-16.41.58:505][795]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.05-16.41.58:505][795]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.05-16.41.58:505][795]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.05-16.41.58:505][795]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.05-16.41.58:505][795]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.05-16.41.58:506][795]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.05-16.41.58:531][795]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.05-16.41.58:531][795]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.05-16.41.58:531][795]LogAudioMixer: Display: Is Default: Yes
+[2020.05.05-16.41.58:531][795]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.05-16.41.58:531][795]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.05-16.41.58:531][795]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.05-16.41.58:531][795]LogAudioMixer: Display: Channel Order:
+[2020.05.05-16.41.58:531][795]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.05-16.41.58:531][795]LogAudioMixer: Display: 1: FrontRight
+[2020.05.05-16.41.58:540][795]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.05-16.41.58:542][795]LogInit: FAudioDevice initialized.
+[2020.05.05-16.41.58:552][795]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.05-16.41.58:553][795]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Testing.Testing up for play (max tick rate 60) at 2020.05.05-12.41.58
+[2020.05.05-16.41.58:553][795]LogWorld: Bringing up level for play took: 0.000412
+[2020.05.05-16.41.58:553][795]LogOnline: OSS: Creating online subsystem instance for: :Context_53
+[2020.05.05-16.41.58:555][795]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Testing 0.585
+[2020.05.05-16.42.23:335][281]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.42.23:335][281]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.42.23:335][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.05-16.42.23:336][281]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.05-16.42.23:336][281]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.42.23:336][281]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2020.05.05-16.42.23:336][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.05-16.42.23:344][281]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.05-16.42.23:348][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.05-16.42.23:377][281]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.42.23:379][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.05-16.42.23:383][281]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.05.05-16.42.23:437][284]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2020.05.05-16.42.30:088][414]LogHotReload: New module detected: UE4Editor-Project-0042.dll
+[2020.05.05-16.42.30:143][415]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.05-16.42.30:193][415]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2020.05.05-16.42.30:226][415]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.05.05-16.42.30:231][415]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2020.05.05-16.42.30:321][415]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.05.05-16.42.30:335][415]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 3021 classes and 724 folders.
+[2020.05.05-16.42.30:338][415]Display: HotReload took  0.2s.
+[2020.05.05-16.42.31:147][420]Candidate modules for hot reload:
+[2020.05.05-16.42.31:148][420]  Project
+[2020.05.05-16.42.31:148][420]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project,2125 Win64 Development -TargetType=Editor -Project="C:/Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Project.uproject" "C:/Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Project.uproject"  -IgnoreJunk]
+[2020.05.05-16.42.31:149][420]Warning: Starting HotReload took  0.0s.
+[2020.05.05-16.42.32:921][509]CompilerResultsLog: New page: Compilation - May 5, 2020, 8:42:32 AM
+[2020.05.05-16.42.32:921][509]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game).
+[2020.05.05-16.42.32:921][509]CompilerResultsLog: Building ProjectEditor...
+[2020.05.05-16.42.32:921][509]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.05-16.42.32:921][509]CompilerResultsLog: Building 3 actions with 12 processes...
+[2020.05.05-16.42.32:921][509]CompilerResultsLog:   [1/3] UE4Editor-Project-2125.lib
+[2020.05.05-16.42.32:921][509]CompilerResultsLog:      Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-2125.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-2125.exp
+[2020.05.05-16.42.32:921][509]CompilerResultsLog:   [2/3] UE4Editor-Project-2125.dll
+[2020.05.05-16.42.32:921][509]CompilerResultsLog:      Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-2125.suppressed.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-2125.suppressed.exp
+[2020.05.05-16.42.32:921][509]CompilerResultsLog:   [3/3] ProjectEditor.target
+[2020.05.05-16.42.32:921][509]CompilerResultsLog: Total time in Parallel executor: 0.75 seconds
+[2020.05.05-16.42.32:921][509]CompilerResultsLog: Total execution time: 1.70 seconds
+[2020.05.05-16.42.32:921][509]LogMainFrame: MainFrame: Module compiling took 1.778 seconds
+[2020.05.05-16.42.32:990][509]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2020.05.05-16.42.33:015][509]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.05.05-16.42.33:020][509]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2020.05.05-16.42.33:120][509]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.05.05-16.42.33:136][509]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 3021 classes and 724 folders.
+[2020.05.05-16.42.33:136][509]Display: HotReload took  2.0s.
+[2020.05.05-16.42.33:944][542]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.05-16.42.33:962][542]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.05-16.42.33:963][542]PIE: New page: PIE session: Testing (May 5, 2020, 8:42:33 AM)
+[2020.05.05-16.42.33:963][542]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.05-16.42.33:964][542]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001559s)
+[2020.05.05-16.42.33:965][542]LogAIModule: Creating AISystem for world Testing
+[2020.05.05-16.42.33:965][542]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2020.05.05-16.42.33:965][542]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Testing.Testing to /Game/Phil/Levels/UEDPIE_0_Testing.Testing (0.002446s)
+[2020.05.05-16.42.34:018][542]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.05.05-16.42.34:018][542]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.05-16.42.34:018][542]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.05-16.42.34:018][542]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.05-16.42.34:018][542]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.05-16.42.34:018][542]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.05-16.42.34:018][542]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.05-16.42.34:018][542]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.05-16.42.34:018][542]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.05-16.42.34:019][542]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.05-16.42.34:019][542]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.05-16.42.34:041][542]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.05-16.42.34:041][542]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.05-16.42.34:041][542]LogAudioMixer: Display: Is Default: Yes
+[2020.05.05-16.42.34:042][542]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.05-16.42.34:042][542]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.05-16.42.34:042][542]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.05-16.42.34:042][542]LogAudioMixer: Display: Channel Order:
+[2020.05.05-16.42.34:042][542]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.05-16.42.34:042][542]LogAudioMixer: Display: 1: FrontRight
+[2020.05.05-16.42.34:054][542]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.05-16.42.34:055][542]LogInit: FAudioDevice initialized.
+[2020.05.05-16.42.34:062][542]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.05-16.42.34:062][542]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Testing.Testing up for play (max tick rate 60) at 2020.05.05-12.42.34
+[2020.05.05-16.42.34:062][542]LogWorld: Bringing up level for play took: 0.000413
+[2020.05.05-16.42.34:063][542]LogOnline: OSS: Creating online subsystem instance for: :Context_54
+[2020.05.05-16.42.34:065][542]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Testing 0.095
+[2020.05.05-16.43.17:747][161]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.43.17:748][161]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.43.17:748][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.05-16.43.17:748][161]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.05-16.43.17:748][161]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.43.17:748][161]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2020.05.05-16.43.17:748][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.05-16.43.17:753][161]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.05-16.43.17:757][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.05-16.43.17:788][161]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.05-16.43.17:791][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.05-16.43.17:795][161]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2020.05.05-16.43.17:861][164]LogPlayLevel: Display: Destroying online subsystem :Context_54
