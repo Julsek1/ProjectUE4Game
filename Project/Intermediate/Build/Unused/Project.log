@@ -1,18 +1,21 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game).
   Parsing headers for ProjectEditor
     Running UnrealHeaderTool "C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Project.uproject" "C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\ProjectEditor\Development\ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ProjectEditor in 5.5149455 seconds
+  Reflection code generated for ProjectEditor in 5.9662513 seconds
   Building ProjectEditor...
   Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 7 actions with 12 processes...
-    [1/7] CustomGameInstance.cpp
-    [2/7] CustomGameInstance.gen.cpp
-    [3/7] TwinStickShooterPlayer.cpp
-    [4/7] LevelLoader.cpp
-    [5/7] UE4Editor-Project-0003.lib
-       Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0003.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0003.exp
-    [6/7] UE4Editor-Project-0003.dll
-       Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0003.suppressed.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0003.suppressed.exp
-    [7/7] ProjectEditor.target
-  Total time in Parallel executor: 1.51 seconds
-  Total execution time: 7.70 seconds
+  Building 10 actions with 12 processes...
+    [1/10] Project.init.gen.cpp
+    [2/10] ParentPlayer.cpp
+    [3/10] HealthPickup.cpp
+    [4/10] ParentPlayer.gen.cpp
+    [5/10] TwinStickShooterPlayer.gen.cpp
+    [6/10] TwinStickShooterPlayer.cpp
+    [7/10] LevelLoader.cpp
+    [8/10] UE4Editor-Project-0009.lib
+       Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0009.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0009.exp
+    [9/10] UE4Editor-Project-0009.dll
+       Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0009.suppressed.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0009.suppressed.exp
+    [10/10] ProjectEditor.target
+  Total time in Parallel executor: 1.73 seconds
+  Total execution time: 8.45 seconds

@@ -108,7 +108,7 @@ void ATwinStickShooterPlayer::Rotate()
 
 void ATwinStickShooterPlayer::Heal(float HealingAmount)
 {
-	Health += HealingAmount;
+	Health += HealingAmount * 2;
 
 	if (Health >= 1)
 	{

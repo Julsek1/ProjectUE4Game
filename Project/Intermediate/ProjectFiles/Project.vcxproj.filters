@@ -69,4 +69,14 @@
       <Filter>Source\Project</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Project\ParentPlayer.h">
+      <Filter>Source\Project</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Project\ParentPlayer.cpp">
+      <Filter>Source\Project</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

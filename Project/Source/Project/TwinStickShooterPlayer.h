@@ -8,11 +8,12 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "ParentPlayer.h"
 
 #include "TwinStickShooterPlayer.generated.h"
 
 UCLASS()
-class PROJECT_API ATwinStickShooterPlayer : public ACharacter
+class PROJECT_API ATwinStickShooterPlayer : public AParentPlayer
 {
 	GENERATED_BODY()
 
@@ -41,15 +42,14 @@ public:
 		void RotateY(float RotationY);
 	/*UFUNCTION()
 		void TakeDamage(float Damage);*/
-	UFUNCTION()
-		void Heal(float Health);
+	
+	virtual void Heal(float HealingAmount) override;
 	
 	UPROPERTY(VisibleAnywhere, BluePrintReadOnly)
 		UCameraComponent* Camera = nullptr;
 	UPROPERTY(VisibleAnywhere, BluePrintReadOnly)
 		USpringArmComponent* SpringArm = nullptr;
-	UPROPERTY(VisibleAnywhere)
-		float Health = 0.1f;
+	
 
 private:
 	float CharacterRotationX = 0.f;

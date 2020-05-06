@@ -8,7 +8,7 @@
 #include "GameFramework/Actor.h"
 #include "GameFramework/PlayerController.h"
 #include "Kismet/GameplayStatics.h"
-#include "TwinStickShooterPlayer.h"
+#include "ParentPlayer.h"
 
 // Sets default values for this component's properties
 ULevelLoader::ULevelLoader()
@@ -43,9 +43,9 @@ void ULevelLoader::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 
 	ACharacter* Player = GetWorld()->GetFirstPlayerController()->GetCharacter();
 
-	if (Cast<ATwinStickShooterPlayer>(Player) != nullptr)
+	if (Cast<AParentPlayer>(Player) != nullptr)
 	{
-		GetWorld()->GetGameInstance<UCustomGameInstance>()->PlayerHealth = Cast<ATwinStickShooterPlayer>(Player)->Health;
+		GetWorld()->GetGameInstance<UCustomGameInstance>()->PlayerHealth = Cast<AParentPlayer>(Player)->Health;
 	}
 
 	if (LevelName != "" && Trigger && !LoadingLevel && Trigger->IsOverlappingActor(GetWorld()->GetFirstPlayerController()->GetPawn()))//GetWorld()->GetFirstPlayerController()->GetCharacter(); Can be changed to player later, will not work in hub world as is
