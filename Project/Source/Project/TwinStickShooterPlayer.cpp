@@ -13,7 +13,7 @@ ATwinStickShooterPlayer::ATwinStickShooterPlayer()
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	//Set up spring arm and camera
+	//Setup spring arm and camera
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
 	SpringArm->SetupAttachment(RootComponent);
 	SpringArm->bUsePawnControlRotation = false;
@@ -29,11 +29,16 @@ void ATwinStickShooterPlayer::BeginPlay()
 {
 	Super::BeginPlay();
 
+	//Setup values from game instance
 	Health = GetWorld()->GetGameInstance<UCustomGameInstance>()->PlayerHealth;
 
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("We are using TwinStickShooterPlayer"));
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Health: %f"), Health));
+	//Setup HUD
+	auto HUD = CreateWidget<UTSHUD>(GetWorld()->GetFirstPlayerController(), HUDClass);
+	HUD->Player = this;
+	HUD->AddToViewport();
 
+	//Debug messages
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("We are using TwinStickShooterPlayer"));
 }
 
 // Called every frame
@@ -115,5 +120,5 @@ void ATwinStickShooterPlayer::Heal(float HealingAmount)
 		Health = 1;
 	}
 
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Health: %f"), Health));
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Health: %f"), Health));
 }

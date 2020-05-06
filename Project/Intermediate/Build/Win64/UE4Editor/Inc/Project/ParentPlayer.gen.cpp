@@ -98,7 +98,7 @@ void EmptyLinkFunctionForGeneratedCodeParentPlayer() {}
 		{ "ModuleRelativePath", "ParentPlayer.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AParentPlayer_Statics::NewProp_Health = { "Health", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentPlayer, Health), METADATA_PARAMS(Z_Construct_UClass_AParentPlayer_Statics::NewProp_Health_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AParentPlayer_Statics::NewProp_Health_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AParentPlayer_Statics::NewProp_Health = { "Health", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentPlayer, Health), METADATA_PARAMS(Z_Construct_UClass_AParentPlayer_Statics::NewProp_Health_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AParentPlayer_Statics::NewProp_Health_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AParentPlayer_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentPlayer_Statics::NewProp_Health,
 	};
@@ -129,7 +129,7 @@ void EmptyLinkFunctionForGeneratedCodeParentPlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AParentPlayer, 2035938110);
+	IMPLEMENT_CLASS(AParentPlayer, 2382390914);
 	template<> PROJECT_API UClass* StaticClass<AParentPlayer>()
 	{
 		return AParentPlayer::StaticClass();

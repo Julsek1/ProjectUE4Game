@@ -285,7 +285,9 @@
     <ClInclude Include="..\..\Source\Project\Project.h" />
     <ClCompile Include="..\..\Source\Project\ProjectGameModeBase.cpp" />
     <ClInclude Include="..\..\Source\Project\ProjectGameModeBase.h" />
+    <ClCompile Include="..\..\Source\Project\TSHUD.cpp" />
     <ClCompile Include="..\..\Source\Project\TwinStickShooterPlayer.cpp" />
+    <ClInclude Include="..\..\Source\Project\TSHUD.h" />
     <ClInclude Include="..\..\Source\Project\TwinStickShooterPlayer.h" />
   </ItemGroup>
   <PropertyGroup>

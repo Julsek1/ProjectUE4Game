@@ -29,6 +29,6 @@ public:
 	UFUNCTION()
 		virtual void Heal(float HealingAmount);
 
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		float Health = 0.1f;
 };

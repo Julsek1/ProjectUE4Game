@@ -21,6 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 	PROJECT_API UFunction* Z_Construct_UFunction_ATwinStickShooterPlayer_MoveRight();
 	PROJECT_API UFunction* Z_Construct_UFunction_ATwinStickShooterPlayer_RotateX();
 	PROJECT_API UFunction* Z_Construct_UFunction_ATwinStickShooterPlayer_RotateY();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	PROJECT_API UClass* Z_Construct_UClass_UTSHUD_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 // End Cross Module References
@@ -175,6 +177,10 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HUDClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_HUDClass;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpringArm_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SpringArm;
@@ -204,6 +210,13 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_HUDClass_MetaData[] = {
+		{ "Category", "TwinStickShooterPlayer" },
+		{ "ModuleRelativePath", "TwinStickShooterPlayer.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_HUDClass = { "HUDClass", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATwinStickShooterPlayer, HUDClass), Z_Construct_UClass_UTSHUD_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_HUDClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_HUDClass_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_SpringArm_MetaData[] = {
 		{ "Category", "TwinStickShooterPlayer" },
 		{ "EditInline", "true" },
@@ -214,12 +227,15 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_Camera_MetaData[] = {
 		{ "Category", "TwinStickShooterPlayer" },
+		{ "Comment", "/*UFUNCTION()\n\x09\x09void TakeDamage(float Damage);*/" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "TwinStickShooterPlayer.h" },
+		{ "ToolTip", "UFUNCTION()\n               void TakeDamage(float Damage);" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_Camera = { "Camera", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATwinStickShooterPlayer, Camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_Camera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_Camera_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATwinStickShooterPlayer_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_HUDClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_SpringArm,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_Camera,
 	};
@@ -250,7 +266,7 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATwinStickShooterPlayer, 1466403638);
+	IMPLEMENT_CLASS(ATwinStickShooterPlayer, 2922689898);
 	template<> PROJECT_API UClass* StaticClass<ATwinStickShooterPlayer>()
 	{
 		return ATwinStickShooterPlayer::StaticClass();

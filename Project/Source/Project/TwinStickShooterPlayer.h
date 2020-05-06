@@ -9,6 +9,7 @@
 #include "GameFramework/Character.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "ParentPlayer.h"
+#include "TSHUD.h"
 
 #include "TwinStickShooterPlayer.generated.h"
 
@@ -42,14 +43,15 @@ public:
 		void RotateY(float RotationY);
 	/*UFUNCTION()
 		void TakeDamage(float Damage);*/
-	
-	virtual void Heal(float HealingAmount) override;
-	
 	UPROPERTY(VisibleAnywhere, BluePrintReadOnly)
 		UCameraComponent* Camera = nullptr;
 	UPROPERTY(VisibleAnywhere, BluePrintReadOnly)
 		USpringArmComponent* SpringArm = nullptr;
-	
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<class UTSHUD> HUDClass;
+
+
+	virtual void Heal(float HealingAmount) override;
 
 private:
 	float CharacterRotationX = 0.f;
