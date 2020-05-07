@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{219B3079-D92F-40A3-9A7B-78548E63308F}</UniqueIdentifier>
+      <UniqueIdentifier>{28C21457-5F4C-4C40-9167-75FFFFCD2794}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{16A03FF8-A6B9-430B-89AA-7F08C2EE265F}</UniqueIdentifier>
+      <UniqueIdentifier>{5F247711-B5AF-48AF-8E84-A6309B4B3A68}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Project">
-      <UniqueIdentifier>{E84AFC68-73D8-40CC-A4F0-8A03C4DD8B5E}</UniqueIdentifier>
+      <UniqueIdentifier>{5C364D88-D023-4EC4-A64D-C17B4DD7424A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Project\CustomGameInstance.cpp">
       <Filter>Source\Project</Filter>
@@ -47,6 +47,18 @@
     <ClInclude Include="..\..\Source\Project\LevelLoader.h">
       <Filter>Source\Project</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Project\ParentPlayer.cpp">
+      <Filter>Source\Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project\ParentPlayer.h">
+      <Filter>Source\Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Project\ParentWeapon.cpp">
+      <Filter>Source\Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project\ParentWeapon.h">
+      <Filter>Source\Project</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Project\Project.Build.cs">
       <Filter>Source\Project</Filter>
     </None>
@@ -62,27 +74,17 @@
     <ClInclude Include="..\..\Source\Project\ProjectGameModeBase.h">
       <Filter>Source\Project</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Project\TSHUD.cpp">
+      <Filter>Source\Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project\TSHUD.h">
+      <Filter>Source\Project</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Project\TwinStickShooterPlayer.cpp">
       <Filter>Source\Project</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Project\TwinStickShooterPlayer.h">
       <Filter>Source\Project</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Project\ParentPlayer.h">
-      <Filter>Source\Project</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Project\TSHUD.h">
-      <Filter>Source\Project</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\Project\ParentPlayer.cpp">
-      <Filter>Source\Project</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Project\TSHUD.cpp">
-      <Filter>Source\Project</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
