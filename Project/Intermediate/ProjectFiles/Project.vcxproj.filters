@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{28C21457-5F4C-4C40-9167-75FFFFCD2794}</UniqueIdentifier>
+      <UniqueIdentifier>{9A825FB6-BD01-461F-9F64-96BB8BC8A684}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5F247711-B5AF-48AF-8E84-A6309B4B3A68}</UniqueIdentifier>
+      <UniqueIdentifier>{4E851E96-2C16-4027-9DCA-9625E5CA953D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Project">
-      <UniqueIdentifier>{5C364D88-D023-4EC4-A64D-C17B4DD7424A}</UniqueIdentifier>
+      <UniqueIdentifier>{CE7AFB5C-CBBF-4427-8CA6-1A0B19DCDCB2}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Project\CustomGameInstance.cpp">
       <Filter>Source\Project</Filter>
@@ -86,5 +86,13 @@
     <ClInclude Include="..\..\Source\Project\TwinStickShooterPlayer.h">
       <Filter>Source\Project</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\Project\Public">
+      <UniqueIdentifier>{ef478141-102f-41e1-a31d-c01cf8be8589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Project\Private">
+      <UniqueIdentifier>{928968b6-caba-4521-95bd-6e9e820295bc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
