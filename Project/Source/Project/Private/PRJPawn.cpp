@@ -1,6 +1,9 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "PRJPawn.h"
+#include "Camera/CameraComponent.h"
+#include "Components/PrimitiveComponent.h"
+#include "GameFramework/SpringArmComponent.h"
 
 // Sets default values
 APRJPawn::APRJPawn()
@@ -11,6 +14,16 @@ APRJPawn::APRJPawn()
 	Cube = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Cube"));
 	RootComponent = Cube;
 
+	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
+	SpringArm->SetupAttachment(Cube);
+
+	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
+	Camera->SetupAttachment(SpringArm);
+
+	Forwardforce = 2000;
+	Sideforce = 5;
+
+	//AutoPossesPlayer = EAutoReceiveInput::Player(0);
 }
 
 // Called when the game starts or when spawned

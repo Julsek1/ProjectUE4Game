@@ -22,6 +22,20 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Setup")
 	UStaticMeshComponent* Cube;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Setup")
+	class USpringArmComponent* SpringArm;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Setup")
+	class UCameraComponent* Camera;
+
+	UPROPERTY(EditAnywhere, Category = "Floats")
+		float Forwardforce;
+	UPROPERTY(EditAnywhere, Category = "Floats")
+		float Sideforce;
+
+
+
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
