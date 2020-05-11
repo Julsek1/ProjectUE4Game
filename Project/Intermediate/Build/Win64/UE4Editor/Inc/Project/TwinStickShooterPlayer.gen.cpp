@@ -56,7 +56,9 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATwinStickShooterPlayer_MoveForward_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//Player locomotion\n" },
 		{ "ModuleRelativePath", "TwinStickShooterPlayer.h" },
+		{ "ToolTip", "Player locomotion" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATwinStickShooterPlayer_MoveForward_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATwinStickShooterPlayer, nullptr, "MoveForward", nullptr, nullptr, sizeof(TwinStickShooterPlayer_eventMoveForward_Parms), Z_Construct_UFunction_ATwinStickShooterPlayer_MoveForward_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ATwinStickShooterPlayer_MoveForward_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATwinStickShooterPlayer_MoveForward_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATwinStickShooterPlayer_MoveForward_Statics::Function_MetaDataParams)) };
@@ -181,13 +183,17 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_HUDClass;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpringArm_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MinimapSpringArm_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SpringArm;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MinimapSpringArm;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Camera_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MainSpringArm_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Camera;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MainSpringArm;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MainCamera_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MainCamera;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -197,7 +203,7 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Project,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ATwinStickShooterPlayer_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ATwinStickShooterPlayer_MoveForward, "MoveForward" }, // 2065143307
+		{ &Z_Construct_UFunction_ATwinStickShooterPlayer_MoveForward, "MoveForward" }, // 853920034
 		{ &Z_Construct_UFunction_ATwinStickShooterPlayer_MoveRight, "MoveRight" }, // 4047352493
 		{ &Z_Construct_UFunction_ATwinStickShooterPlayer_RotateX, "RotateX" }, // 2179306797
 		{ &Z_Construct_UFunction_ATwinStickShooterPlayer_RotateY, "RotateY" }, // 1451128573
@@ -212,32 +218,45 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_HUDClass_MetaData[] = {
 		{ "Category", "TwinStickShooterPlayer" },
+		{ "Comment", "//HUD\n" },
 		{ "ModuleRelativePath", "TwinStickShooterPlayer.h" },
+		{ "ToolTip", "HUD" },
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_HUDClass = { "HUDClass", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATwinStickShooterPlayer, HUDClass), Z_Construct_UClass_UTSHUD_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_HUDClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_HUDClass_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_SpringArm_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_MinimapSpringArm_MetaData[] = {
 		{ "Category", "TwinStickShooterPlayer" },
+		{ "Comment", "/*UPROPERTY(VisibleAnywhere, BluePrintReadOnly)\n\x09\x09USceneCaptureComponent2D* MinimapCapture = nullptr;*/" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "TwinStickShooterPlayer.h" },
+		{ "ToolTip", "UPROPERTY(VisibleAnywhere, BluePrintReadOnly)\n               USceneCaptureComponent2D* MinimapCapture = nullptr;" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_SpringArm = { "SpringArm", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATwinStickShooterPlayer, SpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_SpringArm_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_SpringArm_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_MinimapSpringArm = { "MinimapSpringArm", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATwinStickShooterPlayer, MinimapSpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_MinimapSpringArm_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_MinimapSpringArm_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_Camera_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_MainSpringArm_MetaData[] = {
 		{ "Category", "TwinStickShooterPlayer" },
-		{ "Comment", "/*UFUNCTION()\n\x09\x09void TakeDamage(float Damage);*/" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "TwinStickShooterPlayer.h" },
-		{ "ToolTip", "UFUNCTION()\n               void TakeDamage(float Damage);" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_Camera = { "Camera", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATwinStickShooterPlayer, Camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_Camera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_Camera_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_MainSpringArm = { "MainSpringArm", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATwinStickShooterPlayer, MainSpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_MainSpringArm_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_MainSpringArm_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_MainCamera_MetaData[] = {
+		{ "Category", "TwinStickShooterPlayer" },
+		{ "Comment", "//Main camera\n" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "TwinStickShooterPlayer.h" },
+		{ "ToolTip", "Main camera" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_MainCamera = { "MainCamera", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATwinStickShooterPlayer, MainCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_MainCamera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_MainCamera_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATwinStickShooterPlayer_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_HUDClass,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_SpringArm,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_Camera,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_MinimapSpringArm,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_MainSpringArm,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_MainCamera,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATwinStickShooterPlayer_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATwinStickShooterPlayer>::IsAbstract,
@@ -266,7 +285,7 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATwinStickShooterPlayer, 2922689898);
+	IMPLEMENT_CLASS(ATwinStickShooterPlayer, 188556333);
 	template<> PROJECT_API UClass* StaticClass<ATwinStickShooterPlayer>()
 	{
 		return ATwinStickShooterPlayer::StaticClass();

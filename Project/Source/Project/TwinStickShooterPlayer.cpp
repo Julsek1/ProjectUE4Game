@@ -13,14 +13,31 @@ ATwinStickShooterPlayer::ATwinStickShooterPlayer()
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	//Setup spring arm and camera
-	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
-	SpringArm->SetupAttachment(RootComponent);
-	SpringArm->bUsePawnControlRotation = false;
+	//Setup main camera with spring arm
+	MainSpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("MainCameraSpringArm"));
+	MainSpringArm->SetupAttachment(RootComponent);
+	MainSpringArm->SetWorldRotation(FRotator(330.f, 0.f, 0.f));
+	MainSpringArm->TargetArmLength = 1000;
+	//MainSpringArm->bUsePawnControlRotation = false;
+	MainSpringArm->bInheritPitch = false;
+	MainSpringArm->bInheritYaw = false;
+	MainSpringArm->bInheritRoll= false;
 
-	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
-	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
-	Camera->bUsePawnControlRotation = false;
+	MainCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("MainCamera"));
+	MainCamera->SetupAttachment(MainSpringArm, USpringArmComponent::SocketName);
+	MainCamera->bUsePawnControlRotation = false;
+
+	//Setup minimap camera and icons
+	MinimapSpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("MinimapSpringArm"));
+	MinimapSpringArm->SetupAttachment(RootComponent);
+	MinimapSpringArm->SetWorldRotation(FRotator(-90.f, 0.f, 0.f));
+	MinimapSpringArm->TargetArmLength = 600;
+	MinimapSpringArm->bInheritPitch = false;
+	MinimapSpringArm->bInheritYaw = false;
+	MinimapSpringArm->bInheritRoll = false;
+
+	/*MinimapCapture->CreateDefaultSubobject<USceneCaptureComponent2D>(TEXT("MinimapCapture"));
+	MinimapCapture->SetupAttachment(MinimapSpringArm);*/
 
 }
 
@@ -68,7 +85,7 @@ void ATwinStickShooterPlayer::MoveForward(float Vertical)
 	//FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::X);
 
 	//get camera rotation forward vector to use as direction
-	FVector Direction = Camera->GetForwardVector();
+	FVector Direction = MainCamera->GetForwardVector();
 	AddMovementInput(Direction, Vertical);
 }
 
@@ -77,7 +94,7 @@ void ATwinStickShooterPlayer::MoveRight(float Horizontal)
 	//FVector Direction = GetOwner()->GetActorRightVector();
 
 	//FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::Y);
-	FVector Direction = Camera->GetRightVector();
+	FVector Direction = MainCamera->GetRightVector();
 
 	AddMovementInput(Direction, Horizontal);
 }
