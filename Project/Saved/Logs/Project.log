@@ -10006,3 +10006,669 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.11-15.58.23:926][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2020.05.11-15.58.23:929][668]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
 [2020.05.11-15.58.23:982][671]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2020.05.11-16.07.26:367][575]LogTemp: Resetting audio stream to device id 
+[2020.05.11-16.07.26:407][575]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.11-16.07.26:407][575]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.11-16.07.26:407][575]LogAudioMixer: Display: Is Default: Yes
+[2020.05.11-16.07.26:407][575]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.11-16.07.26:407][575]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.11-16.07.26:407][575]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.11-16.07.26:407][575]LogAudioMixer: Display: Channel Order:
+[2020.05.11-16.07.26:407][575]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.11-16.07.26:408][575]LogAudioMixer: Display: 1: FrontRight
+[2020.05.11-16.07.28:718][582]LogTemp: Resetting audio stream to device id 
+[2020.05.11-16.07.28:760][582]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.11-16.07.28:760][582]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.11-16.07.28:760][582]LogAudioMixer: Display: Is Default: Yes
+[2020.05.11-16.07.28:760][582]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.11-16.07.28:760][582]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.11-16.07.28:760][582]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.11-16.07.28:760][582]LogAudioMixer: Display: Channel Order:
+[2020.05.11-16.07.28:760][582]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.11-16.07.28:760][582]LogAudioMixer: Display: 1: FrontRight
+[2020.05.11-18.36.46:356][583]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.05.11-18.36.47:119][583]LogTemp: Resetting audio stream to device id 
+[2020.05.11-18.36.47:178][583]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.11-18.36.47:178][583]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.11-18.36.47:178][583]LogAudioMixer: Display: Is Default: Yes
+[2020.05.11-18.36.47:178][583]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.11-18.36.47:178][583]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.11-18.36.47:178][583]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.11-18.36.47:178][583]LogAudioMixer: Display: Channel Order:
+[2020.05.11-18.36.47:178][583]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.11-18.36.47:178][583]LogAudioMixer: Display: 1: FrontRight
+[2020.05.11-18.36.48:678][589]LogHttp: Warning: 0000021643F80900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC73A5DE3-40DA-B9C5-D985-9E9C3459EEDC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=031ce581448aebb55564079ec7ecf194%7C26b81dd4b90e47b1a6762aa00f40b824%7Caaf06244-6ebc-4d36-b62c-edeb95748ce5&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.05.11-18.36.48:678][589]LogHttp: Warning: 0000021643F80900: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.05.11-18.36.48:678][589]LogHttp: Warning: 0000021643F80900: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x215d26fff70 [can pipeline])
+[2020.05.11-18.36.48:678][589]LogHttp: Warning: 0000021643F80900: libcurl info message cache 1 (Re-using existing connection! (#52) with host datarouter.ol.epicgames.com)
+[2020.05.11-18.36.48:678][589]LogHttp: Warning: 0000021643F80900: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.226.225.83) port 443 (#52))
+[2020.05.11-18.36.48:678][589]LogHttp: Warning: 0000021643F80900: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.05.11-18.36.48:678][589]LogHttp: Warning: 0000021643F80900: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.05.11-18.36.48:678][589]LogHttp: Warning: 0000021643F80900: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.05.11-18.36.48:678][589]LogHttp: Warning: 0000021643F80900: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.05.11-18.36.48:678][589]LogHttp: Warning: 0000021643F80900: libcurl info message cache 7 (Closing connection 52)
+[2020.05.11-18.36.49:011][590]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC73A5DE3-40DA-B9C5-D985-9E9C3459EEDC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=031ce581448aebb55564079ec7ecf194%7C26b81dd4b90e47b1a6762aa00f40b824%7Caaf06244-6ebc-4d36-b62c-edeb95748ce5&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.05.11-18.38.48:073][441]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.05.11-18.38.49:287][441]LogSlate: Window 'Delete Assets' being destroyed
+[2020.05.11-18.38.49:471][441]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Phil/Materials_Textures/T_MinimapOutline_BC.T_MinimapOutline_BC
+[2020.05.11-18.38.49:838][441]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.05.11-18.38.49:871][441]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.05.11-18.38.49:900][441]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.05.11-18.39.03:780][265]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinimapArea_BC754680524F740444A284F6970FD5D648.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Materials_Textures/MinimapArea_BC.uasset'
+[2020.05.11-18.39.03:954][265]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.05.11-18.39.03:991][265]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.05.11-18.39.04:024][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.05.11-18.39.04:075][265]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/M_MinimapRenderTargetB011313B4F342C590A0099B5613CD310.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Materials_Textures/M_MinimapRenderTarget.uasset'
+[2020.05.11-18.39.04:130][265]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.11-18.39.04:130][265]LogContentValidation: Display: Validating Texture2D /Game/Phil/Materials_Textures/MinimapArea_BC.MinimapArea_BC
+[2020.05.11-18.39.04:130][265]LogContentValidation: Display: Validating Material /Game/Phil/Materials_Textures/M_MinimapRenderTarget.M_MinimapRenderTarget
+[2020.05.11-18.39.05:721][357]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinimapArea_BC0F1D47174940ABDC9FF86E82BC17B1A7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Materials_Textures/MinimapArea_BC.uasset'
+[2020.05.11-18.39.05:734][357]AssetCheck: New page: Asset Save: MinimapArea_BC
+[2020.05.11-18.39.05:734][357]LogContentValidation: Display: Validating Texture2D /Game/Phil/Materials_Textures/MinimapArea_BC.MinimapArea_BC
+[2020.05.11-18.39.09:808][598]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.11-18.39.09:829][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.11-18.39.09:829][598]PIE: New page: PIE session: Testing (May 11, 2020, 10:39:09 AM)
+[2020.05.11-18.39.09:830][598]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.11-18.39.09:838][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008480s)
+[2020.05.11-18.39.09:842][598]LogAIModule: Creating AISystem for world Testing
+[2020.05.11-18.39.09:844][598]LogPlayLevel: PIE: World Init took: (0.005184s)
+[2020.05.11-18.39.09:844][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Testing.Testing to /Game/Phil/Levels/UEDPIE_0_Testing.Testing (0.013825s)
+[2020.05.11-18.39.09:877][598]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2020.05.11-18.39.09:879][598]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.11-18.39.09:879][598]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.11-18.39.09:879][598]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.11-18.39.09:879][598]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.11-18.39.09:879][598]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.11-18.39.09:879][598]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.11-18.39.09:879][598]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.11-18.39.09:879][598]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.11-18.39.09:879][598]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.11-18.39.09:879][598]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.11-18.39.09:905][598]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.11-18.39.09:905][598]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.11-18.39.09:905][598]LogAudioMixer: Display: Is Default: Yes
+[2020.05.11-18.39.09:905][598]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.11-18.39.09:906][598]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.11-18.39.09:906][598]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.11-18.39.09:906][598]LogAudioMixer: Display: Channel Order:
+[2020.05.11-18.39.09:906][598]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.11-18.39.09:906][598]LogAudioMixer: Display: 1: FrontRight
+[2020.05.11-18.39.09:915][598]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.11-18.39.09:917][598]LogInit: FAudioDevice initialized.
+[2020.05.11-18.39.09:924][598]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.11-18.39.09:927][598]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Testing.Testing up for play (max tick rate 60) at 2020.05.11-14.39.09
+[2020.05.11-18.39.09:927][598]LogWorld: Bringing up level for play took: 0.002030
+[2020.05.11-18.39.09:928][598]LogOnline: OSS: Creating online subsystem instance for: :Context_59
+[2020.05.11-18.39.09:937][598]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Testing 0.564
+[2020.05.11-18.39.09:978][600]LogRHI: Error: GetAndOrCreateGraphicsPipelineState RenderTarget check failed with: 224 !
+[2020.05.11-18.39.19:991][201]LogRHI: Error: GetAndOrCreateGraphicsPipelineState RenderTarget check failed with: 224 !
+[2020.05.11-18.39.29:992][801]LogRHI: Error: GetAndOrCreateGraphicsPipelineState RenderTarget check failed with: 224 !
+[2020.05.11-18.39.34:246][ 54]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-18.39.34:246][ 54]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-18.39.34:246][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.11-18.39.34:246][ 54]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.11-18.39.34:246][ 54]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-18.39.34:246][ 54]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2020.05.11-18.39.34:247][ 54]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.11-18.39.34:254][ 54]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.11-18.39.34:258][ 54]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.11-18.39.34:287][ 54]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-18.39.34:290][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.11-18.39.34:293][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.05.11-18.39.34:348][ 57]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2020.05.11-18.41.33:978][689]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.05.11-18.41.50:590][636]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.11-18.41.50:627][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.11-18.41.50:627][636]PIE: New page: PIE session: Testing (May 11, 2020, 10:41:50 AM)
+[2020.05.11-18.41.50:628][636]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.11-18.41.50:632][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003816s)
+[2020.05.11-18.41.50:633][636]LogAIModule: Creating AISystem for world Testing
+[2020.05.11-18.41.50:633][636]LogPlayLevel: PIE: World Init took: (0.001434s)
+[2020.05.11-18.41.50:633][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Testing.Testing to /Game/Phil/Levels/UEDPIE_0_Testing.Testing (0.005435s)
+[2020.05.11-18.41.50:686][636]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2020.05.11-18.41.50:689][636]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.11-18.41.50:689][636]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.11-18.41.50:689][636]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.11-18.41.50:689][636]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.11-18.41.50:689][636]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.11-18.41.50:689][636]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.11-18.41.50:689][636]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.11-18.41.50:689][636]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.11-18.41.50:689][636]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.11-18.41.50:689][636]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.11-18.41.50:738][636]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.11-18.41.50:738][636]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.11-18.41.50:738][636]LogAudioMixer: Display: Is Default: Yes
+[2020.05.11-18.41.50:738][636]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.11-18.41.50:738][636]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.11-18.41.50:738][636]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.11-18.41.50:738][636]LogAudioMixer: Display: Channel Order:
+[2020.05.11-18.41.50:738][636]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.11-18.41.50:738][636]LogAudioMixer: Display: 1: FrontRight
+[2020.05.11-18.41.50:756][636]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.11-18.41.50:757][636]LogInit: FAudioDevice initialized.
+[2020.05.11-18.41.50:764][636]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.11-18.41.50:766][636]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Testing.Testing up for play (max tick rate 60) at 2020.05.11-14.41.50
+[2020.05.11-18.41.50:766][636]LogWorld: Bringing up level for play took: 0.000893
+[2020.05.11-18.41.50:766][636]LogOnline: OSS: Creating online subsystem instance for: :Context_61
+[2020.05.11-18.41.50:772][636]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Testing -0.601
+[2020.05.11-18.41.50:821][638]LogRHI: Error: GetAndOrCreateGraphicsPipelineState RenderTarget check failed with: 224 !
+[2020.05.11-18.41.59:115][135]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-18.41.59:115][135]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-18.41.59:116][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.11-18.41.59:116][135]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.11-18.41.59:116][135]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-18.41.59:116][135]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2020.05.11-18.41.59:116][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.11-18.41.59:125][135]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.11-18.41.59:130][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.11-18.41.59:178][135]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-18.41.59:182][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.11-18.41.59:186][135]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2020.05.11-18.41.59:237][137]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2020.05.11-18.42.03:082][366]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.05.11-18.42.03:082][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.11-18.42.03:117][366]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.05.11-18.42.03:117][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.11-18.42.04:611][448]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.05.11-18.42.04:611][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.11-18.43.57:228][739]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.05.11-18.43.57:425][739]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.05.11-18.43.58:084][768]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer06AA67154B2CB0C531F76FB24DC68C67.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.05.11-18.43.58:096][768]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.05.11-18.43.58:096][768]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.05.11-18.44.42:281][393]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.05.11-18.44.42:478][393]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.05.11-18.44.42:905][411]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer5B2807A445549BE82523A2BA3982547A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.05.11-18.44.42:918][411]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.05.11-18.44.42:918][411]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.05.11-18.45.05:204][738]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.05.11-18.45.05:404][738]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2020.05.11-18.45.06:721][814]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.11-18.45.06:740][814]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.11-18.45.06:740][814]PIE: New page: PIE session: Testing (May 11, 2020, 10:45:06 AM)
+[2020.05.11-18.45.06:740][814]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.11-18.45.06:742][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002227s)
+[2020.05.11-18.45.06:743][814]LogAIModule: Creating AISystem for world Testing
+[2020.05.11-18.45.06:743][814]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2020.05.11-18.45.06:743][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Testing.Testing to /Game/Phil/Levels/UEDPIE_0_Testing.Testing (0.003077s)
+[2020.05.11-18.45.06:772][814]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.05.11-18.45.06:773][814]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.11-18.45.06:773][814]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.11-18.45.06:773][814]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.11-18.45.06:773][814]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.11-18.45.06:773][814]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.11-18.45.06:773][814]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.11-18.45.06:773][814]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.11-18.45.06:773][814]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.11-18.45.06:773][814]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.11-18.45.06:773][814]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.11-18.45.06:795][814]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.11-18.45.06:795][814]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.11-18.45.06:795][814]LogAudioMixer: Display: Is Default: Yes
+[2020.05.11-18.45.06:795][814]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.11-18.45.06:795][814]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.11-18.45.06:795][814]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.11-18.45.06:795][814]LogAudioMixer: Display: Channel Order:
+[2020.05.11-18.45.06:795][814]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.11-18.45.06:795][814]LogAudioMixer: Display: 1: FrontRight
+[2020.05.11-18.45.06:806][814]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.11-18.45.06:807][814]LogInit: FAudioDevice initialized.
+[2020.05.11-18.45.06:818][814]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.11-18.45.06:820][814]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Testing.Testing up for play (max tick rate 60) at 2020.05.11-14.45.06
+[2020.05.11-18.45.06:820][814]LogWorld: Bringing up level for play took: 0.000711
+[2020.05.11-18.45.06:820][814]LogOnline: OSS: Creating online subsystem instance for: :Context_62
+[2020.05.11-18.45.06:823][814]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Testing -0.55
+[2020.05.11-18.45.19:913][599]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-18.45.19:913][599]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-18.45.19:913][599]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.11-18.45.19:913][599]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.11-18.45.19:914][599]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-18.45.19:914][599]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2020.05.11-18.45.19:914][599]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.11-18.45.19:924][599]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.11-18.45.19:932][599]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.11-18.45.19:957][599]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-18.45.19:959][599]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.11-18.45.19:962][599]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.05.11-18.45.20:017][602]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2020.05.11-18.45.30:746][235]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer75C2CAD347A6AE70DAC42CAD9A9FCBEA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.05.11-18.45.30:760][235]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.05.11-18.45.30:760][235]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.05.11-18.45.37:556][637]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.05.11-18.45.37:750][637]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2020.05.11-18.45.38:134][654]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerF26D945A43A2D9BA738C9EBB8C4C8B7F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.05.11-18.45.38:147][654]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.05.11-18.45.38:147][654]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.05.11-19.14.00:865][374]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\philf\Desktop\PlayerMinimap.png)
+[2020.05.11-19.14.00:870][374]LogTexture: Display: Building textures: PlayerMinimap (AutoDXT, 256X256)
+[2020.05.11-19.14.00:892][374]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\philf\Desktop\Arrow.png)
+[2020.05.11-19.14.00:897][374]LogTexture: Display: Building textures: Arrow (AutoDXT, 256X256)
+[2020.05.11-19.14.06:828][610]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2020.05.11-19.14.06:886][610]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Testing9EA524704A736830AC0E1A973B989163.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Testing.umap'
+[2020.05.11-19.14.06:961][610]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Testing_BuiltData3AB69C534778469B12C289A937A86E0A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Testing_BuiltData.uasset'
+[2020.05.11-19.14.06:977][610]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.11-19.14.06:977][610]LogContentValidation: Display: Validating World /Game/Phil/Levels/Testing.Testing
+[2020.05.11-19.14.06:977][610]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/Testing_BuiltData.Testing_BuiltData
+[2020.05.11-19.14.10:713][755]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Arrow99B2BDDE42FF5F0DDD65E8A197A1C4A5.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Materials_Textures/Arrow.uasset'
+[2020.05.11-19.14.10:725][755]AssetCheck: New page: Asset Save: Arrow
+[2020.05.11-19.14.10:726][755]LogContentValidation: Display: Validating Texture2D /Game/Phil/Materials_Textures/Arrow.Arrow
+[2020.05.11-19.14.11:749][813]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Phil/Materials_Textures/Arrow.Arrow
+[2020.05.11-19.14.13:162][886]LogSlate: Window 'Arrow' being destroyed
+[2020.05.11-19.14.14:100][938]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.05.11-19.14.14:135][938]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Testing40CEE81B4DA20AD6B094198BE6FC8B32.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Testing.umap'
+[2020.05.11-19.14.14:193][938]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Testing_BuiltData74B961654455740D6736D28AC909119A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Testing_BuiltData.uasset'
+[2020.05.11-19.14.14:210][938]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.11-19.14.14:210][938]LogContentValidation: Display: Validating World /Game/Phil/Levels/Testing.Testing
+[2020.05.11-19.14.14:210][938]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/Testing_BuiltData.Testing_BuiltData
+[2020.05.11-19.14.14:898][977]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PlayerMinimapA2C54A734CC3BB41A008EA961B0832C0.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Materials_Textures/PlayerMinimap.uasset'
+[2020.05.11-19.14.14:919][977]AssetCheck: New page: Asset Save: PlayerMinimap
+[2020.05.11-19.14.14:919][977]LogContentValidation: Display: Validating Texture2D /Game/Phil/Materials_Textures/PlayerMinimap.PlayerMinimap
+[2020.05.11-19.14.37:339][106]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Arrow_SpriteA4BA96AB479A611AE2781DB504A607B3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Materials_Textures/Arrow_Sprite.uasset'
+[2020.05.11-19.14.37:352][106]AssetCheck: New page: Asset Save: Arrow_Sprite
+[2020.05.11-19.14.37:352][106]LogContentValidation: Display: Validating PaperSprite /Game/Phil/Materials_Textures/Arrow_Sprite.Arrow_Sprite
+[2020.05.11-19.14.38:491][170]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PlayerMinimap_Sprite35EC9ADA42E34F369FD177B551BC32D9.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Materials_Textures/PlayerMinimap_Sprite.uasset'
+[2020.05.11-19.14.38:505][170]AssetCheck: New page: Asset Save: PlayerMinimap_Sprite
+[2020.05.11-19.14.38:505][170]LogContentValidation: Display: Validating PaperSprite /Game/Phil/Materials_Textures/PlayerMinimap_Sprite.PlayerMinimap_Sprite
+[2020.05.11-19.15.34:201][491]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.05.11-19.15.34:438][491]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2020.05.11-19.15.34:828][506]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerF6C1750F4168ECA63C3D4E9C8986F161.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.05.11-19.15.34:843][506]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.05.11-19.15.34:843][506]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.05.11-19.15.35:886][568]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.11-19.15.35:903][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.11-19.15.35:903][568]PIE: New page: PIE session: Testing (May 11, 2020, 11:15:35 AM)
+[2020.05.11-19.15.35:914][568]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.11-19.15.35:920][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006053s)
+[2020.05.11-19.15.35:921][568]LogAIModule: Creating AISystem for world Testing
+[2020.05.11-19.15.35:921][568]LogPlayLevel: PIE: World Init took: (0.000861s)
+[2020.05.11-19.15.35:921][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Testing.Testing to /Game/Phil/Levels/UEDPIE_0_Testing.Testing (0.007032s)
+[2020.05.11-19.15.35:949][568]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2020.05.11-19.15.35:950][568]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.11-19.15.35:950][568]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.11-19.15.35:950][568]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.11-19.15.35:950][568]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.11-19.15.35:950][568]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.11-19.15.35:950][568]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.11-19.15.35:950][568]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.11-19.15.35:950][568]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.11-19.15.35:951][568]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.11-19.15.35:951][568]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.11-19.15.35:972][568]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.11-19.15.35:972][568]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.11-19.15.35:972][568]LogAudioMixer: Display: Is Default: Yes
+[2020.05.11-19.15.35:972][568]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.11-19.15.35:972][568]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.11-19.15.35:972][568]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.11-19.15.35:972][568]LogAudioMixer: Display: Channel Order:
+[2020.05.11-19.15.35:972][568]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.11-19.15.35:972][568]LogAudioMixer: Display: 1: FrontRight
+[2020.05.11-19.15.35:983][568]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.11-19.15.35:984][568]LogInit: FAudioDevice initialized.
+[2020.05.11-19.15.35:992][568]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.11-19.15.35:993][568]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Testing.Testing up for play (max tick rate 60) at 2020.05.11-15.15.35
+[2020.05.11-19.15.35:993][568]LogWorld: Bringing up level for play took: 0.000584
+[2020.05.11-19.15.35:993][568]LogOnline: OSS: Creating online subsystem instance for: :Context_63
+[2020.05.11-19.15.35:996][568]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Testing 0.624
+[2020.05.11-19.15.41:939][924]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.15.41:939][924]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.15.41:940][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.11-19.15.41:940][924]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.11-19.15.41:940][924]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.15.41:940][924]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2020.05.11-19.15.41:941][924]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.11-19.15.41:946][924]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.11-19.15.41:950][924]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.11-19.15.41:977][924]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.15.41:980][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.11-19.15.41:983][924]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.05.11-19.15.42:052][928]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2020.05.11-19.15.48:677][317]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer7FBA123545882194A6C8A1ABE3F25504.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.05.11-19.15.48:690][317]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.05.11-19.15.48:690][317]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.05.11-19.15.50:086][401]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.11-19.15.50:103][401]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.05.11-19.15.50:106][401]LogPlayLevel: [PlayLevel] Compiling BP_TwinStickShooterPlayer before play...
+[2020.05.11-19.15.50:414][401]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.05.11-19.15.50:415][401]LogPlayLevel: PlayLevel: Blueprint regeneration took 312 ms (1 blueprints)
+[2020.05.11-19.15.50:415][401]PIE: New page: PIE session: Testing (May 11, 2020, 11:15:50 AM)
+[2020.05.11-19.15.50:415][401]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.11-19.15.50:418][401]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002131s)
+[2020.05.11-19.15.50:418][401]LogAIModule: Creating AISystem for world Testing
+[2020.05.11-19.15.50:418][401]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2020.05.11-19.15.50:418][401]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Testing.Testing to /Game/Phil/Levels/UEDPIE_0_Testing.Testing (0.003017s)
+[2020.05.11-19.15.50:451][401]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2020.05.11-19.15.50:451][401]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.11-19.15.50:451][401]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.11-19.15.50:451][401]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.11-19.15.50:451][401]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.11-19.15.50:451][401]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.11-19.15.50:451][401]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.11-19.15.50:451][401]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.11-19.15.50:451][401]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.11-19.15.50:452][401]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.11-19.15.50:452][401]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.11-19.15.50:472][401]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.11-19.15.50:473][401]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.11-19.15.50:473][401]LogAudioMixer: Display: Is Default: Yes
+[2020.05.11-19.15.50:473][401]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.11-19.15.50:473][401]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.11-19.15.50:473][401]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.11-19.15.50:473][401]LogAudioMixer: Display: Channel Order:
+[2020.05.11-19.15.50:473][401]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.11-19.15.50:473][401]LogAudioMixer: Display: 1: FrontRight
+[2020.05.11-19.15.50:482][401]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.11-19.15.50:483][401]LogInit: FAudioDevice initialized.
+[2020.05.11-19.15.50:494][401]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.11-19.15.50:495][401]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Testing.Testing up for play (max tick rate 60) at 2020.05.11-15.15.50
+[2020.05.11-19.15.50:495][401]LogWorld: Bringing up level for play took: 0.000561
+[2020.05.11-19.15.50:496][401]LogOnline: OSS: Creating online subsystem instance for: :Context_64
+[2020.05.11-19.15.50:498][401]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Testing 1.126
+[2020.05.11-19.15.57:828][841]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.15.57:828][841]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.15.57:828][841]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.11-19.15.57:828][841]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.11-19.15.57:828][841]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.15.57:828][841]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2020.05.11-19.15.57:828][841]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.11-19.15.57:836][841]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.11-19.15.57:840][841]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.11-19.15.57:870][841]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.15.57:872][841]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.11-19.15.57:875][841]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2020.05.11-19.15.57:940][844]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2020.05.11-19.18.05:686][545]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.05.11-19.18.05:891][545]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2020.05.11-19.18.06:286][559]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer9241E67245037119215132A7BBD6E785.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.05.11-19.18.06:297][559]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.05.11-19.18.06:297][559]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.05.11-19.18.07:953][659]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.11-19.18.07:970][659]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.11-19.18.07:970][659]PIE: New page: PIE session: Testing (May 11, 2020, 11:18:07 AM)
+[2020.05.11-19.18.07:971][659]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.11-19.18.07:973][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002358s)
+[2020.05.11-19.18.07:974][659]LogAIModule: Creating AISystem for world Testing
+[2020.05.11-19.18.07:974][659]LogPlayLevel: PIE: World Init took: (0.001357s)
+[2020.05.11-19.18.07:974][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Testing.Testing to /Game/Phil/Levels/UEDPIE_0_Testing.Testing (0.003828s)
+[2020.05.11-19.18.08:002][659]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2020.05.11-19.18.08:003][659]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.11-19.18.08:003][659]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.11-19.18.08:003][659]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.11-19.18.08:003][659]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.11-19.18.08:003][659]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.11-19.18.08:003][659]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.11-19.18.08:003][659]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.11-19.18.08:003][659]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.11-19.18.08:004][659]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.11-19.18.08:004][659]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.11-19.18.08:025][659]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.11-19.18.08:025][659]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.11-19.18.08:025][659]LogAudioMixer: Display: Is Default: Yes
+[2020.05.11-19.18.08:025][659]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.11-19.18.08:025][659]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.11-19.18.08:025][659]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.11-19.18.08:025][659]LogAudioMixer: Display: Channel Order:
+[2020.05.11-19.18.08:025][659]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.11-19.18.08:025][659]LogAudioMixer: Display: 1: FrontRight
+[2020.05.11-19.18.08:034][659]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.11-19.18.08:036][659]LogInit: FAudioDevice initialized.
+[2020.05.11-19.18.08:043][659]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.11-19.18.08:044][659]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Testing.Testing up for play (max tick rate 60) at 2020.05.11-15.18.08
+[2020.05.11-19.18.08:044][659]LogWorld: Bringing up level for play took: 0.000577
+[2020.05.11-19.18.08:044][659]LogOnline: OSS: Creating online subsystem instance for: :Context_65
+[2020.05.11-19.18.08:047][659]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Testing 0.674
+[2020.05.11-19.18.11:775][882]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.18.11:775][882]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.18.11:775][882]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.11-19.18.11:775][882]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.11-19.18.11:775][882]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.18.11:775][882]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2020.05.11-19.18.11:776][882]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.11-19.18.11:781][882]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.11-19.18.11:785][882]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.11-19.18.11:814][882]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.18.11:817][882]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.11-19.18.11:820][882]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.05.11-19.18.11:888][886]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2020.05.11-19.18.24:772][649]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerC15A690B45419D13C77DA9A0A4138D8C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.05.11-19.18.24:785][649]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.05.11-19.18.24:785][649]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.05.11-19.18.41:853][658]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerCB1FE5F34B88DC9F623D1797FA957352.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.05.11-19.18.41:867][658]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.05.11-19.18.41:867][658]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.05.11-19.19.04:618][  9]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.05.11-19.19.04:820][  9]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2020.05.11-19.19.05:130][ 20]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer51B83F254C53A8ED869CB9BCB67FFB87.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.05.11-19.19.05:142][ 20]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.05.11-19.19.05:142][ 20]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.05.11-19.19.31:636][596]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer262E0F4E4C52262CA0F0B39C01E2BFCD.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.05.11-19.19.31:650][596]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.05.11-19.19.31:650][596]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.05.11-19.19.32:486][646]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.05.11-19.19.32:698][646]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2020.05.11-19.19.32:994][656]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer5376EA50435A24BDBAD48AAC079F92B5.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.05.11-19.19.33:006][656]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.05.11-19.19.33:006][656]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.05.11-19.19.34:100][722]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.11-19.19.34:117][722]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.11-19.19.34:117][722]PIE: New page: PIE session: Testing (May 11, 2020, 11:19:34 AM)
+[2020.05.11-19.19.34:117][722]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.11-19.19.34:120][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002138s)
+[2020.05.11-19.19.34:120][722]LogAIModule: Creating AISystem for world Testing
+[2020.05.11-19.19.34:120][722]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2020.05.11-19.19.34:120][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Testing.Testing to /Game/Phil/Levels/UEDPIE_0_Testing.Testing (0.002964s)
+[2020.05.11-19.19.34:156][722]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2020.05.11-19.19.34:157][722]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.11-19.19.34:157][722]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.11-19.19.34:157][722]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.11-19.19.34:157][722]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.11-19.19.34:157][722]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.11-19.19.34:157][722]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.11-19.19.34:157][722]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.11-19.19.34:157][722]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.11-19.19.34:157][722]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.11-19.19.34:157][722]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.11-19.19.34:186][722]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.11-19.19.34:186][722]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.11-19.19.34:186][722]LogAudioMixer: Display: Is Default: Yes
+[2020.05.11-19.19.34:186][722]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.11-19.19.34:186][722]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.11-19.19.34:186][722]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.11-19.19.34:186][722]LogAudioMixer: Display: Channel Order:
+[2020.05.11-19.19.34:186][722]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.11-19.19.34:186][722]LogAudioMixer: Display: 1: FrontRight
+[2020.05.11-19.19.34:201][722]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.11-19.19.34:202][722]LogInit: FAudioDevice initialized.
+[2020.05.11-19.19.34:213][722]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.11-19.19.34:214][722]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Testing.Testing up for play (max tick rate 60) at 2020.05.11-15.19.34
+[2020.05.11-19.19.34:215][722]LogWorld: Bringing up level for play took: 0.000973
+[2020.05.11-19.19.34:215][722]LogOnline: OSS: Creating online subsystem instance for: :Context_66
+[2020.05.11-19.19.34:218][722]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Testing 0.845
+[2020.05.11-19.19.37:460][916]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.19.37:460][916]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.19.37:460][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.11-19.19.37:460][916]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.11-19.19.37:460][916]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.19.37:460][916]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2020.05.11-19.19.37:460][916]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.11-19.19.37:470][916]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.11-19.19.37:474][916]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.11-19.19.37:503][916]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.19.37:505][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.11-19.19.37:508][916]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.05.11-19.19.37:562][919]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2020.05.11-19.19.46:899][475]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.05.11-19.19.47:120][475]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2020.05.11-19.19.47:478][490]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer1BDD37134198B6EFF2C797B91A1FAA21.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.05.11-19.19.47:491][490]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.05.11-19.19.47:491][490]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.05.11-19.19.48:501][550]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.11-19.19.48:519][550]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.11-19.19.48:519][550]PIE: New page: PIE session: Testing (May 11, 2020, 11:19:48 AM)
+[2020.05.11-19.19.48:519][550]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.11-19.19.48:521][550]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002296s)
+[2020.05.11-19.19.48:522][550]LogAIModule: Creating AISystem for world Testing
+[2020.05.11-19.19.48:522][550]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2020.05.11-19.19.48:522][550]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Testing.Testing to /Game/Phil/Levels/UEDPIE_0_Testing.Testing (0.003205s)
+[2020.05.11-19.19.48:552][550]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.05.11-19.19.48:553][550]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.11-19.19.48:553][550]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.11-19.19.48:553][550]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.11-19.19.48:553][550]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.11-19.19.48:553][550]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.11-19.19.48:553][550]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.11-19.19.48:553][550]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.11-19.19.48:553][550]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.11-19.19.48:553][550]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.11-19.19.48:553][550]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.11-19.19.48:574][550]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.11-19.19.48:574][550]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.11-19.19.48:574][550]LogAudioMixer: Display: Is Default: Yes
+[2020.05.11-19.19.48:574][550]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.11-19.19.48:574][550]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.11-19.19.48:574][550]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.11-19.19.48:574][550]LogAudioMixer: Display: Channel Order:
+[2020.05.11-19.19.48:574][550]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.11-19.19.48:574][550]LogAudioMixer: Display: 1: FrontRight
+[2020.05.11-19.19.48:583][550]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.11-19.19.48:584][550]LogInit: FAudioDevice initialized.
+[2020.05.11-19.19.48:595][550]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.11-19.19.48:596][550]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Testing.Testing up for play (max tick rate 60) at 2020.05.11-15.19.48
+[2020.05.11-19.19.48:597][550]LogWorld: Bringing up level for play took: 0.000595
+[2020.05.11-19.19.48:597][550]LogOnline: OSS: Creating online subsystem instance for: :Context_67
+[2020.05.11-19.19.48:600][550]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Testing -0.773
+[2020.05.11-19.19.57:724][ 97]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.19.57:724][ 97]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.19.57:725][ 97]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.11-19.19.57:725][ 97]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.11-19.19.57:725][ 97]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.19.57:725][ 97]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2020.05.11-19.19.57:725][ 97]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.11-19.19.57:733][ 97]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.11-19.19.57:737][ 97]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.11-19.19.57:814][ 97]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.19.57:816][ 97]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.11-19.19.57:820][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2020.05.11-19.19.57:843][ 98]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2020.05.11-19.20.27:284][847]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerA0A056454BBEDA63BE6F3EB21349B293.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.05.11-19.20.27:301][847]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.05.11-19.20.27:301][847]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.05.11-19.20.28:028][888]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.05.11-19.20.28:229][888]LogUObjectHash: Compacting FUObjectHashTables data took   5.06ms
+[2020.05.11-19.20.28:626][904]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer8BF30A044AC4993F0A56E2A0B9A629CA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.05.11-19.20.28:639][904]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.05.11-19.20.28:639][904]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.05.11-19.20.29:762][970]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.11-19.20.29:780][970]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.11-19.20.29:780][970]PIE: New page: PIE session: Testing (May 11, 2020, 11:20:29 AM)
+[2020.05.11-19.20.29:781][970]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.11-19.20.29:783][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002201s)
+[2020.05.11-19.20.29:783][970]LogAIModule: Creating AISystem for world Testing
+[2020.05.11-19.20.29:784][970]LogPlayLevel: PIE: World Init took: (0.000775s)
+[2020.05.11-19.20.29:784][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Testing.Testing to /Game/Phil/Levels/UEDPIE_0_Testing.Testing (0.003106s)
+[2020.05.11-19.20.29:815][970]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2020.05.11-19.20.29:816][970]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.11-19.20.29:816][970]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.11-19.20.29:816][970]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.11-19.20.29:816][970]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.11-19.20.29:816][970]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.11-19.20.29:816][970]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.11-19.20.29:816][970]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.11-19.20.29:816][970]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.11-19.20.29:816][970]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.11-19.20.29:816][970]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.11-19.20.29:841][970]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.11-19.20.29:841][970]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.11-19.20.29:841][970]LogAudioMixer: Display: Is Default: Yes
+[2020.05.11-19.20.29:841][970]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.11-19.20.29:841][970]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.11-19.20.29:841][970]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.11-19.20.29:841][970]LogAudioMixer: Display: Channel Order:
+[2020.05.11-19.20.29:841][970]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.11-19.20.29:841][970]LogAudioMixer: Display: 1: FrontRight
+[2020.05.11-19.20.29:849][970]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.11-19.20.29:850][970]LogInit: FAudioDevice initialized.
+[2020.05.11-19.20.29:855][970]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.11-19.20.29:855][970]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Testing.Testing up for play (max tick rate 60) at 2020.05.11-15.20.29
+[2020.05.11-19.20.29:855][970]LogWorld: Bringing up level for play took: 0.000578
+[2020.05.11-19.20.29:855][970]LogOnline: OSS: Creating online subsystem instance for: :Context_68
+[2020.05.11-19.20.29:858][970]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Testing 0.486
+[2020.05.11-19.20.38:311][475]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.20.38:311][475]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.20.38:311][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.11-19.20.38:311][475]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.11-19.20.38:311][475]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.20.38:311][475]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2020.05.11-19.20.38:311][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.11-19.20.38:317][475]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.11-19.20.38:321][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.11-19.20.38:351][475]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.20.38:354][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.11-19.20.38:356][475]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.05.11-19.20.38:426][479]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2020.05.11-19.20.39:083][515]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.05.11-19.20.39:128][515]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Testing742E481C416E105AEF9538AC61CE8A3C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Testing.umap'
+[2020.05.11-19.20.39:195][515]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Testing_BuiltData147A3DF64549125F9B777495AAA2742A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Testing_BuiltData.uasset'
+[2020.05.11-19.20.39:213][515]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.11-19.20.39:213][515]LogContentValidation: Display: Validating World /Game/Phil/Levels/Testing.Testing
+[2020.05.11-19.20.39:213][515]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/Testing_BuiltData.Testing_BuiltData
+[2020.05.11-19.21.07:104][599]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.05.11-19.21.07:315][599]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.05.11-19.21.07:772][619]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer4FE684F9461A0F6141B49C843F186A4E.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.05.11-19.21.07:784][619]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.05.11-19.21.07:784][619]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.05.11-19.21.09:991][748]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.11-19.21.10:008][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.11-19.21.10:008][748]PIE: New page: PIE session: Testing (May 11, 2020, 11:21:10 AM)
+[2020.05.11-19.21.10:008][748]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.11-19.21.10:011][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002199s)
+[2020.05.11-19.21.10:011][748]LogAIModule: Creating AISystem for world Testing
+[2020.05.11-19.21.10:012][748]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2020.05.11-19.21.10:012][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Testing.Testing to /Game/Phil/Levels/UEDPIE_0_Testing.Testing (0.003211s)
+[2020.05.11-19.21.10:042][748]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2020.05.11-19.21.10:043][748]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.11-19.21.10:043][748]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.11-19.21.10:043][748]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.11-19.21.10:043][748]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.11-19.21.10:043][748]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.11-19.21.10:043][748]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.11-19.21.10:043][748]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.11-19.21.10:043][748]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.11-19.21.10:044][748]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.11-19.21.10:044][748]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.11-19.21.10:065][748]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.11-19.21.10:065][748]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.11-19.21.10:065][748]LogAudioMixer: Display: Is Default: Yes
+[2020.05.11-19.21.10:065][748]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.11-19.21.10:065][748]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.11-19.21.10:065][748]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.11-19.21.10:065][748]LogAudioMixer: Display: Channel Order:
+[2020.05.11-19.21.10:065][748]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.11-19.21.10:065][748]LogAudioMixer: Display: 1: FrontRight
+[2020.05.11-19.21.10:074][748]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.11-19.21.10:076][748]LogInit: FAudioDevice initialized.
+[2020.05.11-19.21.10:086][748]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.11-19.21.10:088][748]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Testing.Testing up for play (max tick rate 60) at 2020.05.11-15.21.10
+[2020.05.11-19.21.10:088][748]LogWorld: Bringing up level for play took: 0.000604
+[2020.05.11-19.21.10:088][748]LogOnline: OSS: Creating online subsystem instance for: :Context_69
+[2020.05.11-19.21.10:091][748]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Testing 0.719
+[2020.05.11-19.21.37:269][378]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.21.37:269][378]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.21.37:270][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.11-19.21.37:270][378]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.11-19.21.37:270][378]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.21.37:270][378]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2020.05.11-19.21.37:270][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.11-19.21.37:280][378]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.11-19.21.37:284][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.11-19.21.37:313][378]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.11-19.21.37:315][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.11-19.21.37:318][378]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.05.11-19.21.37:372][381]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2020.05.11-19.21.38:242][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.05.11-19.21.38:274][430]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/TestingC176FF8C4A931560022CC6A3ACE38435.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Testing.umap'
+[2020.05.11-19.21.38:343][430]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Testing_BuiltDataFE111EE74D06B7337203B0ACF72647AB.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Testing_BuiltData.uasset'
+[2020.05.11-19.21.38:358][430]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.11-19.21.38:358][430]LogContentValidation: Display: Validating World /Game/Phil/Levels/Testing.Testing
+[2020.05.11-19.21.38:358][430]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/Testing_BuiltData.Testing_BuiltData
