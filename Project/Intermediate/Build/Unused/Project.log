@@ -1,8 +1,0 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\julia\Documents\UnrealEngineProject\ProjectUE4Game).
-  Building ProjectEditor...
-  Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 4 processes...
-    [1/4] PRJPawn.cpp
-C:\Users\julia\Documents\UnrealEngineProject\ProjectUE4Game\Project\Source\Project\Private\PRJPawn.cpp(3): error C2006: '#include': expected "FILENAME" or <FILENAME>
-C:\Users\julia\Documents\UnrealEngineProject\ProjectUE4Game\Project\Source\Project\Private\PRJPawn.cpp(3): fatal error C1083: Cannot open include file: '': No such file or directory
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.24\Engine\Build\BatchFiles\Build.bat" ProjectEditor Win64 Development -Project="C:\Users\julia\Documents\UnrealEngineProject\ProjectUE4Game\Project\Project.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
