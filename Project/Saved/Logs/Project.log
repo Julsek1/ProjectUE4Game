@@ -817,3 +817,127 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.12-15.38.59:694][149]AssetCheck: New page: Asset Save: multiple assets
 [2020.05.12-15.38.59:694][149]LogContentValidation: Display: Validating World /Game/Julian/Levels/TestMap.TestMap
 [2020.05.12-15.38.59:694][149]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Julian/Levels/TestMap_BuiltData.TestMap_BuiltData
+[2020.05.12-15.42.40:861][ 87]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.12-15.42.40:895][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.12-15.42.40:896][ 87]PIE: New page: PIE session: TestMap (May 12, 2020, 7:42:40 a.m.)
+[2020.05.12-15.42.40:903][ 87]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.05.12-15.42.40:904][ 87]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.05.12-15.42.40:906][ 87]LogPlayLevel: Creating play world package: /Game/Julian/Levels/UEDPIE_0_TestMap
+[2020.05.12-15.42.40:919][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012842s)
+[2020.05.12-15.42.40:924][ 87]LogAIModule: Creating AISystem for world TestMap
+[2020.05.12-15.42.40:926][ 87]LogPlayLevel: PIE: World Init took: (0.007128s)
+[2020.05.12-15.42.40:926][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/Levels/TestMap.TestMap to /Game/Julian/Levels/UEDPIE_0_TestMap.TestMap (0.020412s)
+[2020.05.12-15.42.40:970][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2020.05.12-15.42.40:975][ 87]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.12-15.42.40:975][ 87]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.12-15.42.40:975][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.12-15.42.40:975][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.12-15.42.40:975][ 87]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.12-15.42.40:975][ 87]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.12-15.42.40:975][ 87]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.12-15.42.40:975][ 87]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.12-15.42.40:976][ 87]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.12-15.42.40:976][ 87]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.12-15.42.40:985][ 87]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.12-15.42.40:985][ 87]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.05.12-15.42.40:985][ 87]LogAudioMixer: Display: Is Default: Yes
+[2020.05.12-15.42.40:985][ 87]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.12-15.42.40:985][ 87]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.12-15.42.40:985][ 87]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.12-15.42.40:985][ 87]LogAudioMixer: Display: Channel Order:
+[2020.05.12-15.42.40:985][ 87]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.12-15.42.40:985][ 87]LogAudioMixer: Display: 1: FrontRight
+[2020.05.12-15.42.41:110][ 87]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.05.12-15.42.41:113][ 87]LogInit: FAudioDevice initialized.
+[2020.05.12-15.42.41:128][ 87]LogLoad: Game class is 'GameModeBase'
+[2020.05.12-15.42.41:144][ 87]LogWorld: Bringing World /Game/Julian/Levels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2020.05.12-11.42.41
+[2020.05.12-15.42.41:146][ 87]LogWorld: Bringing up level for play took: 0.002840
+[2020.05.12-15.42.41:148][ 87]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2020.05.12-15.42.41:178][ 87]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 20 classes and 0 folders.
+[2020.05.12-15.42.41:193][ 87]PIE: Play in editor start time for /Game/Julian/Levels/UEDPIE_0_TestMap 0.798
+[2020.05.12-15.42.53:340][133]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.12-15.42.53:340][133]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.12-15.42.53:343][133]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.12-15.42.53:344][133]LogWorld: BeginTearingDown for /Game/Julian/Levels/UEDPIE_0_TestMap
+[2020.05.12-15.42.53:344][133]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.12-15.42.53:346][133]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.12-15.42.53:346][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.12-15.42.53:361][133]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.12-15.42.53:365][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.12-15.42.53:395][133]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.12-15.42.53:403][133]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.12-15.42.53:409][133]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.05.12-15.42.53:474][135]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.05.12-15.42.58:528][537]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.05.12-15.42.58:589][537]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap59BD97BC4B39B56E6F835D8D592568C6.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Levels/TestMap.umap'
+[2020.05.12-15.42.58:701][537]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap_BuiltDataA1EA628B413CEF28CF427193D2D2BAE0.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Levels/TestMap_BuiltData.uasset'
+[2020.05.12-15.42.58:717][537]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.12-15.42.58:717][537]LogContentValidation: Display: Validating World /Game/Julian/Levels/TestMap.TestMap
+[2020.05.12-15.42.58:717][537]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Julian/Levels/TestMap_BuiltData.TestMap_BuiltData
+[2020.05.12-15.43.16:859][959]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.05.12-15.43.16:859][959]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.05.12-15.43.16:934][959]LogSlate: Took 0.017384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.05.12-15.43.40:327][605]Candidate modules for hot reload:
+[2020.05.12-15.43.40:327][605]  Project
+[2020.05.12-15.43.40:327][605]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project,4732 Win64 Development -TargetType=Editor -Project="C:/Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Project.uproject" "C:/Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Project.uproject"  -IgnoreJunk]
+[2020.05.12-15.44.42:915][605]CompilerResultsLog: New page: Compilation - May 12, 2020, 7:44:42 a.m.
+[2020.05.12-15.44.42:916][605]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\julia\Documents\Project_UE4\ProjectUE4Game).
+[2020.05.12-15.44.42:916][605]CompilerResultsLog: Invalidating makefile for ProjectEditor (source file added)
+[2020.05.12-15.44.42:916][605]CompilerResultsLog: Parsing headers for ProjectEditor
+[2020.05.12-15.44.42:916][605]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Project.uproject" "C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\ProjectEditor\Development\ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.12-15.44.42:916][605]CompilerResultsLog: Reflection code generated for ProjectEditor in 38.4198175 seconds
+[2020.05.12-15.44.42:916][605]CompilerResultsLog: Building ProjectEditor...
+[2020.05.12-15.44.42:916][605]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.12-15.44.42:916][605]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.05.12-15.44.42:916][605]CompilerResultsLog:   [1/6] JBasePlayer.cpp
+[2020.05.12-15.44.42:916][605]CompilerResultsLog:   C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Source\Project\Public\JBasePlayer.h(6): fatal error C1083: Cannot open include file: 'ParentPlayer.h': No such file or directory
+[2020.05.12-15.44.42:916][605]CompilerResultsLog:   [2/6] JBasePlayer.gen.cpp
+[2020.05.12-15.44.42:916][605]CompilerResultsLog:   C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Source\Project/Public/JBasePlayer.h(6): fatal error C1083: Cannot open include file: 'ParentPlayer.h': No such file or directory
+[2020.05.12-15.44.42:916][605]CompilerResultsLog:   [3/6] Project.init.gen.cpp
+[2020.05.12-15.44.42:917][605]LogMainFrame: MainFrame: Module compiling took 62.610 seconds
+[2020.05.12-15.44.42:918][605]Warning: HotReload failed, recompile failed
+[2020.05.12-15.44.42:919][605]Warning: RebindPackages failed because compilation failed.
+[2020.05.12-15.44.47:314][605]LogSlate: Window 'Message' being destroyed
+[2020.05.12-15.44.47:391][605]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.05.12-15.44.47:425][605]LogSlate: Took 0.010757 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.05.12-15.44.49:660][741]LogSlate: Window 'Output Log' being destroyed
+[2020.05.12-15.44.49:679][741]LogSlate: Window 'Output Log' being destroyed
+[2020.05.12-15.45.35:740][127]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.12-15.45.35:740][127]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.12-16.10.54:840][ 67]Candidate modules for hot reload:
+[2020.05.12-16.10.54:841][ 67]  Project
+[2020.05.12-16.10.54:841][ 67]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project,2735 Win64 Development -TargetType=Editor -Project="C:/Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Project.uproject" "C:/Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Project.uproject"  -IgnoreJunk]
+[2020.05.12-16.10.54:847][ 67]Warning: Starting HotReload took  0.1s.
+[2020.05.12-16.10.54:917][ 68]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.05.12-16.12.10:561][ 81]CompilerResultsLog: New page: Compilation - May 12, 2020, 8:12:10 a.m.
+[2020.05.12-16.12.10:562][ 81]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\julia\Documents\Project_UE4\ProjectUE4Game).
+[2020.05.12-16.12.10:562][ 81]CompilerResultsLog: Parsing headers for ProjectEditor
+[2020.05.12-16.12.10:562][ 81]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Project.uproject" "C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\ProjectEditor\Development\ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.12-16.12.10:562][ 81]CompilerResultsLog: Reflection code generated for ProjectEditor in 45.0627354 seconds
+[2020.05.12-16.12.10:562][ 81]CompilerResultsLog: Building ProjectEditor...
+[2020.05.12-16.12.10:562][ 81]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.12-16.12.10:562][ 81]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.05.12-16.12.10:562][ 81]CompilerResultsLog:   [1/6] Project.init.gen.cpp
+[2020.05.12-16.12.10:562][ 81]CompilerResultsLog:   [2/6] JBasePlayer.cpp
+[2020.05.12-16.12.10:562][ 81]CompilerResultsLog:   [3/6] JBasePlayer.gen.cpp
+[2020.05.12-16.12.10:562][ 81]CompilerResultsLog:   [4/6] UE4Editor-Project-2735.lib
+[2020.05.12-16.12.10:562][ 81]CompilerResultsLog:      Creating library C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-2735.lib and object C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-2735.exp
+[2020.05.12-16.12.10:562][ 81]CompilerResultsLog:   [5/6] UE4Editor-Project-2735.dll
+[2020.05.12-16.12.10:562][ 81]CompilerResultsLog:      Creating library C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-2735.suppressed.lib and object C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-2735.suppressed.exp
+[2020.05.12-16.12.10:562][ 81]CompilerResultsLog:   [6/6] ProjectEditor.target
+[2020.05.12-16.12.10:562][ 81]CompilerResultsLog: Total time in Parallel executor: 25.17 seconds
+[2020.05.12-16.12.10:562][ 81]CompilerResultsLog: Total execution time: 75.48 seconds
+[2020.05.12-16.12.10:562][ 81]LogMainFrame: MainFrame: Module compiling took 75.756 seconds
+[2020.05.12-16.12.10:618][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2020.05.12-16.12.10:722][ 81]LogClass: Could not find existing class JBasePlayer in package /Script/Project for HotReload, assuming new class
+[2020.05.12-16.12.10:809][ 81]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0041 seconds. Added 13 classes and 3 folders.
+[2020.05.12-16.12.10:814][ 81]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2020.05.12-16.12.11:259][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.05.12-16.12.11:298][ 81]LogContentBrowser: Native class hierarchy populated in 0.0193 seconds. Added 3030 classes and 723 folders.
+[2020.05.12-16.12.11:300][ 81]Display: HotReload took 76.5s.
+[2020.05.12-16.12.29:093][437]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.05.12-16.12.29:172][437]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap171EA03846676221E543DDA5D6F48739.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Levels/TestMap.umap'
+[2020.05.12-16.12.29:287][437]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap_BuiltDataA018D9A040E587F5B650FDA00F804795.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Levels/TestMap_BuiltData.uasset'
+[2020.05.12-16.12.29:307][437]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.12-16.12.29:307][437]LogContentValidation: Display: Validating World /Game/Julian/Levels/TestMap.TestMap
+[2020.05.12-16.12.29:307][437]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Julian/Levels/TestMap_BuiltData.TestMap_BuiltData
