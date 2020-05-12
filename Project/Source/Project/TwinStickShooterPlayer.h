@@ -4,6 +4,7 @@
 
 #include "Camera/CameraComponent.h"
 #include "Components/InputComponent.h"
+#include "Components/SceneCaptureComponent2D.h"
 #include "Components/StaticMeshComponent.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
@@ -33,6 +34,7 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	//Player locomotion
 	UFUNCTION()
 		void MoveForward(float Vertical);
 	UFUNCTION()
@@ -41,12 +43,20 @@ public:
 		void RotateX(float RotationX);
 	UFUNCTION()
 		void RotateY(float RotationY);
-	/*UFUNCTION()
-		void TakeDamage(float Damage);*/
+	
+	//Main camera
 	UPROPERTY(VisibleAnywhere, BluePrintReadOnly)
-		UCameraComponent* Camera = nullptr;
+		UCameraComponent* MainCamera = nullptr;
 	UPROPERTY(VisibleAnywhere, BluePrintReadOnly)
-		USpringArmComponent* SpringArm = nullptr;
+		USpringArmComponent* MainSpringArm = nullptr;
+
+	//Minimap
+	/*UPROPERTY(VisibleAnywhere, BluePrintReadOnly)
+		USceneCaptureComponent2D* MinimapCapture = nullptr;*/
+	UPROPERTY(VisibleAnywhere, BluePrintReadOnly)
+		USpringArmComponent* MinimapSpringArm = nullptr;
+
+	//HUD
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<class UTSHUD> HUDClass;
 
