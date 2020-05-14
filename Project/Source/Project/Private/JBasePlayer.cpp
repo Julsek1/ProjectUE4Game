@@ -12,6 +12,16 @@ AJBasePlayer::AJBasePlayer()
 	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	SpringArm = CreateDefaultSubobject<USpringArmComponent>("SpringArm");
+
+	SpringArm->SetupAttachment(RootComponent);
+
+	//SpringArm->SetWorldRotation(FRotator(0.f, -50.f, 0.f));
+	SpringArm->TargetArmLength = 500;
+
+	Camera = CreateDefaultSubobject<UCameraComponent>("Camera");
+	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
+
 
 }
 
@@ -20,9 +30,8 @@ void AJBasePlayer::BeginPlay()
 {
 	Super::BeginPlay();
 
-	SpringArm = CreateDefaultSubobject<USpringArmComponent>("SpringArm");
-	SpringArm->SetupAttachment(RootComponent);
-	Camera = CreateDefaultSubobject<UCameraComponent>("Camera");
+
+
 	
 
 }
@@ -39,4 +48,19 @@ void AJBasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	PlayerInputComponent->BindAxis("MoveUp", this, &AJBasePlayer::MoveUp);
+	PlayerInputComponent->BindAxis("MoveRight", this, &AJBasePlayer::MoveRight);
+
+}
+
+void AJBasePlayer::MoveUp(float Value)
+{
+	FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::X);
+	AddMovementInput(Direction, Value);
+}
+
+void AJBasePlayer::MoveRight(float Value)
+{
+	FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::Y);
+	AddMovementInput(Direction, Value);
 }
