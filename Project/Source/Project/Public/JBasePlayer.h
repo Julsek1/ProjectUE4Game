@@ -34,6 +34,8 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	virtual void Landed(const FHitResult & Hit) override;
+
 	//UPROPERTIES
 
 	UPROPERTY(VisibleAnywhere, BluePrintReadOnly)
@@ -41,8 +43,17 @@ public:
 	UPROPERTY(VisibleAnywhere, BluePrintReadOnly)
 		class USpringArmComponent* SpringArm;
 
-	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		//float MovementForce;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float JumpHeight;
+
+	UPROPERTY()
+		int DoubleJumpCounter;
+
+
+	//UFUNCTIONS
+
+	UFUNCTION()
+		void DoubleJump();
 
 
 	//Movement

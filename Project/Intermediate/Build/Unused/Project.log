@@ -1,3 +1,5 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\julia\Documents\Project_UE4\ProjectUE4Game).
-  Target is up to date
-  Total execution time: 0.89 seconds
+  Parsing headers for ProjectEditor
+    Running UnrealHeaderTool "C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Project.uproject" "C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\ProjectEditor\Development\ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  C:/Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Source/Project/Public/JBasePlayer.h(51) : LogCompile: Error: Jump: Override of UFUNCTION in parent class (Character) cannot have a UFUNCTION() declaration above it; it will use the same parameters as the original declaration.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.24\Engine\Build\BatchFiles\Build.bat" ProjectEditor Win64 Development -Project="C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Project.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
