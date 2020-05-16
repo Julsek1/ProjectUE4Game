@@ -23,6 +23,20 @@ public:
 	// Sets default values for this character's properties
 	AJBasePlayer();
 
+//Camera position in reference to player
+ UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess=true))
+ class USpringArmComponent* CameraStick;
+
+ UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = true))
+ class UCameraComponent* PlayerCamera;
+
+ //Turning camera values
+ UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera")
+ float InitialTurnValue;
+ UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera")
+ float InitialLookUpValue;
+
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -34,30 +48,18 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	virtual void Landed(const FHitResult & Hit) override;
-
-	//UPROPERTIES
-
-	UPROPERTY(VisibleAnywhere, BluePrintReadOnly)
-		UCameraComponent* Camera;
-	UPROPERTY(VisibleAnywhere, BluePrintReadOnly)
-		class USpringArmComponent* SpringArm;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float JumpHeight;
-
-	UPROPERTY()
-		int DoubleJumpCounter;
-
-
-	//UFUNCTIONS
-
-	UFUNCTION()
-		void DoubleJump();
-
-
-	//Movement
-	void MoveUp(float Value);
+	//forward and backwards movement
+	void MoveForward(float Value);
+	//side movement
 	void MoveRight(float Value);
+
+	//Turn at a provided value
+	void TurnAtUnit(float Value);
+
+	//Look up and down at a provided value
+	void LookUpAtUnit(float Value);
+
+	FORCEINLINE class USpringArmComponent* GetCameraStick() const { return CameraStick; };
+	FORCEINLINE class UCameraComponent* GetPlayerCamera() const { return PlayerCamera; };
 	
 };

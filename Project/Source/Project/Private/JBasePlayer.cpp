@@ -12,17 +12,22 @@ AJBasePlayer::AJBasePlayer()
 	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	SpringArm = CreateDefaultSubobject<USpringArmComponent>("SpringArm");
 
-	SpringArm->SetupAttachment(RootComponent);
+	//Create camera's holder
+	CameraStick = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraStick"));
+	CameraStick->SetupAttachment(GetRootComponent());
+	CameraStick->TargetArmLength = 600.f; //camera distance from player
+	CameraStick->bUsePawnControlRotation = true; //Rotate according to controller
 
-	//SpringArm->SetWorldRotation(FRotator(0.f, -50.f, 0.f));
-	SpringArm->TargetArmLength = 500;
+	//Create player's camera
+	PlayerCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("PlayerCamera"));
+	PlayerCamera->SetupAttachment(CameraStick, USpringArmComponent::SocketName);
+	PlayerCamera->bUsePawnControlRotation = false;
 
-	Camera = CreateDefaultSubobject<UCameraComponent>("Camera");
-	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
+	//Camera's Turn values
+	InitialTurnValue = 65.f;
+	InitialLookUpValue = 65.f;
 
-	JumpHeight = 600.f;
 }
 
 // Called when the game starts or when spawned
@@ -47,35 +52,58 @@ void AJBasePlayer::Tick(float DeltaTime)
 void AJBasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	check(PlayerInputComponent);
 
-	PlayerInputComponent->BindAxis("MoveUp", this, &AJBasePlayer::MoveUp);
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+
+
+	PlayerInputComponent->BindAxis("MoveForward", this, &AJBasePlayer::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AJBasePlayer::MoveRight);
-	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AJBasePlayer::Jump);
+	
+	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
+	PlayerInputComponent->BindAxis("TurnRate", this, &AJBasePlayer::TurnAtUnit);
+	PlayerInputComponent->BindAxis("LookUpRate", this, &AJBasePlayer::LookUpAtUnit);
+
+
 
 }
 
-void AJBasePlayer::Landed(const FHitResult & Hit)
+void AJBasePlayer::MoveForward(float Value)
 {
-	DoubleJumpCounter = 0;
-}
-
-void AJBasePlayer::DoubleJump()
-{
-	if (DoubleJumpCounter <= 1) 
+	if ((Controller != nullptr) && (Value != 0.0f))
 	{
-		AJBasePlayer::LaunchCharacter(FVector(0,0, JumpHeight), false, true);
-		DoubleJumpCounter++;
-	}
-}
+		//find forward direction
+		const FRotator Rotation = Controller->GetControlRotation();
+		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+		AddMovementInput(Direction, Value);
 
-void AJBasePlayer::MoveUp(float Value)
-{
-	FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::X);
-	AddMovementInput(Direction, Value);
+    }
 }
 
 void AJBasePlayer::MoveRight(float Value)
 {
-	FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::Y);
+	const FRotator Rotation = Controller->GetControlRotation();
+	const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
+	const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 	AddMovementInput(Direction, Value);
+
 }
+
+void AJBasePlayer::TurnAtUnit(float Value)
+{
+	AddControllerYawInput(Value* InitialTurnValue* GetWorld()->GetDeltaSeconds());
+}
+
+void AJBasePlayer::LookUpAtUnit(float Value)
+{
+	AddControllerPitchInput(Value * InitialLookUpValue * GetWorld()->GetDeltaSeconds());
+
+}
+
+
+
+
+
