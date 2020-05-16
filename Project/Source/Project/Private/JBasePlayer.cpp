@@ -3,6 +3,8 @@
 
 #include "JBasePlayer.h"
 #include "Engine/Engine.h"
+#include "Components/CapsuleComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "Engine/GameInstance.h"
 #include "GameFramework/Controller.h"
 
@@ -19,6 +21,9 @@ AJBasePlayer::AJBasePlayer()
 	CameraStick->TargetArmLength = 600.f; //camera distance from player
 	CameraStick->bUsePawnControlRotation = true; //Rotate according to controller
 
+	//Capsule component size
+	GetCapsuleComponent()->SetCapsuleSize(34.f, 95.f);
+
 	//Create player's camera
 	PlayerCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("PlayerCamera"));
 	PlayerCamera->SetupAttachment(CameraStick, USpringArmComponent::SocketName);
@@ -27,6 +32,17 @@ AJBasePlayer::AJBasePlayer()
 	//Camera's Turn values
 	InitialTurnValue = 65.f;
 	InitialLookUpValue = 65.f;
+
+	//avoid rotating camera with player rotation
+	bUseControllerRotationYaw = false;
+	bUseControllerRotationPitch = false;
+	bUseControllerRotationRoll = false;
+
+	//Player movement configuration with rotation rate
+	GetCharacterMovement()->bOrientRotationToMovement = true;
+	GetCharacterMovement()->RotationRate = FRotator(0.f, 540.f, 0.f);
+	GetCharacterMovement()->JumpZVelocity = 650.f;
+	GetCharacterMovement()->AirControl = 0.2f;
 
 }
 
