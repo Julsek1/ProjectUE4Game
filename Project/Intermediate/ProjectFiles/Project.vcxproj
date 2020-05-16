@@ -294,12 +294,14 @@
     <ClInclude Include="..\..\Source\Project\TwinStickShooterPlayer.h"/>
     <ClCompile Include="..\..\Source\Project\Private\JBasePlayer.cpp"/>
     <ClCompile Include="..\..\Source\Project\Private\JBasePlayerAnimInstance.cpp"/>
+    <ClCompile Include="..\..\Source\Project\Private\JSpawnVolume.cpp"/>
     <ClCompile Include="..\..\Source\Project\Private\PRJEndPoint.cpp"/>
     <ClCompile Include="..\..\Source\Project\Private\PRJGameModeBase.cpp"/>
     <ClCompile Include="..\..\Source\Project\Private\PRJObstacle.cpp"/>
     <ClCompile Include="..\..\Source\Project\Private\PRJPawn.cpp"/>
     <ClInclude Include="..\..\Source\Project\Public\JBasePlayer.h"/>
     <ClInclude Include="..\..\Source\Project\Public\JBasePlayerAnimInstance.h"/>
+    <ClInclude Include="..\..\Source\Project\Public\JSpawnVolume.h"/>
     <ClInclude Include="..\..\Source\Project\Public\PRJEndPoint.h"/>
     <ClInclude Include="..\..\Source\Project\Public\PRJGameModeBase.h"/>
     <ClInclude Include="..\..\Source\Project\Public\PRJObstacle.h"/>
