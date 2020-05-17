@@ -3,7 +3,9 @@
 
 #include "JSpawnVolume.h"
 #include "Components/BoxComponent.h"
+#include "Engine/World.h"
 #include "Kismet/KismetMathLibrary.h"
+#include "Project/Public/PRJPawn.h"
 
 // Sets default values
 AJSpawnVolume::AJSpawnVolume()
@@ -32,11 +34,24 @@ void AJSpawnVolume::Tick(float DeltaTime)
 
 FVector AJSpawnVolume::GetSpawnPoint()
 {
-	FVector Extent = SpawnBox->GetScaledBoxExtent();
-	FVector Origin = SpawnBox->GetComponentLocation();
+	FVector Extension = SpawnBox->GetScaledBoxExtent();
+	FVector StartingPoint = SpawnBox->GetComponentLocation();
 
-	FVector Point = UKismetMathLibrary::RandomPointInBoundingBox(Origin, Extent);
+	FVector Point = UKismetMathLibrary::RandomPointInBoundingBox(StartingPoint, Extension);
 	
 	return Point;
 }
 
+//"_Implementation" to be implemented in both C++ and blueprints
+void AJSpawnVolume::SpawnGamePawn_Implementation(UClass* ToBeSpawned, const FVector& Position)
+{
+	if (ToBeSpawned)
+	{
+		UWorld* World = GetWorld();
+		FActorSpawnParameters SpawnParameters;
+		if (World)
+		{
+		 APRJPawn* EnemySpawned = World->SpawnActor<APRJPawn>(ToBeSpawned, Position, FRotator(0.0f), SpawnParameters);
+		}
+	}
+}

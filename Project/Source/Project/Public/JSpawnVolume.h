@@ -32,4 +32,8 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Spawn")
 	FVector GetSpawnPoint();
 
+	//spawn any class type
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Spawn")
+		void SpawnGamePawn(UClass* ToBeSpawned, const FVector& Position);
+
 };
