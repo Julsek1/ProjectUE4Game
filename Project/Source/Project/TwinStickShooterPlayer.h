@@ -9,6 +9,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "Objective.h"
 #include "ParentPlayer.h"
 #include "TSHUD.h"
 
@@ -62,6 +63,12 @@ public:
 
 
 	virtual void Heal(float HealingAmount) override;
+
+	//Objective
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		AObjective* CurrentObjective = nullptr;
+	UFUNCTION()
+		void ReceiveObjective(AObjective* Objective);
 
 private:
 	float CharacterRotationX = 0.f;

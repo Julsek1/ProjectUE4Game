@@ -78,22 +78,14 @@ void ATwinStickShooterPlayer::SetupPlayerInputComponent(UInputComponent* PlayerI
 
 void ATwinStickShooterPlayer::MoveForward(float Vertical)
 {
-	//FRotator Direction = Camera->GetComponentRotation();
-
-	//FVector Direction = Camera->GetComponentRotation().Vector;
-	//FVector Direction = GetOwner()->GetActorForwardVector();
-	//FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::X);
-
-	//get camera rotation forward vector to use as direction
 	FVector Direction = MainCamera->GetForwardVector();
-	AddMovementInput(Direction, Vertical);
+
+	//Multiplied by 2 because of the camera placement, will have to change if the camera is at a different angle
+	AddMovementInput(Direction, Vertical * 2);
 }
 
 void ATwinStickShooterPlayer::MoveRight(float Horizontal)
 {
-	//FVector Direction = GetOwner()->GetActorRightVector();
-
-	//FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::Y);
 	FVector Direction = MainCamera->GetRightVector();
 
 	AddMovementInput(Direction, Horizontal);
@@ -138,4 +130,11 @@ void ATwinStickShooterPlayer::Heal(float HealingAmount)
 	}
 
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Health: %f"), Health));
+}
+
+void ATwinStickShooterPlayer::ReceiveObjective(AObjective* Objective)
+{
+	CurrentObjective = Objective;
+	/*CurrentObjective->Description = Objective->Description;
+	CurrentObjective->Requirement = Objective->Requirement*/;
 }

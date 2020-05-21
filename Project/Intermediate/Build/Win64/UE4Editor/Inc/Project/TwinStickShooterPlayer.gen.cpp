@@ -19,6 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 	UPackage* Z_Construct_UPackage__Script_Project();
 	PROJECT_API UFunction* Z_Construct_UFunction_ATwinStickShooterPlayer_MoveForward();
 	PROJECT_API UFunction* Z_Construct_UFunction_ATwinStickShooterPlayer_MoveRight();
+	PROJECT_API UFunction* Z_Construct_UFunction_ATwinStickShooterPlayer_ReceiveObjective();
+	PROJECT_API UClass* Z_Construct_UClass_AObjective_NoRegister();
 	PROJECT_API UFunction* Z_Construct_UFunction_ATwinStickShooterPlayer_RotateX();
 	PROJECT_API UFunction* Z_Construct_UFunction_ATwinStickShooterPlayer_RotateY();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
@@ -32,6 +34,7 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "MoveForward", &ATwinStickShooterPlayer::execMoveForward },
 			{ "MoveRight", &ATwinStickShooterPlayer::execMoveRight },
+			{ "ReceiveObjective", &ATwinStickShooterPlayer::execReceiveObjective },
 			{ "RotateX", &ATwinStickShooterPlayer::execRotateX },
 			{ "RotateY", &ATwinStickShooterPlayer::execRotateY },
 		};
@@ -100,6 +103,38 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATwinStickShooterPlayer_MoveRight_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ATwinStickShooterPlayer_ReceiveObjective_Statics
+	{
+		struct TwinStickShooterPlayer_eventReceiveObjective_Parms
+		{
+			AObjective* Objective;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Objective;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ATwinStickShooterPlayer_ReceiveObjective_Statics::NewProp_Objective = { "Objective", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TwinStickShooterPlayer_eventReceiveObjective_Parms, Objective), Z_Construct_UClass_AObjective_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATwinStickShooterPlayer_ReceiveObjective_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATwinStickShooterPlayer_ReceiveObjective_Statics::NewProp_Objective,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATwinStickShooterPlayer_ReceiveObjective_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "TwinStickShooterPlayer.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATwinStickShooterPlayer_ReceiveObjective_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATwinStickShooterPlayer, nullptr, "ReceiveObjective", nullptr, nullptr, sizeof(TwinStickShooterPlayer_eventReceiveObjective_Parms), Z_Construct_UFunction_ATwinStickShooterPlayer_ReceiveObjective_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ATwinStickShooterPlayer_ReceiveObjective_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATwinStickShooterPlayer_ReceiveObjective_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATwinStickShooterPlayer_ReceiveObjective_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATwinStickShooterPlayer_ReceiveObjective()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATwinStickShooterPlayer_ReceiveObjective_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -179,6 +214,10 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentObjective_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CurrentObjective;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HUDClass_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_HUDClass;
@@ -205,6 +244,7 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_ATwinStickShooterPlayer_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ATwinStickShooterPlayer_MoveForward, "MoveForward" }, // 853920034
 		{ &Z_Construct_UFunction_ATwinStickShooterPlayer_MoveRight, "MoveRight" }, // 4047352493
+		{ &Z_Construct_UFunction_ATwinStickShooterPlayer_ReceiveObjective, "ReceiveObjective" }, // 2521864964
 		{ &Z_Construct_UFunction_ATwinStickShooterPlayer_RotateX, "RotateX" }, // 2179306797
 		{ &Z_Construct_UFunction_ATwinStickShooterPlayer_RotateY, "RotateY" }, // 1451128573
 	};
@@ -215,6 +255,15 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 		{ "ModuleRelativePath", "TwinStickShooterPlayer.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_CurrentObjective_MetaData[] = {
+		{ "Category", "TwinStickShooterPlayer" },
+		{ "Comment", "//Objective\n" },
+		{ "ModuleRelativePath", "TwinStickShooterPlayer.h" },
+		{ "ToolTip", "Objective" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_CurrentObjective = { "CurrentObjective", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATwinStickShooterPlayer, CurrentObjective), Z_Construct_UClass_AObjective_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_CurrentObjective_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_CurrentObjective_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_HUDClass_MetaData[] = {
 		{ "Category", "TwinStickShooterPlayer" },
@@ -253,6 +302,7 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_MainCamera = { "MainCamera", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATwinStickShooterPlayer, MainCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_MainCamera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_MainCamera_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATwinStickShooterPlayer_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_CurrentObjective,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_HUDClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_MinimapSpringArm,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATwinStickShooterPlayer_Statics::NewProp_MainSpringArm,
@@ -285,7 +335,7 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooterPlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATwinStickShooterPlayer, 188556333);
+	IMPLEMENT_CLASS(ATwinStickShooterPlayer, 2756427887);
 	template<> PROJECT_API UClass* StaticClass<ATwinStickShooterPlayer>()
 	{
 		return ATwinStickShooterPlayer::StaticClass();
