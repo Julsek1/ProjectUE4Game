@@ -16,6 +16,7 @@ class PROJECT_API AParentWeapon : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AParentWeapon();
+	virtual void Fire();
 
 protected:
 	// Called when the game starts or when spawned

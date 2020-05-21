@@ -14,8 +14,16 @@ class AObjective;
 #endif
 #define PROJECT_TwinStickShooterPlayer_generated_h
 
-#define Project_Source_Project_TwinStickShooterPlayer_h_21_SPARSE_DATA
-#define Project_Source_Project_TwinStickShooterPlayer_h_21_RPC_WRAPPERS \
+#define Project_Source_Project_TwinStickShooterPlayer_h_22_SPARSE_DATA
+#define Project_Source_Project_TwinStickShooterPlayer_h_22_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execFire) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Fire(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execReceiveObjective) \
 	{ \
@@ -63,7 +71,15 @@ class AObjective;
 	}
 
 
-#define Project_Source_Project_TwinStickShooterPlayer_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Project_Source_Project_TwinStickShooterPlayer_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execFire) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Fire(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execReceiveObjective) \
 	{ \
@@ -111,7 +127,7 @@ class AObjective;
 	}
 
 
-#define Project_Source_Project_TwinStickShooterPlayer_h_21_INCLASS_NO_PURE_DECLS \
+#define Project_Source_Project_TwinStickShooterPlayer_h_22_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATwinStickShooterPlayer(); \
 	friend struct Z_Construct_UClass_ATwinStickShooterPlayer_Statics; \
@@ -120,7 +136,7 @@ public: \
 	DECLARE_SERIALIZER(ATwinStickShooterPlayer)
 
 
-#define Project_Source_Project_TwinStickShooterPlayer_h_21_INCLASS \
+#define Project_Source_Project_TwinStickShooterPlayer_h_22_INCLASS \
 private: \
 	static void StaticRegisterNativesATwinStickShooterPlayer(); \
 	friend struct Z_Construct_UClass_ATwinStickShooterPlayer_Statics; \
@@ -129,7 +145,7 @@ public: \
 	DECLARE_SERIALIZER(ATwinStickShooterPlayer)
 
 
-#define Project_Source_Project_TwinStickShooterPlayer_h_21_STANDARD_CONSTRUCTORS \
+#define Project_Source_Project_TwinStickShooterPlayer_h_22_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ATwinStickShooterPlayer(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATwinStickShooterPlayer) \
@@ -142,7 +158,7 @@ private: \
 public:
 
 
-#define Project_Source_Project_TwinStickShooterPlayer_h_21_ENHANCED_CONSTRUCTORS \
+#define Project_Source_Project_TwinStickShooterPlayer_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ATwinStickShooterPlayer(ATwinStickShooterPlayer&&); \
@@ -153,28 +169,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATwinStickShooterPlayer); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATwinStickShooterPlayer)
 
 
-#define Project_Source_Project_TwinStickShooterPlayer_h_21_PRIVATE_PROPERTY_OFFSET
-#define Project_Source_Project_TwinStickShooterPlayer_h_18_PROLOG
-#define Project_Source_Project_TwinStickShooterPlayer_h_21_GENERATED_BODY_LEGACY \
+#define Project_Source_Project_TwinStickShooterPlayer_h_22_PRIVATE_PROPERTY_OFFSET
+#define Project_Source_Project_TwinStickShooterPlayer_h_19_PROLOG
+#define Project_Source_Project_TwinStickShooterPlayer_h_22_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Project_Source_Project_TwinStickShooterPlayer_h_21_PRIVATE_PROPERTY_OFFSET \
-	Project_Source_Project_TwinStickShooterPlayer_h_21_SPARSE_DATA \
-	Project_Source_Project_TwinStickShooterPlayer_h_21_RPC_WRAPPERS \
-	Project_Source_Project_TwinStickShooterPlayer_h_21_INCLASS \
-	Project_Source_Project_TwinStickShooterPlayer_h_21_STANDARD_CONSTRUCTORS \
+	Project_Source_Project_TwinStickShooterPlayer_h_22_PRIVATE_PROPERTY_OFFSET \
+	Project_Source_Project_TwinStickShooterPlayer_h_22_SPARSE_DATA \
+	Project_Source_Project_TwinStickShooterPlayer_h_22_RPC_WRAPPERS \
+	Project_Source_Project_TwinStickShooterPlayer_h_22_INCLASS \
+	Project_Source_Project_TwinStickShooterPlayer_h_22_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Project_Source_Project_TwinStickShooterPlayer_h_21_GENERATED_BODY \
+#define Project_Source_Project_TwinStickShooterPlayer_h_22_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Project_Source_Project_TwinStickShooterPlayer_h_21_PRIVATE_PROPERTY_OFFSET \
-	Project_Source_Project_TwinStickShooterPlayer_h_21_SPARSE_DATA \
-	Project_Source_Project_TwinStickShooterPlayer_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
-	Project_Source_Project_TwinStickShooterPlayer_h_21_INCLASS_NO_PURE_DECLS \
-	Project_Source_Project_TwinStickShooterPlayer_h_21_ENHANCED_CONSTRUCTORS \
+	Project_Source_Project_TwinStickShooterPlayer_h_22_PRIVATE_PROPERTY_OFFSET \
+	Project_Source_Project_TwinStickShooterPlayer_h_22_SPARSE_DATA \
+	Project_Source_Project_TwinStickShooterPlayer_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	Project_Source_Project_TwinStickShooterPlayer_h_22_INCLASS_NO_PURE_DECLS \
+	Project_Source_Project_TwinStickShooterPlayer_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

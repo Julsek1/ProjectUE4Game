@@ -11,6 +11,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Objective.h"
 #include "ParentPlayer.h"
+#include "ParentWeapon.h"
 #include "TSHUD.h"
 
 #include "TwinStickShooterPlayer.generated.h"
@@ -69,6 +70,12 @@ public:
 		AObjective* CurrentObjective = nullptr;
 	UFUNCTION()
 		void ReceiveObjective(AObjective* Objective);
+
+	//Weapon
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		AParentWeapon* CurrentWeapon = nullptr;
+	UFUNCTION()
+		void Fire();
 
 private:
 	float CharacterRotationX = 0.f;

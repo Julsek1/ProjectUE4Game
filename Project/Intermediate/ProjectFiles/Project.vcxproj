@@ -289,6 +289,7 @@
     <ClCompile Include="..\..\Source\Project\Private\ObjectiveGiver.cpp" />
     <ClCompile Include="..\..\Source\Project\Private\ObjectiveTarget.cpp" />
     <ClCompile Include="..\..\Source\Project\Private\ParentEnemy.cpp" />
+    <ClCompile Include="..\..\Source\Project\Private\Shotgun.cpp" />
     <ClCompile Include="..\..\Source\Project\Project.cpp" />
     <ClInclude Include="..\..\Source\Project\Project.h" />
     <ClCompile Include="..\..\Source\Project\ProjectGameModeBase.cpp" />
@@ -299,6 +300,7 @@
     <ClInclude Include="..\..\Source\Project\Public\ObjectiveGiver.h" />
     <ClInclude Include="..\..\Source\Project\Public\ObjectiveTarget.h" />
     <ClInclude Include="..\..\Source\Project\Public\ParentEnemy.h" />
+    <ClInclude Include="..\..\Source\Project\Public\Shotgun.h" />
     <ClInclude Include="..\..\Source\Project\TSHUD.h" />
     <ClCompile Include="..\..\Source\Project\TwinStickShooterPlayer.cpp" />
     <ClInclude Include="..\..\Source\Project\TwinStickShooterPlayer.h" />

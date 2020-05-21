@@ -21,7 +21,7 @@ ATwinStickShooterPlayer::ATwinStickShooterPlayer()
 	//MainSpringArm->bUsePawnControlRotation = false;
 	MainSpringArm->bInheritPitch = false;
 	MainSpringArm->bInheritYaw = false;
-	MainSpringArm->bInheritRoll= false;
+	MainSpringArm->bInheritRoll = false;
 	MainSpringArm->bDoCollisionTest = false;
 
 	MainCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("MainCamera"));
@@ -40,7 +40,6 @@ ATwinStickShooterPlayer::ATwinStickShooterPlayer()
 
 	/*MinimapCapture->CreateDefaultSubobject<USceneCaptureComponent2D>(TEXT("MinimapCapture"));
 	MinimapCapture->SetupAttachment(MinimapSpringArm);*/
-
 }
 
 // Called when the game starts or when spawned
@@ -76,6 +75,7 @@ void ATwinStickShooterPlayer::SetupPlayerInputComponent(UInputComponent* PlayerI
 	PlayerInputComponent->BindAxis("TSRight", this, &ATwinStickShooterPlayer::MoveRight);
 	PlayerInputComponent->BindAxis("TSRotateX", this, &ATwinStickShooterPlayer::RotateX);
 	PlayerInputComponent->BindAxis("TSRotateY", this, &ATwinStickShooterPlayer::RotateY);
+	PlayerInputComponent->BindAction("TSFire", IE_Pressed, this, &ATwinStickShooterPlayer::Fire);
 }
 
 void ATwinStickShooterPlayer::MoveForward(float Vertical)
@@ -139,4 +139,12 @@ void ATwinStickShooterPlayer::ReceiveObjective(AObjective* Objective)
 	CurrentObjective = Objective;
 	/*CurrentObjective->Description = Objective->Description;
 	CurrentObjective->Requirement = Objective->Requirement*/;
+}
+
+void ATwinStickShooterPlayer::Fire()
+{
+	if (CurrentWeapon)
+	{
+		CurrentWeapon->Fire();
+	}
 }

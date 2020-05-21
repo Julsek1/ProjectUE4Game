@@ -25,3 +25,7 @@ void AParentWeapon::Tick(float DeltaTime)
 
 }
 
+void AParentWeapon::Fire()
+{
+	UE_LOG(LogTemp, Warning, TEXT("BANG!"));
+}
