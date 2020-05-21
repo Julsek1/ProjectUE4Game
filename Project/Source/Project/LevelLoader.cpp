@@ -9,6 +9,7 @@
 #include "GameFramework/PlayerController.h"
 #include "Kismet/GameplayStatics.h"
 #include "ParentPlayer.h"
+#include "TwinStickShooterPlayer.h"
 
 // Sets default values for this component's properties
 ULevelLoader::ULevelLoader()
@@ -29,8 +30,8 @@ void ULevelLoader::BeginPlay()
 	// ...
 
 	//UE_LOG(LogTemp, Warning, TEXT("%s has a LevelLoader"), *GetOwner()->GetName());
-	
-	
+
+
 }
 
 
@@ -48,17 +49,31 @@ void ULevelLoader::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 		GetWorld()->GetGameInstance<UCustomGameInstance>()->PlayerHealth = Cast<AParentPlayer>(Player)->Health;
 	}
 
-	if (LevelName != "" && Trigger && !LoadingLevel && Trigger->IsOverlappingActor(GetWorld()->GetFirstPlayerController()->GetPawn()))//GetWorld()->GetFirstPlayerController()->GetCharacter(); Can be changed to player later, will not work in hub world as is
+	//Handles level loading for twin stick character
+	if (Cast<ATwinStickShooterPlayer>(Player) != nullptr)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Loading the next level"));
-		LoadingLevel = true;
-		//load level
-		UGameplayStatics::OpenLevel(this, LevelName);
+		if (LevelName != "" && Trigger && !LoadingLevel && Cast<ATwinStickShooterPlayer>(Player)->CurrentObjective && Cast<ATwinStickShooterPlayer>(Player)->CurrentObjective->bComplete && Trigger->IsOverlappingActor(GetWorld()->GetFirstPlayerController()->GetPawn()))
+		{
+			LoadLevel();
+		}
+	}
 
-		//How do I set the gamemode
-
-		//? Game = / Game / Player / Blueprints / ThirdPersonGameMode.ThirdPersonGameMode_C
-		//C:/Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooter.uasset
+	//Handles level loading for any character
+	else if (LevelName != "" && Trigger && !LoadingLevel && Trigger->IsOverlappingActor(GetWorld()->GetFirstPlayerController()->GetPawn()))//GetWorld()->GetFirstPlayerController()->GetCharacter(); Can be changed to player later, will not work in hub world as is
+	{
+		LoadLevel();
 	}
 }
 
+void ULevelLoader::LoadLevel()
+{
+	//UE_LOG(LogTemp, Warning, TEXT("Loading the next level"));
+	LoadingLevel = true;
+	//load level
+	UGameplayStatics::OpenLevel(this, LevelName);
+
+	//How do I set the gamemode
+
+	//? Game = / Game / Player / Blueprints / ThirdPersonGameMode.ThirdPersonGameMode_C
+	//C:/Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooter.uasset
+}

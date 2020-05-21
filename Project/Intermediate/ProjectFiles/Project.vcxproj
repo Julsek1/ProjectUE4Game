@@ -286,6 +286,8 @@
     <None Include="..\..\Source\Project\Project.Build.cs" />
     <ClCompile Include="..\..\Source\Project\Private\GasMaskEnemy.cpp" />
     <ClCompile Include="..\..\Source\Project\Private\Objective.cpp" />
+    <ClCompile Include="..\..\Source\Project\Private\ObjectiveGiver.cpp" />
+    <ClCompile Include="..\..\Source\Project\Private\ObjectiveTarget.cpp" />
     <ClCompile Include="..\..\Source\Project\Private\ParentEnemy.cpp" />
     <ClCompile Include="..\..\Source\Project\Project.cpp" />
     <ClInclude Include="..\..\Source\Project\Project.h" />
@@ -294,6 +296,8 @@
     <ClCompile Include="..\..\Source\Project\TSHUD.cpp" />
     <ClInclude Include="..\..\Source\Project\Public\GasMaskEnemy.h" />
     <ClInclude Include="..\..\Source\Project\Public\Objective.h" />
+    <ClInclude Include="..\..\Source\Project\Public\ObjectiveGiver.h" />
+    <ClInclude Include="..\..\Source\Project\Public\ObjectiveTarget.h" />
     <ClInclude Include="..\..\Source\Project\Public\ParentEnemy.h" />
     <ClInclude Include="..\..\Source\Project\TSHUD.h" />
     <ClCompile Include="..\..\Source\Project\TwinStickShooterPlayer.cpp" />
