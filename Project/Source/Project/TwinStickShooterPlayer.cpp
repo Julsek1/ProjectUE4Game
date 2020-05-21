@@ -22,6 +22,7 @@ ATwinStickShooterPlayer::ATwinStickShooterPlayer()
 	MainSpringArm->bInheritPitch = false;
 	MainSpringArm->bInheritYaw = false;
 	MainSpringArm->bInheritRoll= false;
+	MainSpringArm->bDoCollisionTest = false;
 
 	MainCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("MainCamera"));
 	MainCamera->SetupAttachment(MainSpringArm, USpringArmComponent::SocketName);
@@ -35,6 +36,7 @@ ATwinStickShooterPlayer::ATwinStickShooterPlayer()
 	MinimapSpringArm->bInheritPitch = false;
 	MinimapSpringArm->bInheritYaw = false;
 	MinimapSpringArm->bInheritRoll = false;
+	MinimapSpringArm->bDoCollisionTest = false;
 
 	/*MinimapCapture->CreateDefaultSubobject<USceneCaptureComponent2D>(TEXT("MinimapCapture"));
 	MinimapCapture->SetupAttachment(MinimapSpringArm);*/
