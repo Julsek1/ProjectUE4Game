@@ -3,14 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Info.h"
+#include "GameFramework/Actor.h"
 #include "Objective.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class PROJECT_API AObjective : public AInfo
+class PROJECT_API AObjective : public AActor
 {
 	GENERATED_BODY()
 	
@@ -18,12 +18,12 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void UpdateProgress();
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FString Description;
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		int32 Progress;
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		int32 Requirement;
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool bComplete;
 };
