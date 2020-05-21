@@ -20453,3 +20453,471 @@ Script Stack (0 frames):
 [2020.05.21-20.32.24:154][277]AssetCheck: New page: Asset Save: multiple assets
 [2020.05.21-20.32.24:154][277]LogContentValidation: Display: Validating World /Game/Phil/Levels/Level1.Level1
 [2020.05.21-20.32.24:154][277]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/Level1_BuiltData.Level1_BuiltData
+[2020.05.21-20.34.57:130][ 24]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.21-20.34.57:157][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.21-20.34.57:157][ 24]PIE: New page: PIE session: Level1 (May 21, 2020, 12:34:57 PM)
+[2020.05.21-20.34.57:157][ 24]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.21-20.34.57:159][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002221s)
+[2020.05.21-20.34.57:160][ 24]LogAIModule: Creating AISystem for world Level1
+[2020.05.21-20.34.57:160][ 24]LogPlayLevel: PIE: World Init took: (0.000931s)
+[2020.05.21-20.34.57:160][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Level1.Level1 to /Game/Phil/Levels/UEDPIE_0_Level1.Level1 (0.003276s)
+[2020.05.21-20.34.57:209][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2020.05.21-20.34.57:210][ 24]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.21-20.34.57:210][ 24]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.21-20.34.57:210][ 24]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.21-20.34.57:210][ 24]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.21-20.34.57:210][ 24]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.21-20.34.57:210][ 24]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.21-20.34.57:211][ 24]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.21-20.34.57:211][ 24]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.21-20.34.57:211][ 24]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.21-20.34.57:211][ 24]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.21-20.34.57:240][ 24]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.21-20.34.57:240][ 24]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.21-20.34.57:240][ 24]LogAudioMixer: Display: Is Default: Yes
+[2020.05.21-20.34.57:240][ 24]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.21-20.34.57:240][ 24]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.21-20.34.57:240][ 24]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.21-20.34.57:240][ 24]LogAudioMixer: Display: Channel Order:
+[2020.05.21-20.34.57:240][ 24]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.21-20.34.57:240][ 24]LogAudioMixer: Display: 1: FrontRight
+[2020.05.21-20.34.57:250][ 24]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.21-20.34.57:251][ 24]LogInit: FAudioDevice initialized.
+[2020.05.21-20.34.57:261][ 24]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.21-20.34.57:263][ 24]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.05.21-16.34.57
+[2020.05.21-20.34.57:264][ 24]LogWorld: Bringing up level for play took: 0.001505
+[2020.05.21-20.34.57:264][ 24]LogOnline: OSS: Creating online subsystem instance for: :Context_150
+[2020.05.21-20.34.57:267][ 24]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Level1 -0.767
+[2020.05.21-20.35.04:796][475]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.35.04:796][475]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.35.04:797][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.21-20.35.04:797][475]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.21-20.35.04:797][475]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.35.04:797][475]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.05.21-20.35.04:797][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.21-20.35.04:809][475]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.21-20.35.04:814][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.21-20.35.04:852][475]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.35.04:855][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.21-20.35.04:859][475]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.05.21-20.35.05:054][477]LogPlayLevel: Display: Destroying online subsystem :Context_150
+[2020.05.21-20.35.05:670][510]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.05.21-20.35.05:699][510]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level153B2029B45348EAD422DCD83406338B7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1.umap'
+[2020.05.21-20.35.05:757][510]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level1_BuiltData226BDFEC402D6F239E5261953348A4F7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1_BuiltData.uasset'
+[2020.05.21-20.35.05:778][510]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.21-20.35.05:778][510]LogContentValidation: Display: Validating World /Game/Phil/Levels/Level1.Level1
+[2020.05.21-20.35.05:778][510]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/Level1_BuiltData.Level1_BuiltData
+[2020.05.21-20.35.17:957][215]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.05.21-20.35.18:281][215]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2020.05.21-20.35.18:653][231]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer4EA26494489C6DD7C572C7A0BE78BBE6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.05.21-20.35.18:670][231]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.05.21-20.35.18:670][231]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.05.21-20.35.20:156][318]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.21-20.35.20:180][318]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.21-20.35.20:180][318]PIE: New page: PIE session: Level1 (May 21, 2020, 12:35:20 PM)
+[2020.05.21-20.35.20:180][318]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.21-20.35.20:182][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002002s)
+[2020.05.21-20.35.20:183][318]LogAIModule: Creating AISystem for world Level1
+[2020.05.21-20.35.20:184][318]LogPlayLevel: PIE: World Init took: (0.001149s)
+[2020.05.21-20.35.20:184][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Level1.Level1 to /Game/Phil/Levels/UEDPIE_0_Level1.Level1 (0.003257s)
+[2020.05.21-20.35.20:231][318]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2020.05.21-20.35.20:232][318]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.21-20.35.20:232][318]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.21-20.35.20:232][318]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.21-20.35.20:232][318]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.21-20.35.20:232][318]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.21-20.35.20:232][318]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.21-20.35.20:232][318]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.21-20.35.20:232][318]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.21-20.35.20:232][318]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.21-20.35.20:232][318]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.21-20.35.20:253][318]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.21-20.35.20:253][318]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.21-20.35.20:253][318]LogAudioMixer: Display: Is Default: Yes
+[2020.05.21-20.35.20:253][318]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.21-20.35.20:253][318]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.21-20.35.20:253][318]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.21-20.35.20:253][318]LogAudioMixer: Display: Channel Order:
+[2020.05.21-20.35.20:253][318]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.21-20.35.20:253][318]LogAudioMixer: Display: 1: FrontRight
+[2020.05.21-20.35.20:263][318]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.21-20.35.20:264][318]LogInit: FAudioDevice initialized.
+[2020.05.21-20.35.20:273][318]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.21-20.35.20:275][318]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.05.21-16.35.20
+[2020.05.21-20.35.20:275][318]LogWorld: Bringing up level for play took: 0.001417
+[2020.05.21-20.35.20:275][318]LogOnline: OSS: Creating online subsystem instance for: :Context_151
+[2020.05.21-20.35.20:279][318]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Level1 0.244
+[2020.05.21-20.35.23:877][533]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.35.23:877][533]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.35.23:877][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.21-20.35.23:877][533]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.21-20.35.23:877][533]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.35.23:877][533]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.05.21-20.35.23:877][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.21-20.35.23:886][533]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.21-20.35.23:893][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.21-20.35.23:930][533]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.35.23:932][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.21-20.35.23:936][533]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2020.05.21-20.35.23:978][535]LogPlayLevel: Display: Destroying online subsystem :Context_151
+[2020.05.21-20.35.33:686][ 92]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.05.21-20.35.34:037][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2020.05.21-20.35.34:510][114]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerF227E4DF488EFBA252B2F9A44DE89C76.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.05.21-20.35.34:525][114]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.05.21-20.35.34:525][114]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.05.21-20.35.48:486][947]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.05.21-20.35.48:865][947]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2020.05.21-20.35.49:259][964]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerE624BD0C46FA1A111DCE2EADED23DFA7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.05.21-20.35.49:274][964]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.05.21-20.35.49:274][964]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.05.21-20.38.35:279][237]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/Project.ParentWeapon
+[2020.05.21-20.38.35:525][237]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Source/Project/ParentWeapon.cpp'
+[2020.05.21-20.42.51:078][296]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Phil/Levels/Level1.Level1
+[2020.05.21-20.42.51:129][296]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2020.05.21-20.42.51:133][296]Cmd: MAP LOAD FILE="../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.21-20.42.51:133][296]LightingResults: New page: Lighting Build
+[2020.05.21-20.42.51:134][296]LoadErrors: New page: Loading map: Level1.umap
+[2020.05.21-20.42.51:135][296]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.05.21-20.42.51:135][296]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.21-20.42.51:135][296]MapCheck: New page: Map Check
+[2020.05.21-20.42.51:135][296]LightingResults: New page: Lighting Build
+[2020.05.21-20.42.51:181][296]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2020.05.21-20.42.51:329][296]LogAIModule: Creating AISystem for world Level1
+[2020.05.21-20.42.51:487][296]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.21-20.42.51:532][296]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2020.05.21-20.42.51:566][296]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.21-20.42.51:566][296]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.181ms to complete.
+[2020.05.21-20.42.51:566][296]LogFileHelpers: Loading map 'Level1' took 0.433
+[2020.05.21-20.43.04:773][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2020.05.21-20.43.04:810][ 70]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level17E3C3A6144F9AA95FBA152AF36F28886.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1.umap'
+[2020.05.21-20.43.04:845][ 70]LogFileHelpers: Saving map 'Level1' took 0.118
+[2020.05.21-20.43.04:859][ 70]AssetCheck: New page: Asset Save: Level1
+[2020.05.21-20.43.04:859][ 70]LogContentValidation: Display: Validating World /Game/Phil/Levels/Level1.Level1
+[2020.05.21-20.43.10:779][420]LogAIModule: Creating AISystem for world Testing
+[2020.05.21-20.43.10:781][420]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Phil/Levels/Testing.Testing
+[2020.05.21-20.43.10:823][420]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2020.05.21-20.43.10:826][420]Cmd: MAP LOAD FILE="../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Testing.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.21-20.43.10:826][420]LightingResults: New page: Lighting Build
+[2020.05.21-20.43.10:826][420]LoadErrors: New page: Loading map: Testing.umap
+[2020.05.21-20.43.10:827][420]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.05.21-20.43.10:827][420]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.21-20.43.10:827][420]MapCheck: New page: Map Check
+[2020.05.21-20.43.10:827][420]LightingResults: New page: Lighting Build
+[2020.05.21-20.43.10:873][420]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.05.21-20.43.11:072][420]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.21-20.43.11:118][420]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.05.21-20.43.11:161][420]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.21-20.43.11:161][420]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.109ms to complete.
+[2020.05.21-20.43.11:161][420]LogFileHelpers: Loading map 'Testing' took 0.336
+[2020.05.21-20.43.12:289][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2020.05.21-20.43.13:482][554]Cmd: EDIT COPY
+[2020.05.21-20.43.18:599][856]LogAIModule: Creating AISystem for world Level1
+[2020.05.21-20.43.18:602][856]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Phil/Levels/Level1.Level1
+[2020.05.21-20.43.18:656][856]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.05.21-20.43.18:664][856]Cmd: MAP LOAD FILE="../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.21-20.43.18:664][856]LightingResults: New page: Lighting Build
+[2020.05.21-20.43.18:664][856]LoadErrors: New page: Loading map: Level1.umap
+[2020.05.21-20.43.18:665][856]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2020.05.21-20.43.18:665][856]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.21-20.43.18:665][856]MapCheck: New page: Map Check
+[2020.05.21-20.43.18:665][856]LightingResults: New page: Lighting Build
+[2020.05.21-20.43.18:706][856]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2020.05.21-20.43.18:972][856]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.21-20.43.19:021][856]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2020.05.21-20.43.19:051][856]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.21-20.43.19:051][856]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.157ms to complete.
+[2020.05.21-20.43.19:051][856]LogFileHelpers: Loading map 'Level1' took 0.388
+[2020.05.21-20.43.20:142][918]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.05.21-20.43.20:436][934]Cmd: EDIT PASTE
+[2020.05.21-20.43.34:337][759]Cmd: POLY SELECT MATCHING TEXTURE
+[2020.05.21-20.43.43:578][308]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.05.21-20.43.43:606][308]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level1595E4A3E4A5AAF0C839921AED2737209.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1.umap'
+[2020.05.21-20.43.43:668][308]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level1_BuiltData565C8CC642DF585D79CD33AF97D45357.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1_BuiltData.uasset'
+[2020.05.21-20.43.43:688][308]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.21-20.43.43:688][308]LogContentValidation: Display: Validating World /Game/Phil/Levels/Level1.Level1
+[2020.05.21-20.43.43:689][308]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/Level1_BuiltData.Level1_BuiltData
+[2020.05.21-20.43.48:958][624]LogEditorViewport: Clicking on Actor (LMB): BP_GasMask_C (BP_GasMask2)
+[2020.05.21-20.43.54:043][919]LogEditorViewport: Clicking on Actor (LMB): BP_GasMask_C (BP_GasMask)
+[2020.05.21-20.44.03:321][461]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2020.05.21-20.44.03:353][461]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level16F35F373441DFA847831C9A56BE0A84E.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1.umap'
+[2020.05.21-20.44.03:412][461]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level1_BuiltData8812F76F4AB86F2B3E374ABE6D1D22CA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1_BuiltData.uasset'
+[2020.05.21-20.44.03:433][461]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.21-20.44.03:433][461]LogContentValidation: Display: Validating World /Game/Phil/Levels/Level1.Level1
+[2020.05.21-20.44.03:434][461]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/Level1_BuiltData.Level1_BuiltData
+[2020.05.21-20.44.22:949][612]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.05.21-20.44.29:572][612]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.05.21-20.44.38:926][161]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_ObjectiveKillEnemiesA01C5BFE4CF723477F9202B8A55A3039.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Objectives/BP_ObjectiveKillEnemies.uasset'
+[2020.05.21-20.44.38:952][161]AssetCheck: New page: Asset Save: BP_ObjectiveKillEnemies
+[2020.05.21-20.44.38:952][161]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Objectives/BP_ObjectiveKillEnemies.BP_ObjectiveKillEnemies
+[2020.05.21-20.44.52:110][940]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2020.05.21-20.44.52:139][940]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level19B34A602491994F78D641FA5713AD8B3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1.umap'
+[2020.05.21-20.44.52:197][940]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level1_BuiltData4D7029EE4B224C626DEA7C99B975A061.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1_BuiltData.uasset'
+[2020.05.21-20.44.52:218][940]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.21-20.44.52:218][940]LogContentValidation: Display: Validating World /Game/Phil/Levels/Level1.Level1
+[2020.05.21-20.44.52:218][940]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/Level1_BuiltData.Level1_BuiltData
+[2020.05.21-20.44.52:958][982]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.21-20.44.52:986][982]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.21-20.44.52:986][982]PIE: New page: PIE session: Level1 (May 21, 2020, 12:44:52 PM)
+[2020.05.21-20.44.52:986][982]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.21-20.44.52:989][982]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002466s)
+[2020.05.21-20.44.52:990][982]LogAIModule: Creating AISystem for world Level1
+[2020.05.21-20.44.52:990][982]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2020.05.21-20.44.52:990][982]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Level1.Level1 to /Game/Phil/Levels/UEDPIE_0_Level1.Level1 (0.003550s)
+[2020.05.21-20.44.53:029][982]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2020.05.21-20.44.53:029][982]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.21-20.44.53:029][982]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.21-20.44.53:029][982]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.21-20.44.53:029][982]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.21-20.44.53:029][982]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.21-20.44.53:029][982]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.21-20.44.53:029][982]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.21-20.44.53:029][982]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.21-20.44.53:030][982]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.21-20.44.53:030][982]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.21-20.44.53:060][982]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.21-20.44.53:060][982]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.21-20.44.53:060][982]LogAudioMixer: Display: Is Default: Yes
+[2020.05.21-20.44.53:060][982]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.21-20.44.53:060][982]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.21-20.44.53:060][982]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.21-20.44.53:060][982]LogAudioMixer: Display: Channel Order:
+[2020.05.21-20.44.53:060][982]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.21-20.44.53:060][982]LogAudioMixer: Display: 1: FrontRight
+[2020.05.21-20.44.53:073][982]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.21-20.44.53:075][982]LogInit: FAudioDevice initialized.
+[2020.05.21-20.44.53:085][982]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.21-20.44.53:087][982]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.05.21-16.44.53
+[2020.05.21-20.44.53:088][982]LogWorld: Bringing up level for play took: 0.001657
+[2020.05.21-20.44.53:088][982]LogOnline: OSS: Creating online subsystem instance for: :Context_152
+[2020.05.21-20.44.53:092][982]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Level1 1.057
+[2020.05.21-20.44.53:092][982]LogTemp: Warning: Hit
+[2020.05.21-20.44.55:324][115]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.44.55:324][115]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.44.55:324][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.21-20.44.55:324][115]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.21-20.44.55:325][115]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.44.55:325][115]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.05.21-20.44.55:325][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.21-20.44.55:335][115]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.21-20.44.55:341][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.21-20.44.55:381][115]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.44.55:384][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.21-20.44.55:387][115]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.05.21-20.44.55:430][117]LogPlayLevel: Display: Destroying online subsystem :Context_152
+[2020.05.21-20.44.56:732][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.05.21-20.45.05:356][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2020.05.21-20.45.05:386][703]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level14650EA964239855872724A8F46440EEA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1.umap'
+[2020.05.21-20.45.05:440][703]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level1_BuiltData0E3E686D4A506EBC3D06049442A2F56A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1_BuiltData.uasset'
+[2020.05.21-20.45.05:463][703]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.21-20.45.05:463][703]LogContentValidation: Display: Validating World /Game/Phil/Levels/Level1.Level1
+[2020.05.21-20.45.05:463][703]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/Level1_BuiltData.Level1_BuiltData
+[2020.05.21-20.45.06:521][766]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.21-20.45.06:545][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.21-20.45.06:545][766]PIE: New page: PIE session: Level1 (May 21, 2020, 12:45:06 PM)
+[2020.05.21-20.45.06:545][766]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.21-20.45.06:548][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002372s)
+[2020.05.21-20.45.06:548][766]LogAIModule: Creating AISystem for world Level1
+[2020.05.21-20.45.06:549][766]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2020.05.21-20.45.06:549][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Level1.Level1 to /Game/Phil/Levels/UEDPIE_0_Level1.Level1 (0.003231s)
+[2020.05.21-20.45.06:593][766]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.05.21-20.45.06:594][766]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.21-20.45.06:594][766]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.21-20.45.06:594][766]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.21-20.45.06:594][766]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.21-20.45.06:594][766]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.21-20.45.06:594][766]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.21-20.45.06:594][766]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.21-20.45.06:594][766]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.21-20.45.06:594][766]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.21-20.45.06:594][766]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.21-20.45.06:615][766]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.21-20.45.06:615][766]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.21-20.45.06:615][766]LogAudioMixer: Display: Is Default: Yes
+[2020.05.21-20.45.06:615][766]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.21-20.45.06:615][766]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.21-20.45.06:615][766]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.21-20.45.06:615][766]LogAudioMixer: Display: Channel Order:
+[2020.05.21-20.45.06:615][766]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.21-20.45.06:615][766]LogAudioMixer: Display: 1: FrontRight
+[2020.05.21-20.45.06:624][766]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.21-20.45.06:625][766]LogInit: FAudioDevice initialized.
+[2020.05.21-20.45.06:630][766]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.21-20.45.06:632][766]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.05.21-16.45.06
+[2020.05.21-20.45.06:632][766]LogWorld: Bringing up level for play took: 0.001434
+[2020.05.21-20.45.06:632][766]LogOnline: OSS: Creating online subsystem instance for: :Context_153
+[2020.05.21-20.45.06:636][766]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Level1 0.602
+[2020.05.21-20.45.06:637][766]LogTemp: Warning: Hit
+[2020.05.21-20.45.12:072][ 91]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.45.12:072][ 91]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.45.12:072][ 91]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.21-20.45.12:072][ 91]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.21-20.45.12:072][ 91]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.45.12:072][ 91]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.05.21-20.45.12:073][ 91]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.21-20.45.12:086][ 91]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.21-20.45.12:092][ 91]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.21-20.45.12:132][ 91]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.45.12:134][ 91]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.21-20.45.12:142][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   6.57ms
+[2020.05.21-20.45.12:186][ 93]LogPlayLevel: Display: Destroying online subsystem :Context_153
+[2020.05.21-20.45.13:615][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.05.21-20.45.13:640][174]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level141B6FB434EDA922F57D49B8F71143630.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1.umap'
+[2020.05.21-20.45.13:693][174]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level1_BuiltDataE01C24344148BF7681F8CFB6D273D0CB.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1_BuiltData.uasset'
+[2020.05.21-20.45.13:721][174]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.21-20.45.13:721][174]LogContentValidation: Display: Validating World /Game/Phil/Levels/Level1.Level1
+[2020.05.21-20.45.13:721][174]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/Level1_BuiltData.Level1_BuiltData
+[2020.05.21-20.45.47:018][149]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2020.05.21-20.45.47:049][149]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level1E599827043F388F60CCBA09694F5868F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1.umap'
+[2020.05.21-20.45.47:110][149]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level1_BuiltData62409BA84A8FD891C4DDE39B4E9C0281.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1_BuiltData.uasset'
+[2020.05.21-20.45.47:132][149]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.21-20.45.47:132][149]LogContentValidation: Display: Validating World /Game/Phil/Levels/Level1.Level1
+[2020.05.21-20.45.47:132][149]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/Level1_BuiltData.Level1_BuiltData
+[2020.05.21-20.45.48:304][219]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.21-20.45.48:327][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.21-20.45.48:327][219]PIE: New page: PIE session: Level1 (May 21, 2020, 12:45:48 PM)
+[2020.05.21-20.45.48:328][219]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.21-20.45.48:330][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002680s)
+[2020.05.21-20.45.48:331][219]LogAIModule: Creating AISystem for world Level1
+[2020.05.21-20.45.48:331][219]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2020.05.21-20.45.48:331][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Level1.Level1 to /Game/Phil/Levels/UEDPIE_0_Level1.Level1 (0.003538s)
+[2020.05.21-20.45.48:370][219]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2020.05.21-20.45.48:371][219]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.21-20.45.48:371][219]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.21-20.45.48:371][219]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.21-20.45.48:371][219]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.21-20.45.48:371][219]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.21-20.45.48:371][219]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.21-20.45.48:371][219]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.21-20.45.48:371][219]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.21-20.45.48:372][219]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.21-20.45.48:372][219]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.21-20.45.48:392][219]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.21-20.45.48:392][219]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.21-20.45.48:392][219]LogAudioMixer: Display: Is Default: Yes
+[2020.05.21-20.45.48:392][219]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.21-20.45.48:392][219]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.21-20.45.48:392][219]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.21-20.45.48:392][219]LogAudioMixer: Display: Channel Order:
+[2020.05.21-20.45.48:392][219]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.21-20.45.48:392][219]LogAudioMixer: Display: 1: FrontRight
+[2020.05.21-20.45.48:401][219]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.21-20.45.48:402][219]LogInit: FAudioDevice initialized.
+[2020.05.21-20.45.48:408][219]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.21-20.45.48:410][219]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.05.21-16.45.48
+[2020.05.21-20.45.48:410][219]LogWorld: Bringing up level for play took: 0.001495
+[2020.05.21-20.45.48:410][219]LogOnline: OSS: Creating online subsystem instance for: :Context_155
+[2020.05.21-20.45.48:414][219]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Level1 0.38
+[2020.05.21-20.45.48:414][219]LogTemp: Warning: Hit
+[2020.05.21-20.45.52:691][475]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.45.52:691][475]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.45.52:691][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.21-20.45.52:691][475]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.21-20.45.52:691][475]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.45.52:692][475]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.05.21-20.45.52:692][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.21-20.45.52:699][475]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.21-20.45.52:705][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.21-20.45.52:747][475]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.45.52:750][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.21-20.45.52:755][475]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2020.05.21-20.45.52:806][477]LogPlayLevel: Display: Destroying online subsystem :Context_155
+[2020.05.21-20.45.53:841][537]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.21-20.45.53:871][537]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.21-20.45.53:871][537]PIE: New page: PIE session: Level1 (May 21, 2020, 12:45:53 PM)
+[2020.05.21-20.45.53:871][537]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.21-20.45.53:874][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002688s)
+[2020.05.21-20.45.53:875][537]LogAIModule: Creating AISystem for world Level1
+[2020.05.21-20.45.53:875][537]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2020.05.21-20.45.53:875][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Level1.Level1 to /Game/Phil/Levels/UEDPIE_0_Level1.Level1 (0.003553s)
+[2020.05.21-20.45.53:912][537]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2020.05.21-20.45.53:913][537]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.21-20.45.53:913][537]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.21-20.45.53:913][537]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.21-20.45.53:913][537]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.21-20.45.53:913][537]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.21-20.45.53:913][537]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.21-20.45.53:913][537]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.21-20.45.53:913][537]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.21-20.45.53:913][537]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.21-20.45.53:913][537]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.21-20.45.53:935][537]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.21-20.45.53:935][537]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.21-20.45.53:936][537]LogAudioMixer: Display: Is Default: Yes
+[2020.05.21-20.45.53:936][537]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.21-20.45.53:936][537]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.21-20.45.53:936][537]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.21-20.45.53:936][537]LogAudioMixer: Display: Channel Order:
+[2020.05.21-20.45.53:936][537]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.21-20.45.53:936][537]LogAudioMixer: Display: 1: FrontRight
+[2020.05.21-20.45.53:945][537]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.21-20.45.53:946][537]LogInit: FAudioDevice initialized.
+[2020.05.21-20.45.53:957][537]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.21-20.45.53:959][537]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.05.21-16.45.53
+[2020.05.21-20.45.53:960][537]LogWorld: Bringing up level for play took: 0.001429
+[2020.05.21-20.45.53:960][537]LogOnline: OSS: Creating online subsystem instance for: :Context_156
+[2020.05.21-20.45.53:963][537]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Level1 -0.072
+[2020.05.21-20.45.53:964][537]LogTemp: Warning: Hit
+[2020.05.21-20.45.58:841][829]LogNet: Browse: /Game/Phil/Levels/Testing
+[2020.05.21-20.45.58:841][829]LogLoad: LoadMap: /Game/Phil/Levels/Testing
+[2020.05.21-20.45.58:841][829]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.21-20.45.58:842][829]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.05.21-20.45.58:842][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.21-20.45.58:842][829]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.45.58:887][829]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.05.21-20.45.58:897][829]LogAIModule: Creating AISystem for world Testing
+[2020.05.21-20.45.58:897][829]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.21-20.45.58:900][829]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Testing.Testing up for play (max tick rate 60) at 2020.05.21-16.45.58
+[2020.05.21-20.45.58:900][829]LogWorld: Bringing up level for play took: 0.001462
+[2020.05.21-20.45.58:902][829]LogLoad: Took 0.060831 seconds to LoadMap(/Game/Phil/Levels/Testing)
+[2020.05.21-20.45.58:902][829]LogTemp: Warning: Hit
+[2020.05.21-20.46.01:372][976]LogNet: Browse: /Game/Phil/Levels/Level1
+[2020.05.21-20.46.01:372][976]LogLoad: LoadMap: /Game/Phil/Levels/Level1
+[2020.05.21-20.46.01:372][976]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.21-20.46.01:372][976]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2020.05.21-20.46.01:372][976]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.21-20.46.01:374][976]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.21-20.46.01:394][976]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.21-20.46.01:438][976]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2020.05.21-20.46.01:439][976]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.21-20.46.01:442][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003016s)
+[2020.05.21-20.46.01:443][976]LogAIModule: Creating AISystem for world Level1
+[2020.05.21-20.46.01:443][976]LogPlayLevel: PIE: World Init took: (0.001076s)
+[2020.05.21-20.46.01:443][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Level1.Level1 to /Game/Phil/Levels/UEDPIE_0_Level1.Level1 (0.004260s)
+[2020.05.21-20.46.01:443][976]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.21-20.46.01:446][976]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.05.21-16.46.01
+[2020.05.21-20.46.01:446][976]LogWorld: Bringing up level for play took: 0.001720
+[2020.05.21-20.46.01:449][976]LogLoad: Took 0.077045 seconds to LoadMap(/Game/Phil/Levels/UEDPIE_0_Level1)
+[2020.05.21-20.46.01:449][976]LogTemp: Warning: Hit
+[2020.05.21-20.46.06:612][286]LogNet: Browse: /Game/Phil/Levels/Testing
+[2020.05.21-20.46.06:612][286]LogLoad: LoadMap: /Game/Phil/Levels/Testing
+[2020.05.21-20.46.06:612][286]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.21-20.46.06:612][286]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.05.21-20.46.06:612][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.21-20.46.06:622][286]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.21-20.46.06:643][286]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.21-20.46.06:687][286]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2020.05.21-20.46.06:695][286]LogAIModule: Creating AISystem for world Testing
+[2020.05.21-20.46.06:695][286]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.21-20.46.06:698][286]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Testing.Testing up for play (max tick rate 60) at 2020.05.21-16.46.06
+[2020.05.21-20.46.06:698][286]LogWorld: Bringing up level for play took: 0.001432
+[2020.05.21-20.46.06:700][286]LogLoad: Took 0.088598 seconds to LoadMap(/Game/Phil/Levels/Testing)
+[2020.05.21-20.46.06:700][286]LogTemp: Warning: Hit
+[2020.05.21-20.46.07:348][325]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.46.07:348][325]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.46.07:348][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.21-20.46.07:348][325]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Testing
+[2020.05.21-20.46.07:348][325]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.46.07:348][325]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2020.05.21-20.46.07:348][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.21-20.46.07:355][325]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.21-20.46.07:361][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.21-20.46.07:403][325]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.21-20.46.07:406][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.21-20.46.07:409][325]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2020.05.21-20.46.07:450][327]LogPlayLevel: Display: Destroying online subsystem :Context_156
+[2020.05.21-20.46.08:288][373]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.05.21-20.46.08:313][373]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level1FF51827849B8D755C97D919024EA733D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1.umap'
+[2020.05.21-20.46.08:366][373]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level1_BuiltData9DB301A54E253E4EF9D12CB843CC0ADC.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1_BuiltData.uasset'
+[2020.05.21-20.46.08:393][373]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.21-20.46.08:393][373]LogContentValidation: Display: Validating World /Game/Phil/Levels/Level1.Level1
+[2020.05.21-20.46.08:393][373]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/Level1_BuiltData.Level1_BuiltData
