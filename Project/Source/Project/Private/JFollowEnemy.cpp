@@ -5,6 +5,7 @@
 #include "AIController.h"
 #include "Project/Public/JBasePlayer.h"
 #include "Components/SphereComponent.h"
+#include "Kismet/KismetSystemLibrary.h"
 
 
 
@@ -90,11 +91,21 @@ void AJFollowEnemy::MoveToPlayer(AJBasePlayer* Player)
 		//struct MoveRequest
 		FAIMoveRequest MoveRequest;
 		MoveRequest.SetGoalActor(Player);
-		MoveRequest.SetAcceptanceRadius(6.0f);
+		MoveRequest.SetAcceptanceRadius(20.f);
 
 		//struct NavPath
-		FNavPathSharedPtr NavPath;
-		AIController->MoveTo(MoveRequest, &NavPath);
+		FNavPathSharedPtr NavigationPath;
+		AIController->MoveTo(MoveRequest, &NavigationPath);
+
+
+		//array of pathpoints
+		auto PathPoints = NavigationPath->GetPathPoints();
+		for (auto point : PathPoints)
+		{
+			FVector Location = point.Location;
+
+			UKismetSystemLibrary::DrawDebugSphere(this, Location, 25.f, 8, FLinearColor::Blue, 10.f, 2.f);
+		}
 
 	}
 }
