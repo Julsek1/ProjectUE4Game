@@ -23,7 +23,7 @@ AJFollowEnemy::AJFollowEnemy()
 	AttackSphere->SetupAttachment(GetRootComponent());
 	AttackSphere->InitSphereRadius(150.f);
 
-
+	bOverlapAttackSphere = false;
 }
 
 // Called when the game starts or when spawned
@@ -72,14 +72,56 @@ void AJFollowEnemy::FollowSphereOnOverlapBegin(UPrimitiveComponent* OverlappedCo
 
 void AJFollowEnemy::FollowSphereOnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
+	if (OtherActor)
+	{
+		AJBasePlayer* Player = Cast<AJBasePlayer>(OtherActor);
+		{
+			if (Player)
+			{
+				SetFEnemyMovStatus(EFEnemyMoveStat::FEMS_Idle);
+				if (AIController)
+				{
+					AIController->StopMovement();
+				}
+			}
+		}
+	}
+
 }
 
 void AJFollowEnemy::AttackSphereOnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
+	if (OtherActor)
+	{
+		AJBasePlayer* Player = Cast<AJBasePlayer>(OtherActor);
+		{
+			if (Player)
+			{
+				AttackTarget = Player;
+				bOverlapAttackSphere = true;
+				SetFEnemyMovStatus(EFEnemyMoveStat::FEMS_Attack);
+			}
+		}
+	}
 }
 
 void AJFollowEnemy::AttackSphereOnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
+	if (OtherActor)
+	{
+		AJBasePlayer* Player = Cast<AJBasePlayer>(OtherActor);
+		{
+			if (Player)
+			{
+				bOverlapAttackSphere = false;
+				if (EFEnemyMoveStatus != EFEnemyMoveStat::FEMS_Attack)
+				{
+					MoveToPlayer(Player);
+					AttackTarget = nullptr;
+				}
+			}
+		}
+	}
 }
 
 void AJFollowEnemy::MoveToPlayer(AJBasePlayer* Player)
@@ -91,7 +133,7 @@ void AJFollowEnemy::MoveToPlayer(AJBasePlayer* Player)
 		//struct MoveRequest
 		FAIMoveRequest MoveRequest;
 		MoveRequest.SetGoalActor(Player);
-		MoveRequest.SetAcceptanceRadius(20.f);
+		MoveRequest.SetAcceptanceRadius(15.f);
 
 		//struct NavPath
 		FNavPathSharedPtr NavigationPath;

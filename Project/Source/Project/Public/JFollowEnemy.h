@@ -39,6 +39,12 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "AI")
 	class AAIController* AIController;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "AI")
+	bool bOverlapAttackSphere;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "AI")
+	AJBasePlayer* AttackTarget;
+
 
 protected:
 	// Called when the game starts or when spawned
@@ -65,5 +71,6 @@ public:
 		class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
 	//target class to be replaced with other player classes
+	UFUNCTION(BlueprintCallable)
 	void MoveToPlayer(class AJBasePlayer* Player);
 };
