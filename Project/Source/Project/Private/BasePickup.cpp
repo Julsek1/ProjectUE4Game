@@ -3,6 +3,8 @@
 
 #include "BasePickup.h"
 #include "Components/SphereComponent.h"
+#include "Components/StaticMeshComponent.h"
+#include "Particles/ParticleSystemComponent.h"
 
 // Sets default values
 ABasePickup::ABasePickup()
@@ -13,6 +15,11 @@ ABasePickup::ABasePickup()
 	ColliderSphere = CreateDefaultSubobject<USphereComponent>(TEXT("ColliderSphere"));
 	RootComponent = ColliderSphere;
 
+	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
+	Mesh->SetupAttachment(GetRootComponent());
+
+	BasicPSComponent = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("BasicPS"));
+	BasicPSComponent->SetupAttachment(GetRootComponent());
 	
 
 }

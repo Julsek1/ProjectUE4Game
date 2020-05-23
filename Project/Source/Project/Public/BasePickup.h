@@ -18,6 +18,12 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Pickup")
 	class USphereComponent* ColliderSphere;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Mesh")
+	class UStaticMeshComponent* Mesh;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ParticleSystem")
+	class UParticleSystemComponent* BasicPSComponent;
+
 
 protected:
 	// Called when the game starts or when spawned
