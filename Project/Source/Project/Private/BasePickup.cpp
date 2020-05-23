@@ -5,6 +5,10 @@
 #include "Components/SphereComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "Particles/ParticleSystemComponent.h"
+#include "Engine/World.h"
+#include "Sound/SoundCue.h"
+#include "Kismet/GamePlayStatics.h"
+
 
 // Sets default values
 ABasePickup::ABasePickup()
@@ -43,6 +47,16 @@ void ABasePickup::Tick(float DeltaTime)
 
 void ABasePickup::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
+	if (BasicPSComponent)
+	{
+		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), PSOverlap, GetActorLocation(), FRotator(0.f), true);
+		
+	}
+	if (SoundFX)
+	{
+		UGameplayStatics::PlaySound2D(this, SoundFX);
+	}
+	Destroy();
 }
 
 void ABasePickup::OnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)

@@ -24,6 +24,12 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ParticleSystem")
 	class UParticleSystemComponent* BasicPSComponent;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ParticleSystem")
+	class UParticleSystem* PSOverlap;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SoundFX")
+    class USoundCue* SoundFX;
+
 
 protected:
 	// Called when the game starts or when spawned
