@@ -22,12 +22,13 @@ public:
 	void Fire();
 	virtual void Reload();
 	virtual void ReplenishClip();
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		FTimerHandle ReloadTimerHandle;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	float Range;
-	FTimerHandle ReloadTimerHandle;
 	bool bCurrentlyReloading = false;
 
 public:	
