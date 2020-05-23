@@ -34,8 +34,8 @@ void AShotgun::Fire(USceneComponent* Location)
 		FVector End = ForwardVector * Range + Start + Spread;
 		FCollisionQueryParams CollisionParams;
 
-		DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
-		GetWorld()->LineTraceSingleByObjectType(OUT OutHit, Start, End, FCollisionObjectQueryParams(ECC_Pawn), CollisionParams);
+		DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 0.5f, 0, 1);
+		GetWorld()->LineTraceSingleByChannel(OUT OutHit, Start, End, ECollisionChannel(ECC_Pawn), CollisionParams);
 
 		if (Cast<AParentEnemy>(OutHit.GetActor()))
 		{
