@@ -1,19 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\julia\Documents\Project_UE4\ProjectUE4Game).
-  Parsing headers for ProjectEditor
-    Running UnrealHeaderTool "C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Project.uproject" "C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\ProjectEditor\Development\ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ProjectEditor in 8.8551091 seconds
   Building ProjectEditor...
   Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 8 actions with 4 processes...
-    [1/8] Project.init.gen.cpp
-    [2/8] FollowEnemyAnimInstance.cpp
-    [3/8] JFollowEnemy.gen.cpp
-    [4/8] FollowEnemyAnimInstance.gen.cpp
-    [5/8] JFollowEnemy.cpp
-    [6/8] UE4Editor-Project-0012.lib
-       Creating library C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0012.lib and object C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0012.exp
-    [7/8] UE4Editor-Project-0012.dll
-       Creating library C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0012.suppressed.lib and object C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0012.suppressed.exp
-    [8/8] ProjectEditor.target
-  Total time in Parallel executor: 24.50 seconds
-  Total execution time: 34.78 seconds
+  Building 4 actions with 4 processes...
+    [1/4] Mine.cpp
+    [2/4] UE4Editor-Project-0019.lib
+       Creating library C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0019.lib and object C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0019.exp
+    [3/4] UE4Editor-Project-0019.dll
+       Creating library C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0019.suppressed.lib and object C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0019.suppressed.exp
+    [4/4] ProjectEditor.target
+  Total time in Parallel executor: 17.93 seconds
+  Total execution time: 19.04 seconds
