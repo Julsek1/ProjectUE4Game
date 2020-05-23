@@ -18,4 +18,7 @@ public:
 	AShotgun();
 	void Fire(USceneComponent* Location) override;
 
+private:
+	int32 Pellets = 8;
+
 };

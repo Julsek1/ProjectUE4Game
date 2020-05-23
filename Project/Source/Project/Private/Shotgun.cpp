@@ -18,23 +18,32 @@ void AShotgun::Fire(USceneComponent* Location)
 	//Super::Fire();
 	UE_LOG(LogTemp, Warning, TEXT("POW!"));
 
-	FHitResult OutHit;
-	//FVector Start = GetActorLocation();
-	FVector Start = Location->GetComponentLocation();
-	//FVector Start = GetWorld()->GetFirstPlayerController()->GetCharacter()->GetActorLocation();
-	//FVector ForwardVector = GetActorForwardVector();
-	FVector ForwardVector = Location->GetForwardVector();
-	//FVector ForwardVector = GetWorld()->GetFirstPlayerController()->GetCharacter()->GetActorForwardVector();
-	FVector End = ForwardVector * Range + Start;
-	FCollisionQueryParams CollisionParams;
-
-	DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
-	GetWorld()->LineTraceSingleByObjectType(OUT OutHit, Start, End, FCollisionObjectQueryParams(ECC_Visibility), CollisionParams);
-
-	if (Cast<AParentEnemy>(OutHit.GetActor()))
+	for (int32 i = 0; i < Pellets; i++)
 	{
-		//Destroy(OutHit.GetActor());
-		UE_LOG(LogTemp, Warning, TEXT("Hit Enemy!"));
+		FHitResult OutHit;
+		//FVector Start = GetActorLocation();
+		FVector Start = Location->GetComponentLocation();
+		//FVector Start = GetWorld()->GetFirstPlayerController()->GetCharacter()->GetActorLocation();
+		//FVector ForwardVector = GetActorForwardVector();
+		FVector ForwardVector = Location->GetForwardVector();
+		//FVector ForwardVector = GetWorld()->GetFirstPlayerController()->GetCharacter()->GetActorForwardVector();
+
+		//Get random ranges for shotgun spread
+		FVector Spread = FVector(FMath::RandRange(-100.f, 100.f), FMath::RandRange(-100.f, 100.f), FMath::RandRange(-100.f, 100.f));
+
+		FVector End = ForwardVector * Range + Start + Spread;
+		FCollisionQueryParams CollisionParams;
+
+		DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
+		GetWorld()->LineTraceSingleByObjectType(OUT OutHit, Start, End, FCollisionObjectQueryParams(ECC_Pawn), CollisionParams);
+
+		if (Cast<AParentEnemy>(OutHit.GetActor()))
+		{
+			OutHit.GetActor()->Destroy();
+			UE_LOG(LogTemp, Warning, TEXT("Hit Enemy!"));
+		}
+
 	}
+
 
 }
