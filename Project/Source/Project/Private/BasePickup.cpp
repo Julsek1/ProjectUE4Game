@@ -25,6 +25,8 @@ ABasePickup::ABasePickup()
 	BasicPSComponent = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("BasicPS"));
 	BasicPSComponent->SetupAttachment(GetRootComponent());
 	
+	Rotation = false;
+	RotValue = 40.f;
 
 }
 
@@ -42,6 +44,13 @@ void ABasePickup::BeginPlay()
 void ABasePickup::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	if (Rotation)
+	{
+		FRotator RotMovement = GetActorRotation();
+		RotMovement.Yaw += DeltaTime * RotValue;
+		SetActorRotation(RotMovement);
+	}
 
 }
 

@@ -30,6 +30,12 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SoundFX")
     class USoundCue* SoundFX;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MovRotation")
+	bool Rotation;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MovRotation")
+    float RotValue;
+
 
 protected:
 	// Called when the game starts or when spawned
