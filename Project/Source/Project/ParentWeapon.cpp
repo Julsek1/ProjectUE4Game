@@ -6,7 +6,7 @@
 // Sets default values
 AParentWeapon::AParentWeapon()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	SkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Mesh"));
@@ -17,7 +17,7 @@ AParentWeapon::AParentWeapon()
 void AParentWeapon::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
 // Called every frame
@@ -29,5 +29,26 @@ void AParentWeapon::Tick(float DeltaTime)
 
 void AParentWeapon::Fire(USceneComponent* Location)
 {
-	UE_LOG(LogTemp, Warning, TEXT("BANG!"));
+
+}
+
+void AParentWeapon::Fire()
+{
+	if (CurrentClipAmmo > 0)
+	{
+		CurrentClipAmmo--;
+	}
+}
+
+bool AParentWeapon::CanTheWeaponFire()
+{
+	bool Result = false;
+
+	if (CurrentClipAmmo > 0)
+	{
+		Fire();
+		Result = true;
+	}
+
+	return Result;
 }
