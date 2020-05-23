@@ -42,13 +42,11 @@ void AParentWeapon::Fire()
 
 bool AParentWeapon::CanTheWeaponFire()
 {
-	bool Result = false;
-
 	if (CurrentClipAmmo > 0)
 	{
 		Fire();
-		Result = true;
+		return true;
 	}
 
-	return Result;
+	return false;
 }
