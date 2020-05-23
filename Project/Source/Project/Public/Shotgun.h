@@ -7,7 +7,7 @@
 #include "Shotgun.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class PROJECT_API AShotgun : public AParentWeapon
@@ -15,6 +15,7 @@ class PROJECT_API AShotgun : public AParentWeapon
 	GENERATED_BODY()
 
 public:
-	void Fire() override;
-	
+	AShotgun();
+	void Fire(USceneComponent* Location) override;
+
 };

@@ -3,8 +3,10 @@
 #pragma once
 
 #include "Camera/CameraComponent.h"
+#include "Components/ChildActorComponent.h"
 #include "Components/InputComponent.h"
 #include "Components/SceneCaptureComponent2D.h"
+#include "Components/SceneComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
@@ -29,7 +31,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -45,7 +47,7 @@ public:
 		void RotateX(float RotationX);
 	UFUNCTION()
 		void RotateY(float RotationY);
-	
+
 	//Main camera
 	UPROPERTY(VisibleAnywhere, BluePrintReadOnly)
 		UCameraComponent* MainCamera = nullptr;
@@ -73,9 +75,13 @@ public:
 
 	//Weapon
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UChildActorComponent* WeaponComponent = nullptr;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		AParentWeapon* CurrentWeapon = nullptr;
 	UFUNCTION()
 		void Fire();
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		USceneComponent* WeaponMuzzle = nullptr;
 
 private:
 	float CharacterRotationX = 0.f;

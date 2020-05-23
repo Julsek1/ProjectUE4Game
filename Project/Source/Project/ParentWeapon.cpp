@@ -9,6 +9,8 @@ AParentWeapon::AParentWeapon()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	SkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Mesh"));
+	ArrowComponent = CreateDefaultSubobject<UArrowComponent>(TEXT("Arrow"));
 }
 
 // Called when the game starts or when spawned
@@ -25,7 +27,7 @@ void AParentWeapon::Tick(float DeltaTime)
 
 }
 
-void AParentWeapon::Fire()
+void AParentWeapon::Fire(USceneComponent* Location)
 {
 	UE_LOG(LogTemp, Warning, TEXT("BANG!"));
 }
