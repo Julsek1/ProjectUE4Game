@@ -85,7 +85,8 @@ void ATwinStickShooterPlayer::SetupPlayerInputComponent(UInputComponent* PlayerI
 	PlayerInputComponent->BindAxis("TSRight", this, &ATwinStickShooterPlayer::MoveRight);
 	PlayerInputComponent->BindAxis("TSRotateX", this, &ATwinStickShooterPlayer::RotateX);
 	PlayerInputComponent->BindAxis("TSRotateY", this, &ATwinStickShooterPlayer::RotateY);
-	PlayerInputComponent->BindAction("TSFire", IE_Pressed, this, &ATwinStickShooterPlayer::Fire);
+	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &ATwinStickShooterPlayer::Fire);
+	PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &ATwinStickShooterPlayer::Reload);
 }
 
 void ATwinStickShooterPlayer::MoveForward(float Vertical)
@@ -156,5 +157,13 @@ void ATwinStickShooterPlayer::Fire()
 	if (CurrentWeapon)
 	{
 		CurrentWeapon->Fire(WeaponMuzzle);
+	}
+}
+
+void ATwinStickShooterPlayer::Reload()
+{
+	if (CurrentWeapon)
+	{
+		CurrentWeapon->Reload();
 	}
 }

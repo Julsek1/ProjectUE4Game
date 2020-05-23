@@ -6,6 +6,7 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "TimerManager.h"
 
 #include "ParentWeapon.generated.h"
 
@@ -18,16 +19,20 @@ public:
 	// Sets default values for this actor's properties
 	AParentWeapon();
 	virtual void Fire(USceneComponent* Location);
-	virtual void Fire();
+	void Fire();
+	virtual void Reload();
+	virtual void ReplenishClip();
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	float Range;
+	FTimerHandle ReloadTimerHandle;
+	bool bCurrentlyReloading = false;
 
 public:	
 	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	//virtual void Tick(float DeltaTime) override;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		USkeletalMeshComponent* SkeletalMesh = nullptr;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
@@ -45,5 +50,4 @@ public:
 private:
 	UPROPERTY(EditAnywhere)
 		UArrowComponent* ArrowComponent = nullptr;
-	
 };

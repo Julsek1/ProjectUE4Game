@@ -80,6 +80,8 @@ public:
 		AParentWeapon* CurrentWeapon = nullptr;
 	UFUNCTION()
 		void Fire();
+	UFUNCTION()
+		void Reload();
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		USceneComponent* WeaponMuzzle = nullptr;
 

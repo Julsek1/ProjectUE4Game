@@ -7,10 +7,16 @@
 AParentWeapon::AParentWeapon()
 {
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	//PrimaryActorTick.bCanEverTick = true;
 
 	SkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Mesh"));
 	ArrowComponent = CreateDefaultSubobject<UArrowComponent>(TEXT("Arrow"));
+
+	WeaponName = "";
+	Range = 0.f;
+	ClipSize = 0;
+	CurrentClipAmmo = 0;
+	AmmoCapacity = 0;
 }
 
 // Called when the game starts or when spawned
@@ -21,11 +27,11 @@ void AParentWeapon::BeginPlay()
 }
 
 // Called every frame
-void AParentWeapon::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-}
+//void AParentWeapon::Tick(float DeltaTime)
+//{
+//	Super::Tick(DeltaTime);
+//
+//}
 
 void AParentWeapon::Fire(USceneComponent* Location)
 {
@@ -42,11 +48,47 @@ void AParentWeapon::Fire()
 
 bool AParentWeapon::CanTheWeaponFire()
 {
-	if (CurrentClipAmmo > 0)
+	if (CurrentClipAmmo > 0 && !bCurrentlyReloading)
 	{
 		Fire();
 		return true;
 	}
 
 	return false;
+}
+
+void AParentWeapon::Reload()
+{
+	if (!bCurrentlyReloading && AmmoCapacity > 0)
+	{
+		bCurrentlyReloading = true;
+
+		GetWorldTimerManager().SetTimer(ReloadTimerHandle, this, &AParentWeapon::ReplenishClip, ReloadSpeed, false);
+	}
+
+}
+
+void AParentWeapon::ReplenishClip()
+{
+	GetWorldTimerManager().ClearTimer(ReloadTimerHandle);
+
+	if (ClipSize - CurrentClipAmmo <= AmmoCapacity)
+	{
+		AmmoCapacity -= (ClipSize - CurrentClipAmmo);
+		CurrentClipAmmo = ClipSize;
+	}
+
+	else
+	{
+		CurrentClipAmmo += AmmoCapacity;
+		AmmoCapacity = 0;
+	}
+
+	//while (CurrentClipAmmo < ClipSize && AmmoCapacity > 0)//get rid of while loop once this works
+	//{
+	//	CurrentClipAmmo++;
+	//	AmmoCapacity--;
+	//}
+
+	bCurrentlyReloading = false;
 }

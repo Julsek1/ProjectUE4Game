@@ -14,7 +14,8 @@ AShotgun::AShotgun()
 	Range = 1000.f;
 	ClipSize = 8;
 	CurrentClipAmmo = 8;
-	AmmoCapacity = 64;
+	AmmoCapacity = 24;
+	ReloadSpeed = 2.0f;
 }
 
 void AShotgun::Fire(USceneComponent* Location)
@@ -49,7 +50,28 @@ void AShotgun::Fire(USceneComponent* Location)
 		}
 
 	}
-
-
-
 }
+
+//void AShotgun::Reload()
+//{
+//	if (!bCurrentlyReloading)
+//	{
+//		bCurrentlyReloading = true;
+//
+//		GetWorldTimerManager().SetTimer(ReloadTimerHandle, this, &AParentWeapon::ReplenishClip, ReloadSpeed, false);
+//	}
+//
+//}
+//
+//void AShotgun::ReplenishClip()
+//{
+//	GetWorldTimerManager().ClearTimer(ReloadTimerHandle);
+//
+//	while (CurrentClipAmmo < ClipSize && AmmoCapacity > 0)//get rid of while loop once this works
+//	{
+//		CurrentClipAmmo++;
+//		AmmoCapacity--;
+//	}
+//
+//	bCurrentlyReloading = false;
+//}
