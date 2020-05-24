@@ -36,6 +36,22 @@ public:
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera")
  float InitialLookUpValue;
 
+ //PLAYER ITEMS
+
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stats")
+ float Hp;
+
+ UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Stats")
+ float MaxHp;
+
+ UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Stats")
+ float MaxHealth;
+
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stats")
+ int32 Collectibles;
+
+
+
 
 protected:
 	// Called when the game starts or when spawned

@@ -44,6 +44,10 @@ AJBasePlayer::AJBasePlayer()
 	GetCharacterMovement()->JumpZVelocity = 650.f;
 	GetCharacterMovement()->AirControl = 0.2f;
 
+	Hp = 70.f;
+	MaxHp = 100.f;
+	Collectibles = 0;
+
 }
 
 // Called when the game starts or when spawned
