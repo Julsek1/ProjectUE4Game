@@ -17,6 +17,8 @@ AParentWeapon::AParentWeapon()
 	ClipSize = 0;
 	CurrentClipAmmo = 0;
 	AmmoCapacity = 0;
+	ReloadSpeed = 0.f;
+	FireRate = 0.f;
 }
 
 // Called when the game starts or when spawned
@@ -48,13 +50,22 @@ void AParentWeapon::Fire()
 
 bool AParentWeapon::CanTheWeaponFire()
 {
-	if (CurrentClipAmmo > 0 && !bCurrentlyReloading)
+	if (CurrentClipAmmo > 0 && !bCurrentlyReloading && bCanShoot)
 	{
+		bCanShoot = false;
 		Fire();
+		GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &AParentWeapon::TimeToFireElapsed, FireRate, false);
 		return true;
 	}
 
 	return false;
+}
+
+void AParentWeapon::TimeToFireElapsed()
+{
+	GetWorldTimerManager().ClearTimer(FireRateTimerHandle);
+
+	bCanShoot = true;
 }
 
 void AParentWeapon::Reload()

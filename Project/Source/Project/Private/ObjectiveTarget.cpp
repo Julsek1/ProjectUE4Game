@@ -28,9 +28,10 @@ UObjectiveTarget::UObjectiveTarget()
 
 void UObjectiveTarget::OnComponentDestroyed(bool bDestroyingHierarchy)
 {
-
-	if (GetWorld() && GetWorld()->IsGameWorld())
+	if (GetWorld() && GetWorld()->IsGameWorld() && !bDestroyed)
 	{
+		bDestroyed = true;
+
 		ATwinStickShooterPlayer* Player = Cast<ATwinStickShooterPlayer>(GetWorld()->GetFirstPlayerController()->GetCharacter());
 
 		if (Player && Player->CurrentObjective)

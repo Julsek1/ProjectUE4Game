@@ -22,7 +22,7 @@ public:
 	void Fire();
 	virtual void Reload();
 	virtual void ReplenishClip();
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	UPROPERTY(BlueprintReadOnly)
 		FTimerHandle ReloadTimerHandle;
 
 protected:
@@ -30,6 +30,9 @@ protected:
 	virtual void BeginPlay() override;
 	float Range;
 	bool bCurrentlyReloading = false;
+	bool bCanShoot = true;
+	FTimerHandle FireRateTimerHandle;
+	void TimeToFireElapsed();
 
 public:	
 	// Called every frame
@@ -38,6 +41,8 @@ public:
 		USkeletalMeshComponent* SkeletalMesh = nullptr;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 		float ReloadSpeed;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		float FireRate;//time between shots
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 		int32 AmmoCapacity;//total amount of ammo you can carry for the gun
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)

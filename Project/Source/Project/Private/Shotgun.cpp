@@ -14,8 +14,9 @@ AShotgun::AShotgun()
 	Range = 1000.f;
 	ClipSize = 8;
 	CurrentClipAmmo = 8;
-	AmmoCapacity = 24;
-	ReloadSpeed = 2.0f;
+	AmmoCapacity = 64;
+	ReloadSpeed = 2.f;
+	FireRate = 0.66f;
 }
 
 void AShotgun::Fire(USceneComponent* Location)
