@@ -36,6 +36,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MovRotation")
     float RotValue;
 
+	
+
 
 protected:
 	// Called when the game starts or when spawned

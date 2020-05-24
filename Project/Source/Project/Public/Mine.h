@@ -13,10 +13,13 @@ UCLASS()
 class PROJECT_API AMine : public ABasePickup
 {
 	GENERATED_BODY()
+
 public:
 
 	AMine();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hazard")
+	float Damage;
 	
 	virtual void OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, 

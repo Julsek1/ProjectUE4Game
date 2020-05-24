@@ -75,6 +75,16 @@ public:
 	//Look up and down at a provided value
 	void LookUpAtUnit(float Value);
 
+	
+	//Player's death
+	void Death();
+
+	//Collectibles++
+	void CollectUp(int32 CollectQty);
+	
+	//Affect Health
+	void DamageHp(float Damage);
+
 	FORCEINLINE class USpringArmComponent* GetCameraStick() const { return CameraStick; };
 	FORCEINLINE class UCameraComponent* GetPlayerCamera() const { return PlayerCamera; };
 	

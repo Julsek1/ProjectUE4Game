@@ -123,6 +123,28 @@ void AJBasePlayer::LookUpAtUnit(float Value)
 
 }
 
+void AJBasePlayer::Death()
+{
+}
+
+void AJBasePlayer::DamageHp(float Damage)
+{
+	if (Hp - Damage <= 0.f)
+	{
+		Hp -= Damage;
+		Death();
+	}
+	else
+	{
+		Hp -= Damage;
+	}
+}
+
+void AJBasePlayer::CollectUp(int32 CollectQty)
+{
+	Collectibles += CollectQty;
+}
+
 
 
 
