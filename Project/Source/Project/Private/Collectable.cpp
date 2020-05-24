@@ -20,7 +20,7 @@ void ACollectable::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AAct
 		if (Player)
 		{
 			Player->CollectUp(CollectCount);
-
+			Destroy();
 		}
 	}
 }

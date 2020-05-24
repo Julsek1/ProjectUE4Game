@@ -23,6 +23,7 @@ public:
 	// Sets default values for this character's properties
 	AJBasePlayer();
 
+
 //Camera position in reference to player
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess=true))
  class USpringArmComponent* CameraStick;
@@ -87,5 +88,11 @@ public:
 
 	FORCEINLINE class USpringArmComponent* GetCameraStick() const { return CameraStick; };
 	FORCEINLINE class UCameraComponent* GetPlayerCamera() const { return PlayerCamera; };
+
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Pickup")
+		class AGun* UsedGun;
+
+	FORCEINLINE void SetUsedGun(AGun* GunToSet) { UsedGun = GunToSet; }
 	
 };

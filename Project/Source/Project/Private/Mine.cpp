@@ -20,7 +20,7 @@ void AMine::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 		if (Player)
 		{
 			Player->DamageHp(Damage);
-
+			Destroy();
 		}
 	}
 }

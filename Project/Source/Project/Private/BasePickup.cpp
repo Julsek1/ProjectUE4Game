@@ -65,7 +65,7 @@ void ABasePickup::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActo
 	{
 		UGameplayStatics::PlaySound2D(this, SoundFX);
 	}
-	Destroy();
+	
 }
 
 void ABasePickup::OnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
