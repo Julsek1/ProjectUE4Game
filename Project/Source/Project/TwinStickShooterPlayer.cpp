@@ -6,6 +6,7 @@
 #include "Engine/Engine.h"
 #include "Engine/GameInstance.h"
 #include "GameFramework/Controller.h"
+#include "Shotgun.h"
 
 // Sets default values
 ATwinStickShooterPlayer::ATwinStickShooterPlayer()
@@ -40,12 +41,21 @@ ATwinStickShooterPlayer::ATwinStickShooterPlayer()
 
 	/*MinimapCapture->CreateDefaultSubobject<USceneCaptureComponent2D>(TEXT("MinimapCapture"));
 	MinimapCapture->SetupAttachment(MinimapSpringArm);*/
+
+	//SetupWeapon
+	/*WeaponComponent = CreateDefaultSubobject<UChildActorComponent>(TEXT("Weapon"));
+	WeaponComponent->SetupAttachment(GetMesh());*/
+	WeaponMuzzle = CreateDefaultSubobject<USceneComponent>(TEXT("Muzzle"));
+	WeaponMuzzle->SetupAttachment(RootComponent);
 }
 
 // Called when the game starts or when spawned
 void ATwinStickShooterPlayer::BeginPlay()
 {
 	Super::BeginPlay();
+
+	//Give a weapon
+	//CurrentWeapon = NewObject<AShotgun>();
 
 	//Setup values from game instance
 	Health = GetWorld()->GetGameInstance<UCustomGameInstance>()->PlayerHealth;
@@ -75,7 +85,8 @@ void ATwinStickShooterPlayer::SetupPlayerInputComponent(UInputComponent* PlayerI
 	PlayerInputComponent->BindAxis("TSRight", this, &ATwinStickShooterPlayer::MoveRight);
 	PlayerInputComponent->BindAxis("TSRotateX", this, &ATwinStickShooterPlayer::RotateX);
 	PlayerInputComponent->BindAxis("TSRotateY", this, &ATwinStickShooterPlayer::RotateY);
-	PlayerInputComponent->BindAction("TSFire", IE_Pressed, this, &ATwinStickShooterPlayer::Fire);
+	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &ATwinStickShooterPlayer::Fire);
+	PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &ATwinStickShooterPlayer::Reload);
 }
 
 void ATwinStickShooterPlayer::MoveForward(float Vertical)
@@ -145,6 +156,14 @@ void ATwinStickShooterPlayer::Fire()
 {
 	if (CurrentWeapon)
 	{
-		CurrentWeapon->Fire();
+		CurrentWeapon->Fire(WeaponMuzzle);
+	}
+}
+
+void ATwinStickShooterPlayer::Reload()
+{
+	if (CurrentWeapon)
+	{
+		CurrentWeapon->Reload();
 	}
 }
