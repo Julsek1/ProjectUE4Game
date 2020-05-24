@@ -94,5 +94,7 @@ public:
 		class AGun* UsedGun;
 
 	FORCEINLINE void SetUsedGun(AGun* GunToSet) { UsedGun = GunToSet; }
+
+	void GoToNextLevel(FName LevelName);
 	
 };

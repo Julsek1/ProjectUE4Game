@@ -6,7 +6,9 @@
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Engine/GameInstance.h"
+#include "Kismet/GameplayStatics.h"
 #include "GameFramework/Controller.h"
+#include "..\Public\JBasePlayer.h"
 
 // Sets default values
 AJBasePlayer::AJBasePlayer()
@@ -138,6 +140,20 @@ void AJBasePlayer::DamageHp(float Damage)
 	{
 		Hp -= Damage;
 	}
+}
+
+void AJBasePlayer::GoToNextLevel(FName LevelName)
+{
+	UWorld* LevelWorld = GetWorld();
+		if (LevelWorld)
+		{
+			FString ActualLevel = LevelWorld->GetMapName();
+			FName ActualLevelName(*ActualLevel);
+			if (ActualLevelName != LevelName)
+			{
+				UGameplayStatics::OpenLevel(LevelWorld, LevelName);
+			}
+		}
 }
 
 void AJBasePlayer::CollectUp(int32 CollectQty)
