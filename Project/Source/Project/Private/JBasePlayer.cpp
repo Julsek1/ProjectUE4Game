@@ -9,6 +9,10 @@
 #include "Kismet/GameplayStatics.h"
 #include "GameFramework/Controller.h"
 #include "..\Public\JBasePlayer.h"
+#include "BasePlayerController.h"
+
+
+
 
 // Sets default values
 AJBasePlayer::AJBasePlayer()
@@ -50,6 +54,8 @@ AJBasePlayer::AJBasePlayer()
 	MaxHp = 100.f;
 	Collectibles = 0;
 
+	EscDown = false;
+
 }
 
 // Called when the game starts or when spawned
@@ -79,6 +85,9 @@ void AJBasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
+	PlayerInputComponent->BindAction("Q", IE_Pressed, this, &AJBasePlayer::EscD);
+	PlayerInputComponent->BindAction("Q", IE_Released, this, &AJBasePlayer::EscUp);
+
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AJBasePlayer::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AJBasePlayer::MoveRight);
@@ -87,8 +96,7 @@ void AJBasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("TurnRate", this, &AJBasePlayer::TurnAtUnit);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AJBasePlayer::LookUpAtUnit);
-
-
+	
 
 }
 
@@ -123,6 +131,21 @@ void AJBasePlayer::LookUpAtUnit(float Value)
 {
 	AddControllerPitchInput(Value * InitialLookUpValue * GetWorld()->GetDeltaSeconds());
 
+}
+
+void AJBasePlayer::EscD()
+{
+	EscDown = true;
+
+	if (PController)
+	{
+		PController->CheckPMenu();
+	}
+}
+
+void AJBasePlayer::EscUp()
+{
+	EscDown = false;
 }
 
 void AJBasePlayer::Death()

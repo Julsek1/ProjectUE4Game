@@ -31,6 +31,11 @@ public:
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = true))
  class UCameraComponent* PlayerCamera;
 
+ UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Controller")
+ class ABasePlayerController* PController;
+
+
+
  //Turning camera values
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera")
  float InitialTurnValue;
@@ -75,6 +80,14 @@ public:
 
 	//Look up and down at a provided value
 	void LookUpAtUnit(float Value);
+
+
+	//Pause Menu ESC variables
+
+	bool EscDown;
+
+	void EscD();
+	void EscUp();
 
 	
 	//Player's death
