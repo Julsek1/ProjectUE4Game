@@ -2,6 +2,7 @@
 
 
 #include "ParentEnemy.h"
+#include "Kismet/GameplayStatics.h"
 #include "TSEnemyWidget.h"
 
 
@@ -20,7 +21,7 @@ AParentEnemy::AParentEnemy()
 void AParentEnemy::BeginPlay()
 {
 	Super::BeginPlay();
-	//Cast<UTSEnemyWidget>(WidgetComponent->GetUserWidgetObject())->Enemy = this;
+	Cast<UTSEnemyWidget>(WidgetComponent->GetUserWidgetObject())->Enemy = this;
 }
 
 // Called every frame
@@ -28,12 +29,14 @@ void AParentEnemy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	UE_LOG(LogTemp, Warning, TEXT("%f"), Health);
-
 	if (Health <= 0)
 	{
 		Destroy();
 	}
+
+	/*auto camera = UGameplayStatics::GetPlayerCameraManager(GetWorld(), 0);
+	WidgetComponent->SetWorldRotation(camera->GetCameraRotation());
+	WidgetComponent->AddLocalRotation(FRotator(0, 180, 0));*/
 }
 
 // Called to bind functionality to input
