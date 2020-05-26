@@ -2,9 +2,11 @@
 
 #pragma once
 
+#include "Components/WidgetComponent.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "ParentEnemy.generated.h"
+
 
 UCLASS()
 class PROJECT_API AParentEnemy : public ACharacter
@@ -26,5 +28,9 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	float Health = 1.f;
+	UPROPERTY(BlueprintReadOnly)
+		float Health = 1.0f;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		UWidgetComponent* WidgetComponent;
 };

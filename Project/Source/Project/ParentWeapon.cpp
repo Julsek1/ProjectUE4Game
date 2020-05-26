@@ -71,7 +71,7 @@ void AParentWeapon::TimeToFireElapsed()
 
 void AParentWeapon::Reload()
 {
-	if (!bCurrentlyReloading && AmmoCapacity > 0)
+	if (!bCurrentlyReloading && AmmoCapacity > 0 && CurrentClipAmmo < ClipSize)
 	{
 		bCurrentlyReloading = true;
 

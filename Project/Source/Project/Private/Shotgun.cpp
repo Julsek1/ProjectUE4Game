@@ -17,7 +17,7 @@ AShotgun::AShotgun()
 	AmmoCapacity = 64;
 	ReloadSpeed = 2.f;
 	FireRate = 0.66f;
-	Damage = 0.05f;
+	Damage = 0.08f;
 }
 
 void AShotgun::Fire(USceneComponent* Location)

@@ -17,7 +17,7 @@ AAssaultRifle::AAssaultRifle()
 	AmmoCapacity = 256;
 	ReloadSpeed = 1.f;
 	FireRate = 0.1f;
-	Damage = 0.05f;
+	Damage = 0.1f;
 }
 
 void AAssaultRifle::Fire(USceneComponent* Location)

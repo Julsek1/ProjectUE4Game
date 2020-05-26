@@ -22,7 +22,7 @@ public:
 	void Fire();
 	virtual void Reload();
 	virtual void ReplenishClip();
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(BlueprintReadOnly)//ReadOnly
 		FTimerHandle ReloadTimerHandle;
 
 protected:

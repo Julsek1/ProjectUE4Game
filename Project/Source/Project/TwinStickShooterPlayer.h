@@ -84,6 +84,8 @@ public:
 		void Reload();
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		USceneComponent* WeaponMuzzle = nullptr;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<AParentWeapon*> Weapons;
 
 private:
 	float CharacterRotationX = 0.f;

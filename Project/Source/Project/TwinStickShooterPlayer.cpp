@@ -47,6 +47,8 @@ ATwinStickShooterPlayer::ATwinStickShooterPlayer()
 	WeaponComponent->SetupAttachment(GetMesh());*/
 	WeaponMuzzle = CreateDefaultSubobject<USceneComponent>(TEXT("Muzzle"));
 	WeaponMuzzle->SetupAttachment(RootComponent);
+	
+	//Weapons.Add(GetWorld()->SpawnActor<AShotgun>();
 }
 
 // Called when the game starts or when spawned
@@ -56,6 +58,7 @@ void ATwinStickShooterPlayer::BeginPlay()
 
 	//Give a weapon
 	//CurrentWeapon = NewObject<AShotgun>();
+	//CurrentWeapon = Weapons[0];
 
 	//Setup values from game instance
 	Health = GetWorld()->GetGameInstance<UCustomGameInstance>()->PlayerHealth;
