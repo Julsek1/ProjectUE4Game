@@ -88,6 +88,9 @@ public:
 private:
 	float CharacterRotationX = 0.f;
 	float CharacterRotationY = 0.f;
-
 	void Rotate();
+	
+	bool bIsFiring = false;
+	void FireButtonDown();
+	void FireButtonUp();
 };

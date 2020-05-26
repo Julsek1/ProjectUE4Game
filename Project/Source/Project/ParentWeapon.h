@@ -33,6 +33,7 @@ protected:
 	bool bCanShoot = true;
 	FTimerHandle FireRateTimerHandle;
 	void TimeToFireElapsed();
+	float Damage;
 
 public:	
 	// Called every frame

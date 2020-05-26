@@ -19,6 +19,7 @@ AParentWeapon::AParentWeapon()
 	AmmoCapacity = 0;
 	ReloadSpeed = 0.f;
 	FireRate = 0.f;
+	Damage = 0.f;
 }
 
 // Called when the game starts or when spawned

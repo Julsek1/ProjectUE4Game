@@ -15,14 +15,16 @@ AParentEnemy::AParentEnemy()
 void AParentEnemy::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
 void AParentEnemy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	if (Health <= 0)
+	{
+		Destroy();
+	}
 }
 
 // Called to bind functionality to input

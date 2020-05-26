@@ -17,6 +17,7 @@ AShotgun::AShotgun()
 	AmmoCapacity = 64;
 	ReloadSpeed = 2.f;
 	FireRate = 0.66f;
+	Damage = 0.05f;
 }
 
 void AShotgun::Fire(USceneComponent* Location)
@@ -44,8 +45,8 @@ void AShotgun::Fire(USceneComponent* Location)
 
 			if (Cast<AParentEnemy>(OutHit.GetActor()))
 			{
-				OutHit.GetActor()->Destroy();
-				UE_LOG(LogTemp, Warning, TEXT("Hit Enemy!"));
+				//OutHit.GetActor()->Destroy();
+				Cast<AParentEnemy>(OutHit.GetActor())->Health -= Damage;
 			}
 
 		}
