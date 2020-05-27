@@ -24,7 +24,8 @@ void AAssaultRifle::Fire(USceneComponent* Location)
 {
 	if (Super::CanTheWeaponFire())
 	{
-		FHitResult OutHit;
+		//FHitResult OutHit;
+		TArray<FHitResult> OutHits;
 		//FVector Start = GetActorLocation();
 		FVector Start = Location->GetComponentLocation();
 		//FVector Start = GetWorld()->GetFirstPlayerController()->GetCharacter()->GetActorLocation();
@@ -36,12 +37,19 @@ void AAssaultRifle::Fire(USceneComponent* Location)
 		FCollisionQueryParams CollisionParams;
 
 		DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 0.1f, 0, 1);
-		GetWorld()->LineTraceSingleByChannel(OUT OutHit, Start, End, ECollisionChannel(ECC_Pawn), CollisionParams);
+		//GetWorld()->LineTraceSingleByChannel(OUT OutHit, Start, End, ECollisionChannel(ECC_Pawn), CollisionParams);
+		GetWorld()->LineTraceMultiByChannel(OutHits, Start, End, ECollisionChannel(ECC_Pawn), CollisionParams);
 
-		if (Cast<AParentEnemy>(OutHit.GetActor()))
-		{
-			//OutHit.GetActor()->Destroy();
-			Cast<AParentEnemy>(OutHit.GetActor())->Health -= Damage;
-		}
+		if (Cast<AParentEnemy>(OutHits[0].GetActor()))
+			{
+				//OutHit.GetActor()->Destroy();
+				Cast<AParentEnemy>(OutHits[0].GetActor())->Health -= Damage;
+			}
+
+		//if (Cast<AParentEnemy>(OutHit.GetActor()))
+		//{
+		//	//OutHit.GetActor()->Destroy();
+		//	Cast<AParentEnemy>(OutHit.GetActor())->Health -= Damage;
+		//}
 	}
 }
