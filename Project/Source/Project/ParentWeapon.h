@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "Animation/AnimationAsset.h"
 #include "Components/ArrowComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "CoreMinimal.h"
@@ -22,15 +23,16 @@ public:
 	void Fire();
 	virtual void Reload();
 	virtual void ReplenishClip();
-	UPROPERTY(BlueprintReadOnly)//ReadOnly
+	UPROPERTY(BlueprintReadOnly)
 		FTimerHandle ReloadTimerHandle;
+	UPROPERTY(BlueprintReadWrite)//ReadOnly
+		bool bCanShoot = true;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	float Range;
 	bool bCurrentlyReloading = false;
-	bool bCanShoot = true;
 	FTimerHandle FireRateTimerHandle;
 	void TimeToFireElapsed();
 	float Damage;
@@ -53,6 +55,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		FString WeaponName;
 	bool CanTheWeaponFire();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UAnimationAsset* FiringAnimation = nullptr;
 
 private:
 	UPROPERTY(EditAnywhere)

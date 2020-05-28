@@ -47,6 +47,13 @@ void AParentWeapon::Fire()
 	{
 		CurrentClipAmmo--;
 	}
+
+	//play firing animation
+	if (FiringAnimation)
+	{
+		SkeletalMesh->PlayAnimation(FiringAnimation, false);
+	}
+
 }
 
 bool AParentWeapon::CanTheWeaponFire()

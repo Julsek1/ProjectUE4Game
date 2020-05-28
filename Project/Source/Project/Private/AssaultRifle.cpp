@@ -41,10 +41,10 @@ void AAssaultRifle::Fire(USceneComponent* Location)
 		GetWorld()->LineTraceMultiByChannel(OutHits, Start, End, ECollisionChannel(ECC_Pawn), CollisionParams);
 
 		if (Cast<AParentEnemy>(OutHits[0].GetActor()))
-			{
-				//OutHit.GetActor()->Destroy();
-				Cast<AParentEnemy>(OutHits[0].GetActor())->Health -= Damage;
-			}
+		{
+			//OutHit.GetActor()->Destroy();
+			Cast<AParentEnemy>(OutHits[0].GetActor())->Health -= Damage;
+		}
 
 		//if (Cast<AParentEnemy>(OutHit.GetActor()))
 		//{
