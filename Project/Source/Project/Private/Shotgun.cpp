@@ -14,8 +14,10 @@ AShotgun::AShotgun()
 	Range = 1000.f;
 	ClipSize = 8;
 	CurrentClipAmmo = 8;
-	AmmoCapacity = 24;
-	ReloadSpeed = 2.0f;
+	AmmoCapacity = 64;
+	ReloadSpeed = 2.f;
+	FireRate = 0.66f;
+	Damage = 0.08f;
 }
 
 void AShotgun::Fire(USceneComponent* Location)
@@ -24,7 +26,8 @@ void AShotgun::Fire(USceneComponent* Location)
 	{
 		for (int32 i = 0; i < Pellets; i++)
 		{
-			FHitResult OutHit;
+			//FHitResult OutHit;
+			TArray<FHitResult> OutHits;
 			//FVector Start = GetActorLocation();
 			FVector Start = Location->GetComponentLocation();
 			//FVector Start = GetWorld()->GetFirstPlayerController()->GetCharacter()->GetActorLocation();
@@ -39,13 +42,22 @@ void AShotgun::Fire(USceneComponent* Location)
 			FCollisionQueryParams CollisionParams;
 
 			DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 0.1f, 0, 1);
-			GetWorld()->LineTraceSingleByChannel(OUT OutHit, Start, End, ECollisionChannel(ECC_Pawn), CollisionParams);
+			GetWorld()->LineTraceMultiByChannel(OutHits, Start, End, ECollisionChannel(ECC_Pawn), CollisionParams);
+
+			for (int32 j = 0; j < OutHits.Num(); j++)
+			{
+				if (Cast<AParentEnemy>(OutHits[j].GetActor()))
+				{
+					Cast<AParentEnemy>(OutHits[j].GetActor())->Health -= Damage;
+				}
+			}
+
+			/*GetWorld()->LineTraceSingleByChannel(OUT OutHit, Start, End, ECollisionChannel(ECC_Pawn), CollisionParams);
 
 			if (Cast<AParentEnemy>(OutHit.GetActor()))
 			{
-				OutHit.GetActor()->Destroy();
-				UE_LOG(LogTemp, Warning, TEXT("Hit Enemy!"));
-			}
+				Cast<AParentEnemy>(OutHit.GetActor())->Health -= Damage;
+			}*/
 
 		}
 

@@ -47,6 +47,8 @@ ATwinStickShooterPlayer::ATwinStickShooterPlayer()
 	WeaponComponent->SetupAttachment(GetMesh());*/
 	WeaponMuzzle = CreateDefaultSubobject<USceneComponent>(TEXT("Muzzle"));
 	WeaponMuzzle->SetupAttachment(RootComponent);
+	
+	//Weapons.Add(GetWorld()->SpawnActor<AShotgun>();
 }
 
 // Called when the game starts or when spawned
@@ -56,6 +58,7 @@ void ATwinStickShooterPlayer::BeginPlay()
 
 	//Give a weapon
 	//CurrentWeapon = NewObject<AShotgun>();
+	//CurrentWeapon = Weapons[0];
 
 	//Setup values from game instance
 	Health = GetWorld()->GetGameInstance<UCustomGameInstance>()->PlayerHealth;
@@ -73,7 +76,11 @@ void ATwinStickShooterPlayer::BeginPlay()
 void ATwinStickShooterPlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	
+	if (bIsFiring)
+	{
+		Fire();
+	}
 }
 
 // Called to bind functionality to input
@@ -85,7 +92,8 @@ void ATwinStickShooterPlayer::SetupPlayerInputComponent(UInputComponent* PlayerI
 	PlayerInputComponent->BindAxis("TSRight", this, &ATwinStickShooterPlayer::MoveRight);
 	PlayerInputComponent->BindAxis("TSRotateX", this, &ATwinStickShooterPlayer::RotateX);
 	PlayerInputComponent->BindAxis("TSRotateY", this, &ATwinStickShooterPlayer::RotateY);
-	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &ATwinStickShooterPlayer::Fire);
+	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &ATwinStickShooterPlayer::FireButtonDown);
+	PlayerInputComponent->BindAction("Fire", IE_Released, this, &ATwinStickShooterPlayer::FireButtonUp);
 	PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &ATwinStickShooterPlayer::Reload);
 }
 
@@ -166,4 +174,14 @@ void ATwinStickShooterPlayer::Reload()
 	{
 		CurrentWeapon->Reload();
 	}
+}
+
+void ATwinStickShooterPlayer::FireButtonDown()
+{
+	bIsFiring = true;
+}
+
+void ATwinStickShooterPlayer::FireButtonUp()
+{
+	bIsFiring = false;
 }
