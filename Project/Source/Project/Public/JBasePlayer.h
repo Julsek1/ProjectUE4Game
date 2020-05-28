@@ -109,5 +109,11 @@ public:
 	FORCEINLINE void SetUsedGun(AGun* GunToSet) { UsedGun = GunToSet; }
 
 	void GoToNextLevel(FName LevelName);
+
+	UFUNCTION(BlueprintCallable)
+	void SaveGame();
+
+	UFUNCTION(BlueprintCallable)
+	void LoadGame(bool SetPos);
 	
 };

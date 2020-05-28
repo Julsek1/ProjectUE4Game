@@ -8,6 +8,7 @@
 #include "Engine/GameInstance.h"
 #include "Kismet/GameplayStatics.h"
 #include "GameFramework/Controller.h"
+#include "JSaveGame.h"
 #include "..\Public\JBasePlayer.h"
 #include "BasePlayerController.h"
 
@@ -24,7 +25,7 @@ AJBasePlayer::AJBasePlayer()
 	//Create camera's holder
 	CameraStick = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraStick"));
 	CameraStick->SetupAttachment(GetRootComponent());
-	CameraStick->TargetArmLength = 600.f; //camera distance from player
+	CameraStick->TargetArmLength = 400.f; //camera distance from player
 	CameraStick->bUsePawnControlRotation = true; //Rotate according to controller
 
 	//Capsule component size
@@ -177,6 +178,36 @@ void AJBasePlayer::GoToNextLevel(FName LevelName)
 				UGameplayStatics::OpenLevel(LevelWorld, LevelName);
 			}
 		}
+}
+
+void AJBasePlayer::SaveGame()
+{
+	UJSaveGame* SaveGameInst = Cast<UJSaveGame>(UGameplayStatics::CreateSaveGameObject(UJSaveGame::StaticClass()));
+	SaveGameInst->PlayerStats.Hp = Hp;
+	SaveGameInst->PlayerStats.Collectibles = Collectibles;
+	SaveGameInst->PlayerStats.MaxHp = MaxHp;
+
+	SaveGameInst->PlayerStats.PlayerLocation = GetActorLocation();
+	SaveGameInst->PlayerStats.PlayerRotation = GetActorRotation();
+
+	UGameplayStatics::SaveGameToSlot(SaveGameInst, SaveGameInst->NameOfPlayer, SaveGameInst->IndexUser);
+
+}
+
+void AJBasePlayer::LoadGame(bool Setpos)
+{
+	UJSaveGame* LoadGameInst = Cast<UJSaveGame>(UGameplayStatics::CreateSaveGameObject(UJSaveGame::StaticClass()));
+	LoadGameInst = Cast<UJSaveGame>(UGameplayStatics::LoadGameFromSlot(LoadGameInst->NameOfPlayer, LoadGameInst->IndexUser));
+
+	Hp = LoadGameInst->PlayerStats.Hp;
+	MaxHp = LoadGameInst->PlayerStats.MaxHp;
+	Collectibles = LoadGameInst->PlayerStats.Collectibles;
+
+	if (Setpos)
+	{
+		SetActorLocation(LoadGameInst->PlayerStats.PlayerLocation);
+		SetActorRotation(LoadGameInst->PlayerStats.PlayerRotation);
+	}
 }
 
 void AJBasePlayer::CollectUp(int32 CollectQty)
