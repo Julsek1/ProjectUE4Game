@@ -11,7 +11,7 @@
 AShotgun::AShotgun()
 {
 	WeaponName = "Shotgun";
-	Range = 1000.f;
+	Range = 500.f;
 	ClipSize = 8;
 	CurrentClipAmmo = 8;
 	AmmoCapacity = 64;
