@@ -9,7 +9,9 @@
 #include "Kismet/GameplayStatics.h"
 #include "GameFramework/Controller.h"
 #include "Gun.h"
+#include "Animation/AnimInstance.h"
 #include "JSaveGame.h"
+#include "Components/SkeletalMeshComponent.h"
 #include "..\Public\JBasePlayer.h"
 #include "BasePlayerController.h"
 
@@ -105,7 +107,7 @@ void AJBasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 void AJBasePlayer::MoveForward(float Value)
 {
-	if ((Controller != nullptr) && (Value != 0.0f))
+	if ((Controller != nullptr) && (Value != 0.0f) && (!Fighting))
 	{
 		//find forward direction
 		const FRotator Rotation = Controller->GetControlRotation();
@@ -118,11 +120,13 @@ void AJBasePlayer::MoveForward(float Value)
 
 void AJBasePlayer::MoveRight(float Value)
 {
-	const FRotator Rotation = Controller->GetControlRotation();
-	const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
-	const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-	AddMovementInput(Direction, Value);
-
+	if ((Controller != nullptr) && (Value != 0.0f) && (!Fighting))
+	{
+		const FRotator Rotation = Controller->GetControlRotation();
+		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+		AddMovementInput(Direction, Value);
+	}
 }
 
 void AJBasePlayer::TurnAtUnit(float Value)
@@ -147,6 +151,10 @@ void AJBasePlayer::LeftMouseD()
 			Gun->UseGun(this);
 			SetOverlapedPickup(nullptr);
 		}
+	}
+	else if (UsedGun)
+	{
+		Fight();
 	}
 }
 
@@ -241,6 +249,33 @@ void AJBasePlayer::LoadGame(bool Setpos)
 	{
 		SetActorLocation(LoadGameInst->PlayerStats.PlayerLocation);
 		SetActorRotation(LoadGameInst->PlayerStats.PlayerRotation);
+	}
+}
+
+
+//Attacking functions 
+
+void AJBasePlayer::Fight()
+{
+	if (!Fighting)
+	{
+		Fighting = true;
+
+		UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
+		if (AnimationInst && FightMontage)
+		{
+			AnimationInst->Montage_Play(FightMontage, 1.35f);
+			AnimationInst->Montage_JumpToSection(FName("Attack1"), FightMontage);
+		}
+	}
+}
+
+void AJBasePlayer::FightFinished()
+{
+	Fighting = false;
+	if (LeftMouseDown)
+	{
+		Fight();
 	}
 }
 

@@ -112,6 +112,8 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraStick() const { return CameraStick; };
 	FORCEINLINE class UCameraComponent* GetPlayerCamera() const { return PlayerCamera; };
 
+	
+
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Pickup")
 	class AGun* UsedGun;
@@ -133,5 +135,16 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void LoadGame(bool SetPos);
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Animation")
+	bool Fighting;
+
+	void Fight();
+
+	UFUNCTION(BlueprintCallable)
+	void FightFinished();
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Animation")
+	class UAnimMontage* FightMontage;
 	
 };
