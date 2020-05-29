@@ -74,18 +74,21 @@ public:
 		void ReceiveObjective(AObjective* Objective);
 
 	//Weapon
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UChildActorComponent* WeaponComponent = nullptr;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		AParentWeapon* CurrentWeapon = nullptr;
+	/*UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UChildActorComponent* WeaponComponent = nullptr;*/
 	UFUNCTION()
 		void Fire();
 	UFUNCTION()
 		void Reload();
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		USceneComponent* WeaponMuzzle = nullptr;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		AParentWeapon* CurrentWeapon = nullptr;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TArray<AParentWeapon*> Weapons;
+
+		//TArray<TSubclassOf<AParentWeapon>> Weapons;
 
 private:
 	float CharacterRotationX = 0.f;

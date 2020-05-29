@@ -1,22 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game).
-  Parsing headers for ProjectEditor
-    Running UnrealHeaderTool "C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Project.uproject" "C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\ProjectEditor\Development\ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ProjectEditor in 5.4657774 seconds
   Building ProjectEditor...
   Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 11 actions with 12 processes...
-    [1/11] Project.init.gen.cpp
-    [2/11] ParentWeapon.cpp
-    [3/11] ObjectiveTarget.cpp
-    [4/11] ObjectiveGiver.cpp
-    [5/11] HealthPickup.cpp
-    [6/11] TwinStickShooterPlayer.gen.cpp
-    [7/11] TwinStickShooterPlayer.cpp
-    [8/11] LevelLoader.cpp
-    [9/11] UE4Editor-Project-0086.lib
-       Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0086.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0086.exp
-    [10/11] UE4Editor-Project-0086.dll
-       Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0086.suppressed.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0086.suppressed.exp
-    [11/11] ProjectEditor.target
-  Total time in Parallel executor: 5.36 seconds
-  Total execution time: 11.58 seconds
+  Building 4 actions with 12 processes...
+    [1/4] Shotgun.cpp
+    [2/4] UE4Editor-Project-0093.lib
+       Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0093.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0093.exp
+    [3/4] UE4Editor-Project-0093.dll
+       Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0093.suppressed.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0093.suppressed.exp
+    [4/4] ProjectEditor.target
+  Total time in Parallel executor: 3.75 seconds
+  Total execution time: 4.47 seconds

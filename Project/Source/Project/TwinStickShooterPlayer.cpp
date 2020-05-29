@@ -64,7 +64,7 @@ void ATwinStickShooterPlayer::BeginPlay()
 
 	/*if (Weapons.Num() > 0)
 	{
-		CurrentWeapon = Cast<AParentWeapon>(*Weapons[0]);
+		CurrentWeapon = Weapons[0].GetDefaultObject();
 	}*/
 
 	//CurrentWeapon = Weapons[0];

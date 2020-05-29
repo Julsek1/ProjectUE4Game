@@ -38,7 +38,7 @@ void AAssaultRifle::Fire(USceneComponent* Location)
 
 		DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 0.1f, 0, 1);
 		//GetWorld()->LineTraceSingleByChannel(OUT OutHit, Start, End, ECollisionChannel(ECC_Pawn), CollisionParams);
-		GetWorld()->LineTraceMultiByChannel(OutHits, Start, End, ECollisionChannel(ECC_Pawn), CollisionParams);
+		GetWorld()->LineTraceMultiByChannel(OutHits, Start, End, ECollisionChannel(ECC_GameTraceChannel1), CollisionParams);
 
 		if (Cast<AParentEnemy>(OutHits[0].GetActor()))
 		{
