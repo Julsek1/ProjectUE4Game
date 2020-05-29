@@ -6,6 +6,7 @@
 #include "GameFramework/PlayerController.h"
 #include "BasePlayerController.generated.h"
 
+
 /**
  * 
  */
@@ -20,6 +21,20 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widget")
 	UUserWidget* HUDFirstLayer;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widget")
+	TSubclassOf<class UUserWidget> WidgetPause;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widget")
+	UUserWidget* PMenu;
+
+	bool PMenuVisible;
+
+	void DisplayPMenu();
+
+	void EliminatePMenu();
+
+	void CheckPMenu();
 	
 protected:
 	virtual void BeginPlay() override;

@@ -31,6 +31,11 @@ public:
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = true))
  class UCameraComponent* PlayerCamera;
 
+ UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Controller")
+ class ABasePlayerController* PController;
+
+
+
  //Turning camera values
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera")
  float InitialTurnValue;
@@ -76,6 +81,24 @@ public:
 	//Look up and down at a provided value
 	void LookUpAtUnit(float Value);
 
+	// Left mouse to equip weapon
+
+
+	bool LeftMouseDown;
+
+	void LeftMouseD();
+	void LeftMouseUp();
+
+
+
+
+	//Pause Menu ESC variables
+
+	bool EscDown;
+
+	void EscD();
+	void EscUp();
+
 	
 	//Player's death
 	void Death();
@@ -89,10 +112,39 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraStick() const { return CameraStick; };
 	FORCEINLINE class UCameraComponent* GetPlayerCamera() const { return PlayerCamera; };
 
+	
+
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Pickup")
-		class AGun* UsedGun;
+	class AGun* UsedGun;
 
-	FORCEINLINE void SetUsedGun(AGun* GunToSet) { UsedGun = GunToSet; }
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Pickup")
+	class ABasePickup* OverlapedPickup;
+
+	void SetUsedGun(AGun* GunToSet);
+	FORCEINLINE AGun* GetUsedGun() { return UsedGun; }
+
+
+	FORCEINLINE void SetOverlapedPickup(ABasePickup* PickupToSet) { OverlapedPickup = PickupToSet; }
+
+
+	void GoToNextLevel(FName LevelName);
+
+	UFUNCTION(BlueprintCallable)
+	void SaveGame();
+
+	UFUNCTION(BlueprintCallable)
+	void LoadGame(bool SetPos);
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Animation")
+	bool Fighting;
+
+	void Fight();
+
+	UFUNCTION(BlueprintCallable)
+	void FightFinished();
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Animation")
+	class UAnimMontage* FightMontage;
 	
 };

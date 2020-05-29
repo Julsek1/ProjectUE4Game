@@ -9,6 +9,19 @@
 /**
  * 
  */
+
+UENUM(BlueprintType)
+enum class EGunState : uint8
+{
+	EGS_Take UMETA(DisplayName = "TakeGun"),
+	EGS_Using UMETA(DisplayName = "UsingGun"),
+
+
+	EGS_Top UMETA(DisplayName = "Top")
+
+};
+
+
 UCLASS()
 class PROJECT_API AGun : public ABasePickup
 {
@@ -16,8 +29,14 @@ class PROJECT_API AGun : public ABasePickup
 public:
 	AGun();
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Pickup")
+	EGunState GunState;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "SkMesh")
 	class USkeletalMeshComponent* SkMesh;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Sound")
+	class USoundCue* UseWeaponSound;
 
 
 	
@@ -29,5 +48,8 @@ public:
 			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex) override;
 
 	void UseGun(class AJBasePlayer* Player);
+
+	FORCEINLINE void SetGunState(EGunState Status) { GunState = Status; }
+	FORCEINLINE EGunState GetGunState() { return GunState; }
 	
 };
