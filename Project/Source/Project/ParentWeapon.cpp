@@ -41,12 +41,39 @@ void AParentWeapon::Fire(USceneComponent* Location)
 
 }
 
+//void AParentWeapon::Fire()
+//{
+//	if (CurrentClipAmmo > 0)
+//	{
+//		CurrentClipAmmo--;
+//	}
+//
+//	//play firing animation
+//	if (FiringAnimation)
+//	{
+//		SkeletalMesh->PlayAnimation(FiringAnimation, false);
+//	}
+//
+//}
+//
+//bool AParentWeapon::CanTheWeaponFire()
+//{
+//	if (CurrentClipAmmo > 0 && !bCurrentlyReloading && bCanShoot)
+//	{
+//		bCanShoot = false;
+//		Fire();
+//		GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &AParentWeapon::TimeToFireElapsed, FireRate, false);
+//		return true;
+//	}
+//
+//	return false;
+//}
+
 void AParentWeapon::Fire()
 {
-	if (CurrentClipAmmo > 0)
-	{
-		CurrentClipAmmo--;
-	}
+	CurrentClipAmmo--;
+	bCanShoot = false;
+	GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &AParentWeapon::TimeToFireElapsed, FireRate, false);
 
 	//play firing animation
 	if (FiringAnimation)
@@ -58,15 +85,7 @@ void AParentWeapon::Fire()
 
 bool AParentWeapon::CanTheWeaponFire()
 {
-	if (CurrentClipAmmo > 0 && !bCurrentlyReloading && bCanShoot)
-	{
-		bCanShoot = false;
-		Fire();
-		GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &AParentWeapon::TimeToFireElapsed, FireRate, false);
-		return true;
-	}
-
-	return false;
+	return CurrentClipAmmo > 0 && !bCurrentlyReloading && bCanShoot;
 }
 
 void AParentWeapon::TimeToFireElapsed()

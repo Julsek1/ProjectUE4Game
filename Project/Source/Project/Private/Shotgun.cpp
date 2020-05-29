@@ -24,6 +24,7 @@ void AShotgun::Fire(USceneComponent* Location)
 {
 	if (Super::CanTheWeaponFire())
 	{
+		Super::Fire();
 		for (int32 i = 0; i < Pellets; i++)
 		{
 			//FHitResult OutHit;

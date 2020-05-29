@@ -5,6 +5,7 @@
 #include "CustomGameInstance.h"
 #include "Engine/Engine.h"
 #include "Engine/GameInstance.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "Shotgun.h"
 #include "AssaultRifle.h"
@@ -86,9 +87,28 @@ void ATwinStickShooterPlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	
+	UE_LOG(LogTemp, Warning, TEXT("Max walk speed: %f"), GetCharacterMovement()->GetMaxSpeed());
+
 	if (bIsFiring)
 	{
 		Fire();
+		if (CurrentWeapon)
+		{
+			if (CurrentWeapon->bCanShoot)
+			{
+				GetCharacterMovement()->MaxWalkSpeed = 600.f;
+			}
+
+			else
+			{
+				GetCharacterMovement()->MaxWalkSpeed = 300.f;
+			}
+		}
+	}
+
+	else
+	{
+		GetCharacterMovement()->MaxWalkSpeed = 600.f;
 	}
 }
 

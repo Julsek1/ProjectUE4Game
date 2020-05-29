@@ -55,6 +55,7 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		FString WeaponName;
 	bool CanTheWeaponFire();
+	//istheweaponfiring
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UAnimationAsset* FiringAnimation = nullptr;
