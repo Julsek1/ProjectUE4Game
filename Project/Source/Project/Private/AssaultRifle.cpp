@@ -24,6 +24,7 @@ void AAssaultRifle::Fire(USceneComponent* Location)
 {
 	if (Super::CanTheWeaponFire())
 	{
+		Super::Fire();
 		//FHitResult OutHit;
 		TArray<FHitResult> OutHits;
 		//FVector Start = GetActorLocation();
@@ -40,7 +41,7 @@ void AAssaultRifle::Fire(USceneComponent* Location)
 		//GetWorld()->LineTraceSingleByChannel(OUT OutHit, Start, End, ECollisionChannel(ECC_Pawn), CollisionParams);
 		GetWorld()->LineTraceMultiByChannel(OutHits, Start, End, ECollisionChannel(ECC_Pawn), CollisionParams);
 
-		if (Cast<AParentEnemy>(OutHits[0].GetActor()))
+		if (OutHits.Num() > 0 && Cast<AParentEnemy>(OutHits[0].GetActor()))
 		{
 			//OutHit.GetActor()->Destroy();
 			Cast<AParentEnemy>(OutHits[0].GetActor())->Health -= Damage;

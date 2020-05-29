@@ -5,8 +5,10 @@
 #include "CustomGameInstance.h"
 #include "Engine/Engine.h"
 #include "Engine/GameInstance.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "Shotgun.h"
+#include "AssaultRifle.h"
 
 // Sets default values
 ATwinStickShooterPlayer::ATwinStickShooterPlayer()
@@ -48,7 +50,6 @@ ATwinStickShooterPlayer::ATwinStickShooterPlayer()
 	WeaponMuzzle = CreateDefaultSubobject<USceneComponent>(TEXT("Muzzle"));
 	WeaponMuzzle->SetupAttachment(RootComponent);
 	
-	//Weapons.Add(GetWorld()->SpawnActor<AShotgun>();
 }
 
 // Called when the game starts or when spawned
@@ -57,7 +58,16 @@ void ATwinStickShooterPlayer::BeginPlay()
 	Super::BeginPlay();
 
 	//Give a weapon
-	//CurrentWeapon = NewObject<AShotgun>();
+	//Weapons.Add(NewObject<AAssaultRifle>(this));
+	//Weapons.Add(NewObject<AShotgun>(this));
+	
+	//CurrentWeapon = Weapons[0];
+
+	/*if (Weapons.Num() > 0)
+	{
+		CurrentWeapon = Weapons[0].GetDefaultObject();
+	}*/
+
 	//CurrentWeapon = Weapons[0];
 
 	//Setup values from game instance
@@ -77,9 +87,28 @@ void ATwinStickShooterPlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	
+	UE_LOG(LogTemp, Warning, TEXT("Max walk speed: %f"), GetCharacterMovement()->GetMaxSpeed());
+
 	if (bIsFiring)
 	{
 		Fire();
+		if (CurrentWeapon)
+		{
+			if (CurrentWeapon->bCanShoot)
+			{
+				GetCharacterMovement()->MaxWalkSpeed = 600.f;
+			}
+
+			else
+			{
+				GetCharacterMovement()->MaxWalkSpeed = 300.f;
+			}
+		}
+	}
+
+	else
+	{
+		GetCharacterMovement()->MaxWalkSpeed = 600.f;
 	}
 }
 

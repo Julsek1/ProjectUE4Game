@@ -16,7 +16,7 @@ AShotgun::AShotgun()
 	CurrentClipAmmo = 8;
 	AmmoCapacity = 64;
 	ReloadSpeed = 2.f;
-	FireRate = 0.66f;
+	FireRate = 1.33f;//0.66f
 	Damage = 0.08f;
 }
 
@@ -24,6 +24,7 @@ void AShotgun::Fire(USceneComponent* Location)
 {
 	if (Super::CanTheWeaponFire())
 	{
+		Super::Fire();
 		for (int32 i = 0; i < Pellets; i++)
 		{
 			//FHitResult OutHit;
