@@ -57,10 +57,10 @@ void ATwinStickShooterPlayer::BeginPlay()
 	Super::BeginPlay();
 
 	//Give a weapon
-	Weapons.Add(NewObject<AAssaultRifle>(this));
-	Weapons.Add(NewObject<AShotgun>(this));
+	//Weapons.Add(NewObject<AAssaultRifle>(this));
+	//Weapons.Add(NewObject<AShotgun>(this));
 	
-	CurrentWeapon = Weapons[0];
+	//CurrentWeapon = Weapons[0];
 
 	/*if (Weapons.Num() > 0)
 	{

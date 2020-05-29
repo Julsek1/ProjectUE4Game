@@ -16,7 +16,7 @@ AShotgun::AShotgun()
 	CurrentClipAmmo = 8;
 	AmmoCapacity = 64;
 	ReloadSpeed = 2.f;
-	FireRate = 0.66f;
+	FireRate = 1.33f;//0.66f
 	Damage = 0.08f;
 }
 
@@ -42,7 +42,7 @@ void AShotgun::Fire(USceneComponent* Location)
 			FCollisionQueryParams CollisionParams;
 
 			DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 0.1f, 0, 1);
-			GetWorld()->LineTraceMultiByChannel(OutHits, Start, End, ECollisionChannel(ECC_GameTraceChannel1), CollisionParams);
+			GetWorld()->LineTraceMultiByChannel(OutHits, Start, End, ECollisionChannel(ECC_Pawn), CollisionParams);
 
 			for (int32 j = 0; j < OutHits.Num(); j++)
 			{
