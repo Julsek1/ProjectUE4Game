@@ -264,8 +264,27 @@ void AJBasePlayer::Fight()
 		UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
 		if (AnimationInst && FightMontage)
 		{
-			AnimationInst->Montage_Play(FightMontage, 1.35f);
-			AnimationInst->Montage_JumpToSection(FName("Attack1"), FightMontage);
+			int32 MontageSection = FMath::RandRange(0, 1);
+			switch (MontageSection)
+			{
+			case 0:
+
+				AnimationInst->Montage_Play(FightMontage, 2.5f);
+				AnimationInst->Montage_JumpToSection(FName("Attack1"), FightMontage);
+
+				break;
+			case 1:
+
+				AnimationInst->Montage_Play(FightMontage, 3.f);
+				AnimationInst->Montage_JumpToSection(FName("Attack2"), FightMontage);
+
+				break;
+
+			default:
+				;
+			}
+
+			
 		}
 	}
 }
