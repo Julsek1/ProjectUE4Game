@@ -81,6 +81,16 @@ public:
 	//Look up and down at a provided value
 	void LookUpAtUnit(float Value);
 
+	// Left mouse to equip weapon
+
+
+	bool LeftMouseDown;
+
+	void LeftMouseD();
+	void LeftMouseUp();
+
+
+
 
 	//Pause Menu ESC variables
 
@@ -104,9 +114,17 @@ public:
 
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Pickup")
-		class AGun* UsedGun;
+	class AGun* UsedGun;
 
-	FORCEINLINE void SetUsedGun(AGun* GunToSet) { UsedGun = GunToSet; }
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Pickup")
+	class ABasePickup* OverlapedPickup;
+
+	void SetUsedGun(AGun* GunToSet);
+	FORCEINLINE AGun* GetUsedGun() { return UsedGun; }
+
+
+	FORCEINLINE void SetOverlapedPickup(ABasePickup* PickupToSet) { OverlapedPickup = PickupToSet; }
+
 
 	void GoToNextLevel(FName LevelName);
 

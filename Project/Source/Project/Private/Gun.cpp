@@ -4,23 +4,27 @@
 #include "Gun.h"
 #include "Engine/SkeletalMeshSocket.h"
 #include "JBasePlayer.h"
+#include "Kismet/GameplayStatics.h"
+#include "Sound/SoundCue.h"
 #include "Components/SkeletalMeshComponent.h"
 
 AGun::AGun()
 {
 	SkMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SkMesh"));
 	SkMesh->SetupAttachment(GetRootComponent());
+
+	GunState = EGunState::EGS_Take;
 }
 
 void AGun::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	Super::OnOverlapBegin(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex, bFromSweep, SweepResult);
-	if (OtherActor)
+	if ((GunState == EGunState::EGS_Take) &&  OtherActor)
 	{
 		AJBasePlayer* Player = Cast<AJBasePlayer>(OtherActor);
 		if (Player)
 		{
-			UseGun(Player);
+			Player->SetOverlapedPickup(this);
 		}
 	}
 }
@@ -28,6 +32,15 @@ void AGun::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* Othe
 void AGun::OnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
 	Super::OnOverlapEnd(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex);
+
+	if (OtherActor)
+	{
+		AJBasePlayer* Player = Cast<AJBasePlayer>(OtherActor);
+		if (Player)
+		{
+			Player->SetOverlapedPickup(nullptr);
+		}
+	}
 }
 
 void AGun::UseGun(AJBasePlayer* Player)
@@ -45,6 +58,14 @@ void AGun::UseGun(AJBasePlayer* Player)
 		{
 			RHand->AttachActor(this, Player->GetMesh());
 			Rotation = false;
+			
+			Player->SetUsedGun(this);
+			Player->SetOverlapedPickup(nullptr);
+
+		}
+		if (UseWeaponSound)
+		{
+			UGameplayStatics::PlaySound2D(this, UseWeaponSound);
 		}
 	}
 

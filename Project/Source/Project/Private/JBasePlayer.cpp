@@ -8,6 +8,7 @@
 #include "Engine/GameInstance.h"
 #include "Kismet/GameplayStatics.h"
 #include "GameFramework/Controller.h"
+#include "Gun.h"
 #include "JSaveGame.h"
 #include "..\Public\JBasePlayer.h"
 #include "BasePlayerController.h"
@@ -56,16 +57,14 @@ AJBasePlayer::AJBasePlayer()
 	Collectibles = 0;
 
 	EscDown = false;
-
+	LeftMouseDown = false;
+	
 }
 
 // Called when the game starts or when spawned
 void AJBasePlayer::BeginPlay()
 {
 	Super::BeginPlay();
-
-
-
 	
 
 }
@@ -85,6 +84,9 @@ void AJBasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+
+	PlayerInputComponent->BindAction("LeftMouse", IE_Pressed, this, &AJBasePlayer::LeftMouseD);
+	PlayerInputComponent->BindAction("LeftMouse", IE_Released, this, &AJBasePlayer::LeftMouseUp);
 
 	PlayerInputComponent->BindAction("Q", IE_Pressed, this, &AJBasePlayer::EscD);
 	PlayerInputComponent->BindAction("Q", IE_Released, this, &AJBasePlayer::EscUp);
@@ -134,6 +136,28 @@ void AJBasePlayer::LookUpAtUnit(float Value)
 
 }
 
+void AJBasePlayer::LeftMouseD()
+{
+	LeftMouseDown = true;
+	if (OverlapedPickup)
+	{
+		AGun* Gun = Cast<AGun>(OverlapedPickup);
+		if (Gun)
+		{
+			Gun->UseGun(this);
+			SetOverlapedPickup(nullptr);
+		}
+	}
+}
+
+void AJBasePlayer::LeftMouseUp()
+{
+	LeftMouseDown = false;
+
+}
+
+
+
 void AJBasePlayer::EscD()
 {
 	EscDown = true;
@@ -164,6 +188,16 @@ void AJBasePlayer::DamageHp(float Damage)
 	{
 		Hp -= Damage;
 	}
+}
+
+void AJBasePlayer::SetUsedGun(AGun* GunToSet)
+{
+	if (UsedGun)
+	{
+		UsedGun->Destroy();
+	}
+	UsedGun = GunToSet;
+
 }
 
 void AJBasePlayer::GoToNextLevel(FName LevelName)

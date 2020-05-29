@@ -23,10 +23,10 @@ public:
 	UUserWidget* HUDFirstLayer;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widget")
-		TSubclassOf<class UUserWidget> WidgetPause;
+	TSubclassOf<class UUserWidget> WidgetPause;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widget")
-		UUserWidget* PMenu;
+	UUserWidget* PMenu;
 
 	bool PMenuVisible;
 
