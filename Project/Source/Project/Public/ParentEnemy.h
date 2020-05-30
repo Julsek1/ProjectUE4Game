@@ -33,4 +33,7 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		UWidgetComponent* WidgetComponent;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		FString EnemyName;
 };

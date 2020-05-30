@@ -9,6 +9,8 @@ AGasMaskEnemy::AGasMaskEnemy()
 
 	WeaponMuzzle = CreateDefaultSubobject<USceneComponent>(TEXT("Muzzle"));
 	WeaponMuzzle->SetupAttachment(RootComponent);
+
+	EnemyName = "Soldier";
 }
 
 void AGasMaskEnemy::Tick(float DeltaTime)
