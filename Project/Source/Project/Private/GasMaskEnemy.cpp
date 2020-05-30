@@ -17,6 +17,14 @@ void AGasMaskEnemy::Tick(float DeltaTime)
 
 	if (Weapon)
 	{
-		Weapon->Fire(WeaponMuzzle);
+		if (Weapon->CurrentClipAmmo > 0)
+		{
+			Weapon->Fire(WeaponMuzzle);
+		}
+
+		else
+		{
+			Weapon->Reload();
+		}
 	}
 }

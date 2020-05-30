@@ -5457,3 +5457,532 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.30-12.43.27:883][963]AssetCheck: New page: Asset Save: multiple assets
 [2020.05.30-12.43.27:883][963]LogContentValidation: Display: Validating World /Game/Phil/Levels/Level1.Level1
 [2020.05.30-12.43.27:883][963]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/Level1_BuiltData.Level1_BuiltData
+[2020.05.30-12.45.55:787][490]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.30-12.45.55:819][490]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.30-12.45.55:819][490]PIE: New page: PIE session: Level1 (May 30, 2020, 4:45:55 AM)
+[2020.05.30-12.45.55:819][490]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.30-12.45.55:825][490]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006229s)
+[2020.05.30-12.45.55:826][490]LogAIModule: Creating AISystem for world Level1
+[2020.05.30-12.45.55:826][490]LogPlayLevel: PIE: World Init took: (0.000978s)
+[2020.05.30-12.45.55:826][490]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Level1.Level1 to /Game/Phil/Levels/UEDPIE_0_Level1.Level1 (0.007389s)
+[2020.05.30-12.45.55:868][490]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2020.05.30-12.45.55:869][490]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.30-12.45.55:869][490]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.30-12.45.55:869][490]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.30-12.45.55:869][490]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.30-12.45.55:869][490]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.30-12.45.55:869][490]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.30-12.45.55:869][490]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.30-12.45.55:869][490]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.30-12.45.55:869][490]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.30-12.45.55:870][490]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.30-12.45.55:893][490]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.30-12.45.55:893][490]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.30-12.45.55:893][490]LogAudioMixer: Display: Is Default: Yes
+[2020.05.30-12.45.55:893][490]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.30-12.45.55:893][490]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.30-12.45.55:893][490]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.30-12.45.55:893][490]LogAudioMixer: Display: Channel Order:
+[2020.05.30-12.45.55:893][490]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.30-12.45.55:893][490]LogAudioMixer: Display: 1: FrontRight
+[2020.05.30-12.45.55:903][490]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.30-12.45.55:904][490]LogInit: FAudioDevice initialized.
+[2020.05.30-12.45.55:909][490]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.30-12.45.55:911][490]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.05.30-08.45.55
+[2020.05.30-12.45.55:912][490]LogWorld: Bringing up level for play took: 0.002264
+[2020.05.30-12.45.55:912][490]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2020.05.30-12.45.55:914][490]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-12.45.55:914][490]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-12.45.55:916][490]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Level1 -0.885
+[2020.05.30-12.45.55:917][490]LogTemp: Warning: Hit
+[2020.05.30-12.46.01:433][821]LogRHI: Error: GetAndOrCreateGraphicsPipelineState RenderTarget check failed with: 224 !
+[2020.05.30-12.46.04:296][992]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-12.46.04:309][992]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.30-12.46.04:329][992]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.30-12.46.04:329][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-12.46.04:329][992]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.30-12.46.04:329][992]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-12.46.04:329][992]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-12.46.04:330][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-12.46.04:342][992]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.30-12.46.04:348][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-12.46.04:384][992]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-12.46.04:386][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-12.46.04:391][992]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2020.05.30-12.46.04:408][993]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2020.05.30-12.46.05:262][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2020.05.30-12.46.05:329][ 40]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level19E22C1DD4403F9C29791979D3EAD645D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1.umap'
+[2020.05.30-12.46.05:404][ 40]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level1_BuiltDataC3A5656F451A2BCCDC5418AB0D75B037.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1_BuiltData.uasset'
+[2020.05.30-12.46.05:425][ 40]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.30-12.46.05:425][ 40]LogContentValidation: Display: Validating World /Game/Phil/Levels/Level1.Level1
+[2020.05.30-12.46.05:425][ 40]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/Level1_BuiltData.Level1_BuiltData
+[2020.05.30-15.11.18:163][209]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.30-15.11.18:382][209]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.30-15.11.18:382][209]PIE: New page: PIE session: Level1 (May 30, 2020, 7:11:18 AM)
+[2020.05.30-15.11.18:384][209]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.30-15.11.18:449][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064281s)
+[2020.05.30-15.11.18:457][209]LogAIModule: Creating AISystem for world Level1
+[2020.05.30-15.11.18:458][209]LogPlayLevel: PIE: World Init took: (0.008853s)
+[2020.05.30-15.11.18:458][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Level1.Level1 to /Game/Phil/Levels/UEDPIE_0_Level1.Level1 (0.073827s)
+[2020.05.30-15.11.18:636][209]LogUObjectHash: Compacting FUObjectHashTables data took   9.81ms
+[2020.05.30-15.11.18:653][209]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.30-15.11.18:653][209]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.30-15.11.18:653][209]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.30-15.11.18:653][209]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.30-15.11.18:653][209]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.30-15.11.18:653][209]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.30-15.11.18:654][209]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.30-15.11.18:654][209]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.30-15.11.18:655][209]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.30-15.11.18:655][209]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.30-15.11.18:681][209]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.30-15.11.18:681][209]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.30-15.11.18:681][209]LogAudioMixer: Display: Is Default: Yes
+[2020.05.30-15.11.18:681][209]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.30-15.11.18:681][209]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.30-15.11.18:681][209]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.30-15.11.18:681][209]LogAudioMixer: Display: Channel Order:
+[2020.05.30-15.11.18:681][209]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.30-15.11.18:681][209]LogAudioMixer: Display: 1: FrontRight
+[2020.05.30-15.11.18:694][209]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.30-15.11.18:717][209]LogInit: FAudioDevice initialized.
+[2020.05.30-15.11.18:729][209]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.30-15.11.18:739][209]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.05.30-11.11.18
+[2020.05.30-15.11.18:743][209]LogWorld: Bringing up level for play took: 0.010540
+[2020.05.30-15.11.18:744][209]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2020.05.30-15.11.18:751][209]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.11.18:751][209]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.11.18:761][209]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Level1 -0.04
+[2020.05.30-15.11.18:763][209]LogTemp: Warning: Hit
+[2020.05.30-15.11.27:331][720]LogRHI: Error: GetAndOrCreateGraphicsPipelineState RenderTarget check failed with: 224 !
+[2020.05.30-15.11.29:824][868]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-15.11.29:830][868]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.30-15.11.29:850][868]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.30-15.11.29:851][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-15.11.29:851][868]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.30-15.11.29:851][868]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-15.11.29:852][868]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-15.11.29:854][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-15.11.29:882][868]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.30-15.11.29:888][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-15.11.29:940][868]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-15.11.29:942][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-15.11.29:949][868]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2020.05.30-15.11.29:973][869]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2020.05.30-15.12.32:489][121]LogHotReload: New module detected: UE4Editor-Project-0137.dll
+[2020.05.30-15.12.33:501][125]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.30-15.12.33:559][125]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.05.30-15.12.33:670][125]LogClass: EGunState HotReload.
+[2020.05.30-15.12.33:670][125]LogClass: EFEnemyMoveStat HotReload.
+[2020.05.30-15.12.33:670][125]LogClass: PlayerStats HotReload.
+[2020.05.30-15.12.33:704][125]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0010 seconds. Added 33 classes and 3 folders.
+[2020.05.30-15.12.33:710][125]Display: HotReload successful (26 functions remapped  1 scriptstructs remapped)
+[2020.05.30-15.12.33:852][125]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.05.30-15.12.33:903][125]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 3050 classes and 723 folders.
+[2020.05.30-15.12.33:907][125]Display: HotReload took  0.4s.
+[2020.05.30-15.12.35:814][167]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.30-15.12.35:844][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.30-15.12.35:845][167]PIE: New page: PIE session: Level1 (May 30, 2020, 7:12:35 AM)
+[2020.05.30-15.12.35:845][167]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.30-15.12.35:850][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005601s)
+[2020.05.30-15.12.35:851][167]LogAIModule: Creating AISystem for world Level1
+[2020.05.30-15.12.35:852][167]LogPlayLevel: PIE: World Init took: (0.001266s)
+[2020.05.30-15.12.35:852][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Level1.Level1 to /Game/Phil/Levels/UEDPIE_0_Level1.Level1 (0.007008s)
+[2020.05.30-15.12.35:974][167]LogUObjectHash: Compacting FUObjectHashTables data took   4.54ms
+[2020.05.30-15.12.35:974][167]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.30-15.12.35:974][167]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.30-15.12.35:974][167]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.30-15.12.35:975][167]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.30-15.12.35:975][167]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.30-15.12.35:975][167]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.30-15.12.35:975][167]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.30-15.12.35:975][167]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.30-15.12.35:975][167]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.30-15.12.35:975][167]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.30-15.12.35:999][167]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.30-15.12.35:999][167]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.30-15.12.35:999][167]LogAudioMixer: Display: Is Default: Yes
+[2020.05.30-15.12.35:999][167]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.30-15.12.35:999][167]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.30-15.12.35:999][167]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.30-15.12.35:999][167]LogAudioMixer: Display: Channel Order:
+[2020.05.30-15.12.35:999][167]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.30-15.12.35:999][167]LogAudioMixer: Display: 1: FrontRight
+[2020.05.30-15.12.36:008][167]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.30-15.12.36:010][167]LogInit: FAudioDevice initialized.
+[2020.05.30-15.12.36:019][167]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.30-15.12.36:021][167]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.05.30-11.12.36
+[2020.05.30-15.12.36:022][167]LogWorld: Bringing up level for play took: 0.002149
+[2020.05.30-15.12.36:022][167]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2020.05.30-15.12.36:025][167]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.12.36:026][167]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.12.36:028][167]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Level1 -0.773
+[2020.05.30-15.12.36:028][167]LogTemp: Warning: Hit
+[2020.05.30-15.12.43:680][626]LogRHI: Error: GetAndOrCreateGraphicsPipelineState RenderTarget check failed with: 224 !
+[2020.05.30-15.12.53:688][226]LogRHI: Error: GetAndOrCreateGraphicsPipelineState RenderTarget check failed with: 224 !
+[2020.05.30-15.12.54:318][263]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-15.12.54:319][263]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.30-15.12.54:339][263]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.30-15.12.54:340][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-15.12.54:340][263]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.30-15.12.54:340][263]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-15.12.54:340][263]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-15.12.54:341][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-15.12.54:355][263]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.30-15.12.54:360][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-15.12.54:403][263]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-15.12.54:405][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-15.12.54:442][263]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2020.05.30-15.12.54:461][264]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2020.05.30-15.12.55:355][313]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.05.30-15.12.55:439][313]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level17FAF8F884D5491156E3F4C880D80123B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1.umap'
+[2020.05.30-15.12.55:545][313]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level1_BuiltData8F151392424800B9914A2197D9C46582.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1_BuiltData.uasset'
+[2020.05.30-15.12.55:564][313]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.30-15.12.55:564][313]LogContentValidation: Display: Validating World /Game/Phil/Levels/Level1.Level1
+[2020.05.30-15.12.55:564][313]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/Level1_BuiltData.Level1_BuiltData
+[2020.05.30-15.13.10:183][186]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.05.30-15.13.10:243][186]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level1C5488F8B4B014FA0009985A65989456E.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1.umap'
+[2020.05.30-15.13.10:316][186]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level1_BuiltData2CFCEC0A4E7E34552FF5EF848D602670.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1_BuiltData.uasset'
+[2020.05.30-15.13.10:335][186]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.30-15.13.10:335][186]LogContentValidation: Display: Validating World /Game/Phil/Levels/Level1.Level1
+[2020.05.30-15.13.10:335][186]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/Level1_BuiltData.Level1_BuiltData
+[2020.05.30-15.13.47:767][809]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Phil/AI/BT_GasMaskEnemy.BT_GasMaskEnemy
+[2020.05.30-15.13.57:996][410]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_GasMaskEnemy3BF5EC8242D4A990BB14688C9F51E15D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/BT_GasMaskEnemy.uasset'
+[2020.05.30-15.13.58:019][410]AssetCheck: New page: Asset Save: BT_GasMaskEnemy
+[2020.05.30-15.13.58:019][410]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/BT_GasMaskEnemy.BT_GasMaskEnemy
+[2020.05.30-15.13.59:307][482]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.30-15.13.59:343][482]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.30-15.13.59:343][482]PIE: New page: PIE session: Level1 (May 30, 2020, 7:13:59 AM)
+[2020.05.30-15.13.59:343][482]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.30-15.13.59:348][482]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005226s)
+[2020.05.30-15.13.59:349][482]LogAIModule: Creating AISystem for world Level1
+[2020.05.30-15.13.59:349][482]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2020.05.30-15.13.59:349][482]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Level1.Level1 to /Game/Phil/Levels/UEDPIE_0_Level1.Level1 (0.006206s)
+[2020.05.30-15.13.59:392][482]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2020.05.30-15.13.59:405][482]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.30-15.13.59:405][482]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.30-15.13.59:405][482]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.30-15.13.59:405][482]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.30-15.13.59:405][482]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.30-15.13.59:405][482]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.30-15.13.59:405][482]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.30-15.13.59:405][482]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.30-15.13.59:406][482]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.30-15.13.59:406][482]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.30-15.13.59:428][482]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.30-15.13.59:428][482]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.30-15.13.59:428][482]LogAudioMixer: Display: Is Default: Yes
+[2020.05.30-15.13.59:428][482]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.30-15.13.59:428][482]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.30-15.13.59:428][482]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.30-15.13.59:428][482]LogAudioMixer: Display: Channel Order:
+[2020.05.30-15.13.59:428][482]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.30-15.13.59:428][482]LogAudioMixer: Display: 1: FrontRight
+[2020.05.30-15.13.59:438][482]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.30-15.13.59:439][482]LogInit: FAudioDevice initialized.
+[2020.05.30-15.13.59:446][482]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.30-15.13.59:448][482]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.05.30-11.13.59
+[2020.05.30-15.13.59:449][482]LogWorld: Bringing up level for play took: 0.002191
+[2020.05.30-15.13.59:449][482]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2020.05.30-15.13.59:451][482]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.13.59:452][482]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.13.59:454][482]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Level1 0.652
+[2020.05.30-15.13.59:454][482]LogTemp: Warning: Hit
+[2020.05.30-15.13.59:489][484]LogRHI: Error: GetAndOrCreateGraphicsPipelineState RenderTarget check failed with: 224 !
+[2020.05.30-15.14.09:508][ 85]LogRHI: Error: GetAndOrCreateGraphicsPipelineState RenderTarget check failed with: 224 !
+[2020.05.30-15.14.12:042][236]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-15.14.12:049][236]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.30-15.14.12:070][236]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.30-15.14.12:078][236]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-15.14.12:078][236]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.30-15.14.12:078][236]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-15.14.12:079][236]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-15.14.12:081][236]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-15.14.12:094][236]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.30-15.14.12:101][236]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-15.14.12:145][236]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-15.14.12:147][236]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-15.14.12:152][236]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.05.30-15.14.12:174][237]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2020.05.30-15.14.16:800][508]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_GasMaskEnemy804BAEE74A44A5F905C6188E763C8D08.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/BT_GasMaskEnemy.uasset'
+[2020.05.30-15.14.16:815][508]AssetCheck: New page: Asset Save: BT_GasMaskEnemy
+[2020.05.30-15.14.16:815][508]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/BT_GasMaskEnemy.BT_GasMaskEnemy
+[2020.05.30-15.14.17:978][576]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.30-15.14.18:007][576]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.30-15.14.18:007][576]PIE: New page: PIE session: Level1 (May 30, 2020, 7:14:18 AM)
+[2020.05.30-15.14.18:007][576]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.30-15.14.18:012][576]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005288s)
+[2020.05.30-15.14.18:013][576]LogAIModule: Creating AISystem for world Level1
+[2020.05.30-15.14.18:013][576]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2020.05.30-15.14.18:013][576]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Level1.Level1 to /Game/Phil/Levels/UEDPIE_0_Level1.Level1 (0.006181s)
+[2020.05.30-15.14.18:058][576]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.05.30-15.14.18:059][576]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.30-15.14.18:059][576]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.30-15.14.18:059][576]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.30-15.14.18:059][576]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.30-15.14.18:059][576]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.30-15.14.18:059][576]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.30-15.14.18:059][576]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.30-15.14.18:059][576]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.30-15.14.18:059][576]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.30-15.14.18:059][576]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.30-15.14.18:082][576]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.30-15.14.18:082][576]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.30-15.14.18:082][576]LogAudioMixer: Display: Is Default: Yes
+[2020.05.30-15.14.18:082][576]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.30-15.14.18:082][576]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.30-15.14.18:082][576]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.30-15.14.18:082][576]LogAudioMixer: Display: Channel Order:
+[2020.05.30-15.14.18:082][576]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.30-15.14.18:082][576]LogAudioMixer: Display: 1: FrontRight
+[2020.05.30-15.14.18:091][576]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.30-15.14.18:093][576]LogInit: FAudioDevice initialized.
+[2020.05.30-15.14.18:101][576]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.30-15.14.18:103][576]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.05.30-11.14.18
+[2020.05.30-15.14.18:104][576]LogWorld: Bringing up level for play took: 0.002166
+[2020.05.30-15.14.18:104][576]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2020.05.30-15.14.18:106][576]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.14.18:107][576]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.14.18:109][576]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Level1 -0.693
+[2020.05.30-15.14.18:109][576]LogTemp: Warning: Hit
+[2020.05.30-15.14.19:524][661]LogRHI: Error: GetAndOrCreateGraphicsPipelineState RenderTarget check failed with: 224 !
+[2020.05.30-15.14.29:538][260]LogRHI: Error: GetAndOrCreateGraphicsPipelineState RenderTarget check failed with: 224 !
+[2020.05.30-15.14.38:568][801]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-15.14.38:569][801]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.30-15.14.38:599][801]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.30-15.14.38:602][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-15.14.38:602][801]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.30-15.14.38:602][801]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-15.14.38:602][801]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-15.14.38:603][801]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-15.14.38:609][801]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.30-15.14.38:614][801]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-15.14.38:652][801]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-15.14.38:654][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-15.14.38:659][801]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2020.05.30-15.14.38:690][802]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2020.05.30-15.14.42:444][ 20]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_GasMaskEnemy8AFF346C4D65EB8611D5B29E0803EEBD.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/BT_GasMaskEnemy.uasset'
+[2020.05.30-15.14.42:463][ 20]AssetCheck: New page: Asset Save: BT_GasMaskEnemy
+[2020.05.30-15.14.42:463][ 20]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/BT_GasMaskEnemy.BT_GasMaskEnemy
+[2020.05.30-15.14.43:455][ 75]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.30-15.14.43:484][ 75]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.30-15.14.43:484][ 75]PIE: New page: PIE session: Level1 (May 30, 2020, 7:14:43 AM)
+[2020.05.30-15.14.43:485][ 75]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.30-15.14.43:491][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006062s)
+[2020.05.30-15.14.43:492][ 75]LogAIModule: Creating AISystem for world Level1
+[2020.05.30-15.14.43:492][ 75]LogPlayLevel: PIE: World Init took: (0.001062s)
+[2020.05.30-15.14.43:492][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/Level1.Level1 to /Game/Phil/Levels/UEDPIE_0_Level1.Level1 (0.007276s)
+[2020.05.30-15.14.43:537][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.05.30-15.14.43:538][ 75]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.30-15.14.43:538][ 75]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.30-15.14.43:538][ 75]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.30-15.14.43:538][ 75]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.30-15.14.43:538][ 75]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.30-15.14.43:538][ 75]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.30-15.14.43:538][ 75]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.30-15.14.43:548][ 75]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.30-15.14.43:548][ 75]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.30-15.14.43:548][ 75]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.30-15.14.43:570][ 75]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.30-15.14.43:570][ 75]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.05.30-15.14.43:570][ 75]LogAudioMixer: Display: Is Default: Yes
+[2020.05.30-15.14.43:570][ 75]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.30-15.14.43:570][ 75]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.30-15.14.43:570][ 75]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.30-15.14.43:570][ 75]LogAudioMixer: Display: Channel Order:
+[2020.05.30-15.14.43:570][ 75]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.30-15.14.43:570][ 75]LogAudioMixer: Display: 1: FrontRight
+[2020.05.30-15.14.43:580][ 75]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.05.30-15.14.43:581][ 75]LogInit: FAudioDevice initialized.
+[2020.05.30-15.14.43:591][ 75]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.05.30-15.14.43:593][ 75]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.05.30-11.14.43
+[2020.05.30-15.14.43:594][ 75]LogWorld: Bringing up level for play took: 0.002994
+[2020.05.30-15.14.43:595][ 75]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2020.05.30-15.14.43:597][ 75]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.14.43:597][ 75]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.14.43:599][ 75]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_Level1 0.798
+[2020.05.30-15.14.43:600][ 75]LogTemp: Warning: Hit
+[2020.05.30-15.14.43:633][ 77]LogRHI: Error: GetAndOrCreateGraphicsPipelineState RenderTarget check failed with: 224 !
+[2020.05.30-15.14.53:660][678]LogRHI: Error: GetAndOrCreateGraphicsPipelineState RenderTarget check failed with: 224 !
+[2020.05.30-15.15.03:657][278]LogRHI: Error: GetAndOrCreateGraphicsPipelineState RenderTarget check failed with: 224 !
+[2020.05.30-15.15.13:655][878]LogRHI: Error: GetAndOrCreateGraphicsPipelineState RenderTarget check failed with: 224 !
+[2020.05.30-15.15.14:835][948]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-15.15.14:839][948]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.30-15.15.14:859][948]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.30-15.15.14:861][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-15.15.14:861][948]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_Level1
+[2020.05.30-15.15.14:861][948]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-15.15.14:861][948]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-15.15.14:862][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-15.15.14:882][948]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.30-15.15.14:897][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-15.15.14:942][948]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-15.15.14:945][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-15.15.14:950][948]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2020.05.30-15.15.14:970][949]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2020.05.30-15.15.15:717][990]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.05.30-15.15.15:764][990]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level1350388F9409F19CB4CF652A7C623608F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1.umap'
+[2020.05.30-15.15.15:839][990]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level1_BuiltData151266934612B94D5704D3B3238A9857.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1_BuiltData.uasset'
+[2020.05.30-15.15.15:860][990]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.30-15.15.15:860][990]LogContentValidation: Display: Validating World /Game/Phil/Levels/Level1.Level1
+[2020.05.30-15.15.15:860][990]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/Level1_BuiltData.Level1_BuiltData
+[2020.05.30-15.15.31:694][646]BlueprintLog: New page: Compile BP_GasMask
+[2020.05.30-15.15.31:721][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:721][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:722][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:722][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:723][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:723][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:723][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:723][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:723][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:723][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:723][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:723][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:723][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:723][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:727][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:728][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:728][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:728][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:728][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:728][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:728][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:728][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:728][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:728][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:728][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:728][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:728][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:728][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:731][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:731][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:731][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:731][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:731][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:731][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:731][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:731][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:731][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:732][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:732][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:732][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:732][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:732][646]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:737][646]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:737][646]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:737][646]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:737][646]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:737][646]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:738][646]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:738][646]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:738][646]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:738][646]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:738][646]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:738][646]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:738][646]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:738][646]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:738][646]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.31:744][646]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/Level1.Level1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_112 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.31:746][646]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/Level1.Level1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_113 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.31:747][646]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/Level1.Level1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_114 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.31:748][646]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_3:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.31:749][646]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_2:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.32:033][646]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2020.05.30-15.15.32:038][646]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/Level1.Level1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_116 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.32:041][646]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/Level1.Level1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_118 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.32:042][646]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/Level1.Level1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_120 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.32:044][646]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_3:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.32:046][646]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_2:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.32:048][646]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_2:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.32:052][646]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/Level1.Level1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_122 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.32:055][646]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/Level1.Level1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_124 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.32:057][646]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/Level1.Level1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_126 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.32:058][646]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_3:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.32:060][646]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_2:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.32:207][647]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_GasMask3E94222D4C55729597ADD4B2E4AF67CD.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/BP_GasMask.uasset'
+[2020.05.30-15.15.32:221][647]AssetCheck: New page: Asset Save: BP_GasMask
+[2020.05.30-15.15.32:222][647]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/BP_GasMask.BP_GasMask
+[2020.05.30-15.15.45:113][962]BlueprintLog: New page: Compile BP_GasMask
+[2020.05.30-15.15.45:118][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:118][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:118][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:118][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:118][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:118][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:118][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:118][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:119][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:119][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:119][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:119][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:119][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:119][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask2_5.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:121][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:121][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:121][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:121][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:121][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:121][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:121][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:121][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:121][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:121][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:121][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:121][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:121][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:121][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:123][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:123][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:123][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:123][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:123][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:123][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:123][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:123][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:123][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:123][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:123][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:123][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:123][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:123][962]PIE: Warning: Constraint in '/Game/Phil/Levels/Level1.Level1:PersistentLevel.BP_GasMask_3.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:125][962]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:125][962]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:125][962]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:125][962]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:125][962]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:125][962]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:125][962]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:125][962]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:125][962]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:125][962]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:126][962]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:126][962]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:126][962]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:126][962]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.BP_GasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.05.30-15.15.45:129][962]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/Level1.Level1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_130 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.45:130][962]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/Level1.Level1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_131 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.45:131][962]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/Level1.Level1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_132 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.45:132][962]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_3:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.45:133][962]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_2:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.45:428][962]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2020.05.30-15.15.45:430][962]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/Level1.Level1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_134 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.45:432][962]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/Level1.Level1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_136 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.45:435][962]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/Level1.Level1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_138 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.45:438][962]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_3:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.45:440][962]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_2:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.45:441][962]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_2:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.45:445][962]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/Level1.Level1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_140 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.45:447][962]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/Level1.Level1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_142 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.45:449][962]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/Level1.Level1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_144 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.45:451][962]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_3:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.45:452][962]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_2:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.30-15.15.45:798][976]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_GasMaskEFA070AB45EDAE3A9D5BE7A66E5138D2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/BP_GasMask.uasset'
+[2020.05.30-15.15.45:813][976]AssetCheck: New page: Asset Save: BP_GasMask
+[2020.05.30-15.15.45:813][976]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/BP_GasMask.BP_GasMask
+[2020.05.30-15.15.47:223][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2020.05.30-15.15.47:271][ 57]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level11883DE97471029A4B4743788331E5963.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1.umap'
+[2020.05.30-15.15.47:343][ 57]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Level1_BuiltData5DF2F5F047391193141F759E6D4C7336.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/Level1_BuiltData.uasset'
+[2020.05.30-15.15.47:362][ 57]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.30-15.15.47:362][ 57]LogContentValidation: Display: Validating World /Game/Phil/Levels/Level1.Level1
+[2020.05.30-15.15.47:362][ 57]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/Level1_BuiltData.Level1_BuiltData
