@@ -13,7 +13,7 @@ AAssaultRifle::AAssaultRifle()
 	WeaponName = "Assault Rifle";
 	Range = 1500.f;
 	ClipSize = 32;
-	CurrentClipAmmo = 32;
+	CurrentClipAmmo = ClipSize;
 	AmmoCapacity = 256;
 	ReloadSpeed = 1.f;
 	FireRate = 0.1f;

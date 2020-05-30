@@ -13,7 +13,7 @@ AShotgun::AShotgun()
 	WeaponName = "Shotgun";
 	Range = 500.f;
 	ClipSize = 8;
-	CurrentClipAmmo = 8;
+	CurrentClipAmmo = ClipSize;
 	AmmoCapacity = 64;
 	ReloadSpeed = 2.f;
 	FireRate = 1.33f;//0.66f

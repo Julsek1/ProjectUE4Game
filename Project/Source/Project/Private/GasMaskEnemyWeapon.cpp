@@ -12,11 +12,11 @@ AGasMaskEnemyWeapon::AGasMaskEnemyWeapon()
 {
 	WeaponName = "Gas Mask Assault Rifle";
 	Range = 1500.f;
-	ClipSize = 32;
-	CurrentClipAmmo = 32;
+	ClipSize = 16;
+	CurrentClipAmmo = ClipSize;
 	AmmoCapacity = 256;
-	ReloadSpeed = 1.f;
-	FireRate = 0.1f;
+	ReloadSpeed = 1.5f;
+	FireRate = 0.15f;
 	Damage = 0.01f;
 }
 

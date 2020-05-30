@@ -2,13 +2,17 @@
 
 
 #include "TwinStickShooterPlayer.h"
+
+#include "AssaultRifle.h"
 #include "CustomGameInstance.h"
 #include "Engine/Engine.h"
 #include "Engine/GameInstance.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
+#include "Kismet/KismetSystemLibrary.h"
 #include "Shotgun.h"
-#include "AssaultRifle.h"
+#include "ParentEnemy.h"
+
 
 // Sets default values
 ATwinStickShooterPlayer::ATwinStickShooterPlayer()
@@ -49,7 +53,7 @@ ATwinStickShooterPlayer::ATwinStickShooterPlayer()
 	WeaponComponent->SetupAttachment(GetMesh());*/
 	WeaponMuzzle = CreateDefaultSubobject<USceneComponent>(TEXT("Muzzle"));
 	WeaponMuzzle->SetupAttachment(RootComponent);
-	
+
 }
 
 // Called when the game starts or when spawned
@@ -60,7 +64,7 @@ void ATwinStickShooterPlayer::BeginPlay()
 	//Give a weapon
 	//Weapons.Add(NewObject<AAssaultRifle>(this));
 	//Weapons.Add(NewObject<AShotgun>(this));
-	
+
 	//CurrentWeapon = Weapons[0];
 
 	/*if (Weapons.Num() > 0)
@@ -86,10 +90,10 @@ void ATwinStickShooterPlayer::BeginPlay()
 void ATwinStickShooterPlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	
+
 	//UE_LOG(LogTemp, Warning, TEXT("Max walk speed: %f"), GetCharacterMovement()->GetMaxSpeed());
 
-	if (bIsFiring)
+	if (bIsFiring && bCanMelee)
 	{
 		Fire();
 		if (CurrentWeapon)
@@ -124,6 +128,7 @@ void ATwinStickShooterPlayer::SetupPlayerInputComponent(UInputComponent* PlayerI
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &ATwinStickShooterPlayer::FireButtonDown);
 	PlayerInputComponent->BindAction("Fire", IE_Released, this, &ATwinStickShooterPlayer::FireButtonUp);
 	PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &ATwinStickShooterPlayer::Reload);
+	PlayerInputComponent->BindAction("TSMelee", IE_Pressed, this, &ATwinStickShooterPlayer::MeleeAttack);
 }
 
 void ATwinStickShooterPlayer::MoveForward(float Vertical)
@@ -213,4 +218,38 @@ void ATwinStickShooterPlayer::FireButtonDown()
 void ATwinStickShooterPlayer::FireButtonUp()
 {
 	bIsFiring = false;
+}
+
+void ATwinStickShooterPlayer::MeleeAttack()
+{
+	if (bCanMelee)
+	{
+		if (MeleeAnimation)
+		{
+			GetMesh()->GetAnimInstance()->Montage_Play(MeleeAnimation);
+		}
+
+		bCanMelee = false;
+		GetWorldTimerManager().SetTimer(MeleeTimerHandle, this, &ATwinStickShooterPlayer::RestoreMelee, MeleeCooldown, false);
+
+		TArray<TEnumAsByte<EObjectTypeQuery>> Query;
+		TArray<AActor*> Ignore;
+		TArray<AActor*> OutHits;
+
+		UKismetSystemLibrary::SphereOverlapActors(this, GetActorLocation(), MeleeRange, Query, AParentEnemy::StaticClass(), Ignore, OutHits);
+
+		for (auto Enemy : OutHits)
+		{
+			if (Cast<AParentEnemy>(Enemy))
+			{
+				Cast<AParentEnemy>(Enemy)->Health -= MeleeDamage;
+			}
+		}
+	}
+}
+
+void ATwinStickShooterPlayer::RestoreMelee()
+{
+	GetWorldTimerManager().ClearTimer(MeleeTimerHandle);
+	bCanMelee = true;
 }

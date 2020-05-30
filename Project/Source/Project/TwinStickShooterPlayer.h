@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "Animation/AnimInstance.h"
 #include "Camera/CameraComponent.h"
 #include "Components/ChildActorComponent.h"
 #include "Components/InputComponent.h"
@@ -14,6 +15,7 @@
 #include "Objective.h"
 #include "ParentPlayer.h"
 #include "ParentWeapon.h"
+#include "TimerManager.h"
 #include "TSHUD.h"
 
 #include "TwinStickShooterPlayer.generated.h"
@@ -88,7 +90,18 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TArray<AParentWeapon*> Weapons;
 
-		//TArray<TSubclassOf<AParentWeapon>> Weapons;
+	//Melee
+	float MeleeDamage = 0.2f;
+	float MeleeRange = 200.f;
+	float MeleeCooldown = 1.05f;
+	bool bCanMelee = true;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		FTimerHandle MeleeTimerHandle;
+	UFUNCTION(BlueprintCallable)
+		void MeleeAttack();
+	void RestoreMelee();
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UAnimMontage* MeleeAnimation = nullptr;
 
 private:
 	float CharacterRotationX = 0.f;

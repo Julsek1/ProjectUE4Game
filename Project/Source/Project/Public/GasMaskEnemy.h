@@ -22,4 +22,8 @@ public:
 		AParentWeapon* Weapon = nullptr;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		USceneComponent* WeaponMuzzle = nullptr;
+	UFUNCTION(BlueprintCallable)
+		void Fire();
+	UFUNCTION(BlueprintCallable)
+		void Reload();
 };
