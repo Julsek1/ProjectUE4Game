@@ -45,6 +45,18 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "AI")
 	AJBasePlayer* AttackTarget;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
+	float Hp;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
+	float MaxHp;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
+	float Damage;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
+	class UParticleSystem* TakeHitPS;
+
 
 protected:
 	// Called when the game starts or when spawned

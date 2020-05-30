@@ -1167,3 +1167,1178 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.29-22.20.17:181][815]LogSlate: Window 'Message Log' being destroyed
 [2020.05.29-22.20.21:551][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
 [2020.05.29-22.20.23:362][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.05.29-22.27.27:404][721]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.29-22.27.27:446][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.29-22.27.27:447][721]PIE: New page: PIE session: TestMap (May 29, 2020, 2:27:27 p.m.)
+[2020.05.29-22.27.27:447][721]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.05.29-22.27.27:460][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012774s)
+[2020.05.29-22.27.27:461][721]LogAIModule: Creating AISystem for world TestMap
+[2020.05.29-22.27.27:461][721]LogPlayLevel: PIE: World Init took: (0.001444s)
+[2020.05.29-22.27.27:461][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.014488s)
+[2020.05.29-22.27.27:530][721]LogUObjectHash: Compacting FUObjectHashTables data took   6.82ms
+[2020.05.29-22.27.27:532][721]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.29-22.27.27:532][721]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.29-22.27.27:532][721]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.29-22.27.27:532][721]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.29-22.27.27:532][721]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.29-22.27.27:532][721]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.29-22.27.27:532][721]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.29-22.27.27:532][721]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.29-22.27.27:532][721]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.29-22.27.27:532][721]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.29-22.27.27:540][721]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.29-22.27.27:540][721]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.05.29-22.27.27:541][721]LogAudioMixer: Display: Is Default: Yes
+[2020.05.29-22.27.27:541][721]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.29-22.27.27:541][721]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.29-22.27.27:541][721]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.29-22.27.27:541][721]LogAudioMixer: Display: Channel Order:
+[2020.05.29-22.27.27:541][721]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.29-22.27.27:541][721]LogAudioMixer: Display: 1: FrontRight
+[2020.05.29-22.27.27:695][721]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.05.29-22.27.27:697][721]LogInit: FAudioDevice initialized.
+[2020.05.29-22.27.27:709][721]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.05.29-22.27.27:713][721]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.05.29-18.27.27
+[2020.05.29-22.27.27:714][721]LogWorld: Bringing up level for play took: 0.003143
+[2020.05.29-22.27.27:714][721]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.05.29-22.27.27:717][721]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Player". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.05.29-22.27.27:720][721]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.026
+[2020.05.29-22.27.50:784][100]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-22.27.50:784][100]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-22.27.50:785][100]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.29-22.27.50:785][100]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.05.29-22.27.50:785][100]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-22.27.50:785][100]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.29-22.27.50:785][100]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.29-22.27.50:798][100]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.29-22.27.50:804][100]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.29-22.27.50:850][100]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-22.27.50:855][100]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.29-22.27.50:860][100]LogUObjectHash: Compacting FUObjectHashTables data took   4.64ms
+[2020.05.29-22.27.51:002][101]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.05.29-22.27.52:422][166]LogSlate: Window 'Message Log' being destroyed
+[2020.05.29-22.27.52:446][166]LogSlate: Window 'Message Log' being destroyed
+[2020.05.30-00.22.10:583][799]LogHotReload: New module detected: UE4Editor-Project-0002.dll
+[2020.05.30-00.22.14:837][812]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.30-00.22.15:274][812]LogUObjectHash: Compacting FUObjectHashTables data took  14.86ms
+[2020.05.30-00.22.15:410][812]LogClass: Could not find existing class Gun in package /Script/Project for HotReload, assuming new class
+[2020.05.30-00.22.15:479][812]LogClass: EGunState HotReload.
+[2020.05.30-00.22.15:479][812]LogClass: EFEnemyMoveStat HotReload.
+[2020.05.30-00.22.15:479][812]LogClass: PlayerStats HotReload.
+[2020.05.30-00.22.15:557][812]LogHotReload: Re-instancing Gun after hot-reload.
+[2020.05.30-00.22.16:905][812]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0055 seconds. Added 32 classes and 3 folders.
+[2020.05.30-00.22.16:912][812]Display: HotReload successful (24 functions remapped  1 scriptstructs remapped)
+[2020.05.30-00.22.17:246][812]LogUObjectHash: Compacting FUObjectHashTables data took  13.55ms
+[2020.05.30-00.22.17:333][812]LogContentBrowser: Native class hierarchy populated in 0.0207 seconds. Added 3050 classes and 725 folders.
+[2020.05.30-00.22.17:353][812]Display: HotReload took  2.5s.
+[2020.05.30-00.31.57:234][844]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.30-00.31.57:296][844]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.30-00.31.57:300][844]PIE: New page: PIE session: TestMap (May 29, 2020, 4:31:57 p.m.)
+[2020.05.30-00.31.57:301][844]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.05.30-00.31.57:453][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.151431s)
+[2020.05.30-00.31.57:465][844]LogAIModule: Creating AISystem for world TestMap
+[2020.05.30-00.31.57:467][844]LogPlayLevel: PIE: World Init took: (0.013895s)
+[2020.05.30-00.31.57:468][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.167290s)
+[2020.05.30-00.31.57:654][844]LogUObjectHash: Compacting FUObjectHashTables data took   6.92ms
+[2020.05.30-00.31.57:661][844]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.30-00.31.57:661][844]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.30-00.31.57:661][844]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.30-00.31.57:661][844]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.30-00.31.57:661][844]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.30-00.31.57:661][844]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.30-00.31.57:661][844]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.30-00.31.57:661][844]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.30-00.31.57:662][844]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.30-00.31.57:662][844]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.30-00.31.57:667][844]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.30-00.31.57:667][844]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.05.30-00.31.57:667][844]LogAudioMixer: Display: Is Default: Yes
+[2020.05.30-00.31.57:667][844]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.30-00.31.57:667][844]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.30-00.31.57:667][844]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.30-00.31.57:667][844]LogAudioMixer: Display: Channel Order:
+[2020.05.30-00.31.57:667][844]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.30-00.31.57:667][844]LogAudioMixer: Display: 1: FrontRight
+[2020.05.30-00.31.57:777][844]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.05.30-00.31.57:784][844]LogInit: FAudioDevice initialized.
+[2020.05.30-00.31.57:805][844]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.05.30-00.31.57:816][844]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.05.29-20.31.57
+[2020.05.30-00.31.57:822][844]LogWorld: Bringing up level for play took: 0.013087
+[2020.05.30-00.31.57:825][844]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2020.05.30-00.31.57:834][844]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Player". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.05.30-00.31.57:851][844]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.157
+[2020.05.30-00.32.13:115][738]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-00.32.13:115][738]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-00.32.13:117][738]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-00.32.13:117][738]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.05.30-00.32.13:119][738]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-00.32.13:119][738]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-00.32.13:122][738]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-00.32.13:132][738]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.30-00.32.13:138][738]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-00.32.13:180][738]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-00.32.13:185][738]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-00.32.13:194][738]LogUObjectHash: Compacting FUObjectHashTables data took   6.69ms
+[2020.05.30-00.32.13:387][739]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.05.30-00.32.14:907][814]LogSlate: Window 'Message Log' being destroyed
+[2020.05.30-00.32.14:930][814]LogSlate: Window 'Message Log' being destroyed
+[2020.05.30-00.32.28:123][ 63]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Julian/JBP_Classes/BP_Gun.BP_Gun
+[2020.05.30-00.32.30:581][148]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-00.32.30:581][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-00.32.30:702][148]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Julian/JBP_Classes/BP_Gun.BP_Gun
+[2020.05.30-00.32.57:450][674]BlueprintLog: New page: Compile BP_Gun
+[2020.05.30-00.32.58:042][674]LogUObjectHash: Compacting FUObjectHashTables data took   7.09ms
+[2020.05.30-00.32.58:567][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Julian/JBP_Classes/BP_Gun" FILE="../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_Gun.uasset" SILENT=true
+[2020.05.30-00.32.58:681][692]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Gun216AFC53484FC16F0D151FB8BBA913B4.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_Gun.uasset'
+[2020.05.30-00.32.58:713][692]AssetCheck: New page: Asset Save: BP_Gun
+[2020.05.30-00.32.58:713][692]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_Gun.BP_Gun
+[2020.05.30-00.32.59:126][713]LogRenderer: Reallocating scene render targets to support 792x428 Format 10 NumSamples 1 (Frame:1).
+[2020.05.30-00.33.28:755][114]LogUObjectHash: Compacting FUObjectHashTables data took   9.06ms
+[2020.05.30-00.33.28:833][114]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap_Auto1EF0A2FC54A50721A2DF0D9820B3900E5.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/JLevels/TestMap_Auto1.umap'
+[2020.05.30-00.33.28:842][114]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Julian/JLevels/TestMap' took 0.172
+[2020.05.30-00.33.28:842][114]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.172
+[2020.05.30-00.34.10:541][674]LogPhysics: Warning: Scale for /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_Gun_2.FightCollision has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.000 Z=1.000
+[2020.05.30-00.34.10:541][674]LogPhysics: Warning: Scale for /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_Gun2_2.FightCollision has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.000 Z=1.000
+[2020.05.30-00.34.10:542][674]LogPhysics: Warning: Scale for /Engine/Transient.World_16:PersistentLevel.BP_Gun_C_0.FightCollision has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.000 Z=1.000
+[2020.05.30-00.34.12:806][809]LogPhysics: Warning: Scale for /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_Gun_2.FightCollision has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.000 Z=1.000
+[2020.05.30-00.34.12:807][809]LogPhysics: Warning: Scale for /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_Gun2_2.FightCollision has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.000 Z=1.000
+[2020.05.30-00.34.12:807][809]LogPhysics: Warning: Scale for /Engine/Transient.World_16:PersistentLevel.BP_Gun_C_0.FightCollision has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.000 Z=1.000
+[2020.05.30-00.34.48:222][926]LogPhysics: Warning: Scale for /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_Gun_2.FightCollision has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2020.05.30-00.34.48:222][926]LogPhysics: Warning: Scale for /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_Gun2_2.FightCollision has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2020.05.30-00.34.48:222][926]LogPhysics: Warning: Scale for /Engine/Transient.World_16:PersistentLevel.BP_Gun_C_0.FightCollision has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2020.05.30-00.35.10:284][247]LogPhysics: Warning: Scale for /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_Gun_2.FightCollision has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2020.05.30-00.35.10:285][247]LogPhysics: Warning: Scale for /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_Gun2_2.FightCollision has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2020.05.30-00.35.10:286][247]LogPhysics: Warning: Scale for /Engine/Transient.World_16:PersistentLevel.BP_Gun_C_0.FightCollision has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2020.05.30-00.35.34:721][704]LogPhysics: Warning: Scale for /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_Gun_2.FightCollision has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.250
+[2020.05.30-00.35.34:722][704]LogPhysics: Warning: Scale for /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_Gun2_2.FightCollision has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.250
+[2020.05.30-00.35.34:722][704]LogPhysics: Warning: Scale for /Engine/Transient.World_16:PersistentLevel.BP_Gun_C_0.FightCollision has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=0.250
+[2020.05.30-00.35.44:055][263]BlueprintLog: New page: Compile BP_Gun
+[2020.05.30-00.35.44:597][263]LogUObjectHash: Compacting FUObjectHashTables data took   5.69ms
+[2020.05.30-00.35.45:462][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Julian/JBP_Classes/BP_Gun" FILE="../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_Gun.uasset" SILENT=true
+[2020.05.30-00.35.45:518][300]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Gun6C19FC5B4AEAC3108BC3ABA55DD0EE62.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_Gun.uasset'
+[2020.05.30-00.35.45:534][300]AssetCheck: New page: Asset Save: BP_Gun
+[2020.05.30-00.35.45:534][300]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_Gun.BP_Gun
+[2020.05.30-00.43.29:376][786]LogUObjectHash: Compacting FUObjectHashTables data took   5.38ms
+[2020.05.30-00.43.29:478][786]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap_Auto2D65E79AA4EE8D8BB95345997211376B6.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/JLevels/TestMap_Auto2.umap'
+[2020.05.30-00.43.29:485][786]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Julian/JLevels/TestMap' took 0.162
+[2020.05.30-00.43.29:485][786]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.162
+[2020.05.30-01.11.32:098][807]LogHotReload: New module detected: UE4Editor-Project-0004.dll
+[2020.05.30-01.11.33:784][813]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.30-01.11.34:149][813]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2020.05.30-01.11.34:348][813]LogClass: Could not find existing class Gun in package /Script/Project for HotReload, assuming new class
+[2020.05.30-01.11.34:350][813]LogClass: Function FightOnOverlapBegin is new.
+[2020.05.30-01.11.34:350][813]LogClass: Function FightOnOverlapEnd is new.
+[2020.05.30-01.11.34:361][813]LogClass: Could not find existing class JFollowEnemy in package /Script/Project for HotReload, assuming new class
+[2020.05.30-01.11.34:362][813]LogClass: Function AttackSphereOnOverlapBegin is new.
+[2020.05.30-01.11.34:362][813]LogClass: Function AttackSphereOnOverlapEnd is new.
+[2020.05.30-01.11.34:362][813]LogClass: Function FollowSphereOnOverlapBegin is new.
+[2020.05.30-01.11.34:362][813]LogClass: Function FollowSphereOnOverlapEnd is new.
+[2020.05.30-01.11.34:362][813]LogClass: Function MoveToPlayer is new.
+[2020.05.30-01.11.34:453][813]LogClass: EGunState HotReload.
+[2020.05.30-01.11.34:453][813]LogClass: EFEnemyMoveStat HotReload.
+[2020.05.30-01.11.34:453][813]LogClass: PlayerStats HotReload.
+[2020.05.30-01.11.34:576][813]LogHotReload: Re-instancing Gun after hot-reload.
+[2020.05.30-01.11.36:209][813]LogHotReload: Re-instancing JFollowEnemy after hot-reload.
+[2020.05.30-01.11.36:269][813]LogScript: Warning: Accessed None trying to read property FollowEnemy
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:00EC
+[2020.05.30-01.11.36:301][813]LogScript: Warning: Accessed None trying to read property FollowEnemy
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:00EC
+[2020.05.30-01.11.36:302][813]LogScript: Warning: Accessed None trying to read property FollowEnemy
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:00EC
+[2020.05.30-01.11.36:309][813]LogScript: Warning: Accessed None trying to read property FollowEnemy
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:00EC
+[2020.05.30-01.11.37:095][813]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0161 seconds. Added 32 classes and 3 folders.
+[2020.05.30-01.11.37:104][813]Display: HotReload successful (19 functions remapped  1 scriptstructs remapped)
+[2020.05.30-01.11.37:433][813]LogUObjectHash: Compacting FUObjectHashTables data took   8.27ms
+[2020.05.30-01.11.37:598][813]LogContentBrowser: Native class hierarchy populated in 0.0724 seconds. Added 3050 classes and 725 folders.
+[2020.05.30-01.11.37:631][813]Display: HotReload took  3.8s.
+[2020.05.30-01.11.46:088][147]BlueprintLog: New page: Compile BP_Gun
+[2020.05.30-01.11.46:745][147]LogUObjectHash: Compacting FUObjectHashTables data took   7.63ms
+[2020.05.30-01.11.47:524][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Julian/JBP_Classes/BP_Gun" FILE="../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_Gun.uasset" SILENT=true
+[2020.05.30-01.11.47:671][181]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Gun5C42E6CC4391321F7EF3798DBF78BC9E.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_Gun.uasset'
+[2020.05.30-01.11.47:694][181]AssetCheck: New page: Asset Save: BP_Gun
+[2020.05.30-01.11.47:694][181]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_Gun.BP_Gun
+[2020.05.30-01.12.13:405][ 53]LogScript: Warning: Accessed None trying to read property FollowEnemy
+	BP_MutantAnim_C /Engine/Transient.World_20:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:00EC
+[2020.05.30-01.12.13:450][ 54]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.12.15:517][ 87]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Julian/Enemies/Mutant/BP_JFollowEnemy.BP_JFollowEnemy
+[2020.05.30-01.12.16:149][ 87]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_22:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.12.16:338][ 88]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_22:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.12.16:351][ 89]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_22:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.12.16:361][ 90]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_22:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.12.16:552][ 91]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_22:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.12.16:573][ 92]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_22:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.12.16:594][ 93]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_22:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.12.16:641][ 94]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_22:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.12.16:658][ 95]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_22:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.12.16:687][ 96]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_22:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.12.16:722][ 97]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_22:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.12.16:767][ 98]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_22:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.12.16:784][ 99]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_22:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.12.16:799][100]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_22:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.12.16:815][101]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_22:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.12.16:832][102]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_22:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.12.16:848][103]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_22:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.12.16:864][104]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_22:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.12.18:065][170]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-01.12.18:065][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-01.12.18:216][170]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Julian/Enemies/Mutant/BP_JFollowEnemy.BP_JFollowEnemy
+[2020.05.30-01.12.18:637][170]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_23:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.12.45:185][726]LogUObjectHash: Compacting FUObjectHashTables data took   7.06ms
+[2020.05.30-01.12.45:290][726]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap_Auto31A6A55374975D612C8FFD3BCFCFCBC44.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/JLevels/TestMap_Auto3.umap'
+[2020.05.30-01.12.45:303][726]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Julian/JLevels/TestMap' took 0.299
+[2020.05.30-01.12.45:303][726]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.299
+[2020.05.30-01.13.48:471][506]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_23:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.10:362][704]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.10:365][704]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.10:367][704]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.10:368][704]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_23:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.10:371][704]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.10:372][704]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.10:374][704]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.10:375][704]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_23:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.10:439][704]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_23:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.38:359][ 42]BlueprintLog: New page: Compile BP_JFollowEnemy
+[2020.05.30-01.14.38:390][ 42]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.38:394][ 42]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.38:395][ 42]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.38:397][ 42]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.38:398][ 42]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.38:399][ 42]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.38:399][ 42]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_23:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.38:401][ 42]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_23:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.38:983][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   6.82ms
+[2020.05.30-01.14.38:985][ 42]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.38:986][ 42]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.38:987][ 42]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.38:988][ 42]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_23:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.38:993][ 42]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_1.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.38:997][ 42]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.38:998][ 42]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.38:998][ 42]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_23:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.38:999][ 42]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_1.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.39:036][ 42]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_23:PersistentLevel.BP_JFollowEnemy_C_0.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.39:843][ 70]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JFollowEnemy067D18114CFCCE4B275FD79A6532445C.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/BP_JFollowEnemy.uasset'
+[2020.05.30-01.14.39:865][ 70]AssetCheck: New page: Asset Save: BP_JFollowEnemy
+[2020.05.30-01.14.39:865][ 70]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/BP_JFollowEnemy.BP_JFollowEnemy
+[2020.05.30-01.14.42:234][150]LogUObjectHash: Compacting FUObjectHashTables data took   6.67ms
+[2020.05.30-01.14.43:894][150]LogSlate: Window 'Save Content' being destroyed
+[2020.05.30-01.14.44:014][150]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.05.30-01.14.44:066][150]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap1C48399145FA2F00E84A11BC17A2A7A6.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JLevels/TestMap.umap'
+[2020.05.30-01.14.44:182][150]LogFileHelpers: Saving map 'TestMap' took 0.253
+[2020.05.30-01.14.44:212][150]AssetCheck: New page: Asset Save: TestMap
+[2020.05.30-01.14.44:212][150]LogContentValidation: Display: Validating World /Game/Julian/JLevels/TestMap.TestMap
+[2020.05.30-01.14.45:644][204]LogRenderer: Reallocating scene render targets to support 792x440 Format 10 NumSamples 1 (Frame:5502).
+[2020.05.30-01.14.45:726][205]LogRenderer: Reallocating scene render targets to support 792x444 Format 10 NumSamples 1 (Frame:5504).
+[2020.05.30-01.14.48:475][334]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.30-01.14.48:531][334]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.30-01.14.48:544][334]PIE: New page: PIE session: TestMap (May 29, 2020, 5:14:48 p.m.)
+[2020.05.30-01.14.48:544][334]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.05.30-01.14.48:685][334]LogPlayLevel: PIE: StaticDuplicateObject took: (0.141062s)
+[2020.05.30-01.14.48:692][334]LogAIModule: Creating AISystem for world TestMap
+[2020.05.30-01.14.48:698][334]LogPlayLevel: PIE: World Init took: (0.013009s)
+[2020.05.30-01.14.48:698][334]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.154309s)
+[2020.05.30-01.14.48:784][334]LogUObjectHash: Compacting FUObjectHashTables data took   5.68ms
+[2020.05.30-01.14.48:794][334]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.30-01.14.48:794][334]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.30-01.14.48:794][334]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.30-01.14.48:794][334]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.30-01.14.48:794][334]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.30-01.14.48:794][334]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.30-01.14.48:794][334]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.30-01.14.48:794][334]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.30-01.14.48:796][334]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.30-01.14.48:796][334]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.30-01.14.48:803][334]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.30-01.14.48:803][334]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.05.30-01.14.48:803][334]LogAudioMixer: Display: Is Default: Yes
+[2020.05.30-01.14.48:803][334]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.30-01.14.48:803][334]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.30-01.14.48:803][334]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.30-01.14.48:803][334]LogAudioMixer: Display: Channel Order:
+[2020.05.30-01.14.48:803][334]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.30-01.14.48:803][334]LogAudioMixer: Display: 1: FrontRight
+[2020.05.30-01.14.48:914][334]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.05.30-01.14.48:920][334]LogInit: FAudioDevice initialized.
+[2020.05.30-01.14.48:951][334]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.05.30-01.14.48:961][334]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.48:963][334]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_MutantAnim Function:  Execute Ubergraph BP Mutant Anim Graph:  Transition Node:  Result
+[2020.05.30-01.14.48:964][334]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.48:964][334]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_MutantAnim Function:  Execute Ubergraph BP Mutant Anim Graph:  Transition Node:  Result
+[2020.05.30-01.14.48:966][334]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.05.29-21.14.48
+[2020.05.30-01.14.48:979][334]LogWorld: Bringing up level for play took: 0.022731
+[2020.05.30-01.14.48:989][334]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2020.05.30-01.14.49:006][334]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Player". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.05.30-01.14.49:041][334]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 1.347
+[2020.05.30-01.14.49:093][335]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:093][335]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:107][335]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:107][335]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:156][337]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:156][337]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:318][338]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:318][338]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:344][339]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:345][339]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:362][340]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:362][340]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:379][341]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:379][341]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:397][342]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:397][342]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:414][343]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:414][343]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:431][344]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:431][344]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:449][345]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:450][345]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:467][346]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:467][346]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:484][347]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:485][347]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:501][348]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:501][348]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:518][349]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:518][349]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:536][350]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:536][350]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:554][351]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:554][351]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:570][352]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:571][352]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:589][353]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:590][353]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:609][354]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:609][354]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:628][355]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:677][358]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:695][359]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:712][360]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:712][360]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:730][361]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:746][362]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:835][367]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:867][369]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:903][371]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:904][371]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:919][372]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:937][373]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.49:971][375]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.50:004][377]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.50:104][383]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.50:120][384]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.50:155][386]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.50:344][397]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.50:395][400]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.50:463][404]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.50:478][405]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.50:655][415]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.50:878][428]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.50:889][429]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.51:048][438]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.51:060][439]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.14.51:127][443]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.15.07:439][357]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.15.07:439][357]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.15.07:444][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-01.15.07:444][357]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.05.30-01.15.07:445][357]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.15.07:445][357]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-01.15.07:448][357]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-01.15.07:489][357]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.30-01.15.07:503][357]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-01.15.07:596][357]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.15.07:602][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-01.15.07:616][357]LogUObjectHash: Compacting FUObjectHashTables data took   7.12ms
+[2020.05.30-01.15.07:815][358]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2020.05.30-01.15.16:833][708]LogSlate: Window 'Message Log' being destroyed
+[2020.05.30-01.15.16:864][708]LogSlate: Window 'Message Log' being destroyed
+[2020.05.30-01.16.18:339][127]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.05.30-01.22.30:800][638]LogAssetTools: Warning: Failed to import 'C:\Users\julia\Desktop\PS_Blood_Spurt_02.uasset'. Unknown extension 'uasset'.
+[2020.05.30-01.22.37:500][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2020.05.30-01.23.40:764][ 67]LogLinker: Warning: While loading '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JParticleSystem/PS_Blood_Spurt_02.uasset' failed to load '/Game/FXVillesBloodVFXPack/Materials/MIC_BloodClip_A': Can't find file.
+[2020.05.30-01.23.40:766][ 67]LogLinker: Warning: While loading '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JParticleSystem/PS_Blood_Spurt_02.uasset' failed to load '/Game/FXVillesBloodVFXPack/Materials/MIC_BloodClip_A': Can't find file.
+[2020.05.30-01.23.40:766][ 67]LogLinker: Warning: While loading '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JParticleSystem/PS_Blood_Spurt_02.uasset' failed to load '/Game/FXVillesBloodVFXPack/Materials/MIC_BloodClip_Splat_2x2': Can't find file.
+[2020.05.30-01.23.40:768][ 67]LogLinker: Warning: While loading '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JParticleSystem/PS_Blood_Spurt_02.uasset' failed to load '/Game/FXVillesBloodVFXPack/Materials/MIC_BloodClip_Splat_2x2': Can't find file.
+[2020.05.30-01.23.40:768][ 67]LogLinker: Warning: While loading '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JParticleSystem/PS_Blood_Spurt_02.uasset' failed to load '/Game/FXVillesBloodVFXPack/Materials/MIC_BloodClip_A': Can't find file.
+[2020.05.30-01.23.40:768][ 67]LogLinker: Warning: While loading '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JParticleSystem/PS_Blood_Spurt_02.uasset' failed to load '/Game/FXVillesBloodVFXPack/Materials/MIC_BloodClip_A': Can't find file.
+[2020.05.30-01.23.40:768][ 67]LogLinker: Warning: While loading '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JParticleSystem/PS_Blood_Spurt_02.uasset' failed to load '/Game/FXVillesBloodVFXPack/Materials/MIC_BloodClip_Splat_2x2': Can't find file.
+[2020.05.30-01.23.40:768][ 67]LogLinker: Warning: While loading '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JParticleSystem/PS_Blood_Spurt_02.uasset' failed to load '/Game/FXVillesBloodVFXPack/Materials/MIC_BloodClip_Splat_2x2': Can't find file.
+[2020.05.30-01.23.40:775][ 67]LogLinker: Warning: While loading '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JParticleSystem/PS_Blood_Spurt_02.uasset' failed to load '/Game/FXVillesBloodVFXPack/Materials/MIC_BloodClip_A': Can't find file.
+[2020.05.30-01.23.40:775][ 67]LoadErrors: Failed to load /Game/FXVillesBloodVFXPack/Materials/MIC_BloodClip_A.MIC_BloodClip_A Referenced by ParticleModuleRequired_0
+[2020.05.30-01.23.40:775][ 67]LogLinker: Warning: While loading '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JParticleSystem/PS_Blood_Spurt_02.uasset' failed to load '/Game/FXVillesBloodVFXPack/Materials/MIC_BloodClip_A': Can't find file.
+[2020.05.30-01.23.40:776][ 67]LogLinker: Warning: While loading '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JParticleSystem/PS_Blood_Spurt_02.uasset' failed to load '/Game/FXVillesBloodVFXPack/Materials/MIC_BloodClip_A': Can't find file.
+[2020.05.30-01.23.40:776][ 67]LoadErrors: Failed to load /Game/FXVillesBloodVFXPack/Materials/MIC_BloodClip_A.MIC_BloodClip_A Referenced by ParticleModuleRequired_1
+[2020.05.30-01.23.40:777][ 67]LogLinker: Warning: While loading '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JParticleSystem/PS_Blood_Spurt_02.uasset' failed to load '/Game/FXVillesBloodVFXPack/Materials/MIC_BloodClip_A': Can't find file.
+[2020.05.30-01.23.40:777][ 67]LogLinker: Warning: While loading '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JParticleSystem/PS_Blood_Spurt_02.uasset' failed to load '/Game/FXVillesBloodVFXPack/Materials/MIC_BloodClip_Splat_2x2': Can't find file.
+[2020.05.30-01.23.40:777][ 67]LoadErrors: Failed to load /Game/FXVillesBloodVFXPack/Materials/MIC_BloodClip_Splat_2x2.MIC_BloodClip_Splat_2x2 Referenced by ParticleModuleRequired_3
+[2020.05.30-01.23.40:777][ 67]LogLinker: Warning: While loading '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JParticleSystem/PS_Blood_Spurt_02.uasset' failed to load '/Game/FXVillesBloodVFXPack/Materials/MIC_BloodClip_Splat_2x2': Can't find file.
+[2020.05.30-01.23.40:845][ 67]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.05.30-01.23.40:846][ 67]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.23.40:848][ 67]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.23.40:849][ 67]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_1.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.23.40:851][ 67]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.23.40:852][ 67]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.23.40:855][ 67]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_1.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.24.45:797][444]BlueprintLog: New page: Compile BP_JFollowEnemy
+[2020.05.30-01.24.45:820][444]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.24.45:823][444]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.24.45:824][444]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.24.45:826][444]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.24.45:827][444]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_1.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.24.45:828][444]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_1.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.24.46:283][444]LogUObjectHash: Compacting FUObjectHashTables data took   5.12ms
+[2020.05.30-01.24.46:285][444]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.24.46:286][444]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.24.46:286][444]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_1.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.24.46:287][444]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.24.46:291][444]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.24.46:291][444]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.24.46:293][444]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.24.47:113][474]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JFollowEnemyF6E619E84F3148DE34A9CB812FBE08CB.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/BP_JFollowEnemy.uasset'
+[2020.05.30-01.24.47:134][474]AssetCheck: New page: Asset Save: BP_JFollowEnemy
+[2020.05.30-01.24.47:134][474]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/BP_JFollowEnemy.BP_JFollowEnemy
+[2020.05.30-01.24.49:875][600]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.30-01.24.49:917][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.30-01.24.49:917][600]PIE: New page: PIE session: TestMap (May 29, 2020, 5:24:49 p.m.)
+[2020.05.30-01.24.49:917][600]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.05.30-01.24.49:930][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012823s)
+[2020.05.30-01.24.49:931][600]LogAIModule: Creating AISystem for world TestMap
+[2020.05.30-01.24.49:932][600]LogPlayLevel: PIE: World Init took: (0.001557s)
+[2020.05.30-01.24.49:932][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.014596s)
+[2020.05.30-01.24.49:996][600]LogUObjectHash: Compacting FUObjectHashTables data took   5.74ms
+[2020.05.30-01.24.49:997][600]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.30-01.24.49:997][600]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.30-01.24.49:997][600]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.30-01.24.49:997][600]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.30-01.24.49:997][600]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.30-01.24.49:997][600]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.30-01.24.49:997][600]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.30-01.24.49:997][600]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.30-01.24.49:997][600]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.30-01.24.49:997][600]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.30-01.24.50:002][600]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.30-01.24.50:002][600]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.05.30-01.24.50:002][600]LogAudioMixer: Display: Is Default: Yes
+[2020.05.30-01.24.50:002][600]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.30-01.24.50:002][600]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.30-01.24.50:002][600]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.30-01.24.50:002][600]LogAudioMixer: Display: Channel Order:
+[2020.05.30-01.24.50:002][600]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.30-01.24.50:002][600]LogAudioMixer: Display: 1: FrontRight
+[2020.05.30-01.24.50:113][600]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.05.30-01.24.50:114][600]LogInit: FAudioDevice initialized.
+[2020.05.30-01.24.50:128][600]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.05.30-01.24.50:135][600]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.24.50:136][600]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_MutantAnim Function:  Execute Ubergraph BP Mutant Anim Graph:  Transition Node:  Result
+[2020.05.30-01.24.50:138][600]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.24.50:138][600]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_MutantAnim Function:  Execute Ubergraph BP Mutant Anim Graph:  Transition Node:  Result
+[2020.05.30-01.24.50:139][600]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.05.29-21.24.50
+[2020.05.30-01.24.50:142][600]LogWorld: Bringing up level for play took: 0.012156
+[2020.05.30-01.24.50:143][600]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2020.05.30-01.24.50:151][600]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Player". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.05.30-01.24.50:159][600]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.464
+[2020.05.30-01.25.17:556][204]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.25.17:556][204]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.25.17:557][204]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-01.25.17:559][204]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.05.30-01.25.17:559][204]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.25.17:559][204]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-01.25.17:560][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-01.25.17:577][204]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.30-01.25.17:586][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-01.25.17:654][204]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.25.17:659][204]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-01.25.17:668][204]LogUObjectHash: Compacting FUObjectHashTables data took   8.28ms
+[2020.05.30-01.25.17:840][205]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2020.05.30-01.25.45:459][403]LogSlate: Window 'Message Log' being destroyed
+[2020.05.30-01.25.45:487][403]LogSlate: Window 'Message Log' being destroyed
+[2020.05.30-01.25.47:545][501]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.30-01.25.47:588][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.30-01.25.47:588][501]PIE: New page: PIE session: TestMap (May 29, 2020, 5:25:47 p.m.)
+[2020.05.30-01.25.47:588][501]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.05.30-01.25.47:601][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012552s)
+[2020.05.30-01.25.47:602][501]LogAIModule: Creating AISystem for world TestMap
+[2020.05.30-01.25.47:603][501]LogPlayLevel: PIE: World Init took: (0.002607s)
+[2020.05.30-01.25.47:603][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.015374s)
+[2020.05.30-01.25.47:685][501]LogUObjectHash: Compacting FUObjectHashTables data took   5.71ms
+[2020.05.30-01.25.47:686][501]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.30-01.25.47:686][501]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.30-01.25.47:686][501]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.30-01.25.47:686][501]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.30-01.25.47:686][501]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.30-01.25.47:686][501]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.30-01.25.47:686][501]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.30-01.25.47:686][501]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.30-01.25.47:687][501]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.30-01.25.47:687][501]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.30-01.25.47:692][501]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.30-01.25.47:692][501]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.05.30-01.25.47:692][501]LogAudioMixer: Display: Is Default: Yes
+[2020.05.30-01.25.47:692][501]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.30-01.25.47:692][501]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.30-01.25.47:692][501]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.30-01.25.47:692][501]LogAudioMixer: Display: Channel Order:
+[2020.05.30-01.25.47:692][501]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.30-01.25.47:692][501]LogAudioMixer: Display: 1: FrontRight
+[2020.05.30-01.25.47:831][501]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.05.30-01.25.47:833][501]LogInit: FAudioDevice initialized.
+[2020.05.30-01.25.47:840][501]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.05.30-01.25.47:843][501]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.25.47:843][501]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_MutantAnim Function:  Execute Ubergraph BP Mutant Anim Graph:  Transition Node:  Result
+[2020.05.30-01.25.47:843][501]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.25.47:844][501]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_MutantAnim Function:  Execute Ubergraph BP Mutant Anim Graph:  Transition Node:  Result
+[2020.05.30-01.25.47:844][501]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.05.29-21.25.47
+[2020.05.30-01.25.47:845][501]LogWorld: Bringing up level for play took: 0.004072
+[2020.05.30-01.25.47:845][501]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2020.05.30-01.25.47:847][501]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Player". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.05.30-01.25.47:850][501]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.157
+[2020.05.30-01.26.07:240][642]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.26.07:240][642]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.26.07:242][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-01.26.07:242][642]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.05.30-01.26.07:242][642]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.26.07:243][642]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-01.26.07:243][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-01.26.07:258][642]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.30-01.26.07:265][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-01.26.07:324][642]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.26.07:328][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-01.26.07:335][642]LogUObjectHash: Compacting FUObjectHashTables data took   5.66ms
+[2020.05.30-01.26.07:543][643]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2020.05.30-01.26.09:696][728]LogSlate: Window 'Message Log' being destroyed
+[2020.05.30-01.26.09:721][728]LogSlate: Window 'Message Log' being destroyed
+[2020.05.30-01.26.24:865][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   5.62ms
+[2020.05.30-01.26.31:353][ 18]LogSlate: Window 'Delete Assets' being destroyed
+[2020.05.30-01.26.39:869][ 18]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-01.26.39:869][ 18]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-01.26.39:965][ 18]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Julian/JParticleSystem/PS_Blood_Spurt_02.PS_Blood_Spurt_02
+[2020.05.30-01.26.42:421][ 18]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.26.42:422][ 18]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.26.42:429][ 18]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.26.42:969][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   5.23ms
+[2020.05.30-01.26.43:123][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
+[2020.05.30-01.26.43:177][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.05.30-01.26.46:352][173]LogUObjectHash: Compacting FUObjectHashTables data took   7.72ms
+[2020.05.30-01.26.46:478][173]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap_Auto4445C84294E46F08B2CAA0ABF189EA3F1.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/JLevels/TestMap_Auto4.umap'
+[2020.05.30-01.26.46:482][173]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Julian/JLevels/TestMap' took 0.194
+[2020.05.30-01.26.46:482][173]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.194
+[2020.05.30-01.26.46:483][173]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Julian/Enemies/Mutant/BP_JFollowEnemy] ([1] browsable assets)...
+[2020.05.30-01.26.46:600][173]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Julian/Enemies/Mutant/BP_JFollowEnemy.BP_JFollowEnemy]
+[2020.05.30-01.26.46:600][173]OBJ SavePackage: Finished generating thumbnails for package [/Game/Julian/Enemies/Mutant/BP_JFollowEnemy]
+[2020.05.30-01.26.46:743][173]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JFollowEnemy_Auto4972DBCE54EC85FAE233F9581A59D3C86.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/Enemies/Mutant/BP_JFollowEnemy_Auto4.uasset'
+[2020.05.30-01.26.46:745][173]LogFileHelpers: Auto-saving content packages took 0.263
+[2020.05.30-01.26.52:500][412]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Julian/Enemies/Mutant/BP_JFollowEnemy.BP_JFollowEnemy
+[2020.05.30-01.27.01:230][870]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy2_5.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.27.01:231][870]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JFollowEnemy_2.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.27.01:232][870]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.27.01:235][870]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.27.02:390][927]BlueprintLog: New page: Compile BP_JFollowEnemy
+[2020.05.30-01.27.02:426][927]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_2.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.27.02:427][927]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_2.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.27.02:955][927]LogUObjectHash: Compacting FUObjectHashTables data took   6.69ms
+[2020.05.30-01.27.02:967][927]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_2.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.27.02:969][927]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_3.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.27.02:977][927]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_3.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.27.03:989][965]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JFollowEnemy73EBF04446C6921E05E5DDA3E0B76180.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/BP_JFollowEnemy.uasset'
+[2020.05.30-01.27.04:016][965]AssetCheck: New page: Asset Save: BP_JFollowEnemy
+[2020.05.30-01.27.04:016][965]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/BP_JFollowEnemy.BP_JFollowEnemy
+[2020.05.30-01.27.08:212][203]BlueprintLog: New page: Compile BP_JFollowEnemy
+[2020.05.30-01.27.08:247][203]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_3.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.27.08:250][203]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_3.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.27.08:822][203]LogUObjectHash: Compacting FUObjectHashTables data took   7.69ms
+[2020.05.30-01.27.08:825][203]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_3.CharacterMesh0.BP_MutantAnim_C_1
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.27.08:826][203]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_4.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.27.08:833][203]LogScript: Warning: Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MutantAnim_C /Engine/Transient.World_21:PersistentLevel.BP_JFollowEnemy_C_4.CharacterMesh0.BP_MutantAnim_C_0
+	Function /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim_C:ExecuteUbergraph_BP_MutantAnim:0101
+[2020.05.30-01.27.09:557][223]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JFollowEnemyE351FED543AFA6B4FD7F87AABB98A58B.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/BP_JFollowEnemy.uasset'
+[2020.05.30-01.27.09:574][223]AssetCheck: New page: Asset Save: BP_JFollowEnemy
+[2020.05.30-01.27.09:574][223]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/BP_JFollowEnemy.BP_JFollowEnemy
+[2020.05.30-01.27.12:549][328]LogUObjectHash: Compacting FUObjectHashTables data took   6.68ms
+[2020.05.30-01.27.13:788][328]LogSlate: Window 'Save Content' being destroyed
+[2020.05.30-01.27.13:918][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2020.05.30-01.27.13:989][328]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap795D8D0C44CD6E74C5F7A6B56DF161E9.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JLevels/TestMap.umap'
+[2020.05.30-01.27.14:060][328]LogFileHelpers: Saving map 'TestMap' took 0.226
+[2020.05.30-01.27.14:078][328]AssetCheck: New page: Asset Save: TestMap
+[2020.05.30-01.27.14:078][328]LogContentValidation: Display: Validating World /Game/Julian/JLevels/TestMap.TestMap
+[2020.05.30-01.27.15:878][408]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.30-01.27.15:927][408]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.30-01.27.15:928][408]PIE: New page: PIE session: TestMap (May 29, 2020, 5:27:15 p.m.)
+[2020.05.30-01.27.15:928][408]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.05.30-01.27.15:941][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012487s)
+[2020.05.30-01.27.15:942][408]LogAIModule: Creating AISystem for world TestMap
+[2020.05.30-01.27.15:942][408]LogPlayLevel: PIE: World Init took: (0.001114s)
+[2020.05.30-01.27.15:942][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.014125s)
+[2020.05.30-01.27.16:022][408]LogUObjectHash: Compacting FUObjectHashTables data took   6.45ms
+[2020.05.30-01.27.16:023][408]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.30-01.27.16:024][408]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.30-01.27.16:024][408]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.30-01.27.16:024][408]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.30-01.27.16:024][408]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.30-01.27.16:024][408]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.30-01.27.16:024][408]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.30-01.27.16:024][408]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.30-01.27.16:025][408]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.30-01.27.16:025][408]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.30-01.27.16:030][408]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.30-01.27.16:030][408]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.05.30-01.27.16:030][408]LogAudioMixer: Display: Is Default: Yes
+[2020.05.30-01.27.16:030][408]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.30-01.27.16:030][408]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.30-01.27.16:030][408]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.30-01.27.16:030][408]LogAudioMixer: Display: Channel Order:
+[2020.05.30-01.27.16:030][408]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.30-01.27.16:030][408]LogAudioMixer: Display: 1: FrontRight
+[2020.05.30-01.27.16:153][408]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.05.30-01.27.16:156][408]LogInit: FAudioDevice initialized.
+[2020.05.30-01.27.16:166][408]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.05.30-01.27.16:168][408]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_MutantAnim Function:  Execute Ubergraph BP Mutant Anim Graph:  Transition Node:  Result
+[2020.05.30-01.27.16:169][408]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_MutantAnim Function:  Execute Ubergraph BP Mutant Anim Graph:  Transition Node:  Result
+[2020.05.30-01.27.16:170][408]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.05.29-21.27.16
+[2020.05.30-01.27.16:172][408]LogWorld: Bringing up level for play took: 0.005602
+[2020.05.30-01.27.16:173][408]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2020.05.30-01.27.16:179][408]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Player". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.05.30-01.27.16:185][408]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.491
+[2020.05.30-01.27.23:570][833]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.27.23:570][833]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.27.23:571][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-01.27.23:571][833]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.05.30-01.27.23:571][833]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.27.23:571][833]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-01.27.23:571][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-01.27.23:609][833]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.30-01.27.23:617][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-01.27.23:709][833]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.27.23:715][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-01.27.23:726][833]LogUObjectHash: Compacting FUObjectHashTables data took   9.47ms
+[2020.05.30-01.27.23:919][834]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2020.05.30-01.27.25:682][895]LogSlate: Window 'Message Log' being destroyed
+[2020.05.30-01.27.25:712][895]LogSlate: Window 'Message Log' being destroyed
+[2020.05.30-01.30.48:023][500]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/MilitaryWeapDark/Weapons/Knife_B.Knife_B
+[2020.05.30-01.30.48:070][500]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.05.30-01.30.48:203][500]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.05.30-01.30.49:021][501]LogRenderer: Reallocating scene render targets to support 792x524 Format 10 NumSamples 1 (Frame:1).
+[2020.05.30-01.31.26:040][808]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-01.31.26:040][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-01.31.30:867][979]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/MilitaryWeapDark/Weapons/Knife_B_Skeleton.Knife_B_Skeleton
+[2020.05.30-01.31.30:877][979]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.05.30-01.31.30:942][979]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.05.30-01.33.56:186][141]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Knife_B_Skeleton1B65EA6B4BA1267BA10941BBCF935C93.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/MilitaryWeapDark/Weapons/Knife_B_Skeleton.uasset'
+[2020.05.30-01.33.56:227][141]AssetCheck: New page: Asset Save: Knife_B_Skeleton
+[2020.05.30-01.33.56:227][141]LogContentValidation: Display: Validating Skeleton /Game/MilitaryWeapDark/Weapons/Knife_B_Skeleton.Knife_B_Skeleton
+[2020.05.30-01.33.58:299][232]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-01.33.58:299][232]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-01.37.22:552][174]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/MilitaryWeapDark/Weapons/Knife_B_Skeleton.Knife_B_Skeleton
+[2020.05.30-01.37.22:568][174]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.05.30-01.37.22:634][174]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.05.30-01.37.32:861][615]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Knife_B_SkeletonBCB6DD55442F7F96741889B3730753FB.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/MilitaryWeapDark/Weapons/Knife_B_Skeleton.uasset'
+[2020.05.30-01.37.32:895][615]AssetCheck: New page: Asset Save: Knife_B_Skeleton
+[2020.05.30-01.37.32:895][615]LogContentValidation: Display: Validating Skeleton /Game/MilitaryWeapDark/Weapons/Knife_B_Skeleton.Knife_B_Skeleton
+[2020.05.30-01.37.36:660][775]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-01.37.36:660][775]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-01.44.17:487][ 50]LogHotReload: New module detected: UE4Editor-Project-0005.dll
+[2020.05.30-01.44.18:539][ 54]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.30-01.44.18:899][ 54]LogUObjectHash: Compacting FUObjectHashTables data took  35.13ms
+[2020.05.30-01.44.19:162][ 54]LogClass: EGunState HotReload.
+[2020.05.30-01.44.19:162][ 54]LogClass: EFEnemyMoveStat HotReload.
+[2020.05.30-01.44.19:162][ 54]LogClass: PlayerStats HotReload.
+[2020.05.30-01.44.19:219][ 54]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0088 seconds. Added 32 classes and 3 folders.
+[2020.05.30-01.44.19:228][ 54]Display: HotReload successful (26 functions remapped  1 scriptstructs remapped)
+[2020.05.30-01.44.19:890][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2020.05.30-01.44.19:979][ 54]LogContentBrowser: Native class hierarchy populated in 0.0363 seconds. Added 3050 classes and 725 folders.
+[2020.05.30-01.44.20:001][ 54]Display: HotReload took  1.5s.
+[2020.05.30-01.45.09:619][906]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.30-01.45.09:694][906]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.30-01.45.09:698][906]PIE: New page: PIE session: TestMap (May 29, 2020, 5:45:09 p.m.)
+[2020.05.30-01.45.09:700][906]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.05.30-01.45.09:737][906]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037113s)
+[2020.05.30-01.45.09:744][906]LogAIModule: Creating AISystem for world TestMap
+[2020.05.30-01.45.09:750][906]LogPlayLevel: PIE: World Init took: (0.012317s)
+[2020.05.30-01.45.09:750][906]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.050036s)
+[2020.05.30-01.45.09:978][906]LogUObjectHash: Compacting FUObjectHashTables data took   8.74ms
+[2020.05.30-01.45.09:993][906]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.30-01.45.09:993][906]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.30-01.45.09:993][906]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.30-01.45.09:993][906]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.30-01.45.09:993][906]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.30-01.45.09:993][906]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.30-01.45.09:993][906]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.30-01.45.09:993][906]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.30-01.45.09:994][906]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.30-01.45.09:994][906]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.30-01.45.10:000][906]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.30-01.45.10:000][906]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.05.30-01.45.10:000][906]LogAudioMixer: Display: Is Default: Yes
+[2020.05.30-01.45.10:000][906]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.30-01.45.10:000][906]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.30-01.45.10:000][906]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.30-01.45.10:000][906]LogAudioMixer: Display: Channel Order:
+[2020.05.30-01.45.10:000][906]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.30-01.45.10:000][906]LogAudioMixer: Display: 1: FrontRight
+[2020.05.30-01.45.10:101][906]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.05.30-01.45.10:108][906]LogInit: FAudioDevice initialized.
+[2020.05.30-01.45.10:129][906]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.05.30-01.45.10:143][906]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_MutantAnim Function:  Execute Ubergraph BP Mutant Anim Graph:  Transition Node:  Result
+[2020.05.30-01.45.10:148][906]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_MutantAnim Function:  Execute Ubergraph BP Mutant Anim Graph:  Transition Node:  Result
+[2020.05.30-01.45.10:148][906]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.05.29-21.45.10
+[2020.05.30-01.45.10:155][906]LogWorld: Bringing up level for play took: 0.023715
+[2020.05.30-01.45.10:161][906]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2020.05.30-01.45.10:168][906]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Player". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.05.30-01.45.10:183][906]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.489
+[2020.05.30-01.45.21:667][572]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.45.21:667][572]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.45.21:669][572]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-01.45.21:669][572]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.05.30-01.45.21:669][572]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.45.21:670][572]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-01.45.21:671][572]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-01.45.21:709][572]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.30-01.45.21:725][572]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-01.45.21:824][572]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.45.21:831][572]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-01.45.21:887][572]LogUObjectHash: Compacting FUObjectHashTables data took   9.71ms
+[2020.05.30-01.45.22:074][573]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2020.05.30-01.45.23:800][638]LogSlate: Window 'Message Log' being destroyed
+[2020.05.30-01.45.23:831][638]LogSlate: Window 'Message Log' being destroyed
+[2020.05.30-01.45.26:643][763]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.30-01.45.26:691][763]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.30-01.45.26:692][763]PIE: New page: PIE session: TestMap (May 29, 2020, 5:45:26 p.m.)
+[2020.05.30-01.45.26:694][763]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.05.30-01.45.26:709][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015225s)
+[2020.05.30-01.45.26:711][763]LogAIModule: Creating AISystem for world TestMap
+[2020.05.30-01.45.26:711][763]LogPlayLevel: PIE: World Init took: (0.001792s)
+[2020.05.30-01.45.26:711][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.017248s)
+[2020.05.30-01.45.26:796][763]LogUObjectHash: Compacting FUObjectHashTables data took   6.04ms
+[2020.05.30-01.45.26:798][763]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.30-01.45.26:798][763]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.30-01.45.26:798][763]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.30-01.45.26:799][763]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.30-01.45.26:799][763]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.30-01.45.26:799][763]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.30-01.45.26:799][763]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.30-01.45.26:799][763]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.30-01.45.26:800][763]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.30-01.45.26:800][763]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.30-01.45.26:804][763]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.30-01.45.26:804][763]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.05.30-01.45.26:804][763]LogAudioMixer: Display: Is Default: Yes
+[2020.05.30-01.45.26:804][763]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.30-01.45.26:804][763]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.30-01.45.26:804][763]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.30-01.45.26:804][763]LogAudioMixer: Display: Channel Order:
+[2020.05.30-01.45.26:804][763]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.30-01.45.26:804][763]LogAudioMixer: Display: 1: FrontRight
+[2020.05.30-01.45.26:926][763]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.05.30-01.45.26:928][763]LogInit: FAudioDevice initialized.
+[2020.05.30-01.45.26:943][763]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.05.30-01.45.26:945][763]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_MutantAnim Function:  Execute Ubergraph BP Mutant Anim Graph:  Transition Node:  Result
+[2020.05.30-01.45.26:946][763]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_MutantAnim Function:  Execute Ubergraph BP Mutant Anim Graph:  Transition Node:  Result
+[2020.05.30-01.45.26:946][763]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.05.29-21.45.26
+[2020.05.30-01.45.26:947][763]LogWorld: Bringing up level for play took: 0.002590
+[2020.05.30-01.45.26:947][763]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2020.05.30-01.45.26:949][763]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Player". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.05.30-01.45.26:952][763]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 1.258
+[2020.05.30-01.45.46:504][793]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.45.46:504][793]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.45.46:505][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-01.45.46:505][793]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.05.30-01.45.46:505][793]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.45.46:505][793]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-01.45.46:506][793]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-01.45.46:561][793]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.30-01.45.46:570][793]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-01.45.46:631][793]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.45.46:639][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-01.45.46:653][793]LogUObjectHash: Compacting FUObjectHashTables data took  10.56ms
+[2020.05.30-01.45.46:822][794]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2020.05.30-01.45.59:063][299]LogSlate: Window 'Message Log' being destroyed
+[2020.05.30-01.45.59:091][299]LogSlate: Window 'Message Log' being destroyed
+[2020.05.30-01.46.25:910][475]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2020.05.30-01.46.28:422][521]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2020.05.30-01.54.53:352][539]LogHotReload: New module detected: UE4Editor-Project-0006.dll
+[2020.05.30-01.54.54:371][543]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.30-01.54.54:474][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2020.05.30-01.54.54:775][543]LogClass: EGunState HotReload.
+[2020.05.30-01.54.54:775][543]LogClass: EFEnemyMoveStat HotReload.
+[2020.05.30-01.54.54:775][543]LogClass: PlayerStats HotReload.
+[2020.05.30-01.54.54:796][543]LogHotReload: Re-instancing Gun after hot-reload.
+[2020.05.30-01.54.55:853][543]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0019 seconds. Added 32 classes and 3 folders.
+[2020.05.30-01.54.55:861][543]Display: HotReload successful (26 functions remapped  1 scriptstructs remapped)
+[2020.05.30-01.54.56:226][543]LogUObjectHash: Compacting FUObjectHashTables data took   7.86ms
+[2020.05.30-01.54.56:247][543]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 3050 classes and 725 folders.
+[2020.05.30-01.54.56:259][543]Display: HotReload took  1.9s.
+[2020.05.30-01.55.02:419][786]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.30-01.55.02:469][786]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.30-01.55.02:472][786]PIE: New page: PIE session: TestMap (May 29, 2020, 5:55:02 p.m.)
+[2020.05.30-01.55.02:473][786]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.05.30-01.55.02:523][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050059s)
+[2020.05.30-01.55.02:529][786]LogAIModule: Creating AISystem for world TestMap
+[2020.05.30-01.55.02:530][786]LogPlayLevel: PIE: World Init took: (0.006940s)
+[2020.05.30-01.55.02:531][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.058148s)
+[2020.05.30-01.55.02:653][786]LogUObjectHash: Compacting FUObjectHashTables data took   7.36ms
+[2020.05.30-01.55.02:655][786]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.30-01.55.02:656][786]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.30-01.55.02:656][786]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.30-01.55.02:656][786]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.30-01.55.02:656][786]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.30-01.55.02:656][786]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.30-01.55.02:656][786]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.30-01.55.02:656][786]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.30-01.55.02:657][786]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.30-01.55.02:657][786]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.30-01.55.02:663][786]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.30-01.55.02:663][786]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.05.30-01.55.02:663][786]LogAudioMixer: Display: Is Default: Yes
+[2020.05.30-01.55.02:663][786]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.30-01.55.02:663][786]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.30-01.55.02:663][786]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.30-01.55.02:663][786]LogAudioMixer: Display: Channel Order:
+[2020.05.30-01.55.02:663][786]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.30-01.55.02:663][786]LogAudioMixer: Display: 1: FrontRight
+[2020.05.30-01.55.02:771][786]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.05.30-01.55.02:774][786]LogInit: FAudioDevice initialized.
+[2020.05.30-01.55.02:788][786]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.05.30-01.55.02:792][786]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_MutantAnim Function:  Execute Ubergraph BP Mutant Anim Graph:  Transition Node:  Result
+[2020.05.30-01.55.02:793][786]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'EFEnemyMoveStatus'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_MutantAnim Function:  Execute Ubergraph BP Mutant Anim Graph:  Transition Node:  Result
+[2020.05.30-01.55.02:794][786]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.05.29-21.55.02
+[2020.05.30-01.55.02:798][786]LogWorld: Bringing up level for play took: 0.008826
+[2020.05.30-01.55.02:801][786]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2020.05.30-01.55.02:808][786]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Player". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.05.30-01.55.02:816][786]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 1.122
+[2020.05.30-01.55.18:469][638]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.55.18:482][638]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.30-01.55.18:502][638]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.30-01.55.18:503][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-01.55.18:503][638]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.05.30-01.55.18:503][638]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.55.18:504][638]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-01.55.18:504][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-01.55.18:526][638]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.30-01.55.18:536][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-01.55.18:617][638]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-01.55.18:626][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-01.55.18:645][638]LogUObjectHash: Compacting FUObjectHashTables data took  14.85ms
+[2020.05.30-01.55.18:851][639]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2020.05.30-01.55.21:260][727]LogSlate: Window 'Message Log' being destroyed
+[2020.05.30-01.55.21:289][727]LogSlate: Window 'Message Log' being destroyed

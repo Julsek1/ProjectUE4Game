@@ -6,6 +6,9 @@
 #include "JBasePlayer.h"
 #include "Kismet/GameplayStatics.h"
 #include "Sound/SoundCue.h"
+#include "Engine/SkeletalMeshSocket.h"
+#include "JFollowEnemy.h"
+#include "Components/BoxComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 
 AGun::AGun()
@@ -13,7 +16,27 @@ AGun::AGun()
 	SkMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SkMesh"));
 	SkMesh->SetupAttachment(GetRootComponent());
 
+	FightColl = CreateDefaultSubobject<UBoxComponent>(TEXT("FightCollision"));
+	FightColl->SetupAttachment(GetRootComponent());
+
+	FightColl->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
+	FightColl->SetCollisionObjectType(ECollisionChannel::ECC_WorldDynamic);
+	FightColl->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
+	FightColl->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
+
 	GunState = EGunState::EGS_Take;
+
+	Damage = 20.f;
+}
+
+void AGun::BeginPlay()
+{
+	Super::BeginPlay();
+
+	FightColl->OnComponentBeginOverlap.AddDynamic(this, &AGun::FightOnOverlapBegin);
+	FightColl->OnComponentEndOverlap.AddDynamic(this, &AGun::FightOnOverlapEnd);
+
+
 }
 
 void AGun::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
@@ -69,4 +92,29 @@ void AGun::UseGun(AJBasePlayer* Player)
 		}
 	}
 
+}
+
+void AGun::FightOnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	if (OtherActor)
+	{
+		AJFollowEnemy* Enemy = Cast<AJFollowEnemy>(OtherActor);
+		if (Enemy)
+		{
+			if (Enemy->TakeHitPS)
+			{
+				const USkeletalMeshSocket* KnifeSocket = SkMesh->GetSocketByName("KnifeSocket");
+				if (KnifeSocket)
+				{
+					FVector LocOfSocket = KnifeSocket->GetSocketLocation(SkMesh);
+					UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), Enemy->TakeHitPS, LocOfSocket, FRotator(0.f), false);
+
+				}
+			}
+		}
+	}
+}
+
+void AGun::FightOnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+{
 }
