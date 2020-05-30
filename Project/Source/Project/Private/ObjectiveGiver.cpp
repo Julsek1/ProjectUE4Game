@@ -20,21 +20,44 @@ void AObjectiveGiver::BeginPlay()
 {
 	Super::BeginPlay();
 
-	SetActorLocation(GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation());
+	if (bSeekPlayer)
+	{
+		SetActorLocation(GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation());
+	}
 
 }
 
-// Called every frame
-void AObjectiveGiver::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
+//// Called every frame
+//void AObjectiveGiver::Tick(float DeltaTime)
+//{
+//	Super::Tick(DeltaTime);
+//
+//}
 
+//void AObjectiveGiver::NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& hit)
+//{
+//	//UE_LOG(LogTemp, Warning, TEXT("Hit"));
+//
+//	if (Cast<ATwinStickShooterPlayer>(Other) != nullptr && Objective)
+//	{
+//		Cast<ATwinStickShooterPlayer>(Other)->ReceiveObjective(Objective);
+//	}
+//
+//	Destroy();
+//}
+
+void AObjectiveGiver::NotifyActorBeginOverlap(AActor* Other)
+{
+	if (Cast<ATwinStickShooterPlayer>(Other) != nullptr && Objective)
+	{
+		Cast<ATwinStickShooterPlayer>(Other)->ReceiveObjective(Objective);
+	}
+
+	Destroy();
 }
 
-void AObjectiveGiver::NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& hit)
+void AObjectiveGiver::NotifyActorEndOverlap(AActor* Other)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Hit"));
-
 	if (Cast<ATwinStickShooterPlayer>(Other) != nullptr && Objective)
 	{
 		Cast<ATwinStickShooterPlayer>(Other)->ReceiveObjective(Objective);
