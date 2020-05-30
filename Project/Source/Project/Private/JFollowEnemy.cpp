@@ -24,6 +24,10 @@ AJFollowEnemy::AJFollowEnemy()
 	AttackSphere->InitSphereRadius(150.f);
 
 	bOverlapAttackSphere = false;
+
+	Hp = 80.f;
+	MaxHp = 100.f;
+	Damage = 15.f;
 }
 
 // Called when the game starts or when spawned

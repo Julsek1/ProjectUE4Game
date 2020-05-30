@@ -35,10 +35,18 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "SkMesh")
 	class USkeletalMeshComponent* SkMesh;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Fight")
+	class UBoxComponent* FightColl;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Sound")
 	class USoundCue* UseWeaponSound;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+	float Damage;
 
+
+
+	virtual void BeginPlay() override;
 	
 	virtual void OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) override;
@@ -51,5 +59,13 @@ public:
 
 	FORCEINLINE void SetGunState(EGunState Status) { GunState = Status; }
 	FORCEINLINE EGunState GetGunState() { return GunState; }
+
+	UFUNCTION()
+	void FightOnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+		UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
+	UFUNCTION()
+	void FightOnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+		UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 	
 };
