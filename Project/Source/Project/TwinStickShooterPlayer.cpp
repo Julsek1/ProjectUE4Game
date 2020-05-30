@@ -87,7 +87,7 @@ void ATwinStickShooterPlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	
-	UE_LOG(LogTemp, Warning, TEXT("Max walk speed: %f"), GetCharacterMovement()->GetMaxSpeed());
+	//UE_LOG(LogTemp, Warning, TEXT("Max walk speed: %f"), GetCharacterMovement()->GetMaxSpeed());
 
 	if (bIsFiring)
 	{
