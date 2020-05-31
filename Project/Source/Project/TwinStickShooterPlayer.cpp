@@ -10,8 +10,8 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "Kismet/KismetSystemLibrary.h"
-#include "Shotgun.h"
 #include "ParentEnemy.h"
+#include "Shotgun.h"
 
 
 // Sets default values
@@ -54,6 +54,9 @@ ATwinStickShooterPlayer::ATwinStickShooterPlayer()
 	WeaponMuzzle = CreateDefaultSubobject<USceneComponent>(TEXT("Muzzle"));
 	WeaponMuzzle->SetupAttachment(RootComponent);
 
+	//Setup laser sight
+	LaserSight = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("LaserSight"));
+	LaserSight->SetupAttachment(GetMesh());
 }
 
 // Called when the game starts or when spawned
@@ -113,6 +116,12 @@ void ATwinStickShooterPlayer::Tick(float DeltaTime)
 	else
 	{
 		GetCharacterMovement()->MaxWalkSpeed = 600.f;
+	}
+
+	if (LaserSight)
+	{
+		LaserSight->SetBeamSourcePoint(0, LaserSight->GetComponentLocation(), 0);
+		LaserSight->SetBeamTargetPoint(0, (LaserSight->GetForwardVector() * CurrentWeapon->Range) + LaserSight->GetComponentLocation(), 0);
 	}
 }
 
@@ -229,6 +238,11 @@ void ATwinStickShooterPlayer::MeleeAttack()
 			GetMesh()->GetAnimInstance()->Montage_Play(MeleeAnimation);
 		}
 
+		if (LaserSight)
+		{
+			LaserSight->SetVisibility(false);
+		}
+
 		bCanMelee = false;
 		GetWorldTimerManager().SetTimer(MeleeTimerHandle, this, &ATwinStickShooterPlayer::RestoreMelee, MeleeCooldown, false);
 
@@ -252,4 +266,9 @@ void ATwinStickShooterPlayer::RestoreMelee()
 {
 	GetWorldTimerManager().ClearTimer(MeleeTimerHandle);
 	bCanMelee = true;
+
+	if (LaserSight)
+	{
+		LaserSight->SetVisibility(true);
+	}
 }
