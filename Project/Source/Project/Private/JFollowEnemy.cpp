@@ -3,8 +3,14 @@
 
 #include "JFollowEnemy.h"
 #include "AIController.h"
+#include "Components/BoxComponent.h"
 #include "Project/Public/JBasePlayer.h"
+#include "Kismet/GameplayStatics.h"
+#include "Components/SkeletalMeshComponent.h"
+#include "Engine/SkeletalMeshSocket.h"
 #include "Components/SphereComponent.h"
+#include "Animation/AnimInstance.h"
+#include "Sound/SoundCue.h"
 #include "Kismet/KismetSystemLibrary.h"
 
 
@@ -23,7 +29,12 @@ AJFollowEnemy::AJFollowEnemy()
 	AttackSphere->SetupAttachment(GetRootComponent());
 	AttackSphere->InitSphereRadius(150.f);
 
-	bOverlapAttackSphere = false;
+	CollFight = CreateDefaultSubobject<UBoxComponent>(TEXT("FightCollision"));
+	CollFight->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale, FName("RHSocket"));
+
+
+
+	IsOverlapAttackSphere = false;
 
 	Hp = 80.f;
 	MaxHp = 100.f;
@@ -44,8 +55,14 @@ void AJFollowEnemy::BeginPlay()
 	AttackSphere->OnComponentBeginOverlap.AddDynamic(this, &AJFollowEnemy::AttackSphereOnOverlapBegin);
 	AttackSphere->OnComponentEndOverlap.AddDynamic(this, &AJFollowEnemy::AttackSphereOnOverlapEnd);
 
+	CollFight->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	CollFight->SetCollisionObjectType(ECollisionChannel::ECC_WorldDynamic);
+	CollFight->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
+	CollFight->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
 
-	
+	CollFight->OnComponentBeginOverlap.AddDynamic(this, &AJFollowEnemy::FightOnOverlapBegin);
+	CollFight->OnComponentEndOverlap.AddDynamic(this, &AJFollowEnemy::FightOnOverlapEnd);
+
 }
 
 // Called every frame
@@ -102,8 +119,8 @@ void AJFollowEnemy::AttackSphereOnOverlapBegin(UPrimitiveComponent* OverlappedCo
 			if (Player)
 			{
 				AttackTarget = Player;
-				bOverlapAttackSphere = true;
-				SetFEnemyMovStatus(EFEnemyMoveStat::FEMS_Attack);
+				IsOverlapAttackSphere = true;
+				Fight();
 			}
 		}
 	}
@@ -117,7 +134,7 @@ void AJFollowEnemy::AttackSphereOnOverlapEnd(UPrimitiveComponent* OverlappedComp
 		{
 			if (Player)
 			{
-				bOverlapAttackSphere = false;
+				IsOverlapAttackSphere = false;
 				if (EFEnemyMoveStatus != EFEnemyMoveStat::FEMS_Attack)
 				{
 					MoveToPlayer(Player);
@@ -156,3 +173,74 @@ void AJFollowEnemy::MoveToPlayer(AJBasePlayer* Player)
 	}
 }
 
+void AJFollowEnemy::FightOnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	if (OtherActor)
+	{
+		AJBasePlayer* Player = Cast<AJBasePlayer>(OtherActor);
+		if (Player)
+		{
+			if (Player->TakeHitPS)
+			{
+				const USkeletalMeshSocket* FingerSocket = GetMesh()->GetSocketByName("FingerSocket");
+				if (FingerSocket)
+				{
+					FVector LocOfSocket = FingerSocket->GetSocketLocation(GetMesh());
+					UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), Player->TakeHitPS, LocOfSocket, FRotator(0.f), false);
+
+				}
+			}
+			if (Player->DamageSound)
+			{
+				UGameplayStatics::PlaySound2D(this, Player->DamageSound);
+			}
+		}
+	}
+}
+
+void AJFollowEnemy::FightOnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+{
+}
+
+void AJFollowEnemy::CollisionActive()
+{
+	CollFight->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
+}
+
+void AJFollowEnemy::CollisionInactive()
+{
+	CollFight->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
+}
+
+void AJFollowEnemy::Fight()
+{
+	if (AIController)
+	{
+		AIController->StopMovement();
+		SetFEnemyMovStatus(EFEnemyMoveStat::FEMS_Attack);
+	}
+	if (!IsFighting)
+	{
+		IsFighting = true;
+		UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
+		if (AnimationInst)
+		{
+			AnimationInst->Montage_Play(FightMontage, 1.5f);
+			AnimationInst->Montage_JumpToSection(FName("Attack"), FightMontage);
+		}
+		if (PunchSound)
+		{
+			UGameplayStatics::PlaySound2D(this, PunchSound);
+		}
+	}
+}
+
+void AJFollowEnemy::FightFinished()
+{
+	IsFighting = false;
+	if (IsOverlapAttackSphere)
+	{
+		Fight();
+	}
+}

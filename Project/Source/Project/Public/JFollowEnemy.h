@@ -40,7 +40,7 @@ public:
 	class AAIController* AIController;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "AI")
-	bool bOverlapAttackSphere;
+	bool IsOverlapAttackSphere;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "AI")
 	AJBasePlayer* AttackTarget;
@@ -60,6 +60,17 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
 	class USoundCue* KnifeHitSound;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
+    USoundCue* PunchSound;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Fight")
+	class UBoxComponent* CollFight;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Fight")
+	class UAnimMontage* FightMontage;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Fight")
+	bool IsFighting;
 
 protected:
 	// Called when the game starts or when spawned
@@ -88,4 +99,25 @@ public:
 	//target class to be replaced with other player classes
 	UFUNCTION(BlueprintCallable)
 	void MoveToPlayer(class AJBasePlayer* Player);
+
+	UFUNCTION()
+	void FightOnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
+	UFUNCTION()
+	void FightOnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
+	UFUNCTION(BlueprintCallable)
+	void CollisionActive();
+
+	UFUNCTION(BlueprintCallable)
+	void CollisionInactive();
+
+	void Fight();
+
+	UFUNCTION(BlueprintCallable)
+	void FightFinished();
+
+
 };

@@ -23,6 +23,11 @@ public:
 	// Sets default values for this character's properties
 	AJBasePlayer();
 
+UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+class UParticleSystem* TakeHitPS;
+
+UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+class USoundCue* DamageSound;
 
 //Camera position in reference to player
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess=true))
