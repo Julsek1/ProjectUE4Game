@@ -113,6 +113,10 @@ void AGun::FightOnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor*
 
 				}
 			}
+			if (Enemy->KnifeHitSound)
+			{
+				UGameplayStatics::PlaySound2D(this, Enemy->KnifeHitSound);
+			}
 		}
 	}
 }

@@ -9,6 +9,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "GameFramework/Controller.h"
 #include "Gun.h"
+#include "Sound/SoundCue.h"
 #include "Animation/AnimInstance.h"
 #include "JSaveGame.h"
 #include "Components/SkeletalMeshComponent.h"
@@ -315,11 +316,8 @@ void AJBasePlayer::Fight()
 
 			default:
 				;
-			}
-
-			
+			}	
 		}
-		
 	}
 }
 
@@ -329,6 +327,14 @@ void AJBasePlayer::FightFinished()
 	if (IsLeftMouseDown)
 	{
 		Fight();
+	}
+}
+
+void AJBasePlayer::KnifeSwingPlaySound()
+{
+	if (GunEquipped->KnifeSwingSound)
+	{
+		UGameplayStatics::PlaySound2D(this, GunEquipped->KnifeSwingSound);
 	}
 }
 

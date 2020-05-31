@@ -159,7 +159,8 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Animation")
 	class UAnimMontage* FightMontage;
 
-
+	UFUNCTION(BlueprintCallable)
+	void KnifeSwingPlaySound();
 	
 	
 };
