@@ -15,6 +15,8 @@ AParentEnemy::AParentEnemy()
 	WidgetComponent = CreateDefaultSubobject<UWidgetComponent>(TEXT("Widget"));
 	WidgetComponent->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
 	WidgetComponent->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepRelativeTransform);
+
+	EnemyName = "";
 }
 
 // Called when the game starts or when spawned

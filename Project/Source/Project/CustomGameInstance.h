@@ -15,5 +15,5 @@ class PROJECT_API UCustomGameInstance : public UGameInstance
 	GENERATED_BODY()
 	
 public:
-	float PlayerHealth = 0.f;
+	float PlayerHealth = 1.f;
 };

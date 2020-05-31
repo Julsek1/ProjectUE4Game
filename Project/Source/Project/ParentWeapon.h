@@ -27,11 +27,12 @@ public:
 		FTimerHandle ReloadTimerHandle;
 	UPROPERTY(BlueprintReadWrite)//ReadOnly
 		bool bCanShoot = true;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float Range;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-	float Range;
 	bool bCurrentlyReloading = false;
 	FTimerHandle FireRateTimerHandle;
 	void TimeToFireElapsed();

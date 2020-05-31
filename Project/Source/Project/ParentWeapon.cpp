@@ -15,7 +15,7 @@ AParentWeapon::AParentWeapon()
 	WeaponName = "";
 	Range = 0.f;
 	ClipSize = 0;
-	CurrentClipAmmo = 0;
+	CurrentClipAmmo = ClipSize;
 	AmmoCapacity = 0;
 	ReloadSpeed = 0.f;
 	FireRate = 0.f;

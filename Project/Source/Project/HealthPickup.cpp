@@ -32,7 +32,17 @@ void AHealthPickup::Tick(float DeltaTime)
 
 }
 
-void AHealthPickup::NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& hit)
+//void AHealthPickup::NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& hit)
+//{
+//	if (Cast<ATwinStickShooterPlayer>(Other) != nullptr)
+//	{
+//		Cast<ATwinStickShooterPlayer>(Other)->Heal(HealingAmount);
+//	}
+//
+//	Destroy();
+//}
+
+void AHealthPickup::NotifyActorBeginOverlap(AActor* Other)
 {
 	if (Cast<ATwinStickShooterPlayer>(Other) != nullptr)
 	{
