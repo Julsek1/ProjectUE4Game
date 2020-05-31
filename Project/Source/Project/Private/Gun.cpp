@@ -82,14 +82,13 @@ void AGun::UseGun(AJBasePlayer* Player)
 			RHand->AttachActor(this, Player->GetMesh());
 			Rotation = false;
 			
-			Player->SetUsedGun(this);
+			
+			Player->SetGunEquipped(this);
 			Player->SetOverlapedPickup(nullptr);
 
 		}
-		if (UseWeaponSound)
-		{
-			UGameplayStatics::PlaySound2D(this, UseWeaponSound);
-		}
+		if (UseWeaponSound) UGameplayStatics::PlaySound2D(this, UseWeaponSound);
+		
 	}
 
 }

@@ -84,7 +84,7 @@ public:
 	// Left mouse to equip weapon
 
 
-	bool LeftMouseDown;
+	bool IsLeftMouseDown;
 
 	void LeftMouseD();
 	void LeftMouseUp();
@@ -94,7 +94,7 @@ public:
 
 	//Pause Menu ESC variables
 
-	bool EscDown;
+	bool IsEscDown;
 
 	void EscD();
 	void EscUp();
@@ -116,13 +116,17 @@ public:
 
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Pickup")
-	class AGun* UsedGun;
+	class AGun* GunEquipped;
+
+	
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Pickup")
 	class ABasePickup* OverlapedPickup;
 
-	void SetUsedGun(AGun* GunToSet);
-	FORCEINLINE AGun* GetUsedGun() { return UsedGun; }
+	void SetGunEquipped(AGun* GunToSet);
+
+	
+	FORCEINLINE AGun* GetGunEquipped() { return GunEquipped; }
 
 
 	FORCEINLINE void SetOverlapedPickup(ABasePickup* PickupToSet) { OverlapedPickup = PickupToSet; }
@@ -137,7 +141,7 @@ public:
 	void LoadGame(bool SetPos);
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Animation")
-	bool Fighting;
+	bool IsFighting;
 
 	void Fight();
 

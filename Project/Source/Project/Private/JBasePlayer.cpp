@@ -58,8 +58,11 @@ AJBasePlayer::AJBasePlayer()
 	MaxHp = 100.f;
 	Collectibles = 0;
 
-	EscDown = false;
-	LeftMouseDown = false;
+	IsEscDown = false;
+	IsLeftMouseDown = false;
+
+	
+
 	
 }
 
@@ -87,6 +90,9 @@ void AJBasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
+	
+
+
 	PlayerInputComponent->BindAction("LeftMouse", IE_Pressed, this, &AJBasePlayer::LeftMouseD);
 	PlayerInputComponent->BindAction("LeftMouse", IE_Released, this, &AJBasePlayer::LeftMouseUp);
 
@@ -107,7 +113,7 @@ void AJBasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 void AJBasePlayer::MoveForward(float Value)
 {
-	if ((Controller != nullptr) && (Value != 0.0f) && (!Fighting))
+	if ((Controller != nullptr) && (Value != 0.0f) && (!IsFighting))
 	{
 		//find forward direction
 		const FRotator Rotation = Controller->GetControlRotation();
@@ -120,7 +126,7 @@ void AJBasePlayer::MoveForward(float Value)
 
 void AJBasePlayer::MoveRight(float Value)
 {
-	if ((Controller != nullptr) && (Value != 0.0f) && (!Fighting))
+	if ((Controller != nullptr) && (Value != 0.0f) && (!IsFighting))
 	{
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
@@ -142,7 +148,7 @@ void AJBasePlayer::LookUpAtUnit(float Value)
 
 void AJBasePlayer::LeftMouseD()
 {
-	LeftMouseDown = true;
+	IsLeftMouseDown = true;
 	if (OverlapedPickup)
 	{
 		AGun* Gun = Cast<AGun>(OverlapedPickup);
@@ -152,7 +158,7 @@ void AJBasePlayer::LeftMouseD()
 			SetOverlapedPickup(nullptr);
 		}
 	}
-	else if (UsedGun)
+	else if (GunEquipped)
 	{
 		Fight();
 	}
@@ -160,7 +166,7 @@ void AJBasePlayer::LeftMouseD()
 
 void AJBasePlayer::LeftMouseUp()
 {
-	LeftMouseDown = false;
+	IsLeftMouseDown = false;
 
 }
 
@@ -168,7 +174,7 @@ void AJBasePlayer::LeftMouseUp()
 
 void AJBasePlayer::EscD()
 {
-	EscDown = true;
+	IsEscDown = true;
 
 	if (PController)
 	{
@@ -178,7 +184,7 @@ void AJBasePlayer::EscD()
 
 void AJBasePlayer::EscUp()
 {
-	EscDown = false;
+	IsEscDown = false;
 }
 
 void AJBasePlayer::Death()
@@ -198,13 +204,14 @@ void AJBasePlayer::DamageHp(float Damage)
 	}
 }
 
-void AJBasePlayer::SetUsedGun(AGun* GunToSet)
+void AJBasePlayer::SetGunEquipped(AGun* GunToSet)
 {
-	if (UsedGun)
+	if (GunEquipped)
 	{
-		UsedGun->Destroy();
+		
+		GunEquipped->Destroy();
 	}
-	UsedGun = GunToSet;
+	GunEquipped = GunToSet;
 
 }
 
@@ -257,9 +264,9 @@ void AJBasePlayer::LoadGame(bool Setpos)
 
 void AJBasePlayer::Fight()
 {
-	if (!Fighting)
+	if (!IsFighting)
 	{
-		Fighting = true;
+		IsFighting = true;
 
 		UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
 		if (AnimationInst && FightMontage)
@@ -291,8 +298,8 @@ void AJBasePlayer::Fight()
 
 void AJBasePlayer::FightFinished()
 {
-	Fighting = false;
-	if (LeftMouseDown)
+	IsFighting = false;
+	if (IsLeftMouseDown)
 	{
 		Fight();
 	}
