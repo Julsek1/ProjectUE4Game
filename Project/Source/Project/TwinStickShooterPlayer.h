@@ -99,7 +99,7 @@ public:
 	float MeleeDamage = 0.1f;
 	float MeleeRange = 200.f;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		float MeleeCooldown = 1.05f;
+		float MeleeCooldown = 0.525f;
 	bool bCanMelee = true;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		FTimerHandle MeleeTimerHandle;
