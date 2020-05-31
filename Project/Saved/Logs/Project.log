@@ -100,6 +100,324 @@ LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
 LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Warning: Incompatible or missing module: Project
+Running C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="C:/Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Project.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game).
+@progress push 5%
+Parsing headers for ProjectEditor
+  Running UnrealHeaderTool "C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Project.uproject" "C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\ProjectEditor\Development\ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for ProjectEditor in 5.284993 seconds
+@progress pop
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0006.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0007.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0016.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0017.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0018.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0019.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0020.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0021.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0022.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0023.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0024.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0025.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0026.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0027.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0028.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0029.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0030.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0031.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0032.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0033.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0034.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0035.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0037.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0039.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0040.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0041.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0042.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0043.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0044.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0045.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0046.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0049.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0050.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0051.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0052.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0053.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0054.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0055.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0056.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0057.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0060.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0062.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0063.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0065.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0068.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0069.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0071.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0072.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0073.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0074.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0076.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0079.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0080.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0081.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0082.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0083.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0084.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0085.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0086.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0087.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0088.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0089.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0090.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0091.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0092.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0093.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0095.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0096.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0097.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0098.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0099.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0100.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0101.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0102.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0103.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0104.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0105.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0106.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0110.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0111.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0114.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0115.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0116.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0117.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0118.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0119.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0120.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0121.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0122.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0123.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0124.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0125.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0126.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0127.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0128.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0129.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0132.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0133.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0134.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0135.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0136.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0137.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0138.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0139.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0140.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0141.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0142.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0143.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0144.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0145.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0146.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0147.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0151.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0152.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0153.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0156.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0157.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0158.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0159.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0160.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0161.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0162.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0163.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0164.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0165.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0166.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0167.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0168.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0169.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0170.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0171.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0173.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0174.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0177.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0178.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0179.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0180.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0181.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0182.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0183.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0184.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0185.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0186.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0187.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0188.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Binaries\Win64\UE4Editor-Project-0189.dll
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0006.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0007.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0016.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0017.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0018.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0019.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0020.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0021.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0022.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0023.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0024.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0025.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0026.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0027.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0028.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0029.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0030.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0031.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0032.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0033.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0034.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0035.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0037.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0039.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0040.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0041.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0042.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0043.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0044.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0045.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0046.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0049.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0050.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0051.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0052.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0053.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0054.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0055.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0056.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0057.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0060.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0062.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0063.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0065.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0068.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0069.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0071.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0072.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0073.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0074.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0076.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0079.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0080.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0081.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0082.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0083.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0084.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0085.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0086.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0087.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0088.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0089.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0090.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0091.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0092.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0093.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0095.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0096.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0097.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0098.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0099.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0100.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0101.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0102.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0103.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0104.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0105.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0106.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0110.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0111.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0114.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0115.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0116.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0117.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0118.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0119.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0120.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0121.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0122.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0123.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0124.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0125.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0126.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0127.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0128.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0129.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0132.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0133.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0134.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0135.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0136.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0137.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0138.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0139.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0140.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0141.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0142.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0143.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0144.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0145.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0146.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0147.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0151.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0152.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0153.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0156.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0157.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0158.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0159.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0160.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0161.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0162.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0163.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0164.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0165.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0166.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0167.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0168.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0169.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0170.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0171.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0173.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0174.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0177.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0178.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0179.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0180.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0181.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0182.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0183.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0184.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0185.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0186.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0187.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0188.lib
+Deleted hot-reload file: C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0189.lib
+Building ProjectEditor...
+Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 5 actions with 12 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 20%
+  [1/5] Module.Project.gen.cpp
+  @progress 'Compiling C++ source code...' 40%
+  [2/5] Module.Project.cpp
+  @progress 'Compiling C++ source code...' 60%
+  [3/5] UE4Editor-Project.lib
+     Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project.exp
+  @progress 'Compiling C++ source code...' 80%
+  [4/5] UE4Editor-Project.dll
+     Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project.suppressed.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project.suppressed.exp
+  @progress 'Compiling C++ source code...' 100%
+  [5/5] ProjectEditor.target
+Total time in Parallel executor: 5.77 seconds
+Total execution time: 13.05 seconds
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.1.1
@@ -125,7 +443,7 @@ LogInit: Build: ++UE4+Release-4.24-CL-11590370
 LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
 LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
 LogInit: Net CL: 10570792
-LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz, GPU: Intel(R) HD Graphics 620
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: NVIDIA GeForce GTX 1650
 LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
 LogInit: Compiled with Visual C++: 19.16.27032.01
 LogInit: Build Configuration: Development

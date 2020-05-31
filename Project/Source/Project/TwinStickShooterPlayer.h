@@ -15,6 +15,7 @@
 #include "Objective.h"
 #include "ParentPlayer.h"
 #include "ParentWeapon.h"
+#include "Particles/ParticleSystemComponent.h"
 #include "TimerManager.h"
 #include "TSHUD.h"
 
@@ -89,12 +90,16 @@ public:
 		AParentWeapon* CurrentWeapon = nullptr;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TArray<AParentWeapon*> Weapons;
+	
+	//Laser sight
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UParticleSystemComponent* LaserSight = nullptr;
 
 	//Melee
-	float MeleeDamage = 0.2f;
+	float MeleeDamage = 0.1f;
 	float MeleeRange = 200.f;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		float MeleeCooldown = 1.05f;
+		float MeleeCooldown = 0.525f;
 	bool bCanMelee = true;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		FTimerHandle MeleeTimerHandle;
