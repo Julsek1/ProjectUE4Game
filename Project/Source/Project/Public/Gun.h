@@ -67,5 +67,11 @@ public:
 	UFUNCTION()
 	void FightOnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 		UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
+	UFUNCTION(BlueprintCallable)
+	void CollActive();
+
+	UFUNCTION(BlueprintCallable)
+	void CollInactive();
 	
 };

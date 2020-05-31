@@ -179,13 +179,16 @@ void AJBasePlayer::LeftMouseD()
 
 
 		Fight();
+		
 	}
+	
 	
 }
 
 void AJBasePlayer::LeftMouseUp()
 {
 	IsLeftMouseDown = false;
+	IsFighting = false;
 
 }
 
@@ -285,7 +288,7 @@ void AJBasePlayer::Fight()
 {
 	if (!IsFighting)
 	{
-		IsFighting = false;
+		IsFighting = true;
 
 		
 
@@ -299,13 +302,13 @@ void AJBasePlayer::Fight()
 			{
 			case 0:
 
-				AnimationInst->Montage_Play(FightMontage, 2.3f);
+				AnimationInst->Montage_Play(FightMontage, 2.0f);
 				AnimationInst->Montage_JumpToSection(FName("Attack1"), FightMontage);
 
 				break;
 			case 1:
 
-				AnimationInst->Montage_Play(FightMontage, 2.5f);
+				AnimationInst->Montage_Play(FightMontage, 2.0f);
 				AnimationInst->Montage_JumpToSection(FName("Attack2"), FightMontage);
 
 				break;
@@ -316,6 +319,7 @@ void AJBasePlayer::Fight()
 
 			
 		}
+		
 	}
 }
 
