@@ -61,7 +61,9 @@ AJBasePlayer::AJBasePlayer()
 	IsEscDown = false;
 	IsLeftMouseDown = false;
 
-	
+	IsIDown = false;
+
+	IsFighting = false;
 
 	
 }
@@ -90,11 +92,11 @@ void AJBasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
-	
+	PlayerInputComponent->BindAction("EquipItem", IE_Pressed, this, &AJBasePlayer::IDown);
+	PlayerInputComponent->BindAction("EquipItem", IE_Released, this, &AJBasePlayer::IUp);
 
-
-	PlayerInputComponent->BindAction("LeftMouse", IE_Pressed, this, &AJBasePlayer::LeftMouseD);
-	PlayerInputComponent->BindAction("LeftMouse", IE_Released, this, &AJBasePlayer::LeftMouseUp);
+	PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &AJBasePlayer::LeftMouseD);
+	PlayerInputComponent->BindAction("Attack", IE_Released, this, &AJBasePlayer::LeftMouseUp);
 
 	PlayerInputComponent->BindAction("Q", IE_Pressed, this, &AJBasePlayer::EscD);
 	PlayerInputComponent->BindAction("Q", IE_Released, this, &AJBasePlayer::EscUp);
@@ -146,9 +148,12 @@ void AJBasePlayer::LookUpAtUnit(float Value)
 
 }
 
-void AJBasePlayer::LeftMouseD()
+
+// Pickup Weapon
+
+void AJBasePlayer::IDown()
 {
-	IsLeftMouseDown = true;
+	IsIDown = true;
 	if (OverlapedPickup)
 	{
 		AGun* Gun = Cast<AGun>(OverlapedPickup);
@@ -158,10 +163,24 @@ void AJBasePlayer::LeftMouseD()
 			SetOverlapedPickup(nullptr);
 		}
 	}
-	else if (GunEquipped)
-	{
+}
+
+void AJBasePlayer::IUp()
+{
+	IsIDown = false;
+}
+
+// Combat mode
+
+void AJBasePlayer::LeftMouseD()
+{
+	IsLeftMouseDown = true;
+	if (GunEquipped) {
+
+
 		Fight();
 	}
+	
 }
 
 void AJBasePlayer::LeftMouseUp()
@@ -266,23 +285,27 @@ void AJBasePlayer::Fight()
 {
 	if (!IsFighting)
 	{
-		IsFighting = true;
+		IsFighting = false;
+
+		
 
 		UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
 		if (AnimationInst && FightMontage)
 		{
+			 
+			
 			int32 MontageSection = FMath::RandRange(0, 1);
 			switch (MontageSection)
 			{
 			case 0:
 
-				AnimationInst->Montage_Play(FightMontage, 2.5f);
+				AnimationInst->Montage_Play(FightMontage, 2.3f);
 				AnimationInst->Montage_JumpToSection(FName("Attack1"), FightMontage);
 
 				break;
 			case 1:
 
-				AnimationInst->Montage_Play(FightMontage, 3.f);
+				AnimationInst->Montage_Play(FightMontage, 2.5f);
 				AnimationInst->Montage_JumpToSection(FName("Attack2"), FightMontage);
 
 				break;

@@ -81,8 +81,16 @@ public:
 	//Look up and down at a provided value
 	void LookUpAtUnit(float Value);
 
-	// Left mouse to equip weapon
+	
+	// E to equip item
 
+	bool IsIDown;
+
+	void IDown();
+	void IUp();
+
+	
+	// Left mouse to attack
 
 	bool IsLeftMouseDown;
 
@@ -150,5 +158,8 @@ public:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Animation")
 	class UAnimMontage* FightMontage;
+
+
+	
 	
 };
