@@ -19,10 +19,7 @@ AGun::AGun()
 	FightColl = CreateDefaultSubobject<UBoxComponent>(TEXT("FightCollision"));
 	FightColl->SetupAttachment(GetRootComponent());
 
-	FightColl->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
-	FightColl->SetCollisionObjectType(ECollisionChannel::ECC_WorldDynamic);
-	FightColl->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
-	FightColl->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
+	
 
 	GunState = EGunState::EGS_Take;
 
@@ -35,7 +32,11 @@ void AGun::BeginPlay()
 
 	FightColl->OnComponentBeginOverlap.AddDynamic(this, &AGun::FightOnOverlapBegin);
 	FightColl->OnComponentEndOverlap.AddDynamic(this, &AGun::FightOnOverlapEnd);
-
+	
+	FightColl->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	FightColl->SetCollisionObjectType(ECollisionChannel::ECC_WorldDynamic);
+	FightColl->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
+	FightColl->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
 
 }
 
@@ -62,6 +63,8 @@ void AGun::OnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherA
 		if (Player)
 		{
 			Player->SetOverlapedPickup(nullptr);
+			
+			
 		}
 	}
 }
@@ -82,14 +85,13 @@ void AGun::UseGun(AJBasePlayer* Player)
 			RHand->AttachActor(this, Player->GetMesh());
 			Rotation = false;
 			
-			Player->SetUsedGun(this);
+			
+			Player->SetGunEquipped(this);
 			Player->SetOverlapedPickup(nullptr);
 
 		}
-		if (UseWeaponSound)
-		{
-			UGameplayStatics::PlaySound2D(this, UseWeaponSound);
-		}
+		if (UseWeaponSound) UGameplayStatics::PlaySound2D(this, UseWeaponSound);
+		
 	}
 
 }
@@ -111,10 +113,26 @@ void AGun::FightOnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor*
 
 				}
 			}
+			if (Enemy->KnifeHitSound)
+			{
+				UGameplayStatics::PlaySound2D(this, Enemy->KnifeHitSound);
+			}
 		}
 	}
 }
 
 void AGun::FightOnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
+}
+
+void AGun::CollActive()
+{
+	FightColl->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
+
+}
+
+void AGun::CollInactive()
+{
+	FightColl->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
 }

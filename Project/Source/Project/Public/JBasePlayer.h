@@ -81,10 +81,18 @@ public:
 	//Look up and down at a provided value
 	void LookUpAtUnit(float Value);
 
-	// Left mouse to equip weapon
+	
+	// E to equip item
 
+	bool IsIDown;
 
-	bool LeftMouseDown;
+	void IDown();
+	void IUp();
+
+	
+	// Left mouse to attack
+
+	bool IsLeftMouseDown;
 
 	void LeftMouseD();
 	void LeftMouseUp();
@@ -94,7 +102,7 @@ public:
 
 	//Pause Menu ESC variables
 
-	bool EscDown;
+	bool IsEscDown;
 
 	void EscD();
 	void EscUp();
@@ -116,13 +124,17 @@ public:
 
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Pickup")
-	class AGun* UsedGun;
+	class AGun* GunEquipped;
+
+	
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Pickup")
 	class ABasePickup* OverlapedPickup;
 
-	void SetUsedGun(AGun* GunToSet);
-	FORCEINLINE AGun* GetUsedGun() { return UsedGun; }
+	void SetGunEquipped(AGun* GunToSet);
+
+	
+	FORCEINLINE AGun* GetGunEquipped() { return GunEquipped; }
 
 
 	FORCEINLINE void SetOverlapedPickup(ABasePickup* PickupToSet) { OverlapedPickup = PickupToSet; }
@@ -137,7 +149,7 @@ public:
 	void LoadGame(bool SetPos);
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Animation")
-	bool Fighting;
+	bool IsFighting;
 
 	void Fight();
 
@@ -146,5 +158,9 @@ public:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Animation")
 	class UAnimMontage* FightMontage;
+
+	UFUNCTION(BlueprintCallable)
+	void KnifeSwingPlaySound();
+	
 	
 };

@@ -9,6 +9,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "GameFramework/Controller.h"
 #include "Gun.h"
+#include "Sound/SoundCue.h"
 #include "Animation/AnimInstance.h"
 #include "JSaveGame.h"
 #include "Components/SkeletalMeshComponent.h"
@@ -58,8 +59,13 @@ AJBasePlayer::AJBasePlayer()
 	MaxHp = 100.f;
 	Collectibles = 0;
 
-	EscDown = false;
-	LeftMouseDown = false;
+	IsEscDown = false;
+	IsLeftMouseDown = false;
+
+	IsIDown = false;
+
+	IsFighting = false;
+
 	
 }
 
@@ -87,8 +93,11 @@ void AJBasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
-	PlayerInputComponent->BindAction("LeftMouse", IE_Pressed, this, &AJBasePlayer::LeftMouseD);
-	PlayerInputComponent->BindAction("LeftMouse", IE_Released, this, &AJBasePlayer::LeftMouseUp);
+	PlayerInputComponent->BindAction("EquipItem", IE_Pressed, this, &AJBasePlayer::IDown);
+	PlayerInputComponent->BindAction("EquipItem", IE_Released, this, &AJBasePlayer::IUp);
+
+	PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &AJBasePlayer::LeftMouseD);
+	PlayerInputComponent->BindAction("Attack", IE_Released, this, &AJBasePlayer::LeftMouseUp);
 
 	PlayerInputComponent->BindAction("Q", IE_Pressed, this, &AJBasePlayer::EscD);
 	PlayerInputComponent->BindAction("Q", IE_Released, this, &AJBasePlayer::EscUp);
@@ -107,7 +116,7 @@ void AJBasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 void AJBasePlayer::MoveForward(float Value)
 {
-	if ((Controller != nullptr) && (Value != 0.0f) && (!Fighting))
+	if ((Controller != nullptr) && (Value != 0.0f) && (!IsFighting))
 	{
 		//find forward direction
 		const FRotator Rotation = Controller->GetControlRotation();
@@ -120,7 +129,7 @@ void AJBasePlayer::MoveForward(float Value)
 
 void AJBasePlayer::MoveRight(float Value)
 {
-	if ((Controller != nullptr) && (Value != 0.0f) && (!Fighting))
+	if ((Controller != nullptr) && (Value != 0.0f) && (!IsFighting))
 	{
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
@@ -140,9 +149,12 @@ void AJBasePlayer::LookUpAtUnit(float Value)
 
 }
 
-void AJBasePlayer::LeftMouseD()
+
+// Pickup Weapon
+
+void AJBasePlayer::IDown()
 {
-	LeftMouseDown = true;
+	IsIDown = true;
 	if (OverlapedPickup)
 	{
 		AGun* Gun = Cast<AGun>(OverlapedPickup);
@@ -152,15 +164,32 @@ void AJBasePlayer::LeftMouseD()
 			SetOverlapedPickup(nullptr);
 		}
 	}
-	else if (UsedGun)
-	{
+}
+
+void AJBasePlayer::IUp()
+{
+	IsIDown = false;
+}
+
+// Combat mode
+
+void AJBasePlayer::LeftMouseD()
+{
+	IsLeftMouseDown = true;
+	if (GunEquipped) {
+
+
 		Fight();
+		
 	}
+	
+	
 }
 
 void AJBasePlayer::LeftMouseUp()
 {
-	LeftMouseDown = false;
+	IsLeftMouseDown = false;
+	IsFighting = false;
 
 }
 
@@ -168,7 +197,7 @@ void AJBasePlayer::LeftMouseUp()
 
 void AJBasePlayer::EscD()
 {
-	EscDown = true;
+	IsEscDown = true;
 
 	if (PController)
 	{
@@ -178,7 +207,7 @@ void AJBasePlayer::EscD()
 
 void AJBasePlayer::EscUp()
 {
-	EscDown = false;
+	IsEscDown = false;
 }
 
 void AJBasePlayer::Death()
@@ -198,13 +227,14 @@ void AJBasePlayer::DamageHp(float Damage)
 	}
 }
 
-void AJBasePlayer::SetUsedGun(AGun* GunToSet)
+void AJBasePlayer::SetGunEquipped(AGun* GunToSet)
 {
-	if (UsedGun)
+	if (GunEquipped)
 	{
-		UsedGun->Destroy();
+		
+		GunEquipped->Destroy();
 	}
-	UsedGun = GunToSet;
+	GunEquipped = GunToSet;
 
 }
 
@@ -257,44 +287,54 @@ void AJBasePlayer::LoadGame(bool Setpos)
 
 void AJBasePlayer::Fight()
 {
-	if (!Fighting)
+	if (!IsFighting)
 	{
-		Fighting = true;
+		IsFighting = true;
+
+		
 
 		UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
 		if (AnimationInst && FightMontage)
 		{
+			 
+			
 			int32 MontageSection = FMath::RandRange(0, 1);
 			switch (MontageSection)
 			{
 			case 0:
 
-				AnimationInst->Montage_Play(FightMontage, 2.5f);
+				AnimationInst->Montage_Play(FightMontage, 2.0f);
 				AnimationInst->Montage_JumpToSection(FName("Attack1"), FightMontage);
 
 				break;
 			case 1:
 
-				AnimationInst->Montage_Play(FightMontage, 3.f);
+				AnimationInst->Montage_Play(FightMontage, 2.0f);
 				AnimationInst->Montage_JumpToSection(FName("Attack2"), FightMontage);
 
 				break;
 
 			default:
 				;
-			}
-
-			
+			}	
 		}
 	}
 }
 
 void AJBasePlayer::FightFinished()
 {
-	Fighting = false;
-	if (LeftMouseDown)
+	IsFighting = false;
+	if (IsLeftMouseDown)
 	{
 		Fight();
+	}
+}
+
+void AJBasePlayer::KnifeSwingPlaySound()
+{
+	if (GunEquipped->KnifeSwingSound)
+	{
+		UGameplayStatics::PlaySound2D(this, GunEquipped->KnifeSwingSound);
 	}
 }
 

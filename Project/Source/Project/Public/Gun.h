@@ -41,6 +41,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Sound")
 	class USoundCue* UseWeaponSound;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Sound")
+	class USoundCue* KnifeSwingSound;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
 	float Damage;
 
@@ -67,5 +70,11 @@ public:
 	UFUNCTION()
 	void FightOnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 		UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
+	UFUNCTION(BlueprintCallable)
+	void CollActive();
+
+	UFUNCTION(BlueprintCallable)
+	void CollInactive();
 	
 };
