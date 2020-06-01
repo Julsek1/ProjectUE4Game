@@ -29,10 +29,12 @@ AJFollowEnemy::AJFollowEnemy()
 	AttackSphere->SetupAttachment(GetRootComponent());
 	AttackSphere->InitSphereRadius(150.f);
 
-	CollFight = CreateDefaultSubobject<UBoxComponent>(TEXT("FightCollision"));
-	CollFight->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale, FName("RHSocket"));
+	BoxCollFight = CreateDefaultSubobject<UBoxComponent>(TEXT("FightCollision"));
+	BoxCollFight->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale, FName("RFArmSocket"));
+	
+	
 
-
+	
 
 	IsOverlapAttackSphere = false;
 
@@ -55,13 +57,13 @@ void AJFollowEnemy::BeginPlay()
 	AttackSphere->OnComponentBeginOverlap.AddDynamic(this, &AJFollowEnemy::AttackSphereOnOverlapBegin);
 	AttackSphere->OnComponentEndOverlap.AddDynamic(this, &AJFollowEnemy::AttackSphereOnOverlapEnd);
 
-	CollFight->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-	CollFight->SetCollisionObjectType(ECollisionChannel::ECC_WorldDynamic);
-	CollFight->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
-	CollFight->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
+	BoxCollFight->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	BoxCollFight->SetCollisionObjectType(ECollisionChannel::ECC_WorldDynamic);
+	BoxCollFight->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
+	BoxCollFight->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
 
-	CollFight->OnComponentBeginOverlap.AddDynamic(this, &AJFollowEnemy::FightOnOverlapBegin);
-	CollFight->OnComponentEndOverlap.AddDynamic(this, &AJFollowEnemy::FightOnOverlapEnd);
+	BoxCollFight->OnComponentBeginOverlap.AddDynamic(this, &AJFollowEnemy::FightOnOverlapBegin);
+	BoxCollFight->OnComponentEndOverlap.AddDynamic(this, &AJFollowEnemy::FightOnOverlapEnd);
 
 }
 
@@ -204,12 +206,12 @@ void AJFollowEnemy::FightOnOverlapEnd(UPrimitiveComponent* OverlappedComponent, 
 
 void AJFollowEnemy::CollisionActive()
 {
-	CollFight->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
+	BoxCollFight->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
 }
 
 void AJFollowEnemy::CollisionInactive()
 {
-	CollFight->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	BoxCollFight->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 
 }
 

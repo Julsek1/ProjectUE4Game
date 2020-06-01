@@ -64,13 +64,15 @@ public:
     USoundCue* PunchSound;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Fight")
-	class UBoxComponent* CollFight;
+	class UBoxComponent* BoxCollFight;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Fight")
 	class UAnimMontage* FightMontage;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Fight")
 	bool IsFighting;
+
+	AJFollowEnemy* Mutant;
 
 protected:
 	// Called when the game starts or when spawned
