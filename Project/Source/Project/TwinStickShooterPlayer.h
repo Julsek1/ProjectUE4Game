@@ -96,7 +96,7 @@ public:
 		UParticleSystemComponent* LaserSight = nullptr;
 
 	//Melee
-	float MeleeDamage = 0.1f;
+	float MeleeDamage = 0.2f;
 	float MeleeRange = 200.f;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		float MeleeCooldown = 0.525f;
