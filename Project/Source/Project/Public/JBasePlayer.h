@@ -61,8 +61,19 @@ class USoundCue* DamageSound;
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stats")
  int32 Collectibles;
 
+ float AnnexPace;
+
+ bool IsAnnexed;
+
+ void SetAnnexEnemy(bool Annex);
 
 
+ FRotator GetSightTurning(FVector Goal);
+
+ UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Fight")
+ class AJFollowEnemy* FightGoal;
+
+ FORCEINLINE void SetFightGoal(AJFollowEnemy* Goal) { FightGoal = Goal; }
 
 protected:
 	// Called when the game starts or when spawned

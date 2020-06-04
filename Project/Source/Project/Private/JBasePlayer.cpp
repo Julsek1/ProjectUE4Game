@@ -10,8 +10,10 @@
 #include "GameFramework/Controller.h"
 #include "Gun.h"
 #include "Sound/SoundCue.h"
+#include "JFollowEnemy.h"
 #include "Animation/AnimInstance.h"
 #include "JSaveGame.h"
+#include "Kismet/KismetMathLibrary.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "..\Public\JBasePlayer.h"
 #include "BasePlayerController.h"
@@ -66,8 +68,19 @@ AJBasePlayer::AJBasePlayer()
 
 	IsFighting = false;
 
+	IsAnnexed = false;
+	AnnexPace = 16.f;
 	
 }
+
+
+//change direction towards enemy when attacking.
+void AJBasePlayer::SetAnnexEnemy(bool Annex)
+{
+	IsAnnexed = Annex;
+}
+
+
 
 // Called when the game starts or when spawned
 void AJBasePlayer::BeginPlay()
@@ -82,6 +95,22 @@ void AJBasePlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (IsAnnexed && FightGoal)
+	{
+		FRotator Sight = GetSightTurning(FightGoal->GetActorLocation());
+		
+	// Smooth transition while turning player towards goal
+       FRotator AnnexTurning = FMath::RInterpTo(GetActorRotation(), Sight, DeltaTime, AnnexPace);
+
+	   SetActorRotation(AnnexTurning);
+	}
+}
+
+FRotator AJBasePlayer::GetSightTurning(FVector Goal)
+{
+	FRotator SightTurning = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), Goal);
+	FRotator GetSightTurning(0.f, SightTurning.Yaw, 0.f);
+	return GetSightTurning;
 }
 
 // Called to bind functionality to input
@@ -290,7 +319,7 @@ void AJBasePlayer::Fight()
 	if (!IsFighting)
 	{
 		IsFighting = true;
-
+		SetAnnexEnemy(true);
 		
 
 		UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
@@ -324,9 +353,11 @@ void AJBasePlayer::Fight()
 void AJBasePlayer::FightFinished()
 {
 	IsFighting = false;
+	SetAnnexEnemy(false);
 	if (IsLeftMouseDown)
 	{
 		Fight();
+
 	}
 }
 

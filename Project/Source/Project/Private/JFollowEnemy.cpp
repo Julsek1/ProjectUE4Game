@@ -128,6 +128,7 @@ void AJFollowEnemy::AttackSphereOnOverlapBegin(UPrimitiveComponent* OverlappedCo
 		{
 			if (Player)
 			{
+				Player->SetFightGoal(this);
 				AttackTarget = Player;
 				IsOverlapAttackSphere = true;
 				Fight();
@@ -144,6 +145,7 @@ void AJFollowEnemy::AttackSphereOnOverlapEnd(UPrimitiveComponent* OverlappedComp
 		{
 			if (Player)
 			{
+				Player->SetFightGoal(nullptr);
 				IsOverlapAttackSphere = false;
 				if (EFEnemyMoveStatus != EFEnemyMoveStat::FEMS_Attack)
 				{
