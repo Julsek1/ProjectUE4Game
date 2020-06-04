@@ -94,6 +94,7 @@ public:
 		UAnimMontage* ReloadAnimation = nullptr;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UAnimMontage* FiringAnimation = nullptr;
+	void SwapWeapons();
 	
 	//Laser sight
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)

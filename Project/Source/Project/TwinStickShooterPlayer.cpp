@@ -310,3 +310,8 @@ void ATwinStickShooterPlayer::EnableLaserSight()
 		LaserSight->SetVisibility(true);
 	}
 }
+
+void ATwinStickShooterPlayer::SwapWeapons()
+{
+
+}

@@ -60,6 +60,8 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UAnimationAsset* FiringAnimation = nullptr;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UAnimationAsset* ReloadingAnimation = nullptr;
 
 private:
 	UPROPERTY(EditAnywhere)

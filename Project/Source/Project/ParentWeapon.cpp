@@ -80,7 +80,6 @@ void AParentWeapon::Fire()
 	{
 		SkeletalMesh->PlayAnimation(FiringAnimation, false);
 	}
-
 }
 
 bool AParentWeapon::CanTheWeaponFire()
@@ -102,6 +101,11 @@ void AParentWeapon::Reload()
 		bCurrentlyReloading = true;
 
 		GetWorldTimerManager().SetTimer(ReloadTimerHandle, this, &AParentWeapon::ReplenishClip, ReloadSpeed, false);
+
+		if (ReloadingAnimation)
+		{
+			SkeletalMesh->PlayAnimation(ReloadingAnimation, false);
+		}
 	}
 }
 
