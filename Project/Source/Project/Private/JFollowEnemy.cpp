@@ -27,11 +27,11 @@ AJFollowEnemy::AJFollowEnemy()
 	
 	AttackSphere = CreateDefaultSubobject<USphereComponent>(TEXT("AttackSphere"));
 	AttackSphere->SetupAttachment(GetRootComponent());
-	AttackSphere->InitSphereRadius(150.f);
+	AttackSphere->InitSphereRadius(200.f);
 
 	BoxCollFight = CreateDefaultSubobject<UBoxComponent>(TEXT("FightCollision"));
-	BoxCollFight->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale, FName("RFArmSocket"));
-	
+	BoxCollFight->SetBoxExtent(FVector(6.f, 6.f, 6.f));
+	//BoxCollFight->SetBoundsScale(0.16f);
 	
 
 	
@@ -57,13 +57,21 @@ void AJFollowEnemy::BeginPlay()
 	AttackSphere->OnComponentBeginOverlap.AddDynamic(this, &AJFollowEnemy::AttackSphereOnOverlapBegin);
 	AttackSphere->OnComponentEndOverlap.AddDynamic(this, &AJFollowEnemy::AttackSphereOnOverlapEnd);
 
+	BoxCollFight->OnComponentBeginOverlap.AddDynamic(this, &AJFollowEnemy::FightOnOverlapBegin);
+	BoxCollFight->OnComponentEndOverlap.AddDynamic(this, &AJFollowEnemy::FightOnOverlapEnd);
+
+	//Arm socket fix
+
+	//BoxCollFight->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale, FName("RFArmSocket"));
+
+	BoxCollFight->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale, FName("RFArmSocket"));
+
 	BoxCollFight->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	BoxCollFight->SetCollisionObjectType(ECollisionChannel::ECC_WorldDynamic);
 	BoxCollFight->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
 	BoxCollFight->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
 
-	BoxCollFight->OnComponentBeginOverlap.AddDynamic(this, &AJFollowEnemy::FightOnOverlapBegin);
-	BoxCollFight->OnComponentEndOverlap.AddDynamic(this, &AJFollowEnemy::FightOnOverlapEnd);
+	
 
 }
 
