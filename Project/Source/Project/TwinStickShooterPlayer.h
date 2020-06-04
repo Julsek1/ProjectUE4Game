@@ -94,8 +94,9 @@ public:
 		UAnimMontage* ReloadAnimation = nullptr;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UAnimMontage* FiringAnimation = nullptr;
-	void SwapWeapons();
-	
+	UFUNCTION(BlueprintCallable)
+		void SwapWeapons();
+
 	//Laser sight
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UParticleSystemComponent* LaserSight = nullptr;
@@ -108,7 +109,8 @@ public:
 	float MeleeRange = 200.f;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		float MeleeCooldown = 0.525f;
-	bool bCanMelee = true;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		bool bCanMelee = true;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		FTimerHandle MeleeTimerHandle;
 	UFUNCTION(BlueprintCallable)

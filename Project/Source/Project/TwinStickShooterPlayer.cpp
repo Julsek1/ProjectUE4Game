@@ -249,7 +249,7 @@ void ATwinStickShooterPlayer::FireButtonUp()
 
 void ATwinStickShooterPlayer::MeleeAttack()
 {
-	if (bCanMelee)
+	if (bCanMelee && CurrentWeapon && !CurrentWeapon->bCurrentlyReloading)
 	{
 		if (MeleeAnimation)
 		{
@@ -309,9 +309,11 @@ void ATwinStickShooterPlayer::EnableLaserSight()
 	{
 		LaserSight->SetVisibility(true);
 	}
+
+	GetWorldTimerManager().ClearTimer(LaserSightTimerHandle);
 }
 
 void ATwinStickShooterPlayer::SwapWeapons()
 {
-
+	EnableLaserSight();
 }

@@ -29,7 +29,8 @@ public:
 		bool bCanShoot = true;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float Range;
-	bool bCurrentlyReloading = false;
+	UPROPERTY(BlueprintReadOnly)
+		bool bCurrentlyReloading = false;
 	UPROPERTY(BlueprintReadOnly)
 		FTimerHandle FireRateTimerHandle;
 
@@ -56,6 +57,7 @@ public:
 		int32 ClipSize;//Max ammo for the clip
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		FString WeaponName;
+
 	bool CanTheWeaponFire();
 	bool CanTheWeaponReload();
 
