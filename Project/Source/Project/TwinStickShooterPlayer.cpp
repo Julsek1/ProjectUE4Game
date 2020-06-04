@@ -315,5 +315,5 @@ void ATwinStickShooterPlayer::EnableLaserSight()
 
 void ATwinStickShooterPlayer::SwapWeapons()
 {
-	EnableLaserSight();
+
 }
