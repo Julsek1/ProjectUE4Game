@@ -90,10 +90,17 @@ public:
 		AParentWeapon* CurrentWeapon = nullptr;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TArray<AParentWeapon*> Weapons;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UAnimMontage* ReloadAnimation = nullptr;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UAnimMontage* FiringAnimation = nullptr;
 	
 	//Laser sight
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UParticleSystemComponent* LaserSight = nullptr;
+	void DisableLaserSight(float Duration);
+	void EnableLaserSight();
+	FTimerHandle LaserSightTimerHandle;
 
 	//Melee
 	float MeleeDamage = 0.2f;

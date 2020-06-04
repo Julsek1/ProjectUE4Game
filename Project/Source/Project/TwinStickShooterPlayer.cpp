@@ -99,6 +99,7 @@ void ATwinStickShooterPlayer::Tick(float DeltaTime)
 	if (bIsFiring && bCanMelee)
 	{
 		Fire();
+
 		if (CurrentWeapon)
 		{
 			if (CurrentWeapon->bCanShoot)
@@ -186,7 +187,7 @@ void ATwinStickShooterPlayer::Rotate()
 
 void ATwinStickShooterPlayer::Heal(float HealingAmount)
 {
-	Health += HealingAmount * 2;
+	Health += HealingAmount;
 
 	if (Health >= 1)
 	{
@@ -207,6 +208,14 @@ void ATwinStickShooterPlayer::Fire()
 {
 	if (CurrentWeapon)
 	{
+		if (CurrentWeapon->CanTheWeaponFire())
+		{
+			if (FiringAnimation)
+			{
+				GetMesh()->GetAnimInstance()->Montage_Play(FiringAnimation, FiringAnimation->SequenceLength / CurrentWeapon->FireRate);
+			}
+		}
+
 		CurrentWeapon->Fire(WeaponMuzzle);
 	}
 }
@@ -215,6 +224,15 @@ void ATwinStickShooterPlayer::Reload()
 {
 	if (CurrentWeapon)
 	{
+		if (CurrentWeapon->CanTheWeaponReload())
+		{
+			if (ReloadAnimation)
+			{
+				GetMesh()->GetAnimInstance()->Montage_Play(ReloadAnimation, ReloadAnimation->SequenceLength / CurrentWeapon->ReloadSpeed);
+				DisableLaserSight(CurrentWeapon->ReloadSpeed);
+			}
+		}
+
 		CurrentWeapon->Reload();
 	}
 }
@@ -238,10 +256,12 @@ void ATwinStickShooterPlayer::MeleeAttack()
 			GetMesh()->GetAnimInstance()->Montage_Play(MeleeAnimation);
 		}
 
-		if (LaserSight)
+		DisableLaserSight(MeleeCooldown);
+
+		/*if (LaserSight)
 		{
 			LaserSight->SetVisibility(false);
-		}
+		}*/
 
 		bCanMelee = false;
 		GetWorldTimerManager().SetTimer(MeleeTimerHandle, this, &ATwinStickShooterPlayer::RestoreMelee, MeleeCooldown, false);
@@ -267,6 +287,24 @@ void ATwinStickShooterPlayer::RestoreMelee()
 	GetWorldTimerManager().ClearTimer(MeleeTimerHandle);
 	bCanMelee = true;
 
+	/*if (LaserSight)
+	{
+		LaserSight->SetVisibility(true);
+	}*/
+}
+
+void ATwinStickShooterPlayer::DisableLaserSight(float Duration)
+{
+	if (LaserSight)
+	{
+		LaserSight->SetVisibility(false);
+	}
+
+	GetWorldTimerManager().SetTimer(LaserSightTimerHandle, this, &ATwinStickShooterPlayer::EnableLaserSight, Duration, false);
+}
+
+void ATwinStickShooterPlayer::EnableLaserSight()
+{
 	if (LaserSight)
 	{
 		LaserSight->SetVisibility(true);

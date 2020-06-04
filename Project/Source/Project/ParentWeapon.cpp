@@ -97,13 +97,17 @@ void AParentWeapon::TimeToFireElapsed()
 
 void AParentWeapon::Reload()
 {
-	if (!bCurrentlyReloading && AmmoCapacity > 0 && CurrentClipAmmo < ClipSize)
+	if (CanTheWeaponReload())
 	{
 		bCurrentlyReloading = true;
 
 		GetWorldTimerManager().SetTimer(ReloadTimerHandle, this, &AParentWeapon::ReplenishClip, ReloadSpeed, false);
 	}
+}
 
+bool AParentWeapon::CanTheWeaponReload()
+{
+	return !bCurrentlyReloading && AmmoCapacity > 0 && CurrentClipAmmo < ClipSize;
 }
 
 void AParentWeapon::ReplenishClip()

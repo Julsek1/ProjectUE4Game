@@ -29,11 +29,11 @@ public:
 		bool bCanShoot = true;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float Range;
+	bool bCurrentlyReloading = false;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-	bool bCurrentlyReloading = false;
 	FTimerHandle FireRateTimerHandle;
 	void TimeToFireElapsed();
 	float Damage;
@@ -56,7 +56,7 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		FString WeaponName;
 	bool CanTheWeaponFire();
-	//istheweaponfiring
+	bool CanTheWeaponReload();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UAnimationAsset* FiringAnimation = nullptr;
