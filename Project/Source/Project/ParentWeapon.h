@@ -15,8 +15,8 @@ UCLASS()
 class PROJECT_API AParentWeapon : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	AParentWeapon();
 	virtual void Fire(USceneComponent* Location);
@@ -30,15 +30,16 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float Range;
 	bool bCurrentlyReloading = false;
+	UPROPERTY(BlueprintReadOnly)
+		FTimerHandle FireRateTimerHandle;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-	FTimerHandle FireRateTimerHandle;
 	void TimeToFireElapsed();
 	float Damage;
 
-public:	
+public:
 	// Called every frame
 	//virtual void Tick(float DeltaTime) override;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
