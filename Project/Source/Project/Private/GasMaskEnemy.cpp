@@ -17,7 +17,7 @@ void AGasMaskEnemy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (Weapon)
+	if (Weapon && bDetectedPlayer)
 	{
 		if (Weapon->CurrentClipAmmo > 0)
 		{

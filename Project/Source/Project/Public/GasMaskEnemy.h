@@ -26,4 +26,7 @@ public:
 		void Fire();
 	UFUNCTION(BlueprintCallable)
 		void Reload();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool bDetectedPlayer = false;
 };
