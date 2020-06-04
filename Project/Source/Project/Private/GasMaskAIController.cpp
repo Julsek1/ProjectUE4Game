@@ -5,6 +5,8 @@
 
 #include "Perception/AIPerceptionComponent.h"
 #include "Perception/AISenseConfig_Sight.h"
+#include "Kismet/GameplayStatics.h"
+#include "../TwinStickShooterPlayer.h"
 
 AGasMaskAIController::AGasMaskAIController()
 {
@@ -47,6 +49,22 @@ void AGasMaskAIController::OnPossess(APawn* PawnToPossess)
 void AGasMaskAIController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	if (DistanceToPlayer > AISightRadius)
+	{
+		bIsPlayerDetected = false;
+	}
+
+	if (bIsPlayerDetected)
+	{
+		AParentPlayer* Player = Cast<AParentPlayer>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
+		MoveToActor(Player);
+	}
+
+	else
+	{
+		//Patrol?
+	}
 }
 
 FRotator AGasMaskAIController::GetControlRotation() const
@@ -59,9 +77,14 @@ FRotator AGasMaskAIController::GetControlRotation() const
 	return FRotator(0.f, GetPawn()->GetActorRotation().Yaw, 0.f);
 }
 
-void AGasMaskAIController::OnPawnDetected(const TArray<AActor*>& DetectedPawns)
+void AGasMaskAIController::OnPawnDetected(const TArray<AActor*>& DetectedPawns)//gets called when the player enters or exits the AI sight radius
 {
+	for (auto Actor : DetectedPawns)
+	{
+		DistanceToPlayer = GetPawn()->GetDistanceTo(Actor);
+	}
 
+	bIsPlayerDetected = true;
 }
 
 

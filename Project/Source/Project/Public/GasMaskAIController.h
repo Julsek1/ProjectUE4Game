@@ -25,7 +25,7 @@ public:
 		void OnPawnDetected(const TArray<AActor*> &DetectedPawns);
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-		float AISightRadius = 1500.f;
+		float AISightRadius = 2000.f;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		float AISightAge = 5.f;
@@ -39,4 +39,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		class UAISenseConfig_Sight* SightConfig;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		bool bIsPlayerDetected = false;
+	
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		float DistanceToPlayer = 0.f;
 };
