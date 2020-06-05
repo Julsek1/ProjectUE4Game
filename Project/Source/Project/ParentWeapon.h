@@ -58,8 +58,10 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		FString WeaponName;
 
-	bool CanTheWeaponFire();
-	bool CanTheWeaponReload();
+	UFUNCTION(BlueprintCallable)
+		bool CanTheWeaponFire();
+	UFUNCTION(BlueprintCallable)
+		bool CanTheWeaponReload();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UAnimationAsset* FiringAnimation = nullptr;
