@@ -56,15 +56,7 @@ void ABasePickup::Tick(float DeltaTime)
 
 void ABasePickup::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	if (BasicPSComponent)
-	{
-		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), PSOverlap, GetActorLocation(), FRotator(0.f), true);
-		
-	}
-	if (SoundFX)
-	{
-		UGameplayStatics::PlaySound2D(this, SoundFX);
-	}
+	
 	
 }
 

@@ -2,6 +2,10 @@
 
 
 #include "Mine.h"
+#include "Engine/World.h"
+#include "Sound/SoundCue.h"
+#include "Kismet/GameplayStatics.h"
+#include "Particles/ParticleSystemComponent.h"
 #include "JBasePlayer.h"
 
 
@@ -19,6 +23,15 @@ void AMine::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 		AJBasePlayer* Player = Cast<AJBasePlayer>(OtherActor);
 		if (Player)
 		{
+			if (BasicPSComponent)
+			{
+				UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), PSOverlap, GetActorLocation(), FRotator(0.f), true);
+
+			}
+			if (SoundFX)
+			{
+				UGameplayStatics::PlaySound2D(this, SoundFX);
+			}
 			Player->DamageHp(Damage);
 			Destroy();
 		}
