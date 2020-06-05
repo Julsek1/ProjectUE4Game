@@ -241,6 +241,12 @@ void AJBasePlayer::EscUp()
 
 void AJBasePlayer::Death()
 {
+	UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
+	if (AnimationInst && FightMontage)
+	{
+		AnimationInst->Montage_Play(FightMontage, 1.2f);
+		AnimationInst->Montage_JumpToSection(FName("Death"));
+	}
 }
 
 void AJBasePlayer::DamageHp(float Damage)
@@ -327,12 +333,10 @@ void AJBasePlayer::Fight()
 		IsFighting = true;
 		SetAnnexEnemy(true);
 		
-
 		UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
 		if (AnimationInst && FightMontage)
 		{
-			 
-			
+			 			
 			int32 MontageSection = FMath::RandRange(0, 1);
 			switch (MontageSection)
 			{

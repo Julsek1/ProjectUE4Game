@@ -6,6 +6,7 @@
 #include "Components/BoxComponent.h"
 #include "Project/Public/JBasePlayer.h"
 #include "Kismet/GameplayStatics.h"
+#include "Components/CapsuleComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Engine/SkeletalMeshSocket.h"
 #include "TimerManager.h"
@@ -41,7 +42,7 @@ AJFollowEnemy::AJFollowEnemy()
 
 	Hp = 90.f;
 	MaxHp = 100.f;
-	Damage = 20.f;
+	Damage = 50.f;
 
 
 
@@ -237,6 +238,21 @@ void AJFollowEnemy::CollisionInactive()
 
 }
 
+float AJFollowEnemy::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
+{
+	if (Hp - DamageAmount <= 0.f)
+	{
+		Hp += DamageAmount;
+		Death();
+	}
+	else
+	{
+		Hp += DamageAmount;
+	}
+	return DamageAmount;
+}
+
+
 void AJFollowEnemy::Fight()
 {
 	if (AIController)
@@ -269,4 +285,21 @@ void AJFollowEnemy::FightFinished()
 		GetWorldTimerManager().SetTimer(FightTempo, this, &AJFollowEnemy::Fight, FightLapsus);
 		
 	}
+}
+
+void AJFollowEnemy::Death()
+{
+	UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
+	if (AnimationInst)
+	{
+		AnimationInst->Montage_Play(FightMontage, 1.5f);
+		AnimationInst->Montage_JumpToSection(FName("Death"), FightMontage);
+	}
+	SetFEnemyMovStatus(EFEnemyMoveStat::FEMS_Death);
+	GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	FollowSphere->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	BoxCollFight->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	AttackSphere->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	
+
 }

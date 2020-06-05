@@ -12,6 +12,7 @@ enum class EFEnemyMoveStat :uint8
 	FEMS_Idle          UMETA(DeplayName = "Idle"),
 	FEMS_MoveToPlayer  UMETA(DeplayName = "MoveToPlayer"),
 	FEMS_Attack        UMETA(DeplayName = "Attack"),
+	FEMS_Death         UMETA(DeplayName = "Death"),
 	FEMS_Max           UMETA(DeplayName = "DefMax")
 
 };
@@ -77,9 +78,6 @@ public:
 
 	FTimerHandle FightTempo;
 
-	
-
-
 	AJFollowEnemy* Mutant;
 
 protected:
@@ -123,6 +121,11 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void CollisionInactive();
+
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent,
+		class AController* EventInstigator, AActor* DamageCauser) override;
+
+	void Death();
 
 	void Fight();
 
