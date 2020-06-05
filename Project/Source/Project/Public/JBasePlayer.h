@@ -133,6 +133,9 @@ public:
 	//Affect Health
 	void DamageHp(float Damage);
 
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent,
+		                    class AController* EventInstigator, AActor* DamageCauser) override;
+
 	FORCEINLINE class USpringArmComponent* GetCameraStick() const { return CameraStick; };
 	FORCEINLINE class UCameraComponent* GetPlayerCamera() const { return PlayerCamera; };
 

@@ -39,9 +39,9 @@ AJFollowEnemy::AJFollowEnemy()
 
 	IsOverlapAttackSphere = false;
 
-	Hp = 80.f;
+	Hp = 90.f;
 	MaxHp = 100.f;
-	Damage = 15.f;
+	Damage = 20.f;
 
 
 
@@ -149,7 +149,10 @@ void AJFollowEnemy::AttackSphereOnOverlapEnd(UPrimitiveComponent* OverlappedComp
 		{
 			if (Player)
 			{
-				Player->SetFightGoal(nullptr);
+				if (Player->FightGoal == this)
+				{
+					Player->SetFightGoal(nullptr);
+				}
 				IsOverlapAttackSphere = false;
 				if (EFEnemyMoveStatus != EFEnemyMoveStat::FEMS_Attack)
 				{
@@ -210,6 +213,10 @@ void AJFollowEnemy::FightOnOverlapBegin(UPrimitiveComponent* OverlappedComponent
 			if (Player->DamageSound)
 			{
 				UGameplayStatics::PlaySound2D(this, Player->DamageSound);
+			}
+			if (DamageTypeClass)
+			{
+				UGameplayStatics::ApplyDamage(Player, Damage, AIController, this, DamageTypeClass);
 			}
 		}
 	}

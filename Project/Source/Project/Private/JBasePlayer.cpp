@@ -256,6 +256,12 @@ void AJBasePlayer::DamageHp(float Damage)
 	}
 }
 
+float AJBasePlayer::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
+{
+	DamageHp(DamageAmount);
+	return DamageAmount;
+}
+
 void AJBasePlayer::SetGunEquipped(AGun* GunToSet)
 {
 	if (GunEquipped)

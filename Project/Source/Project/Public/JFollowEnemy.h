@@ -63,6 +63,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
     USoundCue* PunchSound;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+    TSubclassOf<UDamageType> DamageTypeClass;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Fight")
 	class UBoxComponent* BoxCollFight;
 
@@ -73,6 +76,8 @@ public:
 	bool IsFighting;
 
 	FTimerHandle FightTempo;
+
+	
 
 
 	AJFollowEnemy* Mutant;
