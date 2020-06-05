@@ -131,12 +131,16 @@ void ATwinStickShooterPlayer::Tick(float DeltaTime)
 
 		if (OutHits.Num() > 0 && OutHits[0].GetActor())
 		{
-			UE_LOG(LogTemp, Warning, TEXT("Self: %s"), *GetActorLocation().ToString());
-			UE_LOG(LogTemp, Warning, TEXT("Hit: %s"), *OutHits[0].GetActor()->GetActorLocation().ToString());
+			UE_LOG(LogTemp, Warning, TEXT("Self: %s"), *WeaponMuzzle->GetForwardVector().ToString());
+			//UE_LOG(LogTemp, Warning, TEXT("Hit: %s"), *OutHits[0].GetActor()->GetActorLocation().ToString());
 			FVector HitActorLocation = OutHits[0].GetActor()->GetActorLocation();
-			float DistX = FMath::Abs(HitActorLocation.X - Start.X);
-			float DistY = FMath::Abs(HitActorLocation.Y - Start.Y);
-			LaserSightDistance = FMath::Abs(GetActorForwardVector().X * DistX + GetActorForwardVector().Y * DistY);
+			float HitDistX = FMath::Abs(HitActorLocation.X - Start.X);
+			float HitDistY = FMath::Abs(HitActorLocation.Y - Start.Y);
+			float DistX = FMath::Abs(WeaponMuzzle->GetForwardVector().X * HitDistX);
+			float DistY = FMath::Abs(WeaponMuzzle->GetForwardVector().Y * HitDistY);
+
+			LaserSightDistance = DistX + DistY;
+			//LaserSightDistance = ((DistX + DistY) < (HitActorLocation - Start).Size()) ? DistX + DistY : (HitActorLocation - Start).Size();
 		}
 
 		End = LaserSight->GetForwardVector() * LaserSightDistance + LaserSight->GetComponentLocation();
