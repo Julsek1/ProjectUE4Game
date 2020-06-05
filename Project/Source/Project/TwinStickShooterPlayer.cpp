@@ -121,8 +121,24 @@ void ATwinStickShooterPlayer::Tick(float DeltaTime)
 
 	if (LaserSight)
 	{
-		LaserSight->SetBeamSourcePoint(0, LaserSight->GetComponentLocation(), 0);
-		LaserSight->SetBeamTargetPoint(0, (LaserSight->GetForwardVector() * CurrentWeapon->Range) + LaserSight->GetComponentLocation(), 0);
+		//TArray<FHitResult> OutHits;
+		FVector Start = LaserSight->GetComponentLocation();
+		//FCollisionQueryParams CollisionParams;
+		float LaserSightDistance = CurrentWeapon->Range;
+
+		FVector End = LaserSight->GetForwardVector() * LaserSightDistance + LaserSight->GetComponentLocation();
+		//GetWorld()->LineTraceMultiByChannel(OutHits, Start, End, ECollisionChannel(ECC_Pawn), CollisionParams);
+
+		//if (OutHits.Num() > 0 && OutHits[0].GetActor())
+		//{
+		//	//UE_LOG(LogTemp, Warning, TEXT("Hit: %s"), *OutHits[0].GetActor()->GetName());
+		//	LaserSightDistance = OutHits[0].GetActor()->GetDistanceTo(this);
+		//}
+
+		//End = LaserSight->GetForwardVector() * LaserSightDistance + LaserSight->GetComponentLocation();
+
+		LaserSight->SetBeamSourcePoint(0, Start, 0);
+		LaserSight->SetBeamTargetPoint(0, End, 0);
 	}
 }
 
@@ -266,14 +282,19 @@ void ATwinStickShooterPlayer::MeleeAttack()
 		bCanMelee = false;
 		GetWorldTimerManager().SetTimer(MeleeTimerHandle, this, &ATwinStickShooterPlayer::RestoreMelee, MeleeCooldown, false);
 
+		//UKismetSystemLibrary::SphereTraceMulti(this, )
+
 		TArray<TEnumAsByte<EObjectTypeQuery>> Query;
 		TArray<AActor*> Ignore;
+		Ignore.Add(this);
 		TArray<AActor*> OutHits;
 
-		UKismetSystemLibrary::SphereOverlapActors(this, GetActorLocation(), MeleeRange, Query, AParentEnemy::StaticClass(), Ignore, OutHits);
+		UKismetSystemLibrary::SphereOverlapActors(this, GetActorLocation(), MeleeRange, Query, AActor::StaticClass(), Ignore, OutHits);
 
 		for (auto Enemy : OutHits)
 		{
+			UE_LOG(LogTemp, Warning, TEXT("Hit: %s"), *Enemy->GetClass()->GetName());
+
 			if (Cast<AParentEnemy>(Enemy))
 			{
 				Cast<AParentEnemy>(Enemy)->Health -= MeleeDamage;
