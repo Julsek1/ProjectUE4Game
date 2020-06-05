@@ -121,21 +121,25 @@ void ATwinStickShooterPlayer::Tick(float DeltaTime)
 
 	if (LaserSight)
 	{
-		//TArray<FHitResult> OutHits;
+		TArray<FHitResult> OutHits;
 		FVector Start = LaserSight->GetComponentLocation();
-		//FCollisionQueryParams CollisionParams;
+		FCollisionQueryParams CollisionParams;
 		float LaserSightDistance = CurrentWeapon->Range;
 
 		FVector End = LaserSight->GetForwardVector() * LaserSightDistance + LaserSight->GetComponentLocation();
-		//GetWorld()->LineTraceMultiByChannel(OutHits, Start, End, ECollisionChannel(ECC_Pawn), CollisionParams);
+		GetWorld()->LineTraceMultiByChannel(OutHits, Start, End, ECollisionChannel(ECC_Pawn), CollisionParams);
 
-		//if (OutHits.Num() > 0 && OutHits[0].GetActor())
-		//{
-		//	//UE_LOG(LogTemp, Warning, TEXT("Hit: %s"), *OutHits[0].GetActor()->GetName());
-		//	LaserSightDistance = OutHits[0].GetActor()->GetDistanceTo(this);
-		//}
+		if (OutHits.Num() > 0 && OutHits[0].GetActor())
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Self: %s"), *GetActorLocation().ToString());
+			UE_LOG(LogTemp, Warning, TEXT("Hit: %s"), *OutHits[0].GetActor()->GetActorLocation().ToString());
+			FVector HitActorLocation = OutHits[0].GetActor()->GetActorLocation();
+			float DistX = FMath::Abs(HitActorLocation.X - Start.X);
+			float DistY = FMath::Abs(HitActorLocation.Y - Start.Y);
+			LaserSightDistance = FMath::Abs(GetActorForwardVector().X * DistX + GetActorForwardVector().Y * DistY);
+		}
 
-		//End = LaserSight->GetForwardVector() * LaserSightDistance + LaserSight->GetComponentLocation();
+		End = LaserSight->GetForwardVector() * LaserSightDistance + LaserSight->GetComponentLocation();
 
 		LaserSight->SetBeamSourcePoint(0, Start, 0);
 		LaserSight->SetBeamTargetPoint(0, End, 0);
