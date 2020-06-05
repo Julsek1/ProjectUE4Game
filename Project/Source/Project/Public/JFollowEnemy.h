@@ -62,6 +62,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Fight")
 	bool IsFighting;
 
+	// checks if the enemy has a valid goal to continue attacking
+	bool IsWithGoal;
+
 	FTimerHandle FightTempo;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")

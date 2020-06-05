@@ -64,6 +64,7 @@ class USoundCue* DamageSound;
 
  float AnnexPace;
 
+ //check if player has been rotated towards enemy
  bool IsAnnexed;
 
  // Check if player is Dead or alive

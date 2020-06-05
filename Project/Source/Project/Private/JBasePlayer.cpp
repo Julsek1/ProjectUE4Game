@@ -253,20 +253,29 @@ void AJBasePlayer::Death()
 
 void AJBasePlayer::DamageHp(float Damage)
 {
-	if (Hp - Damage <= 0.f)
-	{
-		Hp -= Damage;
-		Death();
-	}
-	else
-	{
-		Hp -= Damage;
-	}
+	
 }
 
 float AJBasePlayer::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
 {
-	DamageHp(DamageAmount);
+	if (Hp - DamageAmount <= 0.f)
+	{
+		Hp -= DamageAmount;
+		Death();
+
+		if (DamageCauser)
+		{
+			AJFollowEnemy* FEnemy = Cast<AJFollowEnemy>(DamageCauser);
+			if (FEnemy)
+			{
+				FEnemy->IsWithGoal = false;
+			}
+		}
+	}
+	else
+	{
+		Hp -= DamageAmount;
+	}
 	return DamageAmount;
 }
 

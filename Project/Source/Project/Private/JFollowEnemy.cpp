@@ -45,6 +45,8 @@ AJFollowEnemy::AJFollowEnemy()
 
 	Delay = 4.f;
 
+	IsWithGoal = false;
+
 }
 
 
@@ -134,6 +136,7 @@ void AJFollowEnemy::AttackSphereOnOverlapBegin(UPrimitiveComponent* OverlappedCo
 		{
 			if (Player)
 			{
+				IsWithGoal = true;
 				Player->SetFightGoal(this);
 				AttackTarget = Player;
 				IsOverlapAttackSphere = true;
@@ -151,6 +154,7 @@ void AJFollowEnemy::AttackSphereOnOverlapEnd(UPrimitiveComponent* OverlappedComp
 		{
 			if (Player)
 			{
+				IsWithGoal = false;
 				if (Player->FightGoal == this)
 				{
 					Player->SetFightGoal(nullptr);
@@ -253,7 +257,7 @@ float AJFollowEnemy::TakeDamage(float DamageAmount, FDamageEvent const& DamageEv
 
 void AJFollowEnemy::Fight()
 {
-	if (IsLiving())
+	if (IsLiving() && IsWithGoal)
 	{
 		if (AIController)
 		{
