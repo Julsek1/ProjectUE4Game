@@ -73,6 +73,7 @@ void AGun::UseGun(AJBasePlayer* Player)
 {
 	if (Player)
 	{
+		SetInstr(Player->GetController());
 		//Avoid camera zooming in when the gun is in the way
 		SkMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Camera, ECollisionResponse::ECR_Ignore);
 		SkMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Ignore);
@@ -116,6 +117,10 @@ void AGun::FightOnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor*
 			if (Enemy->KnifeHitSound)
 			{
 				UGameplayStatics::PlaySound2D(this, Enemy->KnifeHitSound);
+			}
+			if (DamageTypeClass)
+			{
+				UGameplayStatics::ApplyDamage(Enemy, Damage, GunInstr, this, DamageTypeClass);
 			}
 		}
 	}

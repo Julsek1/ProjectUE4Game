@@ -76,5 +76,12 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void CollInactive();
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Fight")
+	AController* GunInstr;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+	TSubclassOf<UDamageType> DamageTypeClass;
 	
+	FORCEINLINE void SetInstr(AController* Instr) { GunInstr = Instr; }
 };
