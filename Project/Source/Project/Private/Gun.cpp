@@ -23,7 +23,7 @@ AGun::AGun()
 
 	GunState = EGunState::EGS_Take;
 
-	Damage = 20.f;
+	Damage = 15.f;
 }
 
 void AGun::BeginPlay()

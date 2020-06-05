@@ -17,7 +17,7 @@ enum class EGunState : uint8
 	EGS_Using UMETA(DisplayName = "UsingGun"),
 
 
-	EGS_Top UMETA(DisplayName = "Top")
+	EGS_Top UMETA(DisplayName = "Top"),
 
 };
 

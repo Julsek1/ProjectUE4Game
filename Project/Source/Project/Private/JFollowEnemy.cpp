@@ -35,18 +35,19 @@ AJFollowEnemy::AJFollowEnemy()
 	BoxCollFight->SetBoxExtent(FVector(6.f, 6.f, 6.f));
 	//BoxCollFight->SetBoundsScale(0.16f);
 	
-
-	
+	EFEnemyMoveStatus = EFEnemyMoveStat::FEMS_Idle;
 
 	IsOverlapAttackSphere = false;
 
 	Hp = 90.f;
 	MaxHp = 100.f;
-	Damage = 50.f;
+	Damage = 20.f;
 
-
+	Delay = 4.f;
 
 }
+
+
 
 // Called when the game starts or when spawned
 void AJFollowEnemy::BeginPlay()
@@ -96,7 +97,7 @@ void AJFollowEnemy::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 
 void AJFollowEnemy::FollowSphereOnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	if (OtherActor)
+	if (OtherActor && IsLiving())
 	{
 		AJBasePlayer* Player = Cast<AJBasePlayer>(OtherActor);
 		if (Player)
@@ -127,7 +128,7 @@ void AJFollowEnemy::FollowSphereOnOverlapEnd(UPrimitiveComponent* OverlappedComp
 
 void AJFollowEnemy::AttackSphereOnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	if (OtherActor)
+	if (OtherActor && IsLiving())
 	{
 		AJBasePlayer* Player = Cast<AJBasePlayer>(OtherActor);
 		{
@@ -180,16 +181,7 @@ void AJFollowEnemy::MoveToPlayer(AJBasePlayer* Player)
 		//struct NavPath
 		FNavPathSharedPtr NavigationPath;
 		AIController->MoveTo(MoveRequest, &NavigationPath);
-
-
-		//array of pathpoints
-		auto PathPoints = NavigationPath->GetPathPoints();
-		for (auto point : PathPoints)
-		{
-			FVector Location = point.Location;
-
-			UKismetSystemLibrary::DrawDebugSphere(this, Location, 25.f, 8, FLinearColor::Blue, 10.f, 2.f);
-		}
+		
 
 	}
 }
@@ -238,16 +230,22 @@ void AJFollowEnemy::CollisionInactive()
 
 }
 
+bool AJFollowEnemy::IsLiving()
+{
+	return GetFEnemyMovStatus() != EFEnemyMoveStat::FEMS_Death;
+}
+
 float AJFollowEnemy::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
 {
+	
 	if (Hp - DamageAmount <= 0.f)
 	{
-		Hp += DamageAmount;
+		Hp -= DamageAmount;
 		Death();
 	}
 	else
 	{
-		Hp += DamageAmount;
+		Hp -= DamageAmount;
 	}
 	return DamageAmount;
 }
@@ -255,25 +253,36 @@ float AJFollowEnemy::TakeDamage(float DamageAmount, FDamageEvent const& DamageEv
 
 void AJFollowEnemy::Fight()
 {
-	if (AIController)
+	if (IsLiving())
 	{
-		AIController->StopMovement();
-		SetFEnemyMovStatus(EFEnemyMoveStat::FEMS_Attack);
-	}
-	if (!IsFighting)
-	{
-		IsFighting = true;
-		UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
-		if (AnimationInst)
+		if (AIController)
 		{
-			AnimationInst->Montage_Play(FightMontage, 1.5f);
-			AnimationInst->Montage_JumpToSection(FName("Attack"), FightMontage);
+			AIController->StopMovement();
+			SetFEnemyMovStatus(EFEnemyMoveStat::FEMS_Attack);
 		}
-		if (PunchSound)
+		if (!IsFighting)
 		{
-			UGameplayStatics::PlaySound2D(this, PunchSound);
+			IsFighting = true;
+			UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
+			if (AnimationInst)
+			{
+				AnimationInst->Montage_Play(FightMontage, 1.5f);
+				AnimationInst->Montage_JumpToSection(FName("Attack"), FightMontage);
+			}
+			if (PunchSound)
+			{
+				UGameplayStatics::PlaySound2D(this, PunchSound);
+			}
 		}
 	}
+	
+}
+
+void AJFollowEnemy::EnemyFinished()
+{
+	GetMesh()->bPauseAnims = true;
+	GetMesh()->bNoSkeletonUpdate = true;
+	GetWorldTimerManager().SetTimer(DyingTempo, this, &AJFollowEnemy::EnemeyGhost, Delay);
 }
 
 void AJFollowEnemy::FightFinished()
@@ -302,4 +311,9 @@ void AJFollowEnemy::Death()
 	AttackSphere->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	
 
+}
+
+void AJFollowEnemy::EnemeyGhost()
+{
+	Destroy();
 }

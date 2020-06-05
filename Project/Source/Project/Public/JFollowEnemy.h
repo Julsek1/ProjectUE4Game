@@ -9,11 +9,11 @@
 UENUM(BlueprintType)
 enum class EFEnemyMoveStat :uint8
 {
-	FEMS_Idle          UMETA(DeplayName = "Idle"),
-	FEMS_MoveToPlayer  UMETA(DeplayName = "MoveToPlayer"),
-	FEMS_Attack        UMETA(DeplayName = "Attack"),
-	FEMS_Death         UMETA(DeplayName = "Death"),
-	FEMS_Max           UMETA(DeplayName = "DefMax")
+	FEMS_Idle          UMETA(DisplayName = "Idle"),
+	FEMS_MoveToPlayer  UMETA(DisplayName = "MoveToPlayer"),
+	FEMS_Attack        UMETA(DisplayName = "Attack"),
+	FEMS_Death         UMETA(DisplayName = "Death"),
+	FEMS_Max           UMETA(DisplayName = "DefMax"),
 
 };
 
@@ -30,6 +30,8 @@ public:
 	EFEnemyMoveStat EFEnemyMoveStatus;
 
 	FORCEINLINE void SetFEnemyMovStatus(EFEnemyMoveStat Stat) { EFEnemyMoveStatus = Stat;}
+	FORCEINLINE EFEnemyMoveStat GetFEnemyMovStatus() { return EFEnemyMoveStatus; }
+
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "AI")
 	class USphereComponent* FollowSphere;
@@ -55,6 +57,20 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
 	float Damage;
 
+	FTimerHandle DyingTempo;
+	
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Fight")
+	bool IsFighting;
+
+	FTimerHandle FightTempo;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+	float Delay;
+
+	void EnemeyGhost();
+
+	AJFollowEnemy* Mutant;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
 	class UParticleSystem* TakeHitPS;
 
@@ -73,12 +89,7 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Fight")
 	class UAnimMontage* FightMontage;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Fight")
-	bool IsFighting;
-
-	FTimerHandle FightTempo;
-
-	AJFollowEnemy* Mutant;
+	
 
 protected:
 	// Called when the game starts or when spawned
@@ -122,12 +133,19 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void CollisionInactive();
 
+	bool IsLiving();
+
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent,
 		class AController* EventInstigator, AActor* DamageCauser) override;
 
 	void Death();
 
 	void Fight();
+
+	//At the end of enemy's death animation
+	UFUNCTION(BlueprintCallable)
+    void EnemyFinished();
+
 
 	UFUNCTION(BlueprintCallable)
 	void FightFinished();
