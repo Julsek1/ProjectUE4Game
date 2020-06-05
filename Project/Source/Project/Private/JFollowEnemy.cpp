@@ -8,6 +8,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Engine/SkeletalMeshSocket.h"
+#include "TimerManager.h"
 #include "Components/SphereComponent.h"
 #include "Animation/AnimInstance.h"
 #include "Sound/SoundCue.h"
@@ -41,6 +42,9 @@ AJFollowEnemy::AJFollowEnemy()
 	Hp = 80.f;
 	MaxHp = 100.f;
 	Damage = 15.f;
+
+
+
 }
 
 // Called when the game starts or when spawned
@@ -71,7 +75,7 @@ void AJFollowEnemy::BeginPlay()
 	BoxCollFight->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
 	BoxCollFight->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
 
-	
+	//SetFEnemyMovStatus(EFEnemyMoveStat::FEMS_Idle);
 
 }
 
@@ -152,6 +156,7 @@ void AJFollowEnemy::AttackSphereOnOverlapEnd(UPrimitiveComponent* OverlappedComp
 					MoveToPlayer(Player);
 					AttackTarget = nullptr;
 				}
+				GetWorldTimerManager().ClearTimer(FightTempo);
 			}
 		}
 	}
@@ -253,6 +258,8 @@ void AJFollowEnemy::FightFinished()
 	IsFighting = false;
 	if (IsOverlapAttackSphere)
 	{
-		Fight();
+		float FightLapsus = FMath::RandRange(0.5f, 2.5f);
+		GetWorldTimerManager().SetTimer(FightTempo, this, &AJFollowEnemy::Fight, FightLapsus);
+		
 	}
 }

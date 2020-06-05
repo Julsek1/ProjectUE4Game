@@ -72,6 +72,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Fight")
 	bool IsFighting;
 
+	FTimerHandle FightTempo;
+
+
 	AJFollowEnemy* Mutant;
 
 protected:
