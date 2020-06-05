@@ -11,6 +11,7 @@
 #include "../ParentPlayer.h"
 #include "JBasePlayer.generated.h"
 
+
 /**
  * 
  */
@@ -64,6 +65,9 @@ class USoundCue* DamageSound;
  float AnnexPace;
 
  bool IsAnnexed;
+
+ // Check if player is Dead or alive
+ bool IsDead;
 
  void SetAnnexEnemy(bool Annex);
 
@@ -180,6 +184,12 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void KnifeSwingPlaySound();
+
+	UFUNCTION(BlueprintCallable)
+	void PlayerTerminated();
+
+	//Jump
+	virtual void Jump() override;
 	
 	
 };

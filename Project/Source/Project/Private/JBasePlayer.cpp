@@ -57,6 +57,9 @@ AJBasePlayer::AJBasePlayer()
 	GetCharacterMovement()->JumpZVelocity = 650.f;
 	GetCharacterMovement()->AirControl = 0.2f;
 
+	IsDead = false;
+	
+
 	Hp = 70.f;
 	MaxHp = 100.f;
 	Collectibles = 0;
@@ -119,8 +122,8 @@ void AJBasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	check(PlayerInputComponent);
 
-	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
-	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AJBasePlayer::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Released, this, &AJBasePlayer::StopJumping);
 
 	PlayerInputComponent->BindAction("EquipItem", IE_Pressed, this, &AJBasePlayer::IDown);
 	PlayerInputComponent->BindAction("EquipItem", IE_Released, this, &AJBasePlayer::IUp);
@@ -145,7 +148,7 @@ void AJBasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 void AJBasePlayer::MoveForward(float Value)
 {
-	if ((Controller != nullptr) && (Value != 0.0f) && (!IsFighting))
+	if ((Controller != nullptr) && (Value != 0.0f) && (!IsFighting) && (!IsDead))
 	{
 		//find forward direction
 		const FRotator Rotation = Controller->GetControlRotation();
@@ -158,7 +161,7 @@ void AJBasePlayer::MoveForward(float Value)
 
 void AJBasePlayer::MoveRight(float Value)
 {
-	if ((Controller != nullptr) && (Value != 0.0f) && (!IsFighting))
+	if ((Controller != nullptr) && (Value != 0.0f) && (!IsFighting) && (!IsDead))
 	{
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
@@ -205,14 +208,12 @@ void AJBasePlayer::IUp()
 void AJBasePlayer::LeftMouseD()
 {
 	IsLeftMouseDown = true;
+	
+	//////here
+
 	if (GunEquipped) {
-
-
 		Fight();
-		
 	}
-	
-	
 }
 
 void AJBasePlayer::LeftMouseUp()
@@ -247,6 +248,7 @@ void AJBasePlayer::Death()
 		AnimationInst->Montage_Play(FightMontage, 1.2f);
 		AnimationInst->Montage_JumpToSection(FName("Death"));
 	}
+	IsDead = true;
 }
 
 void AJBasePlayer::DamageHp(float Damage)
@@ -328,7 +330,7 @@ void AJBasePlayer::LoadGame(bool Setpos)
 
 void AJBasePlayer::Fight()
 {
-	if (!IsFighting)
+	if (!IsFighting && !IsDead)
 	{
 		IsFighting = true;
 		SetAnnexEnemy(true);
@@ -376,6 +378,20 @@ void AJBasePlayer::KnifeSwingPlaySound()
 	if (GunEquipped->KnifeSwingSound)
 	{
 		UGameplayStatics::PlaySound2D(this, GunEquipped->KnifeSwingSound);
+	}
+}
+
+void AJBasePlayer::PlayerTerminated()
+{
+	GetMesh()->bPauseAnims = true;
+	GetMesh()->bNoSkeletonUpdate = true;
+}
+
+void AJBasePlayer::Jump()
+{
+	if (!IsDead)
+	{
+		Super::Jump();
 	}
 }
 
