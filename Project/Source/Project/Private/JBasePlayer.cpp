@@ -403,6 +403,18 @@ void AJBasePlayer::CollectUp(int32 CollectQty)
 	Collectibles += CollectQty;
 }
 
+void AJBasePlayer::HpUp(float Quantity)
+{
+	if (Hp + Quantity >= MaxHp)
+	{
+		Hp = MaxHp;
+	}
+	else
+	{
+		Hp += Quantity;
+	}
+}
+
 
 //change direction towards enemy when attacking.
 void AJBasePlayer::SetAnnexEnemy(bool Annex)

@@ -11,7 +11,7 @@
 ACollectable::ACollectable()
 {
 
-	CollectCount = 1;
+	/*CollectCount = 1;*/
 
 }
 
@@ -23,7 +23,8 @@ void ACollectable::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AAct
 		AJBasePlayer* Player = Cast<AJBasePlayer>(OtherActor);
 		if (Player)
 		{
-			Player->CollectUp(CollectCount);
+			ObtainCollectable(Player);
+			//Player->CollectUp(CollectCount);
 			if (BasicPSComponent)
 			{
 				UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), PSOverlap, GetActorLocation(), FRotator(0.f), true);

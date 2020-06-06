@@ -56,12 +56,13 @@ class USoundCue* DamageSound;
  UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Stats")
  float MaxHp;
 
- UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Stats")
- float MaxHealth;
+ /*UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Stats")
+ float MaxHealth;*/
 
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stats")
  int32 Collectibles;
 
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stats")
  float AnnexPace;
 
  //check if player has been rotated towards enemy
@@ -140,7 +141,14 @@ public:
 	void Death();
 
 	//Collectibles++
+	UFUNCTION(BlueprintCallable)
 	void CollectUp(int32 CollectQty);
+
+	//Health++
+	UFUNCTION(BlueprintCallable)
+	void HpUp(float Quantity);
+
+
 	
 	//Affect Health
 	void DamageHp(float Damage);
