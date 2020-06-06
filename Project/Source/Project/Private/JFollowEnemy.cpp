@@ -35,6 +35,9 @@ AJFollowEnemy::AJFollowEnemy()
 	BoxCollFight->SetBoxExtent(FVector(6.f, 6.f, 6.f));
 	//BoxCollFight->SetBoundsScale(0.16f);
 	
+	// Socket fix
+	BoxCollFight->SetupAttachment(GetMesh(), FName("RFArmSocket"));
+	
 	EFEnemyMoveStatus = EFEnemyMoveStat::FEMS_Idle;
 
 	IsOverlapAttackSphere = false;
@@ -70,9 +73,9 @@ void AJFollowEnemy::BeginPlay()
 
 	//Arm socket fix
 
-	//BoxCollFight->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale, FName("RFArmSocket"));
+	
 
-	BoxCollFight->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale, FName("RFArmSocket"));
+	
 
 	BoxCollFight->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	BoxCollFight->SetCollisionObjectType(ECollisionChannel::ECC_WorldDynamic);
