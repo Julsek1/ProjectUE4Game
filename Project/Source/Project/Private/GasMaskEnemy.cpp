@@ -20,34 +20,43 @@ AGasMaskEnemy::AGasMaskEnemy()
 void AGasMaskEnemy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-	if (Weapon && bDetectedPlayer)
+	if (bIsStunned)
 	{
-		if (Weapon->CurrentClipAmmo > 0)
-		{
-			Fire();
+		GetCharacterMovement()->MaxWalkSpeed = 0.f;
+	}
 
-			if (Weapon->bCanShoot)
+	else
+	{
+		if (Weapon && bDetectedPlayer)
+		{
+			if (Weapon->CurrentClipAmmo > 0)
 			{
-				GetCharacterMovement()->MaxWalkSpeed = DesiredMovementSpeed;
+				Fire();
+
+				if (Weapon->bCanShoot)
+				{
+					GetCharacterMovement()->MaxWalkSpeed = DesiredMovementSpeed;
+				}
+
+				else
+				{
+					GetCharacterMovement()->MaxWalkSpeed = DesiredMovementSpeed / 2;
+				}
 			}
 
 			else
 			{
-				GetCharacterMovement()->MaxWalkSpeed = DesiredMovementSpeed/2;
+				Reload();
 			}
 		}
 
 		else
 		{
-			Reload();
+			GetCharacterMovement()->MaxWalkSpeed = DesiredMovementSpeed;
 		}
+
 	}
 
-	else
-	{
-		GetCharacterMovement()->MaxWalkSpeed = DesiredMovementSpeed;
-	}
 }
 
 void AGasMaskEnemy::Fire()
@@ -72,5 +81,13 @@ void AGasMaskEnemy::Reload()
 
 		Weapon->Reload();
 	}
+}
 
+void AGasMaskEnemy::GetStunned()
+{
+	Super::GetStunned();
+	/*if (Weapon && Weapon->bCurrentlyReloading)
+	{
+		Weapon->InterruptReload();
+	}*/
 }

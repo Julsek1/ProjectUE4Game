@@ -138,3 +138,11 @@ void AParentWeapon::ReplenishClip()
 
 	bCurrentlyReloading = false;
 }
+
+void AParentWeapon::InterruptReload()
+{
+	if (bCurrentlyReloading)
+	{
+		GetWorldTimerManager().ClearTimer(ReloadTimerHandle);
+	}
+}

@@ -34,4 +34,5 @@ public:
 		UAnimMontage* ReloadAnimation = nullptr;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float DesiredMovementSpeed = 500.f;
+	virtual void GetStunned() override;
 };

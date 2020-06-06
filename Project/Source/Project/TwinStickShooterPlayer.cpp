@@ -307,6 +307,7 @@ void ATwinStickShooterPlayer::MeleeAttack()
 			if (Cast<AParentEnemy>(Enemy))
 			{
 				Cast<AParentEnemy>(Enemy)->Health -= MeleeDamage;
+				Cast<AParentEnemy>(Enemy)->GetStunned();
 			}
 		}
 	}

@@ -5,6 +5,8 @@
 #include "Components/WidgetComponent.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "TimerManager.h"
+
 #include "ParentEnemy.generated.h"
 
 
@@ -21,7 +23,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -36,4 +38,13 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		FString EnemyName;
+
+	//Stun
+	UFUNCTION(BlueprintCallable)
+		virtual void GetStunned();
+	void PurgeStun();
+	float StunDuration = 0.35f;
+	FTimerHandle StunTimerHandle;
+	UPROPERTY(BlueprintReadOnly)
+		bool bIsStunned = false;
 };

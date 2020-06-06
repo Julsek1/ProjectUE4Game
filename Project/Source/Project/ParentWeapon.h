@@ -68,6 +68,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UAnimationAsset* ReloadingAnimation = nullptr;
 
+	void InterruptReload();
+
 private:
 	UPROPERTY(EditAnywhere)
 		UArrowComponent* ArrowComponent = nullptr;

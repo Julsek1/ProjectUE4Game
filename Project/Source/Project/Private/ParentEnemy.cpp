@@ -48,3 +48,14 @@ void AParentEnemy::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 }
 
+void AParentEnemy::GetStunned()
+{
+	bIsStunned = true;
+	GetWorldTimerManager().SetTimer(StunTimerHandle, this, &AParentEnemy::PurgeStun, StunDuration, false);
+}
+
+void AParentEnemy::PurgeStun()
+{
+	bIsStunned = false;
+	GetWorldTimerManager().ClearTimer(StunTimerHandle);
+}
