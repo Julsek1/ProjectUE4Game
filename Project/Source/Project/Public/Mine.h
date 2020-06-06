@@ -18,6 +18,9 @@ public:
 
 	AMine();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+	TSubclassOf<UDamageType> DamageTypeClass;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hazard")
 	float Damage;
 	

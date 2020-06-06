@@ -4,6 +4,7 @@
 #include "Mine.h"
 #include "Engine/World.h"
 #include "Sound/SoundCue.h"
+#include "JFollowEnemy.h"
 #include "Kismet/GameplayStatics.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "JBasePlayer.h"
@@ -21,7 +22,9 @@ void AMine::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 	if (OtherActor)
 	{
 		AJBasePlayer* Player = Cast<AJBasePlayer>(OtherActor);
-		if (Player)
+		AJFollowEnemy* Mutant = Cast<AJFollowEnemy>(OtherActor);
+
+		if (Player || Mutant)
 		{
 			if (BasicPSComponent)
 			{
@@ -32,7 +35,8 @@ void AMine::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 			{
 				UGameplayStatics::PlaySound2D(this, SoundFX);
 			}
-			Player->DamageHp(Damage);
+			
+			UGameplayStatics::ApplyDamage(OtherActor, Damage, nullptr, this, DamageTypeClass);
 			Destroy();
 		}
 	}

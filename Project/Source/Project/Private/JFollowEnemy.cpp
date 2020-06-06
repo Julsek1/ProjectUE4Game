@@ -143,7 +143,8 @@ void AJFollowEnemy::AttackSphereOnOverlapBegin(UPrimitiveComponent* OverlappedCo
 				Player->SetFightGoal(this);
 				AttackTarget = Player;
 				IsOverlapAttackSphere = true;
-				Fight();
+				float FightLapsus = FMath::RandRange(0.2f, 1.5f);
+				GetWorldTimerManager().SetTimer(FightTempo, this, &AJFollowEnemy::Fight, FightLapsus);
 			}
 		}
 	}
@@ -163,7 +164,7 @@ void AJFollowEnemy::AttackSphereOnOverlapEnd(UPrimitiveComponent* OverlappedComp
 					Player->SetFightGoal(nullptr);
 				}
 				IsOverlapAttackSphere = false;
-				if (EFEnemyMoveStatus != EFEnemyMoveStat::FEMS_Attack)
+				if (EFEnemyMoveStatus == EFEnemyMoveStat::FEMS_Attack)
 				{
 					MoveToPlayer(Player);
 					AttackTarget = nullptr;
