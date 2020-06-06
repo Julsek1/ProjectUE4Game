@@ -29,12 +29,12 @@ void AGasMaskEnemy::Tick(float DeltaTime)
 
 			if (Weapon->bCanShoot)
 			{
-				GetCharacterMovement()->MaxWalkSpeed = 500.f;
+				GetCharacterMovement()->MaxWalkSpeed = DesiredMovementSpeed;
 			}
 
 			else
 			{
-				GetCharacterMovement()->MaxWalkSpeed = 250.f;
+				GetCharacterMovement()->MaxWalkSpeed = DesiredMovementSpeed/2;
 			}
 		}
 
@@ -46,7 +46,7 @@ void AGasMaskEnemy::Tick(float DeltaTime)
 
 	else
 	{
-		GetCharacterMovement()->MaxWalkSpeed = 500.f;
+		GetCharacterMovement()->MaxWalkSpeed = DesiredMovementSpeed;
 	}
 }
 
