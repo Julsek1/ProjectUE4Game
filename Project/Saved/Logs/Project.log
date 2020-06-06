@@ -838,3 +838,635 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.06.06-00.22.34:448][379]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant2/BP_Mutant2.BP_Mutant2
 [2020.06.06-00.22.44:487][727]LogSlate: Window 'BP_Mutant2' being destroyed
 [2020.06.06-00.22.46:784][812]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2020.06.06-00.31.56:658][ 73]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.06.06-00.31.56:685][ 73]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2020.06.06-00.32.19:134][ 73]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2020.06.06-00.33.13:084][ 73]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2020.06.06-00.33.41:602][683]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.BP_Mutant2_Anim
+[2020.06.06-00.33.41:640][683]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2020.06.06-00.33.41:961][683]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.06-00.33.41:978][683]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2020.06.06-00.33.42:371][683]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.06-00.33.43:341][683]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.06.06-00.37.24:707][430]BlueprintLog: New page: Compile BP_Mutant2_Anim
+[2020.06.06-00.37.25:123][430]LogUObjectHash: Compacting FUObjectHashTables data took   5.21ms
+[2020.06.06-00.37.25:221][430]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Mutant2_Anim22D2146E4E1D924A6BF3B4B5266916B1.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.uasset'
+[2020.06.06-00.37.25:252][430]AssetCheck: New page: Asset Save: BP_Mutant2_Anim
+[2020.06.06-00.37.25:252][430]LogContentValidation: Display: Validating AnimBlueprint /Game/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.BP_Mutant2_Anim
+[2020.06.06-00.37.25:937][460]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Mutant2_AnimF42A306244F53EDF8215C790FBA7A95F.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.uasset'
+[2020.06.06-00.37.25:956][460]AssetCheck: New page: Asset Save: BP_Mutant2_Anim
+[2020.06.06-00.37.25:956][460]LogContentValidation: Display: Validating AnimBlueprint /Game/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.BP_Mutant2_Anim
+[2020.06.06-00.37.59:284][202]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/Julian/Enemies/Mutant/MutantIdleWalk_BlendSpace.MutantIdleWalk_BlendSpace
+[2020.06.06-00.37.59:301][202]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.06-00.37.59:358][202]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.06-00.38.00:310][202]LogRenderer: Reallocating scene render targets to support 752x392 Format 10 NumSamples 1 (Frame:1).
+[2020.06.06-00.38.00:310][202]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.06.06-00.39.18:648][371]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Mutant2IdleWalk_BlendSpace55575EEC4DDF127582E439A2F25F1943.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/Mutant2IdleWalk_BlendSpace.uasset'
+[2020.06.06-00.39.19:020][371]LogUObjectHash: Compacting FUObjectHashTables data took   6.72ms
+[2020.06.06-00.39.19:102][371]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2020.06.06-00.39.19:144][371]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.06.06-00.39.19:337][371]AssetCheck: New page: Asset Save: Mutant2IdleWalk_BlendSpace
+[2020.06.06-00.39.19:337][371]LogContentValidation: Display: Validating BlendSpace1D /Game/Julian/Enemies/Mutant2/Animations/Mutant2IdleWalk_BlendSpace.Mutant2IdleWalk_BlendSpace
+[2020.06.06-00.39.23:449][455]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/Julian/Enemies/Mutant2/Animations/Mutant2IdleWalk_BlendSpace.Mutant2IdleWalk_BlendSpace
+[2020.06.06-00.39.45:496][700]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.06.06-00.39.45:496][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.06-00.39.45:595][700]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.06.06-00.39.45:596][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.06-00.39.45:783][700]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.06.06-00.39.45:783][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.06-00.39.52:262][  7]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/Julian/Enemies/Mutant2/Animations/Mutant2IdleWalk_BlendSpace.Mutant2IdleWalk_BlendSpace
+[2020.06.06-00.39.52:268][  7]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.06-00.39.52:322][  7]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.06-00.39.52:905][  7]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.06.06-00.47.08:378][336]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.06.06-00.48.42:761][120]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.06.06-00.48.42:762][120]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.06-00.48.43:037][120]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.06.06-00.48.43:038][120]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.06-00.48.43:452][120]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.06.06-00.48.43:452][120]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.06-00.48.47:898][239]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/Julian/Enemies/Mutant2/Animations/Mutant2IdleWalk_BlendSpace.Mutant2IdleWalk_BlendSpace
+[2020.06.06-00.48.47:921][239]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.06-00.48.48:065][239]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.06-00.48.49:700][239]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.06.06-00.53.04:037][170]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.06.06-00.53.38:113][702]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\julia\Desktop\Mutant2\Mutant2 Idle.fbx)
+[2020.06.06-00.53.38:175][702]LogFbx: Loading FBX Scene from C:\Users\julia\Desktop\Mutant2\Mutant2 Idle.fbx
+[2020.06.06-00.53.38:211][702]LogFbx: FBX Scene Loaded Succesfully
+[2020.06.06-00.53.44:932][702]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.06.06-00.53.45:071][702]LogFbx: SortedLinks :(0) Hips
+[2020.06.06-00.53.45:071][702]LogFbx: SortedLinks :(1) Spine
+[2020.06.06-00.53.45:071][702]LogFbx: SortedLinks :(2) Spine1
+[2020.06.06-00.53.45:071][702]LogFbx: SortedLinks :(3) Spine2
+[2020.06.06-00.53.45:071][702]LogFbx: SortedLinks :(4) Neck
+[2020.06.06-00.53.45:071][702]LogFbx: SortedLinks :(5) Head
+[2020.06.06-00.53.45:071][702]LogFbx: SortedLinks :(6) HeadTop_End
+[2020.06.06-00.53.45:071][702]LogFbx: SortedLinks :(7) LeftShoulder
+[2020.06.06-00.53.45:071][702]LogFbx: SortedLinks :(8) LeftArm
+[2020.06.06-00.53.45:071][702]LogFbx: SortedLinks :(9) LeftForeArm
+[2020.06.06-00.53.45:071][702]LogFbx: SortedLinks :(10) LeftHand
+[2020.06.06-00.53.45:071][702]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2020.06.06-00.53.45:071][702]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2020.06.06-00.53.45:071][702]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2020.06.06-00.53.45:071][702]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2020.06.06-00.53.45:072][702]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2020.06.06-00.53.45:072][702]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2020.06.06-00.53.45:072][702]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2020.06.06-00.53.45:072][702]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2020.06.06-00.53.45:072][702]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2020.06.06-00.53.45:072][702]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2020.06.06-00.53.45:072][702]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2020.06.06-00.53.45:072][702]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2020.06.06-00.53.45:072][702]LogFbx: SortedLinks :(23) LeftHandRing1
+[2020.06.06-00.53.45:072][702]LogFbx: SortedLinks :(24) LeftHandRing2
+[2020.06.06-00.53.45:072][702]LogFbx: SortedLinks :(25) LeftHandRing3
+[2020.06.06-00.53.45:072][702]LogFbx: SortedLinks :(26) LeftHandRing4
+[2020.06.06-00.53.45:072][702]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2020.06.06-00.53.45:072][702]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2020.06.06-00.53.45:072][702]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2020.06.06-00.53.45:073][702]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2020.06.06-00.53.45:073][702]LogFbx: SortedLinks :(31) RightShoulder
+[2020.06.06-00.53.45:073][702]LogFbx: SortedLinks :(32) RightArm
+[2020.06.06-00.53.45:073][702]LogFbx: SortedLinks :(33) RightForeArm
+[2020.06.06-00.53.45:073][702]LogFbx: SortedLinks :(34) RightHand
+[2020.06.06-00.53.45:073][702]LogFbx: SortedLinks :(35) RightHandThumb1
+[2020.06.06-00.53.45:073][702]LogFbx: SortedLinks :(36) RightHandThumb2
+[2020.06.06-00.53.45:073][702]LogFbx: SortedLinks :(37) RightHandThumb3
+[2020.06.06-00.53.45:073][702]LogFbx: SortedLinks :(38) RightHandThumb4
+[2020.06.06-00.53.45:073][702]LogFbx: SortedLinks :(39) RightHandIndex1
+[2020.06.06-00.53.45:073][702]LogFbx: SortedLinks :(40) RightHandIndex2
+[2020.06.06-00.53.45:073][702]LogFbx: SortedLinks :(41) RightHandIndex3
+[2020.06.06-00.53.45:073][702]LogFbx: SortedLinks :(42) RightHandIndex4
+[2020.06.06-00.53.45:073][702]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2020.06.06-00.53.45:074][702]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2020.06.06-00.53.45:074][702]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2020.06.06-00.53.45:074][702]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2020.06.06-00.53.45:074][702]LogFbx: SortedLinks :(47) RightHandRing1
+[2020.06.06-00.53.45:074][702]LogFbx: SortedLinks :(48) RightHandRing2
+[2020.06.06-00.53.45:074][702]LogFbx: SortedLinks :(49) RightHandRing3
+[2020.06.06-00.53.45:074][702]LogFbx: SortedLinks :(50) RightHandRing4
+[2020.06.06-00.53.45:074][702]LogFbx: SortedLinks :(51) RightHandPinky1
+[2020.06.06-00.53.45:074][702]LogFbx: SortedLinks :(52) RightHandPinky2
+[2020.06.06-00.53.45:074][702]LogFbx: SortedLinks :(53) RightHandPinky3
+[2020.06.06-00.53.45:074][702]LogFbx: SortedLinks :(54) RightHandPinky4
+[2020.06.06-00.53.45:074][702]LogFbx: SortedLinks :(55) LeftUpLeg
+[2020.06.06-00.53.45:074][702]LogFbx: SortedLinks :(56) LeftLeg
+[2020.06.06-00.53.45:074][702]LogFbx: SortedLinks :(57) LeftFoot
+[2020.06.06-00.53.45:074][702]LogFbx: SortedLinks :(58) LeftToeBase
+[2020.06.06-00.53.45:074][702]LogFbx: SortedLinks :(59) LeftToe_End
+[2020.06.06-00.53.45:074][702]LogFbx: SortedLinks :(60) RightUpLeg
+[2020.06.06-00.53.45:074][702]LogFbx: SortedLinks :(61) RightLeg
+[2020.06.06-00.53.45:074][702]LogFbx: SortedLinks :(62) RightFoot
+[2020.06.06-00.53.45:074][702]LogFbx: SortedLinks :(63) RightToeBase
+[2020.06.06-00.53.45:074][702]LogFbx: SortedLinks :(64) RightToe_End
+[2020.06.06-00.53.45:076][702]LogFbx: Parsing AnimStack mixamo.com
+[2020.06.06-00.53.45:089][702]LogLinker: Failed to load '/Game/Julian/Enemies/Mutant2/Animations/Mutant2_Idle': Can't find file.
+[2020.06.06-00.53.45:089][702]LogLinker: Failed to load '/Game/Julian/Enemies/Mutant2/Animations/Mutant2_Idle': Can't find file.
+[2020.06.06-00.53.45:820][702]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Julian/Enemies/Mutant2/Animations/Mutant2_Idle.Mutant2_Idle
+[2020.06.06-00.53.45:821][702]LogAnimationCompression: Recompressing (AnimSequence /Game/Julian/Enemies/Mutant2/Animations/Mutant2_Idle.Mutant2_Idle) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.06.06-00.53.45:872][702]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\julia\Desktop\Mutant2\Mutant2 Run.fbx)
+[2020.06.06-00.53.45:917][702]LogFbx: Loading FBX Scene from C:\Users\julia\Desktop\Mutant2\Mutant2 Run.fbx
+[2020.06.06-00.53.45:944][702]LogFbx: FBX Scene Loaded Succesfully
+[2020.06.06-00.53.45:948][702]LogFbx: SortedLinks :(0) Hips
+[2020.06.06-00.53.45:948][702]LogFbx: SortedLinks :(1) Spine
+[2020.06.06-00.53.45:948][702]LogFbx: SortedLinks :(2) Spine1
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(3) Spine2
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(4) Neck
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(5) Head
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(6) HeadTop_End
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(7) LeftShoulder
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(8) LeftArm
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(9) LeftForeArm
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(10) LeftHand
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(23) LeftHandRing1
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(24) LeftHandRing2
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(25) LeftHandRing3
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(26) LeftHandRing4
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(31) RightShoulder
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(32) RightArm
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(33) RightForeArm
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(34) RightHand
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(35) RightHandThumb1
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(36) RightHandThumb2
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(37) RightHandThumb3
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(38) RightHandThumb4
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(39) RightHandIndex1
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(40) RightHandIndex2
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(41) RightHandIndex3
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(42) RightHandIndex4
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(47) RightHandRing1
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(48) RightHandRing2
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(49) RightHandRing3
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(50) RightHandRing4
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(51) RightHandPinky1
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(52) RightHandPinky2
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(53) RightHandPinky3
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(54) RightHandPinky4
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(55) LeftUpLeg
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(56) LeftLeg
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(57) LeftFoot
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(58) LeftToeBase
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(59) LeftToe_End
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(60) RightUpLeg
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(61) RightLeg
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(62) RightFoot
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(63) RightToeBase
+[2020.06.06-00.53.45:949][702]LogFbx: SortedLinks :(64) RightToe_End
+[2020.06.06-00.53.45:950][702]LogFbx: Parsing AnimStack mixamo.com
+[2020.06.06-00.53.45:950][702]LogLinker: Failed to load '/Game/Julian/Enemies/Mutant2/Animations/Mutant2_Run': Can't find file.
+[2020.06.06-00.53.45:950][702]LogLinker: Failed to load '/Game/Julian/Enemies/Mutant2/Animations/Mutant2_Run': Can't find file.
+[2020.06.06-00.53.46:323][702]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Julian/Enemies/Mutant2/Animations/Mutant2_Run.Mutant2_Run
+[2020.06.06-00.53.46:323][702]LogAnimationCompression: Recompressing (AnimSequence /Game/Julian/Enemies/Mutant2/Animations/Mutant2_Run.Mutant2_Run) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.06.06-00.53.46:357][702]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\julia\Desktop\Mutant2\Mutant2 Walking.fbx)
+[2020.06.06-00.53.46:369][702]LogFbx: Loading FBX Scene from C:\Users\julia\Desktop\Mutant2\Mutant2 Walking.fbx
+[2020.06.06-00.53.46:395][702]LogFbx: FBX Scene Loaded Succesfully
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(0) Hips
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(1) Spine
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(2) Spine1
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(3) Spine2
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(4) Neck
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(5) Head
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(6) HeadTop_End
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(7) LeftShoulder
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(8) LeftArm
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(9) LeftForeArm
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(10) LeftHand
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(23) LeftHandRing1
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(24) LeftHandRing2
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(25) LeftHandRing3
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(26) LeftHandRing4
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(31) RightShoulder
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(32) RightArm
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(33) RightForeArm
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(34) RightHand
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(35) RightHandThumb1
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(36) RightHandThumb2
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(37) RightHandThumb3
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(38) RightHandThumb4
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(39) RightHandIndex1
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(40) RightHandIndex2
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(41) RightHandIndex3
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(42) RightHandIndex4
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(47) RightHandRing1
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(48) RightHandRing2
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(49) RightHandRing3
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(50) RightHandRing4
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(51) RightHandPinky1
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(52) RightHandPinky2
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(53) RightHandPinky3
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(54) RightHandPinky4
+[2020.06.06-00.53.46:400][702]LogFbx: SortedLinks :(55) LeftUpLeg
+[2020.06.06-00.53.46:401][702]LogFbx: SortedLinks :(56) LeftLeg
+[2020.06.06-00.53.46:401][702]LogFbx: SortedLinks :(57) LeftFoot
+[2020.06.06-00.53.46:401][702]LogFbx: SortedLinks :(58) LeftToeBase
+[2020.06.06-00.53.46:401][702]LogFbx: SortedLinks :(59) LeftToe_End
+[2020.06.06-00.53.46:401][702]LogFbx: SortedLinks :(60) RightUpLeg
+[2020.06.06-00.53.46:401][702]LogFbx: SortedLinks :(61) RightLeg
+[2020.06.06-00.53.46:401][702]LogFbx: SortedLinks :(62) RightFoot
+[2020.06.06-00.53.46:401][702]LogFbx: SortedLinks :(63) RightToeBase
+[2020.06.06-00.53.46:401][702]LogFbx: SortedLinks :(64) RightToe_End
+[2020.06.06-00.53.46:401][702]LogFbx: Parsing AnimStack mixamo.com
+[2020.06.06-00.53.46:401][702]LogLinker: Failed to load '/Game/Julian/Enemies/Mutant2/Animations/Mutant2_Walking': Can't find file.
+[2020.06.06-00.53.46:402][702]LogLinker: Failed to load '/Game/Julian/Enemies/Mutant2/Animations/Mutant2_Walking': Can't find file.
+[2020.06.06-00.53.46:688][702]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Julian/Enemies/Mutant2/Animations/Mutant2_Walking.Mutant2_Walking
+[2020.06.06-00.53.46:688][702]LogAnimationCompression: Recompressing (AnimSequence /Game/Julian/Enemies/Mutant2/Animations/Mutant2_Walking.Mutant2_Walking) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.06.06-00.54.47:444][493]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Mutant2IdleWalk_BlendSpaceA1FF38B04E947F353B67A1BA15907E6A.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/Mutant2IdleWalk_BlendSpace.uasset'
+[2020.06.06-00.54.47:469][493]AssetCheck: New page: Asset Save: Mutant2IdleWalk_BlendSpace
+[2020.06.06-00.54.47:469][493]LogContentValidation: Display: Validating BlendSpace1D /Game/Julian/Enemies/Mutant2/Animations/Mutant2IdleWalk_BlendSpace.Mutant2IdleWalk_BlendSpace
+[2020.06.06-00.54.51:050][608]LogSlate: Window 'Mutant2IdleWalk_BlendSpace' being destroyed
+[2020.06.06-00.54.52:564][666]LogSlate: Window 'Mutant2IdleWalk_BlendSpace' being destroyed
+[2020.06.06-00.54.52:602][666]LogSlate: Window 'Mutant2IdleWalk_BlendSpace' being destroyed
+[2020.06.06-00.54.52:602][666]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.06.06-00.54.52:602][666]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.06-00.54.52:849][666]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.06.06-00.54.52:849][666]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.06-00.55.13:046][731]BlueprintLog: New page: Compile BP_Mutant2_Anim
+[2020.06.06-00.55.13:588][731]LogUObjectHash: Compacting FUObjectHashTables data took   6.01ms
+[2020.06.06-00.55.13:764][731]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Mutant2_Anim851AF95D424012CC8A0E68B6F502FE71.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.uasset'
+[2020.06.06-00.55.13:784][731]AssetCheck: New page: Asset Save: BP_Mutant2_Anim
+[2020.06.06-00.55.13:784][731]LogContentValidation: Display: Validating AnimBlueprint /Game/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.BP_Mutant2_Anim
+[2020.06.06-00.55.14:445][759]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Mutant2_Anim0A2D100C40BA86E60B4C5CAE05618132.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.uasset'
+[2020.06.06-00.55.14:461][759]AssetCheck: New page: Asset Save: BP_Mutant2_Anim
+[2020.06.06-00.55.14:461][759]LogContentValidation: Display: Validating AnimBlueprint /Game/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.BP_Mutant2_Anim
+[2020.06.06-00.55.40:280][284]LogUObjectHash: Compacting FUObjectHashTables data took   8.84ms
+[2020.06.06-00.55.40:281][284]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Julian/JLevels/TestMap' took 0.065
+[2020.06.06-00.55.40:283][284]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Julian/Enemies/Mutant2/Animations/Mutant2_Idle] ([1] browsable assets)...
+[2020.06.06-00.55.40:315][284]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Julian/Enemies/Mutant2/Animations/Mutant2_Idle.Mutant2_Idle]
+[2020.06.06-00.55.40:316][284]OBJ SavePackage: Finished generating thumbnails for package [/Game/Julian/Enemies/Mutant2/Animations/Mutant2_Idle]
+[2020.06.06-00.55.40:356][284]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Mutant2_Idle_Auto12073FCAF4006D6FAAA0D159168D0C798.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/Enemies/Mutant2/Animations/Mutant2_Idle_Auto1.uasset'
+[2020.06.06-00.55.40:358][284]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Julian/Enemies/Mutant2/Animations/Mutant2_Run] ([1] browsable assets)...
+[2020.06.06-00.55.40:387][284]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Julian/Enemies/Mutant2/Animations/Mutant2_Run.Mutant2_Run]
+[2020.06.06-00.55.40:387][284]OBJ SavePackage: Finished generating thumbnails for package [/Game/Julian/Enemies/Mutant2/Animations/Mutant2_Run]
+[2020.06.06-00.55.40:412][284]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Mutant2_Run_Auto176FB63FA4D62163F83151ABAB7612F9C.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/Enemies/Mutant2/Animations/Mutant2_Run_Auto1.uasset'
+[2020.06.06-00.55.40:414][284]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Julian/Enemies/Mutant2/Animations/Mutant2_Walking] ([1] browsable assets)...
+[2020.06.06-00.55.40:448][284]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Julian/Enemies/Mutant2/Animations/Mutant2_Walking.Mutant2_Walking]
+[2020.06.06-00.55.40:448][284]OBJ SavePackage: Finished generating thumbnails for package [/Game/Julian/Enemies/Mutant2/Animations/Mutant2_Walking]
+[2020.06.06-00.55.40:475][284]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Mutant2_Walking_Auto18449674547F0CBD6C3A8C39FE7C25999.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/Enemies/Mutant2/Animations/Mutant2_Walking_Auto1.uasset'
+[2020.06.06-00.55.40:476][284]LogFileHelpers: Auto-saving content packages took 0.194
+[2020.06.06-00.57.22:395][840]BlueprintLog: New page: Compile BP_Mutant2_Anim
+[2020.06.06-00.57.22:803][840]LogUObjectHash: Compacting FUObjectHashTables data took   4.73ms
+[2020.06.06-00.57.22:964][840]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Mutant2_AnimC3ABD6094C2491351ABA40857D9BBC37.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.uasset'
+[2020.06.06-00.57.22:981][840]AssetCheck: New page: Asset Save: BP_Mutant2_Anim
+[2020.06.06-00.57.22:981][840]LogContentValidation: Display: Validating AnimBlueprint /Game/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.BP_Mutant2_Anim
+[2020.06.06-00.57.23:703][873]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Mutant2_Anim39004E82425ECD161664C2BEEAC6AB38.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.uasset'
+[2020.06.06-00.57.23:720][873]AssetCheck: New page: Asset Save: BP_Mutant2_Anim
+[2020.06.06-00.57.23:720][873]LogContentValidation: Display: Validating AnimBlueprint /Game/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.BP_Mutant2_Anim
+[2020.06.06-01.00.34:993][970]LogSlate: Window 'Pick Skeleton' being destroyed
+[2020.06.06-01.00.52:268][270]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Julian/Enemies/Mutant2/Animations/Mutant2_AnimMontage.Mutant2_AnimMontage
+[2020.06.06-01.00.52:274][270]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.06-01.00.52:322][270]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.06-01.00.52:944][270]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.06.06-01.05.40:945][351]LogUObjectHash: Compacting FUObjectHashTables data took  17.75ms
+[2020.06.06-01.05.40:949][351]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Julian/JLevels/TestMap' took 0.130
+[2020.06.06-01.05.40:950][351]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Julian/Enemies/Mutant2/Animations/Mutant2_AnimMontage] ([1] browsable assets)...
+[2020.06.06-01.05.41:067][351]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Julian/Enemies/Mutant2/Animations/Mutant2_AnimMontage.Mutant2_AnimMontage]
+[2020.06.06-01.05.41:067][351]OBJ SavePackage: Finished generating thumbnails for package [/Game/Julian/Enemies/Mutant2/Animations/Mutant2_AnimMontage]
+[2020.06.06-01.05.41:180][351]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Mutant2_AnimMontage_Auto2AD508AD94104B199156A95A051018477.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/Enemies/Mutant2/Animations/Mutant2_AnimMontage_Auto2.uasset'
+[2020.06.06-01.05.41:188][351]LogFileHelpers: Auto-saving content packages took 0.239
+[2020.06.06-01.06.50:571][360]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\julia\Desktop\Mutant2\Mutant2 Dying.fbx)
+[2020.06.06-01.06.50:588][360]LogFbx: Loading FBX Scene from C:\Users\julia\Desktop\Mutant2\Mutant2 Dying.fbx
+[2020.06.06-01.06.50:617][360]LogFbx: FBX Scene Loaded Succesfully
+[2020.06.06-01.06.58:302][360]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.06.06-01.06.58:385][360]LogFbx: SortedLinks :(0) Hips
+[2020.06.06-01.06.58:385][360]LogFbx: SortedLinks :(1) Spine
+[2020.06.06-01.06.58:385][360]LogFbx: SortedLinks :(2) Spine1
+[2020.06.06-01.06.58:385][360]LogFbx: SortedLinks :(3) Spine2
+[2020.06.06-01.06.58:385][360]LogFbx: SortedLinks :(4) Neck
+[2020.06.06-01.06.58:385][360]LogFbx: SortedLinks :(5) Head
+[2020.06.06-01.06.58:385][360]LogFbx: SortedLinks :(6) HeadTop_End
+[2020.06.06-01.06.58:385][360]LogFbx: SortedLinks :(7) LeftShoulder
+[2020.06.06-01.06.58:385][360]LogFbx: SortedLinks :(8) LeftArm
+[2020.06.06-01.06.58:385][360]LogFbx: SortedLinks :(9) LeftForeArm
+[2020.06.06-01.06.58:385][360]LogFbx: SortedLinks :(10) LeftHand
+[2020.06.06-01.06.58:385][360]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2020.06.06-01.06.58:385][360]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2020.06.06-01.06.58:385][360]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2020.06.06-01.06.58:385][360]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2020.06.06-01.06.58:385][360]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(23) LeftHandRing1
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(24) LeftHandRing2
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(25) LeftHandRing3
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(26) LeftHandRing4
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(31) RightShoulder
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(32) RightArm
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(33) RightForeArm
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(34) RightHand
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(35) RightHandThumb1
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(36) RightHandThumb2
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(37) RightHandThumb3
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(38) RightHandThumb4
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(39) RightHandIndex1
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(40) RightHandIndex2
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(41) RightHandIndex3
+[2020.06.06-01.06.58:386][360]LogFbx: SortedLinks :(42) RightHandIndex4
+[2020.06.06-01.06.58:387][360]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2020.06.06-01.06.58:387][360]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2020.06.06-01.06.58:387][360]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2020.06.06-01.06.58:387][360]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2020.06.06-01.06.58:387][360]LogFbx: SortedLinks :(47) RightHandRing1
+[2020.06.06-01.06.58:387][360]LogFbx: SortedLinks :(48) RightHandRing2
+[2020.06.06-01.06.58:387][360]LogFbx: SortedLinks :(49) RightHandRing3
+[2020.06.06-01.06.58:387][360]LogFbx: SortedLinks :(50) RightHandRing4
+[2020.06.06-01.06.58:387][360]LogFbx: SortedLinks :(51) RightHandPinky1
+[2020.06.06-01.06.58:387][360]LogFbx: SortedLinks :(52) RightHandPinky2
+[2020.06.06-01.06.58:387][360]LogFbx: SortedLinks :(53) RightHandPinky3
+[2020.06.06-01.06.58:387][360]LogFbx: SortedLinks :(54) RightHandPinky4
+[2020.06.06-01.06.58:387][360]LogFbx: SortedLinks :(55) LeftUpLeg
+[2020.06.06-01.06.58:387][360]LogFbx: SortedLinks :(56) LeftLeg
+[2020.06.06-01.06.58:387][360]LogFbx: SortedLinks :(57) LeftFoot
+[2020.06.06-01.06.58:387][360]LogFbx: SortedLinks :(58) LeftToeBase
+[2020.06.06-01.06.58:387][360]LogFbx: SortedLinks :(59) LeftToe_End
+[2020.06.06-01.06.58:387][360]LogFbx: SortedLinks :(60) RightUpLeg
+[2020.06.06-01.06.58:387][360]LogFbx: SortedLinks :(61) RightLeg
+[2020.06.06-01.06.58:387][360]LogFbx: SortedLinks :(62) RightFoot
+[2020.06.06-01.06.58:387][360]LogFbx: SortedLinks :(63) RightToeBase
+[2020.06.06-01.06.58:387][360]LogFbx: SortedLinks :(64) RightToe_End
+[2020.06.06-01.06.58:389][360]LogFbx: Parsing AnimStack mixamo.com
+[2020.06.06-01.06.58:406][360]LogLinker: Failed to load '/Game/Julian/Enemies/Mutant2/Animations/Mutant2_Dying': Can't find file.
+[2020.06.06-01.06.58:407][360]LogLinker: Failed to load '/Game/Julian/Enemies/Mutant2/Animations/Mutant2_Dying': Can't find file.
+[2020.06.06-01.07.00:545][360]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Julian/Enemies/Mutant2/Animations/Mutant2_Dying.Mutant2_Dying
+[2020.06.06-01.07.00:545][360]LogAnimationCompression: Recompressing (AnimSequence /Game/Julian/Enemies/Mutant2/Animations/Mutant2_Dying.Mutant2_Dying) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.06.06-01.08.28:895][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   6.14ms
+[2020.06.06-01.08.30:246][ 86]LogSlate: Window 'Save Content' being destroyed
+[2020.06.06-01.08.30:343][ 86]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Mutant2_AnimMontage20FE1D7245A34FF2E26019983AB4B672.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/Mutant2_AnimMontage.uasset'
+[2020.06.06-01.08.30:413][ 86]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Mutant2_Dying2FD5E78B461A7697FCA698A46A4AC90B.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/Mutant2_Dying.uasset'
+[2020.06.06-01.08.30:434][ 86]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Mutant2_IdleC01A39DA4A4F43A5FC3E289CB0382C80.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/Mutant2_Idle.uasset'
+[2020.06.06-01.08.30:467][ 86]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Mutant2_RunFF74FBB64D44DEF5EB988A8152721275.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/Mutant2_Run.uasset'
+[2020.06.06-01.08.30:495][ 86]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Mutant2_Walking9525B8FC467BE4189FD206A0F9ED1EBC.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/Mutant2_Walking.uasset'
+[2020.06.06-01.08.30:636][ 86]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.06-01.08.30:636][ 86]LogContentValidation: Display: Validating AnimMontage /Game/Julian/Enemies/Mutant2/Animations/Mutant2_AnimMontage.Mutant2_AnimMontage
+[2020.06.06-01.08.30:636][ 86]LogContentValidation: Display: Validating AnimSequence /Game/Julian/Enemies/Mutant2/Animations/Mutant2_Dying.Mutant2_Dying
+[2020.06.06-01.08.30:637][ 86]LogContentValidation: Display: Validating AnimSequence /Game/Julian/Enemies/Mutant2/Animations/Mutant2_Idle.Mutant2_Idle
+[2020.06.06-01.08.30:637][ 86]LogContentValidation: Display: Validating AnimSequence /Game/Julian/Enemies/Mutant2/Animations/Mutant2_Run.Mutant2_Run
+[2020.06.06-01.08.30:637][ 86]LogContentValidation: Display: Validating AnimSequence /Game/Julian/Enemies/Mutant2/Animations/Mutant2_Walking.Mutant2_Walking
+[2020.06.06-01.13.33:347][273]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Mutant2_AnimMontage2D2736644E71C5B1A87BC29CEE5EBD28.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/Mutant2_AnimMontage.uasset'
+[2020.06.06-01.13.33:370][273]AssetCheck: New page: Asset Save: Mutant2_AnimMontage
+[2020.06.06-01.13.33:370][273]LogContentValidation: Display: Validating AnimMontage /Game/Julian/Enemies/Mutant2/Animations/Mutant2_AnimMontage.Mutant2_AnimMontage
+[2020.06.06-01.13.46:314][962]BlueprintLog: New page: Compile BP_Mutant2_Anim
+[2020.06.06-01.13.46:728][962]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2020.06.06-01.13.46:882][962]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Mutant2_Anim048886704443F1C35F91F09CADBCB711.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.uasset'
+[2020.06.06-01.13.46:899][962]AssetCheck: New page: Asset Save: BP_Mutant2_Anim
+[2020.06.06-01.13.46:899][962]LogContentValidation: Display: Validating AnimBlueprint /Game/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.BP_Mutant2_Anim
+[2020.06.06-01.13.47:708][996]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Mutant2_Anim318BEF944CFB993636967F9BE76A0FD2.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.uasset'
+[2020.06.06-01.13.47:733][996]AssetCheck: New page: Asset Save: BP_Mutant2_Anim
+[2020.06.06-01.13.47:733][996]LogContentValidation: Display: Validating AnimBlueprint /Game/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.BP_Mutant2_Anim
+[2020.06.06-01.15.08:048][852]LogAnimMontage: Warning: JumpToSectionName None bEndOfSection: 0 failed for Montage Mutant2_AnimMontage
+[2020.06.06-01.15.33:058][272]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Mutant2_AnimMontage62F4321346D132B9E9DDA0A3AFB796E0.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/Mutant2_AnimMontage.uasset'
+[2020.06.06-01.15.33:086][272]AssetCheck: New page: Asset Save: Mutant2_AnimMontage
+[2020.06.06-01.15.33:086][272]LogContentValidation: Display: Validating AnimMontage /Game/Julian/Enemies/Mutant2/Animations/Mutant2_AnimMontage.Mutant2_AnimMontage
+[2020.06.06-01.15.58:880][443]LogUObjectHash: Compacting FUObjectHashTables data took   7.07ms
+[2020.06.06-01.15.58:881][443]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Julian/JLevels/TestMap' took 0.073
+[2020.06.06-01.15.58:882][443]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Julian/Ch3Enemy/Mesh/Ch30_nonPBR_Skeleton] ([1] browsable assets)...
+[2020.06.06-01.15.58:883][443]OBJ SavePackage: Finished generating thumbnails for package [/Game/Julian/Ch3Enemy/Mesh/Ch30_nonPBR_Skeleton]
+[2020.06.06-01.15.58:942][443]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Ch30_nonPBR_Skeleton_Auto31AD363524200717132AC168CC5C70263.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/Ch3Enemy/Mesh/Ch30_nonPBR_Skeleton_Auto3.uasset'
+[2020.06.06-01.15.58:945][443]LogFileHelpers: Auto-saving content packages took 0.064
+[2020.06.06-01.17.11:544][562]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.06-01.22.04:923][275]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Mutant2_AnimMontageF91FF4594996E525A545CCA3109BD8C7.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/Mutant2_AnimMontage.uasset'
+[2020.06.06-01.22.04:968][275]AssetCheck: New page: Asset Save: Mutant2_AnimMontage
+[2020.06.06-01.22.04:968][275]LogContentValidation: Display: Validating AnimMontage /Game/Julian/Enemies/Mutant2/Animations/Mutant2_AnimMontage.Mutant2_AnimMontage
+[2020.06.06-01.24.41:114][310]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Mutant2_AnimDE17E56E42ACDEDAAE6299B17214A89D.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.uasset'
+[2020.06.06-01.24.41:135][310]AssetCheck: New page: Asset Save: BP_Mutant2_Anim
+[2020.06.06-01.24.41:135][310]LogContentValidation: Display: Validating AnimBlueprint /Game/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.BP_Mutant2_Anim
+[2020.06.06-01.25.26:921][927]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Mutant2_Anim82D4543946F6114FB6910681280491FF.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.uasset'
+[2020.06.06-01.25.26:945][927]AssetCheck: New page: Asset Save: BP_Mutant2_Anim
+[2020.06.06-01.25.26:945][927]LogContentValidation: Display: Validating AnimBlueprint /Game/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.BP_Mutant2_Anim
+[2020.06.06-01.26.05:402][146]LogUObjectHash: Compacting FUObjectHashTables data took   7.75ms
+[2020.06.06-01.26.05:403][146]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Julian/JLevels/TestMap' took 0.064
+[2020.06.06-01.26.05:403][146]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Julian/Ch3Enemy/Mesh/Ch30_nonPBR_Skeleton] ([1] browsable assets)...
+[2020.06.06-01.26.05:403][146]OBJ SavePackage: Finished generating thumbnails for package [/Game/Julian/Ch3Enemy/Mesh/Ch30_nonPBR_Skeleton]
+[2020.06.06-01.26.05:495][146]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Ch30_nonPBR_Skeleton_Auto4D737EB5C4327A2A28E34FE9DC987DC2F.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/Ch3Enemy/Mesh/Ch30_nonPBR_Skeleton_Auto4.uasset'
+[2020.06.06-01.26.05:498][146]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim] ([1] browsable assets)...
+[2020.06.06-01.26.05:528][146]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.BP_Mutant2_Anim]
+[2020.06.06-01.26.05:528][146]OBJ SavePackage: Finished generating thumbnails for package [/Game/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim]
+[2020.06.06-01.26.05:609][146]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Mutant2_Anim_Auto4BB09ABBA45FFF32D25BCDA841506A72F.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim_Auto4.uasset'
+[2020.06.06-01.26.05:610][146]LogFileHelpers: Auto-saving content packages took 0.207
+[2020.06.06-01.26.20:706][730]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Julian/Enemies/Mutant/BP_MutantAnim.BP_MutantAnim
+[2020.06.06-01.26.20:730][730]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.06-01.26.21:270][730]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.06-01.26.21:895][730]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.06.06-01.27.11:469][642]LogSlate: Took 0.017423 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.06.06-01.29.12:384][ 62]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Mutant2_Anim2ABBC26847ED1D20736F129BAF6F5AE1.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.uasset'
+[2020.06.06-01.29.12:425][ 62]AssetCheck: New page: Asset Save: BP_Mutant2_Anim
+[2020.06.06-01.29.12:426][ 62]LogContentValidation: Display: Validating AnimBlueprint /Game/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.BP_Mutant2_Anim
+[2020.06.06-01.31.36:345][165]BlueprintLog: New page: Compile BP_Mutant2_Anim
+[2020.06.06-01.31.36:826][165]LogUObjectHash: Compacting FUObjectHashTables data took   7.20ms
+[2020.06.06-01.31.36:997][165]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Mutant2_Anim93A4F8B04C3BD80A5CB67899BAE04F21.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.uasset'
+[2020.06.06-01.31.37:018][165]AssetCheck: New page: Asset Save: BP_Mutant2_Anim
+[2020.06.06-01.31.37:018][165]LogContentValidation: Display: Validating AnimBlueprint /Game/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.BP_Mutant2_Anim
+[2020.06.06-01.31.37:802][198]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Mutant2_AnimF4EEEC06409B010F696429853D22E184.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.uasset'
+[2020.06.06-01.31.37:821][198]AssetCheck: New page: Asset Save: BP_Mutant2_Anim
+[2020.06.06-01.31.37:821][198]LogContentValidation: Display: Validating AnimBlueprint /Game/Julian/Enemies/Mutant2/Animations/BP_Mutant2_Anim.BP_Mutant2_Anim
+[2020.06.06-01.35.58:698][590]BlueprintLog: New page: Compile BP_Mutant2
+[2020.06.06-01.35.59:210][590]LogUObjectHash: Compacting FUObjectHashTables data took   5.83ms
+[2020.06.06-01.35.59:397][590]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Mutant2F87930034E127E9583C6618EA43DCDD1.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/BP_Mutant2.uasset'
+[2020.06.06-01.35.59:416][590]AssetCheck: New page: Asset Save: BP_Mutant2
+[2020.06.06-01.35.59:416][590]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant2/BP_Mutant2.BP_Mutant2
+[2020.06.06-01.36.00:446][641]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Mutant28DCF55EC489C9D9A56F811B7968856D1.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/BP_Mutant2.uasset'
+[2020.06.06-01.36.00:465][641]AssetCheck: New page: Asset Save: BP_Mutant2
+[2020.06.06-01.36.00:465][641]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant2/BP_Mutant2.BP_Mutant2
+[2020.06.06-01.41.29:971][777]BlueprintLog: New page: Compile BP_Mutant2
+[2020.06.06-01.41.30:364][777]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2020.06.06-01.41.31:145][808]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Mutant240CF78D04219697C4AE8DDAB77F7B393.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/BP_Mutant2.uasset'
+[2020.06.06-01.41.31:158][808]AssetCheck: New page: Asset Save: BP_Mutant2
+[2020.06.06-01.41.31:158][808]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant2/BP_Mutant2.BP_Mutant2
+[2020.06.06-01.41.38:956][949]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2020.06.06-01.41.40:246][949]LogSlate: Window 'Save Content' being destroyed
+[2020.06.06-01.41.40:374][949]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Ch30_nonPBR_SkeletonFA21D0414532B1EDE13168B302460F45.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Ch3Enemy/Mesh/Ch30_nonPBR_Skeleton.uasset'
+[2020.06.06-01.41.40:409][949]AssetCheck: New page: Asset Save: Ch30_nonPBR_Skeleton
+[2020.06.06-01.41.40:409][949]LogContentValidation: Display: Validating Skeleton /Game/Julian/Ch3Enemy/Mesh/Ch30_nonPBR_Skeleton.Ch30_nonPBR_Skeleton
+[2020.06.06-01.42.20:928][695]LogEditorViewport: Clicking on Actor (LMB): BP_JFollowEnemy_C (BP_JFollowEnemy2)
+[2020.06.06-01.42.22:556][763]Cmd: DELETE
+[2020.06.06-01.42.22:557][763]Cmd: ACTOR DELETE
+[2020.06.06-01.42.22:637][763]LogEditorActor: Deleted Actor: BP_JFollowEnemy_C
+[2020.06.06-01.42.22:704][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.06.06-01.42.22:706][763]LogEditorActor: Deleted 1 Actors (0.104 secs)
+[2020.06.06-01.43.10:707][823]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2020.06.06-01.43.10:854][823]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap_Auto58AA9144346F59024D56F9182704F0DCF.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/JLevels/TestMap_Auto5.umap'
+[2020.06.06-01.43.10:866][823]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Julian/JLevels/TestMap' took 0.307
+[2020.06.06-01.43.10:866][823]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.307
+[2020.06.06-01.44.13:926][271]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.06-01.45.02:243][269]BlueprintLog: New page: Compile BP_Mutant2
+[2020.06.06-01.45.02:774][269]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2020.06.06-01.45.02:910][269]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Mutant21CFCF50049FA364076C92F819F12980D.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/BP_Mutant2.uasset'
+[2020.06.06-01.45.02:928][269]AssetCheck: New page: Asset Save: BP_Mutant2
+[2020.06.06-01.45.02:928][269]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant2/BP_Mutant2.BP_Mutant2
+[2020.06.06-01.45.03:494][297]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Mutant2F9C875E046FC798F6F5D8AB08AB1E846.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/BP_Mutant2.uasset'
+[2020.06.06-01.45.03:512][297]AssetCheck: New page: Asset Save: BP_Mutant2
+[2020.06.06-01.45.03:512][297]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant2/BP_Mutant2.BP_Mutant2
+[2020.06.06-01.45.11:543][692]LogEditorViewport: Clicking on Actor (LMB): BP_JFollowEnemy_C (BP_JFollowEnemy)
+[2020.06.06-01.45.16:159][912]LogEditorViewport: Clicking on Actor (LMB): BP_Mutant2_C (BP_Mutant2)
+[2020.06.06-01.45.21:643][172]LogEditorViewport: Clicking on Actor (LMB): BP_Mutant2_C (BP_Mutant2)
+[2020.06.06-01.45.32:970][702]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
+[2020.06.06-01.45.34:443][702]LogSlate: Window 'Save Content' being destroyed
+[2020.06.06-01.45.34:572][702]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.06.06-01.45.34:678][702]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap8B6CE7DC4F92699AB2967AB3FBB6C147.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JLevels/TestMap.umap'
+[2020.06.06-01.45.34:803][702]LogFileHelpers: Saving map 'TestMap' took 0.307
+[2020.06.06-01.45.34:822][702]AssetCheck: New page: Asset Save: TestMap
+[2020.06.06-01.45.34:822][702]LogContentValidation: Display: Validating World /Game/Julian/JLevels/TestMap.TestMap
+[2020.06.06-01.46.36:886][886]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Mutant2_AnimMontageD9621DE24F40411223BB3E9FF3974087.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/Animations/Mutant2_AnimMontage.uasset'
+[2020.06.06-01.46.36:913][886]AssetCheck: New page: Asset Save: Mutant2_AnimMontage
+[2020.06.06-01.46.36:914][886]LogContentValidation: Display: Validating AnimMontage /Game/Julian/Enemies/Mutant2/Animations/Mutant2_AnimMontage.Mutant2_AnimMontage
+[2020.06.06-01.47.42:151][296]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2020.06.06-01.47.45:757][418]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.06-01.47.45:810][418]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.06-01.47.45:821][418]PIE: New page: PIE session: TestMap (Jun. 5, 2020, 5:47:45 p.m.)
+[2020.06.06-01.47.45:823][418]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.06-01.47.45:984][418]LogPlayLevel: PIE: StaticDuplicateObject took: (0.159759s)
+[2020.06.06-01.47.45:989][418]LogAIModule: Creating AISystem for world TestMap
+[2020.06.06-01.47.45:996][418]LogPlayLevel: PIE: World Init took: (0.012210s)
+[2020.06.06-01.47.45:996][418]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.172863s)
+[2020.06.06-01.47.46:048][418]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2020.06.06-01.47.46:061][418]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.06-01.47.46:062][418]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.06-01.47.46:062][418]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.06-01.47.46:062][418]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.06-01.47.46:062][418]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.06-01.47.46:062][418]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.06-01.47.46:062][418]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.06-01.47.46:063][418]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.06-01.47.46:068][418]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.06-01.47.46:069][418]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.06-01.47.46:098][418]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.06-01.47.46:098][418]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.06-01.47.46:098][418]LogAudioMixer: Display: Is Default: Yes
+[2020.06.06-01.47.46:098][418]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.06-01.47.46:098][418]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.06-01.47.46:099][418]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.06-01.47.46:099][418]LogAudioMixer: Display: Channel Order:
+[2020.06.06-01.47.46:099][418]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.06-01.47.46:099][418]LogAudioMixer: Display: 1: FrontRight
+[2020.06.06-01.47.46:240][418]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.06-01.47.46:250][418]LogInit: FAudioDevice initialized.
+[2020.06.06-01.47.46:294][418]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.06-01.47.46:309][418]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.05-21.47.46
+[2020.06.06-01.47.46:334][418]LogWorld: Bringing up level for play took: 0.038413
+[2020.06.06-01.47.46:352][418]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2020.06.06-01.47.46:430][418]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 1.053
+[2020.06.06-01.48.16:838][156]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.06-01.48.16:838][156]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.06-01.48.16:842][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.06-01.48.16:842][156]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.06-01.48.16:845][156]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.06-01.48.16:846][156]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.06-01.48.16:847][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.06-01.48.16:890][156]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.06-01.48.16:896][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.06-01.48.16:941][156]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.06-01.48.16:946][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.06-01.48.16:959][156]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2020.06.06-01.48.16:979][157]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2020.06.06-01.49.10:682][890]BlueprintLog: New page: Compile BP_Mutant2
+[2020.06.06-01.49.11:179][890]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
+[2020.06.06-01.49.11:336][890]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Mutant2414BD402414EEBF74D860F80E427FEA8.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/BP_Mutant2.uasset'
+[2020.06.06-01.49.11:356][890]AssetCheck: New page: Asset Save: BP_Mutant2
+[2020.06.06-01.49.11:356][890]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant2/BP_Mutant2.BP_Mutant2
+[2020.06.06-01.49.11:776][910]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_Mutant2C3CD06544D1B6BB35CDC848541E22A35.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant2/BP_Mutant2.uasset'
+[2020.06.06-01.49.11:794][910]AssetCheck: New page: Asset Save: BP_Mutant2
+[2020.06.06-01.49.11:794][910]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant2/BP_Mutant2.BP_Mutant2
+[2020.06.06-01.49.13:512][968]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2020.06.06-01.49.14:704][968]LogSlate: Window 'Save Content' being destroyed
+[2020.06.06-01.49.14:798][968]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.06.06-01.49.14:885][968]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap31DCF677435EE0EB346D2993B25C15B8.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JLevels/TestMap.umap'
+[2020.06.06-01.49.14:951][968]LogFileHelpers: Saving map 'TestMap' took 0.210
+[2020.06.06-01.49.14:964][968]AssetCheck: New page: Asset Save: TestMap
+[2020.06.06-01.49.14:964][968]LogContentValidation: Display: Validating World /Game/Julian/JLevels/TestMap.TestMap
+[2020.06.06-01.49.16:770][ 49]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.06-01.49.16:871][ 49]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.06-01.49.16:871][ 49]PIE: New page: PIE session: TestMap (Jun. 5, 2020, 5:49:16 p.m.)
+[2020.06.06-01.49.16:871][ 49]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.06-01.49.16:884][ 49]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012813s)
+[2020.06.06-01.49.16:885][ 49]LogAIModule: Creating AISystem for world TestMap
+[2020.06.06-01.49.16:886][ 49]LogPlayLevel: PIE: World Init took: (0.001418s)
+[2020.06.06-01.49.16:886][ 49]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.014469s)
+[2020.06.06-01.49.16:952][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2020.06.06-01.49.16:956][ 49]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.06-01.49.16:956][ 49]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.06-01.49.16:956][ 49]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.06-01.49.16:956][ 49]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.06-01.49.16:956][ 49]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.06-01.49.16:956][ 49]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.06-01.49.16:956][ 49]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.06-01.49.16:956][ 49]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.06-01.49.16:956][ 49]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.06-01.49.16:956][ 49]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.06-01.49.16:961][ 49]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.06-01.49.16:962][ 49]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.06-01.49.16:962][ 49]LogAudioMixer: Display: Is Default: Yes
+[2020.06.06-01.49.16:962][ 49]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.06-01.49.16:962][ 49]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.06-01.49.16:962][ 49]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.06-01.49.16:962][ 49]LogAudioMixer: Display: Channel Order:
+[2020.06.06-01.49.16:962][ 49]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.06-01.49.16:962][ 49]LogAudioMixer: Display: 1: FrontRight
+[2020.06.06-01.49.17:097][ 49]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.06-01.49.17:100][ 49]LogInit: FAudioDevice initialized.
+[2020.06.06-01.49.17:114][ 49]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.06-01.49.17:121][ 49]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.05-21.49.17
+[2020.06.06-01.49.17:123][ 49]LogWorld: Bringing up level for play took: 0.007244
+[2020.06.06-01.49.17:123][ 49]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2020.06.06-01.49.17:136][ 49]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap -0.241
+[2020.06.06-01.49.28:986][711]LogTemp: Warning: CollectibleOverlapEnd
+[2020.06.06-01.49.33:566][974]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.06-01.49.33:566][974]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.06-01.49.33:567][974]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.06-01.49.33:567][974]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.06-01.49.33:567][974]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.06-01.49.33:567][974]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.06-01.49.33:568][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.06-01.49.33:595][974]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.06-01.49.33:603][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.06-01.49.33:652][974]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.06-01.49.33:656][974]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.06-01.49.33:663][974]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
+[2020.06.06-01.49.33:695][975]LogPlayLevel: Display: Destroying online subsystem :Context_32
