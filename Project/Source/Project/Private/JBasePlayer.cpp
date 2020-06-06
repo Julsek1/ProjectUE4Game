@@ -58,7 +58,7 @@ AJBasePlayer::AJBasePlayer()
 	GetCharacterMovement()->AirControl = 0.2f;
 
 	IsDead = false;
-	
+	IsWithFightGoal = false;
 
 	Hp = 70.f;
 	MaxHp = 100.f;
@@ -76,12 +76,6 @@ AJBasePlayer::AJBasePlayer()
 	
 }
 
-
-//change direction towards enemy when attacking.
-void AJBasePlayer::SetAnnexEnemy(bool Annex)
-{
-	IsAnnexed = Annex;
-}
 
 
 
@@ -410,6 +404,44 @@ void AJBasePlayer::CollectUp(int32 CollectQty)
 }
 
 
+//change direction towards enemy when attacking.
+void AJBasePlayer::SetAnnexEnemy(bool Annex)
+{
+	IsAnnexed = Annex;
+}
 
+
+
+void AJBasePlayer::FightGoalUpdate()
+{
+	TArray<AActor*> ActorsOverlapped;
+	GetOverlappingActors(ActorsOverlapped, MutantF);
+
+	if (ActorsOverlapped.Num() == 0) return;
+
+	AJFollowEnemy* MutantNear = Cast<AJFollowEnemy>(ActorsOverlapped[0]);
+	if (MutantNear)
+	{
+		FVector Position = GetActorLocation();
+		float DistMinimun = (MutantNear->GetActorLocation() - Position).Size();
+		for (auto Enemy : ActorsOverlapped)
+		{
+			AJFollowEnemy* Mutant = Cast<AJFollowEnemy>(Enemy);
+			if (Mutant)
+			{
+				float EnemyDist = (Mutant->GetActorLocation() - Position).Size();
+				if (EnemyDist < DistMinimun)
+				{
+					DistMinimun = EnemyDist;
+					MutantNear = Mutant;
+				}
+			}
+
+		}
+		SetFightGoal(MutantNear);
+		IsWithFightGoal = true;
+	}
+
+}
 
 

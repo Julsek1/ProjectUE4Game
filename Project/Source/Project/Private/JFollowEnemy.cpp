@@ -71,11 +71,9 @@ void AJFollowEnemy::BeginPlay()
 	BoxCollFight->OnComponentBeginOverlap.AddDynamic(this, &AJFollowEnemy::FightOnOverlapBegin);
 	BoxCollFight->OnComponentEndOverlap.AddDynamic(this, &AJFollowEnemy::FightOnOverlapEnd);
 
-	//Arm socket fix
-
-	
-
-	
+	//Fix: Camera zooming when colliding with player
+	GetMesh()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Camera, ECollisionResponse::ECR_Ignore);
+	GetCapsuleComponent()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Camera, ECollisionResponse::ECR_Ignore);
 
 	BoxCollFight->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	BoxCollFight->SetCollisionObjectType(ECollisionChannel::ECC_WorldDynamic);
@@ -120,6 +118,13 @@ void AJFollowEnemy::FollowSphereOnOverlapEnd(UPrimitiveComponent* OverlappedComp
 		{
 			if (Player)
 			{
+				IsWithGoal = false;
+				if (Player->FightGoal == this)
+				{
+					Player->SetFightGoal(nullptr);
+				}
+				Player->IsWithFightGoal;
+				Player->FightGoalUpdate();
 				SetFEnemyMovStatus(EFEnemyMoveStat::FEMS_Idle);
 				if (AIController)
 				{
@@ -143,6 +148,7 @@ void AJFollowEnemy::AttackSphereOnOverlapBegin(UPrimitiveComponent* OverlappedCo
 				Player->SetFightGoal(this);
 				AttackTarget = Player;
 				IsOverlapAttackSphere = true;
+				Player->FightGoalUpdate();
 				float FightLapsus = FMath::RandRange(0.2f, 1.5f);
 				GetWorldTimerManager().SetTimer(FightTempo, this, &AJFollowEnemy::Fight, FightLapsus);
 			}
@@ -158,18 +164,20 @@ void AJFollowEnemy::AttackSphereOnOverlapEnd(UPrimitiveComponent* OverlappedComp
 		{
 			if (Player)
 			{
+				IsOverlapAttackSphere = false;
+				MoveToPlayer(Player);
 				IsWithGoal = false;
+				
+				
 				if (Player->FightGoal == this)
 				{
+					Player->IsWithFightGoal = false;
 					Player->SetFightGoal(nullptr);
-				}
-				IsOverlapAttackSphere = false;
-				if (EFEnemyMoveStatus == EFEnemyMoveStat::FEMS_Attack)
-				{
-					MoveToPlayer(Player);
-					AttackTarget = nullptr;
+					Player->FightGoalUpdate();
+					
 				}
 				GetWorldTimerManager().ClearTimer(FightTempo);
+				
 			}
 		}
 	}
@@ -248,8 +256,9 @@ float AJFollowEnemy::TakeDamage(float DamageAmount, FDamageEvent const& DamageEv
 	
 	if (Hp - DamageAmount <= 0.f)
 	{
-		Hp -= DamageAmount;
-		Death();
+		//Hp -= DamageAmount;
+		Hp = 0.f;
+		Death(DamageCauser);
 	}
 	else
 	{
@@ -304,7 +313,7 @@ void AJFollowEnemy::FightFinished()
 	}
 }
 
-void AJFollowEnemy::Death()
+void AJFollowEnemy::Death(AActor* DamageMaker)
 {
 	UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
 	if (AnimationInst)
@@ -318,6 +327,13 @@ void AJFollowEnemy::Death()
 	BoxCollFight->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	AttackSphere->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	
+	IsFighting = false;
+
+	AJBasePlayer* Player = Cast<AJBasePlayer>(DamageMaker);
+	if (Player)
+	{
+		Player->FightGoalUpdate();
+	}
 
 }
 

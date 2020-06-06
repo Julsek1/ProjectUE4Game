@@ -75,10 +75,17 @@ class USoundCue* DamageSound;
 
  FRotator GetSightTurning(FVector Goal);
 
+ 
+
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Fight")
  class AJFollowEnemy* FightGoal;
 
  FORCEINLINE void SetFightGoal(AJFollowEnemy* Goal) { FightGoal = Goal; }
+ 
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+ TSubclassOf<AJFollowEnemy> MutantF;
+
+ void FightGoalUpdate();
 
 protected:
 	// Called when the game starts or when spawned
@@ -174,6 +181,9 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Animation")
 	bool IsFighting;
+
+	// checks if the enemy has a valid goal to continue attacking
+	bool IsWithFightGoal;
 
 	void Fight();
 
