@@ -3,6 +3,7 @@
 
 #include "TwinStickShooterPlayer.h"
 
+#include "Animation/AnimInstance.h"
 #include "AssaultRifle.h"
 #include "CustomGameInstance.h"
 #include "Engine/Engine.h"

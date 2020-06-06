@@ -3,6 +3,10 @@
 
 #include "GasMaskEnemy.h"
 
+#include "Animation/AnimInstance.h"
+#include "GameFramework/CharacterMovementComponent.h"
+
+
 AGasMaskEnemy::AGasMaskEnemy()
 {
 	PrimaryActorTick.bCanEverTick = true;
@@ -22,6 +26,16 @@ void AGasMaskEnemy::Tick(float DeltaTime)
 		if (Weapon->CurrentClipAmmo > 0)
 		{
 			Fire();
+
+			if (Weapon->bCanShoot)
+			{
+				GetCharacterMovement()->MaxWalkSpeed = 500.f;
+			}
+
+			else
+			{
+				GetCharacterMovement()->MaxWalkSpeed = 250.f;
+			}
 		}
 
 		else
@@ -29,15 +43,34 @@ void AGasMaskEnemy::Tick(float DeltaTime)
 			Reload();
 		}
 	}
+
+	else
+	{
+		GetCharacterMovement()->MaxWalkSpeed = 500.f;
+	}
 }
 
 void AGasMaskEnemy::Fire()
 {
-	Weapon->Fire(WeaponMuzzle);
+	if (Weapon)
+	{
+		Weapon->Fire(WeaponMuzzle);
+	}
 }
 
 void AGasMaskEnemy::Reload()
 {
-	Weapon->Reload();
+	if (Weapon)
+	{
+		if (Weapon->CanTheWeaponReload())
+		{
+			if (ReloadAnimation)
+			{
+				GetMesh()->GetAnimInstance()->Montage_Play(ReloadAnimation, ReloadAnimation->SequenceLength / Weapon->ReloadSpeed);
+			}
+		}
+
+		Weapon->Reload();
+	}
 
 }
