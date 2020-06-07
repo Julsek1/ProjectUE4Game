@@ -3358,3 +3358,18 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.06.07-20.20.41:331][846]AssetCheck: New page: Asset Save: multiple assets
 [2020.06.07-20.20.41:332][846]LogContentValidation: Display: Validating World /Game/Phil/Levels/PLevel1.PLevel1
 [2020.06.07-20.20.41:332][846]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PLevel1_BuiltData.PLevel1_BuiltData
+[2020.06.07-20.24.14:069][438]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.06.07-20.24.14:143][438]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PLevel1D81EF13749FD5839AAFB5DB7A726E385.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PLevel1.umap'
+[2020.06.07-20.24.14:222][438]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PLevel1_BuiltDataD0006F314C56C831D0B99AA0FEE321DC.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PLevel1_BuiltData.uasset'
+[2020.06.07-20.24.14:238][438]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.07-20.24.14:238][438]LogContentValidation: Display: Validating World /Game/Phil/Levels/PLevel1.PLevel1
+[2020.06.07-20.24.14:238][438]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PLevel1_BuiltData.PLevel1_BuiltData
+[2020.06.07-21.08.35:801][812]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-21.08.35:802][812]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.07-21.08.39:801][ 35]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Phil/AI/BT_GasMaskEnemy.BT_GasMaskEnemy
+[2020.06.07-21.13.22:294][155]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_GasMaskEnemy3DCBFF1042F2AA2C3A280983B12A92EE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/BT_GasMaskEnemy.uasset'
+[2020.06.07-21.13.22:313][155]AssetCheck: New page: Asset Save: BT_GasMaskEnemy
+[2020.06.07-21.13.22:313][155]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/BT_GasMaskEnemy.BT_GasMaskEnemy
+[2020.06.07-21.13.43:698][403]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_GasMaskEnemyD001623C4EBD745D9A4013AC00258648.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/BT_GasMaskEnemy.uasset'
+[2020.06.07-21.13.43:712][403]AssetCheck: New page: Asset Save: BT_GasMaskEnemy
+[2020.06.07-21.13.43:712][403]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/BT_GasMaskEnemy.BT_GasMaskEnemy
