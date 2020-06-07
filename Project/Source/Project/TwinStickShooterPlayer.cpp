@@ -65,6 +65,9 @@ void ATwinStickShooterPlayer::BeginPlay()
 {
 	Super::BeginPlay();
 
+	//Give empty objective
+	CurrentObjective = NewObject<AObjective>(this);
+
 	//Give a weapon
 	//Weapons.Add(NewObject<AAssaultRifle>(this));
 	//Weapons.Add(NewObject<AShotgun>(this));
@@ -224,9 +227,11 @@ void ATwinStickShooterPlayer::Heal(float HealingAmount)
 
 void ATwinStickShooterPlayer::ReceiveObjective(AObjective* Objective)
 {
-	CurrentObjective = Objective;
-	/*CurrentObjective->Description = Objective->Description;
-	CurrentObjective->Requirement = Objective->Requirement*/;
+	//CurrentObjective = Objective;
+	CurrentObjective->Description = Objective->Description;
+	CurrentObjective->Requirement = Objective->Requirement;
+	CurrentObjective->Progress = Objective->Progress;
+	CurrentObjective->bComplete = Objective->bComplete;
 }
 
 void ATwinStickShooterPlayer::Fire()
