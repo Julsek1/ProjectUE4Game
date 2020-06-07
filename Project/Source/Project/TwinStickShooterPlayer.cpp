@@ -12,6 +12,7 @@
 #include "GameFramework/Controller.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "ParentEnemy.h"
+#include "Perception/AISense_Hearing.h"
 #include "Shotgun.h"
 
 
@@ -97,6 +98,8 @@ void ATwinStickShooterPlayer::BeginPlay()
 void ATwinStickShooterPlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	UAISense_Hearing::ReportNoiseEvent(this, GetActorLocation(), 1, this, 300, FName("Sound"));
 
 	//UE_LOG(LogTemp, Warning, TEXT("Max walk speed: %f"), GetCharacterMovement()->GetMaxSpeed());
 
@@ -244,6 +247,8 @@ void ATwinStickShooterPlayer::Fire()
 			{
 				GetMesh()->GetAnimInstance()->Montage_Play(FiringAnimation, FiringAnimation->SequenceLength / CurrentWeapon->FireRate);
 			}
+
+			UAISense_Hearing::ReportNoiseEvent(this, GetActorLocation(), 1, this, 1500, FName("Sound"));
 		}
 
 		CurrentWeapon->Fire(WeaponMuzzle);
