@@ -3,7 +3,9 @@
 
 #include "JSpawnVolume.h"
 #include "Components/BoxComponent.h"
+#include "AIController.h"
 #include "Engine/World.h"
+#include "JFollowEnemy.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "Project/Public/PRJPawn.h"
 
@@ -71,7 +73,18 @@ void AJSpawnVolume::SpawnGameActor_Implementation(UClass* ToBeSpawned, const FVe
 		FActorSpawnParameters SpawnParameters;
 		if (World)
 		{
-			World->SpawnActor<AActor>(ToBeSpawned, Position, FRotator(0.0f), SpawnParameters);
+			AActor* SpawnedActor = World->SpawnActor<AActor>(ToBeSpawned, Position, FRotator(0.0f), SpawnParameters);
+			
+			AJFollowEnemy* Opponent = Cast<AJFollowEnemy>(SpawnedActor);
+			if (Opponent)
+			{
+				Opponent->SpawnDefaultController();
+				AAIController* CtrlAI = Cast<AAIController>(Opponent->GetController());
+				if (CtrlAI)
+				{
+					Opponent->AIController = CtrlAI;
+				}
+			}
 		}
 	}
 }
