@@ -33686,3 +33686,1413 @@ Script call stack:
 [2020.06.07-19.55.52:376][177]AssetCheck: New page: Asset Save: multiple assets
 [2020.06.07-19.55.52:376][177]LogContentValidation: Display: Validating World /Game/Phil/Levels/PLevel1.PLevel1
 [2020.06.07-19.55.52:376][177]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PLevel1_BuiltData.PLevel1_BuiltData
+[2020.06.07-19.58.31:791][734]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.07-19.58.31:823][734]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.07-19.58.31:823][734]PIE: New page: PIE session: PLevel1 (Jun 7, 2020, 11:58:31 AM)
+[2020.06.07-19.58.31:823][734]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PLevel1
+[2020.06.07-19.58.31:855][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031387s)
+[2020.06.07-19.58.31:855][734]LogAIModule: Creating AISystem for world PLevel1
+[2020.06.07-19.58.31:855][734]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2020.06.07-19.58.31:856][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PLevel1.PLevel1 to /Game/Phil/Levels/UEDPIE_0_PLevel1.PLevel1 (0.032366s)
+[2020.06.07-19.58.31:897][734]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2020.06.07-19.58.31:899][734]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.07-19.58.31:899][734]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.07-19.58.31:899][734]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.07-19.58.31:899][734]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.07-19.58.31:899][734]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.07-19.58.31:899][734]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.07-19.58.31:899][734]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.07-19.58.31:899][734]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.07-19.58.31:899][734]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.07-19.58.31:900][734]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.07-19.58.31:924][734]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.07-19.58.31:924][734]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.07-19.58.31:924][734]LogAudioMixer: Display: Is Default: Yes
+[2020.06.07-19.58.31:924][734]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.07-19.58.31:924][734]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.07-19.58.31:924][734]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.07-19.58.31:924][734]LogAudioMixer: Display: Channel Order:
+[2020.06.07-19.58.31:924][734]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.07-19.58.31:924][734]LogAudioMixer: Display: 1: FrontRight
+[2020.06.07-19.58.31:934][734]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.07-19.58.31:935][734]LogInit: FAudioDevice initialized.
+[2020.06.07-19.58.31:941][734]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.07-19.58.31:943][734]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PLevel1.PLevel1 up for play (max tick rate 60) at 2020.06.07-15.58.31
+[2020.06.07-19.58.31:944][734]LogWorld: Bringing up level for play took: 0.002773
+[2020.06.07-19.58.31:945][734]LogOnline: OSS: Creating online subsystem instance for: :Context_118
+[2020.06.07-19.58.31:947][734]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PLevel1.PLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.07-19.58.31:947][734]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PLevel1.PLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.07-19.58.31:950][734]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PLevel1 0.981
+[2020.06.07-19.58.31:950][734]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.31:981][735]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.31:997][736]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:013][737]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:029][738]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:046][739]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:063][740]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:079][741]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:096][742]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:113][743]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:131][744]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:146][745]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:162][746]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:180][747]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:196][748]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:212][749]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:229][750]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:246][751]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:263][752]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:279][753]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:296][754]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:313][755]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:329][756]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:346][757]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:363][758]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:379][759]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:396][760]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:416][761]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:429][762]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:445][763]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:462][764]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:479][765]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:496][766]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:512][767]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:530][768]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:546][769]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:563][770]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:579][771]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:596][772]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:612][773]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:629][774]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:646][775]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:665][776]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:679][777]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:696][778]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:713][779]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:729][780]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:746][781]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:763][782]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:780][783]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:797][784]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:814][785]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:829][786]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:846][787]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:863][788]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:879][789]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:896][790]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:913][791]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:930][792]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:946][793]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.32:963][794]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.33:780][843]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.33:796][844]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.33:813][845]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.33:830][846]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.33:846][847]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.33:863][848]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.33:880][849]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.33:896][850]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.33:912][851]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.33:930][852]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.33:946][853]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.33:963][854]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.33:980][855]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.33:996][856]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.34:013][857]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.34:031][858]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.34:047][859]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.34:180][867]LogTemp: Warning: Self: X=-0.316 Y=-0.949 Z=0.000
+[2020.06.07-19.58.34:281][873]LogTemp: Warning: Self: X=-0.555 Y=-0.832 Z=0.000
+[2020.06.07-19.58.34:397][880]LogTemp: Warning: Self: X=-0.894 Y=-0.447 Z=0.000
+[2020.06.07-19.58.34:513][887]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.34:530][888]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.34:546][889]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.34:563][890]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.34:579][891]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.34:596][892]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.34:613][893]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.34:629][894]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.34:646][895]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.34:663][896]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.34:679][897]LogTemp: Warning: Self: X=-0.949 Y=0.316 Z=0.000
+[2020.06.07-19.58.34:696][898]LogTemp: Warning: Self: X=-0.894 Y=0.447 Z=0.000
+[2020.06.07-19.58.34:713][899]LogTemp: Warning: Self: X=-0.894 Y=0.447 Z=0.000
+[2020.06.07-19.58.34:730][900]LogTemp: Warning: Self: X=-0.894 Y=0.447 Z=0.000
+[2020.06.07-19.58.34:751][901]LogTemp: Warning: Self: X=-0.832 Y=0.555 Z=0.000
+[2020.06.07-19.58.34:763][902]LogTemp: Warning: Self: X=-0.832 Y=0.555 Z=0.000
+[2020.06.07-19.58.34:781][903]LogTemp: Warning: Self: X=-0.707 Y=0.707 Z=0.000
+[2020.06.07-19.58.34:796][904]LogTemp: Warning: Self: X=-0.707 Y=0.707 Z=0.000
+[2020.06.07-19.58.34:813][905]LogTemp: Warning: Self: X=-0.800 Y=0.600 Z=0.000
+[2020.06.07-19.58.34:830][906]LogTemp: Warning: Self: X=-0.707 Y=0.707 Z=0.000
+[2020.06.07-19.58.34:847][907]LogTemp: Warning: Self: X=-0.707 Y=0.707 Z=0.000
+[2020.06.07-19.58.34:864][908]LogTemp: Warning: Self: X=-0.781 Y=0.625 Z=0.000
+[2020.06.07-19.58.34:880][909]LogTemp: Warning: Self: X=-0.707 Y=0.707 Z=0.000
+[2020.06.07-19.58.34:896][910]LogTemp: Warning: Self: X=-0.600 Y=0.800 Z=0.000
+[2020.06.07-19.58.34:913][911]LogTemp: Warning: Self: X=-0.514 Y=0.857 Z=0.000
+[2020.06.07-19.58.34:930][912]LogTemp: Warning: Self: X=-0.555 Y=0.832 Z=0.000
+[2020.06.07-19.58.34:947][913]LogTemp: Warning: Self: X=-0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.34:963][914]LogTemp: Warning: Self: X=-0.530 Y=0.848 Z=0.000
+[2020.06.07-19.58.34:996][916]LogTemp: Warning: Self: X=-0.600 Y=0.800 Z=0.000
+[2020.06.07-19.58.35:013][917]LogTemp: Warning: Self: X=-0.555 Y=0.832 Z=0.000
+[2020.06.07-19.58.35:032][918]LogTemp: Warning: Hit: Landscape
+[2020.06.07-19.58.35:032][918]LogTemp: Warning: Hit: StaticMeshActor
+[2020.06.07-19.58.35:032][918]LogTemp: Warning: Self: X=-0.707 Y=0.707 Z=0.000
+[2020.06.07-19.58.35:046][919]LogTemp: Warning: Self: X=-0.894 Y=0.447 Z=0.000
+[2020.06.07-19.58.35:063][920]LogTemp: Warning: Self: X=-0.894 Y=0.447 Z=0.000
+[2020.06.07-19.58.35:079][921]LogTemp: Warning: Self: X=-0.894 Y=0.447 Z=0.000
+[2020.06.07-19.58.35:096][922]LogTemp: Warning: Self: X=-0.555 Y=0.832 Z=0.000
+[2020.06.07-19.58.35:114][923]LogTemp: Warning: Self: X=-0.581 Y=0.814 Z=0.000
+[2020.06.07-19.58.35:130][924]LogTemp: Warning: Self: X=-0.555 Y=0.832 Z=0.000
+[2020.06.07-19.58.35:147][925]LogTemp: Warning: Self: X=-0.371 Y=0.928 Z=0.000
+[2020.06.07-19.58.35:163][926]LogTemp: Warning: Self: X=-0.342 Y=0.940 Z=0.000
+[2020.06.07-19.58.35:580][951]LogTemp: Warning: Self: X=0.091 Y=0.996 Z=0.000
+[2020.06.07-19.58.35:597][952]LogTemp: Warning: Self: X=0.217 Y=0.976 Z=0.000
+[2020.06.07-19.58.35:613][953]LogTemp: Warning: Self: X=0.164 Y=0.986 Z=0.000
+[2020.06.07-19.58.35:646][955]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.35:662][956]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.35:679][957]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.35:696][958]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.35:712][959]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.35:730][960]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.35:746][961]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.35:764][962]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.35:779][963]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.35:796][964]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.35:814][965]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.35:829][966]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.35:846][967]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.35:863][968]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.35:879][969]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.35:896][970]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.35:913][971]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.35:930][972]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.35:946][973]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.35:963][974]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.35:979][975]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.35:996][976]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.36:013][977]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.36:029][978]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.36:046][979]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.36:063][980]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.36:079][981]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.36:096][982]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.36:113][983]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.36:129][984]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.36:146][985]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.36:164][986]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.36:179][987]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.36:196][988]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.36:213][989]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.36:231][990]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.36:247][991]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.36:263][992]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.36:280][993]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.36:296][994]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.36:314][995]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.36:330][996]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.36:347][997]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.36:396][  0]LogTemp: Warning: Self: X=0.263 Y=0.965 Z=0.000
+[2020.06.07-19.58.36:413][  1]LogTemp: Warning: Self: X=0.287 Y=0.958 Z=0.000
+[2020.06.07-19.58.36:430][  2]LogTemp: Warning: Self: X=0.287 Y=0.958 Z=0.000
+[2020.06.07-19.58.36:447][  3]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.36:496][  6]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.36:513][  7]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.36:530][  8]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.36:547][  9]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.36:563][ 10]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.36:579][ 11]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.36:596][ 12]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.36:613][ 13]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.36:629][ 14]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.36:646][ 15]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.36:663][ 16]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.36:680][ 17]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.36:696][ 18]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.36:713][ 19]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.36:730][ 20]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.36:748][ 21]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.36:763][ 22]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.36:782][ 23]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.37:264][ 52]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.37:280][ 53]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.37:296][ 54]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.37:313][ 55]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.37:331][ 56]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.37:347][ 57]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.37:364][ 58]LogTemp: Warning: Self: X=0.316 Y=0.949 Z=0.000
+[2020.06.07-19.58.37:380][ 59]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:397][ 60]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:413][ 61]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:430][ 62]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:447][ 63]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:463][ 64]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:479][ 65]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:497][ 66]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:512][ 67]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:532][ 68]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:546][ 69]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:563][ 70]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:580][ 71]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:597][ 72]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:613][ 73]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:630][ 74]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:646][ 75]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:665][ 76]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:680][ 77]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:696][ 78]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:712][ 79]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:729][ 80]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:746][ 81]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:763][ 82]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:779][ 83]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:797][ 84]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:813][ 85]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:830][ 86]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:846][ 87]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:863][ 88]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:880][ 89]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:896][ 90]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:913][ 91]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:930][ 92]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:947][ 93]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:963][ 94]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.37:983][ 95]LogTemp: Warning: Hit: Landscape
+[2020.06.07-19.58.37:983][ 95]LogTemp: Warning: Hit: StaticMeshActor
+[2020.06.07-19.58.37:983][ 95]LogTemp: Warning: Hit: BP_GasMask_C
+[2020.06.07-19.58.37:983][ 95]LogTemp: Warning: Self: X=0.447 Y=0.894 Z=0.000
+[2020.06.07-19.58.38:298][114]LogTemp: Warning: Self: X=0.243 Y=-0.970 Z=0.000
+[2020.06.07-19.58.38:330][116]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.38:346][117]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.38:363][118]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.38:379][119]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.39:798][204]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.39:814][205]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.39:832][206]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.40:138][223]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.40:239][229]LogTemp: Warning: Self: X=-0.164 Y=0.986 Z=0.000
+[2020.06.07-19.58.40:838][265]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.40:855][266]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.40:871][267]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.40:890][268]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.40:906][269]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.40:923][270]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.40:940][271]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.40:954][272]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.40:971][273]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.40:988][274]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:005][275]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:022][276]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:039][277]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:055][278]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:072][279]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:088][280]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:105][281]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:122][282]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:138][283]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:156][284]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:174][285]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:188][286]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:206][287]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:222][288]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:238][289]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:255][290]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:272][291]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:289][292]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:305][293]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:322][294]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:339][295]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:355][296]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:371][297]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:388][298]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:405][299]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:421][300]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:438][301]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:457][302]LogTemp: Warning: Hit: Landscape
+[2020.06.07-19.58.41:457][302]LogTemp: Warning: Hit: BP_GasMask_C
+[2020.06.07-19.58.41:457][302]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:472][303]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:488][304]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:505][305]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:521][306]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:538][307]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:555][308]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:571][309]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:589][310]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:604][311]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:621][312]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:638][313]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:654][314]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:671][315]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:688][316]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:705][317]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:721][318]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:738][319]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:754][320]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:772][321]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:788][322]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:805][323]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:822][324]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:838][325]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:855][326]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:872][327]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:888][328]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:906][329]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:922][330]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:939][331]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:955][332]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:971][333]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.41:988][334]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.42:005][335]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.42:021][336]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.42:038][337]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.42:054][338]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.42:071][339]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.42:088][340]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.42:104][341]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.42:121][342]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.42:138][343]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.42:155][344]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.42:172][345]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.42:188][346]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.42:205][347]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.42:221][348]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.42:238][349]LogTemp: Warning: Self: X=0.000 Y=1.000 Z=0.000
+[2020.06.07-19.58.44:139][463]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.07-19.58.44:143][463]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.07-19.58.44:163][463]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.07-19.58.44:164][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.07-19.58.44:164][463]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PLevel1
+[2020.06.07-19.58.44:164][463]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.07-19.58.44:165][463]LogWorld: UWorld::CleanupWorld for PLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-19.58.44:166][463]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.07-19.58.44:175][463]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.07-19.58.44:181][463]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.07-19.58.44:216][463]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.07-19.58.44:219][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.07-19.58.44:223][463]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2020.06.07-19.58.44:243][464]LogPlayLevel: Display: Destroying online subsystem :Context_118
+[2020.06.07-19.58.45:721][552]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.07-19.58.45:749][552]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.07-19.58.45:749][552]PIE: New page: PIE session: PLevel1 (Jun 7, 2020, 11:58:45 AM)
+[2020.06.07-19.58.45:749][552]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PLevel1
+[2020.06.07-19.58.45:781][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030853s)
+[2020.06.07-19.58.45:782][552]LogAIModule: Creating AISystem for world PLevel1
+[2020.06.07-19.58.45:782][552]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2020.06.07-19.58.45:782][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PLevel1.PLevel1 to /Game/Phil/Levels/UEDPIE_0_PLevel1.PLevel1 (0.031891s)
+[2020.06.07-19.58.45:821][552]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2020.06.07-19.58.45:823][552]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.07-19.58.45:823][552]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.07-19.58.45:823][552]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.07-19.58.45:823][552]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.07-19.58.45:823][552]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.07-19.58.45:823][552]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.07-19.58.45:823][552]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.07-19.58.45:823][552]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.07-19.58.45:823][552]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.07-19.58.45:823][552]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.07-19.58.45:849][552]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.07-19.58.45:849][552]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.07-19.58.45:849][552]LogAudioMixer: Display: Is Default: Yes
+[2020.06.07-19.58.45:849][552]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.07-19.58.45:849][552]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.07-19.58.45:849][552]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.07-19.58.45:849][552]LogAudioMixer: Display: Channel Order:
+[2020.06.07-19.58.45:849][552]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.07-19.58.45:849][552]LogAudioMixer: Display: 1: FrontRight
+[2020.06.07-19.58.45:859][552]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.07-19.58.45:860][552]LogInit: FAudioDevice initialized.
+[2020.06.07-19.58.45:869][552]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.07-19.58.45:871][552]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PLevel1.PLevel1 up for play (max tick rate 60) at 2020.06.07-15.58.45
+[2020.06.07-19.58.45:873][552]LogWorld: Bringing up level for play took: 0.002761
+[2020.06.07-19.58.45:873][552]LogOnline: OSS: Creating online subsystem instance for: :Context_119
+[2020.06.07-19.58.45:876][552]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PLevel1.PLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.07-19.58.45:876][552]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PLevel1.PLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.07-19.58.45:880][552]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PLevel1 0.912
+[2020.06.07-19.58.45:881][552]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.45:917][553]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.45:936][554]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.45:956][555]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.45:972][556]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.45:989][557]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:006][558]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:023][559]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:041][560]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:056][561]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:072][562]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:091][563]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:106][564]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:123][565]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:140][566]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:158][567]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:173][568]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:194][569]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:206][570]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:223][571]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:239][572]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:256][573]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:272][574]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:289][575]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:305][576]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:322][577]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:339][578]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:355][579]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:373][580]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:390][581]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:405][582]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:423][583]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:438][584]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:456][585]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:473][586]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:490][587]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:506][588]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:523][589]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:539][590]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:558][591]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:572][592]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:588][593]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:606][594]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:623][595]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:639][596]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:656][597]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:673][598]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:689][599]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:706][600]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:722][601]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:739][602]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:756][603]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:774][604]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:789][605]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:807][606]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:822][607]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:839][608]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:855][609]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:872][610]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:889][611]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:906][612]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:922][613]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:939][614]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:956][615]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:974][616]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.46:989][617]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:006][618]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:022][619]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:042][620]LogTemp: Warning: Hit: Landscape
+[2020.06.07-19.58.47:042][620]LogTemp: Warning: Hit: BP_ObjectiveGiverKillEnemy_C
+[2020.06.07-19.58.47:042][620]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:055][621]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:072][622]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:089][623]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:105][624]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:122][625]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:138][626]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:155][627]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:172][628]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:189][629]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:206][630]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:222][631]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:239][632]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:256][633]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:274][634]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:289][635]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:306][636]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:323][637]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:339][638]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:356][639]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:372][640]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:390][641]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:406][642]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:424][643]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:439][644]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:455][645]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:472][646]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:489][647]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:506][648]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:522][649]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:539][650]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:556][651]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:572][652]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:589][653]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:606][654]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:628][655]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:639][656]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:656][657]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:673][658]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:689][659]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:706][660]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:723][661]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:739][662]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:756][663]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:773][664]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:789][665]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:806][666]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:824][667]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:839][668]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:856][669]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:872][670]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:890][671]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:906][672]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:922][673]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:939][674]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:956][675]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:972][676]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.47:989][677]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:006][678]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:023][679]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:039][680]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:056][681]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:073][682]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:089][683]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:105][684]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:122][685]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:139][686]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:156][687]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:172][688]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:189][689]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:205][690]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:222][691]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:239][692]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:257][693]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:272][694]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:289][695]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:305][696]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:322][697]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:339][698]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:355][699]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:373][700]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:389][701]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:406][702]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:423][703]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:439][704]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:456][705]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:473][706]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:489][707]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:505][708]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:522][709]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:539][710]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:556][711]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:572][712]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:588][713]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:605][714]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:622][715]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:638][716]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:656][717]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:674][718]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:689][719]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:706][720]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:722][721]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:739][722]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:755][723]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:772][724]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:789][725]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:805][726]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:822][727]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:839][728]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:855][729]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:872][730]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:889][731]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:905][732]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:923][733]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:939][734]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:956][735]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:972][736]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.48:989][737]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:005][738]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:022][739]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:039][740]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:056][741]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:072][742]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:089][743]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:106][744]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:124][745]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:140][746]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:156][747]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:173][748]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:189][749]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:206][750]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:223][751]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:239][752]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:255][753]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:272][754]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:289][755]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:306][756]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:322][757]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:339][758]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:356][759]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:373][760]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:389][761]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:406][762]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:425][763]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:439][764]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:456][765]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:473][766]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:489][767]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:506][768]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:523][769]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:539][770]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:555][771]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:573][772]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:589][773]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:605][774]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:622][775]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:639][776]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:656][777]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:673][778]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:690][779]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:706][780]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:723][781]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:739][782]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:756][783]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:773][784]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:789][785]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:806][786]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:823][787]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:839][788]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:856][789]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:873][790]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:890][791]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:906][792]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:922][793]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:939][794]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:955][795]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:972][796]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.49:989][797]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:006][798]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:023][799]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:039][800]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:056][801]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:074][802]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:091][803]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:107][804]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:123][805]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:140][806]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:156][807]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:173][808]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:190][809]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:206][810]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:225][811]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:240][812]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:256][813]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:273][814]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:290][815]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:306][816]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:323][817]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:340][818]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:358][819]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:373][820]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:389][821]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:407][822]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:423][823]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:440][824]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:457][825]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:473][826]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:490][827]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:506][828]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:523][829]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:540][830]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:557][831]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:575][832]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:590][833]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:607][834]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:623][835]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:639][836]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:656][837]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:673][838]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:690][839]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:706][840]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:723][841]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:740][842]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:756][843]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:773][844]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:789][845]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:806][846]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:823][847]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:840][848]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:856][849]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:873][850]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:889][851]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:906][852]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:923][853]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:939][854]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:956][855]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:973][856]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.50:989][857]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.51:007][858]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.51:023][859]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.51:040][860]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.51:057][861]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.51:073][862]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.51:090][863]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.51:107][864]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.51:123][865]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.51:142][866]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.51:157][867]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.51:173][868]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.51:190][869]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.51:206][870]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.51:223][871]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.51:240][872]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.51:256][873]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.51:273][874]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.58.51:290][875]LogTemp: Warning: Self: X=0.447 Y=-0.894 Z=0.000
+[2020.06.07-19.58.51:308][876]LogTemp: Warning: Self: X=0.316 Y=-0.949 Z=0.000
+[2020.06.07-19.58.51:324][877]LogTemp: Warning: Self: X=0.124 Y=-0.992 Z=0.000
+[2020.06.07-19.58.51:341][878]LogTemp: Warning: Self: X=0.179 Y=-0.984 Z=0.000
+[2020.06.07-19.58.51:359][879]LogTemp: Warning: Self: X=0.117 Y=-0.993 Z=0.000
+[2020.06.07-19.58.51:907][912]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.51:925][913]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.51:940][914]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.51:956][915]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.51:973][916]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-19.58.52:123][925]LogTemp: Warning: Self: X=-0.707 Y=-0.707 Z=0.000
+[2020.06.07-19.58.52:142][926]LogTemp: Warning: Self: X=-0.832 Y=-0.555 Z=0.000
+[2020.06.07-19.58.52:157][927]LogTemp: Warning: Self: X=-0.781 Y=-0.625 Z=0.000
+[2020.06.07-19.58.52:173][928]LogTemp: Warning: Self: X=-0.800 Y=-0.600 Z=0.000
+[2020.06.07-19.58.52:190][929]LogTemp: Warning: Self: X=-0.832 Y=-0.555 Z=0.000
+[2020.06.07-19.58.52:207][930]LogTemp: Warning: Self: X=-0.832 Y=-0.555 Z=0.000
+[2020.06.07-19.58.52:223][931]LogTemp: Warning: Self: X=-0.970 Y=-0.243 Z=0.000
+[2020.06.07-19.58.52:240][932]LogTemp: Warning: Self: X=-0.894 Y=-0.447 Z=0.000
+[2020.06.07-19.58.52:257][933]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:273][934]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:290][935]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:306][936]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:323][937]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:340][938]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:356][939]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:373][940]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:389][941]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:406][942]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:423][943]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:440][944]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:456][945]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:473][946]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:490][947]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:507][948]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:523][949]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:543][950]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:557][951]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:573][952]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:590][953]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:607][954]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:625][955]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:639][956]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:656][957]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:674][958]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:690][959]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:707][960]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:723][961]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:740][962]LogTemp: Warning: Self: X=-0.894 Y=0.447 Z=0.000
+[2020.06.07-19.58.52:757][963]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:774][964]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:790][965]LogTemp: Warning: Self: X=-0.894 Y=0.447 Z=0.000
+[2020.06.07-19.58.52:806][966]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.52:826][967]LogTemp: Warning: Self: X=-0.894 Y=0.447 Z=0.000
+[2020.06.07-19.58.52:842][968]LogTemp: Warning: Self: X=-0.981 Y=0.196 Z=0.000
+[2020.06.07-19.58.52:857][969]LogTemp: Warning: Self: X=-0.928 Y=0.371 Z=0.000
+[2020.06.07-19.58.52:874][970]LogTemp: Warning: Self: X=-0.868 Y=0.496 Z=0.000
+[2020.06.07-19.58.52:892][971]LogTemp: Warning: Self: X=-0.857 Y=0.514 Z=0.000
+[2020.06.07-19.58.52:907][972]LogTemp: Warning: Self: X=-0.832 Y=0.555 Z=0.000
+[2020.06.07-19.58.52:925][973]LogTemp: Warning: Self: X=-0.768 Y=0.640 Z=0.000
+[2020.06.07-19.58.52:941][974]LogTemp: Warning: Self: X=-0.707 Y=0.707 Z=0.000
+[2020.06.07-19.58.52:957][975]LogTemp: Warning: Self: X=-0.555 Y=0.832 Z=0.000
+[2020.06.07-19.58.52:973][976]LogTemp: Warning: Self: X=-0.707 Y=0.707 Z=0.000
+[2020.06.07-19.58.52:990][977]LogTemp: Warning: Self: X=-0.707 Y=0.707 Z=0.000
+[2020.06.07-19.58.53:007][978]LogTemp: Warning: Self: X=-0.781 Y=0.625 Z=0.000
+[2020.06.07-19.58.53:025][979]LogTemp: Warning: Self: X=-0.707 Y=0.707 Z=0.000
+[2020.06.07-19.58.53:040][980]LogTemp: Warning: Self: X=-0.768 Y=0.640 Z=0.000
+[2020.06.07-19.58.53:057][981]LogTemp: Warning: Self: X=-0.759 Y=0.651 Z=0.000
+[2020.06.07-19.58.53:074][982]LogTemp: Warning: Self: X=-0.894 Y=0.447 Z=0.000
+[2020.06.07-19.58.53:094][983]LogTemp: Warning: Self: X=-0.789 Y=0.614 Z=0.000
+[2020.06.07-19.58.53:107][984]LogTemp: Warning: Self: X=-0.857 Y=0.514 Z=0.000
+[2020.06.07-19.58.53:123][985]LogTemp: Warning: Self: X=-0.789 Y=0.614 Z=0.000
+[2020.06.07-19.58.53:142][986]LogTemp: Warning: Self: X=-0.800 Y=0.600 Z=0.000
+[2020.06.07-19.58.53:159][987]LogTemp: Warning: Self: X=-0.868 Y=0.496 Z=0.000
+[2020.06.07-19.58.53:178][988]LogTemp: Warning: Self: X=-0.857 Y=0.514 Z=0.000
+[2020.06.07-19.58.53:207][990]LogTemp: Warning: Self: X=-0.707 Y=0.707 Z=0.000
+[2020.06.07-19.58.53:223][991]LogTemp: Warning: Self: X=-0.970 Y=0.243 Z=0.000
+[2020.06.07-19.58.53:257][993]LogTemp: Warning: Self: X=-0.928 Y=0.371 Z=0.000
+[2020.06.07-19.58.53:290][995]LogTemp: Warning: Self: X=-0.970 Y=0.243 Z=0.000
+[2020.06.07-19.58.53:306][996]LogTemp: Warning: Self: X=-0.949 Y=0.316 Z=0.000
+[2020.06.07-19.58.53:324][997]LogTemp: Warning: Self: X=-0.949 Y=0.316 Z=0.000
+[2020.06.07-19.58.53:625][ 15]LogTemp: Warning: Self: X=-0.894 Y=0.447 Z=0.000
+[2020.06.07-19.58.53:639][ 16]LogTemp: Warning: Self: X=-0.894 Y=0.447 Z=0.000
+[2020.06.07-19.58.53:657][ 17]LogTemp: Warning: Self: X=-0.949 Y=0.316 Z=0.000
+[2020.06.07-19.58.53:674][ 18]LogTemp: Warning: Self: X=-0.894 Y=0.447 Z=0.000
+[2020.06.07-19.58.53:690][ 19]LogTemp: Warning: Self: X=-0.707 Y=0.707 Z=0.000
+[2020.06.07-19.58.53:708][ 20]LogTemp: Warning: Self: X=-0.857 Y=0.514 Z=0.000
+[2020.06.07-19.58.53:724][ 21]LogTemp: Warning: Self: X=-0.707 Y=0.707 Z=0.000
+[2020.06.07-19.58.53:740][ 22]LogTemp: Warning: Self: X=-0.781 Y=0.625 Z=0.000
+[2020.06.07-19.58.53:757][ 23]LogTemp: Warning: Self: X=-0.600 Y=0.800 Z=0.000
+[2020.06.07-19.58.53:774][ 24]LogTemp: Warning: Self: X=-0.707 Y=0.707 Z=0.000
+[2020.06.07-19.58.53:790][ 25]LogTemp: Warning: Self: X=-0.832 Y=0.555 Z=0.000
+[2020.06.07-19.58.53:807][ 26]LogTemp: Warning: Self: X=-0.707 Y=0.707 Z=0.000
+[2020.06.07-19.58.53:824][ 27]LogTemp: Warning: Self: X=-0.894 Y=0.447 Z=0.000
+[2020.06.07-19.58.53:989][ 37]LogTemp: Warning: Self: X=-0.894 Y=0.447 Z=0.000
+[2020.06.07-19.58.54:073][ 42]LogTemp: Warning: Self: X=-0.949 Y=0.316 Z=0.000
+[2020.06.07-19.58.54:274][ 54]LogTemp: Warning: Self: X=-0.894 Y=0.447 Z=0.000
+[2020.06.07-19.58.54:323][ 57]LogTemp: Warning: Self: X=-0.949 Y=0.316 Z=0.000
+[2020.06.07-19.58.54:373][ 60]LogTemp: Warning: Self: X=-0.949 Y=0.316 Z=0.000
+[2020.06.07-19.58.54:409][ 62]LogTemp: Warning: Self: X=-0.970 Y=0.243 Z=0.000
+[2020.06.07-19.58.54:425][ 63]LogTemp: Warning: Self: X=-0.894 Y=0.447 Z=0.000
+[2020.06.07-19.58.54:473][ 66]LogTemp: Warning: Self: X=-0.949 Y=0.316 Z=0.000
+[2020.06.07-19.58.54:489][ 67]LogTemp: Warning: Self: X=-0.949 Y=0.316 Z=0.000
+[2020.06.07-19.58.54:506][ 68]LogTemp: Warning: Self: X=-0.949 Y=0.316 Z=0.000
+[2020.06.07-19.58.54:523][ 69]LogTemp: Warning: Self: X=-0.949 Y=0.316 Z=0.000
+[2020.06.07-19.58.54:539][ 70]LogTemp: Warning: Self: X=-0.949 Y=0.316 Z=0.000
+[2020.06.07-19.58.54:607][ 74]LogTemp: Warning: Self: X=-0.894 Y=0.447 Z=0.000
+[2020.06.07-19.58.54:806][ 86]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.54:824][ 87]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.54:839][ 88]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.54:856][ 89]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.54:873][ 90]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.54:890][ 91]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.54:906][ 92]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.54:923][ 93]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.54:940][ 94]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.54:957][ 95]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.54:973][ 96]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.54:990][ 97]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:006][ 98]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:023][ 99]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:040][100]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:057][101]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:073][102]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:089][103]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:106][104]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:123][105]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:139][106]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:156][107]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:173][108]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:190][109]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:206][110]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:223][111]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:240][112]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:257][113]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:273][114]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:291][115]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:307][116]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:323][117]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:340][118]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:357][119]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:375][120]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:390][121]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:407][122]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:423][123]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:440][124]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:456][125]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:473][126]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:490][127]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:507][128]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:523][129]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:542][130]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:557][131]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:573][132]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:590][133]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:607][134]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:623][135]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:640][136]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:657][137]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:675][138]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:690][139]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:707][140]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:723][141]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:740][142]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:756][143]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:773][144]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:790][145]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:807][146]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:823][147]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:839][148]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:856][149]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:873][150]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:889][151]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:907][152]LogTemp: Warning: Hit: Landscape
+[2020.06.07-19.58.55:907][152]LogTemp: Warning: Hit: BP_GasMask_C
+[2020.06.07-19.58.55:908][152]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:924][153]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:939][154]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:956][155]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:973][156]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.55:989][157]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:006][158]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:023][159]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:040][160]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:056][161]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:073][162]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:090][163]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:106][164]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:123][165]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:140][166]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:157][167]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:173][168]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:190][169]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:206][170]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:223][171]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:240][172]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:257][173]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:273][174]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:291][175]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:306][176]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:323][177]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:339][178]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:357][179]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:373][180]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:389][181]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:406][182]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:423][183]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:439][184]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:457][185]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:473][186]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:490][187]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:506][188]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:524][189]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:540][190]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:557][191]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:573][192]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:590][193]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:608][194]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:623][195]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:640][196]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:656][197]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:673][198]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:690][199]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:706][200]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:724][201]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:742][202]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:757][203]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:773][204]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:790][205]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:807][206]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:823][207]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:842][208]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:857][209]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:874][210]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:890][211]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:907][212]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:923][213]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:939][214]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:956][215]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:973][216]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.56:990][217]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.57:006][218]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.57:023][219]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.57:039][220]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.57:057][221]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.57:073][222]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.57:091][223]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.57:109][224]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.58.59:573][372]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.07-19.58.59:592][372]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.07-19.58.59:613][372]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.07-19.58.59:613][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.07-19.58.59:613][372]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PLevel1
+[2020.06.07-19.58.59:613][372]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.07-19.58.59:613][372]LogWorld: UWorld::CleanupWorld for PLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-19.58.59:614][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.07-19.58.59:629][372]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.07-19.58.59:635][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.07-19.58.59:673][372]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.07-19.58.59:675][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.07-19.58.59:680][372]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2020.06.07-19.58.59:698][373]LogPlayLevel: Display: Destroying online subsystem :Context_119
+[2020.06.07-19.59.35:493][534]LogHotReload: New module detected: UE4Editor-Project-0127.dll
+[2020.06.07-19.59.36:175][537]LogHotReload: Starting Hot-Reload from IDE
+[2020.06.07-19.59.36:233][537]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.06.07-19.59.36:345][537]LogClass: EGunState HotReload.
+[2020.06.07-19.59.36:345][537]LogClass: EFEnemyMoveStat HotReload.
+[2020.06.07-19.59.36:345][537]LogClass: PlayerStats HotReload.
+[2020.06.07-19.59.36:373][537]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0004 seconds. Added 34 classes and 3 folders.
+[2020.06.07-19.59.36:379][537]Display: HotReload successful (42 functions remapped  1 scriptstructs remapped)
+[2020.06.07-19.59.36:503][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.06.07-19.59.36:518][537]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 3059 classes and 728 folders.
+[2020.06.07-19.59.36:523][537]Display: HotReload took  0.3s.
+[2020.06.07-19.59.38:013][578]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.07-19.59.38:045][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.07-19.59.38:045][578]PIE: New page: PIE session: PLevel1 (Jun 7, 2020, 11:59:38 AM)
+[2020.06.07-19.59.38:045][578]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PLevel1
+[2020.06.07-19.59.38:075][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030071s)
+[2020.06.07-19.59.38:076][578]LogAIModule: Creating AISystem for world PLevel1
+[2020.06.07-19.59.38:076][578]LogPlayLevel: PIE: World Init took: (0.000775s)
+[2020.06.07-19.59.38:076][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PLevel1.PLevel1 to /Game/Phil/Levels/UEDPIE_0_PLevel1.PLevel1 (0.031178s)
+[2020.06.07-19.59.38:147][578]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2020.06.07-19.59.38:148][578]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.07-19.59.38:148][578]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.07-19.59.38:148][578]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.07-19.59.38:148][578]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.07-19.59.38:148][578]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.07-19.59.38:148][578]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.07-19.59.38:148][578]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.07-19.59.38:148][578]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.07-19.59.38:148][578]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.07-19.59.38:148][578]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.07-19.59.38:170][578]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.07-19.59.38:170][578]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.07-19.59.38:170][578]LogAudioMixer: Display: Is Default: Yes
+[2020.06.07-19.59.38:170][578]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.07-19.59.38:170][578]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.07-19.59.38:170][578]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.07-19.59.38:170][578]LogAudioMixer: Display: Channel Order:
+[2020.06.07-19.59.38:170][578]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.07-19.59.38:170][578]LogAudioMixer: Display: 1: FrontRight
+[2020.06.07-19.59.38:179][578]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.07-19.59.38:181][578]LogInit: FAudioDevice initialized.
+[2020.06.07-19.59.38:190][578]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.07-19.59.38:192][578]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PLevel1.PLevel1 up for play (max tick rate 60) at 2020.06.07-15.59.38
+[2020.06.07-19.59.38:193][578]LogWorld: Bringing up level for play took: 0.002735
+[2020.06.07-19.59.38:193][578]LogOnline: OSS: Creating online subsystem instance for: :Context_120
+[2020.06.07-19.59.38:196][578]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PLevel1.PLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.07-19.59.38:196][578]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PLevel1.PLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.07-19.59.38:199][578]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PLevel1 -0.77
+[2020.06.07-19.59.38:199][578]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:232][579]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:246][580]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:263][581]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:279][582]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:296][583]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:313][584]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:328][585]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:345][586]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:362][587]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:379][588]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:395][589]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:412][590]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:429][591]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:445][592]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:462][593]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:479][594]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:496][595]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:512][596]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:535][597]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:546][598]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:563][599]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:579][600]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:596][601]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:613][602]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:630][603]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:646][604]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:663][605]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:680][606]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:696][607]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:715][608]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:733][609]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:747][610]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:765][611]LogTemp: Warning: Hit: Landscape
+[2020.06.07-19.59.38:765][611]LogTemp: Warning: Hit: BP_ObjectiveGiverKillEnemy_C
+[2020.06.07-19.59.38:765][611]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:780][612]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:797][613]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:812][614]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:829][615]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:846][616]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:863][617]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:879][618]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:896][619]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:912][620]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.38:929][621]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.39:486][654]LogTemp: Warning: Self: X=0.949 Y=-0.316 Z=0.000
+[2020.06.07-19.59.39:583][660]LogTemp: Warning: Self: X=0.954 Y=-0.301 Z=0.000
+[2020.06.07-19.59.39:598][661]LogTemp: Warning: Self: X=0.956 Y=-0.294 Z=0.000
+[2020.06.07-19.59.39:613][662]LogTemp: Warning: Self: X=0.974 Y=-0.225 Z=0.000
+[2020.06.07-19.59.39:631][663]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.39:647][664]LogTemp: Warning: Self: X=0.868 Y=0.496 Z=0.000
+[2020.06.07-19.59.39:664][665]LogTemp: Warning: Self: X=0.824 Y=0.567 Z=0.000
+[2020.06.07-19.59.39:680][666]LogTemp: Warning: Self: X=0.825 Y=0.565 Z=0.000
+[2020.06.07-19.59.39:698][667]LogTemp: Warning: Self: X=0.781 Y=0.625 Z=0.000
+[2020.06.07-19.59.39:714][668]LogTemp: Warning: Self: X=0.562 Y=0.827 Z=0.000
+[2020.06.07-19.59.39:846][676]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.39:862][677]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.39:880][678]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.39:897][679]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-19.59.44:514][956]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:532][957]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:547][958]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:564][959]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:580][960]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:597][961]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:614][962]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:630][963]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:646][964]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:663][965]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:680][966]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:697][967]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:714][968]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:731][969]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:747][970]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:764][971]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:781][972]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:797][973]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:814][974]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:830][975]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:847][976]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:864][977]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:882][978]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:897][979]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:914][980]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:930][981]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:947][982]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:964][983]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:980][984]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.44:999][985]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.45:014][986]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.45:031][987]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.45:047][988]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.45:063][989]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.45:080][990]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.45:096][991]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.45:113][992]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.45:131][993]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.45:148][994]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.45:163][995]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.45:181][996]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.45:197][997]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.45:213][998]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.45:230][999]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.45:246][  0]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.45:265][  1]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.45:281][  2]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.45:298][  3]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.45:313][  4]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.45:330][  5]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.45:347][  6]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.45:364][  7]LogTemp: Warning: Self: X=-1.000 Y=-0.000 Z=0.000
+[2020.06.07-19.59.45:365][  7]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.07-19.59.45:365][  7]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.07-19.59.45:365][  7]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.07-19.59.45:365][  7]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PLevel1
+[2020.06.07-19.59.45:365][  7]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.07-19.59.45:365][  7]LogWorld: UWorld::CleanupWorld for PLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-19.59.45:366][  7]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.07-19.59.45:372][  7]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.07-19.59.45:378][  7]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.07-19.59.45:418][  7]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.07-19.59.45:421][  7]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.07-19.59.45:438][  7]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2020.06.07-19.59.45:487][  9]LogPlayLevel: Display: Destroying online subsystem :Context_120
+[2020.06.07-19.59.47:865][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.06.07-19.59.47:923][148]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PLevel14ED0A8CD459A04806CA3E2B2BB1E5725.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PLevel1.umap'
+[2020.06.07-19.59.48:002][148]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PLevel1_BuiltData2DA487E54BD4D4717B16C89434B41604.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PLevel1_BuiltData.uasset'
+[2020.06.07-19.59.48:020][148]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.07-19.59.48:020][148]LogContentValidation: Display: Validating World /Game/Phil/Levels/PLevel1.PLevel1
+[2020.06.07-19.59.48:020][148]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PLevel1_BuiltData.PLevel1_BuiltData
+[2020.06.07-20.01.46:860][546]LogHotReload: New module detected: UE4Editor-Project-0128.dll
+[2020.06.07-20.01.47:541][549]LogHotReload: Starting Hot-Reload from IDE
+[2020.06.07-20.01.47:603][549]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.06.07-20.01.47:707][549]LogClass: EGunState HotReload.
+[2020.06.07-20.01.47:707][549]LogClass: EFEnemyMoveStat HotReload.
+[2020.06.07-20.01.47:707][549]LogClass: PlayerStats HotReload.
+[2020.06.07-20.01.47:734][549]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0004 seconds. Added 34 classes and 3 folders.
+[2020.06.07-20.01.47:740][549]Display: HotReload successful (42 functions remapped  1 scriptstructs remapped)
+[2020.06.07-20.01.47:863][549]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.06.07-20.01.47:878][549]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 3059 classes and 728 folders.
+[2020.06.07-20.01.47:885][549]Display: HotReload took  0.3s.
+[2020.06.07-20.01.49:292][584]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.07-20.01.49:323][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.07-20.01.49:323][584]PIE: New page: PIE session: PLevel1 (Jun 7, 2020, 12:01:49 PM)
+[2020.06.07-20.01.49:323][584]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PLevel1
+[2020.06.07-20.01.49:352][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029104s)
+[2020.06.07-20.01.49:353][584]LogAIModule: Creating AISystem for world PLevel1
+[2020.06.07-20.01.49:354][584]LogPlayLevel: PIE: World Init took: (0.000980s)
+[2020.06.07-20.01.49:354][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PLevel1.PLevel1 to /Game/Phil/Levels/UEDPIE_0_PLevel1.PLevel1 (0.030223s)
+[2020.06.07-20.01.49:421][584]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2020.06.07-20.01.49:421][584]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.07-20.01.49:421][584]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.07-20.01.49:421][584]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.07-20.01.49:421][584]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.07-20.01.49:421][584]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.07-20.01.49:421][584]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.07-20.01.49:421][584]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.07-20.01.49:421][584]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.07-20.01.49:421][584]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.07-20.01.49:421][584]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.07-20.01.49:444][584]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.07-20.01.49:444][584]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.07-20.01.49:444][584]LogAudioMixer: Display: Is Default: Yes
+[2020.06.07-20.01.49:444][584]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.07-20.01.49:444][584]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.07-20.01.49:444][584]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.07-20.01.49:444][584]LogAudioMixer: Display: Channel Order:
+[2020.06.07-20.01.49:444][584]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.07-20.01.49:444][584]LogAudioMixer: Display: 1: FrontRight
+[2020.06.07-20.01.49:454][584]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.07-20.01.49:455][584]LogInit: FAudioDevice initialized.
+[2020.06.07-20.01.49:463][584]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.07-20.01.49:465][584]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PLevel1.PLevel1 up for play (max tick rate 60) at 2020.06.07-16.01.49
+[2020.06.07-20.01.49:467][584]LogWorld: Bringing up level for play took: 0.002870
+[2020.06.07-20.01.49:467][584]LogOnline: OSS: Creating online subsystem instance for: :Context_121
+[2020.06.07-20.01.49:470][584]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PLevel1.PLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.07-20.01.49:470][584]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PLevel1.PLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.07-20.01.49:473][584]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PLevel1 0.504
+[2020.06.07-20.01.49:473][584]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:503][585]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:519][586]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:536][587]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:552][588]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:569][589]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:586][590]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:603][591]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:620][592]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:636][593]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:653][594]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:669][595]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:687][596]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:702][597]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:719][598]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:736][599]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:752][600]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:772][601]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:785][602]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:802][603]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:819][604]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:837][605]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:852][606]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:870][607]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:888][608]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:905][609]LogTemp: Warning: Hit: Landscape
+[2020.06.07-20.01.49:905][609]LogTemp: Warning: Hit: BP_ObjectiveGiverKillEnemy_C
+[2020.06.07-20.01.49:905][609]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:919][610]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:936][611]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:952][612]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:969][613]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.49:986][614]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.50:003][615]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.50:020][616]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.50:036][617]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.50:052][618]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.50:070][619]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.50:087][620]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.50:103][621]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.50:120][622]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.50:136][623]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.51:803][723]LogTemp: Warning: Self: X=0.243 Y=-0.970 Z=0.000
+[2020.06.07-20.01.51:820][724]LogTemp: Warning: Self: X=0.243 Y=-0.970 Z=0.000
+[2020.06.07-20.01.51:836][725]LogTemp: Warning: Self: X=0.243 Y=-0.970 Z=0.000
+[2020.06.07-20.01.51:852][726]LogTemp: Warning: Self: X=0.243 Y=-0.970 Z=0.000
+[2020.06.07-20.01.51:869][727]LogTemp: Warning: Self: X=0.243 Y=-0.970 Z=0.000
+[2020.06.07-20.01.51:887][728]LogTemp: Warning: Self: X=0.243 Y=-0.970 Z=0.000
+[2020.06.07-20.01.51:904][729]LogTemp: Warning: Self: X=0.243 Y=-0.970 Z=0.000
+[2020.06.07-20.01.51:920][730]LogTemp: Warning: Self: X=0.243 Y=-0.970 Z=0.000
+[2020.06.07-20.01.51:936][731]LogTemp: Warning: Self: X=0.243 Y=-0.970 Z=0.000
+[2020.06.07-20.01.51:953][732]LogTemp: Warning: Self: X=0.243 Y=-0.970 Z=0.000
+[2020.06.07-20.01.51:970][733]LogTemp: Warning: Self: X=0.243 Y=-0.970 Z=0.000
+[2020.06.07-20.01.51:986][734]LogTemp: Warning: Self: X=0.243 Y=-0.970 Z=0.000
+[2020.06.07-20.01.52:003][735]LogTemp: Warning: Self: X=0.243 Y=-0.970 Z=0.000
+[2020.06.07-20.01.52:020][736]LogTemp: Warning: Self: X=0.243 Y=-0.970 Z=0.000
+[2020.06.07-20.01.55:257][930]LogTemp: Warning: Self: X=0.204 Y=-0.979 Z=0.000
+[2020.06.07-20.01.55:274][931]LogTemp: Warning: Self: X=0.447 Y=-0.894 Z=0.000
+[2020.06.07-20.01.55:291][932]LogTemp: Warning: Self: X=0.707 Y=-0.707 Z=0.000
+[2020.06.07-20.01.55:307][933]LogTemp: Warning: Self: X=0.747 Y=-0.664 Z=0.000
+[2020.06.07-20.01.55:407][939]LogTemp: Warning: Self: X=0.995 Y=-0.100 Z=0.000
+[2020.06.07-20.01.55:424][940]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.55:773][961]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.55:790][962]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.55:806][963]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.55:823][964]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.55:840][965]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.55:856][966]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.55:873][967]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.55:890][968]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.55:906][969]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.55:923][970]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.55:940][971]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.55:956][972]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.55:972][973]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.55:989][974]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:006][975]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:023][976]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:039][977]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:056][978]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:072][979]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:089][980]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:106][981]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:123][982]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:139][983]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:156][984]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:173][985]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:189][986]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:206][987]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:223][988]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:240][989]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:256][990]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:273][991]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:289][992]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:306][993]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:323][994]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:339][995]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:356][996]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:374][997]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:390][998]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:406][999]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:423][  0]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:440][  1]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:456][  2]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:473][  3]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:490][  4]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:507][  5]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:523][  6]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:540][  7]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:556][  8]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:573][  9]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:590][ 10]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:606][ 11]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:623][ 12]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:639][ 13]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:656][ 14]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:673][ 15]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:689][ 16]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:706][ 17]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:723][ 18]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:740][ 19]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:756][ 20]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:776][ 21]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:789][ 22]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:807][ 23]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:823][ 24]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:840][ 25]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:857][ 26]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:873][ 27]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:889][ 28]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:906][ 29]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:923][ 30]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:940][ 31]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:956][ 32]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:973][ 33]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.56:989][ 34]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.57:006][ 35]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.57:023][ 36]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.57:039][ 37]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.57:056][ 38]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.57:074][ 39]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.57:090][ 40]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.57:106][ 41]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.57:123][ 42]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.57:139][ 43]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.57:156][ 44]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.57:173][ 45]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.57:190][ 46]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.57:206][ 47]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.57:224][ 48]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.57:240][ 49]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.07-20.01.57:940][ 91]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-20.01.57:956][ 92]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-20.01.57:972][ 93]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-20.01.57:989][ 94]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-20.01.58:006][ 95]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.07-20.01.58:007][ 95]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.07-20.01.58:007][ 95]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.07-20.01.58:007][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.07-20.01.58:008][ 95]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PLevel1
+[2020.06.07-20.01.58:008][ 95]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.07-20.01.58:008][ 95]LogWorld: UWorld::CleanupWorld for PLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-20.01.58:008][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.07-20.01.58:014][ 95]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.07-20.01.58:021][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.07-20.01.58:056][ 95]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.07-20.01.58:059][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.07-20.01.58:080][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2020.06.07-20.01.58:125][ 97]LogPlayLevel: Display: Destroying online subsystem :Context_121
+[2020.06.07-20.01.58:829][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.06.07-20.01.58:889][136]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PLevel1CD8F856E40066EA46BF6708E0611DFA5.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PLevel1.umap'
+[2020.06.07-20.01.58:972][136]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PLevel1_BuiltData90CEBDF845491CF9C6B92E99DCDB23B0.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PLevel1_BuiltData.uasset'
+[2020.06.07-20.01.58:992][136]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.07-20.01.58:992][136]LogContentValidation: Display: Validating World /Game/Phil/Levels/PLevel1.PLevel1
+[2020.06.07-20.01.58:992][136]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PLevel1_BuiltData.PLevel1_BuiltData

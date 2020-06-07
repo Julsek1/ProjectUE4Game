@@ -99,7 +99,11 @@ void ATwinStickShooterPlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	UAISense_Hearing::ReportNoiseEvent(this, GetActorLocation(), 1, this, 300, FName("Sound"));
+	if (GetVelocity() != FVector(0.f, 0.f, 0.f))
+	{
+		UAISense_Hearing::ReportNoiseEvent(this, GetActorLocation(), 1, this, 300, FName("Sound"));
+	}
+
 
 	//UE_LOG(LogTemp, Warning, TEXT("Max walk speed: %f"), GetCharacterMovement()->GetMaxSpeed());
 
