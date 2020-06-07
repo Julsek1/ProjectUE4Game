@@ -9,7 +9,7 @@
 // Sets default values
 AParentEnemy::AParentEnemy()
 {
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	WidgetComponent = CreateDefaultSubobject<UWidgetComponent>(TEXT("Widget"));
@@ -50,12 +50,24 @@ void AParentEnemy::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 void AParentEnemy::GetStunned()
 {
-	bIsStunned = true;
-	GetWorldTimerManager().SetTimer(StunTimerHandle, this, &AParentEnemy::PurgeStun, StunDuration, false);
+	if (!bStunnedRecently)
+	{
+		bStunnedRecently = true;
+		GetWorldTimerManager().SetTimer(StunCooldownTimerHandle, this, &AParentEnemy::StunCooldownElapsed, StunCooldown, false);
+
+		bIsStunned = true;
+		GetWorldTimerManager().SetTimer(StunTimerHandle, this, &AParentEnemy::PurgeStun, StunDuration, false);
+	}
 }
 
 void AParentEnemy::PurgeStun()
 {
 	bIsStunned = false;
 	GetWorldTimerManager().ClearTimer(StunTimerHandle);
+}
+
+void AParentEnemy::StunCooldownElapsed()
+{
+	bStunnedRecently = false;
+	GetWorldTimerManager().ClearTimer(StunCooldownTimerHandle);
 }

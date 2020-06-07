@@ -43,8 +43,12 @@ public:
 	UFUNCTION(BlueprintCallable)
 		virtual void GetStunned();
 	void PurgeStun();
-	float StunDuration = 0.35f;
+	float StunDuration = 0.5f;
 	FTimerHandle StunTimerHandle;
 	UPROPERTY(BlueprintReadOnly)
 		bool bIsStunned = false;
+	FTimerHandle StunCooldownTimerHandle;
+	float StunCooldown = 2.f;
+	bool bStunnedRecently = false;
+	void StunCooldownElapsed();
 };

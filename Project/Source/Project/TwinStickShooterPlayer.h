@@ -105,7 +105,8 @@ public:
 
 	//Melee
 	float MeleeDamage = 0.2f;
-	float MeleeRange = 200.f;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		float MeleeRange = 150.f;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		float MeleeCooldown = 0.525f;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
@@ -122,7 +123,7 @@ private:
 	float CharacterRotationX = 0.f;
 	float CharacterRotationY = 0.f;
 	void Rotate();
-	
+
 	bool bIsFiring = false;
 	void FireButtonDown();
 	void FireButtonUp();
