@@ -31,6 +31,10 @@ struct FPlayerStats
 	UPROPERTY(VisibleAnywhere, Category = "SavedData")
 	FRotator PlayerRotation;
 
+	UPROPERTY(VisibleAnywhere, Category = "SavedData")
+	FString Item;
+
+
 };
 
 UCLASS()

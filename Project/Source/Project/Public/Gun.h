@@ -32,6 +32,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Pickup")
 	EGunState GunState;
 
+	UPROPERTY(EditDefaultsOnly, Category = "Data")
+	FString Name;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "SkMesh")
 	class USkeletalMeshComponent* SkMesh;
 

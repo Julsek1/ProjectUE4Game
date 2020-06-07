@@ -24,6 +24,9 @@ public:
 	// Sets default values for this character's properties
 	AJBasePlayer();
 
+UPROPERTY(EditDefaultsOnly, Category = "StoredData")
+TSubclassOf<class APickupVault> ItemVault;
+
 UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
 class UParticleSystem* TakeHitPS;
 

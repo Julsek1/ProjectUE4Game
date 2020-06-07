@@ -9,4 +9,6 @@ UJSaveGame::UJSaveGame()
 	NameOfPlayer = TEXT("John Doe");
 
 	IndexUser = 0;
+
+	PlayerStats.Item = TEXT("");
 }

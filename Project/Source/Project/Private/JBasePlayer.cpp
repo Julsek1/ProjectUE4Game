@@ -10,6 +10,7 @@
 #include "GameFramework/Controller.h"
 #include "Gun.h"
 #include "Sound/SoundCue.h"
+#include "PickupVault.h"
 #include "JFollowEnemy.h"
 #include "Animation/AnimInstance.h"
 #include "JSaveGame.h"
@@ -308,6 +309,11 @@ void AJBasePlayer::SaveGame()
 	SaveGameInst->PlayerStats.PlayerLocation = GetActorLocation();
 	SaveGameInst->PlayerStats.PlayerRotation = GetActorRotation();
 
+	if (GunEquipped)
+	{
+		SaveGameInst->PlayerStats.Item = GunEquipped->Name;
+	}
+
 	UGameplayStatics::SaveGameToSlot(SaveGameInst, SaveGameInst->NameOfPlayer, SaveGameInst->IndexUser);
 
 }
@@ -320,6 +326,18 @@ void AJBasePlayer::LoadGame(bool Setpos)
 	Hp = LoadGameInst->PlayerStats.Hp;
 	MaxHp = LoadGameInst->PlayerStats.MaxHp;
 	Collectibles = LoadGameInst->PlayerStats.Collectibles;
+
+	if (ItemVault)
+	{
+		APickupVault* Items =  GetWorld()->SpawnActor<APickupVault>(ItemVault);
+		if (Items)
+		{
+			FString ItemName = LoadGameInst->PlayerStats.Item;
+			AGun* ItemtoUse = GetWorld()->SpawnActor<AGun>(Items->InventoryBP[ItemName]);
+			ItemtoUse->UseGun(this);
+		}
+	}
+
 
 	if (Setpos)
 	{
