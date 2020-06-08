@@ -68,6 +68,8 @@ class USoundCue* DamageSound;
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stats")
  float AnnexPace;
 
+
+
  //check if player has been rotated towards enemy
  bool IsAnnexed;
 
@@ -210,8 +212,14 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void PlayerTerminated();
 
+	//Crouch
+	UFUNCTION()
+	void CrouchBegin();
+
+	UFUNCTION()
+	void CrouchEnd();
+
 	//Jump
 	virtual void Jump() override;
-	
 	
 };

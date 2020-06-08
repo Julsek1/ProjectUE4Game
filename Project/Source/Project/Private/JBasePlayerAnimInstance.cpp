@@ -26,5 +26,6 @@ void UJBasePlayerAnimInstance::UpdateAnimationProperties()
 		MovementSpeed = LateralSpeed.Size();
 
 		bIsInAir = Pawn->GetMovementComponent()->IsFalling();
+		bIsCrouching = Pawn->GetMovementComponent()->IsCrouching();
 	}
 }

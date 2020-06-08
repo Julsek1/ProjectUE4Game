@@ -120,6 +120,9 @@ void AJBasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AJBasePlayer::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &AJBasePlayer::StopJumping);
 
+	PlayerInputComponent->BindAction("Crouching", IE_Pressed, this, &AJBasePlayer::CrouchBegin);
+	PlayerInputComponent->BindAction("Crouching", IE_Released, this, &AJBasePlayer::CrouchEnd);
+
 	PlayerInputComponent->BindAction("EquipItem", IE_Pressed, this, &AJBasePlayer::IDown);
 	PlayerInputComponent->BindAction("EquipItem", IE_Released, this, &AJBasePlayer::IUp);
 
@@ -406,6 +409,16 @@ void AJBasePlayer::PlayerTerminated()
 {
 	GetMesh()->bPauseAnims = true;
 	GetMesh()->bNoSkeletonUpdate = true;
+}
+
+void AJBasePlayer::CrouchBegin()
+{
+	Crouch();
+}
+
+void AJBasePlayer::CrouchEnd()
+{
+	UnCrouch();
 }
 
 void AJBasePlayer::Jump()
