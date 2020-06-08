@@ -14,7 +14,7 @@
 #include "ParentEnemy.h"
 #include "Perception/AISense_Hearing.h"
 //#include "Shotgun.h"
-#include "Grenade.h"
+//#include "Grenade.h"
 
 
 // Sets default values
@@ -313,11 +313,11 @@ void ATwinStickShooterPlayer::MeleeAttack()
 		Ignore.Add(this);
 		TArray<AActor*> OutHits;
 
-		UKismetSystemLibrary::SphereOverlapActors(this, GetActorLocation(), MeleeRange, Query, AActor::StaticClass(), Ignore, OutHits);
+		UKismetSystemLibrary::SphereOverlapActors(this, GetActorLocation(), MeleeRange, Query, AParentEnemy::StaticClass(), Ignore, OutHits);
 
 		for (auto Enemy : OutHits)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("Hit: %s"), *Enemy->GetClass()->GetName());
+			//UE_LOG(LogTemp, Warning, TEXT("Hit: %s"), *Enemy->GetClass()->GetName());
 
 			if (Cast<AParentEnemy>(Enemy))
 			{

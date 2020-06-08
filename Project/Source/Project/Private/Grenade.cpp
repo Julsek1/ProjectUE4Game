@@ -3,6 +3,11 @@
 
 #include "Grenade.h"
 
+//#include "Kismet/GameplayStatics.h"
+#include "Kismet/KismetSystemLibrary.h"
+#include "ParentEnemy.h"
+
+
 // Sets default values
 AGrenade::AGrenade()
 {
@@ -19,8 +24,43 @@ AGrenade::AGrenade()
 void AGrenade::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	GetWorldTimerManager().SetTimer(GrenadeFuseTimerHandle, this, &AGrenade::Explode, GrenadeFuseLength, false);
 }
+
+void AGrenade::Explode()
+{
+	GetWorldTimerManager().ClearTimer(GrenadeFuseTimerHandle);
+
+	TArray<TEnumAsByte<EObjectTypeQuery>> Query;
+	TArray<AActor*> Ignore;
+	TArray<AActor*> OutHits;
+
+	UKismetSystemLibrary::SphereOverlapActors(this, GetActorLocation(), BlastRadius, Query, AParentEnemy::StaticClass(), Ignore, OutHits);
+
+	for (auto Enemy : OutHits)
+	{
+		//UE_LOG(LogTemp, Warning, TEXT("Hit: %s"), *Enemy->GetClass()->GetName());
+
+		if (Cast<AParentEnemy>(Enemy))
+		{
+			FVector Difference = Enemy->GetActorLocation() - /*UGameplayStatics::GetPlayerCharacter(this, 0)->*/GetActorLocation();
+			FVector Direction;
+			float Length;
+			Difference.ToDirectionAndLength(Direction, Length);
+			Cast<AParentEnemy>(Enemy)->GetHit(GrenadeDamage, 300000.f, Direction);
+		}
+	}
+
+	Destroy();
+}
+void AGrenade::NotifyActorBeginOverlap(AActor* Other)
+{
+	if (Cast<AParentEnemy>(Other) != nullptr)
+	{
+		Explode();
+	}
+}
+
 
 // Called every frame
 //void AGrenade::Tick(float DeltaTime)

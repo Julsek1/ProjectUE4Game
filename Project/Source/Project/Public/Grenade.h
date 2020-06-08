@@ -7,6 +7,8 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "GameFramework/ProjectileMovementComponent.h"
+#include "TimerManager.h"
+
 #include "Grenade.generated.h"
 
 UCLASS()
@@ -31,4 +33,12 @@ public:
 		UStaticMeshComponent* Mesh = nullptr;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UProjectileMovementComponent* ProjectileComponent = nullptr;
+	
+	FTimerHandle GrenadeFuseTimerHandle;
+	void Explode();
+	float GrenadeFuseLength = 2.f;
+	float GrenadeDamage = 100.f;
+	float BlastRadius = 500.f;
+	virtual void NotifyActorBeginOverlap(AActor* Other) override;
+
 };

@@ -44,7 +44,12 @@ void AAssaultRifle::Fire(USceneComponent* Location)
 		if (OutHits.Num() > 0 && Cast<AParentEnemy>(OutHits[0].GetActor()))
 		{
 			//OutHit.GetActor()->Destroy();
-			Cast<AParentEnemy>(OutHits[0].GetActor())->GetHit(Damage, 25.f, End - Start);
+			FVector Difference = End - Start;
+			FVector Direction;
+			float Length;
+			Difference.ToDirectionAndLength(Direction, Length);
+
+			Cast<AParentEnemy>(OutHits[0].GetActor())->GetHit(Damage, 25000.f, Direction);
 		}
 
 		//if (Cast<AParentEnemy>(OutHit.GetActor()))

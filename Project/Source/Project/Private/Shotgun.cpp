@@ -49,7 +49,12 @@ void AShotgun::Fire(USceneComponent* Location)
 			{
 				if (Cast<AParentEnemy>(OutHits[j].GetActor()))
 				{
-					Cast<AParentEnemy>(OutHits[j].GetActor())->GetHit(Damage, 200.f, End - Start);
+					FVector Difference = End - Start;
+					FVector Direction;
+					float Length;
+					Difference.ToDirectionAndLength(Direction, Length);
+
+					Cast<AParentEnemy>(OutHits[j].GetActor())->GetHit(Damage, 100000.f, Direction);
 				}
 			}
 
