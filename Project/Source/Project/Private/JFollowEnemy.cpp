@@ -80,7 +80,7 @@ void AJFollowEnemy::BeginPlay()
 	BoxCollFight->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
 	BoxCollFight->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
 
-	//SetFEnemyMovStatus(EFEnemyMoveStat::FEMS_Idle);
+	
 
 }
 
@@ -88,6 +88,7 @@ void AJFollowEnemy::BeginPlay()
 void AJFollowEnemy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	
 
 }
 
@@ -144,13 +145,19 @@ void AJFollowEnemy::AttackSphereOnOverlapBegin(UPrimitiveComponent* OverlappedCo
 		{
 			if (Player)
 			{
+				IsOverlapAttackSphere = true;
 				IsWithGoal = true;
 				Player->SetFightGoal(this);
 				AttackTarget = Player;
-				IsOverlapAttackSphere = true;
+				
 				Player->FightGoalUpdate();
-				float FightLapsus = FMath::RandRange(0.2f, 1.5f);
+
+				float FightLapsus = FMath::RandRange(0.5f, 1.5f);
 				GetWorldTimerManager().SetTimer(FightTempo, this, &AJFollowEnemy::Fight, FightLapsus);
+				/*Fight();*/
+				//FightFinished();
+
+				
 			}
 		}
 	}
@@ -280,17 +287,21 @@ void AJFollowEnemy::Fight()
 		if (!IsFighting)
 		{
 			IsFighting = true;
-			UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
-			if (AnimationInst)
-			{
-				AnimationInst->Montage_Play(FightMontage, 1.5f);
-				AnimationInst->Montage_JumpToSection(FName("Attack"), FightMontage);
-			}
-			if (PunchSound)
-			{
-				UGameplayStatics::PlaySound2D(this, PunchSound);
-			}
+
+				UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
+				if (AnimationInst)
+				{
+					AnimationInst->Montage_Play(FightMontage, 1.5f);
+					AnimationInst->Montage_JumpToSection(FName("Attack"), FightMontage);
+				}
+				if (PunchSound)
+				{
+					UGameplayStatics::PlaySound2D(this, PunchSound);
+				}
+
+			
 		}
+		FightFinished();
 	}
 	
 }
@@ -307,7 +318,7 @@ void AJFollowEnemy::FightFinished()
 	IsFighting = false;
 	if (IsOverlapAttackSphere)
 	{
-		float FightLapsus = FMath::RandRange(0.5f, 2.5f);
+		float FightLapsus = FMath::RandRange(0.5f, 2.0f);
 		GetWorldTimerManager().SetTimer(FightTempo, this, &AJFollowEnemy::Fight, FightLapsus);
 		
 	}
@@ -318,7 +329,7 @@ void AJFollowEnemy::Death(AActor* DamageMaker)
 	UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
 	if (AnimationInst)
 	{
-		AnimationInst->Montage_Play(FightMontage, 1.5f);
+		AnimationInst->Montage_Play(FightMontage, 1.0f);
 		AnimationInst->Montage_JumpToSection(FName("Death"), FightMontage);
 	}
 	SetFEnemyMovStatus(EFEnemyMoveStat::FEMS_Death);
