@@ -10,6 +10,7 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "Engine/SkeletalMeshSocket.h"
 #include "TimerManager.h"
+#include "Engine.h"
 #include "Components/SphereComponent.h"
 #include "Animation/AnimInstance.h"
 #include "Sound/SoundCue.h"
@@ -22,6 +23,9 @@ AJFollowEnemy::AJFollowEnemy()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
+	VisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("VisionBox"));
+	VisionBox->SetupAttachment(GetRootComponent());
 
 	FollowSphere = CreateDefaultSubobject<USphereComponent>(TEXT("FollowSphere"));
 	FollowSphere->SetupAttachment(GetRootComponent());
@@ -63,8 +67,12 @@ void AJFollowEnemy::BeginPlay()
 
 	AIController = Cast<AAIController>(GetController());
 	
-	FollowSphere->OnComponentBeginOverlap.AddDynamic(this, &AJFollowEnemy::FollowSphereOnOverlapBegin);
-	FollowSphere->OnComponentEndOverlap.AddDynamic(this, &AJFollowEnemy::FollowSphereOnOverlapEnd);
+	/*FollowSphere->OnComponentBeginOverlap.AddDynamic(this, &AJFollowEnemy::FollowSphereOnOverlapBegin);
+	FollowSphere->OnComponentEndOverlap.AddDynamic(this, &AJFollowEnemy::FollowSphereOnOverlapEnd);*/
+
+	VisionBox->OnComponentBeginOverlap.AddDynamic(this, &AJFollowEnemy::VisionBoxOnOverlapBegin);
+	VisionBox->OnComponentEndOverlap.AddDynamic(this, &AJFollowEnemy::VisionBoxOnOverlapEnd);
+
 
 
 	AttackSphere->OnComponentBeginOverlap.AddDynamic(this, &AJFollowEnemy::AttackSphereOnOverlapBegin);
@@ -101,19 +109,25 @@ void AJFollowEnemy::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 
 }
 
-void AJFollowEnemy::FollowSphereOnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+void AJFollowEnemy::VisionBoxOnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	if (OtherActor && IsLiving())
 	{
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("OVERLAP BEGIN"));
 		AJBasePlayer* Player = Cast<AJBasePlayer>(OtherActor);
 		if (Player)
 		{
 			MoveToPlayer(Player);
+			
 		}
 	}
 }
 
-void AJFollowEnemy::FollowSphereOnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+
+
+
+
+void AJFollowEnemy::VisionBoxOnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
 	if (OtherActor)
 	{
@@ -121,6 +135,11 @@ void AJFollowEnemy::FollowSphereOnOverlapEnd(UPrimitiveComponent* OverlappedComp
 		{
 			if (Player)
 			{
+				FVector LastSeenPosition = Player->GetActorLocation();
+
+				DrawDebugSphere(GetWorld(), LastSeenPosition, 50, 26, FColor(52, 220, 239), true, -1, 0, 2);
+
+				GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, TEXT("OVERLAP END"));
 				IsWithGoal = false;
 				if (Player->FightGoal == this)
 				{
@@ -131,10 +150,16 @@ void AJFollowEnemy::FollowSphereOnOverlapEnd(UPrimitiveComponent* OverlappedComp
 				SetFEnemyMovStatus(EFEnemyMoveStat::FEMS_Idle);
 				if (AIController)
 				{
-					AIController->StopMovement();
+					AIController->MoveToLocation(LastSeenPosition);
+					//AIController->StopMovement();
 				}
+				
+				
 			}
+
 		}
+
+		
 	}
 
 }
@@ -158,7 +183,7 @@ void AJFollowEnemy::AttackSphereOnOverlapBegin(UPrimitiveComponent* OverlappedCo
 				float FightLapsus = FMath::RandRange(0.5f, 1.5f);
 				GetWorldTimerManager().SetTimer(FightTempo, this, &AJFollowEnemy::Fight, FightLapsus);
 				
-
+				
 				
 			}
 		}
@@ -207,6 +232,7 @@ void AJFollowEnemy::MoveToPlayer(AJBasePlayer* Player)
 			FAIMoveRequest MoveRequest;
 			MoveRequest.SetGoalActor(Player);
 			MoveRequest.SetAcceptanceRadius(15.f);
+			
 
 			//struct NavPath
 			FNavPathSharedPtr NavigationPath;
