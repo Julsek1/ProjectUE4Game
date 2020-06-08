@@ -13,7 +13,8 @@
 #include "Kismet/KismetSystemLibrary.h"
 #include "ParentEnemy.h"
 #include "Perception/AISense_Hearing.h"
-#include "Shotgun.h"
+//#include "Shotgun.h"
+#include "Grenade.h"
 
 
 // Sets default values
@@ -68,7 +69,7 @@ void ATwinStickShooterPlayer::BeginPlay()
 
 	//Give empty objective
 	CurrentObjective = NewObject<AObjective>(this);
-
+	//Grenade = NewObject<AGrenade>(this);
 	//Give a weapon
 	//Weapons.Add(NewObject<AAssaultRifle>(this));
 	//Weapons.Add(NewObject<AShotgun>(this));

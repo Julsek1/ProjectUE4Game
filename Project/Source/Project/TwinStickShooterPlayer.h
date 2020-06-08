@@ -119,6 +119,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UAnimMontage* MeleeAnimation = nullptr;
 
+	//Grenade
+	//class AGrenade* Grenade;
+
 private:
 	float CharacterRotationX = 0.f;
 	float CharacterRotationY = 0.f;
