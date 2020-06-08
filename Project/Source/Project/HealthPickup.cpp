@@ -47,7 +47,8 @@ void AHealthPickup::NotifyActorBeginOverlap(AActor* Other)
 	if (Cast<ATwinStickShooterPlayer>(Other) != nullptr)
 	{
 		Cast<ATwinStickShooterPlayer>(Other)->Heal(HealingAmount);
+		
+		Destroy();
 	}
 
-	Destroy();
 }

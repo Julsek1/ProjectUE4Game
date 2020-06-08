@@ -7,6 +7,8 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "GameFramework/ProjectileMovementComponent.h"
+#include "Particles/ParticleSystem.h"
+#include "Sound/SoundBase.h"
 #include "TimerManager.h"
 
 #include "Grenade.generated.h"
@@ -40,5 +42,13 @@ public:
 	float GrenadeDamage = 100.f;
 	float BlastRadius = 500.f;
 	virtual void NotifyActorBeginOverlap(AActor* Other) override;
+	virtual void NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult &hit) override;
 
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UParticleSystem* Particle;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		USoundBase* GrenadeHitSound;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		USoundBase* ExplosionSound;
 };

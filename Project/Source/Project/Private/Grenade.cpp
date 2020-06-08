@@ -3,7 +3,7 @@
 
 #include "Grenade.h"
 
-//#include "Kismet/GameplayStatics.h"
+#include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "ParentEnemy.h"
 
@@ -51,6 +51,9 @@ void AGrenade::Explode()
 		}
 	}
 
+	UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), Particle, GetActorLocation(), GetActorRotation());
+	UGameplayStatics::PlaySoundAtLocation(GetWorld(), ExplosionSound, GetActorLocation());
+
 	Destroy();
 }
 void AGrenade::NotifyActorBeginOverlap(AActor* Other)
@@ -59,6 +62,11 @@ void AGrenade::NotifyActorBeginOverlap(AActor* Other)
 	{
 		Explode();
 	}
+}
+
+void AGrenade::NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& hit)
+{
+	UGameplayStatics::PlaySoundAtLocation(GetWorld(), GrenadeHitSound, GetActorLocation(), 0.5f);
 }
 
 
