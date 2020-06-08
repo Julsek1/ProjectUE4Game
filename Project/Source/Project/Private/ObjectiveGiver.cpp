@@ -51,9 +51,9 @@ void AObjectiveGiver::NotifyActorBeginOverlap(AActor* Other)
 	if (Cast<ATwinStickShooterPlayer>(Other) != nullptr && Objective)
 	{
 		Cast<ATwinStickShooterPlayer>(Other)->ReceiveObjective(Objective);
-	}
 
-	Destroy();
+		Destroy();
+	}
 }
 
 void AObjectiveGiver::NotifyActorEndOverlap(AActor* Other)
@@ -61,7 +61,6 @@ void AObjectiveGiver::NotifyActorEndOverlap(AActor* Other)
 	if (Cast<ATwinStickShooterPlayer>(Other) != nullptr && Objective)
 	{
 		Cast<ATwinStickShooterPlayer>(Other)->ReceiveObjective(Objective);
+		Destroy();
 	}
-
-	Destroy();
 }
