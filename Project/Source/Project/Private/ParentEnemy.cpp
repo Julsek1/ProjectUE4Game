@@ -33,12 +33,27 @@ void AParentEnemy::Tick(float DeltaTime)
 
 	if (Health <= 0)
 	{
-		Destroy();
+		if (!bIsDead)
+		{
+			GetWorldTimerManager().SetTimer(DeathDespawnTimerHandle, this, &AParentEnemy::Despawn, TimeToDespawn, false);
+			bIsDead = true;
+			GetMesh()->SetSimulatePhysics(true);
+			WidgetComponent->SetVisibility(false);
+		}
+
+		//Destroy();
 	}
 
 	/*auto camera = UGameplayStatics::GetPlayerCameraManager(GetWorld(), 0);
 	WidgetComponent->SetWorldRotation(camera->GetCameraRotation());
 	WidgetComponent->AddLocalRotation(FRotator(0, 180, 0));*/
+}
+
+void AParentEnemy::Despawn()
+{
+	GetWorldTimerManager().ClearTimer(DeathDespawnTimerHandle);
+
+	Destroy();
 }
 
 // Called to bind functionality to input

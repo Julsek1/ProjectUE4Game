@@ -39,6 +39,13 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		FString EnemyName;
 
+	//Death
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		bool bIsDead = false;
+	FTimerHandle DeathDespawnTimerHandle;
+	void Despawn();
+	float TimeToDespawn = 1.5f;
+
 	//Stun
 	UFUNCTION(BlueprintCallable)
 		virtual void GetStunned();
