@@ -30,11 +30,14 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	//Health
 	UPROPERTY(BlueprintReadWrite)
 		float Health = 1.0f;
-
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		UWidgetComponent* WidgetComponent;
+	void GetHit(float Damage, float Force = 0.f, FVector Direction = FVector(0.f, 0.f, 0.f));
+	float ForceOfLastHit;
+	FVector DirectionOfLastHit;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		FString EnemyName;
@@ -44,7 +47,7 @@ public:
 		bool bIsDead = false;
 	FTimerHandle DeathDespawnTimerHandle;
 	void Despawn();
-	float TimeToDespawn = 1.5f;
+	float TimeToDespawn = 2.0f;
 
 	//Stun
 	UFUNCTION(BlueprintCallable)

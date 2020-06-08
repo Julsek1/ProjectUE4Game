@@ -49,7 +49,7 @@ void AShotgun::Fire(USceneComponent* Location)
 			{
 				if (Cast<AParentEnemy>(OutHits[j].GetActor()))
 				{
-					Cast<AParentEnemy>(OutHits[j].GetActor())->Health -= Damage;
+					Cast<AParentEnemy>(OutHits[j].GetActor())->GetHit(Damage, 200.f, End - Start);
 				}
 			}
 

@@ -2,6 +2,7 @@
 
 
 #include "ParentEnemy.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "TSEnemyWidget.h"
 
@@ -38,9 +39,10 @@ void AParentEnemy::Tick(float DeltaTime)
 			GetWorldTimerManager().SetTimer(DeathDespawnTimerHandle, this, &AParentEnemy::Despawn, TimeToDespawn, false);
 			bIsDead = true;
 			GetMesh()->SetSimulatePhysics(true);
+			GetMesh()->AddForceToAllBodiesBelow(DirectionOfLastHit * ForceOfLastHit, FName("Spine"), true, true);
+			//GetCharacterMovement()->AddImpulse(FVector(100000.f, 100000.f, 100000.f));
 			WidgetComponent->SetVisibility(false);
 		}
-
 		//Destroy();
 	}
 
@@ -85,4 +87,11 @@ void AParentEnemy::StunCooldownElapsed()
 {
 	bStunnedRecently = false;
 	GetWorldTimerManager().ClearTimer(StunCooldownTimerHandle);
+}
+
+void AParentEnemy::GetHit(float Damage, float Force, FVector Direction)
+{
+	Health -= Damage;
+	ForceOfLastHit = Force;
+	DirectionOfLastHit = Direction;
 }

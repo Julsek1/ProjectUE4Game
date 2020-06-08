@@ -44,7 +44,7 @@ void AAssaultRifle::Fire(USceneComponent* Location)
 		if (OutHits.Num() > 0 && Cast<AParentEnemy>(OutHits[0].GetActor()))
 		{
 			//OutHit.GetActor()->Destroy();
-			Cast<AParentEnemy>(OutHits[0].GetActor())->Health -= Damage;
+			Cast<AParentEnemy>(OutHits[0].GetActor())->GetHit(Damage, 25.f, End - Start);
 		}
 
 		//if (Cast<AParentEnemy>(OutHit.GetActor()))
