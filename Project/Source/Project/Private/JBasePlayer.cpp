@@ -207,8 +207,6 @@ void AJBasePlayer::LeftMouseD()
 {
 	IsLeftMouseDown = true;
 	
-	//////here
-
 	if (GunEquipped) {
 		Fight();
 	}
@@ -218,6 +216,7 @@ void AJBasePlayer::LeftMouseUp()
 {
 	IsLeftMouseDown = false;
 	IsFighting = false;
+	
 
 }
 
@@ -363,17 +362,27 @@ void AJBasePlayer::Fight()
 		if (AnimationInst && FightMontage)
 		{
 			 			
-			int32 MontageSection = FMath::RandRange(0, 1);
+			int32 MontageSection = FMath::RandRange(0, 2);
 			switch (MontageSection)
 			{
 			case 0:
 
+				
 				AnimationInst->Montage_Play(FightMontage, 2.0f);
 				AnimationInst->Montage_JumpToSection(FName("Attack1"), FightMontage);
 
 				break;
 			case 1:
 
+				
+				AnimationInst->Montage_Play(FightMontage, 2.0f);
+				AnimationInst->Montage_JumpToSection(FName("Attack2"), FightMontage);
+
+				break;
+
+			case 2:
+
+				
 				AnimationInst->Montage_Play(FightMontage, 2.0f);
 				AnimationInst->Montage_JumpToSection(FName("Attack2"), FightMontage);
 

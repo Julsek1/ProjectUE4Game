@@ -192,7 +192,7 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void LoadGame(bool SetPos);
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Animation")
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Animation")
 	bool IsFighting;
 
 	// checks if the enemy has a valid goal to continue attacking

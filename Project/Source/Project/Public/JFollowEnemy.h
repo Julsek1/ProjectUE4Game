@@ -59,7 +59,7 @@ public:
 
 	FTimerHandle DyingTempo;
 	
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Fight")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
 	bool IsFighting;
 
 	// checks if the enemy has a valid goal to continue attacking

@@ -50,6 +50,8 @@ AJFollowEnemy::AJFollowEnemy()
 
 	IsWithGoal = false;
 
+	IsFighting = false;
+
 }
 
 
@@ -152,10 +154,10 @@ void AJFollowEnemy::AttackSphereOnOverlapBegin(UPrimitiveComponent* OverlappedCo
 				
 				Player->FightGoalUpdate();
 
+				
 				float FightLapsus = FMath::RandRange(0.5f, 1.5f);
 				GetWorldTimerManager().SetTimer(FightTempo, this, &AJFollowEnemy::Fight, FightLapsus);
-				/*Fight();*/
-				//FightFinished();
+				
 
 				
 			}
@@ -171,20 +173,23 @@ void AJFollowEnemy::AttackSphereOnOverlapEnd(UPrimitiveComponent* OverlappedComp
 		{
 			if (Player)
 			{
-				IsOverlapAttackSphere = false;
+				IsFighting = false;
 				MoveToPlayer(Player);
-				IsWithGoal = false;
-				
-				
-				if (Player->FightGoal == this)
-				{
-					Player->IsWithFightGoal = false;
-					Player->SetFightGoal(nullptr);
-					Player->FightGoalUpdate();
+				IsOverlapAttackSphere = false;
 					
-				}
-				GetWorldTimerManager().ClearTimer(FightTempo);
-				
+				IsWithGoal = false;
+
+
+					if (Player->FightGoal == this)
+					{
+						Player->IsWithFightGoal = false;
+						Player->SetFightGoal(nullptr);
+						Player->FightGoalUpdate();
+
+					}
+					GetWorldTimerManager().ClearTimer(FightTempo);
+					
+					
 			}
 		}
 	}
@@ -192,20 +197,23 @@ void AJFollowEnemy::AttackSphereOnOverlapEnd(UPrimitiveComponent* OverlappedComp
 
 void AJFollowEnemy::MoveToPlayer(AJBasePlayer* Player)
 {
-	SetFEnemyMovStatus(EFEnemyMoveStat::FEMS_MoveToPlayer);
-
-	if (AIController)
+	if (!IsFighting)
 	{
-		//struct MoveRequest
-		FAIMoveRequest MoveRequest;
-		MoveRequest.SetGoalActor(Player);
-		MoveRequest.SetAcceptanceRadius(15.f);
+		SetFEnemyMovStatus(EFEnemyMoveStat::FEMS_MoveToPlayer);
 
-		//struct NavPath
-		FNavPathSharedPtr NavigationPath;
-		AIController->MoveTo(MoveRequest, &NavigationPath);
-		
+		if (AIController)
+		{
+			//struct MoveRequest
+			FAIMoveRequest MoveRequest;
+			MoveRequest.SetGoalActor(Player);
+			MoveRequest.SetAcceptanceRadius(15.f);
 
+			//struct NavPath
+			FNavPathSharedPtr NavigationPath;
+			AIController->MoveTo(MoveRequest, &NavigationPath);
+
+
+		}
 	}
 }
 
@@ -286,6 +294,7 @@ void AJFollowEnemy::Fight()
 		}
 		if (!IsFighting)
 		{
+			
 			IsFighting = true;
 
 				UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
@@ -318,10 +327,14 @@ void AJFollowEnemy::FightFinished()
 	IsFighting = false;
 	if (IsOverlapAttackSphere)
 	{
-		float FightLapsus = FMath::RandRange(0.5f, 2.0f);
+
+		float FightLapsus = FMath::RandRange(1.0f, 2.0f);
 		GetWorldTimerManager().SetTimer(FightTempo, this, &AJFollowEnemy::Fight, FightLapsus);
 		
 	}
+	
+	
+	
 }
 
 void AJFollowEnemy::Death(AActor* DamageMaker)
