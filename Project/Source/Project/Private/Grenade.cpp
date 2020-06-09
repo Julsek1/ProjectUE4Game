@@ -56,6 +56,7 @@ void AGrenade::Explode()
 
 	Destroy();
 }
+
 void AGrenade::NotifyActorBeginOverlap(AActor* Other)
 {
 	if (Cast<AParentEnemy>(Other) != nullptr)

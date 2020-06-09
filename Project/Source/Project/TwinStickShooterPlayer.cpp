@@ -108,7 +108,7 @@ void ATwinStickShooterPlayer::Tick(float DeltaTime)
 
 	//UE_LOG(LogTemp, Warning, TEXT("Max walk speed: %f"), GetCharacterMovement()->GetMaxSpeed());
 
-	if (bIsFiring && bCanMelee)
+	if (bIsFiring && bCanMelee && bCanThrowGrenade)
 	{
 		Fire();
 
@@ -175,6 +175,7 @@ void ATwinStickShooterPlayer::SetupPlayerInputComponent(UInputComponent* PlayerI
 	PlayerInputComponent->BindAction("Fire", IE_Released, this, &ATwinStickShooterPlayer::FireButtonUp);
 	PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &ATwinStickShooterPlayer::Reload);
 	PlayerInputComponent->BindAction("TSMelee", IE_Pressed, this, &ATwinStickShooterPlayer::MeleeAttack);
+	PlayerInputComponent->BindAction("TSGrenade", IE_Pressed, this, &ATwinStickShooterPlayer::StartGrenadeThrow);
 }
 
 void ATwinStickShooterPlayer::MoveForward(float Vertical)
@@ -262,7 +263,7 @@ void ATwinStickShooterPlayer::Fire()
 
 void ATwinStickShooterPlayer::Reload()
 {
-	if (CurrentWeapon)
+	if (CurrentWeapon && bCanThrowGrenade)
 	{
 		if (CurrentWeapon->CanTheWeaponReload())
 		{
@@ -289,7 +290,7 @@ void ATwinStickShooterPlayer::FireButtonUp()
 
 void ATwinStickShooterPlayer::MeleeAttack()
 {
-	if (bCanMelee && CurrentWeapon && !CurrentWeapon->bCurrentlyReloading)
+	if (CanPerformActions())
 	{
 		if (MeleeAnimation)
 		{
@@ -359,7 +360,68 @@ void ATwinStickShooterPlayer::EnableLaserSight()
 	GetWorldTimerManager().ClearTimer(LaserSightTimerHandle);
 }
 
-void ATwinStickShooterPlayer::SwapWeapons()
-{
+//void ATwinStickShooterPlayer::SwapWeapons()
+//{
+//
+//}
 
+void ATwinStickShooterPlayer::StartGrenadeThrow()
+{
+	if (bCanThrowGrenade && !bGrenadeOnCooldown)
+	{
+		bCanThrowGrenade = false;
+		bGrenadeOnCooldown = true;
+
+		if (GrenadeThrowAnimation)
+		{
+			GrenadeThrowTime = GrenadeThrowAnimation->SequenceLength;
+			GetWorldTimerManager().SetTimer(GrenadeThrowTimerHandle, this, &ATwinStickShooterPlayer::EndGrenadeThrow, GrenadeThrowTime - 0.8f, false);
+			GetMesh()->GetAnimInstance()->Montage_Play(GrenadeThrowAnimation);
+		}
+
+		else
+		{
+			GetWorldTimerManager().SetTimer(GrenadeThrowTimerHandle, this, &ATwinStickShooterPlayer::EndGrenadeThrow, GrenadeThrowTime, false);
+		}
+	}
+}
+
+void ATwinStickShooterPlayer::EndGrenadeThrow()
+{
+	GetWorldTimerManager().ClearTimer(GrenadeThrowTimerHandle);
+	bCanThrowGrenade = true;
+	ThrowGrenade();
+}
+
+void ATwinStickShooterPlayer::ThrowGrenade()
+{
+	GetWorldTimerManager().SetTimer(GrenadeCooldownTimerHandle, this, &ATwinStickShooterPlayer::RestoreGrenade, GrenadeCooldown, false);
+
+	if (Grenade)
+	{
+		FActorSpawnParameters SpawnParams;
+		GetWorld()->SpawnActor<AGrenade>(Grenade, GetActorTransform());
+	}
+}
+
+void ATwinStickShooterPlayer::RestoreGrenade()
+{
+	GetWorldTimerManager().ClearTimer(GrenadeCooldownTimerHandle);
+	bGrenadeOnCooldown = false;
+}
+
+bool ATwinStickShooterPlayer::CanPerformActions()
+{
+	bool bCanPerformActions = bCanMelee;
+	if (CurrentWeapon)
+	{
+		bCanPerformActions = bCanPerformActions && !CurrentWeapon->bCurrentlyReloading;
+	}
+
+	if (Grenade)
+	{
+		bCanPerformActions = bCanPerformActions && bCanThrowGrenade;
+	}
+
+	return bCanPerformActions;
 }

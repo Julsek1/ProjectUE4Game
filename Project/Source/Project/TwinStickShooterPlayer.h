@@ -93,10 +93,10 @@ public:
 		UAnimMontage* ReloadAnimation = nullptr;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UAnimMontage* FiringAnimation = nullptr;
-	UFUNCTION(BlueprintCallable)
-		void SwapWeapons();
+	/*UFUNCTION(BlueprintCallable)
+		void SwapWeapons();*/
 
-	//Laser sight
+		//Laser sight
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UParticleSystemComponent* LaserSight = nullptr;
 	void DisableLaserSight(float Duration);
@@ -121,7 +121,28 @@ public:
 
 	//Grenade
 	//class AGrenade* Grenade;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TSubclassOf<class AGrenade> Grenade;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		FTimerHandle GrenadeCooldownTimerHandle;
+	FTimerHandle GrenadeThrowTimerHandle;
+	float GrenadeThrowTime = 2.8f;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		float GrenadeCooldown = 10.f;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		bool bCanThrowGrenade = true;
+	bool bGrenadeOnCooldown = false;
+	void ThrowGrenade();
+	void RestoreGrenade();
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UAnimMontage* GrenadeThrowAnimation = nullptr;
+	UFUNCTION(BlueprintCallable)
+		void StartGrenadeThrow();
+	void EndGrenadeThrow();
 
+	//Actions
+	UFUNCTION(BlueprintCallable)
+		bool CanPerformActions();
 private:
 	float CharacterRotationX = 0.f;
 	float CharacterRotationY = 0.f;
