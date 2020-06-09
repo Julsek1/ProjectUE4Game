@@ -7,7 +7,6 @@
 #include "Kismet/KismetSystemLibrary.h"
 #include "ParentEnemy.h"
 
-
 // Sets default values
 AGrenade::AGrenade()
 {
