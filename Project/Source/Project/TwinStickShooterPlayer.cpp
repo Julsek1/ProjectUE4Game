@@ -10,6 +10,7 @@
 #include "Engine/GameInstance.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
+#include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "ParentEnemy.h"
 #include "Perception/AISense_Hearing.h"
@@ -307,11 +308,8 @@ void ATwinStickShooterPlayer::MeleeAttack()
 		bCanMelee = false;
 		GetWorldTimerManager().SetTimer(MeleeTimerHandle, this, &ATwinStickShooterPlayer::RestoreMelee, MeleeCooldown, false);
 
-		//UKismetSystemLibrary::SphereTraceMulti(this, )
-
 		TArray<TEnumAsByte<EObjectTypeQuery>> Query;
 		TArray<AActor*> Ignore;
-		Ignore.Add(this);
 		TArray<AActor*> OutHits;
 
 		UKismetSystemLibrary::SphereOverlapActors(this, GetActorLocation(), MeleeRange, Query, AParentEnemy::StaticClass(), Ignore, OutHits);
@@ -326,6 +324,8 @@ void ATwinStickShooterPlayer::MeleeAttack()
 				Cast<AParentEnemy>(Enemy)->GetStunned();
 			}
 		}
+
+
 	}
 }
 
