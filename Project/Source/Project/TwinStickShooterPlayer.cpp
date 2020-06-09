@@ -375,27 +375,29 @@ void ATwinStickShooterPlayer::StartGrenadeThrow()
 		if (GrenadeThrowAnimation)
 		{
 			GrenadeThrowTime = GrenadeThrowAnimation->SequenceLength;
-			GetWorldTimerManager().SetTimer(GrenadeThrowTimerHandle, this, &ATwinStickShooterPlayer::EndGrenadeThrow, GrenadeThrowTime - 0.8f, false);
+			GetWorldTimerManager().SetTimer(ThrowAnimationTimerHandle, this, &ATwinStickShooterPlayer::EndGrenadeThrow, GrenadeThrowTime, false);
+			GetWorldTimerManager().SetTimer(GrenadeThrowTimerHandle, this, &ATwinStickShooterPlayer::ThrowGrenade, 2.f, false);
 			GetMesh()->GetAnimInstance()->Montage_Play(GrenadeThrowAnimation);
+			DisableLaserSight(GrenadeThrowTime);
 		}
 
 		else
 		{
-			GetWorldTimerManager().SetTimer(GrenadeThrowTimerHandle, this, &ATwinStickShooterPlayer::EndGrenadeThrow, GrenadeThrowTime, false);
+			GetWorldTimerManager().SetTimer(ThrowAnimationTimerHandle, this, &ATwinStickShooterPlayer::EndGrenadeThrow, GrenadeThrowTime, false);
 		}
 	}
 }
 
 void ATwinStickShooterPlayer::EndGrenadeThrow()
 {
-	GetWorldTimerManager().ClearTimer(GrenadeThrowTimerHandle);
+	GetWorldTimerManager().ClearTimer(ThrowAnimationTimerHandle);
 	bCanThrowGrenade = true;
-	ThrowGrenade();
 }
 
 void ATwinStickShooterPlayer::ThrowGrenade()
 {
 	GetWorldTimerManager().SetTimer(GrenadeCooldownTimerHandle, this, &ATwinStickShooterPlayer::RestoreGrenade, GrenadeCooldown, false);
+	GetWorldTimerManager().ClearTimer(GrenadeThrowTimerHandle);
 
 	if (Grenade)
 	{

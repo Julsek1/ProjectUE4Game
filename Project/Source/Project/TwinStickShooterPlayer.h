@@ -126,12 +126,14 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		FTimerHandle GrenadeCooldownTimerHandle;
 	FTimerHandle GrenadeThrowTimerHandle;
-	float GrenadeThrowTime = 2.8f;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		float GrenadeThrowTime = 2.8f;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		float GrenadeCooldown = 10.f;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		bool bCanThrowGrenade = true;
-	bool bGrenadeOnCooldown = false;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		bool bGrenadeOnCooldown = false;
 	void ThrowGrenade();
 	void RestoreGrenade();
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -139,6 +141,7 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void StartGrenadeThrow();
 	void EndGrenadeThrow();
+	FTimerHandle ThrowAnimationTimerHandle;
 
 	//Actions
 	UFUNCTION(BlueprintCallable)
