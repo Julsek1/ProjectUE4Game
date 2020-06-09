@@ -236,7 +236,8 @@ void AJFollowEnemy::MoveToPlayer(AJBasePlayer* Player)
 			//struct MoveRequest
 			FAIMoveRequest MoveRequest;
 			MoveRequest.SetGoalActor(Player);
-			MoveRequest.SetAcceptanceRadius(15.f);
+			float MoveAccuracy = FMath::RandRange(1.0f, 200.f);
+			MoveRequest.SetAcceptanceRadius(MoveAccuracy);
 			
 
 			//struct NavPath

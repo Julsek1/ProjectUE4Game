@@ -43,6 +43,9 @@ class USoundCue* DamageSound;
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Controller")
  class ABasePlayerController* PController;
 
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stealth")
+ class UBoxComponent* SKillBox;
+
 
 
  //Turning camera values
@@ -221,5 +224,27 @@ public:
 
 	//Jump
 	virtual void Jump() override;
+
+	//Stealth
+	UFUNCTION()
+	void SKillBoxOnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
+	UFUNCTION()
+		void SKillBoxOnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
+	UFUNCTION()
+		void StealthKill();
+
+	UFUNCTION()
+	void KUp();
+
+	UFUNCTION()
+	void KDown();
+
+	bool IsKDown;
+
+	bool CanKill;
 	
 };

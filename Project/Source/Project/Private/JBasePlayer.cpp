@@ -4,11 +4,13 @@
 #include "JBasePlayer.h"
 #include "Engine/Engine.h"
 #include "Components/CapsuleComponent.h"
+#include "Components/BoxComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Engine/GameInstance.h"
 #include "Kismet/GameplayStatics.h"
 #include "GameFramework/Controller.h"
 #include "Gun.h"
+#include "Engine.h"
 #include "Sound/SoundCue.h"
 #include "PickupVault.h"
 #include "JFollowEnemy.h"
@@ -43,6 +45,12 @@ AJBasePlayer::AJBasePlayer()
 	PlayerCamera->SetupAttachment(CameraStick, USpringArmComponent::SocketName);
 	PlayerCamera->bUsePawnControlRotation = false;
 
+	//Stealth
+	SKillBox = CreateDefaultSubobject<UBoxComponent>(TEXT("SKillBox"));
+	SKillBox->SetupAttachment(GetCapsuleComponent());
+
+
+
 	//Camera's Turn values
 	InitialTurnValue = 65.f;
 	InitialLookUpValue = 65.f;
@@ -68,12 +76,18 @@ AJBasePlayer::AJBasePlayer()
 	IsEscDown = false;
 	IsLeftMouseDown = false;
 
-	IsIDown = false;
-
 	IsFighting = false;
 
 	IsAnnexed = false;
 	AnnexPace = 16.f;
+
+	//StealthKill
+
+	IsIDown = false;
+
+	IsKDown = false;
+
+	CanKill = false;
 	
 }
 
@@ -85,6 +99,13 @@ void AJBasePlayer::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	SKillBox->OnComponentBeginOverlap.AddDynamic(this, &AJBasePlayer::SKillBoxOnOverlapBegin);
+	SKillBox->OnComponentEndOverlap.AddDynamic(this, &AJBasePlayer::SKillBoxOnOverlapEnd);
+
+	
+	SKillBox->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
+
+
 
 }
 
@@ -119,6 +140,9 @@ void AJBasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AJBasePlayer::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &AJBasePlayer::StopJumping);
+
+	PlayerInputComponent->BindAction("Kill", IE_Pressed, this, &AJBasePlayer::KDown);
+	PlayerInputComponent->BindAction("Kill", IE_Released, this, &AJBasePlayer::KUp);
 
 	PlayerInputComponent->BindAction("Crouching", IE_Pressed, this, &AJBasePlayer::CrouchBegin);
 	PlayerInputComponent->BindAction("Crouching", IE_Released, this, &AJBasePlayer::CrouchEnd);
@@ -438,6 +462,8 @@ void AJBasePlayer::Jump()
 	}
 }
 
+
+
 void AJBasePlayer::CollectUp(int32 CollectQty)
 {
 	Collectibles += CollectQty;
@@ -495,5 +521,56 @@ void AJBasePlayer::FightGoalUpdate()
 	}
 
 }
+
+///Stealth Kill
+
+void AJBasePlayer::SKillBoxOnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	if (OtherActor)
+	{
+		AJFollowEnemy* Enemy = Cast<AJFollowEnemy>(OtherActor);
+		{
+			if (Enemy)
+			{
+				
+			
+				float Distance = GetDistanceTo(Enemy);
+				
+				if (Distance <= 400.f)
+				{
+					CanKill = true;
+					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Black, TEXT("FINISH HIM!!"));
+				}
+			}
+		}
+	}
+}
+
+void AJBasePlayer::SKillBoxOnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+{
+}
+
+void AJBasePlayer::StealthKill()
+{
+	if (CanKill)
+	{
+		UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
+		AnimationInst->Montage_JumpToSection(FName("Attack1"), FightMontage);
+	}
+}
+
+void AJBasePlayer::KUp()
+{
+	IsKDown = false;
+}
+	
+
+void AJBasePlayer::KDown()
+{
+	
+	IsKDown = true;
+	StealthKill();
+}
+
 
 
