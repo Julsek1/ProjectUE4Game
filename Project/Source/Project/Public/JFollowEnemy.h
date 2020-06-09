@@ -71,6 +71,8 @@ public:
 
 	FTimerHandle FightTempo;
 
+	FTimerHandle PatrolStopTempo;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
 	float Delay;
 

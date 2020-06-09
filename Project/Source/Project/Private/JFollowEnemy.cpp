@@ -99,6 +99,7 @@ void AJFollowEnemy::BeginPlay()
 void AJFollowEnemy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
 	
 	BasicPatrol(NextPatrolPoint);
 }
@@ -376,8 +377,10 @@ void AJFollowEnemy::BasicPatrol(APatrolPoint* Point)
 		if (PatrolPoint)
 		{
 			FVector NewPos = PatrolPoint->GetActorLocation();
+			
 			if (AIController)
 			{
+				
 				AIController->MoveToLocation(NewPos);
 			}
 		}
