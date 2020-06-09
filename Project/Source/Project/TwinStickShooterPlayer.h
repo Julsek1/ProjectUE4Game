@@ -120,22 +120,24 @@ public:
 		UAnimMontage* MeleeAnimation = nullptr;
 
 	//Grenade
-	//class AGrenade* Grenade;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TSubclassOf<class AGrenade> Grenade;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		FTimerHandle GrenadeCooldownTimerHandle;
-	FTimerHandle GrenadeThrowTimerHandle;
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		float GrenadeThrowTime = 2.8f;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		float GrenadeCooldown = 10.f;
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		bool bCanThrowGrenade = true;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		bool bGrenadeOnCooldown = false;
 	void ThrowGrenade();
 	void RestoreGrenade();
+
+	FTimerHandle GrenadeThrowTimerHandle;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		float GrenadeThrowTime = 2.8f;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		bool bCanThrowGrenade = true;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UAnimMontage* GrenadeThrowAnimation = nullptr;
 	UFUNCTION(BlueprintCallable)

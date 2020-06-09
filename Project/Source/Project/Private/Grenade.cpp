@@ -6,6 +6,8 @@
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "ParentEnemy.h"
+#include "Perception/AISense_Hearing.h"
+
 
 // Sets default values
 AGrenade::AGrenade()
@@ -52,6 +54,8 @@ void AGrenade::Explode()
 
 	UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), Particle, GetActorLocation(), GetActorRotation());
 	UGameplayStatics::PlaySoundAtLocation(GetWorld(), ExplosionSound, GetActorLocation());
+
+	UAISense_Hearing::ReportNoiseEvent(this, GetActorLocation(), 1, UGameplayStatics::GetPlayerCharacter(this, 0), 3000, FName("Sound"));
 
 	Destroy();
 }
