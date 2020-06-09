@@ -96,6 +96,12 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Fight")
 	class UAnimMontage* FightMontage;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
+	FVector  LastSeenPos;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
+	class APatrolPoint* NextPatrolPoint;
+
 	
 
 protected:
@@ -167,5 +173,7 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void FightFinished();
 
+	UFUNCTION(BlueprintCallable)
+	void BasicPatrol(APatrolPoint* point);
 
 };

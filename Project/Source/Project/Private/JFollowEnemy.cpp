@@ -11,6 +11,7 @@
 #include "Engine/SkeletalMeshSocket.h"
 #include "TimerManager.h"
 #include "Engine.h"
+#include "PatrolPoint.h"
 #include "Components/SphereComponent.h"
 #include "Animation/AnimInstance.h"
 #include "Sound/SoundCue.h"
@@ -99,7 +100,7 @@ void AJFollowEnemy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	
-
+	BasicPatrol(NextPatrolPoint);
 }
 
 // Called to bind functionality to input
@@ -135,9 +136,16 @@ void AJFollowEnemy::VisionBoxOnOverlapEnd(UPrimitiveComponent* OverlappedComp, A
 		{
 			if (Player)
 			{
-				FVector LastSeenPosition = Player->GetActorLocation();
+				LastSeenPos = Player->GetActorLocation();
 
-				DrawDebugSphere(GetWorld(), LastSeenPosition, 50, 26, FColor(52, 220, 239), true, -1, 0, 2);
+				if (AIController)
+				{
+					AIController->MoveToLocation(LastSeenPos);
+					/*AIController->StopMovement();
+					SetFEnemyMovStatus(EFEnemyMoveStat::FEMS_Idle);*/
+				}
+
+				DrawDebugSphere(GetWorld(), LastSeenPos, 50, 26, FColor(52, 220, 239), true, -1, 0, 2);
 
 				GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, TEXT("OVERLAP END"));
 				IsWithGoal = false;
@@ -147,12 +155,8 @@ void AJFollowEnemy::VisionBoxOnOverlapEnd(UPrimitiveComponent* OverlappedComp, A
 				}
 				Player->IsWithFightGoal;
 				Player->FightGoalUpdate();
-				SetFEnemyMovStatus(EFEnemyMoveStat::FEMS_Idle);
-				if (AIController)
-				{
-					AIController->MoveToLocation(LastSeenPosition);
-					//AIController->StopMovement();
-				}
+				
+				
 				
 				
 			}
@@ -361,6 +365,23 @@ void AJFollowEnemy::FightFinished()
 	
 	
 	
+}
+
+void AJFollowEnemy::BasicPatrol(APatrolPoint* Point)
+{
+	if (Point)
+	{
+
+		APatrolPoint* PatrolPoint = Cast<APatrolPoint>(Point);
+		if (PatrolPoint)
+		{
+			FVector NewPos = PatrolPoint->GetActorLocation();
+			if (AIController)
+			{
+				AIController->MoveToLocation(NewPos);
+			}
+		}
+	}
 }
 
 void AJFollowEnemy::Death(AActor* DamageMaker)
