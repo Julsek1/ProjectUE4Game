@@ -374,9 +374,9 @@ void ATwinStickShooterPlayer::StartGrenadeThrow()
 
 		if (GrenadeThrowAnimation)
 		{
-			GrenadeThrowTime = GrenadeThrowAnimation->SequenceLength;
+			GrenadeThrowTime = GrenadeThrowAnimation->SequenceLength/GrenadeThrowAnimation->RateScale;
 			GetWorldTimerManager().SetTimer(ThrowAnimationTimerHandle, this, &ATwinStickShooterPlayer::EndGrenadeThrow, GrenadeThrowTime, false);
-			GetWorldTimerManager().SetTimer(GrenadeThrowTimerHandle, this, &ATwinStickShooterPlayer::ThrowGrenade, 2.f, false);
+			GetWorldTimerManager().SetTimer(GrenadeThrowTimerHandle, this, &ATwinStickShooterPlayer::ThrowGrenade, 0.7 * GrenadeThrowTime, false);
 			GetMesh()->GetAnimInstance()->Montage_Play(GrenadeThrowAnimation);
 			DisableLaserSight(GrenadeThrowTime);
 		}
