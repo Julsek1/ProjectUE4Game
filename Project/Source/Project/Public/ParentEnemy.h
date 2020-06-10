@@ -35,7 +35,8 @@ public:
 		float Health = 1.0f;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		UWidgetComponent* WidgetComponent;
-	void GetHit(float Damage, float Force = 0.f, FVector Direction = FVector(0.f, 0.f, 0.f));
+	UFUNCTION(BlueprintCallable)
+		void GetHit(float Damage, float Force = 0.f, FVector Direction = FVector(0.f, 0.f, 0.f));
 	float ForceOfLastHit;
 	FVector DirectionOfLastHit;
 
