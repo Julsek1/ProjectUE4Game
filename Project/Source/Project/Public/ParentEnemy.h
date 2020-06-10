@@ -40,6 +40,9 @@ public:
 	float ForceOfLastHit;
 	FVector DirectionOfLastHit;
 
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const &DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
+
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		FString EnemyName;
 

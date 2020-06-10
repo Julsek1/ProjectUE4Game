@@ -2,6 +2,9 @@
 
 
 #include "ParentEnemy.h"
+
+#include "DamageType_Explosive.h"
+#include "DamageType_Melee.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "TSEnemyWidget.h"
@@ -94,4 +97,24 @@ void AParentEnemy::GetHit(float Damage, float Force, FVector Direction)
 	Health -= Damage;
 	ForceOfLastHit = Force;
 	DirectionOfLastHit = Direction;
+}
+
+float AParentEnemy::TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser)
+{
+	if (Cast<UDamageType_Explosive>(DamageEvent.DamageTypeClass.GetDefaultObject()))
+	{
+		FVector Difference = GetActorLocation() - DamageCauser->GetActorLocation();
+		FVector Direction;
+		float Length;
+		Difference.ToDirectionAndLength(Direction, Length);
+		GetHit(DamageAmount, Cast<UDamageType_Explosive>(DamageEvent.DamageTypeClass.GetDefaultObject())->Force, Direction);
+	}
+
+	else if (Cast<UDamageType_Melee>(DamageEvent.DamageTypeClass.GetDefaultObject()))
+	{
+		GetHit(DamageAmount);
+		GetStunned();
+	}
+
+	return 0;
 }

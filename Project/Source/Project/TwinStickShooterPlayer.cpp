@@ -10,7 +10,7 @@
 #include "Engine/GameInstance.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
-#include "GameFramework/DamageType.h"
+#include "DamageType_Melee.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "ParentEnemy.h"
@@ -313,7 +313,7 @@ void ATwinStickShooterPlayer::MeleeAttack()
 		TArray<AActor*> Ignore;
 		//TArray<AActor*> OutHits;
 
-		UGameplayStatics::ApplyRadialDamage(GetWorld(), MeleeDamage, GetActorLocation(), MeleeRange, UDamageType::StaticClass(), Ignore, this, GetController(), true);
+		UGameplayStatics::ApplyRadialDamage(GetWorld(), MeleeDamage, GetActorLocation(), MeleeRange, UDamageType_Melee::StaticClass(), Ignore, this, GetController(), true);
 
 		//UKismetSystemLibrary::SphereOverlapActors(this, GetActorLocation(), MeleeRange, Query, AParentEnemy::StaticClass(), Ignore, OutHits);
 

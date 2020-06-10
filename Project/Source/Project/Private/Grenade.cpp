@@ -3,7 +3,7 @@
 
 #include "Grenade.h"
 
-#include "GameFramework/DamageType.h"
+#include "DamageType_Explosive.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "ParentEnemy.h"
@@ -37,7 +37,7 @@ void AGrenade::Explode()
 	TArray<AActor*> Ignore;
 	//TArray<AActor*> OutHits;
 
-	UGameplayStatics::ApplyRadialDamage(GetWorld(), GrenadeDamage, GetActorLocation(), BlastRadius, UDamageType::StaticClass(), Ignore, this, UGameplayStatics::GetPlayerController(this, 0), true);
+	UGameplayStatics::ApplyRadialDamage(GetWorld(), GrenadeDamage, GetActorLocation(), BlastRadius, UDamageType_Explosive::StaticClass(), Ignore, this, UGameplayStatics::GetPlayerController(this, 0), true);
 
 	//UKismetSystemLibrary::SphereOverlapActors(this, GetActorLocation(), BlastRadius, Query, AParentEnemy::StaticClass(), Ignore, OutHits);
 
