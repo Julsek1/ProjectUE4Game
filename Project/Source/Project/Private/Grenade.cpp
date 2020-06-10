@@ -3,6 +3,7 @@
 
 #include "Grenade.h"
 
+#include "GameFramework/DamageType.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "ParentEnemy.h"
@@ -32,25 +33,27 @@ void AGrenade::Explode()
 {
 	GetWorldTimerManager().ClearTimer(GrenadeFuseTimerHandle);
 
-	TArray<TEnumAsByte<EObjectTypeQuery>> Query;
+	//TArray<TEnumAsByte<EObjectTypeQuery>> Query;
 	TArray<AActor*> Ignore;
-	TArray<AActor*> OutHits;
+	//TArray<AActor*> OutHits;
 
-	UKismetSystemLibrary::SphereOverlapActors(this, GetActorLocation(), BlastRadius, Query, AParentEnemy::StaticClass(), Ignore, OutHits);
+	UGameplayStatics::ApplyRadialDamage(GetWorld(), GrenadeDamage, GetActorLocation(), BlastRadius, UDamageType::StaticClass(), Ignore, this, UGameplayStatics::GetPlayerController(this, 0), true);
 
-	for (auto Enemy : OutHits)
-	{
-		//UE_LOG(LogTemp, Warning, TEXT("Hit: %s"), *Enemy->GetClass()->GetName());
+	//UKismetSystemLibrary::SphereOverlapActors(this, GetActorLocation(), BlastRadius, Query, AParentEnemy::StaticClass(), Ignore, OutHits);
 
-		if (Cast<AParentEnemy>(Enemy))
-		{
-			FVector Difference = Enemy->GetActorLocation() - /*UGameplayStatics::GetPlayerCharacter(this, 0)->*/GetActorLocation();
-			FVector Direction;
-			float Length;
-			Difference.ToDirectionAndLength(Direction, Length);
-			Cast<AParentEnemy>(Enemy)->GetHit(GrenadeDamage, 300000.f, Direction);
-		}
-	}
+	//for (auto Enemy : OutHits)
+	//{
+	//	//UE_LOG(LogTemp, Warning, TEXT("Hit: %s"), *Enemy->GetClass()->GetName());
+
+	//	if (Cast<AParentEnemy>(Enemy))
+	//	{
+	//		FVector Difference = Enemy->GetActorLocation() - /*UGameplayStatics::GetPlayerCharacter(this, 0)->*/GetActorLocation();
+	//		FVector Direction;
+	//		float Length;
+	//		Difference.ToDirectionAndLength(Direction, Length);
+	//		Cast<AParentEnemy>(Enemy)->GetHit(GrenadeDamage, 300000.f, Direction);
+	//	}
+	//}
 
 	UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), Particle, GetActorLocation(), GetActorRotation());
 	UGameplayStatics::PlaySoundAtLocation(GetWorld(), ExplosionSound, GetActorLocation());

@@ -10,6 +10,7 @@
 #include "Engine/GameInstance.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
+#include "GameFramework/DamageType.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "ParentEnemy.h"
@@ -308,22 +309,24 @@ void ATwinStickShooterPlayer::MeleeAttack()
 		bCanMelee = false;
 		GetWorldTimerManager().SetTimer(MeleeTimerHandle, this, &ATwinStickShooterPlayer::RestoreMelee, MeleeCooldown, false);
 
-		TArray<TEnumAsByte<EObjectTypeQuery>> Query;
+		//TArray<TEnumAsByte<EObjectTypeQuery>> Query;
 		TArray<AActor*> Ignore;
-		TArray<AActor*> OutHits;
+		//TArray<AActor*> OutHits;
 
-		UKismetSystemLibrary::SphereOverlapActors(this, GetActorLocation(), MeleeRange, Query, AParentEnemy::StaticClass(), Ignore, OutHits);
+		UGameplayStatics::ApplyRadialDamage(GetWorld(), MeleeDamage, GetActorLocation(), MeleeRange, UDamageType::StaticClass(), Ignore, this, GetController(), true);
 
-		for (auto Enemy : OutHits)
-		{
-			//UE_LOG(LogTemp, Warning, TEXT("Hit: %s"), *Enemy->GetClass()->GetName());
+		//UKismetSystemLibrary::SphereOverlapActors(this, GetActorLocation(), MeleeRange, Query, AParentEnemy::StaticClass(), Ignore, OutHits);
 
-			if (Cast<AParentEnemy>(Enemy))
-			{
-				Cast<AParentEnemy>(Enemy)->GetHit(MeleeDamage);
-				Cast<AParentEnemy>(Enemy)->GetStunned();
-			}
-		}
+		//for (auto Enemy : OutHits)
+		//{
+		//	//UE_LOG(LogTemp, Warning, TEXT("Hit: %s"), *Enemy->GetClass()->GetName());
+
+		//	if (Cast<AParentEnemy>(Enemy))
+		//	{
+		//		Cast<AParentEnemy>(Enemy)->GetHit(MeleeDamage);
+		//		Cast<AParentEnemy>(Enemy)->GetStunned();
+		//	}
+		//}
 
 
 	}
