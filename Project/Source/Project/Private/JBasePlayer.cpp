@@ -88,6 +88,10 @@ AJBasePlayer::AJBasePlayer()
 	IsKDown = false;
 
 	CanKill = false;
+
+	CanPerformKill = false;
+
+	IsKilling = false;
 	
 }
 
@@ -529,18 +533,18 @@ void AJBasePlayer::SKillBoxOnOverlapBegin(UPrimitiveComponent* OverlappedCompone
 	if (OtherActor)
 	{
 		AJFollowEnemy* Enemy = Cast<AJFollowEnemy>(OtherActor);
+
 		{
 			if (Enemy)
 			{
 				
-			
 				float Distance = GetDistanceTo(Enemy);
-				
-				if (Distance <= 400.f)
-				{
-					CanKill = true;
+				if (Distance <= 400) {
+					
 					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Black, TEXT("FINISH HIM!!"));
+					CanKill = true;
 				}
+				
 			}
 		}
 	}
@@ -548,20 +552,24 @@ void AJBasePlayer::SKillBoxOnOverlapBegin(UPrimitiveComponent* OverlappedCompone
 
 void AJBasePlayer::SKillBoxOnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
+	CanKill = false;
 }
 
 void AJBasePlayer::StealthKill()
 {
+	
 	if (CanKill)
 	{
 		UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
-		AnimationInst->Montage_JumpToSection(FName("Attack1"), FightMontage);
+		AnimationInst->Montage_JumpToSection(FName("SKill"), FightMontage);
 	}
 }
 
 void AJBasePlayer::KUp()
 {
 	IsKDown = false;
+	CanPerformKill = false;
+	
 }
 	
 
@@ -569,7 +577,12 @@ void AJBasePlayer::KDown()
 {
 	
 	IsKDown = true;
-	StealthKill();
+	if (IsKDown && CanKill) {
+
+		CanPerformKill = true;
+	}
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("K"));
+	//StealthKill();
 }
 
 

@@ -119,7 +119,15 @@ void AJFollowEnemy::VisionBoxOnOverlapBegin(UPrimitiveComponent* OverlappedComp,
 		AJBasePlayer* Player = Cast<AJBasePlayer>(OtherActor);
 		if (Player)
 		{
-			MoveToPlayer(Player);
+			if (Player->CanKill) {
+				AIController->StopMovement();
+			}
+
+			else {
+
+				MoveToPlayer(Player);
+			}
+		
 			
 		}
 	}
@@ -177,18 +185,23 @@ void AJFollowEnemy::AttackSphereOnOverlapBegin(UPrimitiveComponent* OverlappedCo
 		{
 			if (Player)
 			{
-				IsOverlapAttackSphere = true;
-				IsWithGoal = true;
-				Player->SetFightGoal(this);
-				AttackTarget = Player;
-				
-				Player->FightGoalUpdate();
 
-				
-				float FightLapsus = FMath::RandRange(0.5f, 1.5f);
-				GetWorldTimerManager().SetTimer(FightTempo, this, &AJFollowEnemy::Fight, FightLapsus);
-				
-				
+				if (Player->CanKill) {
+					AIController->StopMovement();
+				}
+				else {
+					IsOverlapAttackSphere = true;
+					IsWithGoal = true;
+					Player->SetFightGoal(this);
+					AttackTarget = Player;
+
+					Player->FightGoalUpdate();
+
+
+					float FightLapsus = FMath::RandRange(0.5f, 1.5f);
+					GetWorldTimerManager().SetTimer(FightTempo, this, &AJFollowEnemy::Fight, FightLapsus);
+
+				}
 				
 			}
 		}
