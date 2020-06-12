@@ -35,14 +35,15 @@ public:
 		UStaticMeshComponent* Mesh = nullptr;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UProjectileMovementComponent* ProjectileComponent = nullptr;
-	
+
 	FTimerHandle GrenadeFuseTimerHandle;
 	void Explode();
 	float GrenadeFuseLength = 2.f;
 	float GrenadeDamage = 100.f;
-	float BlastRadius = 500.f;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		float BlastRadius = 500.f;
 	virtual void NotifyActorBeginOverlap(AActor* Other) override;
-	virtual void NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult &hit) override;
+	virtual void NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& hit) override;
 
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
