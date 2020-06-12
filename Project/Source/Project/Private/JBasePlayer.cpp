@@ -63,7 +63,7 @@ AJBasePlayer::AJBasePlayer()
 	//Player movement configuration with rotation rate
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 	GetCharacterMovement()->RotationRate = FRotator(0.f, 540.f, 0.f);
-	GetCharacterMovement()->JumpZVelocity = 650.f;
+	/*GetCharacterMovement()->JumpZVelocity = 650.f;*/
 	GetCharacterMovement()->AirControl = 0.2f;
 
 	IsDead = false;
@@ -142,8 +142,8 @@ void AJBasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	check(PlayerInputComponent);
 
-	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AJBasePlayer::Jump);
-	PlayerInputComponent->BindAction("Jump", IE_Released, this, &AJBasePlayer::StopJumping);
+	/*PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AJBasePlayer::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Released, this, &AJBasePlayer::StopJumping);*/
 
 	PlayerInputComponent->BindAction("Kill", IE_Pressed, this, &AJBasePlayer::KDown);
 	PlayerInputComponent->BindAction("Kill", IE_Released, this, &AJBasePlayer::KUp);
@@ -458,13 +458,13 @@ void AJBasePlayer::CrouchEnd()
 	UnCrouch();
 }
 
-void AJBasePlayer::Jump()
-{
-	if (!IsDead)
-	{
-		Super::Jump();
-	}
-}
+//void AJBasePlayer::Jump()
+//{
+//	if (!IsDead)
+//	{
+//		Super::Jump();
+//	}
+//}
 
 
 

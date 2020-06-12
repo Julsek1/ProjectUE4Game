@@ -80,6 +80,7 @@ class USoundCue* DamageSound;
  bool IsAnnexed;
 
  // Check if player is Dead or alive
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
  bool IsDead;
 
  void SetAnnexEnemy(bool Annex);
@@ -225,8 +226,8 @@ public:
 	UFUNCTION()
 	void CrouchEnd();
 
-	//Jump
-	virtual void Jump() override;
+	////Jump
+	//virtual void Jump() override;
 
 	////Stealth
 	UFUNCTION(BlueprintCallable)
