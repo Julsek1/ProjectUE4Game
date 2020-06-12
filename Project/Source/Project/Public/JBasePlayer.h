@@ -43,8 +43,8 @@ class USoundCue* DamageSound;
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Controller")
  class ABasePlayerController* PController;
 
- UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stealth")
- class UBoxComponent* SKillBox;
+ /*UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stealth")
+ class UBoxComponent* SKillBox;*/
 
 
  
@@ -229,14 +229,14 @@ public:
 	////Jump
 	//virtual void Jump() override;
 
-	////Stealth
-	UFUNCTION(BlueprintCallable)
-	void SKillBoxOnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
-			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	//////Stealth
+	//UFUNCTION(BlueprintCallable)
+	//void SKillBoxOnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+	//		UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
-	UFUNCTION()
-		void SKillBoxOnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
-			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+	//UFUNCTION()
+	//	void SKillBoxOnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+	//		UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
 	UFUNCTION()
 	void StealthKill();
