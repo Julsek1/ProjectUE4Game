@@ -94,7 +94,7 @@ void AParentEnemy::StunCooldownElapsed()
 
 void AParentEnemy::GetHit(float Damage, float Force, FVector Direction)
 {
-	Health -= Damage;
+	Health -= (Damage - Damage * DamageResistance);
 	ForceOfLastHit = Force;
 	DirectionOfLastHit = Direction;
 }

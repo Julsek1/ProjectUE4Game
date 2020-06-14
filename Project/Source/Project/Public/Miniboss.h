@@ -19,4 +19,5 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float DesiredMovementSpeed = 500.f;
+
 };
