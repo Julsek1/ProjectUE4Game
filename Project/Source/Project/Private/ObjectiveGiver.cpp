@@ -27,11 +27,10 @@ void AObjectiveGiver::BeginPlay()
 
 }
 
-//// Called every frame
+// Called every frame
 //void AObjectiveGiver::Tick(float DeltaTime)
 //{
 //	Super::Tick(DeltaTime);
-//
 //}
 
 //void AObjectiveGiver::NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& hit)
