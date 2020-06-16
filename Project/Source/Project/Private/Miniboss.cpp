@@ -4,6 +4,7 @@
 #include "Miniboss.h"
 
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Kismet/GameplayStatics.h"
 
 AMiniboss::AMiniboss()
 {
@@ -11,4 +12,19 @@ AMiniboss::AMiniboss()
 	GetCharacterMovement()->MaxWalkSpeed = DesiredMovementSpeed;
 
 	DamageResistance = 0.5f;
+}
+
+void AMiniboss::BeginPlay()
+{
+	Super::BeginPlay();
+	PlayerTeleportLocation = UGameplayStatics::GetPlayerCharacter(this, 0)->GetActorLocation();
+}
+
+void AMiniboss::Destroyed()
+{
+	if (GetWorld() && GetWorld()->IsGameWorld() && !bDestroyed)
+	{
+		bDestroyed = true;
+		UGameplayStatics::GetPlayerCharacter(this, 0)->SetActorLocation(PlayerTeleportLocation);
+	}
 }

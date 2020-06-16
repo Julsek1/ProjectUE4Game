@@ -16,8 +16,12 @@ class PROJECT_API AMiniboss : public AParentEnemy
 	
 public:
 	AMiniboss();
-
+	virtual void BeginPlay() override;
+	virtual void Destroyed() override;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float DesiredMovementSpeed = 500.f;
 
+	FVector PlayerTeleportLocation;
+
+	bool bDestroyed = false;
 };
