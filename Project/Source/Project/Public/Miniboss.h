@@ -7,13 +7,13 @@
 #include "Miniboss.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class PROJECT_API AMiniboss : public AParentEnemy
 {
 	GENERATED_BODY()
-	
+
 public:
 	AMiniboss();
 	virtual void BeginPlay() override;
@@ -24,4 +24,7 @@ public:
 	FVector PlayerTeleportLocation;
 
 	bool bDestroyed = false;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		FColor Color;
 };

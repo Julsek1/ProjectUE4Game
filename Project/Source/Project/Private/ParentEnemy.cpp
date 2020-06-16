@@ -27,6 +27,7 @@ AParentEnemy::AParentEnemy()
 void AParentEnemy::BeginPlay()
 {
 	Super::BeginPlay();
+
 	Cast<UTSEnemyWidget>(WidgetComponent->GetUserWidgetObject())->Enemy = this;
 }
 
