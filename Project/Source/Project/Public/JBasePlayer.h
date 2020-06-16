@@ -47,6 +47,8 @@ class USoundCue* DamageSound;
  class UBoxComponent* SKillBox;*/
 
 
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
+ FVector ControlDirection;
  
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
  bool IsHanging;

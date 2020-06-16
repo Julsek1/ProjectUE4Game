@@ -16,6 +16,7 @@
 #include "JFollowEnemy.h"
 #include "Animation/AnimInstance.h"
 #include "JSaveGame.h"
+#include "Math/UnrealMathUtility.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "..\Public\JBasePlayer.h"
@@ -189,12 +190,15 @@ void AJBasePlayer::MoveForward(float Value)
 
 void AJBasePlayer::MoveRight(float Value)
 {
+
+
 	if ((Controller != nullptr) && (Value != 0.0f) && (!IsFighting) && (!IsDead) && (!IsHanging))
 	{
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-		AddMovementInput(Direction, Value);
+		ControlDirection = Direction;
+		AddMovementInput(ControlDirection, Value);
 	}
 }
 
