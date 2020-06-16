@@ -48,7 +48,8 @@ class USoundCue* DamageSound;
 
 
  
-
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
+ bool IsHanging;
 
 
  //Turning camera values
