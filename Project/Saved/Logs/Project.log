@@ -17498,3 +17498,1484 @@ Make sure 'BP_MinibossYellow_C' has been compiled for  Get MinimapIcon
 [2020.06.16-16.18.06:906][ 41]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2020.06.16-16.18.06:906][ 41]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
 [2020.06.16-16.18.06:906][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.16-16.21.36:701][855]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2020.06.16-16.21.36:786][855]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleC13D339E43D3D12AD810C3875126A516.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.16-16.21.36:883][855]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData562492C04C34BE3EEAF4B0AE23BBE886.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.16-16.21.36:898][855]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.16-16.21.36:898][855]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.16-16.21.36:898][855]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.16-16.26.55:068][413]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2020.06.16-16.26.56:745][413]LogSlate: Window 'Delete Assets' being destroyed
+[2020.06.16-16.26.57:238][413]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossBlue1.BP_MinibossBlue1
+[2020.06.16-16.26.58:534][413]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2020.06.16-16.26.58:749][413]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2020.06.16-16.26.58:780][413]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2020.06.16-16.26.58:808][413]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.06.16-16.26.59:854][463]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2020.06.16-16.27.00:854][463]LogSlate: Window 'Delete Assets' being destroyed
+[2020.06.16-16.27.01:356][463]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossGreen2.BP_MinibossGreen2
+[2020.06.16-16.27.01:580][463]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.06.16-16.27.01:786][463]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2020.06.16-16.27.01:817][463]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2020.06.16-16.27.01:841][463]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.06.16-16.27.02:756][510]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.06.16-16.27.03:771][510]LogSlate: Window 'Delete Assets' being destroyed
+[2020.06.16-16.27.04:252][510]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossRed3.BP_MinibossRed3
+[2020.06.16-16.27.04:460][510]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2020.06.16-16.27.04:671][510]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2020.06.16-16.27.04:699][510]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.06.16-16.27.04:727][510]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.06.16-16.27.05:558][554]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2020.06.16-16.27.06:463][554]LogSlate: Window 'Delete Assets' being destroyed
+[2020.06.16-16.27.06:967][554]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossYellow4.BP_MinibossYellow4
+[2020.06.16-16.27.07:186][554]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2020.06.16-16.27.07:416][554]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.06.16-16.27.07:445][554]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.06.16-16.27.07:473][554]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.06.16-16.27.09:351][663]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.06.16-16.27.09:428][663]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleA70CBDD642419ECA7238F4A1415F2493.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.16-16.27.09:513][663]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataC4F037E04A89425776033CBC477438EC.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.16-16.27.09:536][663]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.16-16.27.09:536][663]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.16-16.27.09:536][663]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.16-16.28.15:144][593]LogHotReload: New module detected: UE4Editor-Project-0281.dll
+[2020.06.16-16.28.15:494][595]LogHotReload: Starting Hot-Reload from IDE
+[2020.06.16-16.28.15:543][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.06.16-16.28.15:644][595]LogClass: Could not find existing class Miniboss in package /Script/Project for HotReload, assuming new class
+[2020.06.16-16.28.15:644][595]LogClass: Could not find existing class MinibossBlue in package /Script/Project for HotReload, assuming new class
+[2020.06.16-16.28.15:644][595]LogClass: Could not find existing class MinibossGreen in package /Script/Project for HotReload, assuming new class
+[2020.06.16-16.28.15:644][595]LogClass: Could not find existing class MinibossRed in package /Script/Project for HotReload, assuming new class
+[2020.06.16-16.28.15:644][595]LogClass: Could not find existing class MinibossYellow in package /Script/Project for HotReload, assuming new class
+[2020.06.16-16.28.15:669][595]LogClass: EGunState HotReload.
+[2020.06.16-16.28.15:669][595]LogClass: EFEnemyMoveStat HotReload.
+[2020.06.16-16.28.15:669][595]LogClass: PlayerStats HotReload.
+[2020.06.16-16.28.15:695][595]LogHotReload: Re-instancing Miniboss after hot-reload.
+[2020.06.16-16.28.15:879][595]LogHotReload: Re-instancing MinibossBlue after hot-reload.
+[2020.06.16-16.28.15:978][595]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossGreen.BP_MinibossGreen_C for a property of Class /Script/Project.Miniboss. Reference will be nullptred.
+    Property = ObjectProperty /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:Miniboss
+    Item = BP_MinibossGreen_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.BP_MinibossGreen_3
+[2020.06.16-16.28.16:038][595]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossRed.BP_MinibossRed_C for a property of Class /Script/Project.Miniboss. Reference will be nullptred.
+    Property = ObjectProperty /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:Miniboss
+    Item = BP_MinibossRed_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.BP_MinibossRed_5
+[2020.06.16-16.28.16:038][595]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossYellow.BP_MinibossYellow_C for a property of Class /Script/Project.Miniboss. Reference will be nullptred.
+    Property = ObjectProperty /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:Miniboss
+    Item = BP_MinibossYellow_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.BP_MinibossYellow_5
+[2020.06.16-16.28.16:038][595]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossYellow.BP_MinibossYellow_C for a property of Class /Script/Project.Miniboss. Reference will be nullptred.
+    Property = ObjectProperty /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:Miniboss
+    Item = BP_MinibossYellow_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.BP_MinibossYellow_5
+[2020.06.16-16.28.16:038][595]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossRed.BP_MinibossRed_C for a property of Class /Script/Project.Miniboss. Reference will be nullptred.
+    Property = ObjectProperty /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:Miniboss
+    Item = BP_MinibossRed_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.BP_MinibossRed_5
+[2020.06.16-16.28.16:044][595]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossRed.BP_MinibossRed_C for a property of Class /Script/Project.Miniboss. Reference will be nullptred.
+    Property = ObjectProperty /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoorMultiple.BP_MinibossDoorMultiple_C:Miniboss1
+    Item = BP_MinibossRed_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.BP_MinibossRed_5
+[2020.06.16-16.28.16:044][595]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossYellow.BP_MinibossYellow_C for a property of Class /Script/Project.Miniboss. Reference will be nullptred.
+    Property = ObjectProperty /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoorMultiple.BP_MinibossDoorMultiple_C:Miniboss2
+    Item = BP_MinibossYellow_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.BP_MinibossYellow_5
+[2020.06.16-16.28.16:068][595]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossGreen.BP_MinibossGreen_C for a property of Class /Script/Project.Miniboss. Reference will be nullptred.
+    Property = ObjectProperty /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:Miniboss
+    Item = BP_MinibossGreen_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.BP_MinibossGreen_3
+[2020.06.16-16.28.16:299][595]LogHotReload: Re-instancing MinibossGreen after hot-reload.
+[2020.06.16-16.28.16:680][595]LogHotReload: Re-instancing MinibossRed after hot-reload.
+[2020.06.16-16.28.17:255][595]LogHotReload: Re-instancing MinibossYellow after hot-reload.
+[2020.06.16-16.28.17:658][595]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0004 seconds. Added 42 classes and 3 folders.
+[2020.06.16-16.28.17:663][595]Display: HotReload successful (44 functions remapped  1 scriptstructs remapped)
+[2020.06.16-16.28.17:751][595]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2020.06.16-16.28.17:768][595]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 3059 classes and 723 folders.
+[2020.06.16-16.28.17:773][595]Display: HotReload took  2.3s.
+[2020.06.16-16.28.25:412][757]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossBlue.BP_MinibossBlue
+[2020.06.16-16.28.27:007][822]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2020.06.16-16.28.27:007][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.16-16.28.28:571][913]LogEditorViewport: Clicking on Actor (LMB): BP_MinibossRed_C (BP_MinibossRed)
+[2020.06.16-16.28.37:610][449]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.06.16-16.28.42:855][762]LogEditorViewport: Clicking on Actor (LMB): BP_MinibossRed_C (BP_MinibossRed)
+[2020.06.16-16.28.54:234][420]LogUObjectHash: Compacting FUObjectHashTables data took   4.75ms
+[2020.06.16-16.28.54:303][420]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleD4BA599744EBA847406D2B92AA1269F3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.16-16.28.54:384][420]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataEAACFCBE426E825BA3FA94B67720E8F2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.16-16.28.54:403][420]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.16-16.28.54:403][420]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.16-16.28.54:403][420]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.16-16.28.55:596][490]LogEditorViewport: Clicking on Actor (LMB): BP_MinibossYellow_C (BP_MinibossYellow)
+[2020.06.16-16.29.00:134][743]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2020.06.16-16.29.00:225][743]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle0F08B2FC449DCF09EB24CE8561F0511C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.16-16.29.00:309][743]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData809BAC244A02CED4ADD0408B41A1FA83.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.16-16.29.00:326][743]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.16-16.29.00:326][743]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.16-16.29.00:326][743]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.16-16.29.06:922][131]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.06.16-16.29.07:392][158]LogEditorViewport: Clicking on Actor (LMB): BP_MinibossBlue_C (BP_MinibossBlue)
+[2020.06.16-16.29.22:913][ 78]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_MinibossGreen_C (BP_MinibossGreen)
+[2020.06.16-16.29.29:673][467]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.06.16-16.29.29:756][467]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle07419F8244E9F8C8D84E62BA8ABB43B9.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.16-16.29.29:841][467]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData2DA989CF499969B809BA76AF9E93BBEF.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.16-16.29.29:863][467]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.16-16.29.29:863][467]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.16-16.29.29:863][467]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.16-16.29.31:308][549]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.06.16-16.29.31:373][549]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleDACDC2DE4B901BFB609EC2A2D7BAB899.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.16-16.29.31:452][549]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataD743529B46A42930449EA3B0F9C116DE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.16-16.29.31:470][549]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.16-16.29.31:470][549]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.16-16.29.31:470][549]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.16-16.29.33:599][669]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.16-16.29.33:625][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.16-16.29.33:625][669]PIE: New page: PIE session: MiniBossBattle (Jun 16, 2020, 8:29:33 AM)
+[2020.06.16-16.29.33:625][669]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.16-16.29.33:659][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033958s)
+[2020.06.16-16.29.33:660][669]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.16-16.29.33:660][669]LogPlayLevel: PIE: World Init took: (0.000778s)
+[2020.06.16-16.29.33:660][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.034867s)
+[2020.06.16-16.29.33:686][669]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2020.06.16-16.29.33:689][669]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.16-16.29.33:689][669]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.16-16.29.33:689][669]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.16-16.29.33:689][669]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.16-16.29.33:689][669]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.16-16.29.33:689][669]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.16-16.29.33:689][669]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.16-16.29.33:689][669]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.16-16.29.33:689][669]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.16-16.29.33:689][669]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.16-16.29.33:723][669]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.16-16.29.33:723][669]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.16-16.29.33:724][669]LogAudioMixer: Display: Is Default: Yes
+[2020.06.16-16.29.33:724][669]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.16-16.29.33:724][669]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.16-16.29.33:724][669]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.16-16.29.33:724][669]LogAudioMixer: Display: Channel Order:
+[2020.06.16-16.29.33:724][669]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.16-16.29.33:724][669]LogAudioMixer: Display: 1: FrontRight
+[2020.06.16-16.29.33:739][669]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.16-16.29.33:740][669]LogInit: FAudioDevice initialized.
+[2020.06.16-16.29.33:752][669]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.16-16.29.33:756][669]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.16-12.29.33
+[2020.06.16-16.29.33:757][669]LogWorld: Bringing up level for play took: 0.004772
+[2020.06.16-16.29.33:758][669]LogOnline: OSS: Creating online subsystem instance for: :Context_69
+[2020.06.16-16.29.33:760][669]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.16-16.29.33:761][669]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.16-16.29.33:772][669]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_BossDoor2
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.29.33:772][669]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.29.33:772][669]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_BossDoor3
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.29.33:772][669]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.29.33:773][669]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_BossDoor4
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.29.33:773][669]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.29.33:773][669]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_BossDoor_2
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.29.33:773][669]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.29.33:773][669]LogScript: Warning: Attempted to access missing property 'Color'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_MinibossDoor_2
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01CA
+[2020.06.16-16.29.33:773][669]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Color'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.29.33:773][669]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_MinibossDoor2
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.29.33:773][669]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.29.33:773][669]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_MinibossDoor3
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.29.33:773][669]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.29.33:773][669]LogScript: Warning: Attempted to access missing property 'Color'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_MinibossDoor4
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01CA
+[2020.06.16-16.29.33:773][669]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Color'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.29.33:777][669]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle 0.864
+[2020.06.16-16.29.33:777][669]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.33:815][670]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.33:831][671]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.33:848][672]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.33:865][673]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.33:881][674]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.33:898][675]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.33:915][676]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.33:931][677]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.33:948][678]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.33:965][679]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.33:981][680]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.34:001][681]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.34:015][682]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.34:032][683]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.34:048][684]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.34:065][685]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.34:081][686]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.34:098][687]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.34:115][688]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.34:131][689]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.34:148][690]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.34:165][691]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.34:182][692]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.34:249][696]LogTemp: Warning: Self: X=-0.060 Y=-0.998 Z=0.000
+[2020.06.16-16.29.34:266][697]LogTemp: Warning: Self: X=-0.022 Y=-1.000 Z=0.000
+[2020.06.16-16.29.34:283][698]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.16-16.29.34:300][699]LogTemp: Warning: Self: X=-0.077 Y=-0.997 Z=0.000
+[2020.06.16-16.29.34:316][700]LogTemp: Warning: Self: X=-0.083 Y=-0.997 Z=0.000
+[2020.06.16-16.29.36:116][808]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.29.36:116][808]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.29.36:116][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.16-16.29.36:116][808]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.16-16.29.36:117][808]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.29.36:117][808]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.16-16.29.36:117][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.16-16.29.36:123][808]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.16-16.29.36:127][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.16-16.29.36:155][808]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.29.36:157][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.16-16.29.36:162][808]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2020.06.16-16.29.36:261][809]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2020.06.16-16.29.37:869][887]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor
+[2020.06.16-16.29.38:820][923]LogSlate: Window 'Message Log' being destroyed
+[2020.06.16-16.29.38:826][923]LogSlate: Window 'Message Log' being destroyed
+[2020.06.16-16.29.39:486][960]BlueprintLog: New page: Compile BP_MinibossDoor
+[2020.06.16-16.29.39:715][960]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2020.06.16-16.29.40:143][978]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_MinibossDoor38CD20B54C69E56CE51FFE98A77C7FE1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/WorldAssets/BP_MinibossDoor.uasset'
+[2020.06.16-16.29.40:159][978]AssetCheck: New page: Asset Save: BP_MinibossDoor
+[2020.06.16-16.29.40:159][978]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor
+[2020.06.16-16.29.40:890][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2020.06.16-16.29.40:955][ 19]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle2C518D584554BA908E81DCBACA8BBC8C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.16-16.29.41:037][ 19]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData747D35E24BE28CE2FA4F5690411C98EB.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.16-16.29.41:057][ 19]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.16-16.29.41:057][ 19]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.16-16.29.41:057][ 19]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.16-16.29.41:788][ 61]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.16-16.29.41:813][ 61]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.16-16.29.41:813][ 61]PIE: New page: PIE session: MiniBossBattle (Jun 16, 2020, 8:29:41 AM)
+[2020.06.16-16.29.41:813][ 61]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.16-16.29.41:862][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048334s)
+[2020.06.16-16.29.41:862][ 61]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.16-16.29.41:862][ 61]LogPlayLevel: PIE: World Init took: (0.000768s)
+[2020.06.16-16.29.41:862][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.049241s)
+[2020.06.16-16.29.41:893][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2020.06.16-16.29.41:893][ 61]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.16-16.29.41:893][ 61]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.16-16.29.41:893][ 61]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.16-16.29.41:893][ 61]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.16-16.29.41:893][ 61]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.16-16.29.41:893][ 61]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.16-16.29.41:893][ 61]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.16-16.29.41:893][ 61]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.16-16.29.41:894][ 61]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.16-16.29.41:894][ 61]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.16-16.29.41:915][ 61]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.16-16.29.41:915][ 61]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.16-16.29.41:915][ 61]LogAudioMixer: Display: Is Default: Yes
+[2020.06.16-16.29.41:915][ 61]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.16-16.29.41:915][ 61]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.16-16.29.41:915][ 61]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.16-16.29.41:915][ 61]LogAudioMixer: Display: Channel Order:
+[2020.06.16-16.29.41:915][ 61]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.16-16.29.41:915][ 61]LogAudioMixer: Display: 1: FrontRight
+[2020.06.16-16.29.41:925][ 61]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.16-16.29.41:926][ 61]LogInit: FAudioDevice initialized.
+[2020.06.16-16.29.41:937][ 61]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.16-16.29.41:940][ 61]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.16-12.29.41
+[2020.06.16-16.29.41:941][ 61]LogWorld: Bringing up level for play took: 0.003086
+[2020.06.16-16.29.41:941][ 61]LogOnline: OSS: Creating online subsystem instance for: :Context_71
+[2020.06.16-16.29.41:943][ 61]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.16-16.29.41:944][ 61]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.16-16.29.41:944][ 61]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_BossDoor2
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.29.41:944][ 61]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.29.41:944][ 61]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_BossDoor3
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.29.41:944][ 61]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.29.41:944][ 61]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_BossDoor4
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.29.41:944][ 61]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.29.41:944][ 61]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_BossDoor_2
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.29.41:944][ 61]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.29.41:945][ 61]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_MinibossDoor2
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.29.41:945][ 61]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.29.41:945][ 61]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_MinibossDoor3
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.29.41:945][ 61]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.29.41:947][ 61]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle 1.034
+[2020.06.16-16.29.41:948][ 61]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.41:983][ 62]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:005][ 63]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:021][ 64]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:039][ 65]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:054][ 66]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:071][ 67]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:088][ 68]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:104][ 69]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:121][ 70]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:138][ 71]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:156][ 72]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:171][ 73]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:188][ 74]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:204][ 75]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:221][ 76]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:240][ 77]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:254][ 78]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:271][ 79]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:287][ 80]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:305][ 81]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:321][ 82]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:337][ 83]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:354][ 84]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:371][ 85]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:387][ 86]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:404][ 87]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:421][ 88]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:437][ 89]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:454][ 90]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:471][ 91]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:487][ 92]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:504][ 93]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:522][ 94]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:537][ 95]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:554][ 96]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:570][ 97]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:587][ 98]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:604][ 99]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:620][100]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:638][101]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:653][102]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:670][103]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:687][104]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:706][105]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:722][106]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:738][107]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:753][108]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:771][109]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:787][110]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:805][111]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:821][112]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:837][113]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:854][114]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:871][115]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:887][116]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:904][117]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:921][118]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:937][119]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:954][120]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:971][121]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.42:987][122]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:004][123]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:021][124]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:037][125]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:054][126]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:070][127]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:087][128]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:104][129]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:121][130]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:137][131]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:154][132]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:171][133]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:187][134]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:204][135]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:221][136]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:238][137]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:256][138]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:271][139]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:288][140]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:304][141]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:321][142]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:337][143]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:354][144]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:372][145]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:387][146]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:404][147]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:421][148]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:437][149]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:454][150]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:471][151]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:488][152]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:504][153]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:521][154]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:537][155]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:554][156]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:570][157]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:589][158]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:604][159]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:620][160]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:637][161]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:654][162]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:671][163]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:692][164]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:707][165]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:723][166]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:740][167]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:757][168]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:773][169]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:790][170]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:807][171]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:823][172]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:840][173]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:857][174]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:874][175]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:890][176]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:907][177]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:924][178]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:941][179]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:957][180]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:974][181]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.43:989][182]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.49:211][495]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.16-16.29.49:245][497]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.16-16.29.49:261][498]LogTemp: Warning: Self: X=-0.052 Y=-0.999 Z=0.000
+[2020.06.16-16.29.49:283][499]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.16-16.29.49:295][500]LogTemp: Warning: Self: X=0.042 Y=-0.999 Z=0.000
+[2020.06.16-16.29.49:313][501]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.16-16.29.49:496][512]LogTemp: Warning: Self: X=-0.021 Y=1.000 Z=0.000
+[2020.06.16-16.29.49:512][513]LogTemp: Warning: Self: X=0.096 Y=0.995 Z=0.000
+[2020.06.16-16.29.49:678][523]LogTemp: Warning: Self: X=0.044 Y=-0.999 Z=0.000
+[2020.06.16-16.29.49:695][524]LogTemp: Warning: Self: X=-0.079 Y=-0.997 Z=0.000
+[2020.06.16-16.29.49:878][535]LogTemp: Warning: Self: X=0.023 Y=1.000 Z=0.000
+[2020.06.16-16.29.50:012][543]LogTemp: Warning: Self: X=0.118 Y=-0.993 Z=0.000
+[2020.06.16-16.29.50:028][544]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.16-16.29.50:212][555]LogTemp: Warning: Self: X=0.030 Y=1.000 Z=0.000
+[2020.06.16-16.29.50:361][564]LogTemp: Warning: Self: X=0.284 Y=-0.959 Z=0.000
+[2020.06.16-16.29.50:379][565]LogTemp: Warning: Self: X=0.085 Y=-0.996 Z=0.000
+[2020.06.16-16.29.50:394][566]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.16-16.29.50:712][585]LogTemp: Warning: Self: X=0.336 Y=-0.942 Z=0.000
+[2020.06.16-16.29.51:762][648]LogTemp: Warning: Self: X=0.707 Y=-0.707 Z=0.000
+[2020.06.16-16.29.51:781][649]LogTemp: Warning: Self: X=0.707 Y=-0.707 Z=0.000
+[2020.06.16-16.29.52:629][700]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.52:645][701]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.52:662][702]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.52:678][703]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.54:762][828]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.54:778][829]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.54:795][830]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.54:813][831]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.54:829][832]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.54:846][833]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.54:862][834]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.54:878][835]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.54:895][836]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.54:912][837]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.54:928][838]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.54:945][839]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.54:961][840]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.54:978][841]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:025][842]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:032][843]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:049][844]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:065][845]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:082][846]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:098][847]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:116][848]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:131][849]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:148][850]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:165][851]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:182][852]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:198][853]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:215][854]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:232][855]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:248][856]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:265][857]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:282][858]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:299][859]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:315][860]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:332][861]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:348][862]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:365][863]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:381][864]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:399][865]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:415][866]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:431][867]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:448][868]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:465][869]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:481][870]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:498][871]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:515][872]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:532][873]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:548][874]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:568][875]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:583][876]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:600][877]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:616][878]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:633][879]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:650][880]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:666][881]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:683][882]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:700][883]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:716][884]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:732][885]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:749][886]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:766][887]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:782][888]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:799][889]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:816][890]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:833][891]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:849][892]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:866][893]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:883][894]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:899][895]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:916][896]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:933][897]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:950][898]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:967][899]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.55:983][900]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:000][901]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:017][902]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:033][903]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:049][904]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:066][905]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:082][906]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:099][907]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:116][908]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:133][909]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:149][910]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:166][911]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:183][912]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:200][913]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:216][914]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:232][915]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:249][916]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:269][917]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:284][918]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:300][919]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:317][920]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:333][921]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:350][922]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:366][923]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:383][924]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:400][925]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:416][926]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:434][927]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:450][928]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:467][929]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:483][930]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:500][931]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:517][932]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:533][933]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:550][934]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:567][935]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:583][936]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:600][937]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:616][938]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:633][939]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:650][940]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:666][941]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:683][942]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:700][943]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:717][944]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:734][945]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:750][946]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:766][947]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:783][948]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:802][949]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:817][950]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:833][951]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:850][952]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:866][953]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:884][954]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:899][955]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:916][956]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:933][957]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:949][958]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:966][959]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.56:985][960]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:001][961]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:016][962]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:034][963]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:050][964]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:066][965]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:083][966]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:101][967]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:116][968]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:133][969]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:150][970]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:166][971]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:183][972]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:200][973]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:216][974]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:234][975]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:250][976]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:267][977]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:284][978]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:300][979]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:317][980]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:333][981]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:349][982]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:367][983]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:384][984]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:400][985]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:416][986]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:433][987]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:450][988]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:466][989]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:484][990]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:500][991]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:517][992]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:534][993]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:550][994]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:567][995]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:583][996]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:600][997]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:617][998]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:633][999]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:650][  0]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.29.57:667][  1]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.02:251][276]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.30.02:251][276]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.30.02:252][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.16-16.30.02:252][276]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.16-16.30.02:252][276]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.30.02:252][276]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.16-16.30.02:253][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.16-16.30.02:264][276]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.16-16.30.02:269][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.16-16.30.02:299][276]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.30.02:301][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.16-16.30.02:307][276]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.06.16-16.30.02:405][277]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2020.06.16-16.30.07:240][548]LogSlate: Window 'Message Log' being destroyed
+[2020.06.16-16.30.07:246][548]LogSlate: Window 'Message Log' being destroyed
+[2020.06.16-16.30.08:301][608]BlueprintLog: New page: Compile BP_MinibossDoor
+[2020.06.16-16.30.08:531][608]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2020.06.16-16.30.08:819][618]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_MinibossDoor73F14EF14615D79721C3F9A43BAA7AFA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/WorldAssets/BP_MinibossDoor.uasset'
+[2020.06.16-16.30.08:832][618]AssetCheck: New page: Asset Save: BP_MinibossDoor
+[2020.06.16-16.30.08:832][618]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor
+[2020.06.16-16.30.09:206][641]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2020.06.16-16.30.09:206][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.16-16.30.10:256][698]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.06.16-16.30.10:322][698]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleFC53264A4485D969417557968AABF9A1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.16-16.30.10:401][698]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData111EBBD54CE341C2E1C346815F876610.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.16-16.30.10:419][698]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.16-16.30.10:419][698]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.16-16.30.10:419][698]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.16-16.30.11:241][745]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossGreen.BP_MinibossGreen
+[2020.06.16-16.30.12:106][778]BlueprintLog: New page: Compile BP_MinibossGreen
+[2020.06.16-16.30.12:338][778]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2020.06.16-16.30.12:783][794]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_MinibossGreen5C68E6D14ED9EA34E2B801A63F3A18ED.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/Miniboss/BP_MinibossGreen.uasset'
+[2020.06.16-16.30.12:805][794]AssetCheck: New page: Asset Save: BP_MinibossGreen
+[2020.06.16-16.30.12:805][794]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossGreen.BP_MinibossGreen
+[2020.06.16-16.30.13:153][814]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2020.06.16-16.30.13:153][814]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.16-16.30.14:478][889]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossRed.BP_MinibossRed
+[2020.06.16-16.30.15:425][928]BlueprintLog: New page: Compile BP_MinibossRed
+[2020.06.16-16.30.15:657][928]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2020.06.16-16.30.16:712][984]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2020.06.16-16.30.16:712][984]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.16-16.30.18:315][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2020.06.16-16.30.18:380][ 74]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle1222487D425DC2F80FC9E0867BFE5D32.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.16-16.30.18:461][ 74]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData6FDA676A42B35F78565D6A9E39D52C3B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.16-16.30.18:480][ 74]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.16-16.30.18:480][ 74]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.16-16.30.18:480][ 74]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.16-16.30.19:148][113]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossYellow.BP_MinibossYellow
+[2020.06.16-16.30.20:715][185]BlueprintLog: New page: Compile BP_MinibossYellow
+[2020.06.16-16.30.20:955][185]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.06.16-16.30.21:411][205]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_MinibossYellow04B38FF6483CD7A8F8D1F1AF902C13B9.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/Miniboss/BP_MinibossYellow.uasset'
+[2020.06.16-16.30.21:425][205]AssetCheck: New page: Asset Save: BP_MinibossYellow
+[2020.06.16-16.30.21:425][205]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossYellow.BP_MinibossYellow
+[2020.06.16-16.30.21:800][228]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2020.06.16-16.30.21:801][228]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.16-16.30.23:041][295]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2020.06.16-16.30.23:109][295]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle5D736FF04EB83A329669F0B324D8F8A6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.16-16.30.23:195][295]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataBC41FCB349EE752086CE5CA64D83387E.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.16-16.30.23:214][295]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.16-16.30.23:214][295]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.16-16.30.23:214][295]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.16-16.30.24:156][352]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.16-16.30.24:179][352]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.16-16.30.24:179][352]PIE: New page: PIE session: MiniBossBattle (Jun 16, 2020, 8:30:24 AM)
+[2020.06.16-16.30.24:179][352]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.16-16.30.24:216][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037190s)
+[2020.06.16-16.30.24:217][352]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.16-16.30.24:217][352]LogPlayLevel: PIE: World Init took: (0.001082s)
+[2020.06.16-16.30.24:218][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.038434s)
+[2020.06.16-16.30.24:247][352]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.06.16-16.30.24:247][352]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.16-16.30.24:247][352]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.16-16.30.24:247][352]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.16-16.30.24:247][352]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.16-16.30.24:247][352]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.16-16.30.24:247][352]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.16-16.30.24:247][352]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.16-16.30.24:247][352]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.16-16.30.24:248][352]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.16-16.30.24:248][352]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.16-16.30.24:270][352]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.16-16.30.24:270][352]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.16-16.30.24:270][352]LogAudioMixer: Display: Is Default: Yes
+[2020.06.16-16.30.24:270][352]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.16-16.30.24:270][352]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.16-16.30.24:270][352]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.16-16.30.24:270][352]LogAudioMixer: Display: Channel Order:
+[2020.06.16-16.30.24:270][352]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.16-16.30.24:270][352]LogAudioMixer: Display: 1: FrontRight
+[2020.06.16-16.30.24:280][352]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.16-16.30.24:282][352]LogInit: FAudioDevice initialized.
+[2020.06.16-16.30.24:289][352]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.16-16.30.24:292][352]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.16-12.30.24
+[2020.06.16-16.30.24:293][352]LogWorld: Bringing up level for play took: 0.003712
+[2020.06.16-16.30.24:294][352]LogOnline: OSS: Creating online subsystem instance for: :Context_75
+[2020.06.16-16.30.24:296][352]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.16-16.30.24:296][352]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.16-16.30.24:297][352]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_BossDoor2
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.30.24:297][352]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.30.24:297][352]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_BossDoor3
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.30.24:297][352]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.30.24:297][352]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_BossDoor4
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.30.24:297][352]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.30.24:297][352]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_BossDoor_2
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.30.24:297][352]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.30.24:298][352]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_MinibossDoor2
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.30.24:298][352]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.30.24:298][352]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_MinibossDoor3
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.30.24:298][352]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.30.24:301][352]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle -0.613
+[2020.06.16-16.30.24:301][352]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:333][353]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:351][354]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:366][355]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:382][356]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:400][357]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:416][358]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:432][359]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:449][360]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:465][361]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:482][362]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:498][363]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:516][364]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:536][365]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:549][366]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:566][367]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:582][368]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:599][369]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:616][370]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:632][371]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:649][372]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:666][373]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:682][374]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:699][375]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:716][376]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:732][377]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:748][378]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:765][379]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:782][380]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:799][381]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:815][382]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:832][383]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:849][384]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:866][385]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:884][386]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:899][387]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:915][388]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:931][389]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:948][390]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:965][391]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:982][392]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.24:999][393]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:017][394]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:032][395]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:049][396]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:065][397]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:082][398]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:099][399]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:115][400]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:132][401]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:149][402]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:165][403]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:182][404]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:199][405]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:215][406]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:232][407]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:249][408]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:265][409]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:283][410]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:298][411]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:315][412]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:332][413]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:349][414]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:366][415]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:382][416]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.25:399][417]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.26:869][505]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.30.26:869][505]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.30.26:869][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.16-16.30.26:869][505]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.16-16.30.26:870][505]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.30.26:870][505]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.16-16.30.26:870][505]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.16-16.30.26:879][505]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.16-16.30.26:884][505]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.16-16.30.26:912][505]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.30.26:914][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.16-16.30.26:919][505]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.06.16-16.30.27:017][506]LogPlayLevel: Display: Destroying online subsystem :Context_75
+[2020.06.16-16.30.32:912][837]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor
+[2020.06.16-16.30.33:729][868]LogSlate: Window 'Message Log' being destroyed
+[2020.06.16-16.30.33:734][868]LogSlate: Window 'Message Log' being destroyed
+[2020.06.16-16.30.35:819][993]BlueprintLog: New page: Compile BP_MinibossDoor
+[2020.06.16-16.30.36:052][993]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2020.06.16-16.30.36:579][ 18]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_MinibossDoor7F267D784040F8F68616B6A77C545FA8.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/WorldAssets/BP_MinibossDoor.uasset'
+[2020.06.16-16.30.36:592][ 18]AssetCheck: New page: Asset Save: BP_MinibossDoor
+[2020.06.16-16.30.36:592][ 18]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor
+[2020.06.16-16.30.37:537][ 75]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2020.06.16-16.30.37:537][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.16-16.30.38:553][129]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2020.06.16-16.30.38:633][129]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleC1D36C784395FF20CDD5A0A8B66642F4.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.16-16.30.38:713][129]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData028CC412406AA22A57D0FEB55046B132.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.16-16.30.38:733][129]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.16-16.30.38:733][129]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.16-16.30.38:733][129]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.16-16.30.42:925][379]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Phil/Materials_Textures/Level/M_MinibossDoor.M_MinibossDoor
+[2020.06.16-16.30.42:929][379]LogMaterial: Display: Missing cached shader map for material M_MinibossDoor, compiling. 
+[2020.06.16-16.30.43:014][379]LogMaterial: Display: Missing cached shader map for material M_MinibossDoor, compiling. 
+[2020.06.16-16.30.43:026][379]LogMaterial: Display: Missing cached shader map for material M_MinibossDoor, compiling. 
+[2020.06.16-16.30.43:046][379]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.06.16-16.30.43:046][379]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.06.16-16.30.43:046][379]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.06.16-16.30.43:046][379]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.06.16-16.30.43:046][379]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.06.16-16.30.43:046][379]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.06.16-16.30.43:046][379]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.06.16-16.30.43:046][379]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.06.16-16.30.43:046][379]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.06.16-16.30.43:821][413]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2020.06.16-16.30.43:843][414]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2020.06.16-16.30.44:127][426]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.06.16-16.30.44:212][429]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.06.16-16.30.44:261][432]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2020.06.16-16.30.44:432][442]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.06.16-16.30.44:432][442]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.06.16-16.30.44:432][442]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.06.16-16.30.44:432][442]MaterialEditorStats: Texture samplers: 2/16
+[2020.06.16-16.30.44:565][450]LogMaterialEditor: Saving and Compiling material M_MinibossDoor
+[2020.06.16-16.30.44:641][450]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/M_MinibossDoor481DA0EC42EDE7D8FB8DBF84CAE3D7D3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Materials_Textures/Level/M_MinibossDoor.uasset'
+[2020.06.16-16.30.44:660][450]AssetCheck: New page: Asset Save: M_MinibossDoor
+[2020.06.16-16.30.44:661][450]LogContentValidation: Display: Validating Material /Game/Phil/Materials_Textures/Level/M_MinibossDoor.M_MinibossDoor
+[2020.06.16-16.30.47:576][620]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2020.06.16-16.30.47:576][620]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.16-16.30.48:425][667]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.06.16-16.30.48:493][667]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle480A7DC446C754DF8CCC0EB3AE9F77C3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.16-16.30.48:572][667]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData3D0921BA417E5D02CEDF559EE3264244.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.16-16.30.48:592][667]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.16-16.30.48:592][667]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.16-16.30.48:592][667]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.16-16.30.49:146][701]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.16-16.30.49:177][701]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.16-16.30.49:177][701]PIE: New page: PIE session: MiniBossBattle (Jun 16, 2020, 8:30:49 AM)
+[2020.06.16-16.30.49:177][701]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.16-16.30.49:210][701]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032885s)
+[2020.06.16-16.30.49:210][701]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.16-16.30.49:211][701]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2020.06.16-16.30.49:211][701]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.033793s)
+[2020.06.16-16.30.49:239][701]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.06.16-16.30.49:240][701]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.16-16.30.49:240][701]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.16-16.30.49:240][701]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.16-16.30.49:240][701]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.16-16.30.49:240][701]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.16-16.30.49:240][701]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.16-16.30.49:240][701]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.16-16.30.49:240][701]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.16-16.30.49:240][701]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.16-16.30.49:240][701]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.16-16.30.49:262][701]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.16-16.30.49:262][701]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.16-16.30.49:262][701]LogAudioMixer: Display: Is Default: Yes
+[2020.06.16-16.30.49:262][701]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.16-16.30.49:262][701]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.16-16.30.49:262][701]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.16-16.30.49:262][701]LogAudioMixer: Display: Channel Order:
+[2020.06.16-16.30.49:262][701]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.16-16.30.49:262][701]LogAudioMixer: Display: 1: FrontRight
+[2020.06.16-16.30.49:272][701]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.16-16.30.49:273][701]LogInit: FAudioDevice initialized.
+[2020.06.16-16.30.49:283][701]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.16-16.30.49:286][701]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.16-12.30.49
+[2020.06.16-16.30.49:287][701]LogWorld: Bringing up level for play took: 0.003051
+[2020.06.16-16.30.49:287][701]LogOnline: OSS: Creating online subsystem instance for: :Context_78
+[2020.06.16-16.30.49:289][701]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.16-16.30.49:290][701]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.16-16.30.49:290][701]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_BossDoor2
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.30.49:290][701]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.30.49:290][701]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_BossDoor3
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.30.49:291][701]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.30.49:291][701]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_BossDoor4
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.30.49:291][701]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.30.49:291][701]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_BossDoor_2
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.30.49:291][701]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.30.49:291][701]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_MinibossDoor2
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.30.49:291][701]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.30.49:291][701]LogScript: Warning: Accessed None trying to read property Miniboss
+	BP_MinibossDoor_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.BP_MinibossDoor3
+	Function /Game/Phil/Blueprints/WorldAssets/BP_MinibossDoor.BP_MinibossDoor_C:ExecuteUbergraph_BP_MinibossDoor:01B5
+[2020.06.16-16.30.49:291][701]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Miniboss". Blueprint:  BP_MinibossDoor Function:  Execute Ubergraph BP Miniboss Door Graph:  EventGraph Node:  Set Vector Parameter Value
+[2020.06.16-16.30.49:294][701]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle 0.381
+[2020.06.16-16.30.49:294][701]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:327][702]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:344][703]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:360][704]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:377][705]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:393][706]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:411][707]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:426][708]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:443][709]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:460][710]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:477][711]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:493][712]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:510][713]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:527][714]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:547][715]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:560][716]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:576][717]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:593][718]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:610][719]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:627][720]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:643][721]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:660][722]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:676][723]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:693][724]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:710][725]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.49:961][740]LogTemp: Warning: Self: X=0.104 Y=0.995 Z=0.000
+[2020.06.16-16.30.50:111][749]LogTemp: Warning: Self: X=-0.053 Y=-0.999 Z=0.000
+[2020.06.16-16.30.50:962][800]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.50:977][801]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.50:993][802]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:010][803]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:028][804]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:044][805]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:061][806]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:077][807]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:093][808]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:110][809]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:127][810]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:143][811]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:159][812]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:176][813]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:193][814]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:209][815]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:226][816]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:243][817]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:261][818]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:276][819]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:294][820]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:310][821]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:327][822]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:343][823]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:360][824]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:376][825]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:393][826]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:410][827]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:426][828]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:445][829]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:460][830]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:476][831]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:493][832]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:509][833]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:527][834]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:543][835]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:559][836]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:576][837]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:593][838]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:610][839]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:626][840]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:643][841]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.51:660][842]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.30.53:094][928]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.30.53:094][928]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.30.53:095][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.16-16.30.53:095][928]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.16-16.30.53:095][928]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.30.53:095][928]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.16-16.30.53:095][928]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.16-16.30.53:103][928]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.16-16.30.53:108][928]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.16-16.30.53:138][928]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.30.53:139][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.16-16.30.53:144][928]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.06.16-16.30.53:227][929]LogPlayLevel: Display: Destroying online subsystem :Context_78
+[2020.06.16-16.30.54:220][975]LogSlate: Window 'Message Log' being destroyed
+[2020.06.16-16.30.54:225][975]LogSlate: Window 'Message Log' being destroyed
+[2020.06.16-16.30.55:459][ 49]LogEditorViewport: Clicking on Actor (LMB): BP_MinibossDoor_C (BP_BossDoor)
+[2020.06.16-16.31.02:145][446]LogEditorViewport: Clicking on Actor (LMB): BP_MinibossDoor_C (BP_BossDoor3)
+[2020.06.16-16.31.07:089][739]LogEditorViewport: Clicking on Actor (LMB): BP_MinibossDoor_C (BP_BossDoor4)
+[2020.06.16-16.31.10:152][919]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2020.06.16-16.31.11:675][  7]LogEditorViewport: Clicking on Actor (LMB): BP_MinibossDoor_C (BP_BossDoor2)
+[2020.06.16-16.31.16:431][288]LogEditorViewport: Clicking on Actor (LMB): BP_MinibossDoor_C (BP_MinibossDoor4)
+[2020.06.16-16.31.18:447][407]LogEditorViewport: Clicking on Actor (LMB): BP_MinibossDoor_C (BP_MinibossDoor)
+[2020.06.16-16.31.19:654][478]LogEditorViewport: Clicking on Actor (LMB): BP_MinibossDoor_C (BP_MinibossDoor2)
+[2020.06.16-16.31.20:605][534]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_MinibossDoor_C (BP_MinibossDoor3)
+[2020.06.16-16.31.23:082][681]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.06.16-16.31.26:043][857]LogEditorViewport: Clicking on Actor (LMB): BP_MinibossDoorMultiple_C (BP_MinibossDoorMultiple)
+[2020.06.16-16.31.32:513][239]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2020.06.16-16.31.32:608][239]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle7500980649AA0969EB0355A7F917D08D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.16-16.31.32:688][239]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData7C7806794FB8974563C3B09A749421E1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.16-16.31.32:705][239]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.16-16.31.32:705][239]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.16-16.31.32:705][239]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.16-16.31.33:727][300]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.16-16.31.33:751][300]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.16-16.31.33:751][300]PIE: New page: PIE session: MiniBossBattle (Jun 16, 2020, 8:31:33 AM)
+[2020.06.16-16.31.33:752][300]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.16-16.31.33:785][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033383s)
+[2020.06.16-16.31.33:786][300]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.16-16.31.33:786][300]LogPlayLevel: PIE: World Init took: (0.000942s)
+[2020.06.16-16.31.33:786][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.034473s)
+[2020.06.16-16.31.33:812][300]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.06.16-16.31.33:814][300]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.16-16.31.33:814][300]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.16-16.31.33:814][300]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.16-16.31.33:814][300]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.16-16.31.33:814][300]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.16-16.31.33:814][300]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.16-16.31.33:814][300]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.16-16.31.33:814][300]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.16-16.31.33:814][300]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.16-16.31.33:814][300]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.16-16.31.33:836][300]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.16-16.31.33:836][300]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.16-16.31.33:836][300]LogAudioMixer: Display: Is Default: Yes
+[2020.06.16-16.31.33:836][300]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.16-16.31.33:836][300]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.16-16.31.33:836][300]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.16-16.31.33:836][300]LogAudioMixer: Display: Channel Order:
+[2020.06.16-16.31.33:836][300]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.16-16.31.33:836][300]LogAudioMixer: Display: 1: FrontRight
+[2020.06.16-16.31.33:847][300]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.16-16.31.33:848][300]LogInit: FAudioDevice initialized.
+[2020.06.16-16.31.33:856][300]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.16-16.31.33:860][300]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.16-12.31.33
+[2020.06.16-16.31.33:861][300]LogWorld: Bringing up level for play took: 0.004068
+[2020.06.16-16.31.33:861][300]LogOnline: OSS: Creating online subsystem instance for: :Context_79
+[2020.06.16-16.31.33:864][300]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.16-16.31.33:864][300]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.16-16.31.33:868][300]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle 0.955
+[2020.06.16-16.31.33:869][300]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.31.33:905][301]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.31.33:922][302]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.31.33:939][303]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.31.33:954][304]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.31.33:971][305]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.31.33:991][306]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.31.34:006][307]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.31.34:021][308]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.31.34:038][309]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.31.34:055][310]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.31.34:073][311]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.31.34:088][312]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.31.34:105][313]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.31.34:122][314]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.31.34:138][315]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.31.34:154][316]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.31.34:172][317]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.31.34:189][318]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.31.34:206][319]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.31.34:222][320]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.31.34:756][352]LogTemp: Warning: Self: X=-0.385 Y=-0.923 Z=0.000
+[2020.06.16-16.31.34:773][353]LogTemp: Warning: Self: X=-0.401 Y=-0.916 Z=0.000
+[2020.06.16-16.31.34:789][354]LogTemp: Warning: Self: X=-0.447 Y=-0.894 Z=0.000
+[2020.06.16-16.31.37:039][489]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.31.37:039][489]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.31.37:039][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.16-16.31.37:039][489]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.16-16.31.37:039][489]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.31.37:040][489]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.16-16.31.37:040][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.16-16.31.37:050][489]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.16-16.31.37:055][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.16-16.31.37:081][489]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.31.37:084][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.16-16.31.37:088][489]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2020.06.16-16.31.37:153][492]LogPlayLevel: Display: Destroying online subsystem :Context_79
+[2020.06.16-16.32.00:673][890]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.06.16-16.32.00:752][890]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleF59C577A409D1C8E6A8EDAA76B3B03D7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.16-16.32.00:832][890]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataB7F90C96413C54D87521BFA1333C7489.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.16-16.32.00:852][890]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.16-16.32.00:852][890]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.16-16.32.00:852][890]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.16-16.32.01:680][940]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.16-16.32.01:703][940]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.16-16.32.01:703][940]PIE: New page: PIE session: MiniBossBattle (Jun 16, 2020, 8:32:01 AM)
+[2020.06.16-16.32.01:703][940]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.16-16.32.01:737][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034010s)
+[2020.06.16-16.32.01:738][940]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.16-16.32.01:738][940]LogPlayLevel: PIE: World Init took: (0.001104s)
+[2020.06.16-16.32.01:738][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.035273s)
+[2020.06.16-16.32.01:773][940]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2020.06.16-16.32.01:775][940]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.16-16.32.01:775][940]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.16-16.32.01:775][940]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.16-16.32.01:775][940]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.16-16.32.01:775][940]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.16-16.32.01:775][940]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.16-16.32.01:775][940]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.16-16.32.01:775][940]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.16-16.32.01:776][940]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.16-16.32.01:776][940]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.16-16.32.01:814][940]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.16-16.32.01:814][940]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.16-16.32.01:814][940]LogAudioMixer: Display: Is Default: Yes
+[2020.06.16-16.32.01:814][940]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.16-16.32.01:814][940]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.16-16.32.01:814][940]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.16-16.32.01:815][940]LogAudioMixer: Display: Channel Order:
+[2020.06.16-16.32.01:815][940]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.16-16.32.01:815][940]LogAudioMixer: Display: 1: FrontRight
+[2020.06.16-16.32.01:832][940]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.16-16.32.01:834][940]LogInit: FAudioDevice initialized.
+[2020.06.16-16.32.01:845][940]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.16-16.32.01:849][940]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.16-12.32.01
+[2020.06.16-16.32.01:851][940]LogWorld: Bringing up level for play took: 0.004526
+[2020.06.16-16.32.01:851][940]LogOnline: OSS: Creating online subsystem instance for: :Context_80
+[2020.06.16-16.32.01:854][940]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.16-16.32.01:854][940]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.16-16.32.01:859][940]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle 0.946
+[2020.06.16-16.32.01:859][940]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.01:891][941]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.01:908][942]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.01:925][943]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.01:943][944]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.01:960][945]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.01:976][946]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.01:992][947]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.02:008][948]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.02:026][949]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.02:051][950]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.02:061][951]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.02:078][952]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.02:094][953]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.02:112][954]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.02:128][955]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.02:144][956]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.02:161][957]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.02:178][958]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.02:195][959]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.02:212][960]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.02:228][961]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.02:244][962]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.02:262][963]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.02:277][964]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.02:294][965]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.02:312][966]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.02:328][967]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.02:346][968]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.02:361][969]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.02:379][970]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.16-16.32.02:412][972]LogTemp: Warning: Self: X=0.081 Y=-0.997 Z=0.000
+[2020.06.16-16.32.02:429][973]LogTemp: Warning: Self: X=0.075 Y=-0.997 Z=0.000
+[2020.06.16-16.32.02:446][974]LogTemp: Warning: Self: X=0.035 Y=-0.999 Z=0.000
+[2020.06.16-16.32.02:463][975]LogTemp: Warning: Self: X=0.000 Y=-1.000 Z=0.000
+[2020.06.16-16.32.02:479][976]LogTemp: Warning: Self: X=-0.065 Y=-0.998 Z=0.000
+[2020.06.16-16.32.02:495][977]LogTemp: Warning: Self: X=-0.109 Y=-0.994 Z=0.000
+[2020.06.16-16.32.02:695][989]LogTemp: Warning: Self: X=-0.036 Y=0.999 Z=0.000
+[2020.06.16-16.32.02:845][998]LogTemp: Warning: Self: X=0.067 Y=-0.998 Z=0.000
+[2020.06.16-16.32.02:862][999]LogTemp: Warning: Self: X=-0.117 Y=-0.993 Z=0.000
+[2020.06.16-16.32.05:528][159]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:544][160]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:562][161]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:578][162]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:595][163]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:611][164]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:628][165]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:645][166]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:661][167]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:678][168]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:695][169]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:712][170]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:730][171]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:746][172]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:762][173]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:778][174]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:795][175]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:812][176]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:828][177]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:845][178]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:862][179]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:879][180]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:895][181]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:911][182]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:929][183]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:946][184]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:961][185]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:978][186]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.05:996][187]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:012][188]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:028][189]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:045][190]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:062][191]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:078][192]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:095][193]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:112][194]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:128][195]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:145][196]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:161][197]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:178][198]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:195][199]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:212][200]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:229][201]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:245][202]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:262][203]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:278][204]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:295][205]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:311][206]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:328][207]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:345][208]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:362][209]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:379][210]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:395][211]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:412][212]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:429][213]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:445][214]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:461][215]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:478][216]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:495][217]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:512][218]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:528][219]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:545][220]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:562][221]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:580][222]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:596][223]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:612][224]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:628][225]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:645][226]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:662][227]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:679][228]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:695][229]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:712][230]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:729][231]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:746][232]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:762][233]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:778][234]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:795][235]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:813][236]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:828][237]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:845][238]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:862][239]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:878][240]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:895][241]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:911][242]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:928][243]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:945][244]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:962][245]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:978][246]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.06:995][247]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:011][248]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:030][249]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:045][250]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:062][251]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:078][252]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:097][253]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:112][254]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:128][255]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:145][256]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:162][257]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:178][258]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:195][259]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:213][260]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:228][261]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:245][262]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:262][263]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:279][264]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:295][265]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:312][266]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:328][267]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:346][268]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:362][269]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:378][270]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:395][271]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:412][272]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:429][273]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:445][274]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:462][275]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:478][276]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:497][277]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:512][278]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:529][279]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:547][280]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:562][281]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:578][282]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:595][283]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:612][284]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:628][285]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:645][286]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:662][287]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:680][288]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:696][289]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:712][290]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:729][291]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:746][292]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:762][293]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:778][294]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:795][295]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:812][296]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:828][297]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:845][298]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:862][299]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:879][300]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:895][301]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:912][302]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:928][303]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:945][304]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:961][305]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:978][306]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.07:997][307]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:012][308]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:028][309]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:045][310]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:062][311]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:079][312]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:094][313]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:111][314]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:128][315]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:144][316]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:161][317]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:179][318]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:195][319]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:212][320]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:229][321]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:246][322]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:262][323]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:278][324]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:294][325]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:311][326]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:328][327]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:345][328]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:361][329]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:379][330]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:395][331]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:412][332]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:428][333]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:444][334]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:461][335]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:478][336]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:495][337]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:511][338]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:528][339]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:545][340]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:562][341]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:578][342]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:595][343]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:613][344]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:628][345]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:645][346]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:662][347]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:679][348]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:695][349]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:711][350]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:728][351]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:745][352]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:761][353]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:778][354]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:795][355]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:812][356]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:829][357]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:845][358]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:862][359]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:878][360]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:895][361]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:912][362]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:928][363]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:945][364]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:962][365]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:978][366]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.08:995][367]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:012][368]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:028][369]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:045][370]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:062][371]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:079][372]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:095][373]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:111][374]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:128][375]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:144][376]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:162][377]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:178][378]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:195][379]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:212][380]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:229][381]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:245][382]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:261][383]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:278][384]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:294][385]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:311][386]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:327][387]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:344][388]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:361][389]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:378][390]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:395][391]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:411][392]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:429][393]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:444][394]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:461][395]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:478][396]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:495][397]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:511][398]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:529][399]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:545][400]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:562][401]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:578][402]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:595][403]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:611][404]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:628][405]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:645][406]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:662][407]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:678][408]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:695][409]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:712][410]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:729][411]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:745][412]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:762][413]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:779][414]LogTemp: Warning: Self: X=1.000 Y=0.000 Z=0.000
+[2020.06.16-16.32.09:780][414]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.32.09:780][414]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.32.09:781][414]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.16-16.32.09:781][414]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.16-16.32.09:781][414]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.32.09:781][414]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.16-16.32.09:782][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.16-16.32.09:788][414]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.16-16.32.09:793][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.16-16.32.09:819][414]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.16-16.32.09:821][414]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.16-16.32.09:827][414]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2020.06.16-16.32.09:887][417]LogPlayLevel: Display: Destroying online subsystem :Context_80
+[2020.06.16-16.32.10:694][462]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.06.16-16.32.10:766][462]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle52FC7EDC4EBDEC37F6E6E3AE445ED610.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.16-16.32.10:848][462]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataCA120C754E53E25AC5556AB38895BDD4.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.16-16.32.10:863][462]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.16-16.32.10:863][462]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.16-16.32.10:863][462]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.16-16.32.12:317][546]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.06.16-16.32.12:392][546]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle4DE6EB324913D9815152269AC7DB9584.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.16-16.32.12:474][546]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData716E4F3B4A77F1392090DB81FC8AA017.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.16-16.32.12:493][546]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.16-16.32.12:493][546]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.16-16.32.12:493][546]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData

@@ -21,7 +21,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float DesiredMovementSpeed = 500.f;
 
-	FVector PlayerTeleportLocation;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FVector PlayerTeleportLocation;
 
 	bool bDestroyed = false;
 

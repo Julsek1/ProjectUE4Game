@@ -17,7 +17,7 @@ AMiniboss::AMiniboss()
 void AMiniboss::BeginPlay()
 {
 	Super::BeginPlay();
-	PlayerTeleportLocation = UGameplayStatics::GetPlayerCharacter(this, 0)->GetActorLocation();
+	//PlayerTeleportLocation = UGameplayStatics::GetPlayerCharacter(this, 0)->GetActorLocation();
 }
 
 void AMiniboss::Destroyed()
