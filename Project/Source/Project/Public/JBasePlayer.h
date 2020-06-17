@@ -117,6 +117,7 @@ public:
 	//forward and backwards movement
 	void MoveForward(float Value);
 	//side movement
+	UFUNCTION(BlueprintCallable)
 	void MoveRight(float Value);
 
 	//Turn at a provided value
