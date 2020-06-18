@@ -2168,3 +2168,533 @@ Make sure 'BP_JBasePlayerAnim_C' has been compiled for  Get PlayerRef
 [2020.06.18-17.23.28:833][787]LogPlayLevel: Display: Destroying online subsystem :Context_30
 [2020.06.18-17.23.30:359][850]LogSlate: Window 'Message Log' being destroyed
 [2020.06.18-17.23.30:383][850]LogSlate: Window 'Message Log' being destroyed
+[2020.06.18-18.11.31:682][984]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.18-18.11.31:734][984]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.18-18.11.31:734][984]PIE: New page: PIE session: TestMap (Jun. 18, 2020, 10:11:31 a.m.)
+[2020.06.18-18.11.31:735][984]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.18-18.11.31:819][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083716s)
+[2020.06.18-18.11.31:820][984]LogAIModule: Creating AISystem for world TestMap
+[2020.06.18-18.11.31:821][984]LogPlayLevel: PIE: World Init took: (0.001456s)
+[2020.06.18-18.11.31:821][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.085349s)
+[2020.06.18-18.11.31:875][984]LogUObjectHash: Compacting FUObjectHashTables data took   6.11ms
+[2020.06.18-18.11.31:878][984]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.18-18.11.31:878][984]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.18-18.11.31:878][984]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.18-18.11.31:878][984]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.18-18.11.31:878][984]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.18-18.11.31:878][984]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.18-18.11.31:878][984]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.18-18.11.31:878][984]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.18-18.11.31:878][984]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.18-18.11.31:878][984]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.18-18.11.31:883][984]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.18-18.11.31:883][984]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.18-18.11.31:883][984]LogAudioMixer: Display: Is Default: Yes
+[2020.06.18-18.11.31:883][984]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.18-18.11.31:883][984]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.18-18.11.31:883][984]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.18-18.11.31:883][984]LogAudioMixer: Display: Channel Order:
+[2020.06.18-18.11.31:883][984]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.18-18.11.31:884][984]LogAudioMixer: Display: 1: FrontRight
+[2020.06.18-18.11.32:009][984]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.18-18.11.32:014][984]LogInit: FAudioDevice initialized.
+[2020.06.18-18.11.32:027][984]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.18-18.11.32:031][984]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.18-14.11.32
+[2020.06.18-18.11.32:032][984]LogWorld: Bringing up level for play took: 0.004277
+[2020.06.18-18.11.32:033][984]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2020.06.18-18.11.32:036][984]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.18-18.11.32:039][984]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap -0.596
+[2020.06.18-18.11.53:038][232]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.18-18.11.53:052][232]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.18-18.11.53:072][232]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.18-18.11.53:072][232]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.18-18.11.53:072][232]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.18-18.11.53:072][232]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.18-18.11.53:072][232]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.18-18.11.53:073][232]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.18-18.11.53:079][232]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.18-18.11.53:083][232]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.18-18.11.53:111][232]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.18-18.11.53:114][232]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.18-18.11.53:121][232]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2020.06.18-18.11.53:259][233]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2020.06.18-18.11.54:543][286]LogSlate: Window 'Message Log' being destroyed
+[2020.06.18-18.11.54:569][286]LogSlate: Window 'Message Log' being destroyed
+[2020.06.18-19.50.45:208][249]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.18-19.50.45:301][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.18-19.50.45:302][249]PIE: New page: PIE session: TestMap (Jun. 18, 2020, 11:50:45 a.m.)
+[2020.06.18-19.50.45:304][249]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.18-19.50.45:488][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.184280s)
+[2020.06.18-19.50.45:491][249]LogAIModule: Creating AISystem for world TestMap
+[2020.06.18-19.50.45:492][249]LogPlayLevel: PIE: World Init took: (0.003362s)
+[2020.06.18-19.50.45:492][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.188004s)
+[2020.06.18-19.50.45:576][249]LogUObjectHash: Compacting FUObjectHashTables data took   7.15ms
+[2020.06.18-19.50.45:585][249]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.18-19.50.45:585][249]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.18-19.50.45:585][249]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.18-19.50.45:585][249]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.18-19.50.45:585][249]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.18-19.50.45:585][249]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.18-19.50.45:585][249]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.18-19.50.45:585][249]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.18-19.50.45:586][249]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.18-19.50.45:586][249]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.18-19.50.45:591][249]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.18-19.50.45:591][249]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.18-19.50.45:591][249]LogAudioMixer: Display: Is Default: Yes
+[2020.06.18-19.50.45:591][249]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.18-19.50.45:591][249]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.18-19.50.45:591][249]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.18-19.50.45:591][249]LogAudioMixer: Display: Channel Order:
+[2020.06.18-19.50.45:591][249]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.18-19.50.45:592][249]LogAudioMixer: Display: 1: FrontRight
+[2020.06.18-19.50.45:692][249]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.18-19.50.45:699][249]LogInit: FAudioDevice initialized.
+[2020.06.18-19.50.45:710][249]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.18-19.50.45:716][249]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.18-15.50.45
+[2020.06.18-19.50.45:716][249]LogWorld: Bringing up level for play took: 0.005342
+[2020.06.18-19.50.45:717][249]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2020.06.18-19.50.45:720][249]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.18-19.50.45:725][249]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 1.09
+[2020.06.18-19.51.43:903][712]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.18-19.51.43:911][712]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.18-19.51.43:931][712]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.18-19.51.43:931][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.18-19.51.43:931][712]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.18-19.51.43:931][712]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.18-19.51.43:932][712]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.18-19.51.43:932][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.18-19.51.43:941][712]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.18-19.51.43:945][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.18-19.51.43:976][712]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.18-19.51.43:980][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.18-19.51.43:988][712]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.06.18-19.51.44:133][713]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2020.06.18-19.51.45:530][782]LogSlate: Window 'Message Log' being destroyed
+[2020.06.18-19.51.45:535][782]LogSlate: Window 'Message Log' being destroyed
+[2020.06.18-20.42.06:362][782]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.18-20.42.06:401][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.18-20.42.06:401][782]PIE: New page: PIE session: TestMap (Jun. 18, 2020, 12:42:06 p.m.)
+[2020.06.18-20.42.06:401][782]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.18-20.42.06:502][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.100509s)
+[2020.06.18-20.42.06:504][782]LogAIModule: Creating AISystem for world TestMap
+[2020.06.18-20.42.06:505][782]LogPlayLevel: PIE: World Init took: (0.002555s)
+[2020.06.18-20.42.06:505][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.103314s)
+[2020.06.18-20.42.06:549][782]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2020.06.18-20.42.06:552][782]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.18-20.42.06:552][782]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.18-20.42.06:552][782]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.18-20.42.06:552][782]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.18-20.42.06:552][782]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.18-20.42.06:552][782]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.18-20.42.06:552][782]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.18-20.42.06:552][782]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.18-20.42.06:552][782]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.18-20.42.06:552][782]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.18-20.42.06:558][782]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.18-20.42.06:558][782]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.18-20.42.06:558][782]LogAudioMixer: Display: Is Default: Yes
+[2020.06.18-20.42.06:558][782]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.18-20.42.06:558][782]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.18-20.42.06:558][782]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.18-20.42.06:558][782]LogAudioMixer: Display: Channel Order:
+[2020.06.18-20.42.06:558][782]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.18-20.42.06:558][782]LogAudioMixer: Display: 1: FrontRight
+[2020.06.18-20.42.06:673][782]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.18-20.42.06:679][782]LogInit: FAudioDevice initialized.
+[2020.06.18-20.42.06:696][782]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.18-20.42.06:701][782]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.18-16.42.06
+[2020.06.18-20.42.06:702][782]LogWorld: Bringing up level for play took: 0.005409
+[2020.06.18-20.42.06:703][782]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2020.06.18-20.42.06:705][782]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.18-20.42.06:709][782]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.075
+[2020.06.18-20.42.43:886][979]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.18-20.42.43:886][979]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.18-20.42.43:887][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.18-20.42.43:887][979]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.18-20.42.43:887][979]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.18-20.42.43:887][979]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.18-20.42.43:888][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.18-20.42.43:900][979]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.18-20.42.43:905][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.18-20.42.43:939][979]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.18-20.42.43:942][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.18-20.42.43:949][979]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.06.18-20.42.44:066][980]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2020.06.18-20.42.45:298][ 39]LogSlate: Window 'Message Log' being destroyed
+[2020.06.18-20.42.45:322][ 39]LogSlate: Window 'Message Log' being destroyed
+[2020.06.18-20.43.57:975][364]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim
+[2020.06.18-20.43.58:130][364]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0051 seconds. Added 1 classes and 2 folders.
+[2020.06.18-20.43.58:662][364]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.18-20.43.58:688][364]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0014 seconds. Added 1 classes and 0 folders.
+[2020.06.18-20.43.59:483][364]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.18-20.44.00:965][364]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.06.18-20.44.14:273][117]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Julian/JCharacter/Animations/Jump_Loop.Jump_Loop
+[2020.06.18-20.44.14:292][117]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.18-20.44.14:434][117]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.18-20.44.16:024][117]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.06.18-20.45.22:871][698]LogSlate: Window 'Jump_Loop' being destroyed
+[2020.06.18-20.45.42:123][777]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Julian/JCharacter/Animations/Jump_Down.Jump_Down
+[2020.06.18-20.45.42:579][777]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.06.18-20.45.42:579][777]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.18-20.45.44:647][892]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.06.18-20.45.44:647][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.18-20.45.44:738][892]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.06.18-20.45.44:738][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.18-20.45.44:940][892]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.06.18-20.45.44:940][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.18-20.47.50:315][739]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\julia\Downloads\Falling Idle.fbx)
+[2020.06.18-20.47.50:396][739]LogFbx: Loading FBX Scene from C:\Users\julia\Downloads\Falling Idle.fbx
+[2020.06.18-20.47.50:455][739]LogFbx: FBX Scene Loaded Succesfully
+[2020.06.18-20.47.59:259][739]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(0) Hips
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(1) Spine
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(2) Spine1
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(3) Spine2
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(4) Neck
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(5) Head
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(6) HeadTop_End
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(7) LeftShoulder
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(8) LeftArm
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(9) LeftForeArm
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(10) LeftHand
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(23) LeftHandRing1
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(24) LeftHandRing2
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(25) LeftHandRing3
+[2020.06.18-20.47.59:480][739]LogFbx: SortedLinks :(26) LeftHandRing4
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(31) RightShoulder
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(32) RightArm
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(33) RightForeArm
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(34) RightHand
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(35) RightHandThumb1
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(36) RightHandThumb2
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(37) RightHandThumb3
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(38) RightHandThumb4
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(39) RightHandIndex1
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(40) RightHandIndex2
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(41) RightHandIndex3
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(42) RightHandIndex4
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(47) RightHandRing1
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(48) RightHandRing2
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(49) RightHandRing3
+[2020.06.18-20.47.59:481][739]LogFbx: SortedLinks :(50) RightHandRing4
+[2020.06.18-20.47.59:482][739]LogFbx: SortedLinks :(51) RightHandPinky1
+[2020.06.18-20.47.59:482][739]LogFbx: SortedLinks :(52) RightHandPinky2
+[2020.06.18-20.47.59:482][739]LogFbx: SortedLinks :(53) RightHandPinky3
+[2020.06.18-20.47.59:482][739]LogFbx: SortedLinks :(54) RightHandPinky4
+[2020.06.18-20.47.59:482][739]LogFbx: SortedLinks :(55) LeftUpLeg
+[2020.06.18-20.47.59:482][739]LogFbx: SortedLinks :(56) LeftLeg
+[2020.06.18-20.47.59:482][739]LogFbx: SortedLinks :(57) LeftFoot
+[2020.06.18-20.47.59:482][739]LogFbx: SortedLinks :(58) LeftToeBase
+[2020.06.18-20.47.59:482][739]LogFbx: SortedLinks :(59) LeftToe_End
+[2020.06.18-20.47.59:482][739]LogFbx: SortedLinks :(60) RightUpLeg
+[2020.06.18-20.47.59:482][739]LogFbx: SortedLinks :(61) RightLeg
+[2020.06.18-20.47.59:482][739]LogFbx: SortedLinks :(62) RightFoot
+[2020.06.18-20.47.59:482][739]LogFbx: SortedLinks :(63) RightToeBase
+[2020.06.18-20.47.59:482][739]LogFbx: SortedLinks :(64) RightToe_End
+[2020.06.18-20.47.59:486][739]LogFbx: Parsing AnimStack mixamo.com
+[2020.06.18-20.47.59:507][739]LogLinker: Failed to load '/Game/Julian/JCharacter/Animations/Jump/Falling_Idle': Can't find file.
+[2020.06.18-20.47.59:508][739]LogLinker: Failed to load '/Game/Julian/JCharacter/Animations/Jump/Falling_Idle': Can't find file.
+[2020.06.18-20.48.00:126][739]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Julian/JCharacter/Animations/Jump/Falling_Idle.Falling_Idle
+[2020.06.18-20.48.00:127][739]LogAnimationCompression: Recompressing (AnimSequence /Game/Julian/JCharacter/Animations/Jump/Falling_Idle.Falling_Idle) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.06.18-20.48.29:255][169]BlueprintLog: New page: Compile BP_JBasePlayerAnim
+[2020.06.18-20.48.29:308][169]LogBlueprint: Warning: [Compiler BP_JBasePlayerAnim] Could not find a variable named "PlayerRef" in 'BP_JBasePlayerAnim_C'.
+Make sure 'BP_JBasePlayerAnim_C' has been compiled for  Get PlayerRef
+[2020.06.18-20.48.30:265][169]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0092
+[2020.06.18-20.48.30:574][169]LogUObjectHash: Compacting FUObjectHashTables data took  11.94ms
+[2020.06.18-20.48.30:659][170]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0092
+[2020.06.18-20.48.30:678][171]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0092
+[2020.06.18-20.48.30:826][172]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0092
+[2020.06.18-20.48.30:876][172]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0092
+[2020.06.18-20.48.30:896][174]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0092
+[2020.06.18-20.48.30:923][175]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0092
+[2020.06.18-20.48.30:938][176]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0092
+[2020.06.18-20.48.30:954][177]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0092
+[2020.06.18-20.48.30:977][178]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0092
+[2020.06.18-20.48.30:993][179]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0092
+[2020.06.18-20.48.31:011][180]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0092
+[2020.06.18-20.48.31:030][181]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0092
+[2020.06.18-20.48.31:045][182]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0092
+[2020.06.18-20.48.31:072][183]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0092
+[2020.06.18-20.48.31:092][184]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0092
+[2020.06.18-20.48.31:106][185]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0092
+[2020.06.18-20.48.31:113][185]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0092
+[2020.06.18-20.48.36:812][430]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JBasePlayerAnim8F7D4AF34EA350370F1C09BA56D63653.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/BP_JBasePlayerAnim.uasset'
+[2020.06.18-20.48.36:860][430]AssetCheck: New page: Asset Save: BP_JBasePlayerAnim
+[2020.06.18-20.48.36:860][430]LogContentValidation: Display: Validating AnimBlueprint /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim
+[2020.06.18-20.48.47:192][934]BlueprintLog: New page: Compile BP_JBasePlayerAnim
+[2020.06.18-20.48.47:863][934]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.47:863][934]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_3
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.47:863][934]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_3:PersistentLevel.BP_JBasePlayer_C_9.CharacterMesh0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.47:863][934]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.47:977][934]LogUObjectHash: Compacting FUObjectHashTables data took   8.95ms
+[2020.06.18-20.48.48:396][934]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JBasePlayerAnim38B78392408684FF21DDDAAB428546C2.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/BP_JBasePlayerAnim.uasset'
+[2020.06.18-20.48.48:425][934]AssetCheck: New page: Asset Save: BP_JBasePlayerAnim
+[2020.06.18-20.48.48:425][934]LogContentValidation: Display: Validating AnimBlueprint /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim
+[2020.06.18-20.48.48:514][935]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_3
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:539][936]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_3
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:650][936]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:664][937]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_3
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:691][937]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:705][938]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_3
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:714][938]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:728][939]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_3
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:732][939]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:749][940]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_3
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:755][940]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:765][941]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_3
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:777][941]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:789][942]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_3
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:791][942]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:799][943]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_3
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:810][943]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:823][944]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_3
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:825][944]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:833][945]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_3
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:840][945]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:856][946]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_3
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:858][946]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:869][947]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_3
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:876][947]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:888][948]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_3
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:891][948]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.BP_JBasePlayerAnim_C_2
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:898][949]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_3
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:918][950]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_3
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.48:941][951]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_4:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_3
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:015E
+[2020.06.18-20.48.49:388][957]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JBasePlayerAnim9013A54140D8063B181CEA8D99D7D404.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/BP_JBasePlayerAnim.uasset'
+[2020.06.18-20.48.49:415][957]AssetCheck: New page: Asset Save: BP_JBasePlayerAnim
+[2020.06.18-20.48.49:415][957]LogContentValidation: Display: Validating AnimBlueprint /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim
+[2020.06.18-20.48.51:409][ 29]LogUObjectHash: Compacting FUObjectHashTables data took  13.78ms
+[2020.06.18-20.48.53:043][ 29]LogSlate: Window 'Save Content' being destroyed
+[2020.06.18-20.48.53:247][ 29]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Falling_IdleF886BA1E4A05E6071A53B7AD13F80709.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/Animations/Jump/Falling_Idle.uasset'
+[2020.06.18-20.48.53:320][ 29]AssetCheck: New page: Asset Save: Falling_Idle
+[2020.06.18-20.48.53:321][ 29]LogContentValidation: Display: Validating AnimSequence /Game/Julian/JCharacter/Animations/Jump/Falling_Idle.Falling_Idle
+[2020.06.18-20.48.54:802][ 83]LogRenderer: Reallocating scene render targets to support 704x412 Format 10 NumSamples 1 (Frame:92892).
+[2020.06.18-20.48.56:966][159]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.18-20.48.57:061][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.18-20.48.57:062][159]PIE: New page: PIE session: TestMap (Jun. 18, 2020, 12:48:57 p.m.)
+[2020.06.18-20.48.57:063][159]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.18-20.48.57:287][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.223787s)
+[2020.06.18-20.48.57:289][159]LogAIModule: Creating AISystem for world TestMap
+[2020.06.18-20.48.57:290][159]LogPlayLevel: PIE: World Init took: (0.002404s)
+[2020.06.18-20.48.57:290][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.226757s)
+[2020.06.18-20.48.57:401][159]LogUObjectHash: Compacting FUObjectHashTables data took  10.69ms
+[2020.06.18-20.48.57:407][159]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.18-20.48.57:407][159]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.18-20.48.57:407][159]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.18-20.48.57:407][159]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.18-20.48.57:407][159]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.18-20.48.57:407][159]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.18-20.48.57:408][159]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.18-20.48.57:408][159]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.18-20.48.57:409][159]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.18-20.48.57:409][159]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.18-20.48.57:427][159]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.18-20.48.57:427][159]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.18-20.48.57:427][159]LogAudioMixer: Display: Is Default: Yes
+[2020.06.18-20.48.57:427][159]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.18-20.48.57:427][159]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.18-20.48.57:427][159]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.18-20.48.57:427][159]LogAudioMixer: Display: Channel Order:
+[2020.06.18-20.48.57:427][159]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.18-20.48.57:427][159]LogAudioMixer: Display: 1: FrontRight
+[2020.06.18-20.48.57:724][159]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.18-20.48.57:727][159]LogInit: FAudioDevice initialized.
+[2020.06.18-20.48.57:743][159]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.18-20.48.57:749][159]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.18-16.48.57
+[2020.06.18-20.48.57:750][159]LogWorld: Bringing up level for play took: 0.006225
+[2020.06.18-20.48.57:751][159]LogOnline: OSS: Creating online subsystem instance for: :Context_43
+[2020.06.18-20.48.57:758][159]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.18-20.48.57:766][159]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 1.131
+[2020.06.18-20.49.57:848][412]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.18-20.49.57:861][412]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.18-20.49.57:881][412]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.18-20.49.57:882][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.18-20.49.57:882][412]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.18-20.49.57:882][412]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.18-20.49.57:882][412]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.18-20.49.57:883][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.18-20.49.57:892][412]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.18-20.49.57:899][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.18-20.49.57:963][412]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.18-20.49.57:969][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.18-20.49.57:978][412]LogUObjectHash: Compacting FUObjectHashTables data took   5.32ms
+[2020.06.18-20.49.58:205][413]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2020.06.18-20.50.04:846][680]LogSlate: Window 'Message Log' being destroyed
+[2020.06.18-20.50.04:857][680]LogSlate: Window 'Message Log' being destroyed
+[2020.06.18-20.50.18:580][434]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.18-20.50.18:656][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.18-20.50.18:657][434]PIE: New page: PIE session: TestMap (Jun. 18, 2020, 12:50:18 p.m.)
+[2020.06.18-20.50.18:657][434]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.18-20.50.18:858][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.200420s)
+[2020.06.18-20.50.18:860][434]LogAIModule: Creating AISystem for world TestMap
+[2020.06.18-20.50.18:861][434]LogPlayLevel: PIE: World Init took: (0.002393s)
+[2020.06.18-20.50.18:861][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.203170s)
+[2020.06.18-20.50.18:947][434]LogUObjectHash: Compacting FUObjectHashTables data took   6.03ms
+[2020.06.18-20.50.18:954][434]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.18-20.50.18:954][434]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.18-20.50.18:954][434]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.18-20.50.18:954][434]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.18-20.50.18:954][434]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.18-20.50.18:954][434]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.18-20.50.18:954][434]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.18-20.50.18:954][434]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.18-20.50.18:955][434]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.18-20.50.18:955][434]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.18-20.50.18:964][434]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.18-20.50.18:964][434]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.18-20.50.18:964][434]LogAudioMixer: Display: Is Default: Yes
+[2020.06.18-20.50.18:964][434]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.18-20.50.18:964][434]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.18-20.50.18:964][434]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.18-20.50.18:964][434]LogAudioMixer: Display: Channel Order:
+[2020.06.18-20.50.18:964][434]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.18-20.50.18:964][434]LogAudioMixer: Display: 1: FrontRight
+[2020.06.18-20.50.19:160][434]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.18-20.50.19:163][434]LogInit: FAudioDevice initialized.
+[2020.06.18-20.50.19:177][434]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.18-20.50.19:182][434]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.18-16.50.19
+[2020.06.18-20.50.19:183][434]LogWorld: Bringing up level for play took: 0.005079
+[2020.06.18-20.50.19:183][434]LogOnline: OSS: Creating online subsystem instance for: :Context_44
+[2020.06.18-20.50.19:190][434]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.18-20.50.19:195][434]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.56
+[2020.06.18-20.50.34:109][247]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.18-20.50.34:109][247]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.18-20.50.34:110][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.18-20.50.34:110][247]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.18-20.50.34:110][247]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.18-20.50.34:111][247]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.18-20.50.34:112][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.18-20.50.34:130][247]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.18-20.50.34:139][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.18-20.50.34:206][247]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.18-20.50.34:212][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.18-20.50.34:224][247]LogUObjectHash: Compacting FUObjectHashTables data took   7.23ms
+[2020.06.18-20.50.34:456][248]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2020.06.18-20.50.35:958][293]LogSlate: Window 'Message Log' being destroyed
+[2020.06.18-20.50.35:991][293]LogSlate: Window 'Message Log' being destroyed
+[2020.06.18-20.50.39:851][416]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
