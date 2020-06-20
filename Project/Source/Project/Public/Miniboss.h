@@ -28,4 +28,8 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		FColor Color;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		USceneComponent* WeaponMuzzle = nullptr;
+
 };

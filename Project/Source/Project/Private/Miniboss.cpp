@@ -8,6 +8,9 @@
 
 AMiniboss::AMiniboss()
 {
+	WeaponMuzzle = CreateDefaultSubobject<USceneComponent>(TEXT("Muzzle"));
+	WeaponMuzzle->SetupAttachment(RootComponent);
+
 	EnemyName = "Miniboss";
 	GetCharacterMovement()->MaxWalkSpeed = DesiredMovementSpeed;
 

@@ -148,6 +148,8 @@ public:
 	//Actions
 	UFUNCTION(BlueprintCallable)
 		bool CanPerformActions();
+
+
 private:
 	float CharacterRotationX = 0.f;
 	float CharacterRotationY = 0.f;

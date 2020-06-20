@@ -40,8 +40,10 @@ public:
 	float ForceOfLastHit;
 	FVector DirectionOfLastHit;
 
-	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const &DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
-	float DamageResistance = 0.f;
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
+
+	UPROPERTY(EditAnywhere, BLueprintReadWrite)
+		float DamageResistance = 0.f;
 
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)

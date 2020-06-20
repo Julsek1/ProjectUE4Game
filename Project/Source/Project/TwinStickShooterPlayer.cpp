@@ -145,7 +145,7 @@ void ATwinStickShooterPlayer::Tick(float DeltaTime)
 
 		if (OutHits.Num() > 0 && OutHits[0].GetActor())
 		{
-			UE_LOG(LogTemp, Warning, TEXT("Self: %s"), *WeaponMuzzle->GetForwardVector().ToString());
+			//UE_LOG(LogTemp, Warning, TEXT("Self: %s"), *WeaponMuzzle->GetForwardVector().ToString());
 			//UE_LOG(LogTemp, Warning, TEXT("Hit: %s"), *OutHits[0].GetActor()->GetActorLocation().ToString());
 			FVector HitActorLocation = OutHits[0].GetActor()->GetActorLocation();
 			float HitDistX = FMath::Abs(HitActorLocation.X - Start.X);
@@ -311,6 +311,7 @@ void ATwinStickShooterPlayer::MeleeAttack()
 
 		//TArray<TEnumAsByte<EObjectTypeQuery>> Query;
 		TArray<AActor*> Ignore;
+		Ignore.Add(this);
 		//TArray<AActor*> OutHits;
 
 		UGameplayStatics::ApplyRadialDamage(GetWorld(), MeleeDamage, GetActorLocation(), MeleeRange, UDamageType_Melee::StaticClass(), Ignore, this, GetController(), true);

@@ -44,7 +44,7 @@ void AGasMaskEnemyWeapon::Fire(USceneComponent* Location)
 		if (OutHits.Num() > 0 && Cast<AParentPlayer>(OutHits[0].GetActor()))
 		{
 			//OutHit.GetActor()->Destroy();
-			Cast<AParentPlayer>(OutHits[0].GetActor())->Health -= Damage;
+			Cast<AParentPlayer>(OutHits[0].GetActor())->GetHit(Damage);
 		}
 
 		//if (Cast<AParentEnemy>(OutHit.GetActor()))

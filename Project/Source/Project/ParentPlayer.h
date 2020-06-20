@@ -30,5 +30,10 @@ public:
 		virtual void Heal(float HealingAmount);
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		float Health = 0.1f;
+		float Health = 1.f;
+
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
+
+	void GetHit(float Damage);
+
 };

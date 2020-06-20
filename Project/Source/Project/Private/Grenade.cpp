@@ -35,6 +35,7 @@ void AGrenade::Explode()
 
 	//TArray<TEnumAsByte<EObjectTypeQuery>> Query;
 	TArray<AActor*> Ignore;
+	Ignore.Add(UGameplayStatics::GetPlayerCharacter(this, 0));
 	//TArray<AActor*> OutHits;
 
 	UGameplayStatics::ApplyRadialDamage(GetWorld(), GrenadeDamage, GetActorLocation(), BlastRadius, UDamageType_Explosive::StaticClass(), Ignore, this, UGameplayStatics::GetPlayerController(this, 0), true, ECollisionChannel(ECC_Pawn));

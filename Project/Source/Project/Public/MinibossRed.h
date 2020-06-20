@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "Miniboss.h"
+#include "MinibossRedWeapon.h"
+
 #include "MinibossRed.generated.h"
 
 /**
@@ -16,4 +18,9 @@ class PROJECT_API AMinibossRed : public AMiniboss
 	
 public:
 	AMinibossRed();
+	virtual void Tick(float DeltaTime) override;
+	void Fire();
+
+	UPROPERTY(EditAnywhere, BLueprintReadWrite)
+		AMinibossRedWeapon* RocketLauncher = nullptr;
 };
