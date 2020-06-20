@@ -9,18 +9,25 @@
 #include "MinibossRed.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class PROJECT_API AMinibossRed : public AMiniboss
 {
 	GENERATED_BODY()
-	
+
 public:
 	AMinibossRed();
 	virtual void Tick(float DeltaTime) override;
-	void Fire();
+
+	UFUNCTION(BlueprintCallable)
+		void Fire();
+	UFUNCTION(BlueprintCallable)
+		void Reload();
 
 	UPROPERTY(EditAnywhere, BLueprintReadWrite)
 		AMinibossRedWeapon* RocketLauncher = nullptr;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UAnimMontage* ReloadAnimation = nullptr;
 };

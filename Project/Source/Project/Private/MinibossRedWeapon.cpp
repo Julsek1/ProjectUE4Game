@@ -9,12 +9,12 @@ AMinibossRedWeapon::AMinibossRedWeapon()
 {
 	WeaponName = "Miniboss Red Rocket Launcher";
 	Range = 1500.f;
-	ClipSize = 16;
-	CurrentClipAmmo = ClipSize;
-	AmmoCapacity = 256;
-	ReloadSpeed = 1.5f;
+	ClipSize = 1000;
+	CurrentClipAmmo = 0;
+	AmmoCapacity = 1000;
+	ReloadSpeed = 2.f;
 	FireRate = 0.75f;
-	Damage = 0.01f;
+	Damage = 0.f;//Damage is done in the rocket class
 }
 
 void AMinibossRedWeapon::Fire(USceneComponent* Location)

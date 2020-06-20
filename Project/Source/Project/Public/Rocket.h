@@ -39,6 +39,7 @@ public:
 		USoundBase* ExplosionSound;
 
 	virtual void NotifyActorBeginOverlap(AActor* Other) override;
+	virtual void NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& hit) override;
 
 	void Explode();
 	float BlastRadius = 300.f;

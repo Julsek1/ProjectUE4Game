@@ -36,13 +36,15 @@ ARocket::ARocket()
 
 void ARocket::NotifyActorBeginOverlap(AActor* Other)
 {
-	UE_LOG(LogTemp, Warning, TEXT("You hit %s"), *Other->GetName());
-
 	if (!Cast<AParentEnemy>(Other))
 	{
 		Explode();
 	}
+}
 
+void ARocket::NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& hit)
+{
+	Explode();
 }
 
 void ARocket::Explode()
