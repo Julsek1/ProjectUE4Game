@@ -2,7 +2,7 @@
 
 
 #include "Rocket.h"
-#include "DamageType_Explosive.h"
+#include "DamageType_Enemy.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "ParentEnemy.h"
@@ -50,7 +50,7 @@ void ARocket::NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveCo
 void ARocket::Explode()
 {
 	TArray<AActor*> Ignore;
-	UGameplayStatics::ApplyRadialDamage(GetWorld(), BlastDamage, GetActorLocation(), BlastRadius, UDamageType_Explosive::StaticClass(), Ignore, this, UGameplayStatics::GetPlayerController(this, 0), true, ECollisionChannel(ECC_Pawn));
+	UGameplayStatics::ApplyRadialDamage(GetWorld(), BlastDamage, GetActorLocation(), BlastRadius, UDamageType_Enemy::StaticClass(), Ignore, this, UGameplayStatics::GetPlayerController(this, 0), true, ECollisionChannel(ECC_Pawn));
 	UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), Particle, GetActorLocation(), GetActorRotation());
 	UGameplayStatics::PlaySoundAtLocation(GetWorld(), ExplosionSound, GetActorLocation());
 
