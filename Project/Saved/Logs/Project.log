@@ -5360,3 +5360,1376 @@ Make sure 'BP_FallingRocket_C' has been compiled for  Get BlastRadius
 [2020.06.21-19.41.33:588][158]AssetCheck: New page: Asset Save: multiple assets
 [2020.06.21-19.41.33:588][158]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
 [2020.06.21-19.41.33:588][158]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-19.46.40:597][592]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRed_29D622A404CE90066695EEAB28AE1CF4F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRed_2.uasset'
+[2020.06.21-19.46.40:616][592]AssetCheck: New page: Asset Save: BT_MinibossRed_2
+[2020.06.21-19.46.40:616][592]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRed_2.BT_MinibossRed_2
+[2020.06.21-19.47.28:457][346]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRed_289CE775A404C70FF95547594BDACCCC5.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRed_2.uasset'
+[2020.06.21-19.47.28:478][346]AssetCheck: New page: Asset Save: BT_MinibossRed_2
+[2020.06.21-19.47.28:478][346]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRed_2.BT_MinibossRed_2
+[2020.06.21-19.47.33:316][629]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRed_22ECEB58045A9DA8C3E7EB79695031AA1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRed_2.uasset'
+[2020.06.21-19.47.33:336][629]AssetCheck: New page: Asset Save: BT_MinibossRed_2
+[2020.06.21-19.47.33:336][629]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRed_2.BT_MinibossRed_2
+[2020.06.21-19.49.01:676][308]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRed_241344E5F4F571FB3397F0A8C69C94917.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRed_2.uasset'
+[2020.06.21-19.49.01:692][308]AssetCheck: New page: Asset Save: BT_MinibossRed_2
+[2020.06.21-19.49.01:693][308]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRed_2.BT_MinibossRed_2
+[2020.06.21-19.49.03:024][381]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.21-19.49.03:060][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.21-19.49.03:060][381]PIE: New page: PIE session: MiniBossBattle (Jun 21, 2020, 11:49:03 AM)
+[2020.06.21-19.49.03:060][381]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-19.49.03:097][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037096s)
+[2020.06.21-19.49.03:098][381]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.21-19.49.03:098][381]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2020.06.21-19.49.03:098][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.038183s)
+[2020.06.21-19.49.03:140][381]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2020.06.21-19.49.03:141][381]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.21-19.49.03:141][381]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.21-19.49.03:141][381]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.21-19.49.03:141][381]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.21-19.49.03:141][381]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.21-19.49.03:141][381]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.21-19.49.03:141][381]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.21-19.49.03:141][381]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.21-19.49.03:142][381]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.21-19.49.03:142][381]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.21-19.49.03:164][381]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.21-19.49.03:164][381]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-19.49.03:164][381]LogAudioMixer: Display: Is Default: Yes
+[2020.06.21-19.49.03:164][381]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.21-19.49.03:164][381]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.21-19.49.03:164][381]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.21-19.49.03:164][381]LogAudioMixer: Display: Channel Order:
+[2020.06.21-19.49.03:164][381]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.21-19.49.03:164][381]LogAudioMixer: Display: 1: FrontRight
+[2020.06.21-19.49.03:174][381]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-19.49.03:176][381]LogInit: FAudioDevice initialized.
+[2020.06.21-19.49.03:184][381]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.21-19.49.03:187][381]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.21-15.49.03
+[2020.06.21-19.49.03:188][381]LogWorld: Bringing up level for play took: 0.003688
+[2020.06.21-19.49.03:188][381]LogOnline: OSS: Creating online subsystem instance for: :Context_90
+[2020.06.21-19.49.03:191][381]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-19.49.03:191][381]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-19.49.03:195][381]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle -0.774
+[2020.06.21-19.49.31:544][ 80]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-19.49.31:546][ 80]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.21-19.49.31:566][ 80]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.21-19.49.31:568][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-19.49.31:568][ 80]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-19.49.31:568][ 80]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-19.49.31:568][ 80]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-19.49.31:569][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-19.49.31:593][ 80]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.21-19.49.31:606][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-19.49.31:655][ 80]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-19.49.31:657][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-19.49.31:663][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2020.06.21-19.49.31:690][ 81]LogPlayLevel: Display: Destroying online subsystem :Context_90
+[2020.06.21-19.49.37:697][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2020.06.21-19.49.37:783][435]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleB14ACEB141DE32F24C8EF3B6E0EF4047.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-19.49.37:873][435]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataCF24EF6642FA5842E78930A47EB4F5AD.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-19.49.37:890][435]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-19.49.37:891][435]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-19.49.37:891][435]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-19.49.45:261][720]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-19.49.45:261][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-19.49.51:194][ 72]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.06.21-19.49.51:194][ 72]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-19.49.51:194][ 72]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-19.50.03:340][784]BlueprintLog: New page: Compile AIC_MinibossRed
+[2020.06.21-19.50.03:575][784]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2020.06.21-19.50.04:096][808]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/AIC_MinibossRedC570EDBD49687FF334F0EFABF1EFBACE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/AIC_MinibossRed.uasset'
+[2020.06.21-19.50.04:110][808]AssetCheck: New page: Asset Save: AIC_MinibossRed
+[2020.06.21-19.50.04:110][808]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/AIC_MinibossRed.AIC_MinibossRed
+[2020.06.21-19.50.44:488][203]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRed_2675DDB9743442DB7942684889CAC434A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRed_2.uasset'
+[2020.06.21-19.50.44:504][203]AssetCheck: New page: Asset Save: BT_MinibossRed_2
+[2020.06.21-19.50.44:504][203]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRed_2.BT_MinibossRed_2
+[2020.06.21-19.50.45:740][269]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2020.06.21-19.50.45:812][269]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle311D5A3345A3E6837D37F3829FFC6A83.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-19.50.45:895][269]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataB95DA1BF4637A7C01D0DC284189E9506.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-19.50.45:913][269]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-19.50.45:913][269]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-19.50.45:913][269]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-19.50.46:375][297]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.21-19.50.46:407][297]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.21-19.50.46:407][297]PIE: New page: PIE session: MiniBossBattle (Jun 21, 2020, 11:50:46 AM)
+[2020.06.21-19.50.46:407][297]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-19.50.46:443][297]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035499s)
+[2020.06.21-19.50.46:444][297]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.21-19.50.46:444][297]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2020.06.21-19.50.46:444][297]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.036397s)
+[2020.06.21-19.50.46:476][297]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.06.21-19.50.46:477][297]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.21-19.50.46:477][297]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.21-19.50.46:477][297]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.21-19.50.46:477][297]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.21-19.50.46:477][297]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.21-19.50.46:477][297]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.21-19.50.46:477][297]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.21-19.50.46:477][297]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.21-19.50.46:477][297]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.21-19.50.46:477][297]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.21-19.50.46:500][297]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.21-19.50.46:500][297]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-19.50.46:500][297]LogAudioMixer: Display: Is Default: Yes
+[2020.06.21-19.50.46:500][297]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.21-19.50.46:500][297]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.21-19.50.46:500][297]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.21-19.50.46:500][297]LogAudioMixer: Display: Channel Order:
+[2020.06.21-19.50.46:500][297]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.21-19.50.46:500][297]LogAudioMixer: Display: 1: FrontRight
+[2020.06.21-19.50.46:510][297]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-19.50.46:512][297]LogInit: FAudioDevice initialized.
+[2020.06.21-19.50.46:518][297]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.21-19.50.46:520][297]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.21-15.50.46
+[2020.06.21-19.50.46:522][297]LogWorld: Bringing up level for play took: 0.003195
+[2020.06.21-19.50.46:522][297]LogOnline: OSS: Creating online subsystem instance for: :Context_91
+[2020.06.21-19.50.46:525][297]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-19.50.46:525][297]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-19.50.46:529][297]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle 0.559
+[2020.06.21-19.51.09:550][677]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-19.51.09:550][677]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-19.51.09:552][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-19.51.09:552][677]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-19.51.09:552][677]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-19.51.09:553][677]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-19.51.09:553][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-19.51.09:560][677]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.21-19.51.09:565][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-19.51.09:596][677]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-19.51.09:598][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-19.51.09:604][677]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.06.21-19.51.09:657][680]LogPlayLevel: Display: Destroying online subsystem :Context_91
+[2020.06.21-19.51.13:910][928]BlueprintLog: New page: Compile BTTask_MBRedSpawnRockets
+[2020.06.21-19.51.14:139][928]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.06.21-19.51.14:517][945]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedSpawnRockets90EA64C9400EC89E661AFCBB3527B8B7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.uasset'
+[2020.06.21-19.51.14:531][945]AssetCheck: New page: Asset Save: BTTask_MBRedSpawnRockets
+[2020.06.21-19.51.14:531][945]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.BTTask_MBRedSpawnRockets
+[2020.06.21-19.51.25:573][587]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRed_2BD122F114636A59EC30FC198BAD7441D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRed_2.uasset'
+[2020.06.21-19.51.25:588][587]AssetCheck: New page: Asset Save: BT_MinibossRed_2
+[2020.06.21-19.51.25:588][587]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRed_2.BT_MinibossRed_2
+[2020.06.21-19.51.32:969][ 13]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRed_211CE870D4B6AB10DA637DDA6B2134D3D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRed_2.uasset'
+[2020.06.21-19.51.32:986][ 13]AssetCheck: New page: Asset Save: BT_MinibossRed_2
+[2020.06.21-19.51.32:986][ 13]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRed_2.BT_MinibossRed_2
+[2020.06.21-19.51.34:290][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2020.06.21-19.51.34:360][ 86]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleB04E7FEF4032F8564443B9BE572CDF71.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-19.51.34:442][ 86]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataBE18D7CA42AD9BB0C05E00961F59392E.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-19.51.34:461][ 86]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-19.51.34:461][ 86]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-19.51.34:461][ 86]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-19.51.36:932][229]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.06.21-19.51.37:025][229]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleFC5A13F745F2AD8ED38F00ACA1B03AB1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-19.51.37:111][229]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData34F3353046C43419FABE50B8A18D7A05.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-19.51.37:128][229]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-19.51.37:128][229]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-19.51.37:128][229]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-19.51.47:197][825]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.06.21-19.51.47:271][825]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleE517CC594F86B088216FA4B872DCD292.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-19.51.47:356][825]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataF8841F514539B679549D40BF5CA187D3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-19.51.47:371][825]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-19.51.47:371][825]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-19.51.47:371][825]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-19.51.49:367][941]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRed_22BB234744B4F8A9EC86C18911B498B97.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRed_2.uasset'
+[2020.06.21-19.51.49:380][941]AssetCheck: New page: Asset Save: BT_MinibossRed_2
+[2020.06.21-19.51.49:380][941]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRed_2.BT_MinibossRed_2
+[2020.06.21-19.51.52:762][133]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.06.21-19.51.52:790][133]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets_2.
+[2020.06.21-19.51.55:463][277]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.06.21-19.51.56:362][277]LogSlate: Window 'Delete Assets' being destroyed
+[2020.06.21-19.51.56:462][277]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.06.21-19.51.58:556][401]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2020.06.21-19.51.58:567][401]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedCheckLocation_2.
+[2020.06.21-19.51.59:423][437]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedCheckLocation_2.BTTask_MBRedCheckLocation_2
+[2020.06.21-19.52.00:893][507]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-19.52.00:893][507]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-19.52.17:178][478]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.06.21-19.52.17:200][478]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase1DC3B64C2499492C7F488DABEC0294F39.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-19.52.17:202][478]LogMetaData: Removing '/Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.SKEL_BTTask_MBRedReturnToPhase1_C' ref from Metadata '/Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedCheckLocation_2.PackageMetaData'
+[2020.06.21-19.52.17:203][478]LogMetaData: Removing '/Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1_C' ref from Metadata '/Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedCheckLocation_2.PackageMetaData'
+[2020.06.21-19.52.17:290][478]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase119601CD14F6DAF00C324A8B060E10588.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-19.52.17:476][478]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2020.06.21-19.52.17:516][478]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.06.21-19.52.17:548][478]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.06.21-19.52.17:619][478]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.
+[2020.06.21-19.52.17:626][478]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-19.52.17:626][478]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-19.52.19:245][574]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-19.52.28:182][ 84]BlueprintLog: New page: Compile BTTask_MBRedReturnToPhase1
+[2020.06.21-19.52.28:216][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2020.06.21-19.52.28:276][ 84]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase1CAD1E4894B5E5EB8089FB0B19B078BF6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-19.52.28:296][ 84]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-19.52.28:296][ 84]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-19.52.28:668][102]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase18DC927BA4FB4578DE35990A1C4FEF568.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-19.52.28:683][102]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-19.52.28:683][102]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-19.52.49:541][342]BlueprintLog: New page: Compile BTTask_MBRedReturnToPhase1
+[2020.06.21-19.52.49:577][342]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2020.06.21-19.52.49:661][342]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase1420412B64B1C3C81A6CA80A6A592F5A4.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-19.52.49:681][342]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-19.52.49:681][342]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-19.52.50:065][362]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase15C6D9B954BA72C920B01ED9BF54CDF9C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-19.52.50:080][362]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-19.52.50:080][362]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-19.52.51:016][415]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2020.06.21-19.52.51:085][415]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle79A227724B2F5AB5AE3CD8B46F81A857.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-19.52.51:169][415]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataE0E1855A4570983B944F45BF1EC09262.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-19.52.51:187][415]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-19.52.51:187][415]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-19.52.51:187][415]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-19.53.00:345][956]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRed_2F2D7E0B74F76719A51AD20BC32FF8E26.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRed_2.uasset'
+[2020.06.21-19.53.00:362][956]AssetCheck: New page: Asset Save: BT_MinibossRed_2
+[2020.06.21-19.53.00:362][956]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRed_2.BT_MinibossRed_2
+[2020.06.21-19.53.01:471][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2020.06.21-19.53.01:545][ 15]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleD8239F484AE117028D8E16A688060C3C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-19.53.01:627][ 15]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData0709A87F468B6D3F94856C9E30B67960.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-19.53.01:644][ 15]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-19.53.01:644][ 15]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-19.53.01:644][ 15]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-19.53.02:036][ 39]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.21-19.53.02:069][ 39]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.21-19.53.02:069][ 39]PIE: New page: PIE session: MiniBossBattle (Jun 21, 2020, 11:53:02 AM)
+[2020.06.21-19.53.02:070][ 39]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-19.53.02:105][ 39]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035780s)
+[2020.06.21-19.53.02:106][ 39]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.21-19.53.02:106][ 39]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2020.06.21-19.53.02:106][ 39]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.036727s)
+[2020.06.21-19.53.02:141][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.06.21-19.53.02:141][ 39]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.21-19.53.02:141][ 39]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.21-19.53.02:141][ 39]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.21-19.53.02:142][ 39]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.21-19.53.02:142][ 39]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.21-19.53.02:142][ 39]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.21-19.53.02:142][ 39]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.21-19.53.02:142][ 39]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.21-19.53.02:142][ 39]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.21-19.53.02:142][ 39]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.21-19.53.02:164][ 39]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.21-19.53.02:164][ 39]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-19.53.02:164][ 39]LogAudioMixer: Display: Is Default: Yes
+[2020.06.21-19.53.02:164][ 39]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.21-19.53.02:164][ 39]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.21-19.53.02:164][ 39]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.21-19.53.02:164][ 39]LogAudioMixer: Display: Channel Order:
+[2020.06.21-19.53.02:164][ 39]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.21-19.53.02:164][ 39]LogAudioMixer: Display: 1: FrontRight
+[2020.06.21-19.53.02:174][ 39]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-19.53.02:175][ 39]LogInit: FAudioDevice initialized.
+[2020.06.21-19.53.02:184][ 39]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.21-19.53.02:187][ 39]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.21-15.53.02
+[2020.06.21-19.53.02:188][ 39]LogWorld: Bringing up level for play took: 0.003337
+[2020.06.21-19.53.02:188][ 39]LogOnline: OSS: Creating online subsystem instance for: :Context_94
+[2020.06.21-19.53.02:191][ 39]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-19.53.02:191][ 39]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-19.53.02:194][ 39]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle 0.226
+[2020.06.21-19.53.58:301][402]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-19.53.58:302][402]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-19.53.58:304][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-19.53.58:304][402]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-19.53.58:304][402]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-19.53.58:304][402]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-19.53.58:305][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-19.53.58:316][402]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.21-19.53.58:322][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-19.53.58:355][402]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-19.53.58:358][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-19.53.58:363][402]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.06.21-19.53.58:401][404]LogPlayLevel: Display: Destroying online subsystem :Context_94
+[2020.06.21-19.54.11:049][162]BlueprintLog: New page: Compile BTTask_MBRedReturnToPhase1
+[2020.06.21-19.54.11:274][162]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2020.06.21-19.54.11:340][162]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase17B5088F4483CF0890C2224822E895B6B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-19.54.11:353][162]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-19.54.11:353][162]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-19.54.11:641][176]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase17A985D484C6AB2D0374FFF8B91306514.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-19.54.11:655][176]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-19.54.11:655][176]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-19.54.24:059][918]BlueprintLog: New page: Compile BTTask_MBRedReturnToPhase1
+[2020.06.21-19.54.24:297][918]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2020.06.21-19.54.24:684][937]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase10EDC234B4751EBBF614590AAB844957F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-19.54.24:698][937]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-19.54.24:698][937]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-19.54.27:916][129]BlueprintLog: New page: Compile BTTask_MBRedReturnToPhase1
+[2020.06.21-19.54.28:143][129]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2020.06.21-19.54.28:460][144]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase1394594154F3B2C966CF81290B6351C30.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-19.54.28:477][144]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-19.54.28:477][144]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-19.54.29:418][195]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2020.06.21-19.54.29:488][195]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleC393D0CA4B8E4BB57891F5AE91C35340.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-19.54.29:570][195]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataC3F35CED46E4E3C5F2F094BFE74BB0B6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-19.54.29:588][195]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-19.54.29:588][195]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-19.54.29:588][195]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-19.54.45:751][162]BlueprintLog: New page: Compile BTTask_MBRedReturnToPhase1
+[2020.06.21-19.54.45:970][162]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2020.06.21-19.54.46:343][181]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase15E9B35A1464D505202B06E8609CE2B91.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-19.54.46:357][181]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-19.54.46:357][181]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-19.54.52:293][537]BlueprintLog: New page: Compile BTTask_MBRedReturnToPhase1
+[2020.06.21-19.54.52:529][537]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2020.06.21-19.54.52:819][550]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase13E263B524729C4CD0D8911AB8D34F540.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-19.54.52:832][550]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-19.54.52:832][550]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-19.54.54:055][620]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2020.06.21-19.54.54:129][620]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle9DB7605C450039DB9FDC21B0615D92B8.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-19.54.54:217][620]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataD622585D4546D136FF5B3C9117F35AF1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-19.54.54:234][620]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-19.54.54:234][620]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-19.54.54:234][620]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-19.55.04:243][209]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRed_221AE5D3D4E083407E825308ED649BF1F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRed_2.uasset'
+[2020.06.21-19.55.04:260][209]AssetCheck: New page: Asset Save: BT_MinibossRed_2
+[2020.06.21-19.55.04:260][209]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRed_2.BT_MinibossRed_2
+[2020.06.21-19.55.19:272][ 99]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.21-19.55.19:306][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.21-19.55.19:306][ 99]PIE: New page: PIE session: MiniBossBattle (Jun 21, 2020, 11:55:19 AM)
+[2020.06.21-19.55.19:306][ 99]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-19.55.19:356][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049677s)
+[2020.06.21-19.55.19:357][ 99]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.21-19.55.19:357][ 99]LogPlayLevel: PIE: World Init took: (0.001252s)
+[2020.06.21-19.55.19:358][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.051114s)
+[2020.06.21-19.55.19:393][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2020.06.21-19.55.19:393][ 99]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.21-19.55.19:393][ 99]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.21-19.55.19:393][ 99]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.21-19.55.19:393][ 99]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.21-19.55.19:394][ 99]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.21-19.55.19:394][ 99]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.21-19.55.19:394][ 99]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.21-19.55.19:394][ 99]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.21-19.55.19:394][ 99]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.21-19.55.19:394][ 99]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.21-19.55.19:416][ 99]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.21-19.55.19:416][ 99]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-19.55.19:416][ 99]LogAudioMixer: Display: Is Default: Yes
+[2020.06.21-19.55.19:416][ 99]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.21-19.55.19:416][ 99]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.21-19.55.19:416][ 99]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.21-19.55.19:416][ 99]LogAudioMixer: Display: Channel Order:
+[2020.06.21-19.55.19:416][ 99]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.21-19.55.19:416][ 99]LogAudioMixer: Display: 1: FrontRight
+[2020.06.21-19.55.19:426][ 99]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-19.55.19:427][ 99]LogInit: FAudioDevice initialized.
+[2020.06.21-19.55.19:434][ 99]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.21-19.55.19:438][ 99]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.21-15.55.19
+[2020.06.21-19.55.19:439][ 99]LogWorld: Bringing up level for play took: 0.003166
+[2020.06.21-19.55.19:439][ 99]LogOnline: OSS: Creating online subsystem instance for: :Context_95
+[2020.06.21-19.55.19:441][ 99]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-19.55.19:442][ 99]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-19.55.19:445][ 99]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle -0.523
+[2020.06.21-19.56.19:296][685]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-19.56.19:296][685]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-19.56.19:298][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-19.56.19:298][685]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-19.56.19:298][685]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-19.56.19:298][685]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-19.56.19:299][685]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-19.56.19:304][685]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.21-19.56.19:309][685]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-19.56.19:343][685]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-19.56.19:346][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-19.56.19:352][685]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2020.06.21-19.56.19:406][688]LogPlayLevel: Display: Destroying online subsystem :Context_95
+[2020.06.21-19.56.21:111][787]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.06.21-19.56.21:183][787]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleC1C62EDC4901F8256E3F21AFEA8D3F42.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-19.56.21:266][787]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData7C31617948BA9878EF0EF3A48426D1EE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-19.56.21:283][787]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-19.56.21:283][787]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-19.56.21:283][787]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-19.56.49:524][477]BlueprintLog: New page: Compile AIC_MinibossRed
+[2020.06.21-19.56.49:753][477]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2020.06.21-19.56.50:213][497]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/AIC_MinibossRed596F0D624A1E3A559F9CF98C577D838A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/AIC_MinibossRed.uasset'
+[2020.06.21-19.56.50:226][497]AssetCheck: New page: Asset Save: AIC_MinibossRed
+[2020.06.21-19.56.50:226][497]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/AIC_MinibossRed.AIC_MinibossRed
+[2020.06.21-19.57.00:555][116]BlueprintLog: New page: Compile AIC_MinibossRed
+[2020.06.21-19.57.00:787][116]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2020.06.21-19.57.00:868][116]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/AIC_MinibossRedF06CF64643DA77A4560DB28D1EE7B3D0.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/AIC_MinibossRed.uasset'
+[2020.06.21-19.57.00:882][116]AssetCheck: New page: Asset Save: AIC_MinibossRed
+[2020.06.21-19.57.00:882][116]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/AIC_MinibossRed.AIC_MinibossRed
+[2020.06.21-19.57.01:203][130]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/AIC_MinibossRed5FBF7A4D4598500488FD8894E980CB48.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/AIC_MinibossRed.uasset'
+[2020.06.21-19.57.01:216][130]AssetCheck: New page: Asset Save: AIC_MinibossRed
+[2020.06.21-19.57.01:216][130]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/AIC_MinibossRed.AIC_MinibossRed
+[2020.06.21-19.57.12:577][805]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2020.06.21-19.57.12:590][805]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedReturnToPhase1.
+[2020.06.21-19.57.25:379][554]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.06.21-19.57.25:397][554]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedTransitionToPhase28F52E94547A7BAAA3056A79CB978E49C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedTransitionToPhase2.uasset'
+[2020.06.21-19.57.25:399][554]LogMetaData: Removing '/Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedTransitionToPhase2.SKEL_BTTask_MBRedTransitionToPhase2_C' ref from Metadata '/Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedReturnToPhase1.PackageMetaData'
+[2020.06.21-19.57.25:399][554]LogMetaData: Removing '/Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedTransitionToPhase2.BTTask_MBRedTransitionToPhase2_C' ref from Metadata '/Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedReturnToPhase1.PackageMetaData'
+[2020.06.21-19.57.25:473][554]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedTransitionToPhase20DA667B248BB9EC72CBC4D86DAEF4328.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedTransitionToPhase2.uasset'
+[2020.06.21-19.57.25:653][554]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.06.21-19.57.25:696][554]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.06.21-19.57.25:729][554]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.06.21-19.57.25:796][554]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedTransitionToPhase2.
+[2020.06.21-19.57.25:802][554]AssetCheck: New page: Asset Save: BTTask_MBRedTransitionToPhase2
+[2020.06.21-19.57.25:802][554]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedTransitionToPhase2.BTTask_MBRedTransitionToPhase2
+[2020.06.21-19.57.30:373][827]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedTransitionToPhase2.BTTask_MBRedTransitionToPhase2
+[2020.06.21-19.57.47:386][826]BlueprintLog: New page: Compile BTTask_MBRedTransitionToPhase2
+[2020.06.21-19.57.47:426][826]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2020.06.21-19.57.47:500][826]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedTransitionToPhase2A84F53F2453DEFFB2763CA8627574194.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedTransitionToPhase2.uasset'
+[2020.06.21-19.57.47:516][826]AssetCheck: New page: Asset Save: BTTask_MBRedTransitionToPhase2
+[2020.06.21-19.57.47:516][826]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedTransitionToPhase2.BTTask_MBRedTransitionToPhase2
+[2020.06.21-19.57.47:910][847]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedTransitionToPhase294B2DE904BC7C12C160A75AE256B15B3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedTransitionToPhase2.uasset'
+[2020.06.21-19.57.47:924][847]AssetCheck: New page: Asset Save: BTTask_MBRedTransitionToPhase2
+[2020.06.21-19.57.47:924][847]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedTransitionToPhase2.BTTask_MBRedTransitionToPhase2
+[2020.06.21-19.57.51:893][ 86]BlueprintLog: New page: Compile BTTask_MBRedTransitionToPhase2
+[2020.06.21-19.57.51:934][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2020.06.21-19.57.52:009][ 86]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedTransitionToPhase2B5817B2842B279BF5693019978312E67.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedTransitionToPhase2.uasset'
+[2020.06.21-19.57.52:021][ 86]AssetCheck: New page: Asset Save: BTTask_MBRedTransitionToPhase2
+[2020.06.21-19.57.52:022][ 86]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedTransitionToPhase2.BTTask_MBRedTransitionToPhase2
+[2020.06.21-19.57.52:400][106]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedTransitionToPhase2315456BE41020A05F98A988266614109.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedTransitionToPhase2.uasset'
+[2020.06.21-19.57.52:415][106]AssetCheck: New page: Asset Save: BTTask_MBRedTransitionToPhase2
+[2020.06.21-19.57.52:415][106]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedTransitionToPhase2.BTTask_MBRedTransitionToPhase2
+[2020.06.21-19.57.57:573][412]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRed.BT_MinibossRed
+[2020.06.21-19.58.33:781][566]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.06.21-19.58.33:803][566]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedCheckPhaseTransitionD957A4034138DBF9886A9A9EF31CE7B0.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.uasset'
+[2020.06.21-19.58.33:806][566]LogMetaData: Removing '/Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.BTTask_MBRedCheckPhaseTransition_C' ref from Metadata '/Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedTransitionToPhase2.PackageMetaData'
+[2020.06.21-19.58.33:806][566]LogMetaData: Removing '/Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.SKEL_BTTask_MBRedCheckPhaseTransition_C' ref from Metadata '/Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedTransitionToPhase2.PackageMetaData'
+[2020.06.21-19.58.33:885][566]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedCheckPhaseTransitionFABEBCEC4D860957AD9BBFB94ED7942B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.uasset'
+[2020.06.21-19.58.34:164][566]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2020.06.21-19.58.34:206][566]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.06.21-19.58.34:235][566]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.06.21-19.58.34:303][566]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.
+[2020.06.21-19.58.34:310][566]AssetCheck: New page: Asset Save: BTTask_MBRedCheckPhaseTransition
+[2020.06.21-19.58.34:311][566]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.BTTask_MBRedCheckPhaseTransition
+[2020.06.21-19.58.34:952][601]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedCheckPhaseTransitionBA1E4752472851312656FAA33192C275.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.uasset'
+[2020.06.21-19.58.34:963][601]AssetCheck: New page: Asset Save: BTTask_MBRedCheckPhaseTransition
+[2020.06.21-19.58.34:963][601]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.BTTask_MBRedCheckPhaseTransition
+[2020.06.21-19.58.42:146][ 28]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedCheckPhaseTransitionDEE7844F4DB84CD61DF1DE8F5D608002.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.uasset'
+[2020.06.21-19.58.42:160][ 28]AssetCheck: New page: Asset Save: BTTask_MBRedCheckPhaseTransition
+[2020.06.21-19.58.42:160][ 28]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.BTTask_MBRedCheckPhaseTransition
+[2020.06.21-19.58.50:277][505]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRed1F4EC14643DF7749CBB96CB354308F3C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRed.uasset'
+[2020.06.21-19.58.50:296][505]AssetCheck: New page: Asset Save: BT_MinibossRed
+[2020.06.21-19.58.50:296][505]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRed.BT_MinibossRed
+[2020.06.21-19.59.50:221][ 78]BlueprintLog: New page: Compile BTTask_MBRedCheckPhaseTransition
+[2020.06.21-19.59.50:451][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2020.06.21-19.59.50:520][ 78]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedCheckPhaseTransition5E75E848487E958116223C980012CECB.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.uasset'
+[2020.06.21-19.59.50:534][ 78]AssetCheck: New page: Asset Save: BTTask_MBRedCheckPhaseTransition
+[2020.06.21-19.59.50:534][ 78]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.BTTask_MBRedCheckPhaseTransition
+[2020.06.21-19.59.50:749][ 87]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedCheckPhaseTransitionEDB48EB54A9371A039469A9AC0357041.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.uasset'
+[2020.06.21-19.59.50:765][ 87]AssetCheck: New page: Asset Save: BTTask_MBRedCheckPhaseTransition
+[2020.06.21-19.59.50:766][ 87]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.BTTask_MBRedCheckPhaseTransition
+[2020.06.21-19.59.51:428][124]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.06.21-19.59.51:503][124]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleC77AADAC4613DA00B685838E69C18542.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-19.59.51:610][124]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataEEADF3AE42B1E235BDC3A69CC12893F8.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-19.59.51:628][124]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-19.59.51:628][124]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-19.59.51:628][124]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-19.59.59:217][575]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase2EF7B5AFA40EA3200C40BD9A9F2E20222.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.uasset'
+[2020.06.21-19.59.59:406][575]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2020.06.21-19.59.59:443][575]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.06.21-19.59.59:477][575]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.06.21-19.59.59:549][575]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/AIC_MinibossRed44E14CF847433C16197245A5ED925467.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/AIC_MinibossRed.uasset'
+[2020.06.21-19.59.59:589][575]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedCheckPhaseTransition3D235B11424EA0EF298CE8B62068B6A4.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.uasset'
+[2020.06.21-19.59.59:678][575]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-19.59.59:678][575]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.BT_MinibossRedPhase2
+[2020.06.21-19.59.59:678][575]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/AIC_MinibossRed.AIC_MinibossRed
+[2020.06.21-19.59.59:678][575]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.BTTask_MBRedCheckPhaseTransition
+[2020.06.21-20.00.05:533][923]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase32FF4B9154D5A07F921C66A95A12E96D5.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/BT_MinibossRedPhase3.uasset'
+[2020.06.21-20.00.05:725][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.06.21-20.00.05:769][923]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.06.21-20.00.05:802][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.06.21-20.00.05:873][923]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/AIC_MinibossRed94ED01CA47E4DB36D34139998EEACD08.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/AIC_MinibossRed.uasset'
+[2020.06.21-20.00.05:956][923]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.00.05:956][923]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/BT_MinibossRedPhase3.BT_MinibossRedPhase3
+[2020.06.21-20.00.05:956][923]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/AIC_MinibossRed.AIC_MinibossRed
+[2020.06.21-20.00.11:262][237]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase10F4C7BD64FE77A9BEE22A0A8673B7845.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.uasset'
+[2020.06.21-20.00.11:449][237]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.06.21-20.00.11:489][237]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2020.06.21-20.00.11:525][237]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.06.21-20.00.11:598][237]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/AIC_MinibossRed4C85350C461343E6A19862A99D26399B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/AIC_MinibossRed.uasset'
+[2020.06.21-20.00.11:641][237]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase1479208B244C65BDCC3BCBF90FDB13855.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-20.00.11:729][237]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.00.11:729][237]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.BT_MinibossRedPhase1
+[2020.06.21-20.00.11:729][237]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/AIC_MinibossRed.AIC_MinibossRed
+[2020.06.21-20.00.11:729][237]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-20.00.15:560][463]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.06.21-20.00.15:638][463]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleFCB8B198423B093E355F188F42FC487C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-20.00.15:748][463]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData3C120D7A41FC060E6439BC9A3B79C319.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-20.00.15:765][463]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.00.15:765][463]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-20.00.15:765][463]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-20.00.16:752][522]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.21-20.00.16:789][522]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.06.21-20.00.16:789][522]LogPlayLevel: [PlayLevel] Compiling AIC_MinibossRed before play...
+[2020.06.21-20.00.17:000][522]LogPlayLevel: [PlayLevel] Compiling BTTask_MBRedReturnToPhase1 before play...
+[2020.06.21-20.00.17:187][522]LogPlayLevel: [PlayLevel] Compiling BTTask_MBRedCheckPhaseTransition before play...
+[2020.06.21-20.00.17:412][522]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.06.21-20.00.17:412][522]LogPlayLevel: PlayLevel: Blueprint regeneration took 623 ms (3 blueprints)
+[2020.06.21-20.00.17:412][522]PIE: New page: PIE session: MiniBossBattle (Jun 21, 2020, 12:00:17 PM)
+[2020.06.21-20.00.17:412][522]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-20.00.17:448][522]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035416s)
+[2020.06.21-20.00.17:449][522]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.21-20.00.17:449][522]LogPlayLevel: PIE: World Init took: (0.000916s)
+[2020.06.21-20.00.17:449][522]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.036468s)
+[2020.06.21-20.00.17:484][522]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2020.06.21-20.00.17:484][522]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.21-20.00.17:485][522]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.21-20.00.17:485][522]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.21-20.00.17:485][522]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.21-20.00.17:485][522]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.21-20.00.17:485][522]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.21-20.00.17:485][522]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.21-20.00.17:485][522]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.21-20.00.17:485][522]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.21-20.00.17:485][522]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.21-20.00.17:506][522]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.21-20.00.17:506][522]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-20.00.17:506][522]LogAudioMixer: Display: Is Default: Yes
+[2020.06.21-20.00.17:507][522]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.21-20.00.17:507][522]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.21-20.00.17:507][522]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.21-20.00.17:507][522]LogAudioMixer: Display: Channel Order:
+[2020.06.21-20.00.17:507][522]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.21-20.00.17:507][522]LogAudioMixer: Display: 1: FrontRight
+[2020.06.21-20.00.17:517][522]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-20.00.17:518][522]LogInit: FAudioDevice initialized.
+[2020.06.21-20.00.17:524][522]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.21-20.00.17:527][522]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.21-16.00.17
+[2020.06.21-20.00.17:528][522]LogWorld: Bringing up level for play took: 0.003293
+[2020.06.21-20.00.17:528][522]LogOnline: OSS: Creating online subsystem instance for: :Context_97
+[2020.06.21-20.00.17:530][522]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-20.00.17:531][522]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-20.00.17:535][522]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle 1.565
+[2020.06.21-20.01.52:542][210]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.01.52:542][210]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.01.52:546][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-20.01.52:546][210]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-20.01.52:546][210]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.01.52:546][210]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-20.01.52:547][210]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.01.52:554][210]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.21-20.01.52:559][210]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.01.52:593][210]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.01.52:595][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-20.01.52:600][210]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.06.21-20.01.52:643][212]LogPlayLevel: Display: Destroying online subsystem :Context_97
+[2020.06.21-20.02.02:422][796]BlueprintLog: New page: Compile BTTask_MBRedReturnToPhase1
+[2020.06.21-20.02.02:663][796]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2020.06.21-20.02.02:730][796]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase1581D34D04D034FE24F0324BB0F980601.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-20.02.02:744][796]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-20.02.02:744][796]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-20.02.03:077][813]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase1636044A145F26B1769A07289E5AABF27.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-20.02.03:092][813]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-20.02.03:092][813]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-20.02.08:524][139]BlueprintLog: New page: Compile BTTask_MBRedReturnToPhase1
+[2020.06.21-20.02.08:745][139]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2020.06.21-20.02.08:830][139]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase1563FCC4B4189B4FAFB8DF5BFC8FAB11C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-20.02.08:844][139]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-20.02.08:844][139]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-20.02.09:033][147]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase1C365365446DD03B10F62488C9E7427B7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-20.02.09:047][147]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-20.02.09:048][147]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-20.02.27:295][235]BlueprintLog: New page: Compile BTTask_MBRedCheckPhaseTransition
+[2020.06.21-20.02.27:538][235]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.06.21-20.02.27:606][235]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedCheckPhaseTransitionA7FB143646673B86C38CD0AE08A864FF.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.uasset'
+[2020.06.21-20.02.27:621][235]AssetCheck: New page: Asset Save: BTTask_MBRedCheckPhaseTransition
+[2020.06.21-20.02.27:621][235]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.BTTask_MBRedCheckPhaseTransition
+[2020.06.21-20.02.27:990][252]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedCheckPhaseTransitionF57393A846BE04E745173BB31D201044.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.uasset'
+[2020.06.21-20.02.28:007][252]AssetCheck: New page: Asset Save: BTTask_MBRedCheckPhaseTransition
+[2020.06.21-20.02.28:007][252]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.BTTask_MBRedCheckPhaseTransition
+[2020.06.21-20.02.33:539][575]BlueprintLog: New page: Compile AIC_MinibossRed
+[2020.06.21-20.02.33:781][575]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2020.06.21-20.02.34:192][593]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/AIC_MinibossRed4348A3244CB04F6DEF91078CD1441791.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/AIC_MinibossRed.uasset'
+[2020.06.21-20.02.34:207][593]AssetCheck: New page: Asset Save: AIC_MinibossRed
+[2020.06.21-20.02.34:208][593]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/AIC_MinibossRed.AIC_MinibossRed
+[2020.06.21-20.02.52:747][698]BlueprintLog: New page: Compile AIC_MinibossRed
+[2020.06.21-20.02.52:979][698]LogUObjectHash: Compacting FUObjectHashTables data took   5.73ms
+[2020.06.21-20.02.53:377][714]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/AIC_MinibossRed04C1B8E94D5A754210A0ECAC703AD455.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/AIC_MinibossRed.uasset'
+[2020.06.21-20.02.53:389][714]AssetCheck: New page: Asset Save: AIC_MinibossRed
+[2020.06.21-20.02.53:389][714]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/AIC_MinibossRed.AIC_MinibossRed
+[2020.06.21-20.02.59:697][ 90]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-20.02.59:697][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.03.12:597][854]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-20.03.15:567][ 15]BlueprintLog: New page: Compile BTTask_MBRedReturnToPhase1
+[2020.06.21-20.03.15:792][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2020.06.21-20.03.15:858][ 15]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase1703EE43343EAE706A737B4B657E1855F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-20.03.15:872][ 15]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-20.03.15:872][ 15]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-20.03.16:142][ 28]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase1A598865C4EF259E9A653B9BF60537409.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-20.03.16:155][ 28]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-20.03.16:155][ 28]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-20.03.33:886][ 79]BlueprintLog: New page: Compile BTTask_MBRedReturnToPhase1
+[2020.06.21-20.03.34:122][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2020.06.21-20.03.34:428][ 94]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase16260D5A84B9EE85EFAD3D08362800594.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-20.03.34:441][ 94]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-20.03.34:441][ 94]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-20.03.56:976][428]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2020.06.21-20.03.57:051][428]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle054C644D4BC64551F920BB80A382797F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-20.03.57:135][428]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataD6255F9342A4EF81009EF4B169BC6567.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-20.03.57:151][428]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.03.57:151][428]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-20.03.57:151][428]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-20.03.57:580][454]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.21-20.03.57:618][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.21-20.03.57:618][454]PIE: New page: PIE session: MiniBossBattle (Jun 21, 2020, 12:03:57 PM)
+[2020.06.21-20.03.57:618][454]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-20.03.57:653][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035386s)
+[2020.06.21-20.03.57:655][454]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.21-20.03.57:655][454]LogPlayLevel: PIE: World Init took: (0.001035s)
+[2020.06.21-20.03.57:655][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.036569s)
+[2020.06.21-20.03.57:691][454]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.06.21-20.03.57:691][454]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.21-20.03.57:691][454]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.21-20.03.57:691][454]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.21-20.03.57:691][454]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.21-20.03.57:691][454]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.21-20.03.57:691][454]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.21-20.03.57:691][454]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.21-20.03.57:691][454]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.21-20.03.57:691][454]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.21-20.03.57:692][454]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.21-20.03.57:714][454]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.21-20.03.57:714][454]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-20.03.57:714][454]LogAudioMixer: Display: Is Default: Yes
+[2020.06.21-20.03.57:714][454]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.21-20.03.57:714][454]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.21-20.03.57:714][454]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.21-20.03.57:714][454]LogAudioMixer: Display: Channel Order:
+[2020.06.21-20.03.57:714][454]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.21-20.03.57:714][454]LogAudioMixer: Display: 1: FrontRight
+[2020.06.21-20.03.57:724][454]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-20.03.57:725][454]LogInit: FAudioDevice initialized.
+[2020.06.21-20.03.57:731][454]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.21-20.03.57:734][454]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.21-16.03.57
+[2020.06.21-20.03.57:736][454]LogWorld: Bringing up level for play took: 0.003706
+[2020.06.21-20.03.57:736][454]LogOnline: OSS: Creating online subsystem instance for: :Context_99
+[2020.06.21-20.03.57:739][454]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-20.03.57:739][454]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-20.03.57:743][454]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle -0.226
+[2020.06.21-20.04.08:113][ 75]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.04.08:115][ 75]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.21-20.04.08:145][ 75]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.21-20.04.08:159][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-20.04.08:159][ 75]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-20.04.08:159][ 75]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.04.08:160][ 75]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-20.04.08:162][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.04.08:171][ 75]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.21-20.04.08:177][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.04.08:213][ 75]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.04.08:216][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-20.04.08:221][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.06.21-20.04.08:237][ 76]LogPlayLevel: Display: Destroying online subsystem :Context_99
+[2020.06.21-20.04.09:463][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.06.21-20.04.09:532][146]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleD179D96245F0B3D4E1687C84E2A562CF.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-20.04.09:615][146]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData6D736BDF457FE0ECDF4DB2A68CCDB10C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-20.04.09:634][146]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.04.09:634][146]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-20.04.09:634][146]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-20.04.24:042][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.06.21-20.04.24:128][999]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle8BF8907A40B6379C5604E68236518F9A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-20.04.24:212][999]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataA9E7FE764A7B816327D6478D7C0A6C16.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-20.04.24:229][999]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.04.24:229][999]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-20.04.24:229][999]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-20.04.55:264][844]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase151C3174E490554FC67D4EE8257205B5A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.uasset'
+[2020.06.21-20.04.55:286][844]AssetCheck: New page: Asset Save: BT_MinibossRedPhase1
+[2020.06.21-20.04.55:287][844]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.BT_MinibossRedPhase1
+[2020.06.21-20.05.23:116][513]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.21-20.05.32:015][ 39]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BB_MinibossRed6AC9385A4E0EA14995139A8A7A21FEDD.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/BB_MinibossRed.uasset'
+[2020.06.21-20.05.32:028][ 39]AssetCheck: New page: Asset Save: BB_MinibossRed
+[2020.06.21-20.05.32:028][ 39]LogContentValidation: Display: Validating BlackboardData /Game/Phil/AI/Minibosses/Red/BB_MinibossRed.BB_MinibossRed
+[2020.06.21-20.06.15:742][635]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase16530B18749C72AF4F5F0A1B2E7D6A2B0.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.uasset'
+[2020.06.21-20.06.15:758][635]AssetCheck: New page: Asset Save: BT_MinibossRedPhase1
+[2020.06.21-20.06.15:758][635]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.BT_MinibossRedPhase1
+[2020.06.21-20.06.38:387][985]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase125A604004FD0E35009D74BA0F7470B4D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.uasset'
+[2020.06.21-20.06.38:402][985]AssetCheck: New page: Asset Save: BT_MinibossRedPhase1
+[2020.06.21-20.06.38:402][985]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.BT_MinibossRedPhase1
+[2020.06.21-20.06.55:900][ 26]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedCheckLocation.BTTask_MBRedCheckLocation
+[2020.06.21-20.07.43:479][838]BlueprintLog: New page: Compile BTTask_MBRedReturnToPhase1
+[2020.06.21-20.07.43:702][838]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.06.21-20.07.43:783][838]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase10C5FFE9946F5837199940DA3EEBD205C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-20.07.43:799][838]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-20.07.43:799][838]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-20.07.44:077][851]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase13CC59AD846F28CCBD0ECAA8DAEC2F35D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-20.07.44:091][851]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-20.07.44:091][851]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-20.07.55:809][554]BlueprintLog: New page: Compile BTTask_MBRedReturnToPhase1
+[2020.06.21-20.07.56:042][554]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2020.06.21-20.07.56:104][554]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase1A12FB78841608A2BE5D3D596D309E9C8.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-20.07.56:119][554]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-20.07.56:119][554]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-20.07.56:401][568]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase198BB77A04C7F85192A0F0286719AD97A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-20.07.56:416][568]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-20.07.56:416][568]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-20.07.57:191][608]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.06.21-20.07.57:269][608]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle32A664384C2F69224D4965ABB6BAC447.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-20.07.57:360][608]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataD05FFBFC4393EEA6EE93C8AF19056C30.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-20.07.57:377][608]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.07.57:377][608]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-20.07.57:377][608]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-20.07.57:831][636]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.21-20.07.57:872][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.21-20.07.57:872][636]PIE: New page: PIE session: MiniBossBattle (Jun 21, 2020, 12:07:57 PM)
+[2020.06.21-20.07.57:872][636]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-20.07.57:908][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035839s)
+[2020.06.21-20.07.57:909][636]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.21-20.07.57:909][636]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2020.06.21-20.07.57:909][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.036767s)
+[2020.06.21-20.07.57:946][636]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.06.21-20.07.57:946][636]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.21-20.07.57:946][636]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.21-20.07.57:946][636]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.21-20.07.57:946][636]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.21-20.07.57:946][636]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.21-20.07.57:946][636]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.21-20.07.57:946][636]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.21-20.07.57:946][636]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.21-20.07.57:947][636]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.21-20.07.57:947][636]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.21-20.07.57:969][636]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.21-20.07.57:969][636]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-20.07.57:969][636]LogAudioMixer: Display: Is Default: Yes
+[2020.06.21-20.07.57:969][636]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.21-20.07.57:969][636]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.21-20.07.57:969][636]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.21-20.07.57:969][636]LogAudioMixer: Display: Channel Order:
+[2020.06.21-20.07.57:969][636]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.21-20.07.57:969][636]LogAudioMixer: Display: 1: FrontRight
+[2020.06.21-20.07.57:980][636]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-20.07.57:981][636]LogInit: FAudioDevice initialized.
+[2020.06.21-20.07.57:990][636]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.21-20.07.57:993][636]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.21-16.07.57
+[2020.06.21-20.07.57:994][636]LogWorld: Bringing up level for play took: 0.003482
+[2020.06.21-20.07.57:994][636]LogOnline: OSS: Creating online subsystem instance for: :Context_101
+[2020.06.21-20.07.57:997][636]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-20.07.57:997][636]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-20.07.58:002][636]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle 0.033
+[2020.06.21-20.08.41:778][258]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.08.41:794][258]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.21-20.08.41:814][258]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.21-20.08.41:818][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-20.08.41:818][258]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-20.08.41:818][258]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.08.41:818][258]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-20.08.41:819][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.08.41:829][258]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.21-20.08.41:833][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.08.41:871][258]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.08.41:874][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-20.08.41:879][258]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.06.21-20.08.41:896][259]LogPlayLevel: Display: Destroying online subsystem :Context_101
+[2020.06.21-20.08.49:023][686]BlueprintLog: New page: Compile AIC_MinibossRed
+[2020.06.21-20.08.49:252][686]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2020.06.21-20.08.49:545][696]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/AIC_MinibossRedFF1AAAE44BF87278414EC2A48B29085F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/AIC_MinibossRed.uasset'
+[2020.06.21-20.08.49:560][696]AssetCheck: New page: Asset Save: AIC_MinibossRed
+[2020.06.21-20.08.49:560][696]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/AIC_MinibossRed.AIC_MinibossRed
+[2020.06.21-20.09.13:698][127]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase1CFD2592F4F227837E53AB3A2A451C896.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.uasset'
+[2020.06.21-20.09.13:718][127]AssetCheck: New page: Asset Save: BT_MinibossRedPhase1
+[2020.06.21-20.09.13:718][127]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.BT_MinibossRedPhase1
+[2020.06.21-20.09.23:937][732]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase1C1F2A7FD4A17E29CB26C8BA0A6CF9FF8.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.uasset'
+[2020.06.21-20.09.23:951][732]AssetCheck: New page: Asset Save: BT_MinibossRedPhase1
+[2020.06.21-20.09.23:951][732]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.BT_MinibossRedPhase1
+[2020.06.21-20.09.37:821][549]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2020.06.21-20.09.37:896][549]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle68EE5A2B44C4CFD0219C36A661FF6BEB.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-20.09.37:997][549]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData1F50A3184113451382F882AB6FCB6CEB.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-20.09.38:014][549]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.09.38:014][549]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-20.09.38:014][549]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-20.09.38:412][573]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.21-20.09.38:453][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.21-20.09.38:453][573]PIE: New page: PIE session: MiniBossBattle (Jun 21, 2020, 12:09:38 PM)
+[2020.06.21-20.09.38:453][573]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-20.09.38:489][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036448s)
+[2020.06.21-20.09.38:490][573]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.21-20.09.38:490][573]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2020.06.21-20.09.38:490][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.037400s)
+[2020.06.21-20.09.38:529][573]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2020.06.21-20.09.38:529][573]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.21-20.09.38:529][573]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.21-20.09.38:529][573]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.21-20.09.38:529][573]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.21-20.09.38:529][573]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.21-20.09.38:529][573]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.21-20.09.38:529][573]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.21-20.09.38:529][573]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.21-20.09.38:530][573]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.21-20.09.38:530][573]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.21-20.09.38:551][573]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.21-20.09.38:552][573]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-20.09.38:552][573]LogAudioMixer: Display: Is Default: Yes
+[2020.06.21-20.09.38:552][573]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.21-20.09.38:552][573]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.21-20.09.38:552][573]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.21-20.09.38:552][573]LogAudioMixer: Display: Channel Order:
+[2020.06.21-20.09.38:552][573]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.21-20.09.38:552][573]LogAudioMixer: Display: 1: FrontRight
+[2020.06.21-20.09.38:561][573]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-20.09.38:563][573]LogInit: FAudioDevice initialized.
+[2020.06.21-20.09.38:570][573]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.21-20.09.38:573][573]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.21-16.09.38
+[2020.06.21-20.09.38:574][573]LogWorld: Bringing up level for play took: 0.003438
+[2020.06.21-20.09.38:575][573]LogOnline: OSS: Creating online subsystem instance for: :Context_102
+[2020.06.21-20.09.38:577][573]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-20.09.38:578][573]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-20.09.38:582][573]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle 0.613
+[2020.06.21-20.10.06:039][212]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.10.06:039][212]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.10.06:044][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-20.10.06:044][212]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-20.10.06:044][212]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.10.06:044][212]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-20.10.06:045][212]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.10.06:050][212]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.21-20.10.06:055][212]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.10.06:088][212]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.10.06:090][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-20.10.06:096][212]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2020.06.21-20.10.06:138][214]LogPlayLevel: Display: Destroying online subsystem :Context_102
+[2020.06.21-20.10.31:753][728]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase187E1380041971F2F96753E8DDAFBCD51.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.uasset'
+[2020.06.21-20.10.31:771][728]AssetCheck: New page: Asset Save: BT_MinibossRedPhase1
+[2020.06.21-20.10.31:771][728]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.BT_MinibossRedPhase1
+[2020.06.21-20.10.33:010][795]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.06.21-20.10.33:080][795]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle6516D85A4630FBFED1B3FAB4D546D0DD.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-20.10.33:175][795]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData939D16374550B1904038338578C9946F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-20.10.33:192][795]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.10.33:192][795]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-20.10.33:192][795]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-20.10.33:824][830]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.21-20.10.33:864][830]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.21-20.10.33:864][830]PIE: New page: PIE session: MiniBossBattle (Jun 21, 2020, 12:10:33 PM)
+[2020.06.21-20.10.33:864][830]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-20.10.33:899][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034984s)
+[2020.06.21-20.10.33:900][830]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.21-20.10.33:900][830]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2020.06.21-20.10.33:900][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.035856s)
+[2020.06.21-20.10.33:936][830]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.06.21-20.10.33:937][830]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.21-20.10.33:937][830]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.21-20.10.33:937][830]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.21-20.10.33:937][830]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.21-20.10.33:937][830]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.21-20.10.33:937][830]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.21-20.10.33:937][830]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.21-20.10.33:937][830]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.21-20.10.33:937][830]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.21-20.10.33:937][830]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.21-20.10.33:958][830]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.21-20.10.33:958][830]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-20.10.33:958][830]LogAudioMixer: Display: Is Default: Yes
+[2020.06.21-20.10.33:958][830]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.21-20.10.33:958][830]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.21-20.10.33:958][830]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.21-20.10.33:958][830]LogAudioMixer: Display: Channel Order:
+[2020.06.21-20.10.33:958][830]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.21-20.10.33:958][830]LogAudioMixer: Display: 1: FrontRight
+[2020.06.21-20.10.33:968][830]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-20.10.33:969][830]LogInit: FAudioDevice initialized.
+[2020.06.21-20.10.33:977][830]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.21-20.10.33:980][830]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.21-16.10.33
+[2020.06.21-20.10.33:981][830]LogWorld: Bringing up level for play took: 0.003346
+[2020.06.21-20.10.33:981][830]LogOnline: OSS: Creating online subsystem instance for: :Context_103
+[2020.06.21-20.10.33:983][830]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-20.10.33:984][830]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-20.10.33:988][830]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle 0.02
+[2020.06.21-20.11.05:399][711]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.11.05:414][711]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.21-20.11.05:434][711]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.21-20.11.05:438][711]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-20.11.05:438][711]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-20.11.05:438][711]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.11.05:439][711]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-20.11.05:440][711]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.11.05:444][711]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.21-20.11.05:449][711]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.11.05:485][711]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.11.05:488][711]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-20.11.05:493][711]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2020.06.21-20.11.05:509][712]LogPlayLevel: Display: Destroying online subsystem :Context_103
+[2020.06.21-20.11.30:010][154]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase11801E8AA44128EC80EC74D875DCF35C3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.uasset'
+[2020.06.21-20.11.30:025][154]AssetCheck: New page: Asset Save: BT_MinibossRedPhase1
+[2020.06.21-20.11.30:025][154]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.BT_MinibossRedPhase1
+[2020.06.21-20.11.31:709][248]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.06.21-20.11.31:779][248]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleEB387E3F425B358BDFFF058D471628B0.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-20.11.31:865][248]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData7CF7E49F4125E4CB366C54BF654F9554.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-20.11.31:885][248]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.11.31:885][248]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-20.11.31:885][248]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-20.11.32:350][276]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.21-20.11.32:390][276]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.21-20.11.32:390][276]PIE: New page: PIE session: MiniBossBattle (Jun 21, 2020, 12:11:32 PM)
+[2020.06.21-20.11.32:390][276]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-20.11.32:426][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036150s)
+[2020.06.21-20.11.32:427][276]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.21-20.11.32:427][276]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2020.06.21-20.11.32:427][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.037032s)
+[2020.06.21-20.11.32:461][276]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.06.21-20.11.32:462][276]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.21-20.11.32:462][276]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.21-20.11.32:462][276]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.21-20.11.32:462][276]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.21-20.11.32:462][276]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.21-20.11.32:462][276]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.21-20.11.32:462][276]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.21-20.11.32:462][276]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.21-20.11.32:462][276]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.21-20.11.32:462][276]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.21-20.11.32:484][276]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.21-20.11.32:484][276]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-20.11.32:484][276]LogAudioMixer: Display: Is Default: Yes
+[2020.06.21-20.11.32:484][276]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.21-20.11.32:484][276]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.21-20.11.32:484][276]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.21-20.11.32:484][276]LogAudioMixer: Display: Channel Order:
+[2020.06.21-20.11.32:484][276]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.21-20.11.32:484][276]LogAudioMixer: Display: 1: FrontRight
+[2020.06.21-20.11.32:493][276]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-20.11.32:494][276]LogInit: FAudioDevice initialized.
+[2020.06.21-20.11.32:503][276]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.21-20.11.32:506][276]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.21-16.11.32
+[2020.06.21-20.11.32:507][276]LogWorld: Bringing up level for play took: 0.003272
+[2020.06.21-20.11.32:507][276]LogOnline: OSS: Creating online subsystem instance for: :Context_104
+[2020.06.21-20.11.32:510][276]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-20.11.32:510][276]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-20.11.32:515][276]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle 0.546
+[2020.06.21-20.11.44:785][ 11]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.11.44:785][ 11]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.11.44:790][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-20.11.44:790][ 11]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-20.11.44:790][ 11]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.11.44:790][ 11]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-20.11.44:791][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.11.44:801][ 11]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.21-20.11.44:806][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.11.44:841][ 11]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.11.44:843][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-20.11.44:849][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2020.06.21-20.11.44:889][ 13]LogPlayLevel: Display: Destroying online subsystem :Context_104
+[2020.06.21-20.12.06:969][315]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase1844C80FF4183B25E13781B9AD9A7CCFA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.uasset'
+[2020.06.21-20.12.06:983][315]AssetCheck: New page: Asset Save: BT_MinibossRedPhase1
+[2020.06.21-20.12.06:983][315]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.BT_MinibossRedPhase1
+[2020.06.21-20.12.18:733][  7]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase1F7824FCD40DD95CE1EB56E8D5B9D80F8.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.uasset'
+[2020.06.21-20.12.18:750][  7]AssetCheck: New page: Asset Save: BT_MinibossRedPhase1
+[2020.06.21-20.12.18:750][  7]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.BT_MinibossRedPhase1
+[2020.06.21-20.12.26:008][434]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase1E0D7374D4F1787433F9829993BAF63F5.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.uasset'
+[2020.06.21-20.12.26:025][434]AssetCheck: New page: Asset Save: BT_MinibossRedPhase1
+[2020.06.21-20.12.26:025][434]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.BT_MinibossRedPhase1
+[2020.06.21-20.12.26:867][481]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.06.21-20.12.26:937][481]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleF9AE3A304410011BB232ECB12C4A965A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-20.12.27:026][481]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData7B0D1C214D301B5731207E8D9D4D2A60.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-20.12.27:044][481]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.12.27:044][481]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-20.12.27:044][481]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-20.12.27:333][499]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.21-20.12.27:373][499]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.21-20.12.27:373][499]PIE: New page: PIE session: MiniBossBattle (Jun 21, 2020, 12:12:27 PM)
+[2020.06.21-20.12.27:373][499]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-20.12.27:408][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035053s)
+[2020.06.21-20.12.27:409][499]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.21-20.12.27:409][499]LogPlayLevel: PIE: World Init took: (0.000766s)
+[2020.06.21-20.12.27:409][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.035944s)
+[2020.06.21-20.12.27:442][499]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.06.21-20.12.27:442][499]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.21-20.12.27:442][499]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.21-20.12.27:442][499]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.21-20.12.27:442][499]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.21-20.12.27:442][499]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.21-20.12.27:442][499]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.21-20.12.27:442][499]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.21-20.12.27:442][499]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.21-20.12.27:442][499]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.21-20.12.27:442][499]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.21-20.12.27:464][499]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.21-20.12.27:464][499]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-20.12.27:464][499]LogAudioMixer: Display: Is Default: Yes
+[2020.06.21-20.12.27:464][499]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.21-20.12.27:464][499]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.21-20.12.27:464][499]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.21-20.12.27:464][499]LogAudioMixer: Display: Channel Order:
+[2020.06.21-20.12.27:464][499]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.21-20.12.27:464][499]LogAudioMixer: Display: 1: FrontRight
+[2020.06.21-20.12.27:473][499]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-20.12.27:474][499]LogInit: FAudioDevice initialized.
+[2020.06.21-20.12.27:478][499]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.21-20.12.27:481][499]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.21-16.12.27
+[2020.06.21-20.12.27:482][499]LogWorld: Bringing up level for play took: 0.003295
+[2020.06.21-20.12.27:482][499]LogOnline: OSS: Creating online subsystem instance for: :Context_105
+[2020.06.21-20.12.27:484][499]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-20.12.27:485][499]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-20.12.27:489][499]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle -0.479
+[2020.06.21-20.13.41:026][897]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.13.41:026][897]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.13.41:031][897]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-20.13.41:031][897]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-20.13.41:031][897]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.13.41:032][897]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-20.13.41:033][897]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.13.41:039][897]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.21-20.13.41:044][897]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.13.41:083][897]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.13.41:085][897]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-20.13.41:091][897]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.06.21-20.13.41:127][899]LogPlayLevel: Display: Destroying online subsystem :Context_105
+[2020.06.21-20.13.58:296][896]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase1685B35EB46AA204C06ED8285537E795F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.uasset'
+[2020.06.21-20.13.58:311][896]AssetCheck: New page: Asset Save: BT_MinibossRedPhase1
+[2020.06.21-20.13.58:311][896]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.BT_MinibossRedPhase1
+[2020.06.21-20.13.59:322][948]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.06.21-20.13.59:419][948]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle061AAD1F4D5F6782E560A08AB8918D28.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-20.13.59:511][948]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData8891DA984BF1A4624ED27D8A6AC8926A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-20.13.59:528][948]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.13.59:528][948]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-20.13.59:528][948]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-20.13.59:799][965]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.21-20.13.59:840][965]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.21-20.13.59:840][965]PIE: New page: PIE session: MiniBossBattle (Jun 21, 2020, 12:13:59 PM)
+[2020.06.21-20.13.59:840][965]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-20.13.59:876][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035452s)
+[2020.06.21-20.13.59:876][965]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.21-20.13.59:876][965]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2020.06.21-20.13.59:876][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.036358s)
+[2020.06.21-20.13.59:908][965]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.06.21-20.13.59:909][965]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.21-20.13.59:909][965]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.21-20.13.59:909][965]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.21-20.13.59:909][965]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.21-20.13.59:909][965]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.21-20.13.59:909][965]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.21-20.13.59:909][965]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.21-20.13.59:909][965]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.21-20.13.59:909][965]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.21-20.13.59:909][965]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.21-20.13.59:930][965]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.21-20.13.59:930][965]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-20.13.59:930][965]LogAudioMixer: Display: Is Default: Yes
+[2020.06.21-20.13.59:930][965]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.21-20.13.59:930][965]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.21-20.13.59:930][965]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.21-20.13.59:930][965]LogAudioMixer: Display: Channel Order:
+[2020.06.21-20.13.59:930][965]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.21-20.13.59:930][965]LogAudioMixer: Display: 1: FrontRight
+[2020.06.21-20.13.59:940][965]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-20.13.59:941][965]LogInit: FAudioDevice initialized.
+[2020.06.21-20.13.59:946][965]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.21-20.13.59:950][965]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.21-16.13.59
+[2020.06.21-20.13.59:951][965]LogWorld: Bringing up level for play took: 0.003230
+[2020.06.21-20.13.59:951][965]LogOnline: OSS: Creating online subsystem instance for: :Context_106
+[2020.06.21-20.13.59:953][965]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-20.13.59:953][965]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-20.13.59:958][965]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle -0.011
+[2020.06.21-20.14.08:408][471]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.14.08:433][471]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.21-20.14.08:453][471]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.21-20.14.08:458][471]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-20.14.08:458][471]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-20.14.08:458][471]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.14.08:458][471]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-20.14.08:459][471]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.14.08:467][471]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.21-20.14.08:471][471]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.14.08:503][471]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.14.08:506][471]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-20.14.08:511][471]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2020.06.21-20.14.08:529][472]LogPlayLevel: Display: Destroying online subsystem :Context_106
+[2020.06.21-20.14.21:165][212]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase150BD7CA8487270621E84E690D96B9A4D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.uasset'
+[2020.06.21-20.14.21:182][212]AssetCheck: New page: Asset Save: BT_MinibossRedPhase1
+[2020.06.21-20.14.21:182][212]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.BT_MinibossRedPhase1
+[2020.06.21-20.14.43:095][504]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase1317851E041D357ED38CE8EB997481A51.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.uasset'
+[2020.06.21-20.14.43:111][504]AssetCheck: New page: Asset Save: BT_MinibossRedPhase1
+[2020.06.21-20.14.43:111][504]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.BT_MinibossRedPhase1
+[2020.06.21-20.15.04:885][797]BlueprintLog: New page: Compile BTTask_MBRedCheckPhaseTransition
+[2020.06.21-20.15.05:123][797]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2020.06.21-20.15.05:435][812]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedCheckPhaseTransition13AE136F4BD477F0B9BB2BA28F2E15F7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.uasset'
+[2020.06.21-20.15.05:448][812]AssetCheck: New page: Asset Save: BTTask_MBRedCheckPhaseTransition
+[2020.06.21-20.15.05:448][812]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.BTTask_MBRedCheckPhaseTransition
+[2020.06.21-20.15.06:401][866]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2020.06.21-20.15.06:471][866]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle7AD62B6946D445EF3F9DF4AA2B396CF4.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-20.15.06:555][866]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData156264454153BE6F0FF7B5BFF3899E2D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-20.15.06:573][866]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.15.06:573][866]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-20.15.06:573][866]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-20.15.07:104][898]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.21-20.15.07:143][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.21-20.15.07:144][898]PIE: New page: PIE session: MiniBossBattle (Jun 21, 2020, 12:15:07 PM)
+[2020.06.21-20.15.07:144][898]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-20.15.07:180][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035858s)
+[2020.06.21-20.15.07:180][898]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.21-20.15.07:181][898]LogPlayLevel: PIE: World Init took: (0.000831s)
+[2020.06.21-20.15.07:181][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.036815s)
+[2020.06.21-20.15.07:214][898]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2020.06.21-20.15.07:215][898]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.21-20.15.07:215][898]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.21-20.15.07:215][898]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.21-20.15.07:215][898]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.21-20.15.07:215][898]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.21-20.15.07:215][898]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.21-20.15.07:215][898]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.21-20.15.07:215][898]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.21-20.15.07:215][898]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.21-20.15.07:215][898]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.21-20.15.07:237][898]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.21-20.15.07:237][898]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-20.15.07:237][898]LogAudioMixer: Display: Is Default: Yes
+[2020.06.21-20.15.07:237][898]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.21-20.15.07:237][898]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.21-20.15.07:237][898]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.21-20.15.07:237][898]LogAudioMixer: Display: Channel Order:
+[2020.06.21-20.15.07:237][898]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.21-20.15.07:237][898]LogAudioMixer: Display: 1: FrontRight
+[2020.06.21-20.15.07:247][898]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-20.15.07:248][898]LogInit: FAudioDevice initialized.
+[2020.06.21-20.15.07:254][898]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.21-20.15.07:257][898]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.21-16.15.07
+[2020.06.21-20.15.07:258][898]LogWorld: Bringing up level for play took: 0.003303
+[2020.06.21-20.15.07:258][898]LogOnline: OSS: Creating online subsystem instance for: :Context_107
+[2020.06.21-20.15.07:260][898]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-20.15.07:261][898]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-20.15.07:266][898]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle -0.704
+[2020.06.21-20.15.51:074][522]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.15.51:074][522]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.15.51:084][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-20.15.51:084][522]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-20.15.51:084][522]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.15.51:084][522]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-20.15.51:085][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.15.51:096][522]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.21-20.15.51:102][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.15.51:138][522]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.15.51:141][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-20.15.51:146][522]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.06.21-20.15.51:183][524]LogPlayLevel: Display: Destroying online subsystem :Context_107
+[2020.06.21-20.15.54:694][728]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase172958FCA4AA605015B41968C7774F432.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.uasset'
+[2020.06.21-20.15.54:708][728]AssetCheck: New page: Asset Save: BT_MinibossRedPhase1
+[2020.06.21-20.15.54:708][728]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.BT_MinibossRedPhase1
+[2020.06.21-20.16.01:738][145]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-20.16.01:738][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.16.13:726][858]BlueprintLog: New page: Compile BTTask_MBRedReturnToPhase1
+[2020.06.21-20.16.13:959][858]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.06.21-20.16.14:027][858]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase1FF4856FB4D3C35ECC4F4D2BFF5C8A936.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-20.16.14:041][858]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-20.16.14:041][858]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-20.16.14:219][866]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedReturnToPhase1FF20E3784DDEB633ACC19DBD246C2EE7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.uasset'
+[2020.06.21-20.16.14:234][866]AssetCheck: New page: Asset Save: BTTask_MBRedReturnToPhase1
+[2020.06.21-20.16.14:234][866]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.BTTask_MBRedReturnToPhase1
+[2020.06.21-20.16.27:737][655]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2020.06.21-20.16.27:758][655]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedTransitionToPhase3AF4E6D2040E6F33974108F83B7EE2E5C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedTransitionToPhase3.uasset'
+[2020.06.21-20.16.27:761][655]LogMetaData: Removing '/Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedTransitionToPhase3.BTTask_MBRedTransitionToPhase3_C' ref from Metadata '/Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.PackageMetaData'
+[2020.06.21-20.16.27:761][655]LogMetaData: Removing '/Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedTransitionToPhase3.SKEL_BTTask_MBRedTransitionToPhase3_C' ref from Metadata '/Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedReturnToPhase1.PackageMetaData'
+[2020.06.21-20.16.27:840][655]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedTransitionToPhase3BDA2D4794D260DC864302788D79FBA77.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedTransitionToPhase3.uasset'
+[2020.06.21-20.16.28:100][655]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2020.06.21-20.16.28:145][655]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.06.21-20.16.28:179][655]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.06.21-20.16.28:237][655]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase2E6103CBC400B66D52CD2AC82D1C340A8.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.uasset'
+[2020.06.21-20.16.28:313][655]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedTransitionToPhase3.
+[2020.06.21-20.16.28:324][655]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.16.28:324][655]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedTransitionToPhase3.BTTask_MBRedTransitionToPhase3
+[2020.06.21-20.16.28:324][655]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.BT_MinibossRedPhase2
+[2020.06.21-20.16.29:556][725]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.06.21-20.16.29:635][725]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleB52BFE8547DF06BD0D9E539EC5FCB617.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-20.16.29:721][725]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData1F2789174BEDC93D419DB0AA76309685.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-20.16.29:739][725]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.16.29:739][725]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-20.16.29:739][725]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-20.17.05:314][840]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase127D1CB1A42A2A5CCA3340ABD0FF8E0F6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.uasset'
+[2020.06.21-20.17.05:328][840]AssetCheck: New page: Asset Save: BT_MinibossRedPhase1
+[2020.06.21-20.17.05:328][840]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.BT_MinibossRedPhase1
+[2020.06.21-20.17.09:412][ 80]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-20.17.09:412][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.17.16:106][471]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.06.21-20.17.16:180][471]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle68D189C94C0CE29F40B896A7D8568782.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-20.17.16:263][471]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataDA65AEFF4AE16DC4B9CA7AA4A954C791.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-20.17.16:280][471]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.17.16:280][471]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-20.17.16:280][471]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-20.17.18:256][588]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Phil/AI/Minibosses/Red/BT_MinibossRedPhase3.BT_MinibossRedPhase3
+[2020.06.21-20.17.22:495][829]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.06.21-20.17.22:572][829]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleEF84A29C4BF45AB3898B4E9A315FD492.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-20.17.22:656][829]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData046ECD7841493F3328D15BABCB65FEF8.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-20.17.22:673][829]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.17.22:673][829]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-20.17.22:673][829]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-20.17.31:574][357]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase2AD8F85A74A92FB3628530DAC28F07D72.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.uasset'
+[2020.06.21-20.17.31:590][357]AssetCheck: New page: Asset Save: BT_MinibossRedPhase2
+[2020.06.21-20.17.31:590][357]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.BT_MinibossRedPhase2
+[2020.06.21-20.17.32:521][410]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.06.21-20.17.32:601][410]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle6F1CEFA54AFBA5F1D3E055A75C75FB76.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-20.17.32:706][410]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData5DB023CF492A30E3A661D29326F9600F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-20.17.32:725][410]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.17.32:725][410]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-20.17.32:725][410]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-20.17.33:032][428]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.21-20.17.33:069][428]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.21-20.17.33:069][428]PIE: New page: PIE session: MiniBossBattle (Jun 21, 2020, 12:17:33 PM)
+[2020.06.21-20.17.33:069][428]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-20.17.33:107][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037943s)
+[2020.06.21-20.17.33:108][428]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.21-20.17.33:108][428]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2020.06.21-20.17.33:108][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.038891s)
+[2020.06.21-20.17.33:142][428]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.06.21-20.17.33:143][428]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.21-20.17.33:143][428]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.21-20.17.33:143][428]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.21-20.17.33:143][428]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.21-20.17.33:143][428]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.21-20.17.33:143][428]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.21-20.17.33:143][428]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.21-20.17.33:143][428]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.21-20.17.33:143][428]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.21-20.17.33:143][428]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.21-20.17.33:167][428]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.21-20.17.33:167][428]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-20.17.33:167][428]LogAudioMixer: Display: Is Default: Yes
+[2020.06.21-20.17.33:167][428]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.21-20.17.33:167][428]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.21-20.17.33:167][428]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.21-20.17.33:167][428]LogAudioMixer: Display: Channel Order:
+[2020.06.21-20.17.33:167][428]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.21-20.17.33:167][428]LogAudioMixer: Display: 1: FrontRight
+[2020.06.21-20.17.33:177][428]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-20.17.33:179][428]LogInit: FAudioDevice initialized.
+[2020.06.21-20.17.33:187][428]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.21-20.17.33:190][428]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.21-16.17.33
+[2020.06.21-20.17.33:191][428]LogWorld: Bringing up level for play took: 0.003259
+[2020.06.21-20.17.33:191][428]LogOnline: OSS: Creating online subsystem instance for: :Context_108
+[2020.06.21-20.17.33:193][428]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-20.17.33:194][428]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-20.17.33:198][428]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle -0.771
+[2020.06.21-20.17.54:956][732]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.17.54:956][732]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.17.54:966][732]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-20.17.54:966][732]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-20.17.54:966][732]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.17.54:966][732]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-20.17.54:967][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.17.54:973][732]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.21-20.17.54:977][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.17.55:004][732]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.17.55:007][732]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-20.17.55:012][732]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.06.21-20.17.55:063][735]LogPlayLevel: Display: Destroying online subsystem :Context_108
+[2020.06.21-20.18.06:419][403]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase35EFF0D014F9307232D6FB3854E938996.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/BT_MinibossRedPhase3.uasset'
+[2020.06.21-20.18.06:435][403]AssetCheck: New page: Asset Save: BT_MinibossRedPhase3
+[2020.06.21-20.18.06:435][403]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/BT_MinibossRedPhase3.BT_MinibossRedPhase3
+[2020.06.21-20.18.24:612][484]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.BTTask_MBRedCheckPhaseTransition
+[2020.06.21-20.18.28:710][713]BlueprintLog: New page: Compile BTTask_MBRedCheckPhaseTransition
+[2020.06.21-20.18.28:941][713]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2020.06.21-20.18.29:005][713]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedCheckPhaseTransition4850E3F44A2390EA9C60278F23053491.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.uasset'
+[2020.06.21-20.18.29:020][713]AssetCheck: New page: Asset Save: BTTask_MBRedCheckPhaseTransition
+[2020.06.21-20.18.29:020][713]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.BTTask_MBRedCheckPhaseTransition
+[2020.06.21-20.18.29:303][725]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedCheckPhaseTransitionB95CB0E04A7FECBAA4F2BFA6F01246B5.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.uasset'
+[2020.06.21-20.18.29:317][725]AssetCheck: New page: Asset Save: BTTask_MBRedCheckPhaseTransition
+[2020.06.21-20.18.29:317][725]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase1/BTTask_MBRedCheckPhaseTransition.BTTask_MBRedCheckPhaseTransition
+[2020.06.21-20.18.37:955][236]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase2E7800D3042922A92499FA6A03FEB04D3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.uasset'
+[2020.06.21-20.18.37:970][236]AssetCheck: New page: Asset Save: BT_MinibossRedPhase2
+[2020.06.21-20.18.37:970][236]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.BT_MinibossRedPhase2
+[2020.06.21-20.18.44:692][629]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase34BE663944F3C8B1777E602B58A086F96.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/BT_MinibossRedPhase3.uasset'
+[2020.06.21-20.18.44:706][629]AssetCheck: New page: Asset Save: BT_MinibossRedPhase3
+[2020.06.21-20.18.44:706][629]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/BT_MinibossRedPhase3.BT_MinibossRedPhase3
+[2020.06.21-20.18.45:784][685]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2020.06.21-20.18.45:865][685]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleD5CA3C3A40BB60CB876BC091BCBF39B1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-20.18.45:953][685]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataF9A315E9460CAE677FD45C82C05D490D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-20.18.45:971][685]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.18.45:971][685]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-20.18.45:971][685]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-20.19.05:673][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.06.21-20.19.05:755][860]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle01F67B774071BAEB77DAF8AF6F486786.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-20.19.05:845][860]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataC3877EBD407B25AF446AD88ED3F37480.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-20.19.05:862][860]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.19.05:862][860]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-20.19.05:862][860]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-20.19.57:392][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.06.21-20.19.57:469][ 61]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle4DA9757344BC831E7770E99A993F0C7A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-20.19.57:551][ 61]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData25BC64E242A9AF065DE0EBA9A1F17105.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-20.19.57:572][ 61]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.19.57:572][ 61]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-20.19.57:572][ 61]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-20.20.04:738][484]LogEditorViewport: Clicking on Actor (LMB): BP_MinibossYellow_C (BP_MinibossYellow)
+[2020.06.21-20.20.06:278][570]Cmd: EDIT COPY
+[2020.06.21-20.20.06:738][597]Cmd: EDIT PASTE
+[2020.06.21-20.20.10:885][836]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2020.06.21-20.20.10:975][836]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleD2D5F895482FD5EFBC66E78E004A48BD.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-20.20.11:062][836]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataAEC1AC1845B33D3A05F0CAB6D3A8A2AC.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-20.20.11:079][836]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.20.11:079][836]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-20.20.11:079][836]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-20.20.11:762][877]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.21-20.20.11:802][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.21-20.20.11:802][877]PIE: New page: PIE session: MiniBossBattle (Jun 21, 2020, 12:20:11 PM)
+[2020.06.21-20.20.11:802][877]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-20.20.11:837][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035325s)
+[2020.06.21-20.20.11:838][877]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.21-20.20.11:838][877]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2020.06.21-20.20.11:838][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.036215s)
+[2020.06.21-20.20.11:872][877]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.06.21-20.20.11:873][877]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.21-20.20.11:873][877]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.21-20.20.11:873][877]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.21-20.20.11:873][877]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.21-20.20.11:873][877]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.21-20.20.11:873][877]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.21-20.20.11:873][877]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.21-20.20.11:873][877]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.21-20.20.11:874][877]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.21-20.20.11:874][877]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.21-20.20.11:895][877]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.21-20.20.11:895][877]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-20.20.11:895][877]LogAudioMixer: Display: Is Default: Yes
+[2020.06.21-20.20.11:895][877]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.21-20.20.11:895][877]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.21-20.20.11:895][877]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.21-20.20.11:895][877]LogAudioMixer: Display: Channel Order:
+[2020.06.21-20.20.11:895][877]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.21-20.20.11:895][877]LogAudioMixer: Display: 1: FrontRight
+[2020.06.21-20.20.11:905][877]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.21-20.20.11:906][877]LogInit: FAudioDevice initialized.
+[2020.06.21-20.20.11:910][877]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.21-20.20.11:913][877]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.21-16.20.11
+[2020.06.21-20.20.11:914][877]LogWorld: Bringing up level for play took: 0.003686
+[2020.06.21-20.20.11:915][877]LogOnline: OSS: Creating online subsystem instance for: :Context_110
+[2020.06.21-20.20.11:917][877]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-20.20.11:917][877]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.21-20.20.11:922][877]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle -0.046
+[2020.06.21-20.20.21:000][419]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.20.21:000][419]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.20.21:006][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-20.20.21:006][419]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.21-20.20.21:006][419]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.20.21:006][419]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-20.20.21:007][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.20.21:016][419]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.21-20.20.21:020][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.20.21:054][419]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.21-20.20.21:056][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.21-20.20.21:061][419]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2020.06.21-20.20.21:103][421]LogPlayLevel: Display: Destroying online subsystem :Context_110
+[2020.06.21-20.20.22:216][482]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.06.21-20.20.22:290][482]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle05C6DE194E262682D9DF629AF04C53F9.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-20.20.22:375][482]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataE2FD64C44808AD4A27E9AEA81EADBA9A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-20.20.22:394][482]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.20.22:394][482]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-20.20.22:394][482]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-20.20.27:653][792]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.06.21-20.20.27:734][792]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle55B0BEF2432DB230EB1EC28F2D2ABB48.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-20.20.27:823][792]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData73EADADD49608DA497D60A9B511B127E.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-20.20.27:839][792]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.20.27:839][792]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-20.20.27:839][792]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.21-20.20.38:146][401]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/MilitaryWeapDark/FX/P_RocketLauncher_Explosion_01.P_RocketLauncher_Explosion_01
+[2020.06.21-20.20.38:171][401]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0007 seconds. Added 2 classes and 2 folders.
+[2020.06.21-20.20.41:325][545]LogCascade: Quitting Cascade. FXSystem=0x00000212B2E9FC40
+[2020.06.21-20.20.41:371][545]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-20.20.41:371][545]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.20.43:165][647]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/MilitaryWeapDark/FX/P_Grenade_Explosion_01.P_Grenade_Explosion_01
+[2020.06.21-20.20.44:946][735]LogCascade: Quitting Cascade. FXSystem=0x000002135C0CFE80
+[2020.06.21-20.20.44:969][735]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-20.20.44:970][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.20.47:354][867]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.06.21-20.20.47:354][867]LogTexture: Display: Building textures: T_SparkImpacts_2x2_01 (AutoDXT, 512X512)
+[2020.06.21-20.20.47:354][867]LogMaterial: Display: Missing cached shader map for material M_SparksImpact_2x2_01, compiling. 
+[2020.06.21-20.20.47:385][867]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 26
+[2020.06.21-20.20.47:385][867]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 22
+[2020.06.21-20.20.47:385][867]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 18
+[2020.06.21-20.20.47:385][867]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 14
+[2020.06.21-20.20.47:385][867]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 10
+[2020.06.21-20.20.47:385][867]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2020.06.21-20.20.47:385][867]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.06.21-20.20.47:404][867]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/MilitaryWeapDark/FX/P_Impact_Metal_Medium_01.P_Impact_Metal_Medium_01
+[2020.06.21-20.20.50:338][ 23]LogCascade: Quitting Cascade. FXSystem=0x00000213933FA2C0
+[2020.06.21-20.20.50:385][ 23]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-20.20.50:385][ 23]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.20.54:469][259]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.06.21-20.20.54:494][259]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/MilitaryWeapDark/FX/P_RocketLauncher_Trail_01.P_RocketLauncher_Trail_01
+[2020.06.21-20.21.01:713][681]LogCascade: Quitting Cascade. FXSystem=0x00000213C3503F40
+[2020.06.21-20.21.01:762][681]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2020.06.21-20.21.01:762][681]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.21-20.21.03:771][791]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2020.06.21-20.21.03:849][791]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleDA54788B4C46B6C444A8DFB7982F4317.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.21-20.21.03:935][791]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataEA40D87C46B4D1DF6AEFBA9D15336DF2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.21-20.21.03:955][791]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.21-20.21.03:955][791]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.21-20.21.03:955][791]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
