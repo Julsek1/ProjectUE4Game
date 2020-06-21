@@ -16,15 +16,15 @@ UCLASS()
 class PROJECT_API ARocket : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	ARocket();
 protected:
 	// Called when the game starts or when spawned
 	//virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	//virtual void Tick(float DeltaTime) override;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -42,7 +42,8 @@ public:
 	virtual void NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& hit) override;
 
 	void Explode();
-	float BlastRadius = 350.f;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		float BlastRadius = 350.f;
 	float BlastDamage = 0.2f;
 
 };
