@@ -42,8 +42,9 @@ public:
 	virtual void NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& hit) override;
 
 	void Explode();
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float BlastRadius = 350.f;
-	float BlastDamage = 0.2f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float BlastDamage = 0.2f;
 
 };
