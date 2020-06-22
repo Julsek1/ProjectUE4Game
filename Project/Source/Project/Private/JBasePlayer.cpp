@@ -95,6 +95,7 @@ AJBasePlayer::AJBasePlayer()
 	IsKilling = false;
 
 	IsHanging = false;
+	IsAgainstWall = false;
 	
 }
 
@@ -177,7 +178,7 @@ void AJBasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 void AJBasePlayer::MoveForward(float Value)
 {
-	if ((Controller != nullptr) && (Value != 0.0f) && (!IsFighting) && (!IsDead) && (!IsHanging))
+	if ((Controller != nullptr) && (Value != 0.0f) && (!IsFighting) && (!IsDead) && (!IsHanging) && (!IsAgainstWall))
 	{
 		//find forward direction
 		const FRotator Rotation = Controller->GetControlRotation();
@@ -192,7 +193,7 @@ void AJBasePlayer::MoveRight(float Value)
 {
 
 
-	if ((Controller != nullptr) && (Value != 0.0f) && (!IsFighting) && (!IsDead) && (!IsHanging))
+	if ((Controller != nullptr) && (Value != 0.0f) && (!IsFighting) && (!IsDead) && (!IsHanging) && (!IsAgainstWall))
 	{
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);

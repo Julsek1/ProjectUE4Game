@@ -34,7 +34,7 @@ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
 class USoundCue* DamageSound;
 
 //Camera position in reference to player
- UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess=true))
+ UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Camera", meta = (AllowPrivateAccess=true))
  class USpringArmComponent* CameraStick;
 
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = true))
@@ -52,6 +52,9 @@ class USoundCue* DamageSound;
  
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
  bool IsHanging;
+
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
+ bool IsAgainstWall;
 
 
  //Turning camera values
