@@ -7,6 +7,7 @@
 #include "Engine/World.h"
 #include "GameFramework/PlayerController.h"
 #include "ParentEnemy.h"
+#include "DamageableActor.h"
 
 AShotgun::AShotgun()
 {
@@ -55,6 +56,11 @@ void AShotgun::Fire(USceneComponent* Location)
 					Difference.ToDirectionAndLength(Direction, Length);
 
 					Cast<AParentEnemy>(OutHits[j].GetActor())->GetHit(Damage, 100000.f, Direction);
+				}
+				
+				else if (Cast<ADamageableActor>(OutHits[j].GetActor()))
+				{
+					Cast<ADamageableActor>(OutHits[j].GetActor())->GetHit(Damage);
 				}
 			}
 

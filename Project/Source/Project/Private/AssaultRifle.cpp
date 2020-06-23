@@ -7,6 +7,7 @@
 #include "Engine/World.h"
 #include "GameFramework/PlayerController.h"
 #include "ParentEnemy.h"
+#include "DamageableActor.h"
 
 AAssaultRifle::AAssaultRifle()
 {
@@ -52,10 +53,10 @@ void AAssaultRifle::Fire(USceneComponent* Location)
 			Cast<AParentEnemy>(OutHits[0].GetActor())->GetHit(Damage, 25000.f, Direction);
 		}
 
-		//if (Cast<AParentEnemy>(OutHit.GetActor()))
-		//{
-		//	//OutHit.GetActor()->Destroy();
-		//	Cast<AParentEnemy>(OutHit.GetActor())->Health -= Damage;
-		//}
+		else if (OutHits.Num() > 0 && Cast<ADamageableActor>(OutHits[0].GetActor()))
+		{
+			Cast<ADamageableActor>(OutHits[0].GetActor())->GetHit(Damage);
+		}
+
 	}
 }
