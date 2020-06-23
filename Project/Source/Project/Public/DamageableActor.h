@@ -32,4 +32,5 @@ public:
 		UStaticMeshComponent* StaticMesh;
 	UPROPERTY(VisibleAnywhere)
 		UBoxComponent* Collider;
+	bool bCanTakeDamage = true;
 };

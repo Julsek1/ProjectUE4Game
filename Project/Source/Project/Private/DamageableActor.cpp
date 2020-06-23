@@ -6,7 +6,7 @@
 // Sets default values
 ADamageableActor::ADamageableActor()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	Collider = CreateDefaultSubobject<UBoxComponent>(TEXT("Collider"));
@@ -18,7 +18,7 @@ ADamageableActor::ADamageableActor()
 void ADamageableActor::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
 // Called every frame
@@ -30,11 +30,14 @@ void ADamageableActor::Tick(float DeltaTime)
 
 void ADamageableActor::GetHit(float Damage)
 {
-	Health -= Damage;
-
-	if (Health <= 0)
+	if (bCanTakeDamage)
 	{
-		Destroy();
+		Health -= Damage;
+
+		if (Health <= 0)
+		{
+			Destroy();
+		}
 	}
 }
 

@@ -7611,3 +7611,624 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.06.23-15.34.14:189][132]AssetCheck: New page: Asset Save: multiple assets
 [2020.06.23-15.34.14:189][132]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
 [2020.06.23-15.34.14:189][132]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.23-15.37.31:000][894]LogEditorViewport: Clicking on Actor (LMB): BP_ShieldGenerator_C (BP_ShieldGenerator)
+[2020.06.23-15.37.31:793][936]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2020.06.23-15.37.31:879][936]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleE769A9A94E4BC4ABAA14F494B65B1DE9.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.23-15.37.32:006][936]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData39B466B0437BE46BD947128C0F4316B9.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.23-15.37.32:044][936]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.23-15.37.32:044][936]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.23-15.37.32:044][936]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.23-15.37.52:659][161]BlueprintLog: New page: Compile BP_ShieldGenerator
+[2020.06.23-15.37.52:984][161]LogUObjectHash: Compacting FUObjectHashTables data took   8.54ms
+[2020.06.23-15.37.53:090][161]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_ShieldGenerator57C944B740724FEDE7BF1FA94EDB8397.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/Miniboss/BP_ShieldGenerator.uasset'
+[2020.06.23-15.37.53:102][161]AssetCheck: New page: Asset Save: BP_ShieldGenerator
+[2020.06.23-15.37.53:102][161]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_ShieldGenerator.BP_ShieldGenerator
+[2020.06.23-15.39.19:816][321]LogHotReload: New module detected: UE4Editor-Project-0055.dll
+[2020.06.23-15.39.20:504][324]LogHotReload: Starting Hot-Reload from IDE
+[2020.06.23-15.39.20:569][324]LogUObjectHash: Compacting FUObjectHashTables data took   6.11ms
+[2020.06.23-15.39.20:693][324]LogClass: Could not find existing class MinibossShieldGenerator in package /Script/Project for HotReload, assuming new class
+[2020.06.23-15.39.20:726][324]LogClass: EGunState HotReload.
+[2020.06.23-15.39.20:726][324]LogClass: EFEnemyMoveStat HotReload.
+[2020.06.23-15.39.20:726][324]LogClass: PlayerStats HotReload.
+[2020.06.23-15.39.20:771][324]LogHotReload: Re-instancing MinibossShieldGenerator after hot-reload.
+[2020.06.23-15.39.21:386][324]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0004 seconds. Added 47 classes and 3 folders.
+[2020.06.23-15.39.21:391][324]Display: HotReload successful (46 functions remapped  1 scriptstructs remapped)
+[2020.06.23-15.39.21:503][324]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2020.06.23-15.39.21:519][324]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 3064 classes and 723 folders.
+[2020.06.23-15.39.21:522][324]Display: HotReload took  1.0s.
+[2020.06.23-15.39.22:911][381]BlueprintLog: New page: Compile BP_ShieldGenerator
+[2020.06.23-15.39.23:270][381]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2020.06.23-15.39.23:615][395]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_ShieldGenerator396DC6114B7D53D88289A1887F815130.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/Miniboss/BP_ShieldGenerator.uasset'
+[2020.06.23-15.39.23:628][395]AssetCheck: New page: Asset Save: BP_ShieldGenerator
+[2020.06.23-15.39.23:628][395]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_ShieldGenerator.BP_ShieldGenerator
+[2020.06.23-15.39.29:978][761]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2020.06.23-15.39.30:089][761]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle8BD1FCF9461F838A43A44BB6A53C1735.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.23-15.39.30:189][761]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData42F5F90948274B245339B386A3C0607C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.23-15.39.30:208][761]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.23-15.39.30:208][761]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.23-15.39.30:208][761]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.23-15.39.36:540][138]BlueprintLog: New page: Compile BP_ShieldGenerator
+[2020.06.23-15.39.36:864][138]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2020.06.23-15.39.36:968][138]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_ShieldGeneratorCD5B406D49949EEDD34805B84034A432.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/Miniboss/BP_ShieldGenerator.uasset'
+[2020.06.23-15.39.36:982][138]AssetCheck: New page: Asset Save: BP_ShieldGenerator
+[2020.06.23-15.39.36:982][138]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_ShieldGenerator.BP_ShieldGenerator
+[2020.06.23-15.39.37:366][158]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_ShieldGeneratorA1D83A6B4550B4374991738524F53943.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/Miniboss/BP_ShieldGenerator.uasset'
+[2020.06.23-15.39.37:379][158]AssetCheck: New page: Asset Save: BP_ShieldGenerator
+[2020.06.23-15.39.37:379][158]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_ShieldGenerator.BP_ShieldGenerator
+[2020.06.23-15.39.38:876][248]LogEditorTransaction: Undo Remove Components
+[2020.06.23-15.39.41:447][381]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_ShieldGenerator1AFDDB244F0B8AC0CD4AB4A52BD45838.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/Miniboss/BP_ShieldGenerator.uasset'
+[2020.06.23-15.39.41:468][381]AssetCheck: New page: Asset Save: BP_ShieldGenerator
+[2020.06.23-15.39.41:468][381]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_ShieldGenerator.BP_ShieldGenerator
+[2020.06.23-15.39.42:938][461]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.06.23-15.39.43:016][461]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle5A4A5FDF40762FBBF018C69E6A53725B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.23-15.39.43:110][461]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataEC0DCF564443CA36EF6077BF75FA8530.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.23-15.39.43:127][461]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.23-15.39.43:127][461]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.23-15.39.43:127][461]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.23-15.39.49:476][834]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.06.23-15.39.49:561][834]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle2EE5F1984E9D0B6C980BC7A8EF531860.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.23-15.39.49:678][834]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData91A621794AE849D86203A298A8A6DAF3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.23-15.39.49:695][834]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.23-15.39.49:695][834]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.23-15.39.49:695][834]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.23-15.39.55:643][182]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossYellow.BP_MinibossYellow
+[2020.06.23-15.39.57:787][281]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossRed.BP_MinibossRed
+[2020.06.23-15.39.58:107][281]LogActor: Warning: BP_MinibossRedWeapon_C /Engine/Transient.World_20:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.39.59:646][366]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2020.06.23-15.39.59:721][366]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleEC68A00A4ACDDBDAF4013BA62109E90B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.23-15.39.59:823][366]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataFA25705C422186CFBB8291BAC4371C2F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.23-15.39.59:847][366]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.23-15.39.59:847][366]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.23-15.39.59:847][366]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.23-15.40.22:944][742]BlueprintLog: New page: Compile BP_ShieldGenerator
+[2020.06.23-15.40.22:956][742]LogBlueprint: Warning: [Compiler BP_ShieldGenerator] Could not find a variable named "Color" in 'BP_ShieldGenerator_C'.
+Make sure 'BP_ShieldGenerator_C' has been compiled for  Get Color
+[2020.06.23-15.40.22:956][742]LogBlueprint: Warning: [Compiler BP_ShieldGenerator] Could not find a variable named "DamageShield" in 'BP_ShieldGenerator_C'.
+Make sure 'BP_ShieldGenerator_C' has been compiled for  Get DamageShield
+[2020.06.23-15.40.22:956][742]LogBlueprint: Warning: [Compiler BP_ShieldGenerator] Could not find a variable named "DamageShield" in 'BP_ShieldGenerator_C'.
+Make sure 'BP_ShieldGenerator_C' has been compiled for  Get DamageShield
+[2020.06.23-15.40.22:957][742]LogBlueprint: Error: [Compiler BP_ShieldGenerator] The property associated with  Color  could not be found in '/Game/Phil/Blueprints/Enemy/Miniboss/BP_ShieldGenerator.BP_ShieldGenerator_C'
+[2020.06.23-15.40.22:957][742]LogBlueprint: Error: [Compiler BP_ShieldGenerator] The property associated with  Damage Shield  could not be found in '/Game/Phil/Blueprints/Enemy/Miniboss/BP_ShieldGenerator.BP_ShieldGenerator_C'
+[2020.06.23-15.40.22:957][742]LogBlueprint: Error: [Compiler BP_ShieldGenerator] The property associated with  Damage Shield  could not be found in '/Game/Phil/Blueprints/Enemy/Miniboss/BP_ShieldGenerator.BP_ShieldGenerator_C'
+[2020.06.23-15.40.23:326][742]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2020.06.23-15.40.23:812][763]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_ShieldGenerator2EBDB3504CF368D0F89BABA29A1C4B28.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/Miniboss/BP_ShieldGenerator.uasset'
+[2020.06.23-15.40.23:829][763]AssetCheck: New page: Asset Save: BP_ShieldGenerator
+[2020.06.23-15.40.23:829][763]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_ShieldGenerator.BP_ShieldGenerator
+[2020.06.23-15.40.33:156][315]BlueprintLog: New page: Compile BP_ShieldGenerator
+[2020.06.23-15.40.33:157][315]LogBlueprint: Warning: [Compiler BP_ShieldGenerator] Could not find a variable named "Color" in 'BP_ShieldGenerator_C'.
+Make sure 'BP_ShieldGenerator_C' has been compiled for  Get Color
+[2020.06.23-15.40.33:157][315]LogBlueprint: Warning: [Compiler BP_ShieldGenerator] Could not find a variable named "DamageShield" in 'BP_ShieldGenerator_C'.
+Make sure 'BP_ShieldGenerator_C' has been compiled for  Get DamageShield
+[2020.06.23-15.40.33:157][315]LogBlueprint: Warning: [Compiler BP_ShieldGenerator] Could not find a variable named "DamageShield" in 'BP_ShieldGenerator_C'.
+Make sure 'BP_ShieldGenerator_C' has been compiled for  Get DamageShield
+[2020.06.23-15.40.33:158][315]LogBlueprint: Error: [Compiler BP_ShieldGenerator] The property associated with  Color  could not be found in '/Game/Phil/Blueprints/Enemy/Miniboss/BP_ShieldGenerator.BP_ShieldGenerator_C'
+[2020.06.23-15.40.33:158][315]LogBlueprint: Error: [Compiler BP_ShieldGenerator] The property associated with  Damage Shield  could not be found in '/Game/Phil/Blueprints/Enemy/Miniboss/BP_ShieldGenerator.BP_ShieldGenerator_C'
+[2020.06.23-15.40.33:158][315]LogBlueprint: Error: [Compiler BP_ShieldGenerator] The property associated with  Damage Shield  could not be found in '/Game/Phil/Blueprints/Enemy/Miniboss/BP_ShieldGenerator.BP_ShieldGenerator_C'
+[2020.06.23-15.40.33:491][315]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2020.06.23-15.40.39:778][686]BlueprintLog: New page: Compile BP_ShieldGenerator
+[2020.06.23-15.40.39:780][686]LogBlueprint: Warning: [Compiler BP_ShieldGenerator] Could not find a variable named "Color" in 'BP_ShieldGenerator_C'.
+Make sure 'BP_ShieldGenerator_C' has been compiled for  Get Color
+[2020.06.23-15.40.39:780][686]LogBlueprint: Error: [Compiler BP_ShieldGenerator] The property associated with  Color  could not be found in '/Game/Phil/Blueprints/Enemy/Miniboss/BP_ShieldGenerator.BP_ShieldGenerator_C'
+[2020.06.23-15.40.40:142][686]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2020.06.23-15.40.55:948][604]BlueprintLog: New page: Compile BP_ShieldGenerator
+[2020.06.23-15.40.56:265][604]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2020.06.23-15.40.56:370][604]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_ShieldGenerator7AB35DC745F8A05A7454EA81E44866E8.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/Miniboss/BP_ShieldGenerator.uasset'
+[2020.06.23-15.40.56:386][604]AssetCheck: New page: Asset Save: BP_ShieldGenerator
+[2020.06.23-15.40.56:386][604]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_ShieldGenerator.BP_ShieldGenerator
+[2020.06.23-15.40.56:677][617]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_ShieldGenerator13FBF09D4CE59BA804514CBC9C4EC3CA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/Miniboss/BP_ShieldGenerator.uasset'
+[2020.06.23-15.40.56:692][617]AssetCheck: New page: Asset Save: BP_ShieldGenerator
+[2020.06.23-15.40.56:692][617]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_ShieldGenerator.BP_ShieldGenerator
+[2020.06.23-15.40.59:183][759]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2020.06.23-15.40.59:267][759]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle5739CC2C4A6B3C6BF34D9BBA7FAD55A0.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.23-15.40.59:364][759]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData37D2D14A4219041875CD9CB6F42AEAB2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.23-15.40.59:384][759]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.23-15.40.59:384][759]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.23-15.40.59:384][759]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.23-15.41.00:255][805]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.23-15.41.00:297][805]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.23-15.41.00:297][805]PIE: New page: PIE session: MiniBossBattle (Jun 23, 2020, 7:41:00 AM)
+[2020.06.23-15.41.00:297][805]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.23-15.41.00:355][805]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058013s)
+[2020.06.23-15.41.00:356][805]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.23-15.41.00:356][805]LogPlayLevel: PIE: World Init took: (0.000933s)
+[2020.06.23-15.41.00:356][805]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.059087s)
+[2020.06.23-15.41.00:404][805]LogUObjectHash: Compacting FUObjectHashTables data took   9.13ms
+[2020.06.23-15.41.00:406][805]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.23-15.41.00:406][805]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.23-15.41.00:406][805]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.23-15.41.00:406][805]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.23-15.41.00:406][805]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.23-15.41.00:406][805]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.23-15.41.00:407][805]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.23-15.41.00:407][805]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.23-15.41.00:408][805]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.23-15.41.00:408][805]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.23-15.41.00:431][805]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.23-15.41.00:431][805]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.23-15.41.00:431][805]LogAudioMixer: Display: Is Default: Yes
+[2020.06.23-15.41.00:431][805]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.23-15.41.00:431][805]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.23-15.41.00:431][805]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.23-15.41.00:431][805]LogAudioMixer: Display: Channel Order:
+[2020.06.23-15.41.00:431][805]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.23-15.41.00:431][805]LogAudioMixer: Display: 1: FrontRight
+[2020.06.23-15.41.00:441][805]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.23-15.41.00:442][805]LogInit: FAudioDevice initialized.
+[2020.06.23-15.41.00:447][805]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.23-15.41.00:450][805]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.23-11.41.00
+[2020.06.23-15.41.00:451][805]LogWorld: Bringing up level for play took: 0.003244
+[2020.06.23-15.41.00:451][805]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2020.06.23-15.41.00:454][805]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.41.00:454][805]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.41.00:458][805]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle -0.153
+[2020.06.23-15.41.07:329][216]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.23-15.41.07:342][216]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.23-15.41.07:363][216]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.23-15.41.07:364][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-15.41.07:364][216]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.23-15.41.07:364][216]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.23-15.41.07:364][216]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.23-15.41.07:366][216]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-15.41.07:383][216]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.23-15.41.07:389][216]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-15.41.07:423][216]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.23-15.41.07:426][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-15.41.07:431][216]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2020.06.23-15.41.07:449][217]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2020.06.23-15.41.09:039][308]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.06.23-15.41.09:126][308]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle61E5F56C448C45693DCD6084F24B9E42.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.23-15.41.09:214][308]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData1A22E8E3451C3CA71A4B7FBCCC768B07.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.23-15.41.09:233][308]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.23-15.41.09:233][308]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.23-15.41.09:233][308]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.23-15.44.42:148][488]LogHotReload: New module detected: UE4Editor-Project-0056.dll
+[2020.06.23-15.44.42:507][490]LogHotReload: Starting Hot-Reload from IDE
+[2020.06.23-15.44.42:585][490]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2020.06.23-15.44.42:651][490]LogClass: Could not find existing class DamageableActor in package /Script/Project for HotReload, assuming new class
+[2020.06.23-15.44.42:712][490]LogClass: Could not find existing class MinibossShieldGenerator in package /Script/Project for HotReload, assuming new class
+[2020.06.23-15.44.42:749][490]LogClass: EGunState HotReload.
+[2020.06.23-15.44.42:749][490]LogClass: EFEnemyMoveStat HotReload.
+[2020.06.23-15.44.42:749][490]LogClass: PlayerStats HotReload.
+[2020.06.23-15.44.42:769][490]LogHotReload: Re-instancing DamageableActor after hot-reload.
+[2020.06.23-15.44.43:127][490]LogHotReload: Re-instancing MinibossShieldGenerator after hot-reload.
+[2020.06.23-15.44.43:754][490]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0004 seconds. Added 47 classes and 3 folders.
+[2020.06.23-15.44.43:759][490]Display: HotReload successful (46 functions remapped  1 scriptstructs remapped)
+[2020.06.23-15.44.43:866][490]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2020.06.23-15.44.43:883][490]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 3064 classes and 723 folders.
+[2020.06.23-15.44.43:886][490]Display: HotReload took  1.4s.
+[2020.06.23-15.46.00:334][771]BlueprintLog: New page: Compile BP_MinibossYellow
+[2020.06.23-15.46.00:777][771]LogUObjectHash: Compacting FUObjectHashTables data took   4.86ms
+[2020.06.23-15.46.02:520][867]LogUObjectHash: Compacting FUObjectHashTables data took   6.60ms
+[2020.06.23-15.46.02:641][867]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle8BB3EA424187F7C6F4BF5FB44A286CC5.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.23-15.46.02:748][867]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData1C5B40674ECCDF4F06C9D3922B1BBE42.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.23-15.46.02:777][867]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.23-15.46.02:778][867]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.23-15.46.02:778][867]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.23-15.46.03:186][891]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.23-15.46.03:461][891]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.23-15.46.03:461][891]PIE: New page: PIE session: MiniBossBattle (Jun 23, 2020, 7:46:03 AM)
+[2020.06.23-15.46.03:462][891]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.23-15.46.03:521][891]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059629s)
+[2020.06.23-15.46.03:522][891]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.23-15.46.03:522][891]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2020.06.23-15.46.03:522][891]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.060599s)
+[2020.06.23-15.46.03:572][891]LogUObjectHash: Compacting FUObjectHashTables data took   8.74ms
+[2020.06.23-15.46.03:575][891]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.23-15.46.03:575][891]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.23-15.46.03:575][891]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.23-15.46.03:575][891]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.23-15.46.03:575][891]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.23-15.46.03:575][891]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.23-15.46.03:575][891]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.23-15.46.03:575][891]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.23-15.46.03:576][891]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.23-15.46.03:576][891]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.23-15.46.03:608][891]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.23-15.46.03:608][891]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.23-15.46.03:608][891]LogAudioMixer: Display: Is Default: Yes
+[2020.06.23-15.46.03:608][891]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.23-15.46.03:608][891]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.23-15.46.03:608][891]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.23-15.46.03:608][891]LogAudioMixer: Display: Channel Order:
+[2020.06.23-15.46.03:608][891]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.23-15.46.03:608][891]LogAudioMixer: Display: 1: FrontRight
+[2020.06.23-15.46.03:623][891]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.23-15.46.03:624][891]LogInit: FAudioDevice initialized.
+[2020.06.23-15.46.03:634][891]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.23-15.46.03:639][891]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.23-11.46.03
+[2020.06.23-15.46.03:640][891]LogWorld: Bringing up level for play took: 0.005312
+[2020.06.23-15.46.03:640][891]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2020.06.23-15.46.03:645][891]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.46.03:646][891]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.46.03:652][891]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle 1.041
+[2020.06.23-15.46.09:462][238]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.23-15.46.09:471][238]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.23-15.46.09:491][238]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.23-15.46.09:492][238]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-15.46.09:492][238]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.23-15.46.09:492][238]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.23-15.46.09:492][238]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.23-15.46.09:493][238]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-15.46.09:502][238]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.23-15.46.09:508][238]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-15.46.09:543][238]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.23-15.46.09:545][238]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-15.46.09:551][238]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2020.06.23-15.46.09:573][239]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2020.06.23-15.47.53:644][860]LogHotReload: New module detected: UE4Editor-Project-0057.dll
+[2020.06.23-15.47.54:325][863]LogHotReload: Starting Hot-Reload from IDE
+[2020.06.23-15.47.54:392][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2020.06.23-15.47.54:578][863]LogClass: EGunState HotReload.
+[2020.06.23-15.47.54:578][863]LogClass: EFEnemyMoveStat HotReload.
+[2020.06.23-15.47.54:578][863]LogClass: PlayerStats HotReload.
+[2020.06.23-15.47.54:627][863]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0004 seconds. Added 47 classes and 3 folders.
+[2020.06.23-15.47.54:633][863]Display: HotReload successful (46 functions remapped  1 scriptstructs remapped)
+[2020.06.23-15.47.54:774][863]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2020.06.23-15.47.54:793][863]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 3064 classes and 723 folders.
+[2020.06.23-15.47.54:796][863]Display: HotReload took  0.5s.
+[2020.06.23-15.47.57:395][971]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.23-15.47.57:432][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.23-15.47.57:433][971]PIE: New page: PIE session: MiniBossBattle (Jun 23, 2020, 7:47:57 AM)
+[2020.06.23-15.47.57:433][971]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.23-15.47.57:495][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062966s)
+[2020.06.23-15.47.57:496][971]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.23-15.47.57:496][971]LogPlayLevel: PIE: World Init took: (0.000922s)
+[2020.06.23-15.47.57:496][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.064035s)
+[2020.06.23-15.47.57:571][971]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2020.06.23-15.47.57:573][971]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.23-15.47.57:573][971]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.23-15.47.57:573][971]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.23-15.47.57:573][971]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.23-15.47.57:573][971]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.23-15.47.57:573][971]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.23-15.47.57:573][971]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.23-15.47.57:573][971]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.23-15.47.57:573][971]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.23-15.47.57:573][971]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.23-15.47.57:595][971]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.23-15.47.57:595][971]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.23-15.47.57:595][971]LogAudioMixer: Display: Is Default: Yes
+[2020.06.23-15.47.57:595][971]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.23-15.47.57:595][971]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.23-15.47.57:595][971]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.23-15.47.57:595][971]LogAudioMixer: Display: Channel Order:
+[2020.06.23-15.47.57:595][971]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.23-15.47.57:595][971]LogAudioMixer: Display: 1: FrontRight
+[2020.06.23-15.47.57:605][971]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.23-15.47.57:606][971]LogInit: FAudioDevice initialized.
+[2020.06.23-15.47.57:614][971]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.23-15.47.57:617][971]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.23-11.47.57
+[2020.06.23-15.47.57:618][971]LogWorld: Bringing up level for play took: 0.003282
+[2020.06.23-15.47.57:618][971]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2020.06.23-15.47.57:620][971]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.47.57:620][971]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.47.57:624][971]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle 1.013
+[2020.06.23-15.48.11:167][779]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.23-15.48.11:167][779]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.23-15.48.11:168][779]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-15.48.11:168][779]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.23-15.48.11:168][779]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.23-15.48.11:168][779]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.23-15.48.11:169][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-15.48.11:182][779]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.23-15.48.11:187][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-15.48.11:227][779]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.23-15.48.11:230][779]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-15.48.11:236][779]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2020.06.23-15.48.11:286][781]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2020.06.23-15.48.12:594][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.06.23-15.48.12:695][855]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle4766CCF643DDB9D784A4B991E69939D4.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.23-15.48.12:789][855]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData5C2239C54E49235B0AD612A2C54157FA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.23-15.48.12:813][855]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.23-15.48.12:813][855]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.23-15.48.12:813][855]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.23-15.48.17:085][108]BlueprintLog: New page: Compile BP_MinibossYellow
+[2020.06.23-15.48.17:488][108]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2020.06.23-15.48.17:760][116]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_MinibossYellow0431FD494D8AD1AC3B97E7ABBD7A346F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/Miniboss/BP_MinibossYellow.uasset'
+[2020.06.23-15.48.17:792][116]AssetCheck: New page: Asset Save: BP_MinibossYellow
+[2020.06.23-15.48.17:792][116]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossYellow.BP_MinibossYellow
+[2020.06.23-15.48.43:631][656]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2020.06.23-15.48.43:731][656]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle1AC87C824E359B3DA0B41C81A35ED810.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.23-15.48.43:824][656]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData09A7E8224F45DF3C69ED75963833127E.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.23-15.48.43:846][656]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.23-15.48.43:846][656]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.23-15.48.43:847][656]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.23-15.48.46:148][789]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2020.06.23-15.48.46:231][789]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle08AA81E5436E4D24F1F4AA924928481A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.23-15.48.46:325][789]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataC46A77BD42BB68A5D99EB69DD24672FC.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.23-15.48.46:350][789]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.23-15.48.46:350][789]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.23-15.48.46:350][789]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.23-15.48.51:522][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2020.06.23-15.48.51:606][ 96]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattleF3C7760E409358D592DE06A8242AB4EF.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.23-15.48.51:693][ 96]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataCA1D86B64725C16BF204D5A0226F7177.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.23-15.48.51:713][ 96]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.23-15.48.51:713][ 96]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.23-15.48.51:713][ 96]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.23-15.48.55:233][207]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.06.23-15.48.55:312][207]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle4E097F334BA12FB2C52AFF9321B07E85.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.23-15.48.55:399][207]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataFD080E844975B1098A3B61A04957538B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.23-15.48.55:421][207]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.23-15.48.55:421][207]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.23-15.48.55:421][207]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.23-15.49.08:205][974]LogEditorViewport: Clicking on Actor (LMB): BP_MinibossYellow_C (BP_MinibossYellow)
+[2020.06.23-15.49.09:423][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2020.06.23-15.49.09:508][ 38]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle0D2E54A14B27A866BD4432A6C13E3BAE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.23-15.49.09:610][ 38]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData3F48910445C1BB9F25C44E8D1402A312.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.23-15.49.09:632][ 38]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.23-15.49.09:632][ 38]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.23-15.49.09:632][ 38]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.23-15.49.22:658][782]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_MinibossYellow1455E3F2482DA7EEC40E4DB1ACC685C1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/Miniboss/BP_MinibossYellow.uasset'
+[2020.06.23-15.49.22:674][782]AssetCheck: New page: Asset Save: BP_MinibossYellow
+[2020.06.23-15.49.22:674][782]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossYellow.BP_MinibossYellow
+[2020.06.23-15.49.35:104][526]BlueprintLog: New page: Compile BP_MinibossYellow
+[2020.06.23-15.49.35:509][526]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2020.06.23-15.49.35:609][526]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_MinibossYellow0BDB80E64C5FA5AAC72687B347AE6A29.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/Miniboss/BP_MinibossYellow.uasset'
+[2020.06.23-15.49.35:622][526]AssetCheck: New page: Asset Save: BP_MinibossYellow
+[2020.06.23-15.49.35:622][526]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossYellow.BP_MinibossYellow
+[2020.06.23-15.49.55:494][704]BlueprintLog: New page: Compile BP_MinibossYellow
+[2020.06.23-15.49.55:916][704]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2020.06.23-15.49.56:023][704]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_MinibossYellowF3BC16114DA64E8CC16C7DA49458711B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/Miniboss/BP_MinibossYellow.uasset'
+[2020.06.23-15.49.56:038][704]AssetCheck: New page: Asset Save: BP_MinibossYellow
+[2020.06.23-15.49.56:038][704]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossYellow.BP_MinibossYellow
+[2020.06.23-15.49.56:992][749]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
+[2020.06.23-15.49.57:067][749]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle40FAC7AB429F691B107A68BED8E9E173.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.23-15.49.57:162][749]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataDEE54047440B4810B569CF90366C7AE6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.23-15.49.57:184][749]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.23-15.49.57:184][749]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.23-15.49.57:184][749]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.23-15.49.57:982][794]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.23-15.49.58:010][794]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.23-15.49.58:010][794]PIE: New page: PIE session: MiniBossBattle (Jun 23, 2020, 7:49:58 AM)
+[2020.06.23-15.49.58:010][794]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.23-15.49.58:049][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039051s)
+[2020.06.23-15.49.58:050][794]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.23-15.49.58:050][794]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2020.06.23-15.49.58:050][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.040157s)
+[2020.06.23-15.49.58:096][794]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2020.06.23-15.49.58:098][794]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.23-15.49.58:098][794]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.23-15.49.58:098][794]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.23-15.49.58:098][794]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.23-15.49.58:098][794]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.23-15.49.58:098][794]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.23-15.49.58:098][794]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.23-15.49.58:098][794]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.23-15.49.58:099][794]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.23-15.49.58:099][794]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.23-15.49.58:123][794]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.23-15.49.58:124][794]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.23-15.49.58:124][794]LogAudioMixer: Display: Is Default: Yes
+[2020.06.23-15.49.58:124][794]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.23-15.49.58:124][794]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.23-15.49.58:124][794]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.23-15.49.58:124][794]LogAudioMixer: Display: Channel Order:
+[2020.06.23-15.49.58:124][794]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.23-15.49.58:124][794]LogAudioMixer: Display: 1: FrontRight
+[2020.06.23-15.49.58:137][794]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.23-15.49.58:138][794]LogInit: FAudioDevice initialized.
+[2020.06.23-15.49.58:149][794]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.23-15.49.58:155][794]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.23-11.49.58
+[2020.06.23-15.49.58:158][794]LogWorld: Bringing up level for play took: 0.007979
+[2020.06.23-15.49.58:158][794]LogOnline: OSS: Creating online subsystem instance for: :Context_42
+[2020.06.23-15.49.58:163][794]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.49.58:164][794]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.49.58:170][794]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle -0.44
+[2020.06.23-15.50.03:442][109]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.23-15.50.03:442][109]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.23-15.50.03:442][109]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-15.50.03:442][109]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.23-15.50.03:442][109]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.23-15.50.03:442][109]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.23-15.50.03:443][109]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-15.50.03:457][109]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.23-15.50.03:463][109]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-15.50.03:502][109]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.23-15.50.03:505][109]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-15.50.03:510][109]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2020.06.23-15.50.03:552][111]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2020.06.23-15.50.05:509][228]LogEditorViewport: Clicking on Actor (LMB): BP_MinibossRed_C (BP_MinibossRed)
+[2020.06.23-15.50.06:348][271]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:365][272]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:383][273]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:398][274]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:415][275]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:432][276]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:448][277]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:467][278]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:482][279]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:499][280]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:516][281]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:532][282]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:548][283]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:565][284]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:581][285]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:599][286]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:615][287]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:631][288]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:647][289]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:664][290]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_47 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:681][291]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_49 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:698][292]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_51 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:716][293]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_53 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:731][294]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_55 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.06:748][295]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_57 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.07:064][314]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_59 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.07:181][321]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_61 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.07:737][350]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.06.23-15.50.07:852][350]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle9D246B9B49C0EDC7204EF1AAA83E59B2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.23-15.50.07:943][350]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltDataE4B0BD824E27E232A48B5496805D9624.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.23-15.50.07:966][350]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.23-15.50.07:966][350]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.23-15.50.07:966][350]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.23-15.50.08:409][375]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.23-15.50.08:443][375]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.23-15.50.08:443][375]PIE: New page: PIE session: MiniBossBattle (Jun 23, 2020, 7:50:08 AM)
+[2020.06.23-15.50.08:444][375]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.23-15.50.08:502][375]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058748s)
+[2020.06.23-15.50.08:503][375]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.23-15.50.08:503][375]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2020.06.23-15.50.08:503][375]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.059628s)
+[2020.06.23-15.50.08:542][375]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.06.23-15.50.08:543][375]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.23-15.50.08:543][375]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.23-15.50.08:543][375]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.23-15.50.08:543][375]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.23-15.50.08:543][375]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.23-15.50.08:543][375]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.23-15.50.08:543][375]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.23-15.50.08:543][375]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.23-15.50.08:544][375]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.23-15.50.08:544][375]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.23-15.50.08:565][375]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.23-15.50.08:565][375]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.23-15.50.08:565][375]LogAudioMixer: Display: Is Default: Yes
+[2020.06.23-15.50.08:565][375]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.23-15.50.08:565][375]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.23-15.50.08:565][375]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.23-15.50.08:565][375]LogAudioMixer: Display: Channel Order:
+[2020.06.23-15.50.08:565][375]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.23-15.50.08:565][375]LogAudioMixer: Display: 1: FrontRight
+[2020.06.23-15.50.08:576][375]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.23-15.50.08:577][375]LogInit: FAudioDevice initialized.
+[2020.06.23-15.50.08:581][375]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.23-15.50.08:584][375]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.23-11.50.08
+[2020.06.23-15.50.08:585][375]LogWorld: Bringing up level for play took: 0.003653
+[2020.06.23-15.50.08:586][375]LogOnline: OSS: Creating online subsystem instance for: :Context_43
+[2020.06.23-15.50.08:588][375]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.08:589][375]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.08:592][375]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle -0.019
+[2020.06.23-15.50.12:743][623]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.23-15.50.12:743][623]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.23-15.50.12:743][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-15.50.12:743][623]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.23-15.50.12:743][623]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.23-15.50.12:744][623]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.23-15.50.12:744][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-15.50.12:758][623]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.23-15.50.12:764][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-15.50.12:805][623]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.23-15.50.12:808][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-15.50.12:813][623]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.06.23-15.50.12:857][625]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2020.06.23-15.50.16:716][856]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.06.23-15.50.16:982][870]Cmd: TRANSACTION UNDO
+[2020.06.23-15.50.16:982][870]LogEditorTransaction: Undo Clicking on Actors
+[2020.06.23-15.50.17:986][914]LogEditorViewport: Clicking on Actor (LMB): BP_MinibossRed_C (BP_MinibossRed)
+[2020.06.23-15.50.18:553][944]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_63 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:570][945]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_65 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:587][946]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_67 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:602][947]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_69 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:620][948]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_71 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:637][949]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_73 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:653][950]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_75 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:672][951]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_77 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:685][952]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_79 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:703][953]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_81 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:719][954]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_83 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:735][955]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_85 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:752][956]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_87 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:769][957]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_89 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:788][958]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_91 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:802][959]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_93 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:819][960]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_95 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:836][961]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_97 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:855][962]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_99 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:875][963]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_101 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:891][964]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_103 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:907][965]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_105 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:956][968]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_107 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:975][969]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_109 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.18:997][970]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_111 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.19:015][971]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_113 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.19:031][972]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_115 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.19:050][973]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_117 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.19:068][974]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_119 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.19:082][975]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_121 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.19:099][976]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_123 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.19:115][977]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_125 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.19:132][978]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_127 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.19:149][979]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_129 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.19:165][980]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_131 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.19:181][981]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_133 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.19:199][982]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_135 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.19:215][983]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_137 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.19:364][992]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_139 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.20:521][ 58]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_141 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.20:538][ 59]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_143 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.20:554][ 60]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_145 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.20:571][ 61]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_147 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.20:587][ 62]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_149 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.20:604][ 63]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_151 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.20:621][ 64]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_153 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.20:637][ 65]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_155 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.20:704][ 69]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_157 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.20:769][ 73]LogActor: Warning: BP_MinibossRedWeapon_C /Game/Phil/Levels/MiniBossBattle.MiniBossBattle:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_159 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.22:897][194]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2020.06.23-15.50.22:990][194]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle731496114804F2FD4C09D4A48FBD4E9C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.23-15.50.23:083][194]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData47D68AC7483AE2A9D889DCB39C2AAA7B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.23-15.50.23:103][194]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.23-15.50.23:103][194]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.23-15.50.23:103][194]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.23-15.50.23:458][211]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2020.06.23-15.50.23:536][211]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle8F701B9848A926B408AAC199AE0AD296.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.23-15.50.23:630][211]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData58B6784848EE7A3C2A8FEFB422894261.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.23-15.50.23:652][211]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.23-15.50.23:652][211]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.23-15.50.23:652][211]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData
+[2020.06.23-15.50.24:762][275]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.23-15.50.24:799][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.23-15.50.24:800][275]PIE: New page: PIE session: MiniBossBattle (Jun 23, 2020, 7:50:24 AM)
+[2020.06.23-15.50.24:800][275]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.23-15.50.24:850][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049769s)
+[2020.06.23-15.50.24:850][275]LogAIModule: Creating AISystem for world MiniBossBattle
+[2020.06.23-15.50.24:850][275]LogPlayLevel: PIE: World Init took: (0.000756s)
+[2020.06.23-15.50.24:850][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MiniBossBattle.MiniBossBattle to /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle (0.050641s)
+[2020.06.23-15.50.24:889][275]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2020.06.23-15.50.24:890][275]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.23-15.50.24:891][275]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.23-15.50.24:891][275]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.23-15.50.24:891][275]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.23-15.50.24:891][275]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.23-15.50.24:891][275]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.23-15.50.24:891][275]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.23-15.50.24:891][275]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.23-15.50.24:891][275]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.23-15.50.24:891][275]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.23-15.50.24:913][275]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.23-15.50.24:914][275]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.06.23-15.50.24:914][275]LogAudioMixer: Display: Is Default: Yes
+[2020.06.23-15.50.24:914][275]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.23-15.50.24:914][275]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.23-15.50.24:914][275]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.23-15.50.24:914][275]LogAudioMixer: Display: Channel Order:
+[2020.06.23-15.50.24:914][275]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.23-15.50.24:914][275]LogAudioMixer: Display: 1: FrontRight
+[2020.06.23-15.50.24:923][275]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.06.23-15.50.24:925][275]LogInit: FAudioDevice initialized.
+[2020.06.23-15.50.24:933][275]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.06.23-15.50.24:938][275]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle up for play (max tick rate 60) at 2020.06.23-11.50.24
+[2020.06.23-15.50.24:939][275]LogWorld: Bringing up level for play took: 0.005373
+[2020.06.23-15.50.24:939][275]LogOnline: OSS: Creating online subsystem instance for: :Context_44
+[2020.06.23-15.50.24:942][275]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.24:942][275]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MiniBossBattle.MiniBossBattle:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.23-15.50.24:946][275]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle 0.335
+[2020.06.23-15.50.35:665][917]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.23-15.50.35:666][917]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.23-15.50.35:666][917]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-15.50.35:666][917]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MiniBossBattle
+[2020.06.23-15.50.35:666][917]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.23-15.50.35:666][917]LogWorld: UWorld::CleanupWorld for MiniBossBattle, bSessionEnded=true, bCleanupResources=true
+[2020.06.23-15.50.35:667][917]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-15.50.35:676][917]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.23-15.50.35:682][917]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-15.50.35:724][917]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.23-15.50.35:726][917]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-15.50.35:731][917]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.06.23-15.50.35:780][919]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2020.06.23-15.50.36:491][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.06.23-15.50.36:571][957]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle0CD8D6AE4F21899A7F11DAA282788E94.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle.umap'
+[2020.06.23-15.50.36:659][957]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MiniBossBattle_BuiltData5EA46F4F45A80C7FB503F28A18C6142E.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MiniBossBattle_BuiltData.uasset'
+[2020.06.23-15.50.36:681][957]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.23-15.50.36:681][957]LogContentValidation: Display: Validating World /Game/Phil/Levels/MiniBossBattle.MiniBossBattle
+[2020.06.23-15.50.36:681][957]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MiniBossBattle_BuiltData.MiniBossBattle_BuiltData

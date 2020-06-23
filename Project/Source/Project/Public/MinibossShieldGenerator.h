@@ -4,11 +4,12 @@
 
 #include "CoreMinimal.h"
 #include "DamageableActor.h"
+#include "Miniboss.h"
 
 #include "MinibossShieldGenerator.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class PROJECT_API AMinibossShieldGenerator : public ADamageableActor
@@ -16,5 +17,10 @@ class PROJECT_API AMinibossShieldGenerator : public ADamageableActor
 	GENERATED_BODY()
 
 public:
-
+	virtual void BeginPlay() override;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		AMiniboss* Miniboss = nullptr;
+	bool bShieldEnabled;
+	void EnableShield();
+	void DisableShield();
 };
