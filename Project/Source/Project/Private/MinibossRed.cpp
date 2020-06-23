@@ -11,12 +11,12 @@ AMinibossRed::AMinibossRed()
 	Color = FColor::Red;
 }
 
-void AMinibossRed::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-	//Fire();
-}
+//void AMinibossRed::Tick(float DeltaTime)
+//{
+//	Super::Tick(DeltaTime);
+//
+//	//Fire();
+//}
 
 void AMinibossRed::Fire()
 {

@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Miniboss.h"
+#include "GasMaskEnemyWeapon.h"
 #include "MinibossYellow.generated.h"
 
 /**
@@ -16,7 +17,19 @@ class PROJECT_API AMinibossYellow : public AMiniboss
 	
 public:
 	AMinibossYellow();
+	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TArray<class AMinibossShieldGenerator*> ShieldGenerators;
+
+	UFUNCTION(BlueprintCallable)
+		void Fire();
+	UFUNCTION(BlueprintCallable)
+		void Reload();
+
+	UPROPERTY(EditAnywhere, BLueprintReadWrite)
+		AGasMaskEnemyWeapon* AssaultRifle = nullptr;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UAnimMontage* ReloadAnimation = nullptr;
 };

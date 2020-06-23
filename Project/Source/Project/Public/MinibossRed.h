@@ -18,7 +18,7 @@ class PROJECT_API AMinibossRed : public AMiniboss
 
 public:
 	AMinibossRed();
-	virtual void Tick(float DeltaTime) override;
+	//virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION(BlueprintCallable)
 		void Fire();
