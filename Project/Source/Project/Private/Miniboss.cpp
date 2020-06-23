@@ -14,7 +14,7 @@ AMiniboss::AMiniboss()
 	EnemyName = "Miniboss";
 	GetCharacterMovement()->MaxWalkSpeed = DesiredMovementSpeed;
 
-	DamageResistance = 1.f;
+	DamageResistance = 0.8f;
 }
 
 void AMiniboss::BeginPlay()

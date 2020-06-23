@@ -32,5 +32,6 @@ public:
 		UStaticMeshComponent* StaticMesh;
 	UPROPERTY(VisibleAnywhere)
 		UBoxComponent* Collider;
-	bool bCanTakeDamage = true;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		bool bCanTakeDamage = true;
 };

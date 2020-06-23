@@ -16,4 +16,7 @@ class PROJECT_API AMinibossYellow : public AMiniboss
 	
 public:
 	AMinibossYellow();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<class AMinibossShieldGenerator*> ShieldGenerators;
 };

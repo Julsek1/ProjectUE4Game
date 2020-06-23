@@ -20,7 +20,9 @@ public:
 	virtual void BeginPlay() override;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		AMiniboss* Miniboss = nullptr;
-	bool bShieldEnabled;
-	void EnableShield();
-	void DisableShield();
+	UFUNCTION(BlueprintCallable)
+		void EnableShield();
+	UFUNCTION(BlueprintCallable)
+		void DisableShield();
+	virtual void Destroyed() override;
 };

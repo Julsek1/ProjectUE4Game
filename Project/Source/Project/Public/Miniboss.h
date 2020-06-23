@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "ParentEnemy.h"
+
 #include "Miniboss.generated.h"
 
 /**

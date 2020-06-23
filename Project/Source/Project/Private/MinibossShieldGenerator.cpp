@@ -11,12 +11,26 @@ void AMinibossShieldGenerator::BeginPlay()
 
 void AMinibossShieldGenerator::EnableShield()
 {
-	bShieldEnabled = true;
 	bCanTakeDamage = false;
 }
 
 void AMinibossShieldGenerator::DisableShield()
 {
-	bShieldEnabled = false;
 	bCanTakeDamage = true;
+
+	if (Miniboss)
+	{
+		Miniboss->DamageResistance = 1.f;
+	}
+}
+
+void AMinibossShieldGenerator::Destroyed()
+{
+	if (GetWorld() && GetWorld()->IsGameWorld())
+	{
+		if (Miniboss)
+		{
+			Miniboss->DamageResistance = 0.8f;
+		}
+	}
 }
