@@ -14,7 +14,7 @@ void AMinibossGreen::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	Fire();
+	/*Fire();*/
 }
 
 void AMinibossGreen::Fire()

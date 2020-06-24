@@ -25,7 +25,7 @@ void AMiniboss::BeginPlay()
 
 void AMiniboss::Destroyed()
 {
-	if (GetWorld() && GetWorld()->IsGameWorld() && !bDestroyed)
+	if (GetWorld() && GetWorld()->IsGameWorld() && !bDestroyed && bShouldTeleportPlayer)
 	{
 		bDestroyed = true;
 		UGameplayStatics::GetPlayerCharacter(this, 0)->SetActorLocation(PlayerTeleportLocation);

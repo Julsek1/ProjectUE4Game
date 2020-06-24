@@ -27,6 +27,9 @@ public:
 
 	bool bDestroyed = false;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool bShouldTeleportPlayer = true;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		FColor Color;
 
