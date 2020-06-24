@@ -14,7 +14,7 @@ void AMinibossYellow::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (bEnableFiring)
+	if (bEnableFiring && !bIsDead)
 	{
 		if (AssaultRifle->CurrentClipAmmo > 0)
 		{
