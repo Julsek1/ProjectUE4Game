@@ -33,12 +33,13 @@ public:
 		bool bCurrentlyReloading = false;
 	UPROPERTY(BlueprintReadOnly)
 		FTimerHandle FireRateTimerHandle;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float Damage;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	void TimeToFireElapsed();
-	float Damage;
 
 public:
 	// Called every frame

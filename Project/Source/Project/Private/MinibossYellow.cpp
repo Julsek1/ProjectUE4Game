@@ -13,25 +13,30 @@ AMinibossYellow::AMinibossYellow()
 void AMinibossYellow::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	/*if (AssaultRifle->CurrentClipAmmo > 0)
-	{
-		Fire();
 
-		if (AssaultRifle->bCanShoot)
+	if (bEnableFiring)
+	{
+		if (AssaultRifle->CurrentClipAmmo > 0)
 		{
-			GetCharacterMovement()->MaxWalkSpeed = DesiredMovementSpeed;
+			Fire();
+
+			if (AssaultRifle->bCanShoot)
+			{
+				GetCharacterMovement()->MaxWalkSpeed = DesiredMovementSpeed;
+			}
+
+			else
+			{
+				GetCharacterMovement()->MaxWalkSpeed = DesiredMovementSpeed / 2;
+			}
 		}
 
 		else
 		{
-			GetCharacterMovement()->MaxWalkSpeed = DesiredMovementSpeed / 2;
+			Reload();
 		}
-	}
 
-	else
-	{
-		Reload();
-	}*/
+	}
 }
 
 void AMinibossYellow::Fire()

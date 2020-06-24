@@ -8,13 +8,13 @@
 #include "MinibossYellow.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class PROJECT_API AMinibossYellow : public AMiniboss
 {
 	GENERATED_BODY()
-	
+
 public:
 	AMinibossYellow();
 	virtual void Tick(float DeltaTime) override;
@@ -32,4 +32,7 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UAnimMontage* ReloadAnimation = nullptr;
+
+	UPROPERTY(BlueprintReadWrite)
+		bool bEnableFiring = false;
 };
