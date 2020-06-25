@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Miniboss.h"
+#include "MinibossBlueWeapon.h"
 #include "MinibossBlue.generated.h"
 
 /**
@@ -16,4 +17,15 @@ class PROJECT_API AMinibossBlue : public AMiniboss
 
 public:
 	AMinibossBlue();
+
+	UFUNCTION(BlueprintCallable)
+		void Fire();
+	UFUNCTION(BlueprintCallable)
+		void Reload();
+
+	UPROPERTY(EditAnywhere, BLueprintReadWrite)
+		AMinibossBlueWeapon* Sniper = nullptr;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UAnimMontage* ReloadAnimation = nullptr;
 };
