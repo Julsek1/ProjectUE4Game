@@ -33,8 +33,27 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SoundFX")
 	class USoundCue* SoundFX;
 
+	UPROPERTY(EditAnywhere)
+	FVector InitPoint;
+
+	UPROPERTY(EditAnywhere, meta = (MakeEditWidget = true))
+	FVector FinalPoint;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Movement")
+	float InterpolationTime;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Movement")
+	float InterpolationSpeed;
+
+	FTimerHandle TimerInterp;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Movement")
+	bool IsInterpolating;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hazard")
 	float Damage;
+
+	float Distance;
 
 protected:
 	// Called when the game starts or when spawned
@@ -51,5 +70,9 @@ public:
 	UFUNCTION()
 	virtual void OnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
+	void VectorsChange(FVector& FirstVector, FVector& SecondVector);
+
+	void ToggleInterp();
 
 };
