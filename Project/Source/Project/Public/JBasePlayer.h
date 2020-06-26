@@ -56,6 +56,9 @@ class USoundCue* DamageSound;
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
  bool IsAgainstWall;
 
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
+ bool IsDefusing;
+
 
  //Turning camera values
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera")

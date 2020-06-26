@@ -98,6 +98,7 @@ AJBasePlayer::AJBasePlayer()
 	IsAgainstWall = false;
 
 	IsCrawling = false;
+	IsDefusing = false;
 	
 }
 

@@ -13,6 +13,9 @@
 AMine::AMine()
 {
 	Damage = 20.f;
+	DefuseSphere = CreateDefaultSubobject<USphereComponent>(TEXT("DefuseSphere"));
+	WasDefused = false;
+
 }
 
 void AMine::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
@@ -26,18 +29,26 @@ void AMine::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 
 		if (Player || Mutant)
 		{
-			if (BasicPSComponent)
+			if (Player->IsCrawling == false)
 			{
-				UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), PSOverlap, GetActorLocation(), FRotator(0.f), true);
+				if (BasicPSComponent)
+				{
+					UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), PSOverlap, GetActorLocation(), FRotator(0.f), true);
 
+				}
+				if (SoundFX)
+				{
+					UGameplayStatics::PlaySound2D(this, SoundFX);
+				}
+
+				UGameplayStatics::ApplyDamage(OtherActor, Damage, nullptr, this, DamageTypeClass);
+				Destroy();
+
+				if (WasDefused)
+				{
+					Destroy();
+				}
 			}
-			if (SoundFX)
-			{
-				UGameplayStatics::PlaySound2D(this, SoundFX);
-			}
-			
-			UGameplayStatics::ApplyDamage(OtherActor, Damage, nullptr, this, DamageTypeClass);
-			Destroy();
 		}
 	}
 }
