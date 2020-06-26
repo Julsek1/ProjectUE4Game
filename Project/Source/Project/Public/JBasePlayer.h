@@ -209,6 +209,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Animation")
 	bool IsFighting;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Movement")
+	bool IsCrawling;
+
 	// checks if the enemy has a valid goal to continue attacking
 	bool IsWithFightGoal;
 

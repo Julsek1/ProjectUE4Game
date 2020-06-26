@@ -96,6 +96,8 @@ AJBasePlayer::AJBasePlayer()
 
 	IsHanging = false;
 	IsAgainstWall = false;
+
+	IsCrawling = false;
 	
 }
 
