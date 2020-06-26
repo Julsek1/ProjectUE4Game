@@ -53,6 +53,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hazard")
 	float Damage;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Deactivate")
+	bool DisableInGame;
+
 	float Distance;
 
 protected:
@@ -70,6 +73,12 @@ public:
 	UFUNCTION()
 	virtual void OnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
+	UFUNCTION(BlueprintCallable, Category = "Deactivate")
+	void DeactivateLaser();
+
+	UFUNCTION(BlueprintCallable, Category = "Deactivate")
+	void ActivateLaser();
 
 	void VectorsChange(FVector& FirstVector, FVector& SecondVector);
 

@@ -48,6 +48,11 @@ void ALaserTrap::BeginPlay()
 {
 	Super::BeginPlay();
 
+	if (DisableInGame)
+	{
+		DeactivateLaser();
+	}
+
 	ColliderBox->OnComponentBeginOverlap.AddDynamic(this, &ALaserTrap::OnOverlapBegin);
 	ColliderBox->OnComponentEndOverlap.AddDynamic(this, &ALaserTrap::OnOverlapEnd);
 
@@ -66,6 +71,8 @@ void ALaserTrap::BeginPlay()
 void ALaserTrap::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	
 
 	if (IsInterpolating)
 	{
@@ -119,6 +126,20 @@ void ALaserTrap::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor
 
 void ALaserTrap::OnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
+}
+
+void ALaserTrap::DeactivateLaser()
+{
+	SetActorHiddenInGame(true);
+	SetActorEnableCollision(false);
+	SetActorTickEnabled(false);
+}
+
+void ALaserTrap::ActivateLaser()
+{
+	SetActorHiddenInGame(false);
+	SetActorEnableCollision(true);
+	SetActorTickEnabled(true);
 }
 
 void ALaserTrap::VectorsChange(FVector& FirstVector, FVector& SecondVector)

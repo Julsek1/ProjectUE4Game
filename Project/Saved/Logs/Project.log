@@ -1016,3 +1016,1062 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.06.26-20.09.18:362][762]AssetCheck: New page: Asset Save: TestMap
 [2020.06.26-20.09.18:362][762]LogContentValidation: Display: Validating World /Game/Julian/JLevels/TestMap.TestMap
 [2020.06.26-20.12.31:331][481]LogEditorViewport: Clicking on Actor (LMB): BP_LaserTrap_C (BP_LaserTrap)
+[2020.06.26-20.14.08:846][904]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.06.26-20.38.24:440][620]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.26-20.38.24:476][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.26-20.38.24:476][620]PIE: New page: PIE session: TestMap (Jun. 26, 2020, 12:38:24 p.m.)
+[2020.06.26-20.38.24:477][620]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-20.38.24:632][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.155323s)
+[2020.06.26-20.38.24:634][620]LogAIModule: Creating AISystem for world TestMap
+[2020.06.26-20.38.24:634][620]LogPlayLevel: PIE: World Init took: (0.001891s)
+[2020.06.26-20.38.24:634][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.157428s)
+[2020.06.26-20.38.24:664][620]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.06.26-20.38.24:665][620]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.26-20.38.24:665][620]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.26-20.38.24:665][620]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.26-20.38.24:665][620]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.26-20.38.24:665][620]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.26-20.38.24:665][620]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.26-20.38.24:665][620]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.26-20.38.24:665][620]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.26-20.38.24:666][620]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.26-20.38.24:666][620]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.26-20.38.24:671][620]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.26-20.38.24:671][620]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.26-20.38.24:671][620]LogAudioMixer: Display: Is Default: Yes
+[2020.06.26-20.38.24:671][620]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.26-20.38.24:671][620]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.26-20.38.24:671][620]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.26-20.38.24:671][620]LogAudioMixer: Display: Channel Order:
+[2020.06.26-20.38.24:671][620]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.26-20.38.24:671][620]LogAudioMixer: Display: 1: FrontRight
+[2020.06.26-20.38.24:808][620]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.26-20.38.24:811][620]LogInit: FAudioDevice initialized.
+[2020.06.26-20.38.24:819][620]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.26-20.38.24:824][620]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.26-16.38.24
+[2020.06.26-20.38.24:825][620]LogWorld: Bringing up level for play took: 0.005401
+[2020.06.26-20.38.24:826][620]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.06.26-20.38.24:828][620]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.06.26-20.38.24:828][620]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-20.38.24:829][620]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.06.26-20.38.24:829][620]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-20.38.24:832][620]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.171
+[2020.06.26-20.38.50:095][103]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-20.38.50:095][103]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-20.38.50:096][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-20.38.50:096][103]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-20.38.50:096][103]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-20.38.50:096][103]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.26-20.38.50:097][103]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-20.38.50:109][103]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.26-20.38.50:113][103]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-20.38.50:147][103]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-20.38.50:151][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-20.38.50:158][103]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.06.26-20.38.50:291][104]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.06.26-20.38.51:609][154]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-20.38.51:648][154]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-21.56.51:086][624]LogHotReload: New module detected: UE4Editor-Project-0001.dll
+[2020.06.26-21.56.52:448][629]LogHotReload: Starting Hot-Reload from IDE
+[2020.06.26-21.56.52:749][629]LogUObjectHash: Compacting FUObjectHashTables data took   7.66ms
+[2020.06.26-21.56.52:916][629]LogClass: Could not find existing class LaserTrap in package /Script/Project for HotReload, assuming new class
+[2020.06.26-21.56.52:919][629]LogClass: Function DeactivateActor is new.
+[2020.06.26-21.56.52:919][629]LogClass: Function OnOverlapBegin is new.
+[2020.06.26-21.56.52:919][629]LogClass: Function OnOverlapEnd is new.
+[2020.06.26-21.56.52:942][629]LogClass: EGunState HotReload.
+[2020.06.26-21.56.52:942][629]LogClass: EFEnemyMoveStat HotReload.
+[2020.06.26-21.56.52:942][629]LogClass: PlayerStats HotReload.
+[2020.06.26-21.56.53:008][629]LogHotReload: Re-instancing LaserTrap after hot-reload.
+[2020.06.26-21.56.53:752][629]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0063 seconds. Added 36 classes and 3 folders.
+[2020.06.26-21.56.53:757][629]Display: HotReload successful (50 functions remapped  1 scriptstructs remapped)
+[2020.06.26-21.56.53:922][629]LogUObjectHash: Compacting FUObjectHashTables data took   7.35ms
+[2020.06.26-21.56.53:974][629]LogContentBrowser: Native class hierarchy populated in 0.0153 seconds. Added 3053 classes and 723 folders.
+[2020.06.26-21.56.54:010][629]Display: HotReload took  1.6s.
+[2020.06.26-21.58.32:305][135]LogRenderer: Reallocating scene render targets to support 620x304 Format 10 NumSamples 1 (Frame:139122).
+[2020.06.26-21.58.32:426][140]LogRenderer: Reallocating scene render targets to support 620x308 Format 10 NumSamples 1 (Frame:139129).
+[2020.06.26-21.58.32:506][142]LogRenderer: Reallocating scene render targets to support 620x312 Format 10 NumSamples 1 (Frame:139133).
+[2020.06.26-21.58.32:550][143]LogRenderer: Reallocating scene render targets to support 620x316 Format 10 NumSamples 1 (Frame:139135).
+[2020.06.26-21.58.32:630][145]LogRenderer: Reallocating scene render targets to support 620x320 Format 10 NumSamples 1 (Frame:139139).
+[2020.06.26-21.58.32:707][147]LogRenderer: Reallocating scene render targets to support 620x328 Format 10 NumSamples 1 (Frame:139143).
+[2020.06.26-21.58.32:749][148]LogRenderer: Reallocating scene render targets to support 620x332 Format 10 NumSamples 1 (Frame:139145).
+[2020.06.26-21.58.32:796][149]LogRenderer: Reallocating scene render targets to support 620x336 Format 10 NumSamples 1 (Frame:139147).
+[2020.06.26-21.58.32:840][150]LogRenderer: Reallocating scene render targets to support 620x340 Format 10 NumSamples 1 (Frame:139149).
+[2020.06.26-21.58.32:890][151]LogRenderer: Reallocating scene render targets to support 620x352 Format 10 NumSamples 1 (Frame:139151).
+[2020.06.26-21.58.32:937][152]LogRenderer: Reallocating scene render targets to support 620x356 Format 10 NumSamples 1 (Frame:139153).
+[2020.06.26-21.59.51:279][443]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.26-21.59.51:333][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.26-21.59.51:340][443]PIE: New page: PIE session: TestMap (Jun. 26, 2020, 1:59:51 p.m.)
+[2020.06.26-21.59.51:342][443]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-21.59.51:593][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.249522s)
+[2020.06.26-21.59.51:623][443]LogAIModule: Creating AISystem for world TestMap
+[2020.06.26-21.59.51:627][443]LogPlayLevel: PIE: World Init took: (0.033736s)
+[2020.06.26-21.59.51:628][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.285770s)
+[2020.06.26-21.59.51:658][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2020.06.26-21.59.51:664][443]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.26-21.59.51:664][443]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.26-21.59.51:664][443]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.26-21.59.51:664][443]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.26-21.59.51:664][443]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.26-21.59.51:664][443]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.26-21.59.51:664][443]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.26-21.59.51:665][443]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.26-21.59.51:667][443]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.26-21.59.51:667][443]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.26-21.59.51:674][443]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.26-21.59.51:674][443]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.26-21.59.51:674][443]LogAudioMixer: Display: Is Default: Yes
+[2020.06.26-21.59.51:674][443]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.26-21.59.51:674][443]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.26-21.59.51:674][443]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.26-21.59.51:674][443]LogAudioMixer: Display: Channel Order:
+[2020.06.26-21.59.51:674][443]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.26-21.59.51:674][443]LogAudioMixer: Display: 1: FrontRight
+[2020.06.26-21.59.51:772][443]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.26-21.59.51:776][443]LogInit: FAudioDevice initialized.
+[2020.06.26-21.59.51:796][443]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.26-21.59.51:822][443]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.26-17.59.51
+[2020.06.26-21.59.51:836][443]LogWorld: Bringing up level for play took: 0.034061
+[2020.06.26-21.59.51:841][443]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.06.26-21.59.51:856][443]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.06.26-21.59.51:857][443]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-21.59.51:857][443]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.06.26-21.59.51:857][443]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-21.59.51:883][443]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 1.222
+[2020.06.26-21.59.59:964][915]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-21.59.59:968][915]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.26-21.59.59:987][915]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.26-21.59.59:989][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-21.59.59:990][915]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-21.59.59:991][915]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-21.59.59:992][915]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.26-21.59.59:993][915]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.00.00:008][915]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.26-22.00.00:013][915]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.00.00:043][915]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.00.00:046][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.00.00:062][915]LogUObjectHash: Compacting FUObjectHashTables data took   6.12ms
+[2020.06.26-22.00.00:282][916]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.06.26-22.00.01:503][963]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.00.01:531][963]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.00.03:587][ 58]LogEditorViewport: Clicking on Actor (LMB): BP_LaserTrap_C (BP_LaserTrap2)
+[2020.06.26-22.00.10:025][330]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.26-22.00.10:097][330]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.26-22.00.10:097][330]PIE: New page: PIE session: TestMap (Jun. 26, 2020, 2:00:10 p.m.)
+[2020.06.26-22.00.10:097][330]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.00.10:241][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.143884s)
+[2020.06.26-22.00.10:243][330]LogAIModule: Creating AISystem for world TestMap
+[2020.06.26-22.00.10:243][330]LogPlayLevel: PIE: World Init took: (0.001950s)
+[2020.06.26-22.00.10:243][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.146074s)
+[2020.06.26-22.00.10:289][330]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2020.06.26-22.00.10:291][330]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.26-22.00.10:291][330]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.26-22.00.10:291][330]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.26-22.00.10:291][330]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.26-22.00.10:291][330]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.26-22.00.10:291][330]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.26-22.00.10:291][330]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.26-22.00.10:291][330]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.26-22.00.10:292][330]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.26-22.00.10:292][330]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.26-22.00.10:300][330]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.26-22.00.10:300][330]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.00.10:300][330]LogAudioMixer: Display: Is Default: Yes
+[2020.06.26-22.00.10:300][330]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.26-22.00.10:300][330]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.26-22.00.10:300][330]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.26-22.00.10:300][330]LogAudioMixer: Display: Channel Order:
+[2020.06.26-22.00.10:300][330]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.26-22.00.10:300][330]LogAudioMixer: Display: 1: FrontRight
+[2020.06.26-22.00.10:455][330]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.00.10:457][330]LogInit: FAudioDevice initialized.
+[2020.06.26-22.00.10:465][330]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.26-22.00.10:471][330]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.26-18.00.10
+[2020.06.26-22.00.10:471][330]LogWorld: Bringing up level for play took: 0.005230
+[2020.06.26-22.00.10:472][330]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.06.26-22.00.10:475][330]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.06.26-22.00.10:475][330]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.00.10:475][330]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.06.26-22.00.10:475][330]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.00.10:479][330]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap -0.182
+[2020.06.26-22.00.14:790][572]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.00.14:808][572]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.26-22.00.14:827][572]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.26-22.00.14:828][572]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.00.14:828][572]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.00.14:828][572]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.00.14:828][572]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.26-22.00.14:830][572]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.00.14:837][572]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.26-22.00.14:841][572]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.00.14:884][572]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.00.14:890][572]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.00.14:898][572]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2020.06.26-22.00.15:103][573]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.06.26-22.00.16:354][619]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.00.16:392][619]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.00.20:285][800]LogEditorViewport: Clicking on Actor (LMB): BP_LaserTrap_C (BP_LaserTrap2)
+[2020.06.26-22.00.33:082][491]Cmd: DELETE
+[2020.06.26-22.00.33:082][491]Cmd: ACTOR DELETE
+[2020.06.26-22.00.33:102][491]LogEditorActor: Deleted Actor: BP_LaserTrap_C
+[2020.06.26-22.00.33:135][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.06.26-22.00.33:136][491]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2020.06.26-22.00.53:224][569]LogEditorViewport: Clicking on Actor (LMB): BP_SWall_C (BP_SWall)
+[2020.06.26-22.01.21:093][843]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2020.06.26-22.01.21:436][843]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap_Auto1178B9A164A5FDEEE6A7EB8BEE89C398E.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/JLevels/TestMap_Auto1.umap'
+[2020.06.26-22.01.21:450][843]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Julian/JLevels/TestMap' took 0.429
+[2020.06.26-22.01.21:450][843]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.429
+[2020.06.26-22.03.02:617][146]LogHotReload: New module detected: UE4Editor-Project-0002.dll
+[2020.06.26-22.03.03:326][149]LogHotReload: Starting Hot-Reload from IDE
+[2020.06.26-22.03.03:424][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.06.26-22.03.03:489][149]LogClass: Could not find existing class LaserTrap in package /Script/Project for HotReload, assuming new class
+[2020.06.26-22.03.03:490][149]LogClass: Function AtivateActor is new.
+[2020.06.26-22.03.03:490][149]LogClass: Function DeactivateActor is new.
+[2020.06.26-22.03.03:490][149]LogClass: Function OnOverlapBegin is new.
+[2020.06.26-22.03.03:490][149]LogClass: Function OnOverlapEnd is new.
+[2020.06.26-22.03.03:512][149]LogClass: EGunState HotReload.
+[2020.06.26-22.03.03:512][149]LogClass: EFEnemyMoveStat HotReload.
+[2020.06.26-22.03.03:512][149]LogClass: PlayerStats HotReload.
+[2020.06.26-22.03.03:544][149]LogHotReload: Re-instancing LaserTrap after hot-reload.
+[2020.06.26-22.03.03:922][149]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0005 seconds. Added 36 classes and 3 folders.
+[2020.06.26-22.03.03:925][149]Display: HotReload successful (50 functions remapped  1 scriptstructs remapped)
+[2020.06.26-22.03.04:077][149]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.06.26-22.03.04:096][149]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 3053 classes and 723 folders.
+[2020.06.26-22.03.04:106][149]Display: HotReload took  0.8s.
+[2020.06.26-22.05.36:457][603]LogHotReload: New module detected: UE4Editor-Project-0003.dll
+[2020.06.26-22.05.37:531][607]LogHotReload: Starting Hot-Reload from IDE
+[2020.06.26-22.05.37:606][607]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2020.06.26-22.05.37:787][607]LogClass: Could not find existing class LaserTrap in package /Script/Project for HotReload, assuming new class
+[2020.06.26-22.05.37:787][607]LogClass: Function DeactivateActor is new.
+[2020.06.26-22.05.37:787][607]LogClass: Function OnOverlapBegin is new.
+[2020.06.26-22.05.37:787][607]LogClass: Function OnOverlapEnd is new.
+[2020.06.26-22.05.37:816][607]LogClass: EGunState HotReload.
+[2020.06.26-22.05.37:816][607]LogClass: EFEnemyMoveStat HotReload.
+[2020.06.26-22.05.37:816][607]LogClass: PlayerStats HotReload.
+[2020.06.26-22.05.37:854][607]LogHotReload: Re-instancing LaserTrap after hot-reload.
+[2020.06.26-22.05.38:199][607]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0006 seconds. Added 36 classes and 3 folders.
+[2020.06.26-22.05.38:202][607]Display: HotReload successful (50 functions remapped  1 scriptstructs remapped)
+[2020.06.26-22.05.38:336][607]LogUObjectHash: Compacting FUObjectHashTables data took   5.35ms
+[2020.06.26-22.05.38:355][607]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 3053 classes and 723 folders.
+[2020.06.26-22.05.38:366][607]Display: HotReload took  0.8s.
+[2020.06.26-22.05.51:796][783]LogEditorViewport: Clicking on Actor (LMB): BP_LaserTrap_C (BP_LaserTrap2)
+[2020.06.26-22.05.52:998][846]Cmd: DELETE
+[2020.06.26-22.05.52:998][846]Cmd: ACTOR DELETE
+[2020.06.26-22.05.53:005][846]LogEditorActor: Deleted Actor: BP_LaserTrap_C
+[2020.06.26-22.05.53:031][846]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2020.06.26-22.05.53:033][846]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2020.06.26-22.06.30:496][545]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2020.06.26-22.07.15:523][905]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.26-22.07.15:599][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.26-22.07.15:599][905]PIE: New page: PIE session: TestMap (Jun. 26, 2020, 2:07:15 p.m.)
+[2020.06.26-22.07.15:599][905]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.07.15:762][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.162787s)
+[2020.06.26-22.07.15:764][905]LogAIModule: Creating AISystem for world TestMap
+[2020.06.26-22.07.15:764][905]LogPlayLevel: PIE: World Init took: (0.002445s)
+[2020.06.26-22.07.15:764][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.165437s)
+[2020.06.26-22.07.15:805][905]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2020.06.26-22.07.15:807][905]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.26-22.07.15:807][905]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.26-22.07.15:807][905]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.26-22.07.15:807][905]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.26-22.07.15:807][905]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.26-22.07.15:807][905]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.26-22.07.15:807][905]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.26-22.07.15:807][905]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.26-22.07.15:808][905]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.26-22.07.15:808][905]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.26-22.07.15:814][905]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.26-22.07.15:814][905]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.07.15:814][905]LogAudioMixer: Display: Is Default: Yes
+[2020.06.26-22.07.15:814][905]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.26-22.07.15:814][905]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.26-22.07.15:814][905]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.26-22.07.15:814][905]LogAudioMixer: Display: Channel Order:
+[2020.06.26-22.07.15:814][905]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.26-22.07.15:814][905]LogAudioMixer: Display: 1: FrontRight
+[2020.06.26-22.07.15:934][905]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.07.15:936][905]LogInit: FAudioDevice initialized.
+[2020.06.26-22.07.15:947][905]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.26-22.07.15:952][905]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.26-18.07.15
+[2020.06.26-22.07.15:953][905]LogWorld: Bringing up level for play took: 0.005095
+[2020.06.26-22.07.15:954][905]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.06.26-22.07.15:957][905]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.06.26-22.07.15:957][905]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.07.15:957][905]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.07.15:962][905]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 1.301
+[2020.06.26-22.07.31:973][852]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.07.31:977][852]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.26-22.07.31:998][852]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.26-22.07.31:998][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.07.31:998][852]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.07.31:998][852]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.07.31:998][852]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.26-22.07.31:999][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.07.32:011][852]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.26-22.07.32:015][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.07.32:036][852]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.07.32:040][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.07.32:048][852]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.06.26-22.07.32:241][853]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.06.26-22.07.33:665][911]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.07.33:692][911]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.07.35:965][ 36]LogEditorViewport: Clicking on Actor (LMB): BP_IntermittentLaserTrap_C (BP_IntermittentLaserTrap)
+[2020.06.26-22.07.47:210][600]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.26-22.07.47:252][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.26-22.07.47:252][600]PIE: New page: PIE session: TestMap (Jun. 26, 2020, 2:07:47 p.m.)
+[2020.06.26-22.07.47:253][600]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.07.47:399][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.147353s)
+[2020.06.26-22.07.47:401][600]LogAIModule: Creating AISystem for world TestMap
+[2020.06.26-22.07.47:401][600]LogPlayLevel: PIE: World Init took: (0.001993s)
+[2020.06.26-22.07.47:402][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.149588s)
+[2020.06.26-22.07.47:432][600]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.06.26-22.07.47:434][600]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.26-22.07.47:434][600]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.26-22.07.47:434][600]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.26-22.07.47:434][600]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.26-22.07.47:434][600]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.26-22.07.47:434][600]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.26-22.07.47:434][600]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.26-22.07.47:434][600]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.26-22.07.47:434][600]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.26-22.07.47:435][600]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.26-22.07.47:440][600]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.26-22.07.47:440][600]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.07.47:440][600]LogAudioMixer: Display: Is Default: Yes
+[2020.06.26-22.07.47:440][600]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.26-22.07.47:440][600]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.26-22.07.47:440][600]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.26-22.07.47:440][600]LogAudioMixer: Display: Channel Order:
+[2020.06.26-22.07.47:440][600]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.26-22.07.47:440][600]LogAudioMixer: Display: 1: FrontRight
+[2020.06.26-22.07.47:573][600]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.07.47:575][600]LogInit: FAudioDevice initialized.
+[2020.06.26-22.07.47:582][600]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.26-22.07.47:586][600]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.26-18.07.47
+[2020.06.26-22.07.47:586][600]LogWorld: Bringing up level for play took: 0.003937
+[2020.06.26-22.07.47:586][600]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2020.06.26-22.07.47:588][600]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.07.47:589][600]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.07.47:591][600]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.93
+[2020.06.26-22.08.01:780][414]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.08.01:780][414]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.08.01:780][414]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.08.01:780][414]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.08.01:780][414]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.08.01:781][414]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.26-22.08.01:781][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.08.01:803][414]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.26-22.08.01:807][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.08.01:833][414]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.08.01:837][414]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.08.01:842][414]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2020.06.26-22.08.02:001][415]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.06.26-22.08.03:395][470]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.08.03:424][470]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.08.04:852][527]LogEditorViewport: Clicking on Actor (LMB): BP_IntermittentLaserTrap_C (BP_IntermittentLaserTrap)
+[2020.06.26-22.08.19:224][254]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.26-22.08.19:261][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.26-22.08.19:261][254]PIE: New page: PIE session: TestMap (Jun. 26, 2020, 2:08:19 p.m.)
+[2020.06.26-22.08.19:262][254]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.08.19:417][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.155934s)
+[2020.06.26-22.08.19:418][254]LogAIModule: Creating AISystem for world TestMap
+[2020.06.26-22.08.19:419][254]LogPlayLevel: PIE: World Init took: (0.001559s)
+[2020.06.26-22.08.19:419][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.157720s)
+[2020.06.26-22.08.19:451][254]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.06.26-22.08.19:452][254]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.26-22.08.19:452][254]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.26-22.08.19:452][254]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.26-22.08.19:452][254]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.26-22.08.19:452][254]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.26-22.08.19:453][254]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.26-22.08.19:453][254]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.26-22.08.19:453][254]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.26-22.08.19:453][254]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.26-22.08.19:453][254]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.26-22.08.19:459][254]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.26-22.08.19:459][254]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.08.19:459][254]LogAudioMixer: Display: Is Default: Yes
+[2020.06.26-22.08.19:459][254]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.26-22.08.19:459][254]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.26-22.08.19:459][254]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.26-22.08.19:459][254]LogAudioMixer: Display: Channel Order:
+[2020.06.26-22.08.19:459][254]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.26-22.08.19:459][254]LogAudioMixer: Display: 1: FrontRight
+[2020.06.26-22.08.19:572][254]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.08.19:574][254]LogInit: FAudioDevice initialized.
+[2020.06.26-22.08.19:581][254]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.26-22.08.19:586][254]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.26-18.08.19
+[2020.06.26-22.08.19:587][254]LogWorld: Bringing up level for play took: 0.005427
+[2020.06.26-22.08.19:588][254]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.06.26-22.08.19:590][254]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.08.19:590][254]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.08.19:593][254]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.932
+[2020.06.26-22.08.23:734][491]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.08.23:758][491]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.26-22.08.23:778][491]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.26-22.08.23:778][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.08.23:778][491]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.08.23:778][491]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.08.23:779][491]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.26-22.08.23:780][491]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.08.23:793][491]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.26-22.08.23:798][491]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.08.23:845][491]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.08.23:851][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.08.23:859][491]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.06.26-22.08.24:042][492]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.06.26-22.08.25:623][551]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.08.25:649][551]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.08.27:120][632]LogEditorViewport: Clicking on Actor (LMB): BP_IntermittentLaserTrap_C (BP_IntermittentLaserTrap)
+[2020.06.26-22.08.40:221][123]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.26-22.08.40:261][123]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.26-22.08.40:261][123]PIE: New page: PIE session: TestMap (Jun. 26, 2020, 2:08:40 p.m.)
+[2020.06.26-22.08.40:261][123]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.08.40:406][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.144544s)
+[2020.06.26-22.08.40:407][123]LogAIModule: Creating AISystem for world TestMap
+[2020.06.26-22.08.40:408][123]LogPlayLevel: PIE: World Init took: (0.002025s)
+[2020.06.26-22.08.40:408][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.146819s)
+[2020.06.26-22.08.40:438][123]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2020.06.26-22.08.40:439][123]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.26-22.08.40:439][123]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.26-22.08.40:439][123]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.26-22.08.40:439][123]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.26-22.08.40:439][123]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.26-22.08.40:439][123]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.26-22.08.40:439][123]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.26-22.08.40:439][123]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.26-22.08.40:440][123]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.26-22.08.40:440][123]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.26-22.08.40:445][123]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.26-22.08.40:446][123]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.08.40:446][123]LogAudioMixer: Display: Is Default: Yes
+[2020.06.26-22.08.40:446][123]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.26-22.08.40:446][123]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.26-22.08.40:446][123]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.26-22.08.40:446][123]LogAudioMixer: Display: Channel Order:
+[2020.06.26-22.08.40:446][123]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.26-22.08.40:446][123]LogAudioMixer: Display: 1: FrontRight
+[2020.06.26-22.08.40:558][123]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.08.40:560][123]LogInit: FAudioDevice initialized.
+[2020.06.26-22.08.40:576][123]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.26-22.08.40:587][123]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.26-18.08.40
+[2020.06.26-22.08.40:588][123]LogWorld: Bringing up level for play took: 0.011057
+[2020.06.26-22.08.40:589][123]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.06.26-22.08.40:593][123]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.08.40:593][123]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.08.40:598][123]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap -0.063
+[2020.06.26-22.08.56:905][ 78]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.08.56:907][ 78]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.26-22.08.56:927][ 78]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.26-22.08.56:928][ 78]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.08.56:928][ 78]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.08.56:928][ 78]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.08.56:928][ 78]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.26-22.08.56:929][ 78]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.08.56:937][ 78]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.26-22.08.56:940][ 78]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.08.56:962][ 78]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.08.56:966][ 78]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.08.56:972][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.06.26-22.08.57:155][ 79]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.06.26-22.08.58:494][132]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.08.58:516][132]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.09.01:028][251]LogEditorViewport: Clicking on Actor (LMB): BP_IntermittentLaserTrap_C (BP_IntermittentLaserTrap)
+[2020.06.26-22.09.12:005][696]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.26-22.09.12:047][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.26-22.09.12:047][696]PIE: New page: PIE session: TestMap (Jun. 26, 2020, 2:09:12 p.m.)
+[2020.06.26-22.09.12:047][696]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.09.12:205][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.156849s)
+[2020.06.26-22.09.12:206][696]LogAIModule: Creating AISystem for world TestMap
+[2020.06.26-22.09.12:207][696]LogPlayLevel: PIE: World Init took: (0.002015s)
+[2020.06.26-22.09.12:207][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.159117s)
+[2020.06.26-22.09.12:251][696]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2020.06.26-22.09.12:253][696]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.26-22.09.12:253][696]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.26-22.09.12:253][696]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.26-22.09.12:253][696]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.26-22.09.12:253][696]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.26-22.09.12:253][696]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.26-22.09.12:253][696]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.26-22.09.12:253][696]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.26-22.09.12:254][696]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.26-22.09.12:254][696]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.26-22.09.12:261][696]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.26-22.09.12:261][696]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.09.12:261][696]LogAudioMixer: Display: Is Default: Yes
+[2020.06.26-22.09.12:261][696]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.26-22.09.12:261][696]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.26-22.09.12:261][696]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.26-22.09.12:261][696]LogAudioMixer: Display: Channel Order:
+[2020.06.26-22.09.12:261][696]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.26-22.09.12:261][696]LogAudioMixer: Display: 1: FrontRight
+[2020.06.26-22.09.12:382][696]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.09.12:384][696]LogInit: FAudioDevice initialized.
+[2020.06.26-22.09.12:394][696]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.26-22.09.12:399][696]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.26-18.09.12
+[2020.06.26-22.09.12:400][696]LogWorld: Bringing up level for play took: 0.005090
+[2020.06.26-22.09.12:400][696]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.06.26-22.09.12:403][696]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.09.12:403][696]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.09.12:406][696]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap -0.254
+[2020.06.26-22.09.20:189][146]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.09.20:207][146]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.26-22.09.20:237][146]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.26-22.09.20:237][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.09.20:237][146]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.09.20:237][146]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.09.20:238][146]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.26-22.09.20:238][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.09.20:245][146]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.26-22.09.20:251][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.09.20:276][146]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.09.20:280][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.09.20:287][146]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2020.06.26-22.09.20:472][147]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.06.26-22.09.21:889][198]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.09.21:914][198]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.09.23:589][278]LogEditorViewport: Clicking on Actor (LMB): BP_IntermittentLaserTrap_C (BP_IntermittentLaserTrap)
+[2020.06.26-22.09.35:038][670]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.26-22.09.35:074][670]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.26-22.09.35:075][670]PIE: New page: PIE session: TestMap (Jun. 26, 2020, 2:09:35 p.m.)
+[2020.06.26-22.09.35:075][670]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.09.35:234][670]LogPlayLevel: PIE: StaticDuplicateObject took: (0.158907s)
+[2020.06.26-22.09.35:235][670]LogAIModule: Creating AISystem for world TestMap
+[2020.06.26-22.09.35:235][670]LogPlayLevel: PIE: World Init took: (0.001219s)
+[2020.06.26-22.09.35:235][670]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.160312s)
+[2020.06.26-22.09.35:265][670]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.06.26-22.09.35:266][670]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.26-22.09.35:267][670]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.26-22.09.35:267][670]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.26-22.09.35:267][670]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.26-22.09.35:267][670]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.26-22.09.35:267][670]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.26-22.09.35:267][670]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.26-22.09.35:267][670]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.26-22.09.35:267][670]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.26-22.09.35:267][670]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.26-22.09.35:272][670]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.26-22.09.35:272][670]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.09.35:272][670]LogAudioMixer: Display: Is Default: Yes
+[2020.06.26-22.09.35:272][670]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.26-22.09.35:272][670]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.26-22.09.35:272][670]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.26-22.09.35:273][670]LogAudioMixer: Display: Channel Order:
+[2020.06.26-22.09.35:273][670]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.26-22.09.35:273][670]LogAudioMixer: Display: 1: FrontRight
+[2020.06.26-22.09.35:400][670]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.09.35:401][670]LogInit: FAudioDevice initialized.
+[2020.06.26-22.09.35:419][670]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.26-22.09.35:425][670]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.26-18.09.35
+[2020.06.26-22.09.35:426][670]LogWorld: Bringing up level for play took: 0.006432
+[2020.06.26-22.09.35:427][670]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.06.26-22.09.35:430][670]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.09.35:430][670]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.09.35:434][670]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.773
+[2020.06.26-22.09.48:326][426]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.09.48:327][426]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.09.48:327][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.09.48:327][426]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.09.48:327][426]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.09.48:328][426]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.26-22.09.48:328][426]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.09.48:340][426]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.26-22.09.48:343][426]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.09.48:366][426]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.09.48:370][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.09.48:377][426]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.06.26-22.09.48:553][427]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.06.26-22.09.50:255][493]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.09.50:280][493]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.09.57:618][868]LogEditorViewport: Clicking on Actor (LMB): BP_LaserTrap_C (BP_LaserTrap)
+[2020.06.26-22.10.05:514][216]LogEditorViewport: Clicking on Actor (LMB): BP_IntermittentLaserTrap_C (BP_IntermittentLaserTrap)
+[2020.06.26-22.10.24:489][894]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.26-22.10.24:530][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.26-22.10.24:530][894]PIE: New page: PIE session: TestMap (Jun. 26, 2020, 2:10:24 p.m.)
+[2020.06.26-22.10.24:531][894]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.10.24:683][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.152111s)
+[2020.06.26-22.10.24:685][894]LogAIModule: Creating AISystem for world TestMap
+[2020.06.26-22.10.24:686][894]LogPlayLevel: PIE: World Init took: (0.002540s)
+[2020.06.26-22.10.24:686][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.154891s)
+[2020.06.26-22.10.24:715][894]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.06.26-22.10.24:717][894]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.26-22.10.24:717][894]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.26-22.10.24:717][894]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.26-22.10.24:717][894]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.26-22.10.24:717][894]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.26-22.10.24:717][894]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.26-22.10.24:717][894]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.26-22.10.24:717][894]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.26-22.10.24:717][894]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.26-22.10.24:717][894]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.26-22.10.24:723][894]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.26-22.10.24:723][894]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.10.24:723][894]LogAudioMixer: Display: Is Default: Yes
+[2020.06.26-22.10.24:723][894]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.26-22.10.24:723][894]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.26-22.10.24:723][894]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.26-22.10.24:723][894]LogAudioMixer: Display: Channel Order:
+[2020.06.26-22.10.24:723][894]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.26-22.10.24:723][894]LogAudioMixer: Display: 1: FrontRight
+[2020.06.26-22.10.24:836][894]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.10.24:837][894]LogInit: FAudioDevice initialized.
+[2020.06.26-22.10.24:844][894]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.26-22.10.24:848][894]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.26-18.10.24
+[2020.06.26-22.10.24:849][894]LogWorld: Bringing up level for play took: 0.004688
+[2020.06.26-22.10.24:849][894]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2020.06.26-22.10.24:852][894]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.10.24:852][894]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.10.24:856][894]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.196
+[2020.06.26-22.10.30:201][197]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.10.30:217][197]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.26-22.10.30:237][197]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.26-22.10.30:237][197]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.10.30:237][197]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.10.30:237][197]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.10.30:238][197]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.26-22.10.30:239][197]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.10.30:243][197]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.26-22.10.30:246][197]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.10.30:270][197]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.10.30:274][197]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.10.30:280][197]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.06.26-22.10.30:439][198]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.06.26-22.10.31:668][241]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.10.31:688][241]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.10.33:830][354]LogEditorViewport: Clicking on Actor (LMB): BP_IntermittentLaserTrap_C (BP_IntermittentLaserTrap)
+[2020.06.26-22.10.52:381][  8]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.26-22.10.52:442][  8]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.26-22.10.52:442][  8]PIE: New page: PIE session: TestMap (Jun. 26, 2020, 2:10:52 p.m.)
+[2020.06.26-22.10.52:442][  8]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.10.52:588][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.146246s)
+[2020.06.26-22.10.52:590][  8]LogAIModule: Creating AISystem for world TestMap
+[2020.06.26-22.10.52:590][  8]LogPlayLevel: PIE: World Init took: (0.001926s)
+[2020.06.26-22.10.52:590][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.148417s)
+[2020.06.26-22.10.52:643][  8]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2020.06.26-22.10.52:644][  8]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.26-22.10.52:644][  8]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.26-22.10.52:644][  8]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.26-22.10.52:644][  8]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.26-22.10.52:644][  8]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.26-22.10.52:644][  8]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.26-22.10.52:644][  8]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.26-22.10.52:644][  8]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.26-22.10.52:645][  8]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.26-22.10.52:645][  8]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.26-22.10.52:650][  8]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.26-22.10.52:650][  8]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.10.52:650][  8]LogAudioMixer: Display: Is Default: Yes
+[2020.06.26-22.10.52:650][  8]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.26-22.10.52:650][  8]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.26-22.10.52:650][  8]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.26-22.10.52:651][  8]LogAudioMixer: Display: Channel Order:
+[2020.06.26-22.10.52:651][  8]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.26-22.10.52:651][  8]LogAudioMixer: Display: 1: FrontRight
+[2020.06.26-22.10.52:802][  8]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.10.52:805][  8]LogInit: FAudioDevice initialized.
+[2020.06.26-22.10.52:812][  8]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.26-22.10.52:816][  8]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.26-18.10.52
+[2020.06.26-22.10.52:816][  8]LogWorld: Bringing up level for play took: 0.003476
+[2020.06.26-22.10.52:817][  8]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.06.26-22.10.52:819][  8]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.10.52:819][  8]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.10.52:822][  8]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.161
+[2020.06.26-22.11.02:062][538]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.11.02:062][538]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.11.02:063][538]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.11.02:063][538]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.11.02:063][538]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.11.02:063][538]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.26-22.11.02:064][538]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.11.02:076][538]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.26-22.11.02:080][538]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.11.02:102][538]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.11.02:105][538]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.11.02:113][538]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2020.06.26-22.11.02:291][539]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.06.26-22.11.03:480][585]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.11.03:508][585]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.11.06:019][653]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap.BP_IntermittentLaserTrap
+[2020.06.26-22.11.06:647][653]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 121 classes and 0 folders.
+[2020.06.26-22.11.10:010][702]LogSlate: Window 'BP_IntermittentLaserTrap' being destroyed
+[2020.06.26-22.11.10:090][702]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.06.26-22.11.10:090][702]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.11.10:197][702]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap.BP_IntermittentLaserTrap
+[2020.06.26-22.11.10:828][702]LogSlate: Took 0.010227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.06.26-22.12.30:922][732]BlueprintLog: New page: Compile BP_IntermittentLaserTrap
+[2020.06.26-22.12.31:356][732]LogUObjectHash: Compacting FUObjectHashTables data took   5.78ms
+[2020.06.26-22.12.31:608][732]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_IntermittentLaserTrap011A40FC458CD0CAB7788491E0494BAB.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap.uasset'
+[2020.06.26-22.12.31:643][732]AssetCheck: New page: Asset Save: BP_IntermittentLaserTrap
+[2020.06.26-22.12.31:644][732]LogContentValidation: Display: Validating Blueprint /Game/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap.BP_IntermittentLaserTrap
+[2020.06.26-22.12.32:454][755]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_IntermittentLaserTrapF58275D14BB005DD133E889261D12108.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap.uasset'
+[2020.06.26-22.12.32:474][755]AssetCheck: New page: Asset Save: BP_IntermittentLaserTrap
+[2020.06.26-22.12.32:474][755]LogContentValidation: Display: Validating Blueprint /Game/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap.BP_IntermittentLaserTrap
+[2020.06.26-22.12.34:461][833]LogSlate: Window 'BP_IntermittentLaserTrap' being destroyed
+[2020.06.26-22.12.37:680][  7]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.26-22.12.37:719][  7]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.26-22.12.37:719][  7]PIE: New page: PIE session: TestMap (Jun. 26, 2020, 2:12:37 p.m.)
+[2020.06.26-22.12.37:719][  7]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.12.37:871][  7]LogPlayLevel: PIE: StaticDuplicateObject took: (0.150851s)
+[2020.06.26-22.12.37:873][  7]LogAIModule: Creating AISystem for world TestMap
+[2020.06.26-22.12.37:874][  7]LogPlayLevel: PIE: World Init took: (0.002974s)
+[2020.06.26-22.12.37:874][  7]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.154063s)
+[2020.06.26-22.12.37:919][  7]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2020.06.26-22.12.37:922][  7]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.26-22.12.37:922][  7]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.26-22.12.37:922][  7]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.26-22.12.37:922][  7]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.26-22.12.37:922][  7]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.26-22.12.37:922][  7]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.26-22.12.37:922][  7]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.26-22.12.37:922][  7]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.26-22.12.37:922][  7]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.26-22.12.37:922][  7]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.26-22.12.37:928][  7]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.26-22.12.37:928][  7]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.12.37:928][  7]LogAudioMixer: Display: Is Default: Yes
+[2020.06.26-22.12.37:928][  7]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.26-22.12.37:928][  7]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.26-22.12.37:928][  7]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.26-22.12.37:928][  7]LogAudioMixer: Display: Channel Order:
+[2020.06.26-22.12.37:928][  7]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.26-22.12.37:928][  7]LogAudioMixer: Display: 1: FrontRight
+[2020.06.26-22.12.38:042][  7]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.12.38:045][  7]LogInit: FAudioDevice initialized.
+[2020.06.26-22.12.38:052][  7]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.26-22.12.38:055][  7]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.26-18.12.38
+[2020.06.26-22.12.38:056][  7]LogWorld: Bringing up level for play took: 0.004061
+[2020.06.26-22.12.38:056][  7]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.06.26-22.12.38:059][  7]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.12.38:059][  7]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.12.38:063][  7]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap -0.599
+[2020.06.26-22.13.03:155][468]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.13.03:177][468]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.26-22.13.03:197][468]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.26-22.13.03:198][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.13.03:198][468]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.13.03:198][468]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.13.03:198][468]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.26-22.13.03:199][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.13.03:215][468]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.26-22.13.03:222][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.13.03:289][468]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.13.03:294][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.13.03:300][468]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.06.26-22.13.03:480][469]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.06.26-22.13.04:830][527]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.13.04:855][527]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.13.45:523][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2020.06.26-22.13.45:850][555]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap_Auto2B4CA2A5D46A3593DAF3B92A0367E121B.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/JLevels/TestMap_Auto2.umap'
+[2020.06.26-22.13.45:854][555]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Julian/JLevels/TestMap' took 0.403
+[2020.06.26-22.13.45:854][555]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.403
+[2020.06.26-22.13.45:855][555]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap] ([1] browsable assets)...
+[2020.06.26-22.13.45:938][555]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap.BP_IntermittentLaserTrap]
+[2020.06.26-22.13.45:939][555]OBJ SavePackage: Finished generating thumbnails for package [/Game/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap]
+[2020.06.26-22.13.46:027][555]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_IntermittentLaserTrap_Auto242103F6A4E24EC1243754C84C6074667.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap_Auto2.uasset'
+[2020.06.26-22.13.46:030][555]LogFileHelpers: Auto-saving content packages took 0.176
+[2020.06.26-22.15.33:491][877]LogHotReload: New module detected: UE4Editor-Project-0004.dll
+[2020.06.26-22.15.34:530][881]LogHotReload: Starting Hot-Reload from IDE
+[2020.06.26-22.15.34:640][881]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.06.26-22.15.34:806][881]LogClass: Could not find existing class LaserTrap in package /Script/Project for HotReload, assuming new class
+[2020.06.26-22.15.34:806][881]LogClass: Function ActivateLaser is new.
+[2020.06.26-22.15.34:806][881]LogClass: Function DeactivateActor is new.
+[2020.06.26-22.15.34:806][881]LogClass: Function OnOverlapBegin is new.
+[2020.06.26-22.15.34:806][881]LogClass: Function OnOverlapEnd is new.
+[2020.06.26-22.15.34:843][881]LogClass: EGunState HotReload.
+[2020.06.26-22.15.34:843][881]LogClass: EFEnemyMoveStat HotReload.
+[2020.06.26-22.15.34:843][881]LogClass: PlayerStats HotReload.
+[2020.06.26-22.15.34:877][881]LogHotReload: Re-instancing LaserTrap after hot-reload.
+[2020.06.26-22.15.35:620][881]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_IntermittentLaserTrap6ABB8218403A20E49B392D9CBEAE4688.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap.uasset'
+[2020.06.26-22.15.35:959][881]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0010 seconds. Added 36 classes and 3 folders.
+[2020.06.26-22.15.35:964][881]Display: HotReload successful (50 functions remapped  1 scriptstructs remapped)
+[2020.06.26-22.15.36:192][881]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2020.06.26-22.15.36:225][881]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 3053 classes and 723 folders.
+[2020.06.26-22.15.36:235][881]Display: HotReload took  1.7s.
+[2020.06.26-22.15.36:305][881]AssetCheck: New page: Asset Save: BP_IntermittentLaserTrap
+[2020.06.26-22.15.36:306][881]LogContentValidation: Display: Validating Blueprint /Game/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap.BP_IntermittentLaserTrap
+[2020.06.26-22.17.01:925][485]LogSlate: Took 0.009000 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.06.26-22.17.04:077][611]BlueprintLog: New page: Compile BP_IntermittentLaserTrap
+[2020.06.26-22.17.04:503][611]LogUObjectHash: Compacting FUObjectHashTables data took   5.25ms
+[2020.06.26-22.17.04:695][611]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_IntermittentLaserTrapCB98DA064AC8C3150863BF8D25DFFD31.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap.uasset'
+[2020.06.26-22.17.04:711][611]AssetCheck: New page: Asset Save: BP_IntermittentLaserTrap
+[2020.06.26-22.17.04:711][611]LogContentValidation: Display: Validating Blueprint /Game/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap.BP_IntermittentLaserTrap
+[2020.06.26-22.17.05:434][641]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_IntermittentLaserTrap5528322F4DB498FD410968836AE5F58A.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap.uasset'
+[2020.06.26-22.17.05:451][641]AssetCheck: New page: Asset Save: BP_IntermittentLaserTrap
+[2020.06.26-22.17.05:451][641]LogContentValidation: Display: Validating Blueprint /Game/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap.BP_IntermittentLaserTrap
+[2020.06.26-22.17.13:010][ 78]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.26-22.17.13:056][ 78]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.26-22.17.13:056][ 78]PIE: New page: PIE session: TestMap (Jun. 26, 2020, 2:17:13 p.m.)
+[2020.06.26-22.17.13:056][ 78]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.17.13:197][ 78]LogPlayLevel: PIE: StaticDuplicateObject took: (0.141047s)
+[2020.06.26-22.17.13:200][ 78]LogAIModule: Creating AISystem for world TestMap
+[2020.06.26-22.17.13:201][ 78]LogPlayLevel: PIE: World Init took: (0.003886s)
+[2020.06.26-22.17.13:201][ 78]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.145194s)
+[2020.06.26-22.17.13:262][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   4.64ms
+[2020.06.26-22.17.13:263][ 78]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.26-22.17.13:263][ 78]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.26-22.17.13:263][ 78]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.26-22.17.13:263][ 78]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.26-22.17.13:263][ 78]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.26-22.17.13:263][ 78]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.26-22.17.13:263][ 78]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.26-22.17.13:263][ 78]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.26-22.17.13:264][ 78]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.26-22.17.13:264][ 78]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.26-22.17.13:268][ 78]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.26-22.17.13:268][ 78]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.17.13:268][ 78]LogAudioMixer: Display: Is Default: Yes
+[2020.06.26-22.17.13:268][ 78]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.26-22.17.13:268][ 78]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.26-22.17.13:268][ 78]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.26-22.17.13:268][ 78]LogAudioMixer: Display: Channel Order:
+[2020.06.26-22.17.13:268][ 78]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.26-22.17.13:268][ 78]LogAudioMixer: Display: 1: FrontRight
+[2020.06.26-22.17.13:378][ 78]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.17.13:380][ 78]LogInit: FAudioDevice initialized.
+[2020.06.26-22.17.13:390][ 78]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.26-22.17.13:394][ 78]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.26-18.17.13
+[2020.06.26-22.17.13:395][ 78]LogWorld: Bringing up level for play took: 0.005196
+[2020.06.26-22.17.13:396][ 78]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2020.06.26-22.17.13:398][ 78]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.17.13:398][ 78]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.17.13:403][ 78]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.742
+[2020.06.26-22.17.25:792][798]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.17.25:797][798]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.26-22.17.25:817][798]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.26-22.17.25:818][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.17.25:818][798]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.17.25:818][798]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.17.25:818][798]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.26-22.17.25:820][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.17.25:833][798]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.26-22.17.25:839][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.17.25:875][798]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.17.25:879][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.17.25:887][798]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2020.06.26-22.17.26:063][799]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.06.26-22.17.27:499][862]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.17.27:524][862]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.18.00:191][  8]LogHotReload: New module detected: UE4Editor-Project-0005.dll
+[2020.06.26-22.18.00:945][ 11]LogHotReload: Starting Hot-Reload from IDE
+[2020.06.26-22.18.01:046][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2020.06.26-22.18.01:178][ 11]LogClass: EGunState HotReload.
+[2020.06.26-22.18.01:178][ 11]LogClass: EFEnemyMoveStat HotReload.
+[2020.06.26-22.18.01:178][ 11]LogClass: PlayerStats HotReload.
+[2020.06.26-22.18.01:220][ 11]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0006 seconds. Added 36 classes and 3 folders.
+[2020.06.26-22.18.01:225][ 11]Display: HotReload successful (54 functions remapped  1 scriptstructs remapped)
+[2020.06.26-22.18.01:479][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.06.26-22.18.01:499][ 11]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 3053 classes and 723 folders.
+[2020.06.26-22.18.01:509][ 11]Display: HotReload took  0.6s.
+[2020.06.26-22.18.34:109][223]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.26-22.18.34:144][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.26-22.18.34:144][223]PIE: New page: PIE session: TestMap (Jun. 26, 2020, 2:18:34 p.m.)
+[2020.06.26-22.18.34:144][223]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.18.34:251][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.107531s)
+[2020.06.26-22.18.34:252][223]LogAIModule: Creating AISystem for world TestMap
+[2020.06.26-22.18.34:252][223]LogPlayLevel: PIE: World Init took: (0.001434s)
+[2020.06.26-22.18.34:252][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.109137s)
+[2020.06.26-22.18.34:341][223]LogUObjectHash: Compacting FUObjectHashTables data took   4.82ms
+[2020.06.26-22.18.34:342][223]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.26-22.18.34:342][223]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.26-22.18.34:342][223]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.26-22.18.34:342][223]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.26-22.18.34:343][223]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.26-22.18.34:343][223]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.26-22.18.34:343][223]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.26-22.18.34:343][223]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.26-22.18.34:343][223]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.26-22.18.34:343][223]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.26-22.18.34:347][223]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.26-22.18.34:347][223]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.18.34:347][223]LogAudioMixer: Display: Is Default: Yes
+[2020.06.26-22.18.34:347][223]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.26-22.18.34:347][223]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.26-22.18.34:347][223]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.26-22.18.34:347][223]LogAudioMixer: Display: Channel Order:
+[2020.06.26-22.18.34:347][223]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.26-22.18.34:347][223]LogAudioMixer: Display: 1: FrontRight
+[2020.06.26-22.18.34:440][223]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.18.34:442][223]LogInit: FAudioDevice initialized.
+[2020.06.26-22.18.34:451][223]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.26-22.18.34:454][223]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.26-18.18.34
+[2020.06.26-22.18.34:455][223]LogWorld: Bringing up level for play took: 0.003756
+[2020.06.26-22.18.34:455][223]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.06.26-22.18.34:457][223]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.18.34:457][223]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.18.34:461][223]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap -0.2
+[2020.06.26-22.18.46:518][919]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.18.46:536][919]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.26-22.18.46:557][919]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.26-22.18.46:557][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.18.46:557][919]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.18.46:557][919]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.18.46:557][919]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.26-22.18.46:558][919]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.18.46:565][919]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.26-22.18.46:571][919]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.18.46:614][919]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.18.46:619][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.18.46:644][919]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2020.06.26-22.18.46:825][920]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.06.26-22.18.48:099][969]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.18.48:126][969]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.19.20:193][839]BlueprintLog: New page: Compile BP_IntermittentLaserTrap
+[2020.06.26-22.19.20:629][839]LogUObjectHash: Compacting FUObjectHashTables data took   5.09ms
+[2020.06.26-22.19.20:827][839]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_IntermittentLaserTrapD77E8A4E47B574BADD6BBCA6AF851737.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap.uasset'
+[2020.06.26-22.19.20:845][839]AssetCheck: New page: Asset Save: BP_IntermittentLaserTrap
+[2020.06.26-22.19.20:845][839]LogContentValidation: Display: Validating Blueprint /Game/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap.BP_IntermittentLaserTrap
+[2020.06.26-22.19.21:450][861]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_IntermittentLaserTrap5CE342C043DC20A861BBF9BAA7299694.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap.uasset'
+[2020.06.26-22.19.21:471][861]AssetCheck: New page: Asset Save: BP_IntermittentLaserTrap
+[2020.06.26-22.19.21:471][861]LogContentValidation: Display: Validating Blueprint /Game/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap.BP_IntermittentLaserTrap
+[2020.06.26-22.19.24:425][ 19]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.26-22.19.24:460][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.26-22.19.24:461][ 19]PIE: New page: PIE session: TestMap (Jun. 26, 2020, 2:19:24 p.m.)
+[2020.06.26-22.19.24:461][ 19]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.19.24:594][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.132662s)
+[2020.06.26-22.19.24:595][ 19]LogAIModule: Creating AISystem for world TestMap
+[2020.06.26-22.19.24:595][ 19]LogPlayLevel: PIE: World Init took: (0.001205s)
+[2020.06.26-22.19.24:595][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.134057s)
+[2020.06.26-22.19.24:643][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2020.06.26-22.19.24:644][ 19]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.26-22.19.24:644][ 19]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.26-22.19.24:644][ 19]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.26-22.19.24:644][ 19]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.26-22.19.24:644][ 19]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.26-22.19.24:644][ 19]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.26-22.19.24:644][ 19]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.26-22.19.24:644][ 19]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.26-22.19.24:645][ 19]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.26-22.19.24:645][ 19]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.26-22.19.24:650][ 19]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.26-22.19.24:650][ 19]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.19.24:650][ 19]LogAudioMixer: Display: Is Default: Yes
+[2020.06.26-22.19.24:650][ 19]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.26-22.19.24:650][ 19]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.26-22.19.24:650][ 19]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.26-22.19.24:650][ 19]LogAudioMixer: Display: Channel Order:
+[2020.06.26-22.19.24:650][ 19]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.26-22.19.24:650][ 19]LogAudioMixer: Display: 1: FrontRight
+[2020.06.26-22.19.24:774][ 19]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.19.24:777][ 19]LogInit: FAudioDevice initialized.
+[2020.06.26-22.19.24:785][ 19]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.26-22.19.24:790][ 19]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.26-18.19.24
+[2020.06.26-22.19.24:791][ 19]LogWorld: Bringing up level for play took: 0.004487
+[2020.06.26-22.19.24:791][ 19]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2020.06.26-22.19.24:794][ 19]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.19.24:794][ 19]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.19.24:797][ 19]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.137
+[2020.06.26-22.19.42:152][ 27]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.19.42:152][ 27]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.19.42:152][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.19.42:152][ 27]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.19.42:152][ 27]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.19.42:153][ 27]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.26-22.19.42:154][ 27]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.19.42:167][ 27]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.26-22.19.42:173][ 27]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.19.42:213][ 27]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.19.42:217][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.19.42:226][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2020.06.26-22.19.42:389][ 28]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.06.26-22.19.43:822][ 84]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.19.43:845][ 84]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.20.49:879][319]LogHotReload: New module detected: UE4Editor-Project-0006.dll
+[2020.06.26-22.20.50:919][323]LogHotReload: Starting Hot-Reload from IDE
+[2020.06.26-22.20.50:998][323]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.06.26-22.20.51:081][323]LogClass: Could not find existing class LaserTrap in package /Script/Project for HotReload, assuming new class
+[2020.06.26-22.20.51:081][323]LogClass: Function ActivateLaser is new.
+[2020.06.26-22.20.51:081][323]LogClass: Function DeactivateLaser is new.
+[2020.06.26-22.20.51:081][323]LogClass: Function OnOverlapBegin is new.
+[2020.06.26-22.20.51:081][323]LogClass: Function OnOverlapEnd is new.
+[2020.06.26-22.20.51:120][323]LogClass: EGunState HotReload.
+[2020.06.26-22.20.51:120][323]LogClass: EFEnemyMoveStat HotReload.
+[2020.06.26-22.20.51:120][323]LogClass: PlayerStats HotReload.
+[2020.06.26-22.20.51:161][323]LogHotReload: Re-instancing LaserTrap after hot-reload.
+[2020.06.26-22.20.51:473][323]LogBlueprint: Error: [Compiler BP_IntermittentLaserTrap] Could not find a function named "DeactivateActor" in 'BP_IntermittentLaserTrap_C'.
+Make sure 'BP_IntermittentLaserTrap_C' has been compiled for  Deactivate Actor
+[2020.06.26-22.20.52:226][323]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0006 seconds. Added 36 classes and 3 folders.
+[2020.06.26-22.20.52:232][323]Display: HotReload successful (50 functions remapped  1 scriptstructs remapped)
+[2020.06.26-22.20.52:501][323]LogUObjectHash: Compacting FUObjectHashTables data took   5.18ms
+[2020.06.26-22.20.52:522][323]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 3053 classes and 723 folders.
+[2020.06.26-22.20.52:533][323]Display: HotReload took  1.6s.
+[2020.06.26-22.21.14:978][ 55]BlueprintLog: New page: Compile BP_IntermittentLaserTrap
+[2020.06.26-22.21.15:590][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   6.33ms
+[2020.06.26-22.21.15:788][ 55]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_IntermittentLaserTrap0F64732F4BB73C33546E3F8054667EB2.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap.uasset'
+[2020.06.26-22.21.15:811][ 55]AssetCheck: New page: Asset Save: BP_IntermittentLaserTrap
+[2020.06.26-22.21.15:811][ 55]LogContentValidation: Display: Validating Blueprint /Game/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap.BP_IntermittentLaserTrap
+[2020.06.26-22.21.16:552][ 88]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_IntermittentLaserTrapA38A4F8D4509305C622CB59DC726BB90.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap.uasset'
+[2020.06.26-22.21.16:570][ 88]AssetCheck: New page: Asset Save: BP_IntermittentLaserTrap
+[2020.06.26-22.21.16:571][ 88]LogContentValidation: Display: Validating Blueprint /Game/Julian/JGameMechanics/LaserTrap/BP_IntermittentLaserTrap.BP_IntermittentLaserTrap
+[2020.06.26-22.21.20:557][293]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.26-22.21.20:601][293]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.26-22.21.20:601][293]PIE: New page: PIE session: TestMap (Jun. 26, 2020, 2:21:20 p.m.)
+[2020.06.26-22.21.20:601][293]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.21.20:734][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.132918s)
+[2020.06.26-22.21.20:735][293]LogAIModule: Creating AISystem for world TestMap
+[2020.06.26-22.21.20:735][293]LogPlayLevel: PIE: World Init took: (0.001078s)
+[2020.06.26-22.21.20:735][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.134167s)
+[2020.06.26-22.21.20:806][293]LogUObjectHash: Compacting FUObjectHashTables data took   5.48ms
+[2020.06.26-22.21.20:806][293]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.26-22.21.20:807][293]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.26-22.21.20:807][293]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.26-22.21.20:807][293]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.26-22.21.20:807][293]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.26-22.21.20:807][293]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.26-22.21.20:807][293]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.26-22.21.20:807][293]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.26-22.21.20:807][293]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.26-22.21.20:807][293]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.26-22.21.20:812][293]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.26-22.21.20:812][293]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.21.20:812][293]LogAudioMixer: Display: Is Default: Yes
+[2020.06.26-22.21.20:812][293]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.26-22.21.20:812][293]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.26-22.21.20:812][293]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.26-22.21.20:812][293]LogAudioMixer: Display: Channel Order:
+[2020.06.26-22.21.20:812][293]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.26-22.21.20:812][293]LogAudioMixer: Display: 1: FrontRight
+[2020.06.26-22.21.20:927][293]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.26-22.21.20:929][293]LogInit: FAudioDevice initialized.
+[2020.06.26-22.21.20:935][293]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.26-22.21.20:939][293]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.26-18.21.20
+[2020.06.26-22.21.20:939][293]LogWorld: Bringing up level for play took: 0.004078
+[2020.06.26-22.21.20:940][293]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.06.26-22.21.20:942][293]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.21.20:942][293]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.26-22.21.20:945][293]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.284
+[2020.06.26-22.21.31:156][895]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.21.31:167][895]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.26-22.21.31:197][895]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.26-22.21.31:197][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.21.31:197][895]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.26-22.21.31:197][895]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.21.31:197][895]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.26-22.21.31:198][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.21.31:212][895]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.26-22.21.31:219][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-22.21.31:258][895]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.26-22.21.31:261][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.26-22.21.31:269][895]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2020.06.26-22.21.31:481][896]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.06.26-22.21.32:687][940]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.21.32:714][940]LogSlate: Window 'Message Log' being destroyed
+[2020.06.26-22.21.33:833][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2020.06.26-22.21.35:320][969]LogSlate: Window 'Save Content' being destroyed
+[2020.06.26-22.21.35:447][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.06.26-22.21.35:727][969]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMapAEE60CB94F649B0F3A502ABCCFBA9D0A.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JLevels/TestMap.umap'
+[2020.06.26-22.21.35:871][969]LogFileHelpers: Saving map 'TestMap' took 0.503
+[2020.06.26-22.21.35:930][969]AssetCheck: New page: Asset Save: TestMap
+[2020.06.26-22.21.35:930][969]LogContentValidation: Display: Validating World /Game/Julian/JLevels/TestMap.TestMap
