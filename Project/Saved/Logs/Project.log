@@ -2075,3 +2075,412 @@ Make sure 'BP_IntermittentLaserTrap_C' has been compiled for  Deactivate Actor
 [2020.06.26-22.21.35:871][969]LogFileHelpers: Saving map 'TestMap' took 0.503
 [2020.06.26-22.21.35:930][969]AssetCheck: New page: Asset Save: TestMap
 [2020.06.26-22.21.35:930][969]LogContentValidation: Display: Validating World /Game/Julian/JLevels/TestMap.TestMap
+[2020.06.26-22.25.09:030][677]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2020.06.27-00.47.38:874][248]LogRenderer: Reallocating scene render targets to support 620x360 Format 10 NumSamples 1 (Frame:556307).
+[2020.06.27-00.48.11:499][ 54]LogRenderer: Reallocating scene render targets to support 624x360 Format 10 NumSamples 1 (Frame:558224).
+[2020.06.27-00.48.11:550][ 55]LogRenderer: Reallocating scene render targets to support 632x360 Format 10 NumSamples 1 (Frame:558226).
+[2020.06.27-00.48.11:614][ 56]LogRenderer: Reallocating scene render targets to support 640x360 Format 10 NumSamples 1 (Frame:558228).
+[2020.06.27-00.48.11:665][ 57]LogRenderer: Reallocating scene render targets to support 648x360 Format 10 NumSamples 1 (Frame:558230).
+[2020.06.27-00.48.11:741][ 59]LogRenderer: Reallocating scene render targets to support 652x360 Format 10 NumSamples 1 (Frame:558233).
+[2020.06.27-00.48.11:837][ 61]LogRenderer: Reallocating scene render targets to support 656x360 Format 10 NumSamples 1 (Frame:558237).
+[2020.06.27-00.48.20:643][527]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.06.27-00.48.20:645][527]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.06.27-00.48.23:661][653]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.06.27-00.48.39:351][121]Running C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Project.uproject" -game -rocket -progress
+[2020.06.27-00.48.39:958][121]Discovering modules, targets and source code for project...
+[2020.06.27-00.48.44:485][121]Binding IntelliSense data...
+[2020.06.27-00.48.47:817][121]Binding IntelliSense data... 100%
+[2020.06.27-00.48.47:817][121]Writing project files...
+[2020.06.27-00.48.52:350][121]Writing project files... 100%
+[2020.06.27-00.48.52:495][121]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.06.27-00.48.52:516][121]Candidate modules for hot reload:
+[2020.06.27-00.48.52:516][121]  Project
+[2020.06.27-00.48.52:517][121]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project,3018 Win64 Development -TargetType=Editor -Project="C:/Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Project.uproject" "C:/Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Project.uproject"  -IgnoreJunk]
+[2020.06.27-00.50.18:845][121]CompilerResultsLog: New page: Compilation - Jun. 26, 2020, 4:50:18 p.m.
+[2020.06.27-00.50.18:847][121]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\julia\Documents\Project_UE4\ProjectUE4Game).
+[2020.06.27-00.50.18:847][121]CompilerResultsLog: Creating makefile for ProjectEditor (no existing makefile)
+[2020.06.27-00.50.18:847][121]CompilerResultsLog: Parsing headers for ProjectEditor
+[2020.06.27-00.50.18:847][121]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Project.uproject" "C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\ProjectEditor\Development\ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.06.27-00.50.18:847][121]CompilerResultsLog: Reflection code generated for ProjectEditor in 43.1669675 seconds
+[2020.06.27-00.50.18:848][121]CompilerResultsLog: Building ProjectEditor...
+[2020.06.27-00.50.18:848][121]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.27-00.50.18:848][121]CompilerResultsLog: Building 5 actions with 4 processes...
+[2020.06.27-00.50.18:848][121]CompilerResultsLog:   [1/5] Module.Project.gen.cpp
+[2020.06.27-00.50.18:848][121]CompilerResultsLog:   [2/5] Module.Project.cpp
+[2020.06.27-00.50.18:848][121]CompilerResultsLog:   [3/5] UE4Editor-Project-3018.lib
+[2020.06.27-00.50.18:848][121]CompilerResultsLog:      Creating library C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-3018.lib and object C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-3018.exp
+[2020.06.27-00.50.18:848][121]CompilerResultsLog:   [4/5] UE4Editor-Project-3018.dll
+[2020.06.27-00.50.18:848][121]CompilerResultsLog:      Creating library C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-3018.suppressed.lib and object C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-3018.suppressed.exp
+[2020.06.27-00.50.18:848][121]CompilerResultsLog:   [5/5] ProjectEditor.target
+[2020.06.27-00.50.18:848][121]CompilerResultsLog: Total time in Parallel executor: 38.82 seconds
+[2020.06.27-00.50.18:848][121]CompilerResultsLog: Total execution time: 86.23 seconds
+[2020.06.27-00.50.18:849][121]LogMainFrame: MainFrame: Module compiling took 86.352 seconds
+[2020.06.27-00.50.19:128][121]LogUObjectHash: Compacting FUObjectHashTables data took  11.89ms
+[2020.06.27-00.50.19:314][121]LogClass: Could not find existing class Mutant in package /Script/Project for HotReload, assuming new class
+[2020.06.27-00.50.19:358][121]LogClass: EGunState HotReload.
+[2020.06.27-00.50.19:358][121]LogClass: EFEnemyMoveStat HotReload.
+[2020.06.27-00.50.19:358][121]LogClass: PlayerStats HotReload.
+[2020.06.27-00.50.19:436][121]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0015 seconds. Added 37 classes and 3 folders.
+[2020.06.27-00.50.19:442][121]Display: HotReload successful (54 functions remapped  1 scriptstructs remapped)
+[2020.06.27-00.50.19:819][121]LogUObjectHash: Compacting FUObjectHashTables data took   5.20ms
+[2020.06.27-00.50.19:875][121]LogContentBrowser: Native class hierarchy populated in 0.0246 seconds. Added 3054 classes and 723 folders.
+[2020.06.27-00.50.19:876][121]Display: HotReload took 87.4s.
+[2020.06.27-00.50.19:893][121]Warning: HotReload operation took 87.4s.
+[2020.06.27-00.50.19:977][121]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.06.27-00.50.21:228][121]LogHotReload: New module detected: UE4Editor-Project-3018.dll
+[2020.06.27-00.50.21:467][122]LogHotReload: Starting Hot-Reload from IDE
+[2020.06.27-00.50.21:801][122]LogUObjectHash: Compacting FUObjectHashTables data took  10.43ms
+[2020.06.27-00.50.21:814][122]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0008 seconds. Added 37 classes and 3 folders.
+[2020.06.27-00.50.21:823][122]Display: HotReload successful (0 functions remapped  1 scriptstructs remapped)
+[2020.06.27-00.50.21:968][122]LogUObjectHash: Compacting FUObjectHashTables data took   5.51ms
+[2020.06.27-00.50.22:002][122]LogContentBrowser: Native class hierarchy populated in 0.0153 seconds. Added 3054 classes and 723 folders.
+[2020.06.27-00.50.22:018][122]Display: HotReload took  0.6s.
+[2020.06.27-01.00.41:859][798]LogHotReload: New module detected: UE4Editor-Project-0008.dll
+[2020.06.27-01.00.44:089][805]LogHotReload: Starting Hot-Reload from IDE
+[2020.06.27-01.00.45:682][805]LogUObjectHash: Compacting FUObjectHashTables data took  39.51ms
+[2020.06.27-01.00.46:032][805]LogClass: Could not find existing class Mutant in package /Script/Project for HotReload, assuming new class
+[2020.06.27-01.00.46:091][805]LogClass: EGunState HotReload.
+[2020.06.27-01.00.46:091][805]LogClass: EFEnemyMoveStat HotReload.
+[2020.06.27-01.00.46:091][805]LogClass: PlayerStats HotReload.
+[2020.06.27-01.00.46:323][805]LogHotReload: Re-instancing Mutant after hot-reload.
+[2020.06.27-01.00.47:721][805]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0182 seconds. Added 37 classes and 3 folders.
+[2020.06.27-01.00.47:731][805]Display: HotReload successful (54 functions remapped  1 scriptstructs remapped)
+[2020.06.27-01.00.48:176][805]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2020.06.27-01.00.48:334][805]LogContentBrowser: Native class hierarchy populated in 0.0296 seconds. Added 3054 classes and 723 folders.
+[2020.06.27-01.00.48:382][805]Display: HotReload took  4.3s.
+[2020.06.27-01.05.58:410][ 43]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.06.27-01.05.58:411][ 43]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.06.27-01.06.34:970][851]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Julian/Enemies/Mutant/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.06.36:083][851]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.06.27-01.06.36:281][852]LogRenderer: Reallocating scene render targets to support 656x476 Format 10 NumSamples 1 (Frame:1).
+[2020.06.27-01.07.13:569][100]LogRenderer: Reallocating scene render targets to support 660x476 Format 10 NumSamples 1 (Frame:1274).
+[2020.06.27-01.07.13:609][101]LogRenderer: Reallocating scene render targets to support 664x476 Format 10 NumSamples 1 (Frame:1276).
+[2020.06.27-01.07.13:649][102]LogRenderer: Reallocating scene render targets to support 668x476 Format 10 NumSamples 1 (Frame:1278).
+[2020.06.27-01.08.39:732][307]BlueprintLog: New page: Compile BP_MutantAI
+[2020.06.27-01.08.40:538][307]LogUObjectHash: Compacting FUObjectHashTables data took   7.67ms
+[2020.06.27-01.08.40:879][307]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAI81BE926C4B2C65413BE509820B38A67E.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/BP_MutantAI.uasset'
+[2020.06.27-01.08.40:919][307]AssetCheck: New page: Asset Save: BP_MutantAI
+[2020.06.27-01.08.40:919][307]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.08.41:978][340]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAIEBDA4FF943FA56D030E07CA4487C1189.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/BP_MutantAI.uasset'
+[2020.06.27-01.08.42:002][340]AssetCheck: New page: Asset Save: BP_MutantAI
+[2020.06.27-01.08.42:002][340]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.15.50:512][ 26]BlueprintLog: New page: Compile BP_MutantAI
+[2020.06.27-01.15.51:066][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   6.59ms
+[2020.06.27-01.15.51:918][ 53]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAIE6BE552B43C431F1C0956EBEB812FB83.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/BP_MutantAI.uasset'
+[2020.06.27-01.15.51:938][ 53]AssetCheck: New page: Asset Save: BP_MutantAI
+[2020.06.27-01.15.51:938][ 53]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.16.28:208][154]LogMetaData: Removing '/Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Julian/Enemies/Mutant/BP_MutantAI.PackageMetaData'
+[2020.06.27-01.16.28:208][154]LogMetaData: Removing '/Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.SKEL_BP_MutantAI_C:ReceiveBeginPlay' ref from Metadata '/Game/Julian/Enemies/Mutant/BP_MutantAI.PackageMetaData'
+[2020.06.27-01.16.28:208][154]LogMetaData: Removing '/Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.SKEL_BP_MutantAI_C' ref from Metadata '/Game/Julian/Enemies/Mutant/BP_MutantAI.PackageMetaData'
+[2020.06.27-01.16.28:208][154]LogMetaData: Removing '/Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI_C' ref from Metadata '/Game/Julian/Enemies/Mutant/BP_MutantAI.PackageMetaData'
+[2020.06.27-01.16.28:208][154]LogMetaData: Removing '/Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Julian/Enemies/Mutant/BP_MutantAI.PackageMetaData'
+[2020.06.27-01.16.28:208][154]LogMetaData: Removing '/Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Julian/Enemies/Mutant/BP_MutantAI.PackageMetaData'
+[2020.06.27-01.16.28:208][154]LogMetaData: Removing '/Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Julian/Enemies/Mutant/BP_MutantAI.PackageMetaData'
+[2020.06.27-01.16.28:208][154]LogMetaData: Removing '/Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.SKEL_BP_MutantAI_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Julian/Enemies/Mutant/BP_MutantAI.PackageMetaData'
+[2020.06.27-01.16.28:209][154]LogMetaData: Removing '/Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.SKEL_BP_MutantAI_C:ReceiveTick' ref from Metadata '/Game/Julian/Enemies/Mutant/BP_MutantAI.PackageMetaData'
+[2020.06.27-01.16.28:209][154]LogMetaData: Removing '/Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.SKEL_BP_MutantAI_C:UserConstructionScript' ref from Metadata '/Game/Julian/Enemies/Mutant/BP_MutantAI.PackageMetaData'
+[2020.06.27-01.16.28:340][154]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAIC419580D499D2B5BC72E85A6B1AF857C.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.uasset'
+[2020.06.27-01.16.28:873][154]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2020.06.27-01.16.28:943][154]LogUObjectHash: Compacting FUObjectHashTables data took   5.96ms
+[2020.06.27-01.16.28:991][154]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2020.06.27-01.16.29:092][154]AssetCheck: New page: Asset Save: BP_MutantAI
+[2020.06.27-01.16.29:092][154]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.16.39:773][343]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.06.27-01.17.46:042][343]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.06.27-01.19.09:593][487]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.27-01.19.33:044][424]LogUObjectHash: Compacting FUObjectHashTables data took   6.56ms
+[2020.06.27-01.19.33:071][424]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/AIC_MutantCF9376694ED1D32D3A763CBAD3648575.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/AIC_Mutant.uasset'
+[2020.06.27-01.19.33:075][424]LogMetaData: Removing '/Game/Julian/Enemies/Mutant/MutantAI/AIC_Mutant.SKEL_AIC_Mutant_C' ref from Metadata '/Game/Julian/Enemies/Mutant/MutantAI/AI_Mutant.PackageMetaData'
+[2020.06.27-01.19.33:075][424]LogMetaData: Removing '/Game/Julian/Enemies/Mutant/MutantAI/AIC_Mutant.AIC_Mutant_C' ref from Metadata '/Game/Julian/Enemies/Mutant/MutantAI/AI_Mutant.PackageMetaData'
+[2020.06.27-01.19.33:210][424]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/AIC_MutantF22A44D94E931B6628C2A886293EB580.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/AIC_Mutant.uasset'
+[2020.06.27-01.19.33:499][424]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2020.06.27-01.19.33:552][424]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2020.06.27-01.19.33:593][424]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2020.06.27-01.19.33:683][424]AssetCheck: New page: Asset Save: AIC_Mutant
+[2020.06.27-01.19.33:684][424]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/AIC_Mutant.AIC_Mutant
+[2020.06.27-01.19.40:211][704]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.27-01.20.07:768][389]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2020.06.27-01.20.09:433][389]LogSlate: Window 'Delete Assets' being destroyed
+[2020.06.27-01.20.09:635][389]LogUObjectHash: Compacting FUObjectHashTables data took   4.67ms
+[2020.06.27-01.20.09:699][389]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2020.06.27-01.20.09:745][389]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.06.27-01.20.30:037][470]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.06.27-01.20.42:839][866]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.27-01.20.45:732][ 12]BlueprintLog: New page: Compile BP_MutantAI
+[2020.06.27-01.20.46:219][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2020.06.27-01.20.46:426][ 12]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAIF485255C47C0B89B0C189B992AF1A681.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.uasset'
+[2020.06.27-01.20.46:442][ 12]AssetCheck: New page: Asset Save: BP_MutantAI
+[2020.06.27-01.20.46:442][ 12]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.20.47:243][ 43]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAI2DA3A54E4CB2FC2E5759F7BD740889D8.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.uasset'
+[2020.06.27-01.20.47:258][ 43]AssetCheck: New page: Asset Save: BP_MutantAI
+[2020.06.27-01.20.47:258][ 43]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.25.28:873][782]BlueprintLog: New page: Compile BP_MutantAI
+[2020.06.27-01.25.29:395][782]LogUObjectHash: Compacting FUObjectHashTables data took   6.88ms
+[2020.06.27-01.25.29:666][782]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAIE700180F4EE16FBC371A90BE68CE09F8.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.uasset'
+[2020.06.27-01.25.29:685][782]AssetCheck: New page: Asset Save: BP_MutantAI
+[2020.06.27-01.25.29:685][782]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.25.30:362][801]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAI54E826C74A77917AA2CFD69B18800A2A.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.uasset'
+[2020.06.27-01.25.30:378][801]AssetCheck: New page: Asset Save: BP_MutantAI
+[2020.06.27-01.25.30:378][801]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.27.24:040][296]BlueprintLog: New page: Compile BP_MutantAI
+[2020.06.27-01.27.24:404][296]LogUObjectHash: Compacting FUObjectHashTables data took   4.65ms
+[2020.06.27-01.27.24:964][309]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAI73BD979742BD5AFF41512B8D289C9770.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.uasset'
+[2020.06.27-01.27.24:981][309]AssetCheck: New page: Asset Save: BP_MutantAI
+[2020.06.27-01.27.24:981][309]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.27.57:127][932]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BPI_AI.BPI_AI
+[2020.06.27-01.28.23:177][626]LogSlate: Took 0.009119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.06.27-01.28.28:992][956]LogUObjectHash: Compacting FUObjectHashTables data took   5.13ms
+[2020.06.27-01.28.28:994][956]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Julian/JLevels/TestMap' took 0.051
+[2020.06.27-01.28.28:996][956]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Julian/Enemies/Mutant/MutantAI/AIC_Mutant] ([1] browsable assets)...
+[2020.06.27-01.28.28:996][956]OBJ SavePackage: Finished generating thumbnails for package [/Game/Julian/Enemies/Mutant/MutantAI/AIC_Mutant]
+[2020.06.27-01.28.29:019][956]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/AIC_Mutant_Auto33864CD9F4F82B47A620416A3A2982A23.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/Enemies/Mutant/MutantAI/AIC_Mutant_Auto3.uasset'
+[2020.06.27-01.28.29:021][956]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Julian/Enemies/Mutant/MutantAI/BPI_AI] ([1] browsable assets)...
+[2020.06.27-01.28.29:021][956]OBJ SavePackage: Finished generating thumbnails for package [/Game/Julian/Enemies/Mutant/MutantAI/BPI_AI]
+[2020.06.27-01.28.29:039][956]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BPI_AI_Auto3AABDD007491C0C4051AC1883EC4ABC7B.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/Enemies/Mutant/MutantAI/BPI_AI_Auto3.uasset'
+[2020.06.27-01.28.29:040][956]LogFileHelpers: Auto-saving content packages took 0.047
+[2020.06.27-01.28.33:667][229]BlueprintLog: New page: Compile BPI_AI
+[2020.06.27-01.28.33:722][229]LogUObjectHash: Compacting FUObjectHashTables data took   5.26ms
+[2020.06.27-01.28.33:781][229]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BPI_AI08FD166A4110E0DF271E58AFFBBBD5D6.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/BPI_AI.uasset'
+[2020.06.27-01.28.33:815][229]AssetCheck: New page: Asset Save: BPI_AI
+[2020.06.27-01.28.33:815][229]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BPI_AI.BPI_AI
+[2020.06.27-01.28.34:397][255]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BPI_AIA126229D42E1E70416CAD2AAB24325BF.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/BPI_AI.uasset'
+[2020.06.27-01.28.34:411][255]AssetCheck: New page: Asset Save: BPI_AI
+[2020.06.27-01.28.34:411][255]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BPI_AI.BPI_AI
+[2020.06.27-01.29.35:543][941]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.27-01.29.41:699][290]BlueprintLog: New page: Compile BP_MutantAI
+[2020.06.27-01.29.42:225][290]LogUObjectHash: Compacting FUObjectHashTables data took   5.41ms
+[2020.06.27-01.29.42:449][290]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAIC3B2AFB14E6C311CFC128881E50B3B80.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.uasset'
+[2020.06.27-01.29.42:467][290]AssetCheck: New page: Asset Save: BP_MutantAI
+[2020.06.27-01.29.42:467][290]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.29.43:409][328]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAIF37C50A24041579290B8B48FFD846242.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.uasset'
+[2020.06.27-01.29.43:427][328]AssetCheck: New page: Asset Save: BP_MutantAI
+[2020.06.27-01.29.43:427][328]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.30.50:972][163]BlueprintLog: New page: Compile BP_MutantAI
+[2020.06.27-01.30.51:417][163]LogUObjectHash: Compacting FUObjectHashTables data took   5.74ms
+[2020.06.27-01.30.51:653][163]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAIEA62B17F462413423A11DAA49AD60661.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.uasset'
+[2020.06.27-01.30.51:674][163]AssetCheck: New page: Asset Save: BP_MutantAI
+[2020.06.27-01.30.51:674][163]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.30.52:117][174]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAI26C0A7AA4A0146AF21D69987C08141A9.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.uasset'
+[2020.06.27-01.30.52:141][174]AssetCheck: New page: Asset Save: BP_MutantAI
+[2020.06.27-01.30.52:141][174]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.31.17:188][549]BlueprintLog: New page: Compile BP_MutantAI
+[2020.06.27-01.31.17:654][549]LogUObjectHash: Compacting FUObjectHashTables data took   7.09ms
+[2020.06.27-01.31.17:871][549]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAIBDD0B9FD42CDEACA8C1DEBB638B050AA.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.uasset'
+[2020.06.27-01.31.17:888][549]AssetCheck: New page: Asset Save: BP_MutantAI
+[2020.06.27-01.31.17:888][549]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.31.18:282][555]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAIA1063D634B0B8755286573AF50540CA1.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.uasset'
+[2020.06.27-01.31.18:300][555]AssetCheck: New page: Asset Save: BP_MutantAI
+[2020.06.27-01.31.18:301][555]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.32.46:688][185]BlueprintLog: New page: Compile BP_MutantAI
+[2020.06.27-01.32.47:159][185]LogUObjectHash: Compacting FUObjectHashTables data took   4.84ms
+[2020.06.27-01.32.47:399][185]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAI7A6202D74E78EF0B76AAA18BA3477B70.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.uasset'
+[2020.06.27-01.32.47:418][185]AssetCheck: New page: Asset Save: BP_MutantAI
+[2020.06.27-01.32.47:418][185]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.32.47:898][200]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAI35D15A624755D7539E41CC8CCF97E629.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.uasset'
+[2020.06.27-01.32.47:913][200]AssetCheck: New page: Asset Save: BP_MutantAI
+[2020.06.27-01.32.47:913][200]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.33.31:135][923]BlueprintLog: New page: Compile BP_MutantAI
+[2020.06.27-01.33.31:520][923]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
+[2020.06.27-01.33.31:724][923]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAID97DD87C4FAD80ACA28B8A8CBA5CFDC6.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.uasset'
+[2020.06.27-01.33.31:741][923]AssetCheck: New page: Asset Save: BP_MutantAI
+[2020.06.27-01.33.31:741][923]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.33.32:353][943]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAI8856899547E129C22EC49D9A144C93E2.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.uasset'
+[2020.06.27-01.33.32:371][943]AssetCheck: New page: Asset Save: BP_MutantAI
+[2020.06.27-01.33.32:371][943]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.33.45:240][339]BlueprintLog: New page: Compile BP_MutantAI
+[2020.06.27-01.33.45:719][339]LogUObjectHash: Compacting FUObjectHashTables data took   5.82ms
+[2020.06.27-01.33.45:922][339]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAI707E1A494216728089A5EBAB447AB010.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.uasset'
+[2020.06.27-01.33.45:940][339]AssetCheck: New page: Asset Save: BP_MutantAI
+[2020.06.27-01.33.45:940][339]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.33.46:451][351]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAIEE8A881247C89AB820B541B23C7A94CA.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.uasset'
+[2020.06.27-01.33.46:473][351]AssetCheck: New page: Asset Save: BP_MutantAI
+[2020.06.27-01.33.46:473][351]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.34.53:095][162]LogEditorTransaction: Undo Delete current selection
+[2020.06.27-01.38.36:011][487]LogUObjectHash: Compacting FUObjectHashTables data took   8.64ms
+[2020.06.27-01.38.36:012][487]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Julian/JLevels/TestMap' took 0.056
+[2020.06.27-01.38.36:012][487]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI] ([1] browsable assets)...
+[2020.06.27-01.38.36:043][487]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI]
+[2020.06.27-01.38.36:044][487]OBJ SavePackage: Finished generating thumbnails for package [/Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI]
+[2020.06.27-01.38.36:175][487]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAI_Auto4B225D02943676F4177AF37832CECAC7F.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI_Auto4.uasset'
+[2020.06.27-01.38.36:178][487]LogFileHelpers: Auto-saving content packages took 0.165
+[2020.06.27-01.38.39:823][694]BlueprintLog: New page: Compile BP_MutantAI
+[2020.06.27-01.38.39:831][694]LogBlueprint: Error: [Compiler BP_MutantAI] This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2020.06.27-01.38.40:339][694]LogUObjectHash: Compacting FUObjectHashTables data took   4.64ms
+[2020.06.27-01.39.30:401][434]BlueprintLog: New page: Compile BP_MutantAI
+[2020.06.27-01.39.30:406][434]LogBlueprint: Error: [Compiler BP_MutantAI] This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2020.06.27-01.39.30:845][434]LogUObjectHash: Compacting FUObjectHashTables data took   5.15ms
+[2020.06.27-01.39.31:773][470]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAI9F83A95446B8F207C1A62597DDA3620B.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.uasset'
+[2020.06.27-01.39.31:805][470]AssetCheck: New page: Asset Save: BP_MutantAI
+[2020.06.27-01.39.31:805][470]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.41.54:279][793]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Julian/Enemies/Mutant/MutantAI/AIC_Mutant.AIC_Mutant
+[2020.06.27-01.43.21:059][558]BlueprintLog: New page: Compile AIC_Mutant
+[2020.06.27-01.43.21:063][558]LogBlueprint: Error: [Compiler AIC_Mutant] This blueprint (self) is not a BPI_AI_C, therefore ' Target ' must have a connection.
+[2020.06.27-01.43.21:588][558]LogUObjectHash: Compacting FUObjectHashTables data took   7.06ms
+[2020.06.27-01.43.42:240][764]BlueprintLog: New page: Compile AIC_Mutant
+[2020.06.27-01.43.42:247][764]LogBlueprint: Error: [Compiler AIC_Mutant] This blueprint (self) is not a BPI_AI_C, therefore ' Target ' must have a connection.
+[2020.06.27-01.43.42:762][764]LogUObjectHash: Compacting FUObjectHashTables data took   5.86ms
+[2020.06.27-01.44.15:342][384]BlueprintLog: New page: Compile AIC_Mutant
+[2020.06.27-01.44.15:346][384]LogBlueprint: Error: [Compiler AIC_Mutant] Message node  Go to Location  must have a valid target or reference to self.
+[2020.06.27-01.44.15:842][384]LogUObjectHash: Compacting FUObjectHashTables data took   6.22ms
+[2020.06.27-01.44.18:050][507]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/AIC_Mutant13C1A89344B808AF2797E5B0DDB1228B.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/AIC_Mutant.uasset'
+[2020.06.27-01.44.18:075][507]AssetCheck: New page: Asset Save: AIC_Mutant
+[2020.06.27-01.44.18:075][507]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/AIC_Mutant.AIC_Mutant
+[2020.06.27-01.45.11:691][ 81]BlueprintLog: New page: Compile AIC_Mutant
+[2020.06.27-01.45.11:692][ 81]LogBlueprint: Error: [Compiler AIC_Mutant] Message node  Go to Location  must have a valid target or reference to self.
+[2020.06.27-01.45.12:192][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   5.87ms
+[2020.06.27-01.45.12:867][111]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/AIC_Mutant08B112DC4BBCAA3FFEEC4D8C00FFC992.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/AIC_Mutant.uasset'
+[2020.06.27-01.45.12:889][111]AssetCheck: New page: Asset Save: AIC_Mutant
+[2020.06.27-01.45.12:889][111]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/AIC_Mutant.AIC_Mutant
+[2020.06.27-01.45.44:989][810]BlueprintLog: New page: Compile AIC_Mutant
+[2020.06.27-01.45.44:990][810]LogBlueprint: Error: [Compiler AIC_Mutant] Message node  Go to Location  must have a valid target or reference to self.
+[2020.06.27-01.45.45:411][810]LogUObjectHash: Compacting FUObjectHashTables data took   4.97ms
+[2020.06.27-01.45.46:116][844]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/AIC_Mutant0AE650544911A1A0119037A9AA0F9F19.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/AIC_Mutant.uasset'
+[2020.06.27-01.45.46:134][844]AssetCheck: New page: Asset Save: AIC_Mutant
+[2020.06.27-01.45.46:134][844]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/AIC_Mutant.AIC_Mutant
+[2020.06.27-01.46.12:706][404]BlueprintLog: New page: Compile AIC_Mutant
+[2020.06.27-01.46.12:708][404]LogBlueprint: Error: [Compiler AIC_Mutant] Message node  Go to Location  must have a valid target or reference to self.
+[2020.06.27-01.46.13:215][404]LogUObjectHash: Compacting FUObjectHashTables data took   5.69ms
+[2020.06.27-01.46.14:523][472]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/AIC_Mutant094689984BFA3D5AFADEE684662B05A3.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/AIC_Mutant.uasset'
+[2020.06.27-01.46.14:542][472]AssetCheck: New page: Asset Save: AIC_Mutant
+[2020.06.27-01.46.14:542][472]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/AIC_Mutant.AIC_Mutant
+[2020.06.27-01.47.54:509][959]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.27-01.48.03:289][483]BlueprintLog: New page: Compile AIC_Mutant
+[2020.06.27-01.48.03:291][483]LogBlueprint: Error: [Compiler AIC_Mutant] Message node  Go to Location  must have a valid target or reference to self.
+[2020.06.27-01.48.03:704][483]LogUObjectHash: Compacting FUObjectHashTables data took   5.15ms
+[2020.06.27-01.48.05:443][578]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/AIC_Mutant892D00094A7518BB10582DB5D0E6118C.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/AIC_Mutant.uasset'
+[2020.06.27-01.48.05:459][578]AssetCheck: New page: Asset Save: AIC_Mutant
+[2020.06.27-01.48.05:459][578]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/AIC_Mutant.AIC_Mutant
+[2020.06.27-01.48.29:640][989]BlueprintLog: New page: Compile AIC_Mutant
+[2020.06.27-01.48.30:107][989]LogUObjectHash: Compacting FUObjectHashTables data took   5.76ms
+[2020.06.27-01.48.30:203][989]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/AIC_MutantAE5389F64E8D1AB67261A79E4467D7B2.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/AIC_Mutant.uasset'
+[2020.06.27-01.48.30:222][989]AssetCheck: New page: Asset Save: AIC_Mutant
+[2020.06.27-01.48.30:222][989]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/AIC_Mutant.AIC_Mutant
+[2020.06.27-01.48.31:002][ 27]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/AIC_Mutant31E62B3144818FCDAB812E9756ACFAAA.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/AIC_Mutant.uasset'
+[2020.06.27-01.48.31:020][ 27]AssetCheck: New page: Asset Save: AIC_Mutant
+[2020.06.27-01.48.31:020][ 27]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/AIC_Mutant.AIC_Mutant
+[2020.06.27-01.48.38:632][419]LogEditorViewport: Clicking on Actor (LMB): BP_JGasMask_C (BP_JGasMask)
+[2020.06.27-01.48.51:856][922]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.27-01.48.51:947][922]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.06.27-01.48.51:948][922]LogPlayLevel: [PlayLevel] Compiling BP_MutantAI before play...
+[2020.06.27-01.48.52:625][922]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_MutantAI957ED8BC42FABD9BC599A3BBE50527FA.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.uasset'
+[2020.06.27-01.48.52:700][922]LogUObjectHash: Compacting FUObjectHashTables data took   6.43ms
+[2020.06.27-01.48.52:702][922]LogPlayLevel: PlayLevel: Blueprint regeneration took 754 ms (1 blueprints)
+[2020.06.27-01.48.52:717][922]PIE: New page: PIE session: TestMap (Jun. 26, 2020, 5:48:52 p.m.)
+[2020.06.27-01.48.52:725][922]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.27-01.48.53:094][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.368911s)
+[2020.06.27-01.48.53:102][922]LogAIModule: Creating AISystem for world TestMap
+[2020.06.27-01.48.53:110][922]LogPlayLevel: PIE: World Init took: (0.015535s)
+[2020.06.27-01.48.53:110][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.384754s)
+[2020.06.27-01.48.53:184][922]LogUObjectHash: Compacting FUObjectHashTables data took   5.74ms
+[2020.06.27-01.48.53:192][922]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.27-01.48.53:193][922]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.27-01.48.53:193][922]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.27-01.48.53:193][922]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.27-01.48.53:193][922]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.27-01.48.53:193][922]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.27-01.48.53:193][922]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.27-01.48.53:193][922]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.27-01.48.53:199][922]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.27-01.48.53:200][922]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.27-01.48.53:209][922]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.27-01.48.53:209][922]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.27-01.48.53:209][922]LogAudioMixer: Display: Is Default: Yes
+[2020.06.27-01.48.53:209][922]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.27-01.48.53:209][922]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.27-01.48.53:209][922]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.27-01.48.53:209][922]LogAudioMixer: Display: Channel Order:
+[2020.06.27-01.48.53:209][922]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.27-01.48.53:209][922]LogAudioMixer: Display: 1: FrontRight
+[2020.06.27-01.48.53:334][922]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.27-01.48.53:350][922]LogInit: FAudioDevice initialized.
+[2020.06.27-01.48.53:391][922]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.27-01.48.53:463][922]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.26-21.48.53
+[2020.06.27-01.48.53:482][922]LogWorld: Bringing up level for play took: 0.071914
+[2020.06.27-01.48.53:494][922]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2020.06.27-01.48.53:532][922]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.27-01.48.53:532][922]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.27-01.48.53:577][922]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.916
+[2020.06.27-01.48.53:640][923]AssetCheck: New page: Asset Save: BP_MutantAI
+[2020.06.27-01.48.53:640][923]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/Mutant/MutantAI/BP_MutantAI.BP_MutantAI
+[2020.06.27-01.49.02:334][429]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.27-01.49.02:335][429]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.27-01.49.02:355][429]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.27-01.49.02:363][429]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.27-01.49.02:364][429]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.27-01.49.02:369][429]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.27-01.49.02:371][429]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.27-01.49.02:380][429]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.27-01.49.02:419][429]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.27-01.49.02:428][429]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.27-01.49.02:515][429]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.27-01.49.02:523][429]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.27-01.49.02:564][429]LogUObjectHash: Compacting FUObjectHashTables data took   5.64ms
+[2020.06.27-01.49.02:799][430]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2020.06.27-01.49.04:554][488]LogSlate: Window 'Message Log' being destroyed
+[2020.06.27-01.49.04:584][488]LogSlate: Window 'Message Log' being destroyed
+[2020.06.27-01.49.05:761][540]LogEditorViewport: Clicking on Actor (LMB): BP_MutantAI_C (BP_MutantAI)
+[2020.06.27-01.49.18:015][ 82]LogRenderer: Reallocating scene render targets to support 752x476 Format 10 NumSamples 1 (Frame:8545).
+[2020.06.27-01.49.57:387][925]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2020.06.27-01.49.57:636][925]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap_Auto52FD6D123427D45070876E5BC3186505A.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/JLevels/TestMap_Auto5.umap'
+[2020.06.27-01.49.57:648][925]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Julian/JLevels/TestMap' took 0.332
+[2020.06.27-01.49.57:648][925]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.332
+[2020.06.27-01.50.31:443][159]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.27-01.50.31:500][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.27-01.50.31:500][159]PIE: New page: PIE session: TestMap (Jun. 26, 2020, 5:50:31 p.m.)
+[2020.06.27-01.50.31:501][159]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.27-01.50.31:624][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.122763s)
+[2020.06.27-01.50.31:626][159]LogAIModule: Creating AISystem for world TestMap
+[2020.06.27-01.50.31:627][159]LogPlayLevel: PIE: World Init took: (0.002959s)
+[2020.06.27-01.50.31:627][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.125956s)
+[2020.06.27-01.50.31:673][159]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2020.06.27-01.50.31:676][159]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.27-01.50.31:676][159]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.27-01.50.31:676][159]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.27-01.50.31:676][159]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.27-01.50.31:676][159]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.27-01.50.31:676][159]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.27-01.50.31:676][159]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.27-01.50.31:676][159]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.27-01.50.31:676][159]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.27-01.50.31:676][159]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.27-01.50.31:681][159]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.27-01.50.31:681][159]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.06.27-01.50.31:681][159]LogAudioMixer: Display: Is Default: Yes
+[2020.06.27-01.50.31:681][159]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.27-01.50.31:681][159]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.27-01.50.31:681][159]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.27-01.50.31:681][159]LogAudioMixer: Display: Channel Order:
+[2020.06.27-01.50.31:681][159]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.27-01.50.31:681][159]LogAudioMixer: Display: 1: FrontRight
+[2020.06.27-01.50.31:801][159]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.06.27-01.50.31:803][159]LogInit: FAudioDevice initialized.
+[2020.06.27-01.50.31:815][159]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.06.27-01.50.31:819][159]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.26-21.50.31
+[2020.06.27-01.50.31:821][159]LogWorld: Bringing up level for play took: 0.004690
+[2020.06.27-01.50.31:821][159]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2020.06.27-01.50.31:823][159]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.27-01.50.31:823][159]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.06.27-01.50.31:827][159]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 1.166
+[2020.06.27-01.50.37:383][457]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.27-01.50.37:385][457]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.27-01.50.37:416][457]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.27-01.50.37:418][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.27-01.50.37:418][457]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.06.27-01.50.37:418][457]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.27-01.50.37:419][457]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.27-01.50.37:422][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.27-01.50.37:455][457]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.27-01.50.37:467][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.27-01.50.37:513][457]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.27-01.50.37:519][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.27-01.50.37:530][457]LogUObjectHash: Compacting FUObjectHashTables data took   5.93ms
+[2020.06.27-01.50.37:709][458]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2020.06.27-01.50.38:966][498]LogSlate: Window 'Message Log' being destroyed
+[2020.06.27-01.50.38:998][498]LogSlate: Window 'Message Log' being destroyed
+[2020.06.27-01.50.40:830][551]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.06.27-01.50.42:219][551]LogSlate: Window 'Save Content' being destroyed
+[2020.06.27-01.50.42:337][551]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.06.27-01.50.42:513][551]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap3E6D6ACC488F3C26A59FB696FFCD3C20.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JLevels/TestMap.umap'
+[2020.06.27-01.50.42:578][551]LogFileHelpers: Saving map 'TestMap' took 0.314
+[2020.06.27-01.50.42:597][551]AssetCheck: New page: Asset Save: TestMap
+[2020.06.27-01.50.42:597][551]LogContentValidation: Display: Validating World /Game/Julian/JLevels/TestMap.TestMap
