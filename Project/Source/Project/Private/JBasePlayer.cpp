@@ -14,6 +14,7 @@
 #include "Sound/SoundCue.h"
 #include "PickupVault.h"
 #include "JFollowEnemy.h"
+#include "Mutant.h"
 #include "Animation/AnimInstance.h"
 #include "JSaveGame.h"
 #include "Math/UnrealMathUtility.h"
@@ -300,6 +301,7 @@ float AJBasePlayer::TakeDamage(float DamageAmount, FDamageEvent const& DamageEve
 
 		if (DamageCauser)
 		{
+
 			AJFollowEnemy* FEnemy = Cast<AJFollowEnemy>(DamageCauser);
 			if (FEnemy)
 			{
@@ -565,20 +567,20 @@ void AJBasePlayer::FightGoalUpdate()
 //	CanKill = false;
 //}
 
-void AJBasePlayer::StealthKill()
-{
-	
-	if (CanKill)
-	{
-		UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
-		AnimationInst->Montage_JumpToSection(FName("SKill"), FightMontage);
-	}
-}
+//void AJBasePlayer::StealthKill()
+//{
+//	
+//	if (CanKill)
+//	{
+//		UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
+//		AnimationInst->Montage_JumpToSection(FName("SKill"), FightMontage);
+//	}
+//}
 
 void AJBasePlayer::KUp()
 {
 	IsKDown = false;
-	CanPerformKill = false;
+	/*CanPerformKill = false;*/
 	
 }
 	
@@ -587,10 +589,10 @@ void AJBasePlayer::KDown()
 {
 	
 	IsKDown = true;
-	if (IsKDown && CanKill) {
+	/*if (IsKDown && CanKill) {
 
 		CanPerformKill = true;
-	}
+	}*/
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("K"));
 	//StealthKill();
 }

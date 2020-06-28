@@ -21,6 +21,15 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Data")
 	float MaxHp;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Data")
+	bool IsDeseased;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+	float Damage;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Fight")
+		class UAnimMontage* FightMontage;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -31,5 +40,10 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent,
+		class AController* EventInstigator, AActor* DamageCauser) override;
+
+	void Death(AActor* DamageMaker);
 
 };

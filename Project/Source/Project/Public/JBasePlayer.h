@@ -251,8 +251,8 @@ public:
 	//	void SKillBoxOnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 	//		UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
-	UFUNCTION()
-	void StealthKill();
+	/*UFUNCTION()
+	void StealthKill();*/
 
 	UFUNCTION()
 	void KUp();
