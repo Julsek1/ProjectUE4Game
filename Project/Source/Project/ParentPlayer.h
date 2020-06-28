@@ -19,7 +19,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -28,9 +28,11 @@ public:
 
 	UFUNCTION()
 		virtual void Heal(float HealingAmount);
-
+	//Health
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		float Health = 1.f;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		bool bDamageImmune = false;
 
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
 

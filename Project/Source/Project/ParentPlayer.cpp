@@ -46,7 +46,10 @@ void AParentPlayer::Heal(float HealingAmount)
 
 void AParentPlayer::GetHit(float Damage)
 {
-	Health -= Damage;
+	if (!bDamageImmune)
+	{
+		Health -= Damage;
+	}
 }
 
 float AParentPlayer::TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser)

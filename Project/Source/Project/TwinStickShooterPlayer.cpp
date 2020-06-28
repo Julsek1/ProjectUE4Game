@@ -379,7 +379,7 @@ void ATwinStickShooterPlayer::StartGrenadeThrow()
 
 		if (GrenadeThrowAnimation)
 		{
-			GrenadeThrowTime = GrenadeThrowAnimation->SequenceLength/GrenadeThrowAnimation->RateScale;
+			GrenadeThrowTime = GrenadeThrowAnimation->SequenceLength / GrenadeThrowAnimation->RateScale;
 			GetWorldTimerManager().SetTimer(ThrowAnimationTimerHandle, this, &ATwinStickShooterPlayer::EndGrenadeThrow, GrenadeThrowTime, false);
 			GetWorldTimerManager().SetTimer(GrenadeThrowTimerHandle, this, &ATwinStickShooterPlayer::ThrowGrenade, 0.7 * GrenadeThrowTime, false);
 			GetMesh()->GetAnimInstance()->Montage_Play(GrenadeThrowAnimation);
@@ -419,13 +419,34 @@ void ATwinStickShooterPlayer::RestoreGrenade()
 
 void ATwinStickShooterPlayer::Dash()
 {
-	FVector DashVelocity;
-	FVector VerticaldDirection = GetInputAxisValue("TSForward") * DashForce * FVector(1,0,0);
-	FVector HorizontalDirection = GetInputAxisValue("TSRight") * DashForce * FVector(0,1,0);
+	if (bCanDash)
+	{
+		bCanDash = false;
+		DisableLaserSight(DashCooldown);
+		GetWorldTimerManager().SetTimer(DashTimerHandle, this, &ATwinStickShooterPlayer::RestoreDash, DashCooldown, false);
+		GetWorldTimerManager().SetTimer(DashImmunityTimerHandle, this, &ATwinStickShooterPlayer::DashImmunityEnded, DashImmunityDuration, false);
+		
+		FVector DashVelocity;
+		FVector VerticaldDirection = GetInputAxisValue("TSForward") * DashForce * FVector(1, 0, 0);
+		FVector HorizontalDirection = GetInputAxisValue("TSRight") * DashForce * FVector(0, 1, 0);
 
-	DashVelocity = VerticaldDirection + HorizontalDirection;
+		DashVelocity = VerticaldDirection + HorizontalDirection;
 
-	LaunchCharacter(DashVelocity, true, true);
+		LaunchCharacter(DashVelocity, true, true);
+
+		bDamageImmune = true;
+	}
+}
+
+void ATwinStickShooterPlayer::RestoreDash()
+{
+	GetWorldTimerManager().ClearTimer(DashTimerHandle);
+	bCanDash = true;
+}
+
+void ATwinStickShooterPlayer::DashImmunityEnded()
+{
+	bDamageImmune = false;
 }
 
 bool ATwinStickShooterPlayer::CanPerformActions()
