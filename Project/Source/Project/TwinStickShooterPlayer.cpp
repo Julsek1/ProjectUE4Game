@@ -178,6 +178,7 @@ void ATwinStickShooterPlayer::SetupPlayerInputComponent(UInputComponent* PlayerI
 	PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &ATwinStickShooterPlayer::Reload);
 	PlayerInputComponent->BindAction("TSMelee", IE_Pressed, this, &ATwinStickShooterPlayer::MeleeAttack);
 	PlayerInputComponent->BindAction("TSGrenade", IE_Pressed, this, &ATwinStickShooterPlayer::StartGrenadeThrow);
+	PlayerInputComponent->BindAction("TSDash", IE_Pressed, this, &ATwinStickShooterPlayer::Dash);
 }
 
 void ATwinStickShooterPlayer::MoveForward(float Vertical)
@@ -414,6 +415,17 @@ void ATwinStickShooterPlayer::RestoreGrenade()
 {
 	GetWorldTimerManager().ClearTimer(GrenadeCooldownTimerHandle);
 	bGrenadeOnCooldown = false;
+}
+
+void ATwinStickShooterPlayer::Dash()
+{
+	FVector DashVelocity;
+	FVector VerticaldDirection = GetInputAxisValue("TSForward") * DashForce * FVector(1,0,0);
+	FVector HorizontalDirection = GetInputAxisValue("TSRight") * DashForce * FVector(0,1,0);
+
+	DashVelocity = VerticaldDirection + HorizontalDirection;
+
+	LaunchCharacter(DashVelocity, true, true);
 }
 
 bool ATwinStickShooterPlayer::CanPerformActions()

@@ -145,6 +145,10 @@ public:
 	void EndGrenadeThrow();
 	FTimerHandle ThrowAnimationTimerHandle;
 
+	//Dash
+	float DashForce = 2500.f;
+	void Dash();
+
 	//Actions
 	UFUNCTION(BlueprintCallable)
 		bool CanPerformActions();
