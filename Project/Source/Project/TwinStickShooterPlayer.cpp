@@ -419,18 +419,23 @@ void ATwinStickShooterPlayer::RestoreGrenade()
 
 void ATwinStickShooterPlayer::Dash()
 {
-	if (bCanDash)
+	if (bCanDash && !bIsFiring)
 	{
 		bCanDash = false;
+		//bIsFiring = false;
+
 		DisableLaserSight(DashCooldown);
+
 		GetWorldTimerManager().SetTimer(DashTimerHandle, this, &ATwinStickShooterPlayer::RestoreDash, DashCooldown, false);
 		GetWorldTimerManager().SetTimer(DashImmunityTimerHandle, this, &ATwinStickShooterPlayer::DashImmunityEnded, DashImmunityDuration, false);
+		GetWorldTimerManager().SetTimer(DashRecoveryTimerHandle, this, &ATwinStickShooterPlayer::RecoverFromDash, DashRecoveryTime, false);
 		
-		FVector DashVelocity;
+		DisableInput(UGameplayStatics::GetPlayerController(this, 0));
+
 		FVector VerticaldDirection = GetInputAxisValue("TSForward") * DashForce * FVector(1, 0, 0);
 		FVector HorizontalDirection = GetInputAxisValue("TSRight") * DashForce * FVector(0, 1, 0);
 
-		DashVelocity = VerticaldDirection + HorizontalDirection;
+		FVector DashVelocity = VerticaldDirection + HorizontalDirection;
 
 		LaunchCharacter(DashVelocity, true, true);
 
@@ -446,8 +451,16 @@ void ATwinStickShooterPlayer::RestoreDash()
 
 void ATwinStickShooterPlayer::DashImmunityEnded()
 {
+	GetWorldTimerManager().ClearTimer(DashImmunityTimerHandle);
 	bDamageImmune = false;
 }
+
+void ATwinStickShooterPlayer::RecoverFromDash()
+{
+	GetWorldTimerManager().ClearTimer(DashRecoveryTimerHandle);
+	EnableInput(UGameplayStatics::GetPlayerController(this, 0));
+}
+
 
 bool ATwinStickShooterPlayer::CanPerformActions()
 {

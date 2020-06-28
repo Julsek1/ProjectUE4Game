@@ -146,19 +146,22 @@ public:
 	FTimerHandle ThrowAnimationTimerHandle;
 
 	//Dash
-	float DashForce = 2500.f;
+	float DashForce = 4000.f;
 	void Dash();
 	bool bCanDash = true;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		FTimerHandle DashTimerHandle;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		float DashCooldown = 1.f;
+		float DashCooldown = 2.f;
 	void RestoreDash();
 
 	FTimerHandle DashImmunityTimerHandle;
-
-	float DashImmunityDuration = 0.25f;
+	float DashImmunityDuration = 0.2f;
 	void DashImmunityEnded();
+
+	FTimerHandle DashRecoveryTimerHandle;
+	float DashRecoveryTime =DashImmunityDuration;
+	void RecoverFromDash();
 
 	//Actions
 	UFUNCTION(BlueprintCallable)
