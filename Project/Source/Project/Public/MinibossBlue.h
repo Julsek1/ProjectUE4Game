@@ -5,6 +5,8 @@
 #include "CoreMinimal.h"
 #include "Miniboss.h"
 #include "MinibossBlueWeapon.h"
+#include "Particles/ParticleSystemComponent.h"
+
 #include "MinibossBlue.generated.h"
 
 /**
@@ -17,6 +19,7 @@ class PROJECT_API AMinibossBlue : public AMiniboss
 
 public:
 	AMinibossBlue();
+	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION(BlueprintCallable)
 		void Fire();
@@ -28,4 +31,11 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UAnimMontage* ReloadAnimation = nullptr;
+
+	//Laser sight
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UParticleSystemComponent* LaserSight = nullptr;
+	void DisableLaserSight(float Duration);
+	void EnableLaserSight();
+	FTimerHandle LaserSightTimerHandle;
 };

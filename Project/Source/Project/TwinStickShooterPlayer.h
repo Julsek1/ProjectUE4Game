@@ -96,7 +96,7 @@ public:
 	/*UFUNCTION(BlueprintCallable)
 		void SwapWeapons();*/
 
-		//Laser sight
+	//Laser sight
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UParticleSystemComponent* LaserSight = nullptr;
 	void DisableLaserSight(float Duration);
