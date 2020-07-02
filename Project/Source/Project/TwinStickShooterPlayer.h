@@ -163,6 +163,10 @@ public:
 	float DashRecoveryTime =DashImmunityDuration;
 	void RecoverFromDash();
 
+	//Interact (only used for miniboss blue pillars)
+	void Interact();
+	float InteractRange = 200.f;
+
 	//Actions
 	UFUNCTION(BlueprintCallable)
 		bool CanPerformActions();

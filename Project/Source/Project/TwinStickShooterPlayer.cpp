@@ -13,6 +13,7 @@
 #include "DamageType_Melee.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
+#include "MinibossLevelPillar.h"
 #include "ParentEnemy.h"
 #include "Perception/AISense_Hearing.h"
 //#include "Shotgun.h"
@@ -179,6 +180,7 @@ void ATwinStickShooterPlayer::SetupPlayerInputComponent(UInputComponent* PlayerI
 	PlayerInputComponent->BindAction("TSMelee", IE_Pressed, this, &ATwinStickShooterPlayer::MeleeAttack);
 	PlayerInputComponent->BindAction("TSGrenade", IE_Pressed, this, &ATwinStickShooterPlayer::StartGrenadeThrow);
 	PlayerInputComponent->BindAction("TSDash", IE_Pressed, this, &ATwinStickShooterPlayer::Dash);
+	PlayerInputComponent->BindAction("TSInteract", IE_Pressed, this, &ATwinStickShooterPlayer::Interact);
 }
 
 void ATwinStickShooterPlayer::MoveForward(float Vertical)
@@ -476,4 +478,22 @@ bool ATwinStickShooterPlayer::CanPerformActions()
 	}
 
 	return bCanPerformActions;
+}
+
+void ATwinStickShooterPlayer::Interact()
+{
+	//single line ray trace
+	FHitResult OutHit;
+	FVector Start = GetActorLocation();
+	FVector ForwardVector = GetActorForwardVector();
+
+	FVector End = ForwardVector * InteractRange + Start;
+	FCollisionQueryParams CollisionParams;
+
+	GetWorld()->LineTraceSingleByChannel(OUT OutHit, Start, End, ECollisionChannel(ECC_Visibility), CollisionParams);
+
+	if (Cast<AMinibossLevelPillar>(OutHit.GetActor()))
+	{
+		Cast<AMinibossLevelPillar>(OutHit.GetActor())->PlantExplosive();
+	}
 }
