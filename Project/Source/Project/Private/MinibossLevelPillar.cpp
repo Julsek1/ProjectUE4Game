@@ -3,13 +3,14 @@
 
 #include "MinibossLevelPillar.h"
 #include "Kismet/GameplayStatics.h"
+#include "ToggleableActor.h"
 
 
 // Sets default values
 AMinibossLevelPillar::AMinibossLevelPillar()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	//PrimaryActorTick.bCanEverTick = true;
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	//Collider = CreateDefaultSubobject<UBoxComponent>(TEXT("Collider"));
 	Explosive = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Explosive"));
@@ -36,6 +37,16 @@ void AMinibossLevelPillar::PlantExplosive()
 {
 	Explosive->SetVisibility(true);
 	bExplosivePlanted = true;
+
+	/*for (AToggleableActor* Wall : ShortWalls)
+	{
+		Wall->Toggle();
+	}*/
+
+	for (AToggleableActor* Wall : TallWalls)
+	{
+		Wall->Toggle();
+	}
 }
 
 void AMinibossLevelPillar::Explode()

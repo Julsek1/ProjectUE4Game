@@ -8,6 +8,7 @@
 #include "GameFramework/Actor.h"
 #include "Particles/ParticleSystem.h"
 #include "Sound/SoundBase.h"
+
 #include "MinibossLevelPillar.generated.h"
 
 
@@ -44,4 +45,8 @@ public:
 		USoundBase* ExplosionSound;
 	UFUNCTION(BlueprintCallable)
 		void Explode();
+	/*UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<class AToggleableActor*> ShortWalls;*/
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<class AToggleableActor*> TallWalls;
 };
