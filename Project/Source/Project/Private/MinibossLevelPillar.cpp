@@ -9,7 +9,7 @@
 // Sets default values
 AMinibossLevelPillar::AMinibossLevelPillar()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	//PrimaryActorTick.bCanEverTick = true;
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	//Collider = CreateDefaultSubobject<UBoxComponent>(TEXT("Collider"));
@@ -38,14 +38,14 @@ void AMinibossLevelPillar::PlantExplosive()
 	Explosive->SetVisibility(true);
 	bExplosivePlanted = true;
 
-	/*for (AToggleableActor* Wall : ShortWalls)
+	if (ToggleOff)
 	{
-		Wall->Toggle();
-	}*/
+		ToggleOff->Toggle();
+	}
 
-	for (AToggleableActor* Wall : TallWalls)
+	if (ToggleOn)
 	{
-		Wall->Toggle();
+		ToggleOn->Toggle();
 	}
 }
 

@@ -48,5 +48,7 @@ public:
 	/*UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TArray<class AToggleableActor*> ShortWalls;*/
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		TArray<class AToggleableActor*> TallWalls;
+		class AToggleableActor* ToggleOff = nullptr;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		class AToggleableActor* ToggleOn = nullptr;
 };

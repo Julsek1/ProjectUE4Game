@@ -165,7 +165,17 @@ void ATwinStickShooterPlayer::Tick(float DeltaTime)
 	}
 
 	//look for interactable actor
-	bFoundInteractablePillar = LookForInteractablePillar() != nullptr;
+	/*if (LookForInteractablePillar())
+	{
+		bFoundInteractablePillar = !LookForInteractablePillar()->bExplosivePlanted;
+	}
+
+	else
+	{
+		bFoundInteractablePillar = false;
+	}*/
+
+	bFoundInteractablePillar = LookForInteractablePillar() != nullptr && !LookForInteractablePillar()->bExplosivePlanted;
 }
 
 // Called to bind functionality to input
@@ -434,7 +444,7 @@ void ATwinStickShooterPlayer::Dash()
 		GetWorldTimerManager().SetTimer(DashTimerHandle, this, &ATwinStickShooterPlayer::RestoreDash, DashCooldown, false);
 		GetWorldTimerManager().SetTimer(DashImmunityTimerHandle, this, &ATwinStickShooterPlayer::DashImmunityEnded, DashImmunityDuration, false);
 		GetWorldTimerManager().SetTimer(DashRecoveryTimerHandle, this, &ATwinStickShooterPlayer::RecoverFromDash, DashRecoveryTime, false);
-		
+
 		DisableInput(UGameplayStatics::GetPlayerController(this, 0));
 
 		FVector VerticaldDirection = GetInputAxisValue("TSForward") * DashForce * FVector(1, 0, 0);
