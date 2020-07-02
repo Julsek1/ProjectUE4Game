@@ -163,6 +163,9 @@ void ATwinStickShooterPlayer::Tick(float DeltaTime)
 		LaserSight->SetBeamSourcePoint(0, Start, 0);
 		LaserSight->SetBeamTargetPoint(0, End, 0);
 	}
+
+	//look for interactable actor
+	bFoundInteractablePillar = LookForInteractablePillar() != nullptr;
 }
 
 // Called to bind functionality to input
@@ -482,7 +485,29 @@ bool ATwinStickShooterPlayer::CanPerformActions()
 
 void ATwinStickShooterPlayer::Interact()
 {
-	//single line ray trace
+	////single line ray trace
+	//FHitResult OutHit;
+	//FVector Start = GetActorLocation();
+	//FVector ForwardVector = GetActorForwardVector();
+
+	//FVector End = ForwardVector * InteractRange + Start;
+	//FCollisionQueryParams CollisionParams;
+
+	//GetWorld()->LineTraceSingleByChannel(OUT OutHit, Start, End, ECollisionChannel(ECC_Visibility), CollisionParams);
+
+	//if (Cast<AMinibossLevelPillar>(OutHit.GetActor()))
+	//{
+	//	Cast<AMinibossLevelPillar>(OutHit.GetActor())->PlantExplosive();
+	//}
+
+	if (LookForInteractablePillar())
+	{
+		LookForInteractablePillar()->PlantExplosive();
+	}
+}
+
+AMinibossLevelPillar* ATwinStickShooterPlayer::LookForInteractablePillar()
+{
 	FHitResult OutHit;
 	FVector Start = GetActorLocation();
 	FVector ForwardVector = GetActorForwardVector();
@@ -492,8 +517,5 @@ void ATwinStickShooterPlayer::Interact()
 
 	GetWorld()->LineTraceSingleByChannel(OUT OutHit, Start, End, ECollisionChannel(ECC_Visibility), CollisionParams);
 
-	if (Cast<AMinibossLevelPillar>(OutHit.GetActor()))
-	{
-		Cast<AMinibossLevelPillar>(OutHit.GetActor())->PlantExplosive();
-	}
+	return Cast<AMinibossLevelPillar>(OutHit.GetActor());
 }

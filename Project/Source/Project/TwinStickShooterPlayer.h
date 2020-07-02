@@ -96,7 +96,7 @@ public:
 	/*UFUNCTION(BlueprintCallable)
 		void SwapWeapons();*/
 
-	//Laser sight
+		//Laser sight
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UParticleSystemComponent* LaserSight = nullptr;
 	void DisableLaserSight(float Duration);
@@ -160,12 +160,15 @@ public:
 	void DashImmunityEnded();
 
 	FTimerHandle DashRecoveryTimerHandle;
-	float DashRecoveryTime =DashImmunityDuration;
+	float DashRecoveryTime = DashImmunityDuration;
 	void RecoverFromDash();
 
 	//Interact (only used for miniboss blue pillars)
 	void Interact();
+	class AMinibossLevelPillar* LookForInteractablePillar();
 	float InteractRange = 200.f;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		bool bFoundInteractablePillar = false;
 
 	//Actions
 	UFUNCTION(BlueprintCallable)
