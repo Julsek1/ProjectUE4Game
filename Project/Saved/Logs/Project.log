@@ -1704,3 +1704,750 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.07.03-21.14.12:108][617]LogSlate: Window 'Message Log' being destroyed
 [2020.07.03-21.14.12:147][617]LogSlate: Window 'Message Log' being destroyed
 [2020.07.03-21.14.13:495][660]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2020.07.03-21.16.40:725][270]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.03-21.16.40:776][270]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.03-21.16.40:777][270]PIE: New page: PIE session: TestMap (Jul. 3, 2020, 1:16:40 p.m.)
+[2020.07.03-21.16.40:777][270]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.03-21.16.40:794][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016832s)
+[2020.07.03-21.16.40:795][270]LogAIModule: Creating AISystem for world TestMap
+[2020.07.03-21.16.40:795][270]LogPlayLevel: PIE: World Init took: (0.001118s)
+[2020.07.03-21.16.40:795][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.018112s)
+[2020.07.03-21.16.40:851][270]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2020.07.03-21.16.40:851][270]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.03-21.16.40:851][270]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.03-21.16.40:851][270]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.03-21.16.40:851][270]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.03-21.16.40:851][270]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.03-21.16.40:851][270]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.03-21.16.40:851][270]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.03-21.16.40:851][270]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.03-21.16.40:852][270]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.03-21.16.40:852][270]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.03-21.16.40:856][270]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.03-21.16.40:856][270]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.03-21.16.40:856][270]LogAudioMixer: Display: Is Default: Yes
+[2020.07.03-21.16.40:856][270]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.03-21.16.40:856][270]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.03-21.16.40:856][270]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.03-21.16.40:856][270]LogAudioMixer: Display: Channel Order:
+[2020.07.03-21.16.40:856][270]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.03-21.16.40:856][270]LogAudioMixer: Display: 1: FrontRight
+[2020.07.03-21.16.40:952][270]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.03-21.16.40:954][270]LogInit: FAudioDevice initialized.
+[2020.07.03-21.16.40:970][270]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.03-21.16.40:975][270]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.03-17.16.40
+[2020.07.03-21.16.40:976][270]LogWorld: Bringing up level for play took: 0.005090
+[2020.07.03-21.16.40:976][270]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.07.03-21.16.40:979][270]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.16.40:979][270]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.03-21.16.40:979][270]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.07.03-21.16.40:979][270]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.03-21.16.40:985][270]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap -0.53
+[2020.07.03-21.17.15:375][272]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.03-21.17.15:375][272]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.03-21.17.15:379][272]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.03-21.17.15:380][272]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.03-21.17.15:380][272]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.03-21.17.15:380][272]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.03-21.17.15:381][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.03-21.17.15:392][272]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.03-21.17.15:398][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.03-21.17.15:438][272]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.03-21.17.15:441][272]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.03-21.17.15:446][272]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2020.07.03-21.17.15:606][273]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.07.03-21.17.17:574][336]LogSlate: Window 'Message Log' being destroyed
+[2020.07.03-21.17.17:613][336]LogSlate: Window 'Message Log' being destroyed
+[2020.07.03-21.17.22:147][568]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2020.07.03-21.17.23:477][637]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2020.07.03-21.17.24:338][684]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2020.07.03-21.17.27:574][850]LogEditorViewport: Clicking on Actor (LMB): BP_NPCMutant_C (BP_NPCMutant)
+[2020.07.03-21.17.32:635][113]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.03-21.17.32:699][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.03-21.17.32:699][113]PIE: New page: PIE session: TestMap (Jul. 3, 2020, 1:17:32 p.m.)
+[2020.07.03-21.17.32:700][113]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.03-21.17.32:727][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026951s)
+[2020.07.03-21.17.32:728][113]LogAIModule: Creating AISystem for world TestMap
+[2020.07.03-21.17.32:728][113]LogPlayLevel: PIE: World Init took: (0.001425s)
+[2020.07.03-21.17.32:728][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.028654s)
+[2020.07.03-21.17.32:792][113]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2020.07.03-21.17.32:793][113]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.03-21.17.32:793][113]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.03-21.17.32:793][113]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.03-21.17.32:794][113]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.03-21.17.32:794][113]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.03-21.17.32:794][113]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.03-21.17.32:794][113]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.03-21.17.32:794][113]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.03-21.17.32:794][113]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.03-21.17.32:794][113]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.03-21.17.32:799][113]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.03-21.17.32:799][113]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.03-21.17.32:799][113]LogAudioMixer: Display: Is Default: Yes
+[2020.07.03-21.17.32:799][113]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.03-21.17.32:799][113]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.03-21.17.32:799][113]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.03-21.17.32:799][113]LogAudioMixer: Display: Channel Order:
+[2020.07.03-21.17.32:799][113]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.03-21.17.32:799][113]LogAudioMixer: Display: 1: FrontRight
+[2020.07.03-21.17.32:917][113]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.03-21.17.32:918][113]LogInit: FAudioDevice initialized.
+[2020.07.03-21.17.32:925][113]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.03-21.17.32:928][113]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.03-17.17.32
+[2020.07.03-21.17.32:929][113]LogWorld: Bringing up level for play took: 0.003458
+[2020.07.03-21.17.32:929][113]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.07.03-21.17.32:931][113]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.17.32:931][113]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.03-21.17.32:931][113]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.03-21.17.32:936][113]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap -0.578
+[2020.07.03-21.17.43:198][709]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.03-21.17.43:208][709]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.03-21.17.43:227][709]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.03-21.17.43:230][709]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.03-21.17.43:230][709]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.03-21.17.43:230][709]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.03-21.17.43:230][709]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.03-21.17.43:231][709]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.03-21.17.43:235][709]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.03-21.17.43:240][709]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.03-21.17.43:285][709]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.03-21.17.43:290][709]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.03-21.17.43:295][709]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2020.07.03-21.17.43:426][710]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.07.03-21.17.44:808][762]LogSlate: Window 'Message Log' being destroyed
+[2020.07.03-21.17.44:832][762]LogSlate: Window 'Message Log' being destroyed
+[2020.07.03-21.17.50:169][ 25]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Julian/Enemies/AI/BP_NPCMutant.BP_NPCMutant
+[2020.07.03-21.18.13:401][162]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Julian/JCharacter/BP_JBasePlayer.BP_JBasePlayer
+[2020.07.03-21.18.14:215][163]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.18.14:215][163]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.07.03-21.18.14:242][164]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.18.14:242][164]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.07.03-21.18.14:255][165]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.18.14:255][165]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.07.03-21.18.14:273][166]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.18.14:273][166]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.07.03-21.18.14:399][167]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.18.14:400][167]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.07.03-21.18.14:416][168]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.18.14:416][168]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.07.03-21.18.14:432][169]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.18.14:432][169]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.07.03-21.18.14:449][170]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.18.14:449][170]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.07.03-21.18.14:466][171]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.19.40:065][237]BlueprintLog: New page: Compile BP_JBasePlayer
+[2020.07.03-21.19.40:233][237]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_17:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.19.40:233][237]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_17:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.07.03-21.19.40:236][237]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.19.40:236][237]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.07.03-21.19.40:642][237]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
+[2020.07.03-21.19.40:649][237]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_17:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.19.40:649][237]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_17:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.07.03-21.19.40:650][237]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.19.40:650][237]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.07.03-21.19.40:716][237]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.19.40:716][237]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.07.03-21.19.41:105][237]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JBasePlayer8CF0BCEC48F054A930357B8BA7DA97EA.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/BP_JBasePlayer.uasset'
+[2020.07.03-21.19.41:123][237]AssetCheck: New page: Asset Save: BP_JBasePlayer
+[2020.07.03-21.19.41:124][237]LogContentValidation: Display: Validating Blueprint /Game/Julian/JCharacter/BP_JBasePlayer.BP_JBasePlayer
+[2020.07.03-21.19.41:324][238]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.19.41:324][238]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.07.03-21.19.41:380][239]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.19.41:380][239]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.07.03-21.19.41:391][240]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.19.41:391][240]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.07.03-21.19.41:408][241]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.19.41:408][241]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.07.03-21.19.41:424][242]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.19.41:424][242]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.07.03-21.19.41:439][243]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.19.41:439][243]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.07.03-21.19.41:457][244]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.19.41:457][244]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.07.03-21.19.41:473][245]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.19.41:474][245]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00E8
+[2020.07.03-21.19.41:491][246]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Engine/Transient.World_18:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_1
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0179
+[2020.07.03-21.19.41:833][250]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JBasePlayer42EAF47D4C7D5AB4D4764CA06F363840.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/BP_JBasePlayer.uasset'
+[2020.07.03-21.19.41:850][250]AssetCheck: New page: Asset Save: BP_JBasePlayer
+[2020.07.03-21.19.41:850][250]LogContentValidation: Display: Validating Blueprint /Game/Julian/JCharacter/BP_JBasePlayer.BP_JBasePlayer
+[2020.07.03-21.19.44:425][382]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.03-21.19.44:488][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.03-21.19.44:489][382]PIE: New page: PIE session: TestMap (Jul. 3, 2020, 1:19:44 p.m.)
+[2020.07.03-21.19.44:489][382]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.03-21.19.44:509][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020523s)
+[2020.07.03-21.19.44:510][382]LogAIModule: Creating AISystem for world TestMap
+[2020.07.03-21.19.44:510][382]LogPlayLevel: PIE: World Init took: (0.001175s)
+[2020.07.03-21.19.44:510][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.021849s)
+[2020.07.03-21.19.44:572][382]LogUObjectHash: Compacting FUObjectHashTables data took   5.81ms
+[2020.07.03-21.19.44:574][382]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.03-21.19.44:574][382]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.03-21.19.44:574][382]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.03-21.19.44:574][382]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.03-21.19.44:574][382]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.03-21.19.44:574][382]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.03-21.19.44:574][382]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.03-21.19.44:574][382]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.03-21.19.44:575][382]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.03-21.19.44:575][382]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.03-21.19.44:580][382]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.03-21.19.44:580][382]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.03-21.19.44:580][382]LogAudioMixer: Display: Is Default: Yes
+[2020.07.03-21.19.44:581][382]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.03-21.19.44:581][382]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.03-21.19.44:581][382]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.03-21.19.44:581][382]LogAudioMixer: Display: Channel Order:
+[2020.07.03-21.19.44:581][382]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.03-21.19.44:581][382]LogAudioMixer: Display: 1: FrontRight
+[2020.07.03-21.19.44:695][382]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.03-21.19.44:697][382]LogInit: FAudioDevice initialized.
+[2020.07.03-21.19.44:708][382]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.03-21.19.44:711][382]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.03-17.19.44
+[2020.07.03-21.19.44:711][382]LogWorld: Bringing up level for play took: 0.002873
+[2020.07.03-21.19.44:712][382]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2020.07.03-21.19.44:714][382]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.03-21.19.44:714][382]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.03-21.19.44:719][382]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 1.204
+[2020.07.03-21.20.08:858][763]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property GunEquipped". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  EventGraph Node:  Coll Active
+[2020.07.03-21.20.09:593][806]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property GunEquipped". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  EventGraph Node:  Coll Inactive
+[2020.07.03-21.20.14:610][ 98]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.03-21.20.14:610][ 98]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.03-21.20.14:613][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.03-21.20.14:613][ 98]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.03-21.20.14:614][ 98]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.03-21.20.14:614][ 98]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.03-21.20.14:614][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.03-21.20.14:626][ 98]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.03-21.20.14:631][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.03-21.20.14:680][ 98]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.03-21.20.14:684][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.03-21.20.14:690][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2020.07.03-21.20.14:840][ 99]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2020.07.03-21.20.16:236][156]LogSlate: Window 'Message Log' being destroyed
+[2020.07.03-21.20.16:259][156]LogSlate: Window 'Message Log' being destroyed
+[2020.07.03-21.26.58:024][524]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.07.03-21.26.58:143][524]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap_Auto68A5E36FC4D3AEB6D52EABCAD6C769765.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/JLevels/TestMap_Auto6.umap'
+[2020.07.03-21.26.58:149][524]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Julian/JLevels/TestMap' took 0.186
+[2020.07.03-21.26.58:149][524]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.186
+[2020.07.03-23.15.01:056][382]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Julian/Enemies/AI/LoopPath.LoopPath
+[2020.07.03-23.15.30:509][176]LogUObjectHash: Compacting FUObjectHashTables data took   6.50ms
+[2020.07.03-23.15.30:509][176]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Julian/JLevels/TestMap' took 0.074
+[2020.07.03-23.15.30:510][176]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Julian/Enemies/AI/BT_NPCMutant] ([1] browsable assets)...
+[2020.07.03-23.15.30:510][176]OBJ SavePackage: Finished generating thumbnails for package [/Game/Julian/Enemies/AI/BT_NPCMutant]
+[2020.07.03-23.15.30:564][176]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BT_NPCMutant_Auto7833894334C4F37CD6CA22F96661D75B7.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/Enemies/AI/BT_NPCMutant_Auto7.uasset'
+[2020.07.03-23.15.30:565][176]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Julian/Enemies/AI/LoopPath] ([1] browsable assets)...
+[2020.07.03-23.15.30:566][176]OBJ SavePackage: Finished generating thumbnails for package [/Game/Julian/Enemies/AI/LoopPath]
+[2020.07.03-23.15.30:631][176]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/LoopPath_Auto77D0CAB5C4B30FDDD22570D8DDCDC89A3.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/Enemies/AI/LoopPath_Auto7.uasset'
+[2020.07.03-23.15.30:633][176]LogFileHelpers: Auto-saving content packages took 0.124
+[2020.07.03-23.15.46:873][136]BlueprintLog: New page: Compile LoopPath
+[2020.07.03-23.15.47:259][136]LogUObjectHash: Compacting FUObjectHashTables data took   4.90ms
+[2020.07.03-23.15.47:296][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Julian/Enemies/AI/LoopPath" FILE="../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/LoopPath.uasset" SILENT=true
+[2020.07.03-23.15.47:348][136]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/LoopPath81AD6EE14C992C65398DDDA4AEA7775C.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/LoopPath.uasset'
+[2020.07.03-23.15.47:368][136]AssetCheck: New page: Asset Save: LoopPath
+[2020.07.03-23.15.47:368][136]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/LoopPath.LoopPath
+[2020.07.03-23.15.48:013][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Julian/Enemies/AI/LoopPath" FILE="../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/LoopPath.uasset" SILENT=true
+[2020.07.03-23.15.48:066][169]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/LoopPath3FF839794CBF496DA3CE839622A8DFCA.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/LoopPath.uasset'
+[2020.07.03-23.15.48:080][169]AssetCheck: New page: Asset Save: LoopPath
+[2020.07.03-23.15.48:080][169]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/LoopPath.LoopPath
+[2020.07.03-23.16.00:608][392]BlueprintLog: New page: Compile LoopPath
+[2020.07.03-23.16.00:987][392]LogUObjectHash: Compacting FUObjectHashTables data took   5.10ms
+[2020.07.03-23.16.01:029][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Julian/Enemies/AI/LoopPath" FILE="../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/LoopPath.uasset" SILENT=true
+[2020.07.03-23.16.01:081][392]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/LoopPath9DF6B2FC494457DD6F5B32A104CE5069.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/LoopPath.uasset'
+[2020.07.03-23.16.01:097][392]AssetCheck: New page: Asset Save: LoopPath
+[2020.07.03-23.16.01:097][392]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/LoopPath.LoopPath
+[2020.07.03-23.16.01:946][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Julian/Enemies/AI/LoopPath" FILE="../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/LoopPath.uasset" SILENT=true
+[2020.07.03-23.16.01:998][438]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/LoopPath53A724F04C9B80675D95B198E295969E.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/LoopPath.uasset'
+[2020.07.03-23.16.02:015][438]AssetCheck: New page: Asset Save: LoopPath
+[2020.07.03-23.16.02:015][438]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/LoopPath.LoopPath
+[2020.07.03-23.17.15:922][507]BlueprintLog: New page: Compile LoopPath
+[2020.07.03-23.17.16:341][507]LogUObjectHash: Compacting FUObjectHashTables data took   5.81ms
+[2020.07.03-23.17.16:379][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Julian/Enemies/AI/LoopPath" FILE="../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/LoopPath.uasset" SILENT=true
+[2020.07.03-23.17.16:435][507]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/LoopPath3C791F16402F44AC79BE24B41190D4BD.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/LoopPath.uasset'
+[2020.07.03-23.17.16:453][507]AssetCheck: New page: Asset Save: LoopPath
+[2020.07.03-23.17.16:453][507]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/LoopPath.LoopPath
+[2020.07.03-23.17.16:882][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Julian/Enemies/AI/LoopPath" FILE="../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/LoopPath.uasset" SILENT=true
+[2020.07.03-23.17.16:937][527]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/LoopPath134542244AC4F1A50BF940AF5C907B90.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/LoopPath.uasset'
+[2020.07.03-23.17.16:953][527]AssetCheck: New page: Asset Save: LoopPath
+[2020.07.03-23.17.16:954][527]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/LoopPath.LoopPath
+[2020.07.03-23.19.37:493][834]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BT_NPCMutant3563AD474606973709A7A294BD94343C.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/BT_NPCMutant.uasset'
+[2020.07.03-23.19.37:523][834]AssetCheck: New page: Asset Save: BT_NPCMutant
+[2020.07.03-23.19.37:523][834]LogContentValidation: Display: Validating BehaviorTree /Game/Julian/Enemies/AI/BT_NPCMutant.BT_NPCMutant
+[2020.07.03-23.19.40:403][977]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.03-23.19.40:515][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.03-23.19.40:515][977]PIE: New page: PIE session: TestMap (Jul. 3, 2020, 3:19:40 p.m.)
+[2020.07.03-23.19.40:515][977]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.03-23.19.40:551][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035280s)
+[2020.07.03-23.19.40:552][977]LogAIModule: Creating AISystem for world TestMap
+[2020.07.03-23.19.40:553][977]LogPlayLevel: PIE: World Init took: (0.002019s)
+[2020.07.03-23.19.40:553][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.037537s)
+[2020.07.03-23.19.40:638][977]LogUObjectHash: Compacting FUObjectHashTables data took   9.41ms
+[2020.07.03-23.19.40:641][977]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.03-23.19.40:641][977]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.03-23.19.40:641][977]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.03-23.19.40:641][977]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.03-23.19.40:641][977]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.03-23.19.40:641][977]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.03-23.19.40:641][977]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.03-23.19.40:641][977]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.03-23.19.40:642][977]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.03-23.19.40:642][977]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.03-23.19.40:651][977]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.03-23.19.40:651][977]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.03-23.19.40:651][977]LogAudioMixer: Display: Is Default: Yes
+[2020.07.03-23.19.40:651][977]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.03-23.19.40:651][977]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.03-23.19.40:651][977]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.03-23.19.40:651][977]LogAudioMixer: Display: Channel Order:
+[2020.07.03-23.19.40:651][977]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.03-23.19.40:651][977]LogAudioMixer: Display: 1: FrontRight
+[2020.07.03-23.19.40:812][977]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.03-23.19.40:816][977]LogInit: FAudioDevice initialized.
+[2020.07.03-23.19.40:831][977]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.03-23.19.40:837][977]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.03-19.19.40
+[2020.07.03-23.19.40:838][977]LogWorld: Bringing up level for play took: 0.006074
+[2020.07.03-23.19.40:838][977]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2020.07.03-23.19.40:841][977]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.03-23.19.40:842][977]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.03-23.19.40:851][977]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 1.336
+[2020.07.03-23.20.37:192][314]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.03-23.20.37:192][314]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.03-23.20.37:197][314]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.03-23.20.37:197][314]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.03-23.20.37:197][314]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.03-23.20.37:197][314]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.03-23.20.37:198][314]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.03-23.20.37:208][314]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.03-23.20.37:214][314]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.03-23.20.37:275][314]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.03-23.20.37:281][314]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.03-23.20.37:290][314]LogUObjectHash: Compacting FUObjectHashTables data took   6.58ms
+[2020.07.03-23.20.37:470][315]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2020.07.03-23.20.38:832][373]LogSlate: Window 'Message Log' being destroyed
+[2020.07.03-23.20.38:850][373]LogSlate: Window 'Message Log' being destroyed
+[2020.07.03-23.23.19:632][234]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Julian/Enemies/Mutant/MutantAnimations/Zombie_Attack.Zombie_Attack
+[2020.07.03-23.23.19:784][234]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0091 seconds. Added 1 classes and 2 folders.
+[2020.07.03-23.23.20:210][234]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.03-23.23.20:224][234]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0013 seconds. Added 1 classes and 0 folders.
+[2020.07.03-23.23.20:334][234]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.07.03-23.23.22:038][234]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.07.03-23.23.29:995][666]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.07.03-23.23.29:995][666]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.03-23.23.30:073][666]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2020.07.03-23.23.30:073][666]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.03-23.23.30:302][666]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.07.03-23.23.30:302][666]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.03-23.23.57:276][250]LogSlate: Window 'Pick Skeleton' being destroyed
+[2020.07.03-23.24.23:004][ 95]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.07.03-23.24.23:005][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.03-23.24.24:866][179]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.07.03-23.24.24:866][179]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.03-23.24.26:369][238]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.07.03-23.24.26:369][238]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.03-23.24.27:763][290]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.07.03-23.24.27:764][290]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.03-23.24.28:732][330]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.07.03-23.24.28:732][330]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.03-23.24.30:377][406]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.07.03-23.24.30:377][406]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.07.03-23.24.30:377][406]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.03-23.24.32:447][510]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.07.03-23.24.32:447][510]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.07.03-23.24.32:447][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.03-23.24.34:379][549]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Julian/Enemies/Mutant/MutantAnimations/NPCAttack_AnimMontage.NPCAttack_AnimMontage
+[2020.07.03-23.24.34:390][549]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.07.03-23.24.34:543][549]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.07.03-23.24.35:318][549]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.07.03-23.24.38:591][670]LogSlate: Window 'NPCAttack_AnimMontage' being destroyed
+[2020.07.03-23.26.28:342][711]LogUObjectHash: Compacting FUObjectHashTables data took   6.36ms
+[2020.07.03-23.26.28:356][711]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Julian/JLevels/TestMap' took 0.397
+[2020.07.03-23.26.28:359][711]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Julian/Enemies/Mutant/MutantAnimations/NPCAttack_AnimMontage] ([1] browsable assets)...
+[2020.07.03-23.26.28:463][711]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Julian/Enemies/Mutant/MutantAnimations/NPCAttack_AnimMontage.NPCAttack_AnimMontage]
+[2020.07.03-23.26.28:463][711]OBJ SavePackage: Finished generating thumbnails for package [/Game/Julian/Enemies/Mutant/MutantAnimations/NPCAttack_AnimMontage]
+[2020.07.03-23.26.28:481][711]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/NPCAttack_AnimMontage_Auto8F1C81BF547794CA7E86118AFE39889AF.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/Enemies/Mutant/MutantAnimations/NPCAttack_AnimMontage_Auto8.uasset'
+[2020.07.03-23.26.28:482][711]LogFileHelpers: Auto-saving content packages took 0.124
+[2020.07.03-23.27.39:941][612]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/NPCAttack_AnimMontageAED7467F44AC9A0D941624A37E145BFD.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAnimations/NPCAttack_AnimMontage.uasset'
+[2020.07.03-23.27.39:988][612]AssetCheck: New page: Asset Save: NPCAttack_AnimMontage
+[2020.07.03-23.27.39:988][612]LogContentValidation: Display: Validating AnimMontage /Game/Julian/Enemies/Mutant/MutantAnimations/NPCAttack_AnimMontage.NPCAttack_AnimMontage
+[2020.07.03-23.32.59:178][775]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/NPCAttack_AnimMontageC5C7EDF0425E613C0EC350B25C781E6A.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/Mutant/MutantAnimations/NPCAttack_AnimMontage.uasset'
+[2020.07.03-23.32.59:204][775]AssetCheck: New page: Asset Save: NPCAttack_AnimMontage
+[2020.07.03-23.32.59:204][775]LogContentValidation: Display: Validating AnimMontage /Game/Julian/Enemies/Mutant/MutantAnimations/NPCAttack_AnimMontage.NPCAttack_AnimMontage
+[2020.07.03-23.33.02:514][902]LogSlate: Window 'NPCAttack_AnimMontage' being destroyed
+[2020.07.03-23.36.29:824][911]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2020.07.03-23.36.29:839][911]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Julian/JLevels/TestMap' took 0.265
+[2020.07.03-23.36.29:841][911]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Julian/Ch3Enemy/Mesh/Ch30_nonPBR_Skeleton] ([1] browsable assets)...
+[2020.07.03-23.36.29:841][911]OBJ SavePackage: Finished generating thumbnails for package [/Game/Julian/Ch3Enemy/Mesh/Ch30_nonPBR_Skeleton]
+[2020.07.03-23.36.29:885][911]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Ch30_nonPBR_Skeleton_Auto98145448C469487FB233924A2D64C5836.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/Ch3Enemy/Mesh/Ch30_nonPBR_Skeleton_Auto9.uasset'
+[2020.07.03-23.36.29:887][911]LogFileHelpers: Auto-saving content packages took 0.047
+[2020.07.03-23.36.32:998][986]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Julian/Enemies/AI/BP_NPCMutant.BP_NPCMutant
+[2020.07.03-23.36.35:902][119]LogRenderer: Reallocating scene render targets to support 636x388 Format 10 NumSamples 1 (Frame:1).
+[2020.07.03-23.37.34:893][583]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Julian/Enemies/AI/I_Attack.
+[2020.07.03-23.37.37:541][642]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Julian/Enemies/AI/I_Attack.I_Attack
+[2020.07.03-23.38.45:648][997]BlueprintLog: New page: Compile I_Attack
+[2020.07.03-23.38.45:706][997]LogUObjectHash: Compacting FUObjectHashTables data took   5.90ms
+[2020.07.03-23.38.45:751][997]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Julian/Enemies/AI/I_Attack" FILE="../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/I_Attack.uasset" SILENT=true
+[2020.07.03-23.38.45:764][997]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/I_AttackD9138152465087DD085F76B5CFE4E198.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/I_Attack.uasset'
+[2020.07.03-23.38.45:778][997]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Julian/Enemies/AI/I_Attack.
+[2020.07.03-23.38.45:795][997]AssetCheck: New page: Asset Save: I_Attack
+[2020.07.03-23.38.45:795][997]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/I_Attack.I_Attack
+[2020.07.03-23.38.46:347][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Julian/Enemies/AI/I_Attack" FILE="../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/I_Attack.uasset" SILENT=true
+[2020.07.03-23.38.46:394][ 24]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/I_AttackD616D7404EA2DA21FB31D2B309083D79.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/I_Attack.uasset'
+[2020.07.03-23.38.46:408][ 24]AssetCheck: New page: Asset Save: I_Attack
+[2020.07.03-23.38.46:408][ 24]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/I_Attack.I_Attack
+[2020.07.03-23.39.20:662][537]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.07.03-23.39.58:268][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   6.51ms
+[2020.07.03-23.39.58:299][ 31]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BPI_NPCAttackEB1747214D6F8EE6302121B8AF495AA0.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/BPI_NPCAttack.uasset'
+[2020.07.03-23.39.58:303][ 31]LogMetaData: Removing '/Game/Julian/Enemies/AI/BPI_NPCAttack.SKEL_BPI_NPCAttack_C' ref from Metadata '/Game/Julian/Enemies/AI/I_Attack.PackageMetaData'
+[2020.07.03-23.39.58:304][ 31]LogMetaData: Removing '/Game/Julian/Enemies/AI/BPI_NPCAttack.BPI_NPCAttack_C' ref from Metadata '/Game/Julian/Enemies/AI/I_Attack.PackageMetaData'
+[2020.07.03-23.39.58:304][ 31]LogMetaData: Removing '/Game/Julian/Enemies/AI/BPI_NPCAttack.BPI_NPCAttack:MeleeAttack.K2Node_FunctionEntry_0' ref from Metadata '/Game/Julian/Enemies/AI/I_Attack.PackageMetaData'
+[2020.07.03-23.39.58:415][ 31]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BPI_NPCAttackE08D036D4AD540505090279B0F3C7A75.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/BPI_NPCAttack.uasset'
+[2020.07.03-23.39.58:920][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   6.65ms
+[2020.07.03-23.39.58:975][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2020.07.03-23.39.59:016][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2020.07.03-23.39.59:158][ 31]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Julian/Enemies/AI/BPI_NPCAttack.
+[2020.07.03-23.39.59:168][ 31]AssetCheck: New page: Asset Save: BPI_NPCAttack
+[2020.07.03-23.39.59:168][ 31]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/BPI_NPCAttack.BPI_NPCAttack
+[2020.07.03-23.40.04:752][287]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.07.03-23.40.09:311][518]BlueprintLog: New page: Compile BP_NPCMutant
+[2020.07.03-23.40.09:782][518]LogUObjectHash: Compacting FUObjectHashTables data took   7.40ms
+[2020.07.03-23.40.10:035][518]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_NPCMutant3E4D80D640FC83FCB9DD23AF84E95406.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/BP_NPCMutant.uasset'
+[2020.07.03-23.40.10:050][518]AssetCheck: New page: Asset Save: BP_NPCMutant
+[2020.07.03-23.40.10:050][518]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/BP_NPCMutant.BP_NPCMutant
+[2020.07.03-23.40.10:609][535]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_NPCMutant93EE6D6549E3E65F03DF348CEB3B00C7.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/BP_NPCMutant.uasset'
+[2020.07.03-23.40.10:623][535]AssetCheck: New page: Asset Save: BP_NPCMutant
+[2020.07.03-23.40.10:623][535]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/BP_NPCMutant.BP_NPCMutant
+[2020.07.03-23.40.50:012][459]BlueprintLog: New page: Compile BP_NPCMutant
+[2020.07.03-23.40.50:411][459]LogUObjectHash: Compacting FUObjectHashTables data took   5.75ms
+[2020.07.03-23.40.50:623][459]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_NPCMutant791693714F0C1B6903AE669D21BABCDF.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/BP_NPCMutant.uasset'
+[2020.07.03-23.40.50:640][459]AssetCheck: New page: Asset Save: BP_NPCMutant
+[2020.07.03-23.40.50:641][459]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/BP_NPCMutant.BP_NPCMutant
+[2020.07.03-23.40.51:169][473]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_NPCMutant280141FB4E9ACAF24585ECB3778CE62F.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/BP_NPCMutant.uasset'
+[2020.07.03-23.40.51:189][473]AssetCheck: New page: Asset Save: BP_NPCMutant
+[2020.07.03-23.40.51:189][473]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/BP_NPCMutant.BP_NPCMutant
+[2020.07.03-23.42.06:710][416]BlueprintLog: New page: Compile BP_NPCMutant
+[2020.07.03-23.42.07:146][416]LogUObjectHash: Compacting FUObjectHashTables data took   6.24ms
+[2020.07.03-23.42.07:362][416]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_NPCMutant33B3CEF047A1DE3FF1FE3A8574E66869.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/BP_NPCMutant.uasset'
+[2020.07.03-23.42.07:384][416]AssetCheck: New page: Asset Save: BP_NPCMutant
+[2020.07.03-23.42.07:384][416]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/BP_NPCMutant.BP_NPCMutant
+[2020.07.03-23.42.07:871][425]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_NPCMutant482232664BFDCB0BABBBFBA6C05C2EDA.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/BP_NPCMutant.uasset'
+[2020.07.03-23.42.07:888][425]AssetCheck: New page: Asset Save: BP_NPCMutant
+[2020.07.03-23.42.07:888][425]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/BP_NPCMutant.BP_NPCMutant
+[2020.07.03-23.43.58:060][888]BlueprintLog: New page: Compile BP_NPCMutant
+[2020.07.03-23.43.58:419][888]LogUObjectHash: Compacting FUObjectHashTables data took   5.12ms
+[2020.07.03-23.43.59:178][915]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_NPCMutantDEB083E048770A2C11F295835BB43C67.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/BP_NPCMutant.uasset'
+[2020.07.03-23.43.59:193][915]AssetCheck: New page: Asset Save: BP_NPCMutant
+[2020.07.03-23.43.59:193][915]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/BP_NPCMutant.BP_NPCMutant
+[2020.07.03-23.45.17:122][641]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.07.03-23.45.47:963][480]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BT_NPCMutantCAE5B901472401FED62F8AA097E3D1F5.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/BT_NPCMutant.uasset'
+[2020.07.03-23.45.48:014][480]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BB_NPCMutantE5D5697D46535017F87F8ABAF016B4B1.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/BB_NPCMutant.uasset'
+[2020.07.03-23.45.48:036][480]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.03-23.45.48:036][480]LogContentValidation: Display: Validating BehaviorTree /Game/Julian/Enemies/AI/BT_NPCMutant.BT_NPCMutant
+[2020.07.03-23.45.48:036][480]LogContentValidation: Display: Validating BlackboardData /Game/Julian/Enemies/AI/BB_NPCMutant.BB_NPCMutant
+[2020.07.03-23.46.14:250][804]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.07.03-23.46.14:250][804]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Julian/Enemies/AI/BTService_BlueprintBase_New.BTService_BlueprintBase_New
+[2020.07.03-23.46.14:657][804]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Julian/Enemies/AI/BTService_BlueprintBase_New.
+[2020.07.03-23.46.49:065][495]LogUObjectHash: Compacting FUObjectHashTables data took   6.27ms
+[2020.07.03-23.46.49:093][495]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/IsCharInRangeD88F7C664BA6AC783D50A49FFF7CC675.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/IsCharInRange.uasset'
+[2020.07.03-23.46.49:096][495]LogMetaData: Removing '/Game/Julian/Enemies/AI/IsCharInRange.SKEL_IsCharInRange_C' ref from Metadata '/Game/Julian/Enemies/AI/BTService_BlueprintBase_New.PackageMetaData'
+[2020.07.03-23.46.49:096][495]LogMetaData: Removing '/Game/Julian/Enemies/AI/IsCharInRange.IsCharInRange_C' ref from Metadata '/Game/Julian/Enemies/AI/BTService_BlueprintBase_New.PackageMetaData'
+[2020.07.03-23.46.49:214][495]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/IsCharInRangeF26298584241D0BBA2AFF3AC4DBF7E47.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/IsCharInRange.uasset'
+[2020.07.03-23.46.49:473][495]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2020.07.03-23.46.49:527][495]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2020.07.03-23.46.49:568][495]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2020.07.03-23.46.49:699][495]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Julian/Enemies/AI/IsCharInRange.
+[2020.07.03-23.46.49:709][495]AssetCheck: New page: Asset Save: IsCharInRange
+[2020.07.03-23.46.49:709][495]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/IsCharInRange.IsCharInRange
+[2020.07.03-23.47.39:689][234]LogUObjectHash: Compacting FUObjectHashTables data took   7.42ms
+[2020.07.03-23.47.39:803][234]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap_Auto042F3E5E24776C440DE9F4EA8AF8E19F0.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/JLevels/TestMap_Auto0.umap'
+[2020.07.03-23.47.39:811][234]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Julian/JLevels/TestMap' took 0.196
+[2020.07.03-23.47.39:811][234]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.196
+[2020.07.03-23.47.39:811][234]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Julian/Enemies/AI/IsCharInRange] ([1] browsable assets)...
+[2020.07.03-23.47.39:811][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Julian/Enemies/AI/IsCharInRange]
+[2020.07.03-23.47.39:851][234]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/IsCharInRange_Auto01CBD7C924DD01AB616F92A84E82B2921.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/Enemies/AI/IsCharInRange_Auto0.uasset'
+[2020.07.03-23.47.39:852][234]LogFileHelpers: Auto-saving content packages took 0.041
+[2020.07.03-23.48.54:575][607]BlueprintLog: New page: Compile IsCharInRange
+[2020.07.03-23.48.54:628][607]LogUObjectHash: Compacting FUObjectHashTables data took   5.26ms
+[2020.07.03-23.48.54:723][607]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/IsCharInRange0749647B4E0A0D789B031184D17F29A7.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/IsCharInRange.uasset'
+[2020.07.03-23.48.54:751][607]AssetCheck: New page: Asset Save: IsCharInRange
+[2020.07.03-23.48.54:752][607]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/IsCharInRange.IsCharInRange
+[2020.07.03-23.48.55:177][623]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/IsCharInRange9DE45DBF4858E595C6C06F80003AD1ED.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/IsCharInRange.uasset'
+[2020.07.03-23.48.55:192][623]AssetCheck: New page: Asset Save: IsCharInRange
+[2020.07.03-23.48.55:192][623]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/IsCharInRange.IsCharInRange
+[2020.07.03-23.50.01:380][776]BlueprintLog: New page: Compile IsCharInRange
+[2020.07.03-23.50.01:430][776]LogUObjectHash: Compacting FUObjectHashTables data took   5.48ms
+[2020.07.03-23.50.01:546][776]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/IsCharInRangeF94F056C4CDF2E94B5746EBA4E5E67EE.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/IsCharInRange.uasset'
+[2020.07.03-23.50.01:569][776]AssetCheck: New page: Asset Save: IsCharInRange
+[2020.07.03-23.50.01:569][776]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/IsCharInRange.IsCharInRange
+[2020.07.03-23.50.02:113][797]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/IsCharInRangeB438B6024F2EEE645D01DDBD358A3019.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/IsCharInRange.uasset'
+[2020.07.03-23.50.02:129][797]AssetCheck: New page: Asset Save: IsCharInRange
+[2020.07.03-23.50.02:129][797]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/IsCharInRange.IsCharInRange
+[2020.07.03-23.50.15:191][163]BlueprintLog: New page: Compile IsCharInRange
+[2020.07.03-23.50.15:244][163]LogUObjectHash: Compacting FUObjectHashTables data took   6.23ms
+[2020.07.03-23.50.15:359][163]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/IsCharInRangeC077EBF440129698B9CD1F9FB717927D.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/IsCharInRange.uasset'
+[2020.07.03-23.50.15:377][163]AssetCheck: New page: Asset Save: IsCharInRange
+[2020.07.03-23.50.15:377][163]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/IsCharInRange.IsCharInRange
+[2020.07.03-23.50.15:797][180]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/IsCharInRangeE385E8534121C37FC20A518E3C3B3128.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/IsCharInRange.uasset'
+[2020.07.03-23.50.15:814][180]AssetCheck: New page: Asset Save: IsCharInRange
+[2020.07.03-23.50.15:815][180]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/IsCharInRange.IsCharInRange
+[2020.07.03-23.50.26:761][479]BlueprintLog: New page: Compile IsCharInRange
+[2020.07.03-23.50.26:813][479]LogUObjectHash: Compacting FUObjectHashTables data took   5.79ms
+[2020.07.03-23.50.26:923][479]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/IsCharInRangeB37062854DAD730CF12EF5901FF83F14.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/IsCharInRange.uasset'
+[2020.07.03-23.50.26:945][479]AssetCheck: New page: Asset Save: IsCharInRange
+[2020.07.03-23.50.26:945][479]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/IsCharInRange.IsCharInRange
+[2020.07.03-23.50.27:330][494]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/IsCharInRangeE8927B594733C21E2C2C63A29052A5E2.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/IsCharInRange.uasset'
+[2020.07.03-23.50.27:346][494]AssetCheck: New page: Asset Save: IsCharInRange
+[2020.07.03-23.50.27:346][494]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/IsCharInRange.IsCharInRange
+[2020.07.03-23.50.40:928][719]BlueprintLog: New page: Compile IsCharInRange
+[2020.07.03-23.50.40:979][719]LogUObjectHash: Compacting FUObjectHashTables data took   6.10ms
+[2020.07.03-23.50.41:093][719]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/IsCharInRange489C06174C497A7AD52F4E95C1AE1B7D.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/IsCharInRange.uasset'
+[2020.07.03-23.50.41:117][719]AssetCheck: New page: Asset Save: IsCharInRange
+[2020.07.03-23.50.41:117][719]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/IsCharInRange.IsCharInRange
+[2020.07.03-23.50.41:857][751]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/IsCharInRange4B631B6F4CC38A91B20FE59E3CA44EBF.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/IsCharInRange.uasset'
+[2020.07.03-23.50.41:875][751]AssetCheck: New page: Asset Save: IsCharInRange
+[2020.07.03-23.50.41:875][751]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/IsCharInRange.IsCharInRange
+[2020.07.03-23.51.54:027][968]BlueprintLog: New page: Compile IsCharInRange
+[2020.07.03-23.51.54:083][968]LogUObjectHash: Compacting FUObjectHashTables data took   7.40ms
+[2020.07.03-23.51.54:212][968]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/IsCharInRangeA158BAF44283F76408CC908D79E8C2EA.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/IsCharInRange.uasset'
+[2020.07.03-23.51.54:229][968]AssetCheck: New page: Asset Save: IsCharInRange
+[2020.07.03-23.51.54:229][968]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/IsCharInRange.IsCharInRange
+[2020.07.03-23.53.00:794][795]BlueprintLog: New page: Compile IsCharInRange
+[2020.07.03-23.53.00:860][795]LogUObjectHash: Compacting FUObjectHashTables data took   6.41ms
+[2020.07.03-23.53.00:964][795]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/IsCharInRange46BE695246C0B65230656C8648964156.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/IsCharInRange.uasset'
+[2020.07.03-23.53.00:987][795]AssetCheck: New page: Asset Save: IsCharInRange
+[2020.07.03-23.53.00:987][795]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/IsCharInRange.IsCharInRange
+[2020.07.03-23.53.01:638][822]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/IsCharInRange8EA584BD4A2D9CF588030584DB8651C0.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/IsCharInRange.uasset'
+[2020.07.03-23.53.01:653][822]AssetCheck: New page: Asset Save: IsCharInRange
+[2020.07.03-23.53.01:653][822]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/IsCharInRange.IsCharInRange
+[2020.07.03-23.53.27:792][511]BlueprintLog: New page: Compile IsCharInRange
+[2020.07.03-23.53.27:846][511]LogUObjectHash: Compacting FUObjectHashTables data took   6.33ms
+[2020.07.03-23.53.27:976][511]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/IsCharInRangeC5CD999340658B18B6733A938C1FCF7A.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/IsCharInRange.uasset'
+[2020.07.03-23.53.27:995][511]AssetCheck: New page: Asset Save: IsCharInRange
+[2020.07.03-23.53.27:995][511]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/IsCharInRange.IsCharInRange
+[2020.07.03-23.53.28:419][528]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/IsCharInRange377772484D6E846EB1B23ABA33DD318B.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/IsCharInRange.uasset'
+[2020.07.03-23.53.28:437][528]AssetCheck: New page: Asset Save: IsCharInRange
+[2020.07.03-23.53.28:437][528]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/IsCharInRange.IsCharInRange
+[2020.07.03-23.53.52:594][745]BlueprintLog: New page: Compile IsCharInRange
+[2020.07.03-23.53.52:641][745]LogUObjectHash: Compacting FUObjectHashTables data took   5.45ms
+[2020.07.03-23.53.53:142][769]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/IsCharInRangeAE2976CF4DF8D937D82EF59033077A29.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/IsCharInRange.uasset'
+[2020.07.03-23.53.53:157][769]AssetCheck: New page: Asset Save: IsCharInRange
+[2020.07.03-23.53.53:157][769]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/IsCharInRange.IsCharInRange
+[2020.07.03-23.54.48:542][658]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.07.03-23.54.50:198][749]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.07.03-23.54.50:198][749]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Julian/Enemies/AI/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2020.07.03-23.54.50:630][749]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Julian/Enemies/AI/BTTask_BlueprintBase_New.
+[2020.07.03-23.55.04:449][187]LogUObjectHash: Compacting FUObjectHashTables data took   9.28ms
+[2020.07.03-23.55.04:463][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Julian/Enemies/AI/NPCAttack" FILE="../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/NPCAttack.uasset" SILENT=true
+[2020.07.03-23.55.04:476][187]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/NPCAttackB94D3ED7499B24592BB25C821012558B.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/NPCAttack.uasset'
+[2020.07.03-23.55.04:479][187]LogMetaData: Removing '/Game/Julian/Enemies/AI/NPCAttack.SKEL_NPCAttack_C' ref from Metadata '/Game/Julian/Enemies/AI/BTTask_BlueprintBase_New.PackageMetaData'
+[2020.07.03-23.55.04:479][187]LogMetaData: Removing '/Game/Julian/Enemies/AI/NPCAttack.NPCAttack_C' ref from Metadata '/Game/Julian/Enemies/AI/BTTask_BlueprintBase_New.PackageMetaData'
+[2020.07.03-23.55.04:531][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Julian/Enemies/AI/NPCAttack" FILE="../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/NPCAttack.uasset" SILENT=true
+[2020.07.03-23.55.04:578][187]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/NPCAttackAF650F9F4EF7FCB2BBE623938425A30F.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/NPCAttack.uasset'
+[2020.07.03-23.55.04:882][187]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2020.07.03-23.55.04:940][187]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2020.07.03-23.55.04:986][187]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.07.03-23.55.05:124][187]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Julian/Enemies/AI/NPCAttack.
+[2020.07.03-23.55.05:134][187]AssetCheck: New page: Asset Save: NPCAttack
+[2020.07.03-23.55.05:134][187]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/NPCAttack.NPCAttack
+[2020.07.03-23.56.18:392][742]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.07.03-23.57.57:224][174]LogUObjectHash: Compacting FUObjectHashTables data took   7.50ms
+[2020.07.03-23.57.57:227][174]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Julian/JLevels/TestMap' took 0.096
+[2020.07.03-23.57.57:228][174]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Julian/Enemies/AI/BT_NPCMutant] ([1] browsable assets)...
+[2020.07.03-23.57.57:228][174]OBJ SavePackage: Finished generating thumbnails for package [/Game/Julian/Enemies/AI/BT_NPCMutant]
+[2020.07.03-23.57.57:303][174]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BT_NPCMutant_Auto15981CD1D4ADA31A9DDF4368AB184F876.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/Enemies/AI/BT_NPCMutant_Auto1.uasset'
+[2020.07.03-23.57.57:309][174]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Julian/Enemies/AI/NPCAttack] ([1] browsable assets)...
+[2020.07.03-23.57.57:309][174]OBJ SavePackage: Finished generating thumbnails for package [/Game/Julian/Enemies/AI/NPCAttack]
+[2020.07.03-23.57.57:366][174]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/NPCAttack_Auto1EDB35BF443A0F228D45809BB17FDD989.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/Enemies/AI/NPCAttack_Auto1.uasset'
+[2020.07.03-23.57.57:368][174]LogFileHelpers: Auto-saving content packages took 0.140
+[2020.07.03-23.58.33:191][511]BlueprintLog: New page: Compile NPCAttack
+[2020.07.03-23.58.33:243][511]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2020.07.03-23.58.33:287][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Julian/Enemies/AI/NPCAttack" FILE="../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/NPCAttack.uasset" SILENT=true
+[2020.07.03-23.58.33:345][511]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/NPCAttackAD854B9E42597F92236011815244C9FB.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/NPCAttack.uasset'
+[2020.07.03-23.58.33:376][511]AssetCheck: New page: Asset Save: NPCAttack
+[2020.07.03-23.58.33:376][511]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/NPCAttack.NPCAttack
+[2020.07.03-23.58.33:931][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Julian/Enemies/AI/NPCAttack" FILE="../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/NPCAttack.uasset" SILENT=true
+[2020.07.03-23.58.33:983][534]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/NPCAttack94FC18FE4FA163B85972368732EEBE39.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/NPCAttack.uasset'
+[2020.07.03-23.58.33:998][534]AssetCheck: New page: Asset Save: NPCAttack
+[2020.07.03-23.58.33:998][534]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/NPCAttack.NPCAttack
+[2020.07.04-00.01.21:816][783]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BT_NPCMutant64FDFD984FB6DB10F5932F88416F8226.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/BT_NPCMutant.uasset'
+[2020.07.04-00.01.21:841][783]AssetCheck: New page: Asset Save: BT_NPCMutant
+[2020.07.04-00.01.21:841][783]LogContentValidation: Display: Validating BehaviorTree /Game/Julian/Enemies/AI/BT_NPCMutant.BT_NPCMutant
+[2020.07.04-00.02.19:725][275]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BT_NPCMutantEB7E1E184D04615EA0484A95A04D1544.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/BT_NPCMutant.uasset'
+[2020.07.04-00.02.19:747][275]AssetCheck: New page: Asset Save: BT_NPCMutant
+[2020.07.04-00.02.19:747][275]LogContentValidation: Display: Validating BehaviorTree /Game/Julian/Enemies/AI/BT_NPCMutant.BT_NPCMutant
+[2020.07.04-00.03.20:274][140]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BT_NPCMutant50708AFB40919AE448EB89A4457A6652.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/BT_NPCMutant.uasset'
+[2020.07.04-00.03.20:296][140]AssetCheck: New page: Asset Save: BT_NPCMutant
+[2020.07.04-00.03.20:296][140]LogContentValidation: Display: Validating BehaviorTree /Game/Julian/Enemies/AI/BT_NPCMutant.BT_NPCMutant
+[2020.07.04-00.04.36:596][667]BlueprintLog: New page: Compile IsCharInRange
+[2020.07.04-00.04.37:025][667]LogUObjectHash: Compacting FUObjectHashTables data took   6.23ms
+[2020.07.04-00.04.37:131][667]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/IsCharInRange0943BC584466C2E4BC039C8231A12D22.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/IsCharInRange.uasset'
+[2020.07.04-00.04.37:150][667]AssetCheck: New page: Asset Save: IsCharInRange
+[2020.07.04-00.04.37:150][667]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/IsCharInRange.IsCharInRange
+[2020.07.04-00.04.37:822][693]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/IsCharInRange9481512E41A9720547604C9E6362296A.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/IsCharInRange.uasset'
+[2020.07.04-00.04.37:837][693]AssetCheck: New page: Asset Save: IsCharInRange
+[2020.07.04-00.04.37:837][693]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/IsCharInRange.IsCharInRange
+[2020.07.04-00.05.00:795][896]BlueprintLog: New page: Compile IsCharInRange
+[2020.07.04-00.05.01:200][896]LogUObjectHash: Compacting FUObjectHashTables data took   5.57ms
+[2020.07.04-00.05.01:685][917]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/IsCharInRangeD1DD92A3403D54A45356E29842E0742E.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/IsCharInRange.uasset'
+[2020.07.04-00.05.01:701][917]AssetCheck: New page: Asset Save: IsCharInRange
+[2020.07.04-00.05.01:701][917]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/AI/IsCharInRange.IsCharInRange
+[2020.07.04-00.05.51:610][ 81]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BT_NPCMutant2DF6B366455C382ED000BB9F25E520F4.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/AI/BT_NPCMutant.uasset'
+[2020.07.04-00.05.51:633][ 81]AssetCheck: New page: Asset Save: BT_NPCMutant
+[2020.07.04-00.05.51:633][ 81]LogContentValidation: Display: Validating BehaviorTree /Game/Julian/Enemies/AI/BT_NPCMutant.BT_NPCMutant
+[2020.07.04-00.06.38:637][399]LogUObjectHash: Compacting FUObjectHashTables data took   5.03ms
+[2020.07.04-00.06.39:992][399]LogSlate: Window 'Save Content' being destroyed
+[2020.07.04-00.06.40:088][399]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Ch30_nonPBR_Skeleton1445DD8842513BBFF86CF7ADDCEBA35F.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Ch3Enemy/Mesh/Ch30_nonPBR_Skeleton.uasset'
+[2020.07.04-00.06.40:145][399]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.07.04-00.06.40:243][399]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap485F0A0F4FEFC72CC63288B8BB1958A3.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JLevels/TestMap.umap'
+[2020.07.04-00.06.40:311][399]LogFileHelpers: Saving map 'TestMap' took 0.215
+[2020.07.04-00.06.40:336][399]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.04-00.06.40:336][399]LogContentValidation: Display: Validating Skeleton /Game/Julian/Ch3Enemy/Mesh/Ch30_nonPBR_Skeleton.Ch30_nonPBR_Skeleton
+[2020.07.04-00.06.40:336][399]LogContentValidation: Display: Validating World /Game/Julian/JLevels/TestMap.TestMap
+[2020.07.04-00.06.41:659][454]LogRenderer: Reallocating scene render targets to support 636x400 Format 10 NumSamples 1 (Frame:42443).
+[2020.07.04-00.06.41:762][455]LogRenderer: Reallocating scene render targets to support 636x404 Format 10 NumSamples 1 (Frame:42445).
+[2020.07.04-00.06.41:860][456]LogRenderer: Reallocating scene render targets to support 636x408 Format 10 NumSamples 1 (Frame:42447).
+[2020.07.04-00.06.43:776][518]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.04-00.06.43:838][518]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.04-00.06.43:840][518]PIE: New page: PIE session: TestMap (Jul. 3, 2020, 4:06:43 p.m.)
+[2020.07.04-00.06.43:841][518]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-00.06.43:868][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026596s)
+[2020.07.04-00.06.43:874][518]LogAIModule: Creating AISystem for world TestMap
+[2020.07.04-00.06.43:875][518]LogPlayLevel: PIE: World Init took: (0.006993s)
+[2020.07.04-00.06.43:875][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.033881s)
+[2020.07.04-00.06.43:934][518]LogUObjectHash: Compacting FUObjectHashTables data took   5.28ms
+[2020.07.04-00.06.43:937][518]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.04-00.06.43:937][518]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.04-00.06.43:937][518]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.04-00.06.43:937][518]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.04-00.06.43:937][518]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.04-00.06.43:937][518]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.04-00.06.43:937][518]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.04-00.06.43:937][518]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.04-00.06.43:938][518]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.04-00.06.43:939][518]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.04-00.06.43:945][518]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.04-00.06.43:945][518]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.04-00.06.43:945][518]LogAudioMixer: Display: Is Default: Yes
+[2020.07.04-00.06.43:945][518]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.04-00.06.43:945][518]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.04-00.06.43:945][518]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.04-00.06.43:945][518]LogAudioMixer: Display: Channel Order:
+[2020.07.04-00.06.43:945][518]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.04-00.06.43:945][518]LogAudioMixer: Display: 1: FrontRight
+[2020.07.04-00.06.44:056][518]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.04-00.06.44:069][518]LogInit: FAudioDevice initialized.
+[2020.07.04-00.06.44:086][518]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.04-00.06.44:092][518]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.03-20.06.44
+[2020.07.04-00.06.44:098][518]LogWorld: Bringing up level for play took: 0.011152
+[2020.07.04-00.06.44:102][518]LogOnline: OSS: Creating online subsystem instance for: :Context_45
+[2020.07.04-00.06.44:114][518]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-00.06.44:115][518]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-00.06.44:133][518]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.619
+[2020.07.04-00.07.45:619][986]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-00.07.45:629][986]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.04-00.07.45:650][986]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.04-00.07.45:663][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-00.07.45:664][986]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-00.07.45:666][986]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-00.07.45:666][986]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.04-00.07.45:669][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-00.07.45:720][986]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.04-00.07.45:728][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-00.07.45:792][986]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-00.07.45:800][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-00.07.45:811][986]LogUObjectHash: Compacting FUObjectHashTables data took   7.87ms
+[2020.07.04-00.07.45:990][987]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2020.07.04-00.07.47:854][ 42]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-00.07.47:899][ 42]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-00.07.49:169][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
