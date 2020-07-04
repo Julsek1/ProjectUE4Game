@@ -1786,3 +1786,1209 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.07.04-18.34.08:501][802]LogSlate: Window 'Message Log' being destroyed
 [2020.07.04-18.34.08:529][802]LogSlate: Window 'Message Log' being destroyed
 [2020.07.04-18.34.09:639][840]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.07.04-18.39.06:704][ 50]BlueprintLog: New page: Compile BP_JBasePlayer
+[2020.07.04-18.39.07:277][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   5.80ms
+[2020.07.04-18.39.07:911][ 50]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JBasePlayerB8E32B3948AE026946F5E7A0C839C4DB.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/BP_JBasePlayer.uasset'
+[2020.07.04-18.39.07:929][ 50]AssetCheck: New page: Asset Save: BP_JBasePlayer
+[2020.07.04-18.39.07:929][ 50]LogContentValidation: Display: Validating Blueprint /Game/Julian/JCharacter/BP_JBasePlayer.BP_JBasePlayer
+[2020.07.04-18.39.08:750][ 79]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JBasePlayerFC6291964B259833D0A792A5D3C759AE.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/BP_JBasePlayer.uasset'
+[2020.07.04-18.39.08:766][ 79]AssetCheck: New page: Asset Save: BP_JBasePlayer
+[2020.07.04-18.39.08:766][ 79]LogContentValidation: Display: Validating Blueprint /Game/Julian/JCharacter/BP_JBasePlayer.BP_JBasePlayer
+[2020.07.04-18.39.16:248][363]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.04-18.39.16:299][363]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.04-18.39.16:300][363]PIE: New page: PIE session: TestMap (Jul. 4, 2020, 10:39:16 a.m.)
+[2020.07.04-18.39.16:300][363]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-18.39.16:328][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028223s)
+[2020.07.04-18.39.16:329][363]LogAIModule: Creating AISystem for world TestMap
+[2020.07.04-18.39.16:330][363]LogPlayLevel: PIE: World Init took: (0.001395s)
+[2020.07.04-18.39.16:330][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.029810s)
+[2020.07.04-18.39.16:401][363]LogUObjectHash: Compacting FUObjectHashTables data took  13.20ms
+[2020.07.04-18.39.16:404][363]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.04-18.39.16:404][363]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.04-18.39.16:404][363]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.04-18.39.16:404][363]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.04-18.39.16:404][363]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.04-18.39.16:404][363]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.04-18.39.16:404][363]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.04-18.39.16:404][363]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.04-18.39.16:405][363]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.04-18.39.16:405][363]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.04-18.39.16:411][363]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.04-18.39.16:412][363]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.04-18.39.16:412][363]LogAudioMixer: Display: Is Default: Yes
+[2020.07.04-18.39.16:412][363]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.04-18.39.16:412][363]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.04-18.39.16:412][363]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.04-18.39.16:412][363]LogAudioMixer: Display: Channel Order:
+[2020.07.04-18.39.16:412][363]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.04-18.39.16:412][363]LogAudioMixer: Display: 1: FrontRight
+[2020.07.04-18.39.16:527][363]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.04-18.39.16:529][363]LogInit: FAudioDevice initialized.
+[2020.07.04-18.39.16:546][363]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.04-18.39.16:550][363]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2020.07.04-14.39.16
+[2020.07.04-18.39.16:551][363]LogWorld: Bringing up level for play took: 0.004141
+[2020.07.04-18.39.16:552][363]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.07.04-18.39.16:554][363]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-18.39.16:554][363]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-18.39.16:560][363]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 1.16
+[2020.07.04-18.39.25:373][941]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.39.25:373][941]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.39.25:378][941]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-18.39.25:378][941]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-18.39.25:378][941]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.39.25:378][941]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.04-18.39.25:379][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-18.39.25:413][941]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.04-18.39.25:418][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-18.39.25:464][941]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.39.25:467][941]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-18.39.25:474][941]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2020.07.04-18.39.25:675][942]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.07.04-18.39.26:875][991]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-18.39.26:901][991]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-18.39.40:042][287]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-18.39.40:460][287]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
+[2020.07.04-18.39.40:588][287]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystemF3641EB142120924361C568F2B1F3091.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-18.39.40:603][287]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-18.39.40:603][287]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-18.39.41:077][311]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem9BDAD0404F48E65DF890E9A60B35C29E.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-18.39.41:092][311]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-18.39.41:092][311]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-18.39.43:587][447]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.04-18.39.43:637][447]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.04-18.39.43:638][447]PIE: New page: PIE session: TestMap (Jul. 4, 2020, 10:39:43 a.m.)
+[2020.07.04-18.39.43:638][447]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-18.39.43:657][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018636s)
+[2020.07.04-18.39.43:657][447]LogAIModule: Creating AISystem for world TestMap
+[2020.07.04-18.39.43:658][447]LogPlayLevel: PIE: World Init took: (0.001061s)
+[2020.07.04-18.39.43:658][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.019884s)
+[2020.07.04-18.39.43:706][447]LogUObjectHash: Compacting FUObjectHashTables data took   5.13ms
+[2020.07.04-18.39.43:708][447]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.04-18.39.43:708][447]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.04-18.39.43:708][447]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.04-18.39.43:708][447]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.04-18.39.43:708][447]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.04-18.39.43:708][447]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.04-18.39.43:708][447]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.04-18.39.43:708][447]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.04-18.39.43:708][447]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.04-18.39.43:708][447]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.04-18.39.43:713][447]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.04-18.39.43:713][447]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.04-18.39.43:713][447]LogAudioMixer: Display: Is Default: Yes
+[2020.07.04-18.39.43:713][447]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.04-18.39.43:713][447]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.04-18.39.43:713][447]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.04-18.39.43:713][447]LogAudioMixer: Display: Channel Order:
+[2020.07.04-18.39.43:713][447]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.04-18.39.43:713][447]LogAudioMixer: Display: 1: FrontRight
+[2020.07.04-18.39.43:837][447]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.04-18.39.43:839][447]LogInit: FAudioDevice initialized.
+[2020.07.04-18.39.43:846][447]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.04-18.39.43:849][447]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2020.07.04-14.39.43
+[2020.07.04-18.39.43:850][447]LogWorld: Bringing up level for play took: 0.003014
+[2020.07.04-18.39.43:850][447]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.07.04-18.39.43:852][447]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-18.39.43:852][447]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-18.39.43:857][447]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.457
+[2020.07.04-18.40.01:639][637]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.40.01:639][637]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.40.01:644][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-18.40.01:644][637]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-18.40.01:644][637]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.40.01:645][637]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.04-18.40.01:645][637]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-18.40.01:681][637]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.04-18.40.01:688][637]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-18.40.01:749][637]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.40.01:753][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-18.40.01:759][637]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2020.07.04-18.40.01:883][638]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.07.04-18.40.03:305][691]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-18.40.03:330][691]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-18.40.14:482][508]BlueprintLog: New page: Compile BP_JBasePlayer
+[2020.07.04-18.40.15:016][508]LogUObjectHash: Compacting FUObjectHashTables data took   5.39ms
+[2020.07.04-18.40.15:514][508]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JBasePlayerDD53199E4419F930E62964A3050E8489.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/BP_JBasePlayer.uasset'
+[2020.07.04-18.40.15:530][508]AssetCheck: New page: Asset Save: BP_JBasePlayer
+[2020.07.04-18.40.15:530][508]LogContentValidation: Display: Validating Blueprint /Game/Julian/JCharacter/BP_JBasePlayer.BP_JBasePlayer
+[2020.07.04-18.40.16:326][534]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JBasePlayerB5CCA03745F2671467D733AF2E4C9990.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/BP_JBasePlayer.uasset'
+[2020.07.04-18.40.16:342][534]AssetCheck: New page: Asset Save: BP_JBasePlayer
+[2020.07.04-18.40.16:342][534]LogContentValidation: Display: Validating Blueprint /Game/Julian/JCharacter/BP_JBasePlayer.BP_JBasePlayer
+[2020.07.04-18.40.22:315][138]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-18.40.22:733][138]LogUObjectHash: Compacting FUObjectHashTables data took   5.82ms
+[2020.07.04-18.40.22:845][138]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem3CE675554D6239144189DCBB0DCB90EF.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-18.40.22:861][138]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-18.40.22:861][138]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-18.40.23:376][168]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystemB8D19FB9496CF99DD1F3BBAFF5DDC024.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-18.40.23:391][168]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-18.40.23:391][168]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-18.40.25:822][311]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.04-18.40.25:873][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.04-18.40.25:873][311]PIE: New page: PIE session: TestMap (Jul. 4, 2020, 10:40:25 a.m.)
+[2020.07.04-18.40.25:873][311]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-18.40.25:892][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018810s)
+[2020.07.04-18.40.25:893][311]LogAIModule: Creating AISystem for world TestMap
+[2020.07.04-18.40.25:894][311]LogPlayLevel: PIE: World Init took: (0.001199s)
+[2020.07.04-18.40.25:894][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.020153s)
+[2020.07.04-18.40.25:948][311]LogUObjectHash: Compacting FUObjectHashTables data took   5.69ms
+[2020.07.04-18.40.25:950][311]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.04-18.40.25:950][311]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.04-18.40.25:950][311]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.04-18.40.25:950][311]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.04-18.40.25:950][311]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.04-18.40.25:950][311]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.04-18.40.25:950][311]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.04-18.40.25:950][311]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.04-18.40.25:951][311]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.04-18.40.25:951][311]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.04-18.40.25:956][311]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.04-18.40.25:956][311]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.04-18.40.25:956][311]LogAudioMixer: Display: Is Default: Yes
+[2020.07.04-18.40.25:956][311]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.04-18.40.25:956][311]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.04-18.40.25:956][311]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.04-18.40.25:956][311]LogAudioMixer: Display: Channel Order:
+[2020.07.04-18.40.25:956][311]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.04-18.40.25:956][311]LogAudioMixer: Display: 1: FrontRight
+[2020.07.04-18.40.26:074][311]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.04-18.40.26:076][311]LogInit: FAudioDevice initialized.
+[2020.07.04-18.40.26:084][311]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.04-18.40.26:087][311]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2020.07.04-14.40.26
+[2020.07.04-18.40.26:087][311]LogWorld: Bringing up level for play took: 0.003117
+[2020.07.04-18.40.26:088][311]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2020.07.04-18.40.26:090][311]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-18.40.26:090][311]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-18.40.26:096][311]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.696
+[2020.07.04-18.41.43:910][142]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.41.43:910][142]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.41.43:915][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-18.41.43:915][142]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-18.41.43:916][142]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.41.43:916][142]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.04-18.41.43:916][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-18.41.43:954][142]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.04-18.41.43:961][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-18.41.44:006][142]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.41.44:011][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-18.41.44:019][142]LogUObjectHash: Compacting FUObjectHashTables data took   6.57ms
+[2020.07.04-18.41.44:171][143]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.07.04-18.41.45:793][199]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-18.41.45:819][199]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-18.41.49:504][359]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.04-18.41.49:554][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.04-18.41.49:554][359]PIE: New page: PIE session: TestMap (Jul. 4, 2020, 10:41:49 a.m.)
+[2020.07.04-18.41.49:554][359]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-18.41.49:570][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017327s)
+[2020.07.04-18.41.49:571][359]LogAIModule: Creating AISystem for world TestMap
+[2020.07.04-18.41.49:571][359]LogPlayLevel: PIE: World Init took: (0.001084s)
+[2020.07.04-18.41.49:571][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.018579s)
+[2020.07.04-18.41.49:621][359]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2020.07.04-18.41.49:622][359]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.04-18.41.49:622][359]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.04-18.41.49:622][359]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.04-18.41.49:622][359]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.04-18.41.49:622][359]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.04-18.41.49:622][359]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.04-18.41.49:622][359]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.04-18.41.49:622][359]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.04-18.41.49:623][359]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.04-18.41.49:623][359]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.04-18.41.49:627][359]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.04-18.41.49:627][359]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.04-18.41.49:628][359]LogAudioMixer: Display: Is Default: Yes
+[2020.07.04-18.41.49:628][359]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.04-18.41.49:628][359]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.04-18.41.49:628][359]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.04-18.41.49:628][359]LogAudioMixer: Display: Channel Order:
+[2020.07.04-18.41.49:628][359]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.04-18.41.49:628][359]LogAudioMixer: Display: 1: FrontRight
+[2020.07.04-18.41.49:742][359]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.04-18.41.49:743][359]LogInit: FAudioDevice initialized.
+[2020.07.04-18.41.49:751][359]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.04-18.41.49:754][359]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2020.07.04-14.41.49
+[2020.07.04-18.41.49:755][359]LogWorld: Bringing up level for play took: 0.003096
+[2020.07.04-18.41.49:755][359]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.07.04-18.41.49:757][359]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-18.41.49:757][359]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-18.41.49:762][359]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.362
+[2020.07.04-18.41.59:038][940]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.41.59:051][940]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.04-18.41.59:073][940]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.04-18.41.59:083][940]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-18.41.59:083][940]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-18.41.59:084][940]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.41.59:084][940]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.04-18.41.59:086][940]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-18.41.59:110][940]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.04-18.41.59:128][940]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-18.41.59:183][940]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.41.59:187][940]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-18.41.59:193][940]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2020.07.04-18.41.59:354][941]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.07.04-18.42.01:057][  9]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-18.42.01:082][  9]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-18.44.13:058][463]BlueprintLog: New page: Compile BP_JBasePlayer
+[2020.07.04-18.44.13:644][463]LogUObjectHash: Compacting FUObjectHashTables data took   5.69ms
+[2020.07.04-18.44.14:123][463]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JBasePlayer5C3EE25F46D0457994B026A40CE3254A.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/BP_JBasePlayer.uasset'
+[2020.07.04-18.44.14:140][463]AssetCheck: New page: Asset Save: BP_JBasePlayer
+[2020.07.04-18.44.14:140][463]LogContentValidation: Display: Validating Blueprint /Game/Julian/JCharacter/BP_JBasePlayer.BP_JBasePlayer
+[2020.07.04-18.44.15:288][505]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JBasePlayer532B45D84BA41D45117EDA9B31BCF245.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/BP_JBasePlayer.uasset'
+[2020.07.04-18.44.15:306][505]AssetCheck: New page: Asset Save: BP_JBasePlayer
+[2020.07.04-18.44.15:306][505]LogContentValidation: Display: Validating Blueprint /Game/Julian/JCharacter/BP_JBasePlayer.BP_JBasePlayer
+[2020.07.04-18.44.18:027][640]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.04-18.44.18:078][640]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.04-18.44.18:078][640]PIE: New page: PIE session: TestMap (Jul. 4, 2020, 10:44:18 a.m.)
+[2020.07.04-18.44.18:078][640]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-18.44.18:096][640]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017900s)
+[2020.07.04-18.44.18:097][640]LogAIModule: Creating AISystem for world TestMap
+[2020.07.04-18.44.18:097][640]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2020.07.04-18.44.18:097][640]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.019047s)
+[2020.07.04-18.44.18:150][640]LogUObjectHash: Compacting FUObjectHashTables data took   6.07ms
+[2020.07.04-18.44.18:154][640]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.04-18.44.18:154][640]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.04-18.44.18:154][640]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.04-18.44.18:154][640]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.04-18.44.18:154][640]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.04-18.44.18:154][640]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.04-18.44.18:154][640]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.04-18.44.18:154][640]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.04-18.44.18:155][640]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.04-18.44.18:155][640]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.04-18.44.18:160][640]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.04-18.44.18:160][640]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.04-18.44.18:160][640]LogAudioMixer: Display: Is Default: Yes
+[2020.07.04-18.44.18:160][640]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.04-18.44.18:160][640]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.04-18.44.18:160][640]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.04-18.44.18:160][640]LogAudioMixer: Display: Channel Order:
+[2020.07.04-18.44.18:160][640]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.04-18.44.18:160][640]LogAudioMixer: Display: 1: FrontRight
+[2020.07.04-18.44.18:284][640]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.04-18.44.18:286][640]LogInit: FAudioDevice initialized.
+[2020.07.04-18.44.18:294][640]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.04-18.44.18:297][640]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.04-14.44.18
+[2020.07.04-18.44.18:298][640]LogWorld: Bringing up level for play took: 0.002895
+[2020.07.04-18.44.18:298][640]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2020.07.04-18.44.18:300][640]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-18.44.18:300][640]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-18.44.18:305][640]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.905
+[2020.07.04-18.44.37:820][796]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.44.37:820][796]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.44.37:825][796]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-18.44.37:825][796]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-18.44.37:825][796]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.44.37:826][796]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.04-18.44.37:826][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-18.44.37:839][796]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.04-18.44.37:845][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-18.44.37:896][796]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.44.37:900][796]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-18.44.37:908][796]LogUObjectHash: Compacting FUObjectHashTables data took   6.01ms
+[2020.07.04-18.44.38:085][797]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.07.04-18.44.39:582][855]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-18.44.39:608][855]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-18.44.47:460][203]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.04-18.44.47:512][203]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.04-18.44.47:512][203]PIE: New page: PIE session: TestMap (Jul. 4, 2020, 10:44:47 a.m.)
+[2020.07.04-18.44.47:512][203]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-18.44.47:538][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025884s)
+[2020.07.04-18.44.47:539][203]LogAIModule: Creating AISystem for world TestMap
+[2020.07.04-18.44.47:540][203]LogPlayLevel: PIE: World Init took: (0.001467s)
+[2020.07.04-18.44.47:540][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.027595s)
+[2020.07.04-18.44.47:603][203]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
+[2020.07.04-18.44.47:605][203]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.04-18.44.47:605][203]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.04-18.44.47:605][203]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.04-18.44.47:605][203]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.04-18.44.47:605][203]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.04-18.44.47:605][203]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.04-18.44.47:605][203]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.04-18.44.47:605][203]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.04-18.44.47:605][203]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.04-18.44.47:605][203]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.04-18.44.47:612][203]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.04-18.44.47:612][203]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.04-18.44.47:612][203]LogAudioMixer: Display: Is Default: Yes
+[2020.07.04-18.44.47:612][203]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.04-18.44.47:612][203]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.04-18.44.47:612][203]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.04-18.44.47:612][203]LogAudioMixer: Display: Channel Order:
+[2020.07.04-18.44.47:612][203]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.04-18.44.47:612][203]LogAudioMixer: Display: 1: FrontRight
+[2020.07.04-18.44.47:747][203]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.04-18.44.47:749][203]LogInit: FAudioDevice initialized.
+[2020.07.04-18.44.47:760][203]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.04-18.44.47:763][203]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.04-14.44.47
+[2020.07.04-18.44.47:763][203]LogWorld: Bringing up level for play took: 0.002995
+[2020.07.04-18.44.47:764][203]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.07.04-18.44.47:765][203]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-18.44.47:766][203]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-18.44.47:770][203]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.37
+[2020.07.04-18.45.06:493][300]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.45.06:501][300]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.04-18.45.06:522][300]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.04-18.45.06:532][300]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-18.45.06:532][300]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-18.45.06:534][300]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.45.06:534][300]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.04-18.45.06:535][300]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-18.45.06:556][300]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.04-18.45.06:572][300]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-18.45.06:622][300]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.45.06:625][300]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-18.45.06:630][300]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.07.04-18.45.06:790][301]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.07.04-18.45.08:275][359]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-18.45.08:299][359]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-18.46.38:034][787]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.07.04-18.46.38:148][787]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap_Auto7D876070B49470E6A8189698DF59F0A69.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/JLevels/TestMap_Auto7.umap'
+[2020.07.04-18.46.38:151][787]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Julian/JLevels/TestMap' took 0.157
+[2020.07.04-18.46.38:151][787]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.157
+[2020.07.04-18.48.17:026][203]LogEditorViewport: Clicking on Actor (LMB): BP_CameraSystem_C (BP_CameraSystem)
+[2020.07.04-18.48.32:993][780]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2020.07.04-18.48.34:547][780]LogSlate: Window 'Save Content' being destroyed
+[2020.07.04-18.48.34:627][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.07.04-18.48.34:709][780]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap80BB17324EEFD184B4B5AFB748601EC4.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JLevels/TestMap.umap'
+[2020.07.04-18.48.34:767][780]LogFileHelpers: Saving map 'TestMap' took 0.184
+[2020.07.04-18.48.34:780][780]AssetCheck: New page: Asset Save: TestMap
+[2020.07.04-18.48.34:780][780]LogContentValidation: Display: Validating World /Game/Julian/JLevels/TestMap.TestMap
+[2020.07.04-18.48.38:926][865]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.04-18.48.38:970][865]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.04-18.48.38:971][865]PIE: New page: PIE session: TestMap (Jul. 4, 2020, 10:48:38 a.m.)
+[2020.07.04-18.48.38:971][865]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-18.48.38:988][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017347s)
+[2020.07.04-18.48.38:989][865]LogAIModule: Creating AISystem for world TestMap
+[2020.07.04-18.48.38:989][865]LogPlayLevel: PIE: World Init took: (0.001086s)
+[2020.07.04-18.48.38:989][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.018579s)
+[2020.07.04-18.48.39:039][865]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2020.07.04-18.48.39:041][865]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.04-18.48.39:041][865]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.04-18.48.39:041][865]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.04-18.48.39:041][865]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.04-18.48.39:041][865]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.04-18.48.39:041][865]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.04-18.48.39:041][865]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.04-18.48.39:041][865]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.04-18.48.39:041][865]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.04-18.48.39:041][865]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.04-18.48.39:045][865]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.04-18.48.39:046][865]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.04-18.48.39:046][865]LogAudioMixer: Display: Is Default: Yes
+[2020.07.04-18.48.39:046][865]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.04-18.48.39:046][865]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.04-18.48.39:046][865]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.04-18.48.39:046][865]LogAudioMixer: Display: Channel Order:
+[2020.07.04-18.48.39:046][865]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.04-18.48.39:046][865]LogAudioMixer: Display: 1: FrontRight
+[2020.07.04-18.48.39:163][865]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.04-18.48.39:165][865]LogInit: FAudioDevice initialized.
+[2020.07.04-18.48.39:170][865]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.04-18.48.39:173][865]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.04-14.48.39
+[2020.07.04-18.48.39:174][865]LogWorld: Bringing up level for play took: 0.003245
+[2020.07.04-18.48.39:174][865]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2020.07.04-18.48.39:176][865]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-18.48.39:176][865]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-18.48.39:181][865]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap -0.219
+[2020.07.04-18.49.02:529][251]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.49.02:551][251]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.04-18.49.02:571][251]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.04-18.49.02:574][251]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-18.49.02:574][251]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-18.49.02:574][251]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.49.02:574][251]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.04-18.49.02:575][251]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-18.49.02:589][251]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.04-18.49.02:595][251]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-18.49.02:638][251]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.49.02:641][251]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-18.49.02:648][251]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2020.07.04-18.49.02:814][252]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.07.04-18.49.04:456][317]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-18.49.04:494][317]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-18.49.15:764][778]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/Project.JBasePlayer
+[2020.07.04-18.50.58:124][613]BlueprintLog: New page: Compile BP_JBasePlayer
+[2020.07.04-18.50.59:290][613]LogUObjectHash: Compacting FUObjectHashTables data took   9.75ms
+[2020.07.04-18.50.59:942][613]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JBasePlayer4066647448713DA9EB1AE6AEEDD46506.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/BP_JBasePlayer.uasset'
+[2020.07.04-18.50.59:964][613]AssetCheck: New page: Asset Save: BP_JBasePlayer
+[2020.07.04-18.50.59:964][613]LogContentValidation: Display: Validating Blueprint /Game/Julian/JCharacter/BP_JBasePlayer.BP_JBasePlayer
+[2020.07.04-18.51.00:945][646]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JBasePlayerF3D9F21E4EBFB9371E16FBADE37CF4DF.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/BP_JBasePlayer.uasset'
+[2020.07.04-18.51.00:961][646]AssetCheck: New page: Asset Save: BP_JBasePlayer
+[2020.07.04-18.51.00:961][646]LogContentValidation: Display: Validating Blueprint /Game/Julian/JCharacter/BP_JBasePlayer.BP_JBasePlayer
+[2020.07.04-18.51.04:541][806]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.04-18.51.04:610][806]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.04-18.51.04:610][806]PIE: New page: PIE session: TestMap (Jul. 4, 2020, 10:51:04 a.m.)
+[2020.07.04-18.51.04:611][806]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-18.51.04:819][806]LogPlayLevel: PIE: StaticDuplicateObject took: (0.207250s)
+[2020.07.04-18.51.04:824][806]LogAIModule: Creating AISystem for world TestMap
+[2020.07.04-18.51.04:825][806]LogPlayLevel: PIE: World Init took: (0.006020s)
+[2020.07.04-18.51.04:825][806]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.213774s)
+[2020.07.04-18.51.04:889][806]LogUObjectHash: Compacting FUObjectHashTables data took   6.15ms
+[2020.07.04-18.51.04:900][806]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.04-18.51.04:900][806]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.04-18.51.04:900][806]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.04-18.51.04:900][806]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.04-18.51.04:900][806]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.04-18.51.04:900][806]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.04-18.51.04:900][806]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.04-18.51.04:900][806]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.04-18.51.04:901][806]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.04-18.51.04:902][806]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.04-18.51.04:911][806]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.04-18.51.04:911][806]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.04-18.51.04:911][806]LogAudioMixer: Display: Is Default: Yes
+[2020.07.04-18.51.04:911][806]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.04-18.51.04:911][806]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.04-18.51.04:911][806]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.04-18.51.04:911][806]LogAudioMixer: Display: Channel Order:
+[2020.07.04-18.51.04:911][806]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.04-18.51.04:911][806]LogAudioMixer: Display: 1: FrontRight
+[2020.07.04-18.51.05:032][806]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.04-18.51.05:055][806]LogInit: FAudioDevice initialized.
+[2020.07.04-18.51.05:070][806]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.04-18.51.05:077][806]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.04-14.51.05
+[2020.07.04-18.51.05:078][806]LogWorld: Bringing up level for play took: 0.005682
+[2020.07.04-18.51.05:078][806]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2020.07.04-18.51.05:083][806]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-18.51.05:084][806]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-18.51.05:090][806]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap -0.31
+[2020.07.04-18.51.12:851][255]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.51.12:861][255]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.04-18.51.12:882][255]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.04-18.51.12:897][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-18.51.12:897][255]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-18.51.12:898][255]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.51.12:898][255]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.04-18.51.12:900][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-18.51.13:080][255]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.04-18.51.13:099][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-18.51.13:172][255]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-18.51.13:178][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-18.51.13:187][255]LogUObjectHash: Compacting FUObjectHashTables data took   6.80ms
+[2020.07.04-18.51.13:374][256]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2020.07.04-18.51.14:641][305]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-18.51.14:666][305]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-19.01.26:789][820]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.04-19.01.26:869][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.04-19.01.26:870][820]PIE: New page: PIE session: TestMap (Jul. 4, 2020, 11:01:26 a.m.)
+[2020.07.04-19.01.26:870][820]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-19.01.26:900][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029249s)
+[2020.07.04-19.01.26:902][820]LogAIModule: Creating AISystem for world TestMap
+[2020.07.04-19.01.26:903][820]LogPlayLevel: PIE: World Init took: (0.002971s)
+[2020.07.04-19.01.26:903][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.033074s)
+[2020.07.04-19.01.26:979][820]LogUObjectHash: Compacting FUObjectHashTables data took   5.57ms
+[2020.07.04-19.01.26:987][820]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.04-19.01.26:987][820]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.04-19.01.26:987][820]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.04-19.01.26:987][820]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.04-19.01.26:987][820]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.04-19.01.26:987][820]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.04-19.01.26:987][820]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.04-19.01.26:987][820]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.04-19.01.26:988][820]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.04-19.01.26:989][820]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.04-19.01.26:994][820]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.04-19.01.26:995][820]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.04-19.01.26:995][820]LogAudioMixer: Display: Is Default: Yes
+[2020.07.04-19.01.26:995][820]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.04-19.01.26:995][820]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.04-19.01.26:995][820]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.04-19.01.26:995][820]LogAudioMixer: Display: Channel Order:
+[2020.07.04-19.01.26:995][820]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.04-19.01.26:995][820]LogAudioMixer: Display: 1: FrontRight
+[2020.07.04-19.01.27:108][820]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.04-19.01.27:134][820]LogInit: FAudioDevice initialized.
+[2020.07.04-19.01.27:141][820]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.04-19.01.27:146][820]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.04-15.01.27
+[2020.07.04-19.01.27:146][820]LogWorld: Bringing up level for play took: 0.004266
+[2020.07.04-19.01.27:147][820]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2020.07.04-19.01.27:151][820]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-19.01.27:151][820]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-19.01.27:158][820]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap -0.242
+[2020.07.04-19.01.39:536][540]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.01.39:551][540]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.04-19.01.39:571][540]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.04-19.01.39:584][540]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-19.01.39:584][540]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-19.01.39:584][540]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.01.39:585][540]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.04-19.01.39:587][540]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-19.01.39:615][540]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.04-19.01.39:632][540]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-19.01.39:693][540]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.01.39:697][540]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-19.01.39:703][540]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2020.07.04-19.01.39:875][541]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2020.07.04-19.01.41:341][594]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-19.01.41:388][594]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-19.01.42:772][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.07.04-19.06.09:596][360]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.06.10:014][360]LogUObjectHash: Compacting FUObjectHashTables data took   5.63ms
+[2020.07.04-19.06.10:155][360]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem7C44BC0F4DBCC4980751378169AF34C3.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.06.10:176][360]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.06.10:176][360]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.06.10:683][380]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystemE947242A4C6478FC9DA4C4A0F8B345B3.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.06.10:702][380]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.06.10:702][380]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.08.26:230][ 94]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.08.26:692][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   5.39ms
+[2020.07.04-19.08.26:820][ 94]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem7CC652B94613219A76C790B0562AE3FD.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.08.26:839][ 94]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.08.26:839][ 94]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.09.32:353][620]LogUObjectHash: Compacting FUObjectHashTables data took   7.99ms
+[2020.07.04-19.09.32:482][620]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap_Auto8F41D43AE41E9D33AB8E917AE06D18F2A.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/JLevels/TestMap_Auto8.umap'
+[2020.07.04-19.09.32:486][620]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Julian/JLevels/TestMap' took 0.201
+[2020.07.04-19.09.32:486][620]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.201
+[2020.07.04-19.09.32:487][620]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Julian/JBP_Classes/BP_CameraSystem] ([1] browsable assets)...
+[2020.07.04-19.09.32:487][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/Julian/JBP_Classes/BP_CameraSystem]
+[2020.07.04-19.09.32:541][620]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem_Auto8ED94224440B3FF1EE62951A677F26ECF.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/JBP_Classes/BP_CameraSystem_Auto8.uasset'
+[2020.07.04-19.09.32:543][620]LogFileHelpers: Auto-saving content packages took 0.057
+[2020.07.04-19.09.42:959][226]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.09.43:400][226]LogUObjectHash: Compacting FUObjectHashTables data took   5.39ms
+[2020.07.04-19.09.43:520][226]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem9845197E49174FA12224B784138F56EE.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.09.43:541][226]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.09.43:541][226]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.09.44:498][273]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystemF40BADED47A691DD00D31CA6CA1B8942.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.09.44:515][273]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.09.44:515][273]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.11.52:927][847]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.11.53:421][847]LogUObjectHash: Compacting FUObjectHashTables data took   6.22ms
+[2020.07.04-19.11.53:542][847]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem079C2F3D4E1214C591F70180B16DE7A2.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.11.53:561][847]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.11.53:561][847]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.11.54:365][887]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem32A3FC8340E2D1E3BA32D48EC819A8E9.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.11.54:383][887]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.11.54:383][887]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.12.53:827][971]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.12.54:393][971]LogUObjectHash: Compacting FUObjectHashTables data took   7.13ms
+[2020.07.04-19.12.54:529][971]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystemD7E35B7545C2F6EFFDA3BEA20B5BF22E.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.12.54:552][971]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.12.54:552][971]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.14.00:114][405]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.14.00:465][405]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2020.07.04-19.14.00:580][405]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem3B6137564A97AEF4CA119A938BCB2342.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.14.00:598][405]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.14.00:598][405]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.15.08:849][322]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.15.09:280][322]LogUObjectHash: Compacting FUObjectHashTables data took   5.30ms
+[2020.07.04-19.15.09:420][322]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem4E1E1DA54FCE483381DC72882F7F3A58.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.15.09:443][322]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.15.09:443][322]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.17.35:067][826]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.17.35:509][826]LogUObjectHash: Compacting FUObjectHashTables data took   5.56ms
+[2020.07.04-19.17.35:651][826]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystemD9B066D24B77B2BE2EABA6A74756CD3E.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.17.35:669][826]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.17.35:669][826]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.17.36:119][844]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem0FFC0CB846A73F320D8F91ADFB581364.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.17.36:136][844]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.17.36:136][844]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.19.13:165][948]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.19.13:569][948]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
+[2020.07.04-19.19.13:684][948]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem0CDC2EF44AF2CECB5D495BB394D076F5.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.19.13:702][948]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.19.13:702][948]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.19.14:281][973]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystemAE9A28354495F36A211247B7FA012AE1.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.19.14:297][973]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.19.14:297][973]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.19.39:247][349]LogUObjectHash: Compacting FUObjectHashTables data took   6.96ms
+[2020.07.04-19.19.39:364][349]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap_Auto96F926BAB4A6BD989431B448DC59808EB.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/Autosaves/Game/Julian/JLevels/TestMap_Auto9.umap'
+[2020.07.04-19.19.39:367][349]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Julian/JLevels/TestMap' took 0.185
+[2020.07.04-19.19.39:367][349]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.185
+[2020.07.04-19.20.04:911][289]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.20.05:329][289]LogUObjectHash: Compacting FUObjectHashTables data took   5.12ms
+[2020.07.04-19.20.05:460][289]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem30B9447B41F56E526E343DA047C072D4.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.20.05:477][289]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.20.05:477][289]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.20.05:967][309]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem1DB41CCF49A191BF27B6B195858A85BE.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.20.05:981][309]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.20.05:982][309]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.20.27:748][  8]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.20.28:173][  8]LogUObjectHash: Compacting FUObjectHashTables data took   5.23ms
+[2020.07.04-19.20.28:301][  8]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem3648B52340C9D49427E1DA8160EEC81B.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.20.28:319][  8]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.20.28:319][  8]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.20.28:887][ 32]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem48A728004BF62F10E3BD4EADBC551CB1.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.20.28:901][ 32]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.20.28:902][ 32]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.20.47:920][394]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem8EAB58DA42D52DB186FD19A3EE4B0FE4.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.20.47:940][394]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.20.47:940][394]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.20.48:448][421]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.20.48:782][421]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
+[2020.07.04-19.21.43:197][295]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.21.43:667][295]LogUObjectHash: Compacting FUObjectHashTables data took   5.75ms
+[2020.07.04-19.21.43:813][295]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem0F998BA5422FEB48F712C1BA053B4D05.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.21.43:830][295]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.21.43:830][295]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.22.10:314][216]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.22.10:760][216]LogUObjectHash: Compacting FUObjectHashTables data took   5.69ms
+[2020.07.04-19.22.10:894][216]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem15B28D8F455CEB3B5A0261867D981207.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.22.10:914][216]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.22.10:914][216]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.22.11:362][232]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem0F453CE8475051A85A1A24AC3825192D.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.22.11:380][232]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.22.11:380][232]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.22.31:897][491]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.22.32:312][491]LogUObjectHash: Compacting FUObjectHashTables data took   5.27ms
+[2020.07.04-19.22.32:433][491]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystemB539552D4F6970B0951CC485E0B33685.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.22.32:451][491]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.22.32:451][491]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.22.32:850][505]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystemFA98DAB149958064A93C159A64A435D7.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.22.32:867][505]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.22.32:867][505]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.23.16:982][959]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.23.17:432][959]LogUObjectHash: Compacting FUObjectHashTables data took   5.44ms
+[2020.07.04-19.23.17:564][959]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystemD8E46F504F3D627336E161867F29A60A.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.23.17:583][959]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.23.17:583][959]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.23.18:090][978]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystemB5FD9EAF4320B69B528C9B99ACC08FEE.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.23.18:109][978]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.23.18:109][978]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.24.09:682][523]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.24.10:086][523]LogUObjectHash: Compacting FUObjectHashTables data took   5.99ms
+[2020.07.04-19.24.10:208][523]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystemB08189344ADD5990A8A604811120E0D6.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.24.10:228][523]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.24.10:228][523]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.24.10:777][545]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem54D901FE4675223FD54C1EB63BF2A11C.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.24.10:795][545]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.24.10:795][545]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.24.32:762][ 38]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.24.33:220][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   8.46ms
+[2020.07.04-19.24.33:383][ 38]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem13211BCF4B4336BD50F9958A53F79236.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.24.33:401][ 38]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.24.33:401][ 38]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.24.33:822][ 51]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem51FB53FB4A712EEE4EC658971D83B2A0.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.24.33:839][ 51]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.24.33:839][ 51]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.25.00:841][764]BlueprintLog: New page: Compile BP_JBasePlayer
+[2020.07.04-19.25.01:412][764]LogUObjectHash: Compacting FUObjectHashTables data took   8.19ms
+[2020.07.04-19.25.01:915][764]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JBasePlayer10D1B80F4FE18893917EDFBCB37AF0AD.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/BP_JBasePlayer.uasset'
+[2020.07.04-19.25.01:933][764]AssetCheck: New page: Asset Save: BP_JBasePlayer
+[2020.07.04-19.25.01:933][764]LogContentValidation: Display: Validating Blueprint /Game/Julian/JCharacter/BP_JBasePlayer.BP_JBasePlayer
+[2020.07.04-19.25.02:866][794]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JBasePlayerDFDFF2B54C9A846FBDBD4F8E2FB56B6D.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/BP_JBasePlayer.uasset'
+[2020.07.04-19.25.02:882][794]AssetCheck: New page: Asset Save: BP_JBasePlayer
+[2020.07.04-19.25.02:882][794]LogContentValidation: Display: Validating Blueprint /Game/Julian/JCharacter/BP_JBasePlayer.BP_JBasePlayer
+[2020.07.04-19.25.57:132][340]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.25.57:549][340]LogUObjectHash: Compacting FUObjectHashTables data took   5.35ms
+[2020.07.04-19.25.57:671][340]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem9809C0F74D03ED663A491E8FACBA68AE.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.25.57:690][340]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.25.57:690][340]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.25.58:169][360]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystemB15196BE43AE89D667E2F2A9DA86587B.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.25.58:187][360]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.25.58:187][360]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.26.30:207][706]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2020.07.04-19.26.31:339][706]LogSlate: Window 'Save Content' being destroyed
+[2020.07.04-19.26.31:440][706]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2020.07.04-19.26.31:546][706]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMapE0AFE8D645C547456E95AA83E7B7EFEB.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JLevels/TestMap.umap'
+[2020.07.04-19.26.31:633][706]LogFileHelpers: Saving map 'TestMap' took 0.244
+[2020.07.04-19.26.31:648][706]AssetCheck: New page: Asset Save: TestMap
+[2020.07.04-19.26.31:648][706]LogContentValidation: Display: Validating World /Game/Julian/JLevels/TestMap.TestMap
+[2020.07.04-19.26.35:416][891]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.04-19.26.35:486][891]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.04-19.26.35:489][891]PIE: New page: PIE session: TestMap (Jul. 4, 2020, 11:26:35 a.m.)
+[2020.07.04-19.26.35:491][891]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-19.26.35:537][891]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045571s)
+[2020.07.04-19.26.35:552][891]LogAIModule: Creating AISystem for world TestMap
+[2020.07.04-19.26.35:554][891]LogPlayLevel: PIE: World Init took: (0.017252s)
+[2020.07.04-19.26.35:554][891]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.063060s)
+[2020.07.04-19.26.35:611][891]LogUObjectHash: Compacting FUObjectHashTables data took   5.53ms
+[2020.07.04-19.26.35:616][891]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.04-19.26.35:616][891]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.04-19.26.35:616][891]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.04-19.26.35:616][891]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.04-19.26.35:616][891]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.04-19.26.35:616][891]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.04-19.26.35:616][891]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.04-19.26.35:617][891]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.04-19.26.35:619][891]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.04-19.26.35:619][891]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.04-19.26.35:626][891]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.04-19.26.35:626][891]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.04-19.26.35:627][891]LogAudioMixer: Display: Is Default: Yes
+[2020.07.04-19.26.35:627][891]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.04-19.26.35:627][891]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.04-19.26.35:627][891]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.04-19.26.35:627][891]LogAudioMixer: Display: Channel Order:
+[2020.07.04-19.26.35:627][891]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.04-19.26.35:627][891]LogAudioMixer: Display: 1: FrontRight
+[2020.07.04-19.26.35:746][891]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.04-19.26.35:757][891]LogInit: FAudioDevice initialized.
+[2020.07.04-19.26.35:774][891]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.04-19.26.35:797][891]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.04-15.26.35
+[2020.07.04-19.26.35:807][891]LogWorld: Bringing up level for play took: 0.025706
+[2020.07.04-19.26.35:813][891]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2020.07.04-19.26.35:836][891]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-19.26.35:836][891]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-19.26.35:879][891]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.479
+[2020.07.04-19.26.48:515][632]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.26.48:529][632]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.04-19.26.48:549][632]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.04-19.26.48:554][632]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-19.26.48:554][632]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-19.26.48:555][632]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.26.48:556][632]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.04-19.26.48:557][632]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-19.26.48:576][632]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.04-19.26.48:583][632]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-19.26.48:637][632]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.26.48:643][632]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-19.26.48:658][632]LogUObjectHash: Compacting FUObjectHashTables data took   6.85ms
+[2020.07.04-19.26.48:839][633]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2020.07.04-19.26.49:955][680]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-19.26.49:984][680]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-19.27.00:680][205]LogEditorViewport: Clicking on Actor (LMB): BP_CameraSystem_C (BP_CameraSystem)
+[2020.07.04-19.27.08:998][492]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2020.07.04-19.27.09:132][492]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap4175CBD9402CDAE342F0DB8C964547EA.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JLevels/TestMap.umap'
+[2020.07.04-19.27.09:485][492]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap_BuiltData10CA46374A326759E0BE788F94CD1328.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JLevels/TestMap_BuiltData.uasset'
+[2020.07.04-19.27.09:508][492]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.04-19.27.09:508][492]LogContentValidation: Display: Validating World /Game/Julian/JLevels/TestMap.TestMap
+[2020.07.04-19.27.09:508][492]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Julian/JLevels/TestMap_BuiltData.TestMap_BuiltData
+[2020.07.04-19.27.10:182][508]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.07.04-19.27.12:329][584]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.04-19.27.12:379][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.04-19.27.12:380][584]PIE: New page: PIE session: TestMap (Jul. 4, 2020, 11:27:12 a.m.)
+[2020.07.04-19.27.12:380][584]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-19.27.12:402][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022632s)
+[2020.07.04-19.27.12:404][584]LogAIModule: Creating AISystem for world TestMap
+[2020.07.04-19.27.12:404][584]LogPlayLevel: PIE: World Init took: (0.001058s)
+[2020.07.04-19.27.12:404][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.024291s)
+[2020.07.04-19.27.12:459][584]LogUObjectHash: Compacting FUObjectHashTables data took   4.81ms
+[2020.07.04-19.27.12:464][584]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.04-19.27.12:464][584]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.04-19.27.12:464][584]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.04-19.27.12:464][584]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.04-19.27.12:464][584]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.04-19.27.12:464][584]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.04-19.27.12:464][584]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.04-19.27.12:464][584]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.04-19.27.12:465][584]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.04-19.27.12:465][584]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.04-19.27.12:472][584]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.04-19.27.12:472][584]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.04-19.27.12:472][584]LogAudioMixer: Display: Is Default: Yes
+[2020.07.04-19.27.12:472][584]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.04-19.27.12:472][584]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.04-19.27.12:472][584]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.04-19.27.12:472][584]LogAudioMixer: Display: Channel Order:
+[2020.07.04-19.27.12:472][584]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.04-19.27.12:472][584]LogAudioMixer: Display: 1: FrontRight
+[2020.07.04-19.27.12:630][584]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.04-19.27.12:639][584]LogInit: FAudioDevice initialized.
+[2020.07.04-19.27.12:654][584]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.04-19.27.12:659][584]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.04-15.27.12
+[2020.07.04-19.27.12:660][584]LogWorld: Bringing up level for play took: 0.006017
+[2020.07.04-19.27.12:661][584]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2020.07.04-19.27.12:665][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-19.27.12:665][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-19.27.12:678][584]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 1.277
+[2020.07.04-19.27.46:966][596]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.27.46:979][596]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.04-19.27.46:999][596]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.04-19.27.47:002][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-19.27.47:002][596]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-19.27.47:003][596]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.27.47:003][596]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.04-19.27.47:003][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-19.27.47:014][596]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.04-19.27.47:020][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-19.27.47:070][596]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.27.47:074][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-19.27.47:084][596]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2020.07.04-19.27.47:276][597]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2020.07.04-19.27.48:465][639]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-19.27.48:497][639]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-19.29.08:161][601]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.29.08:622][601]LogUObjectHash: Compacting FUObjectHashTables data took   5.32ms
+[2020.07.04-19.29.08:762][601]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem5320B8AB4BB958371249258320198A95.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.29.08:779][601]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.29.08:779][601]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.29.09:322][623]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem23CB024340A34AE4839C6DAAF192FE60.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.29.09:336][623]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.29.09:336][623]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.29.34:060][384]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.29.34:499][384]LogUObjectHash: Compacting FUObjectHashTables data took   5.43ms
+[2020.07.04-19.29.34:639][384]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem4C6FE2BA4B6533AEA7AED9A9F4CDB233.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.29.34:658][384]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.29.34:658][384]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.29.35:405][418]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystemD2BF23B2466936D9F6ACBD97CD2D7F84.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.29.35:425][418]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.29.35:425][418]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.30.07:150][374]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.30.07:158][374]LogBlueprint: Error: [Compiler BP_CameraSystem] The current value (0, 0, 0) of the ' Start ' pin is invalid: 'Start' in action 'Find Look at Rotation' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2020.07.04-19.30.07:159][374]LogBlueprint: Error: [Compiler BP_CameraSystem] The current value (0, 0, 0) of the ' Target ' pin is invalid: 'Target' in action 'Find Look at Rotation' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2020.07.04-19.30.07:581][374]LogUObjectHash: Compacting FUObjectHashTables data took   4.98ms
+[2020.07.04-19.30.08:079][393]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem0F8FC0744391E86C9F0BF8B7C2C12ABD.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.30.08:098][393]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.30.08:098][393]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.30.37:849][300]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.30.37:855][300]LogBlueprint: Error: [Compiler BP_CameraSystem] The current value (0, 0, 0) of the ' Target ' pin is invalid: 'Target' in action 'Find Look at Rotation' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2020.07.04-19.30.38:287][300]LogUObjectHash: Compacting FUObjectHashTables data took   5.27ms
+[2020.07.04-19.30.38:942][327]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem94CBC8CC489E2FD00E4A9E91F5DFB028.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.30.38:962][327]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.30.38:962][327]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.31.18:115][701]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.31.18:575][701]LogUObjectHash: Compacting FUObjectHashTables data took   6.01ms
+[2020.07.04-19.31.18:723][701]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem237C4452422EF461E0EAF4B8FA8650EB.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.31.18:742][701]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.31.18:742][701]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.31.19:210][720]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem94AC602A461689EAD2ED45B969819E6B.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.31.19:230][720]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.31.19:230][720]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.33.11:114][908]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.33.11:584][908]LogUObjectHash: Compacting FUObjectHashTables data took   5.31ms
+[2020.07.04-19.33.11:713][908]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem2BACBA5D41D4793FC6FC679A495DAD75.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.33.11:735][908]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.33.11:735][908]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.33.12:416][934]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystemAF6428ED43CE576053C7D7A5BDA784FB.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.33.12:441][934]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.33.12:441][934]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.33.30:666][142]BlueprintLog: New page: Compile BP_CameraSystem
+[2020.07.04-19.33.31:072][142]LogUObjectHash: Compacting FUObjectHashTables data took   5.27ms
+[2020.07.04-19.33.31:542][159]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_CameraSystem7A3B597340542DA6C49D04B3D043BF8F.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_CameraSystem.uasset'
+[2020.07.04-19.33.31:559][159]AssetCheck: New page: Asset Save: BP_CameraSystem
+[2020.07.04-19.33.31:559][159]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_CameraSystem.BP_CameraSystem
+[2020.07.04-19.33.34:077][295]LogEditorViewport: Clicking on Actor (LMB): BP_CameraSystem_C (BP_CameraSystem)
+[2020.07.04-19.33.38:698][455]LogUObjectHash: Compacting FUObjectHashTables data took   8.30ms
+[2020.07.04-19.33.38:833][455]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap8377B3074F04A4845D226EAFC22A44C8.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JLevels/TestMap.umap'
+[2020.07.04-19.33.39:095][455]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap_BuiltData4344BD60452A5E223255B99DE0A210DD.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JLevels/TestMap_BuiltData.uasset'
+[2020.07.04-19.33.39:119][455]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.04-19.33.39:119][455]LogContentValidation: Display: Validating World /Game/Julian/JLevels/TestMap.TestMap
+[2020.07.04-19.33.39:119][455]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Julian/JLevels/TestMap_BuiltData.TestMap_BuiltData
+[2020.07.04-19.35.49:054][942]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.04-19.35.49:112][942]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.04-19.35.49:113][942]PIE: New page: PIE session: TestMap (Jul. 4, 2020, 11:35:49 a.m.)
+[2020.07.04-19.35.49:113][942]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-19.35.49:154][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041069s)
+[2020.07.04-19.35.49:156][942]LogAIModule: Creating AISystem for world TestMap
+[2020.07.04-19.35.49:157][942]LogPlayLevel: PIE: World Init took: (0.002459s)
+[2020.07.04-19.35.49:157][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.043860s)
+[2020.07.04-19.35.49:222][942]LogUObjectHash: Compacting FUObjectHashTables data took   4.99ms
+[2020.07.04-19.35.49:223][942]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.04-19.35.49:223][942]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.04-19.35.49:223][942]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.04-19.35.49:223][942]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.04-19.35.49:223][942]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.04-19.35.49:223][942]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.04-19.35.49:223][942]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.04-19.35.49:223][942]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.04-19.35.49:224][942]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.04-19.35.49:224][942]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.04-19.35.49:229][942]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.04-19.35.49:229][942]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.04-19.35.49:229][942]LogAudioMixer: Display: Is Default: Yes
+[2020.07.04-19.35.49:229][942]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.04-19.35.49:229][942]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.04-19.35.49:229][942]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.04-19.35.49:230][942]LogAudioMixer: Display: Channel Order:
+[2020.07.04-19.35.49:230][942]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.04-19.35.49:230][942]LogAudioMixer: Display: 1: FrontRight
+[2020.07.04-19.35.49:355][942]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.04-19.35.49:363][942]LogInit: FAudioDevice initialized.
+[2020.07.04-19.35.49:381][942]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.04-19.35.49:392][942]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.04-15.35.49
+[2020.07.04-19.35.49:395][942]LogWorld: Bringing up level for play took: 0.011390
+[2020.07.04-19.35.49:396][942]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2020.07.04-19.35.49:403][942]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-19.35.49:403][942]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-19.35.49:419][942]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.019
+[2020.07.04-19.36.01:186][629]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.36.01:199][629]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.04-19.36.01:229][629]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.04-19.36.01:232][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-19.36.01:232][629]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-19.36.01:232][629]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.36.01:233][629]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.04-19.36.01:234][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-19.36.01:250][629]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.04-19.36.01:255][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-19.36.01:299][629]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.36.01:303][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-19.36.01:309][629]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.07.04-19.36.01:452][630]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2020.07.04-19.36.02:629][671]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-19.36.02:675][671]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-19.36.07:783][954]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.04-19.36.07:854][954]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.04-19.36.07:854][954]PIE: New page: PIE session: TestMap (Jul. 4, 2020, 11:36:07 a.m.)
+[2020.07.04-19.36.07:858][954]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-19.36.07:886][954]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028010s)
+[2020.07.04-19.36.07:888][954]LogAIModule: Creating AISystem for world TestMap
+[2020.07.04-19.36.07:888][954]LogPlayLevel: PIE: World Init took: (0.001608s)
+[2020.07.04-19.36.07:888][954]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.029889s)
+[2020.07.04-19.36.07:953][954]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2020.07.04-19.36.07:958][954]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.04-19.36.07:958][954]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.04-19.36.07:958][954]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.04-19.36.07:958][954]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.04-19.36.07:958][954]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.04-19.36.07:958][954]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.04-19.36.07:958][954]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.04-19.36.07:958][954]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.04-19.36.07:959][954]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.04-19.36.07:959][954]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.04-19.36.07:963][954]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.04-19.36.07:963][954]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.04-19.36.07:963][954]LogAudioMixer: Display: Is Default: Yes
+[2020.07.04-19.36.07:963][954]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.04-19.36.07:963][954]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.04-19.36.07:963][954]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.04-19.36.07:963][954]LogAudioMixer: Display: Channel Order:
+[2020.07.04-19.36.07:963][954]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.04-19.36.07:963][954]LogAudioMixer: Display: 1: FrontRight
+[2020.07.04-19.36.08:097][954]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.04-19.36.08:102][954]LogInit: FAudioDevice initialized.
+[2020.07.04-19.36.08:117][954]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.04-19.36.08:121][954]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.04-15.36.08
+[2020.07.04-19.36.08:122][954]LogWorld: Bringing up level for play took: 0.004641
+[2020.07.04-19.36.08:123][954]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2020.07.04-19.36.08:126][954]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-19.36.08:126][954]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-19.36.08:134][954]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.734
+[2020.07.04-19.36.15:245][366]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.36.15:248][366]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.04-19.36.15:269][366]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.04-19.36.15:272][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-19.36.15:272][366]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-19.36.15:272][366]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.36.15:272][366]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.04-19.36.15:273][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-19.36.15:284][366]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.04-19.36.15:290][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-19.36.15:334][366]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.36.15:337][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-19.36.15:343][366]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2020.07.04-19.36.15:507][367]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2020.07.04-19.36.16:639][411]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-19.36.16:666][411]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-19.36.18:774][513]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.04-19.36.18:822][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.04-19.36.18:822][513]PIE: New page: PIE session: TestMap (Jul. 4, 2020, 11:36:18 a.m.)
+[2020.07.04-19.36.18:825][513]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-19.36.18:843][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018700s)
+[2020.07.04-19.36.18:844][513]LogAIModule: Creating AISystem for world TestMap
+[2020.07.04-19.36.18:845][513]LogPlayLevel: PIE: World Init took: (0.001119s)
+[2020.07.04-19.36.18:845][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.020011s)
+[2020.07.04-19.36.18:897][513]LogUObjectHash: Compacting FUObjectHashTables data took   6.05ms
+[2020.07.04-19.36.18:899][513]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.04-19.36.18:899][513]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.04-19.36.18:899][513]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.04-19.36.18:899][513]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.04-19.36.18:899][513]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.04-19.36.18:899][513]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.04-19.36.18:899][513]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.04-19.36.18:899][513]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.04-19.36.18:900][513]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.04-19.36.18:900][513]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.04-19.36.18:907][513]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.04-19.36.18:907][513]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.04-19.36.18:907][513]LogAudioMixer: Display: Is Default: Yes
+[2020.07.04-19.36.18:907][513]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.04-19.36.18:907][513]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.04-19.36.18:907][513]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.04-19.36.18:907][513]LogAudioMixer: Display: Channel Order:
+[2020.07.04-19.36.18:907][513]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.04-19.36.18:907][513]LogAudioMixer: Display: 1: FrontRight
+[2020.07.04-19.36.19:069][513]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.04-19.36.19:073][513]LogInit: FAudioDevice initialized.
+[2020.07.04-19.36.19:085][513]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.04-19.36.19:089][513]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.04-15.36.19
+[2020.07.04-19.36.19:090][513]LogWorld: Bringing up level for play took: 0.004304
+[2020.07.04-19.36.19:090][513]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2020.07.04-19.36.19:093][513]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-19.36.19:093][513]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-19.36.19:101][513]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap -0.299
+[2020.07.04-19.36.41:771][825]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.36.41:788][825]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.04-19.36.41:818][825]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.04-19.36.41:821][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-19.36.41:821][825]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-19.36.41:821][825]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.36.41:822][825]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.04-19.36.41:822][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-19.36.41:838][825]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.04-19.36.41:846][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-19.36.41:902][825]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.36.41:908][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-19.36.41:917][825]LogUObjectHash: Compacting FUObjectHashTables data took   6.34ms
+[2020.07.04-19.36.42:079][826]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2020.07.04-19.36.43:262][866]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-19.36.43:300][866]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-19.36.45:380][978]LogEditorViewport: Clicking on Actor (LMB): BP_CameraSystem_C (BP_CameraSystem)
+[2020.07.04-19.36.48:980][102]LogUObjectHash: Compacting FUObjectHashTables data took   5.44ms
+[2020.07.04-19.36.49:126][102]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap902BE773403AE1283857329AE5AE0530.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JLevels/TestMap.umap'
+[2020.07.04-19.36.49:389][102]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap_BuiltDataC458DA4D4B0B740ACD1545AA1DC112F7.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JLevels/TestMap_BuiltData.uasset'
+[2020.07.04-19.36.49:415][102]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.04-19.36.49:415][102]LogContentValidation: Display: Validating World /Game/Julian/JLevels/TestMap.TestMap
+[2020.07.04-19.36.49:415][102]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Julian/JLevels/TestMap_BuiltData.TestMap_BuiltData
+[2020.07.04-19.36.51:346][163]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.04-19.36.51:406][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.04-19.36.51:406][163]PIE: New page: PIE session: TestMap (Jul. 4, 2020, 11:36:51 a.m.)
+[2020.07.04-19.36.51:412][163]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-19.36.51:441][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029577s)
+[2020.07.04-19.36.51:442][163]LogAIModule: Creating AISystem for world TestMap
+[2020.07.04-19.36.51:443][163]LogPlayLevel: PIE: World Init took: (0.001253s)
+[2020.07.04-19.36.51:443][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.031085s)
+[2020.07.04-19.36.51:506][163]LogUObjectHash: Compacting FUObjectHashTables data took   5.90ms
+[2020.07.04-19.36.51:507][163]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.04-19.36.51:507][163]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.04-19.36.51:507][163]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.04-19.36.51:507][163]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.04-19.36.51:507][163]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.04-19.36.51:507][163]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.04-19.36.51:507][163]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.04-19.36.51:507][163]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.04-19.36.51:508][163]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.04-19.36.51:508][163]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.04-19.36.51:515][163]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.04-19.36.51:515][163]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.04-19.36.51:515][163]LogAudioMixer: Display: Is Default: Yes
+[2020.07.04-19.36.51:515][163]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.04-19.36.51:515][163]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.04-19.36.51:515][163]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.04-19.36.51:515][163]LogAudioMixer: Display: Channel Order:
+[2020.07.04-19.36.51:515][163]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.04-19.36.51:516][163]LogAudioMixer: Display: 1: FrontRight
+[2020.07.04-19.36.51:645][163]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.04-19.36.51:647][163]LogInit: FAudioDevice initialized.
+[2020.07.04-19.36.51:658][163]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.04-19.36.51:661][163]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.04-15.36.51
+[2020.07.04-19.36.51:661][163]LogWorld: Bringing up level for play took: 0.003030
+[2020.07.04-19.36.51:661][163]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2020.07.04-19.36.51:663][163]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-19.36.51:663][163]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-19.36.51:667][163]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.267
+[2020.07.04-19.37.28:514][293]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.37.28:528][293]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.04-19.37.28:549][293]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.04-19.37.28:553][293]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-19.37.28:553][293]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-19.37.28:553][293]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.37.28:554][293]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.04-19.37.28:554][293]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-19.37.28:567][293]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.04-19.37.28:574][293]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-19.37.28:633][293]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.37.28:637][293]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-19.37.28:641][293]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.07.04-19.37.28:844][294]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2020.07.04-19.37.30:110][341]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-19.37.30:135][341]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-19.37.31:956][418]LogEditorViewport: Clicking on Actor (LMB): BP_CameraSystem_C (BP_CameraSystem)
+[2020.07.04-19.38.04:628][575]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.04-19.38.04:693][575]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.04-19.38.04:693][575]PIE: New page: PIE session: TestMap (Jul. 4, 2020, 11:38:04 a.m.)
+[2020.07.04-19.38.04:699][575]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-19.38.04:734][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035888s)
+[2020.07.04-19.38.04:735][575]LogAIModule: Creating AISystem for world TestMap
+[2020.07.04-19.38.04:736][575]LogPlayLevel: PIE: World Init took: (0.001450s)
+[2020.07.04-19.38.04:736][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.037610s)
+[2020.07.04-19.38.04:808][575]LogUObjectHash: Compacting FUObjectHashTables data took   7.10ms
+[2020.07.04-19.38.04:811][575]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.04-19.38.04:811][575]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.04-19.38.04:811][575]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.04-19.38.04:811][575]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.04-19.38.04:811][575]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.04-19.38.04:811][575]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.04-19.38.04:811][575]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.04-19.38.04:811][575]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.04-19.38.04:812][575]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.04-19.38.04:812][575]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.04-19.38.04:819][575]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.04-19.38.04:819][575]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.04-19.38.04:819][575]LogAudioMixer: Display: Is Default: Yes
+[2020.07.04-19.38.04:819][575]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.04-19.38.04:819][575]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.04-19.38.04:819][575]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.04-19.38.04:819][575]LogAudioMixer: Display: Channel Order:
+[2020.07.04-19.38.04:819][575]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.04-19.38.04:819][575]LogAudioMixer: Display: 1: FrontRight
+[2020.07.04-19.38.04:972][575]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.04-19.38.04:974][575]LogInit: FAudioDevice initialized.
+[2020.07.04-19.38.04:984][575]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.04-19.38.04:988][575]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.04-15.38.04
+[2020.07.04-19.38.04:988][575]LogWorld: Bringing up level for play took: 0.003695
+[2020.07.04-19.38.04:989][575]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2020.07.04-19.38.04:992][575]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-19.38.04:992][575]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-19.38.04:998][575]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap -0.403
+[2020.07.04-19.38.28:899][955]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.38.28:908][955]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.04-19.38.28:929][955]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.04-19.38.28:932][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-19.38.28:932][955]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-19.38.28:932][955]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.38.28:932][955]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.04-19.38.28:933][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-19.38.28:944][955]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.04-19.38.28:952][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-19.38.29:000][955]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.38.29:004][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-19.38.29:010][955]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2020.07.04-19.38.29:197][956]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2020.07.04-19.38.30:463][999]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-19.38.30:500][999]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-19.38.56:292][460]LogRenderer: Reallocating scene render targets to support 636x404 Format 10 NumSamples 1 (Frame:150142).
+[2020.07.04-19.38.56:342][461]LogRenderer: Reallocating scene render targets to support 636x408 Format 10 NumSamples 1 (Frame:150144).
+[2020.07.04-19.38.56:464][462]LogRenderer: Reallocating scene render targets to support 636x428 Format 10 NumSamples 1 (Frame:150146).
+[2020.07.04-19.38.56:519][463]LogRenderer: Reallocating scene render targets to support 636x440 Format 10 NumSamples 1 (Frame:150148).
+[2020.07.04-19.38.57:696][515]LogEditorViewport: Clicking on Actor (LMB): BP_CameraSystem_C (BP_CameraSystem)
+[2020.07.04-19.39.01:011][612]LogEditorViewport: Clicking on Actor (LMB): BP_CameraSystem_C (BP_CameraSystem)
+[2020.07.04-19.39.11:814][934]LogUObjectHash: Compacting FUObjectHashTables data took   5.24ms
+[2020.07.04-19.39.11:973][934]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMapE57497D741911F107026259083B1E8ED.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JLevels/TestMap.umap'
+[2020.07.04-19.39.12:262][934]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMap_BuiltData809772E34C5D1375E66515B1D287F1A0.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JLevels/TestMap_BuiltData.uasset'
+[2020.07.04-19.39.12:286][934]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.04-19.39.12:287][934]LogContentValidation: Display: Validating World /Game/Julian/JLevels/TestMap.TestMap
+[2020.07.04-19.39.12:287][934]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Julian/JLevels/TestMap_BuiltData.TestMap_BuiltData
+[2020.07.04-19.39.13:725][968]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.04-19.39.13:823][968]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.04-19.39.13:823][968]PIE: New page: PIE session: TestMap (Jul. 4, 2020, 11:39:13 a.m.)
+[2020.07.04-19.39.13:826][968]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-19.39.13:853][968]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026795s)
+[2020.07.04-19.39.13:855][968]LogAIModule: Creating AISystem for world TestMap
+[2020.07.04-19.39.13:855][968]LogPlayLevel: PIE: World Init took: (0.001747s)
+[2020.07.04-19.39.13:855][968]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.028810s)
+[2020.07.04-19.39.13:910][968]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2020.07.04-19.39.13:911][968]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.04-19.39.13:911][968]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.04-19.39.13:911][968]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.04-19.39.13:911][968]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.04-19.39.13:911][968]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.04-19.39.13:911][968]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.04-19.39.13:911][968]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.04-19.39.13:911][968]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.04-19.39.13:912][968]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.04-19.39.13:912][968]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.04-19.39.13:917][968]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.04-19.39.13:917][968]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.04-19.39.13:917][968]LogAudioMixer: Display: Is Default: Yes
+[2020.07.04-19.39.13:917][968]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.04-19.39.13:917][968]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.04-19.39.13:917][968]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.04-19.39.13:917][968]LogAudioMixer: Display: Channel Order:
+[2020.07.04-19.39.13:917][968]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.04-19.39.13:917][968]LogAudioMixer: Display: 1: FrontRight
+[2020.07.04-19.39.14:030][968]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.04-19.39.14:031][968]LogInit: FAudioDevice initialized.
+[2020.07.04-19.39.14:039][968]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.04-19.39.14:043][968]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.04-15.39.14
+[2020.07.04-19.39.14:044][968]LogWorld: Bringing up level for play took: 0.004503
+[2020.07.04-19.39.14:045][968]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2020.07.04-19.39.14:048][968]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-19.39.14:048][968]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.04-19.39.14:056][968]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.655
+[2020.07.04-19.40.14:834][190]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.40.14:859][190]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.04-19.40.14:879][190]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.04-19.40.14:892][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-19.40.14:892][190]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.04-19.40.14:893][190]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.40.14:894][190]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.04-19.40.14:896][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-19.40.14:934][190]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.04-19.40.14:943][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.04-19.40.14:990][190]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.04-19.40.14:993][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.04-19.40.14:999][190]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2020.07.04-19.40.15:186][191]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2020.07.04-19.40.16:464][238]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-19.40.16:497][238]LogSlate: Window 'Message Log' being destroyed
+[2020.07.04-19.40.20:049][380]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
