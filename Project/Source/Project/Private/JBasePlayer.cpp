@@ -35,17 +35,18 @@ AJBasePlayer::AJBasePlayer()
 
 	//Create camera's holder
 	CameraStick = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraStick"));
-	CameraStick->SetupAttachment(GetRootComponent());
-	CameraStick->TargetArmLength = 400.f; //camera distance from player
-	CameraStick->bUsePawnControlRotation = true; //Rotate according to controller
+	CameraStick->SetupAttachment(GetCapsuleComponent());
+	CameraStick->TargetArmLength = 300.f; //camera distance from player
+	CameraStick->bUsePawnControlRotation = false; //Rotate according to controller
 
+	
 	//Capsule component size
 	GetCapsuleComponent()->SetCapsuleSize(34.f, 95.f);
 
 	//Create player's camera
 	PlayerCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("PlayerCamera"));
 	PlayerCamera->SetupAttachment(CameraStick, USpringArmComponent::SocketName);
-	PlayerCamera->bUsePawnControlRotation = false;
+	PlayerCamera->bUsePawnControlRotation = true;
 
 	//Stealth
 	/*SKillBox = CreateDefaultSubobject<UBoxComponent>(TEXT("SKillBox"));
