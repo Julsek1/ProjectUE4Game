@@ -48,9 +48,7 @@ AJBasePlayer::AJBasePlayer()
 	PlayerCamera->SetupAttachment(CameraStick, USpringArmComponent::SocketName);
 	PlayerCamera->bUsePawnControlRotation = true;
 
-	//Stealth
-	/*SKillBox = CreateDefaultSubobject<UBoxComponent>(TEXT("SKillBox"));
-	SKillBox->SetupAttachment(GetCapsuleComponent());*/
+	
 
 
 
@@ -112,13 +110,7 @@ void AJBasePlayer::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	/*SKillBox->OnComponentBeginOverlap.AddDynamic(this, &AJBasePlayer::SKillBoxOnOverlapBegin);
-	SKillBox->OnComponentEndOverlap.AddDynamic(this, &AJBasePlayer::SKillBoxOnOverlapEnd);
-
 	
-	SKillBox->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
-*/
-
 
 }
 
@@ -471,13 +463,6 @@ void AJBasePlayer::CrouchEnd()
 	UnCrouch();
 }
 
-//void AJBasePlayer::Jump()
-//{
-//	if (!IsDead)
-//	{
-//		Super::Jump();
-//	}
-//}
 
 
 
@@ -539,49 +524,12 @@ void AJBasePlayer::FightGoalUpdate()
 
 }
 
-///Stealth Kill
 
-//void AJBasePlayer::SKillBoxOnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
-//{
-//	if (OtherActor)
-//	{
-//		AJFollowEnemy* Enemy = Cast<AJFollowEnemy>(OtherActor);
-//
-//		{
-//			if (Enemy)
-//			{
-//				
-//				float Distance = GetDistanceTo(Enemy);
-//				if (Distance <= 400) {
-//					
-//					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Black, TEXT("FINISH HIM!!"));
-//					CanKill = true;
-//				}
-//				
-//			}
-//		}
-//	}
-//}
-
-//void AJBasePlayer::SKillBoxOnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
-//{
-//	CanKill = false;
-//}
-
-//void AJBasePlayer::StealthKill()
-//{
-//	
-//	if (CanKill)
-//	{
-//		UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
-//		AnimationInst->Montage_JumpToSection(FName("SKill"), FightMontage);
-//	}
-//}
 
 void AJBasePlayer::KUp()
 {
 	IsKDown = false;
-	/*CanPerformKill = false;*/
+	
 	
 }
 	
@@ -590,12 +538,9 @@ void AJBasePlayer::KDown()
 {
 	
 	IsKDown = true;
-	/*if (IsKDown && CanKill) {
-
-		CanPerformKill = true;
-	}*/
+	
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("K"));
-	//StealthKill();
+	
 }
 
 
