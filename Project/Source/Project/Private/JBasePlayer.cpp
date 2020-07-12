@@ -96,6 +96,8 @@ AJBasePlayer::AJBasePlayer()
 
 	IsCrawling = false;
 	IsDefusing = false;
+
+	IsCombatMode = false;
 	
 }
 
@@ -394,7 +396,10 @@ void AJBasePlayer::Fight()
 	{
 		IsFighting = true;
 
-		
+		//Timer to go into Combat mode and trigger its animation
+		IsCombatMode = true;
+		float FightLapsus = FMath::RandRange(3.5f, 4.5f);
+		GetWorldTimerManager().SetTimer(FightTempo, this, &AJBasePlayer::CombatMode, FightLapsus);
 		
 		SetAnnexEnemy(true);
 		
@@ -547,6 +552,15 @@ void AJBasePlayer::KDown()
 	IsKDown = true;
 	
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("K"));
+	
+}
+
+void AJBasePlayer::CombatMode()
+{
+	if (IsCombatMode)
+	{
+		IsCombatMode = false;
+	}
 	
 }
 

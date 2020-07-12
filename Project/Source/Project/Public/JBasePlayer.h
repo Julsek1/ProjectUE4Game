@@ -7,6 +7,7 @@
 #include "Components/InputComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "GameFramework/Character.h"
+#include "TimerManager.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "../ParentPlayer.h"
 #include "JBasePlayer.generated.h"
@@ -56,6 +57,8 @@ class USoundCue* DamageSound;
 
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
  bool IsDefusing;
+
+ FTimerHandle FightTempo;
 
 
  //Turning camera values
@@ -256,6 +259,11 @@ public:
 	bool CanPerformKill;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stealth")
-		bool IsKilling;
+	bool IsKilling;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+	bool IsCombatMode;
+	
+	void CombatMode();
 	
 };
