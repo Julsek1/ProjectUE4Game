@@ -189,7 +189,7 @@ void AJBasePlayer::MoveRight(float Value)
 {
 
 
-	if ((Controller != nullptr) && (Value != 0.0f) && (!IsFighting) && (!IsDead) && (!IsHanging) && (!IsAgainstWall) && (!IsDefusing))
+	if ((Controller != nullptr) && (Value != 0.0f) && (!IsFighting)  && (!IsDead) && (!IsHanging) && (!IsAgainstWall) && (!IsDefusing))
 	{
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
@@ -253,7 +253,7 @@ void AJBasePlayer::LeftMouseD()
 void AJBasePlayer::LeftMouseUp()
 {
 	IsLeftMouseDown = false;
-	IsFighting = false;
+	/*IsFighting = false;*/
 	
 
 }
@@ -394,12 +394,17 @@ void AJBasePlayer::Fight()
 {
 	if (!IsFighting && !IsDead)
 	{
-		IsFighting = true;
+		/*IsFighting = true;*/
 
 		//Timer to go into Combat mode and trigger its animation
 		IsCombatMode = true;
-		float FightLapsus = FMath::RandRange(3.5f, 4.5f);
+
+		
+
+		float FightLapsus = FMath::RandRange(1.5f, 2.f);
 		GetWorldTimerManager().SetTimer(FightTempo, this, &AJBasePlayer::CombatMode, FightLapsus);
+
+		
 		
 		SetAnnexEnemy(true);
 		
@@ -407,7 +412,7 @@ void AJBasePlayer::Fight()
 		if (AnimationInst && FightMontage)
 		{
 			 			
-			int32 MontageSection = FMath::RandRange(0, 2);
+			int32 MontageSection = FMath::RandRange(0, 1);
 			switch (MontageSection)
 			{
 			case 0:
@@ -425,14 +430,6 @@ void AJBasePlayer::Fight()
 
 				break;
 
-			case 2:
-
-				
-				AnimationInst->Montage_Play(FightMontage, 2.0f);
-				AnimationInst->Montage_JumpToSection(FName("Attack2"), FightMontage);
-
-				break;
-
 			default:
 				;
 			}	
@@ -442,7 +439,7 @@ void AJBasePlayer::Fight()
 
 void AJBasePlayer::FightFinished()
 {
-	IsFighting = false;
+	
 	SetAnnexEnemy(false);
 	if (IsLeftMouseDown)
 	{
@@ -561,6 +558,7 @@ void AJBasePlayer::CombatMode()
 	{
 		IsCombatMode = false;
 	}
+
 	
 }
 
