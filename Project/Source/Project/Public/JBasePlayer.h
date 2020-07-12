@@ -185,6 +185,7 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Pickup")
 	class AGun* GunEquipped;
 
+
 	
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Pickup")

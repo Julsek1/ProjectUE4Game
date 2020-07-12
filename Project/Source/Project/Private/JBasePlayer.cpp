@@ -48,9 +48,6 @@ AJBasePlayer::AJBasePlayer()
 	PlayerCamera->SetupAttachment(CameraStick, USpringArmComponent::SocketName);
 	PlayerCamera->bUsePawnControlRotation = true;
 
-	
-
-
 
 	//Camera's Turn values
 	InitialTurnValue = 65.f;
@@ -110,7 +107,7 @@ void AJBasePlayer::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	
+
 
 }
 
@@ -217,13 +214,20 @@ void AJBasePlayer::LookUpAtUnit(float Value)
 void AJBasePlayer::IDown()
 {
 	IsIDown = true;
+
 	if (OverlapedPickup)
 	{
+	
 		AGun* Gun = Cast<AGun>(OverlapedPickup);
+	
+		SetOverlapedPickup(Gun);
 		if (Gun)
 		{
 			Gun->UseGun(this);
 			SetOverlapedPickup(nullptr);
+			// Disable collision once knife is equiped 
+			Gun->ColliderSphere->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+			
 		}
 	}
 }
@@ -389,6 +393,9 @@ void AJBasePlayer::Fight()
 	if (!IsFighting && !IsDead)
 	{
 		IsFighting = true;
+
+		
+		
 		SetAnnexEnemy(true);
 		
 		UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();

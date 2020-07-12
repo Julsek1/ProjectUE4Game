@@ -50,6 +50,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
 	float Damage;
 
+	
 
 
 	virtual void BeginPlay() override;
@@ -74,6 +75,7 @@ public:
 	void FightOnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 		UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
+	
 	UFUNCTION(BlueprintCallable)
 	void CollActive();
 

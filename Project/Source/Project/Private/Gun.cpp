@@ -38,6 +38,8 @@ void AGun::BeginPlay()
 	FightColl->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
 	FightColl->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
 
+	
+	
 }
 
 void AGun::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
@@ -129,6 +131,8 @@ void AGun::FightOnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor*
 void AGun::FightOnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
 }
+
+
 
 void AGun::CollActive()
 {
