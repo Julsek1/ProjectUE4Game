@@ -30,8 +30,8 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		float HealingAmount = 0.2f;
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(EditAnywhere)
 		UStaticMeshComponent* StaticMesh;
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(EditAnywhere)
 		UBoxComponent* Collider;
 };
