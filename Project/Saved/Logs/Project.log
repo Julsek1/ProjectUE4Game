@@ -5194,3 +5194,1124 @@ Script Stack (0 frames):
 [2020.07.13-16.12.43:611][729]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel177E042B54861CE444FA893A0312C4008.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
 [2020.07.13-16.12.43:683][729]AssetCheck: New page: Asset Save: PFinalLevel1
 [2020.07.13-16.12.43:683][729]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.13-16.14.00:857][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.07.13-16.14.00:896][ 75]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1E7A4BEEE4C2DC08166E7AA82F9F82C05.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.13-16.14.00:983][ 75]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.13-16.14.00:983][ 75]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.13-16.14.12:488][159]LogTemp: Resetting audio stream to device id 
+[2020.07.13-16.14.12:513][159]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.13-16.14.12:513][159]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.13-16.14.12:513][159]LogAudioMixer: Display: Is Default: Yes
+[2020.07.13-16.14.12:513][159]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.13-16.14.12:513][159]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.13-16.14.12:513][159]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.13-16.14.12:513][159]LogAudioMixer: Display: Channel Order:
+[2020.07.13-16.14.12:513][159]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.13-16.14.12:513][159]LogAudioMixer: Display: 1: FrontRight
+[2020.07.13-17.25.21:345][181]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.07.13-17.25.22:285][181]LogTemp: Resetting audio stream to device id 
+[2020.07.13-17.25.22:565][181]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.13-17.25.22:565][181]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.13-17.25.22:565][181]LogAudioMixer: Display: Is Default: Yes
+[2020.07.13-17.25.22:565][181]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.13-17.25.22:565][181]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.13-17.25.22:565][181]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.13-17.25.22:565][181]LogAudioMixer: Display: Channel Order:
+[2020.07.13-17.25.22:565][181]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.13-17.25.22:565][181]LogAudioMixer: Display: 1: FrontRight
+[2020.07.13-17.25.22:757][183]LogHttp: Warning: 0000027BE12EDE40: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB8F66B45-4A3E-1D5B-6904-FE98FDDA0097%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=031ce581448aebb55564079ec7ecf194%7C26b81dd4b90e47b1a6762aa00f40b824%7Caaf06244-6ebc-4d36-b62c-edeb95748ce5&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.13-17.25.22:758][183]LogHttp: Warning: 0000027BE12EDE40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.13-17.25.22:758][183]LogHttp: Warning: 0000027BE12EDE40: libcurl info message cache 0 (Connection 39 seems to be dead!)
+[2020.07.13-17.25.22:758][183]LogHttp: Warning: 0000027BE12EDE40: libcurl info message cache 1 (Closing connection 39)
+[2020.07.13-17.25.22:758][183]LogHttp: Warning: 0000027BE12EDE40: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.07.13-17.25.22:758][183]LogHttp: Warning: 0000027BE12EDE40: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.13-17.25.22:758][183]LogHttp: Warning: 0000027BE12EDE40: libcurl info message cache 4 (Closing connection 40)
+[2020.07.13-17.25.22:758][183]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB8F66B45-4A3E-1D5B-6904-FE98FDDA0097%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=031ce581448aebb55564079ec7ecf194%7C26b81dd4b90e47b1a6762aa00f40b824%7Caaf06244-6ebc-4d36-b62c-edeb95748ce5&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.07.13-17.25.31:586][208]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2020.07.13-17.25.31:587][208]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Phil/Levels/PFinalLevel1' took 0.064
+[2020.07.13-17.25.31:589][208]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Phil/LevelAssets/SM_75x300x400] ([1] browsable assets)...
+[2020.07.13-17.25.31:589][208]OBJ SavePackage: Finished generating thumbnails for package [/Game/Phil/LevelAssets/SM_75x300x400]
+[2020.07.13-17.25.31:613][208]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_75x300x400_Auto1CDFF011F4E621B43BFB070B9E21411B1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Autosaves/Game/Phil/LevelAssets/SM_75x300x400_Auto1.uasset'
+[2020.07.13-17.25.31:615][208]LogFileHelpers: Auto-saving content packages took 0.028
+[2020.07.13-17.26.19:350][520]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2020.07.13-17.26.19:400][520]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1A7D649754D6CE65568C686BAC4DA2823.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.13-17.26.19:506][520]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.13-17.26.19:506][520]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.13-17.26.21:456][632]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2020.07.13-17.26.21:507][632]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel12E4E92FC40F7BDC404D477801D0B8296.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.13-17.26.21:620][632]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.13-17.26.21:620][632]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.13-17.26.27:215][682]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.13-17.26.28:244][730]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.07.13-17.26.28:283][730]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1B4B5D9AB42A7EE2C5F50E79A21105815.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.13-17.26.28:400][730]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.13-17.26.28:400][730]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.13-17.26.47:224][855]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.13-17.26.47:276][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.13-17.26.47:276][855]PIE: New page: PIE session: PFinalLevel1 (Jul 13, 2020, 9:26:47 AM)
+[2020.07.13-17.26.47:276][855]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.13-17.26.47:339][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062587s)
+[2020.07.13-17.26.47:340][855]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.13-17.26.47:341][855]LogPlayLevel: PIE: World Init took: (0.001889s)
+[2020.07.13-17.26.47:341][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.064646s)
+[2020.07.13-17.26.47:392][855]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2020.07.13-17.26.47:395][855]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.13-17.26.47:395][855]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.13-17.26.47:395][855]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.13-17.26.47:396][855]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.13-17.26.47:396][855]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.13-17.26.47:396][855]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.13-17.26.47:396][855]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.13-17.26.47:396][855]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.13-17.26.47:396][855]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.13-17.26.47:396][855]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.13-17.26.47:436][855]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.13-17.26.47:436][855]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.13-17.26.47:436][855]LogAudioMixer: Display: Is Default: Yes
+[2020.07.13-17.26.47:436][855]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.13-17.26.47:436][855]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.13-17.26.47:436][855]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.13-17.26.47:436][855]LogAudioMixer: Display: Channel Order:
+[2020.07.13-17.26.47:436][855]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.13-17.26.47:436][855]LogAudioMixer: Display: 1: FrontRight
+[2020.07.13-17.26.47:452][855]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.13-17.26.47:454][855]LogInit: FAudioDevice initialized.
+[2020.07.13-17.26.47:464][855]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.13-17.26.47:465][855]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.13-13.26.47
+[2020.07.13-17.26.47:466][855]LogWorld: Bringing up level for play took: 0.001016
+[2020.07.13-17.26.47:466][855]LogOnline: OSS: Creating online subsystem instance for: :Context_62
+[2020.07.13-17.26.47:470][855]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.26.47:470][855]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.26.47:475][855]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.457
+[2020.07.13-17.26.51:992][126]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.26.51:992][126]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.26.52:001][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.13-17.26.52:001][126]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.13-17.26.52:001][126]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.26.52:002][126]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.13-17.26.52:002][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.13-17.26.52:012][126]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.13-17.26.52:018][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.13-17.26.52:066][126]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.26.52:069][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.13-17.26.52:075][126]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2020.07.13-17.26.52:097][127]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2020.07.13-17.26.52:634][153]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2020.07.13-17.26.52:672][153]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel18EFAB7D64761660572FF8D8F8585C604.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.13-17.26.52:771][153]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.13-17.26.52:771][153]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.13-17.26.53:295][185]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.13-17.26.53:365][185]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.13-17.26.53:365][185]PIE: New page: PIE session: PFinalLevel1 (Jul 13, 2020, 9:26:53 AM)
+[2020.07.13-17.26.53:365][185]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.13-17.26.53:410][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044764s)
+[2020.07.13-17.26.53:411][185]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.13-17.26.53:411][185]LogPlayLevel: PIE: World Init took: (0.001448s)
+[2020.07.13-17.26.53:411][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.046389s)
+[2020.07.13-17.26.53:467][185]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2020.07.13-17.26.53:468][185]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.13-17.26.53:468][185]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.13-17.26.53:468][185]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.13-17.26.53:468][185]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.13-17.26.53:468][185]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.13-17.26.53:468][185]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.13-17.26.53:468][185]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.13-17.26.53:468][185]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.13-17.26.53:468][185]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.13-17.26.53:468][185]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.13-17.26.53:501][185]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.13-17.26.53:501][185]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.13-17.26.53:501][185]LogAudioMixer: Display: Is Default: Yes
+[2020.07.13-17.26.53:501][185]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.13-17.26.53:501][185]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.13-17.26.53:501][185]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.13-17.26.53:501][185]LogAudioMixer: Display: Channel Order:
+[2020.07.13-17.26.53:501][185]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.13-17.26.53:501][185]LogAudioMixer: Display: 1: FrontRight
+[2020.07.13-17.26.53:517][185]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.13-17.26.53:518][185]LogInit: FAudioDevice initialized.
+[2020.07.13-17.26.53:530][185]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.13-17.26.53:532][185]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.13-13.26.53
+[2020.07.13-17.26.53:532][185]LogWorld: Bringing up level for play took: 0.001097
+[2020.07.13-17.26.53:532][185]LogOnline: OSS: Creating online subsystem instance for: :Context_63
+[2020.07.13-17.26.53:536][185]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.26.53:536][185]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.26.53:543][185]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.525
+[2020.07.13-17.27.15:363][494]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.27.15:363][494]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.27.15:364][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.13-17.27.15:364][494]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.13-17.27.15:364][494]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.27.15:364][494]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.13-17.27.15:364][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.13-17.27.15:374][494]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.13-17.27.15:380][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.13-17.27.15:430][494]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.27.15:434][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.13-17.27.15:440][494]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2020.07.13-17.27.15:483][496]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2020.07.13-17.27.20:759][780]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.07.13-17.27.20:819][780]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_134 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.27.20:820][780]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_134 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.27.20:821][780]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_174 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.27.20:822][780]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_174 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.27.21:224][780]LogUObjectHash: Compacting FUObjectHashTables data took   5.17ms
+[2020.07.13-17.27.21:232][780]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_136 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.27.21:233][780]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_136 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.27.21:235][780]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_176 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.27.21:235][780]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_176 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.27.21:238][780]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_178 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.27.21:238][780]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_178 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.27.21:369][780]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_138 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.27.21:370][780]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_138 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.27.21:374][780]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_180 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.27.21:374][780]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_180 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.27.21:520][780]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerEB03D6034CF949B447D8A2AD8BE4C19B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.13-17.27.21:536][780]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.13-17.27.21:537][780]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.13-17.27.22:151][804]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer40E8901C46752AEE8F826C8A8D972623.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.13-17.27.22:171][804]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.13-17.27.22:171][804]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.13-17.27.22:824][836]LogUObjectHash: Compacting FUObjectHashTables data took   5.35ms
+[2020.07.13-17.27.22:884][836]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel176E523424D165A13C731F48AE1DBBBD6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.13-17.27.22:999][836]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.13-17.27.22:999][836]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.13-17.27.23:614][873]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.13-17.27.23:659][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.13-17.27.23:659][873]PIE: New page: PIE session: PFinalLevel1 (Jul 13, 2020, 9:27:23 AM)
+[2020.07.13-17.27.23:659][873]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.13-17.27.23:711][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052343s)
+[2020.07.13-17.27.23:713][873]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.13-17.27.23:713][873]LogPlayLevel: PIE: World Init took: (0.001474s)
+[2020.07.13-17.27.23:713][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.054046s)
+[2020.07.13-17.27.23:770][873]LogUObjectHash: Compacting FUObjectHashTables data took   4.99ms
+[2020.07.13-17.27.23:771][873]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.13-17.27.23:771][873]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.13-17.27.23:771][873]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.13-17.27.23:771][873]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.13-17.27.23:771][873]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.13-17.27.23:771][873]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.13-17.27.23:771][873]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.13-17.27.23:771][873]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.13-17.27.23:771][873]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.13-17.27.23:771][873]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.13-17.27.23:806][873]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.13-17.27.23:806][873]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.13-17.27.23:806][873]LogAudioMixer: Display: Is Default: Yes
+[2020.07.13-17.27.23:807][873]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.13-17.27.23:807][873]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.13-17.27.23:807][873]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.13-17.27.23:807][873]LogAudioMixer: Display: Channel Order:
+[2020.07.13-17.27.23:807][873]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.13-17.27.23:807][873]LogAudioMixer: Display: 1: FrontRight
+[2020.07.13-17.27.23:828][873]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.13-17.27.23:830][873]LogInit: FAudioDevice initialized.
+[2020.07.13-17.27.23:837][873]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.13-17.27.23:839][873]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.13-13.27.23
+[2020.07.13-17.27.23:839][873]LogWorld: Bringing up level for play took: 0.001010
+[2020.07.13-17.27.23:840][873]LogOnline: OSS: Creating online subsystem instance for: :Context_64
+[2020.07.13-17.27.23:843][873]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.27.23:844][873]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.27.23:848][873]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.829
+[2020.07.13-17.27.24:301][900]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] Hello
+[2020.07.13-17.27.26:827][ 49]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] Hello
+[2020.07.13-17.27.28:145][128]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.27.28:145][128]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.27.28:146][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.13-17.27.28:146][128]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.13-17.27.28:146][128]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.27.28:146][128]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.13-17.27.28:147][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.13-17.27.28:158][128]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.13-17.27.28:164][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.13-17.27.28:210][128]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.27.28:213][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.13-17.27.28:219][128]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2020.07.13-17.27.28:262][130]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2020.07.13-17.28.12:083][686]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.07.13-17.28.12:101][686]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_140 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.28.12:102][686]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_140 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.28.12:103][686]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_182 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.28.12:103][686]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_182 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.28.12:349][686]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2020.07.13-17.28.12:354][686]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_142 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.28.12:354][686]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_142 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.28.12:356][686]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_184 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.28.12:356][686]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_184 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.28.12:358][686]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_186 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.28.12:358][686]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_186 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.28.12:370][686]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_144 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.28.12:370][686]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_144 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.28.12:372][686]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_188 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.28.12:372][686]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_188 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.28.12:470][686]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerD29B485D4ED2CFD44EC768AF4EF9537A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.13-17.28.12:485][686]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.13-17.28.12:485][686]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.13-17.28.12:724][695]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerE1F650724FC6F41B04B72DA572460BF5.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.13-17.28.12:739][695]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.13-17.28.12:739][695]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.13-17.28.13:495][737]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2020.07.13-17.28.13:520][737]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1BC91FE634E82EEF5AAFB9D86230761E0.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.13-17.28.13:588][737]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.13-17.28.13:589][737]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.13-17.28.14:402][784]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.13-17.28.14:439][784]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.13-17.28.14:439][784]PIE: New page: PIE session: PFinalLevel1 (Jul 13, 2020, 9:28:14 AM)
+[2020.07.13-17.28.14:439][784]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.13-17.28.14:465][784]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027482s)
+[2020.07.13-17.28.14:466][784]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.13-17.28.14:466][784]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2020.07.13-17.28.14:466][784]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.028420s)
+[2020.07.13-17.28.14:501][784]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2020.07.13-17.28.14:502][784]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.13-17.28.14:502][784]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.13-17.28.14:502][784]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.13-17.28.14:502][784]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.13-17.28.14:502][784]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.13-17.28.14:502][784]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.13-17.28.14:502][784]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.13-17.28.14:502][784]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.13-17.28.14:502][784]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.13-17.28.14:502][784]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.13-17.28.14:526][784]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.13-17.28.14:526][784]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.13-17.28.14:526][784]LogAudioMixer: Display: Is Default: Yes
+[2020.07.13-17.28.14:526][784]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.13-17.28.14:526][784]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.13-17.28.14:526][784]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.13-17.28.14:526][784]LogAudioMixer: Display: Channel Order:
+[2020.07.13-17.28.14:526][784]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.13-17.28.14:526][784]LogAudioMixer: Display: 1: FrontRight
+[2020.07.13-17.28.14:540][784]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.13-17.28.14:541][784]LogInit: FAudioDevice initialized.
+[2020.07.13-17.28.14:547][784]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.13-17.28.14:548][784]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.13-13.28.14
+[2020.07.13-17.28.14:548][784]LogWorld: Bringing up level for play took: 0.000772
+[2020.07.13-17.28.14:548][784]LogOnline: OSS: Creating online subsystem instance for: :Context_65
+[2020.07.13-17.28.14:551][784]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.28.14:551][784]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.28.14:554][784]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 -0.464
+[2020.07.13-17.28.15:301][829]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 90.015839
+[2020.07.13-17.28.17:817][980]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.330956
+[2020.07.13-17.28.21:401][195]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.28.21:402][195]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.28.21:402][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.13-17.28.21:402][195]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.13-17.28.21:402][195]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.28.21:402][195]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.13-17.28.21:402][195]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.13-17.28.21:408][195]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.13-17.28.21:413][195]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.13-17.28.21:444][195]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.28.21:447][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.13-17.28.21:452][195]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2020.07.13-17.28.21:504][198]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2020.07.13-17.28.21:887][221]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.13-17.28.23:956][340]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.07.13-17.28.23:990][340]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel17E482FDD4DD8F6BDEB1C1EB3C6FA7354.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.13-17.28.24:068][340]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.13-17.28.24:068][340]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.13-17.29.03:841][675]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.07.13-17.29.03:858][675]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_146 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.03:858][675]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_146 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.03:859][675]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_190 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.03:860][675]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_190 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.04:127][675]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2020.07.13-17.29.04:130][675]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_148 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.04:131][675]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_148 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.04:132][675]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_192 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.04:133][675]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_192 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.04:134][675]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_194 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.04:135][675]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_194 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.04:148][675]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_150 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.04:148][675]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_150 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.04:150][675]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_196 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.04:151][675]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_196 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.04:240][675]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerAE6288C24D6725699FC84B95252860DB.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.13-17.29.04:255][675]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.13-17.29.04:255][675]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.13-17.29.04:448][682]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer3FAC53AB48C9E65DE511D8B3BD7B0506.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.13-17.29.04:466][682]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.13-17.29.04:466][682]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.13-17.29.06:483][797]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2020.07.13-17.29.06:508][797]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel15437501D4757138F5C877DB4DBA4685F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.13-17.29.06:587][797]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.13-17.29.06:587][797]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.13-17.29.07:127][829]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.13-17.29.07:159][829]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.13-17.29.07:159][829]PIE: New page: PIE session: PFinalLevel1 (Jul 13, 2020, 9:29:07 AM)
+[2020.07.13-17.29.07:159][829]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.13-17.29.07:186][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026897s)
+[2020.07.13-17.29.07:187][829]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.13-17.29.07:187][829]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2020.07.13-17.29.07:187][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.027844s)
+[2020.07.13-17.29.07:222][829]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2020.07.13-17.29.07:223][829]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.13-17.29.07:223][829]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.13-17.29.07:223][829]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.13-17.29.07:223][829]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.13-17.29.07:223][829]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.13-17.29.07:223][829]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.13-17.29.07:223][829]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.13-17.29.07:223][829]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.13-17.29.07:223][829]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.13-17.29.07:223][829]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.13-17.29.07:248][829]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.13-17.29.07:248][829]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.13-17.29.07:248][829]LogAudioMixer: Display: Is Default: Yes
+[2020.07.13-17.29.07:248][829]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.13-17.29.07:248][829]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.13-17.29.07:248][829]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.13-17.29.07:248][829]LogAudioMixer: Display: Channel Order:
+[2020.07.13-17.29.07:248][829]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.13-17.29.07:248][829]LogAudioMixer: Display: 1: FrontRight
+[2020.07.13-17.29.07:257][829]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.13-17.29.07:258][829]LogInit: FAudioDevice initialized.
+[2020.07.13-17.29.07:263][829]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.13-17.29.07:264][829]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.13-13.29.07
+[2020.07.13-17.29.07:264][829]LogWorld: Bringing up level for play took: 0.000735
+[2020.07.13-17.29.07:264][829]LogOnline: OSS: Creating online subsystem instance for: :Context_66
+[2020.07.13-17.29.07:267][829]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.07:267][829]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.07:270][829]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.252
+[2020.07.13-17.29.07:935][869]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 90.015839
+[2020.07.13-17.29.10:599][ 29]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 90.015709
+[2020.07.13-17.29.13:083][178]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 90.015717
+[2020.07.13-17.29.15:651][332]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.29.15:651][332]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.29.15:651][332]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.13-17.29.15:651][332]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.13-17.29.15:651][332]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.29.15:651][332]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.13-17.29.15:651][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.13-17.29.15:658][332]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.13-17.29.15:663][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.13-17.29.15:708][332]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.29.15:711][332]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.13-17.29.15:715][332]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2020.07.13-17.29.15:754][334]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2020.07.13-17.29.23:031][728]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.07.13-17.29.23:048][728]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_152 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.23:048][728]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_152 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.23:049][728]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_198 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.23:050][728]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_198 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.23:321][728]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2020.07.13-17.29.23:325][728]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_154 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.23:325][728]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_154 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.23:327][728]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_200 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.23:327][728]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_200 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.23:329][728]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_202 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.23:329][728]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_202 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.23:346][728]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_156 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.23:346][728]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_156 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.23:348][728]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_204 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.23:348][728]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_204 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.23:462][728]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer9FBA0EA145FB391BA4EAAFBF702A45A0.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.13-17.29.23:479][728]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.13-17.29.23:479][728]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.13-17.29.23:759][738]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerDBBFBAB94124B4546BD5509AF489C3DC.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.13-17.29.23:774][738]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.13-17.29.23:774][738]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.13-17.29.24:468][777]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2020.07.13-17.29.24:496][777]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel11683AC494F1797F36D0C1C9713C417F0.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.13-17.29.24:571][777]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.13-17.29.24:571][777]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.13-17.29.24:980][802]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.13-17.29.25:017][802]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.13-17.29.25:017][802]PIE: New page: PIE session: PFinalLevel1 (Jul 13, 2020, 9:29:25 AM)
+[2020.07.13-17.29.25:017][802]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.13-17.29.25:045][802]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027192s)
+[2020.07.13-17.29.25:045][802]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.13-17.29.25:045][802]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2020.07.13-17.29.25:045][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.028156s)
+[2020.07.13-17.29.25:077][802]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2020.07.13-17.29.25:077][802]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.13-17.29.25:077][802]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.13-17.29.25:077][802]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.13-17.29.25:077][802]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.13-17.29.25:077][802]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.13-17.29.25:077][802]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.13-17.29.25:077][802]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.13-17.29.25:077][802]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.13-17.29.25:078][802]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.13-17.29.25:078][802]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.13-17.29.25:103][802]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.13-17.29.25:103][802]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.13-17.29.25:103][802]LogAudioMixer: Display: Is Default: Yes
+[2020.07.13-17.29.25:103][802]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.13-17.29.25:103][802]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.13-17.29.25:103][802]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.13-17.29.25:103][802]LogAudioMixer: Display: Channel Order:
+[2020.07.13-17.29.25:103][802]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.13-17.29.25:103][802]LogAudioMixer: Display: 1: FrontRight
+[2020.07.13-17.29.25:114][802]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.13-17.29.25:115][802]LogInit: FAudioDevice initialized.
+[2020.07.13-17.29.25:120][802]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.13-17.29.25:121][802]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.13-13.29.25
+[2020.07.13-17.29.25:121][802]LogWorld: Bringing up level for play took: 0.000662
+[2020.07.13-17.29.25:121][802]LogOnline: OSS: Creating online subsystem instance for: :Context_67
+[2020.07.13-17.29.25:123][802]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.25:123][802]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.25:126][802]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.108
+[2020.07.13-17.29.33:773][321]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 111.328995
+[2020.07.13-17.29.36:623][492]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.220604
+[2020.07.13-17.29.37:257][530]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.29.37:257][530]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.29.37:258][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.13-17.29.37:258][530]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.13-17.29.37:258][530]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.29.37:258][530]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.13-17.29.37:258][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.13-17.29.37:266][530]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.13-17.29.37:271][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.13-17.29.37:306][530]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.29.37:309][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.13-17.29.37:314][530]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2020.07.13-17.29.37:365][533]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2020.07.13-17.29.50:394][306]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.07.13-17.29.50:411][306]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_158 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.50:412][306]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_158 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.50:412][306]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_206 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.50:413][306]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_206 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.50:685][306]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2020.07.13-17.29.50:689][306]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_160 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.50:689][306]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_160 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.50:691][306]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_208 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.50:692][306]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_208 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.50:693][306]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_210 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.50:693][306]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_210 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.50:707][306]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_162 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.50:707][306]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_162 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.50:709][306]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_212 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.50:709][306]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_212 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.50:821][306]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer2EC803B946886AF4A56E4EAA4381234F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.13-17.29.50:838][306]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.13-17.29.50:838][306]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.13-17.29.51:142][318]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer40F16F5243E091A0021C6D99A20F50FF.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.13-17.29.51:162][318]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.13-17.29.51:162][318]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.13-17.29.52:039][367]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2020.07.13-17.29.52:075][367]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel19BFCBB3D4A20FA9E1D6BAF8E55631507.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.13-17.29.52:149][367]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.13-17.29.52:149][367]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.13-17.29.53:129][424]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.13-17.29.53:166][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.13-17.29.53:166][424]PIE: New page: PIE session: PFinalLevel1 (Jul 13, 2020, 9:29:53 AM)
+[2020.07.13-17.29.53:166][424]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.13-17.29.53:193][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027569s)
+[2020.07.13-17.29.53:194][424]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.13-17.29.53:194][424]LogPlayLevel: PIE: World Init took: (0.000916s)
+[2020.07.13-17.29.53:194][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.028628s)
+[2020.07.13-17.29.53:239][424]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2020.07.13-17.29.53:240][424]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.13-17.29.53:240][424]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.13-17.29.53:240][424]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.13-17.29.53:240][424]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.13-17.29.53:240][424]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.13-17.29.53:240][424]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.13-17.29.53:240][424]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.13-17.29.53:240][424]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.13-17.29.53:240][424]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.13-17.29.53:241][424]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.13-17.29.53:264][424]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.13-17.29.53:264][424]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.13-17.29.53:264][424]LogAudioMixer: Display: Is Default: Yes
+[2020.07.13-17.29.53:264][424]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.13-17.29.53:264][424]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.13-17.29.53:264][424]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.13-17.29.53:264][424]LogAudioMixer: Display: Channel Order:
+[2020.07.13-17.29.53:264][424]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.13-17.29.53:264][424]LogAudioMixer: Display: 1: FrontRight
+[2020.07.13-17.29.53:276][424]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.13-17.29.53:277][424]LogInit: FAudioDevice initialized.
+[2020.07.13-17.29.53:283][424]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.13-17.29.53:284][424]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.13-13.29.53
+[2020.07.13-17.29.53:285][424]LogWorld: Bringing up level for play took: 0.000719
+[2020.07.13-17.29.53:285][424]LogOnline: OSS: Creating online subsystem instance for: :Context_68
+[2020.07.13-17.29.53:288][424]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.53:288][424]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.29.53:293][424]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.275
+[2020.07.13-17.29.56:855][638]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.333916
+[2020.07.13-17.29.56:872][639]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 103.592117
+[2020.07.13-17.30.01:073][891]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.333923
+[2020.07.13-17.30.01:090][892]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 103.592133
+[2020.07.13-17.30.01:874][939]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.30.01:874][939]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.30.01:874][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.13-17.30.01:874][939]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.13-17.30.01:874][939]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.30.01:874][939]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.13-17.30.01:874][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.13-17.30.01:881][939]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.13-17.30.01:886][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.13-17.30.01:917][939]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.30.01:919][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.13-17.30.01:923][939]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.07.13-17.30.01:981][942]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2020.07.13-17.30.06:313][193]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.07.13-17.30.06:331][193]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_164 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.06:331][193]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_164 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.06:332][193]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_214 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.06:333][193]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_214 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.06:587][193]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2020.07.13-17.30.06:593][193]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_166 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.06:593][193]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_166 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.06:597][193]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_216 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.06:598][193]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_216 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.06:602][193]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_218 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.06:602][193]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_218 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.06:621][193]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_168 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.06:621][193]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_168 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.06:624][193]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_220 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.06:625][193]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_220 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.06:731][193]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerF3F7250F4962711976CB59963B0DD632.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.13-17.30.06:748][193]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.13-17.30.06:748][193]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.13-17.30.06:954][199]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer954BA4C24AF72761ECFDFEB851E54D91.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.13-17.30.06:970][199]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.13-17.30.06:970][199]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.13-17.30.07:971][255]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2020.07.13-17.30.07:996][255]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel15656F068414837AD18E9349FABFB7CDD.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.13-17.30.08:061][255]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.13-17.30.08:061][255]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.13-17.30.08:762][295]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.13-17.30.08:807][295]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.13-17.30.08:807][295]PIE: New page: PIE session: PFinalLevel1 (Jul 13, 2020, 9:30:08 AM)
+[2020.07.13-17.30.08:807][295]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.13-17.30.08:837][295]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030301s)
+[2020.07.13-17.30.08:838][295]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.13-17.30.08:838][295]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2020.07.13-17.30.08:838][295]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.031301s)
+[2020.07.13-17.30.08:878][295]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2020.07.13-17.30.08:879][295]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.13-17.30.08:879][295]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.13-17.30.08:879][295]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.13-17.30.08:879][295]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.13-17.30.08:879][295]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.13-17.30.08:879][295]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.13-17.30.08:879][295]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.13-17.30.08:879][295]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.13-17.30.08:879][295]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.13-17.30.08:879][295]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.13-17.30.08:902][295]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.13-17.30.08:902][295]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.13-17.30.08:903][295]LogAudioMixer: Display: Is Default: Yes
+[2020.07.13-17.30.08:903][295]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.13-17.30.08:903][295]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.13-17.30.08:903][295]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.13-17.30.08:903][295]LogAudioMixer: Display: Channel Order:
+[2020.07.13-17.30.08:903][295]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.13-17.30.08:903][295]LogAudioMixer: Display: 1: FrontRight
+[2020.07.13-17.30.08:913][295]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.13-17.30.08:914][295]LogInit: FAudioDevice initialized.
+[2020.07.13-17.30.08:921][295]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.13-17.30.08:922][295]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.13-13.30.08
+[2020.07.13-17.30.08:922][295]LogWorld: Bringing up level for play took: 0.000689
+[2020.07.13-17.30.08:922][295]LogOnline: OSS: Creating online subsystem instance for: :Context_69
+[2020.07.13-17.30.08:924][295]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.08:924][295]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.08:928][295]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 -0.09
+[2020.07.13-17.30.12:341][500]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.333923
+[2020.07.13-17.30.12:357][501]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 110.258812
+[2020.07.13-17.30.12:374][502]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 106.244896
+[2020.07.13-17.30.12:390][503]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 100.291946
+[2020.07.13-17.30.13:392][563]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.30.13:392][563]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.30.13:392][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.13-17.30.13:392][563]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.13-17.30.13:392][563]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.30.13:392][563]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.13-17.30.13:393][563]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.13-17.30.13:399][563]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.13-17.30.13:404][563]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.13-17.30.13:436][563]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.30.13:438][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.13-17.30.13:443][563]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2020.07.13-17.30.13:492][566]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2020.07.13-17.30.16:860][761]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.07.13-17.30.16:889][761]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_170 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.16:889][761]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_170 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.16:891][761]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_222 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.16:891][761]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_222 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.17:144][761]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2020.07.13-17.30.17:147][761]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_172 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.17:147][761]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_172 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.17:149][761]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_224 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.17:149][761]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_224 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.17:150][761]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_226 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.17:151][761]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_226 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.17:164][761]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_174 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.17:164][761]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_174 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.17:166][761]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_228 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.17:167][761]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_228 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.17:267][761]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer219E40D145142D2019526B9C1B5DD2AB.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.13-17.30.17:282][761]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.13-17.30.17:282][761]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.13-17.30.17:481][767]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer0172A8D84F6A75F4FA123095ABDC7078.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.13-17.30.17:496][767]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.13-17.30.17:496][767]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.13-17.30.18:283][811]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2020.07.13-17.30.18:310][811]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel16ED73BC749CDE0ACE4A591A8F8B7EF62.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.13-17.30.18:376][811]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.13-17.30.18:376][811]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.13-17.30.18:722][832]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.13-17.30.18:767][832]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.13-17.30.18:767][832]PIE: New page: PIE session: PFinalLevel1 (Jul 13, 2020, 9:30:18 AM)
+[2020.07.13-17.30.18:767][832]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.13-17.30.18:800][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032964s)
+[2020.07.13-17.30.18:802][832]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.13-17.30.18:802][832]LogPlayLevel: PIE: World Init took: (0.001730s)
+[2020.07.13-17.30.18:802][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.034860s)
+[2020.07.13-17.30.18:836][832]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2020.07.13-17.30.18:837][832]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.13-17.30.18:837][832]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.13-17.30.18:837][832]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.13-17.30.18:837][832]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.13-17.30.18:837][832]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.13-17.30.18:837][832]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.13-17.30.18:837][832]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.13-17.30.18:837][832]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.13-17.30.18:837][832]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.13-17.30.18:837][832]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.13-17.30.18:858][832]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.13-17.30.18:858][832]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.13-17.30.18:858][832]LogAudioMixer: Display: Is Default: Yes
+[2020.07.13-17.30.18:858][832]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.13-17.30.18:858][832]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.13-17.30.18:858][832]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.13-17.30.18:858][832]LogAudioMixer: Display: Channel Order:
+[2020.07.13-17.30.18:858][832]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.13-17.30.18:858][832]LogAudioMixer: Display: 1: FrontRight
+[2020.07.13-17.30.18:869][832]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.13-17.30.18:870][832]LogInit: FAudioDevice initialized.
+[2020.07.13-17.30.18:879][832]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.13-17.30.18:880][832]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.13-13.30.18
+[2020.07.13-17.30.18:880][832]LogWorld: Bringing up level for play took: 0.000686
+[2020.07.13-17.30.18:881][832]LogOnline: OSS: Creating online subsystem instance for: :Context_70
+[2020.07.13-17.30.18:883][832]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.18:883][832]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.30.18:886][832]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 -0.132
+[2020.07.13-17.30.20:701][941]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.333916
+[2020.07.13-17.30.20:717][942]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 109.425522
+[2020.07.13-17.30.20:734][943]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 103.744843
+[2020.07.13-17.30.20:751][944]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 95.291985
+[2020.07.13-17.30.28:924][433]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.289604
+[2020.07.13-17.30.28:939][434]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 109.381195
+[2020.07.13-17.30.28:956][435]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 103.700623
+[2020.07.13-17.30.28:973][436]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 95.247818
+[2020.07.13-17.30.48:198][588]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 110.747543
+[2020.07.13-17.30.48:214][589]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 107.839149
+[2020.07.13-17.30.48:231][590]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 102.158508
+[2020.07.13-17.30.51:299][774]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.30.51:299][774]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.30.51:299][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.13-17.30.51:299][774]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.13-17.30.51:299][774]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.30.51:299][774]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.13-17.30.51:300][774]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.13-17.30.51:309][774]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.13-17.30.51:315][774]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.13-17.30.51:352][774]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.30.51:355][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.13-17.30.51:360][774]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2020.07.13-17.30.51:407][776]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2020.07.13-17.30.51:887][801]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.07.13-17.30.51:914][801]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1383C1E564300F3D1F07125AFC3D604D6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.13-17.30.51:989][801]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.13-17.30.51:989][801]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.13-17.32.37:734][277]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerBA350CC3457096B4097ECAB379F34189.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.13-17.32.37:749][277]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.13-17.32.37:749][277]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.13-17.33.04:844][803]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.07.13-17.33.04:864][803]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_176 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.04:864][803]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_176 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.04:865][803]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_230 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.04:865][803]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_230 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.05:224][803]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2020.07.13-17.33.05:228][803]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_178 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.05:228][803]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_178 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.05:230][803]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_232 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.05:230][803]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_232 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.05:232][803]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_234 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.05:232][803]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_234 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.05:254][803]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_180 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.05:254][803]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_180 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.05:256][803]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_236 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.05:256][803]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_236 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.05:343][803]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerF0D9E3DC40BAE1E7120421BF1ABC8F43.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.13-17.33.05:358][803]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.13-17.33.05:358][803]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.13-17.33.05:658][814]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerF82569CC4DA4078923750AA02B75D754.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.13-17.33.05:673][814]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.13-17.33.05:673][814]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.13-17.33.06:384][853]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2020.07.13-17.33.06:414][853]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel19ADED6E849CCE173667485B912B0B6F6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.13-17.33.06:490][853]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.13-17.33.06:490][853]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.13-17.33.06:862][876]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.13-17.33.06:891][876]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.13-17.33.06:892][876]PIE: New page: PIE session: PFinalLevel1 (Jul 13, 2020, 9:33:06 AM)
+[2020.07.13-17.33.06:892][876]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.13-17.33.06:922][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030144s)
+[2020.07.13-17.33.06:923][876]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.13-17.33.06:923][876]LogPlayLevel: PIE: World Init took: (0.001297s)
+[2020.07.13-17.33.06:924][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.031852s)
+[2020.07.13-17.33.06:965][876]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.07.13-17.33.06:965][876]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.13-17.33.06:965][876]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.13-17.33.06:965][876]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.13-17.33.06:965][876]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.13-17.33.06:965][876]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.13-17.33.06:965][876]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.13-17.33.06:965][876]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.13-17.33.06:965][876]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.13-17.33.06:966][876]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.13-17.33.06:966][876]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.13-17.33.06:987][876]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.13-17.33.06:987][876]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.13-17.33.06:987][876]LogAudioMixer: Display: Is Default: Yes
+[2020.07.13-17.33.06:987][876]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.13-17.33.06:987][876]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.13-17.33.06:987][876]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.13-17.33.06:987][876]LogAudioMixer: Display: Channel Order:
+[2020.07.13-17.33.06:987][876]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.13-17.33.06:987][876]LogAudioMixer: Display: 1: FrontRight
+[2020.07.13-17.33.06:999][876]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.13-17.33.07:001][876]LogInit: FAudioDevice initialized.
+[2020.07.13-17.33.07:009][876]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.13-17.33.07:011][876]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.13-13.33.07
+[2020.07.13-17.33.07:011][876]LogWorld: Bringing up level for play took: 0.000777
+[2020.07.13-17.33.07:011][876]LogOnline: OSS: Creating online subsystem instance for: :Context_71
+[2020.07.13-17.33.07:013][876]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.07:014][876]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.07:016][876]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 -0.002
+[2020.07.13-17.33.09:962][ 53]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 95.689484
+[2020.07.13-17.33.09:979][ 54]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 97.936195
+[2020.07.13-17.33.09:995][ 55]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 100.744583
+[2020.07.13-17.33.10:012][ 56]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 104.114647
+[2020.07.13-17.33.10:029][ 57]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 107.13575
+[2020.07.13-17.33.10:045][ 58]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 109.573616
+[2020.07.13-17.33.10:062][ 59]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 111.361359
+[2020.07.13-17.33.10:079][ 60]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.344193
+[2020.07.13-17.33.10:096][ 61]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.344193
+[2020.07.13-17.33.10:112][ 62]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.344193
+[2020.07.13-17.33.10:129][ 63]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.208076
+[2020.07.13-17.33.10:146][ 64]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 109.29966
+[2020.07.13-17.33.10:162][ 65]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 103.61898
+[2020.07.13-17.33.10:179][ 66]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 95.166122
+[2020.07.13-17.33.11:629][153]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 101.674484
+[2020.07.13-17.33.11:646][154]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 109.035912
+[2020.07.13-17.33.11:662][155]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.116493
+[2020.07.13-17.33.11:679][156]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.11:696][157]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.11:712][158]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.11:729][159]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.11:746][160]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.11:763][161]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.11:779][162]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.11:796][163]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.11:813][164]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.11:829][165]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.11:846][166]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.151505
+[2020.07.13-17.33.11:862][167]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 111.580734
+[2020.07.13-17.33.11:879][168]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 110.510208
+[2020.07.13-17.33.11:896][169]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 108.681664
+[2020.07.13-17.33.11:913][170]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 105.68074
+[2020.07.13-17.33.11:929][171]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 100.83223
+[2020.07.13-17.33.11:946][172]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 97.514641
+[2020.07.13-17.33.11:963][173]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 95.64344
+[2020.07.13-17.33.12:147][184]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 95.394592
+[2020.07.13-17.33.12:163][185]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 96.518005
+[2020.07.13-17.33.12:179][186]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 98.203125
+[2020.07.13-17.33.12:197][187]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 100.45002
+[2020.07.13-17.33.12:213][188]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 103.258499
+[2020.07.13-17.33.12:229][189]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 106.057709
+[2020.07.13-17.33.12:246][190]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 108.528381
+[2020.07.13-17.33.12:262][191]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 110.523598
+[2020.07.13-17.33.12:279][192]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 111.896515
+[2020.07.13-17.33.12:296][193]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:314][194]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:330][195]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:347][196]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:363][197]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:379][198]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:395][199]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:412][200]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:429][201]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:446][202]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:462][203]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:479][204]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:496][205]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:512][206]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:529][207]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:546][208]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:562][209]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:579][210]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:596][211]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:613][212]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:629][213]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:646][214]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:663][215]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:680][216]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:696][217]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:713][218]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:730][219]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:746][220]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:763][221]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:779][222]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:796][223]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:813][224]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:829][225]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:846][226]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:862][227]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:879][228]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:896][229]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:913][230]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:930][231]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:946][232]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:962][233]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:979][234]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.12:996][235]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:012][236]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:029][237]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:046][238]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:063][239]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:079][240]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:096][241]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:113][242]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:129][243]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:147][244]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:163][245]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:179][246]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:196][247]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:213][248]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:230][249]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:246][250]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:262][251]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:280][252]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:296][253]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:312][254]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:331][255]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:346][256]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:362][257]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:379][258]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:396][259]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:412][260]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:429][261]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:446][262]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:463][263]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:479][264]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:496][265]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:513][266]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:530][267]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:548][268]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:563][269]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:581][270]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:596][271]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:613][272]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:630][273]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:646][274]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:662][275]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:680][276]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:696][277]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:712][278]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:729][279]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:746][280]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:763][281]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:779][282]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:796][283]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:813][284]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:830][285]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:846][286]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:863][287]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:879][288]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:895][289]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:912][290]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:929][291]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:946][292]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:963][293]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:979][294]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.13:996][295]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.14:012][296]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.14:029][297]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.14:045][298]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.14:062][299]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.14:079][300]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.14:096][301]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.14:112][302]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.14:129][303]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.14:146][304]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.14:163][305]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.14:179][306]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.14:196][307]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.465912
+[2020.07.13-17.33.14:213][308]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.329796
+[2020.07.13-17.33.14:229][309]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 109.421364
+[2020.07.13-17.33.14:246][310]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 103.740677
+[2020.07.13-17.33.14:263][311]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 95.287865
+[2020.07.13-17.33.15:496][385]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 97.823181
+[2020.07.13-17.33.15:513][386]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 106.805321
+[2020.07.13-17.33.15:530][387]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 111.313805
+[2020.07.13-17.33.15:546][388]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:564][389]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:581][390]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:596][391]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:614][392]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:629][393]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:646][394]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:663][395]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:679][396]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:696][397]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:713][398]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:729][399]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:746][400]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:763][401]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:779][402]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:797][403]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:813][404]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:830][405]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:847][406]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:863][407]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:880][408]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:895][409]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:912][410]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:929][411]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:946][412]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:963][413]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:979][414]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.15:996][415]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:013][416]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:030][417]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:046][418]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:062][419]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:079][420]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:095][421]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:112][422]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:129][423]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:146][424]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:163][425]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:179][426]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:195][427]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:212][428]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:229][429]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:246][430]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:262][431]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:279][432]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:296][433]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:312][434]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:329][435]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:346][436]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:362][437]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:379][438]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:396][439]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:413][440]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:430][441]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:446][442]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:463][443]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:480][444]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:496][445]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:513][446]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:530][447]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:546][448]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:564][449]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:580][450]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:596][451]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:612][452]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:629][453]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:646][454]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:663][455]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:679][456]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:696][457]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:713][458]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:729][459]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:746][460]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:762][461]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:779][462]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:796][463]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:812][464]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:829][465]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:846][466]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:862][467]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:879][468]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:896][469]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:913][470]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:929][471]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:946][472]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:963][473]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:979][474]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.16:996][475]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.17:012][476]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.17:029][477]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.17:046][478]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.17:062][479]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.17:079][480]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.17:096][481]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.17:112][482]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.470032
+[2020.07.13-17.33.17:130][483]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 112.333916
+[2020.07.13-17.33.17:146][484]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 109.425514
+[2020.07.13-17.33.17:162][485]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 103.744797
+[2020.07.13-17.33.17:179][486]LogBlueprintUserMessages: [BP_TwinStickShooterPlayer_C_0] 95.291832
+[2020.07.13-17.33.17:831][525]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.33.17:831][525]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.33.17:832][525]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.13-17.33.17:832][525]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.13-17.33.17:832][525]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.33.17:832][525]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.13-17.33.17:832][525]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.13-17.33.17:841][525]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.13-17.33.17:846][525]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.13-17.33.17:883][525]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.13-17.33.17:886][525]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.13-17.33.17:890][525]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2020.07.13-17.33.17:939][528]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2020.07.13-17.33.22:580][806]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.07.13-17.33.22:597][806]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_182 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.22:597][806]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_182 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.22:598][806]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_238 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.22:598][806]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_238 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.22:855][806]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2020.07.13-17.33.22:859][806]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_184 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.22:860][806]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_184 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.22:862][806]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_240 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.22:862][806]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_240 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.22:864][806]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_242 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.22:864][806]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_242 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.22:877][806]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_186 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.22:878][806]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_186 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.22:880][806]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_244 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.22:880][806]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_244 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.22:988][806]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerDB8075A04961AADA320C42BC6932B4AA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.13-17.33.23:003][806]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.13-17.33.23:003][806]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.13-17.33.23:356][821]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer38B4FF054E1DF923561F0AA21896D315.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.13-17.33.23:374][821]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.13-17.33.23:374][821]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.13-17.33.24:108][860]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2020.07.13-17.33.24:134][860]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1F390AB7A4CE662AA2C13BE986CE621E3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.13-17.33.24:209][860]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.13-17.33.24:210][860]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.13-17.33.30:422][213]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.07.13-17.33.30:446][213]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_188 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.30:447][213]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_188 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.30:449][213]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_246 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.30:449][213]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_246 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.30:715][213]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2020.07.13-17.33.30:718][213]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_190 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.30:719][213]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_190 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.30:721][213]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_248 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.30:721][213]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_248 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.30:723][213]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_250 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.30:723][213]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_250 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.30:737][213]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_192 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.30:737][213]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_192 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.30:739][213]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_252 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.30:739][213]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_2:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_252 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.13-17.33.30:817][213]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerE7C1E76846A35DF5F3342AAA22E5F49B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.13-17.33.30:833][213]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.13-17.33.30:833][213]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.13-17.33.31:127][225]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerB3F2B4094DD63663A635999D20B1B2E8.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.13-17.33.31:141][225]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.13-17.33.31:141][225]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.13-17.33.32:877][326]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2020.07.13-17.33.32:903][326]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1C2E987DA44362B0EF225C3AA50F98848.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.13-17.33.32:972][326]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.13-17.33.32:972][326]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
