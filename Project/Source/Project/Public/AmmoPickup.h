@@ -6,17 +6,16 @@
 #include "Components/StaticMeshComponent.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-
-#include "HealthPickup.generated.h"
+#include "AmmoPickup.generated.h"
 
 UCLASS()
-class PROJECT_API AHealthPickup : public AActor
+class PROJECT_API AAmmoPickup : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	AHealthPickup();
+	AAmmoPickup();
 
 protected:
 	// Called when the game starts or when spawned
@@ -25,13 +24,12 @@ protected:
 public:	
 	// Called every frame
 	//virtual void Tick(float DeltaTime) override;
-	//virtual void NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult &hit) override;
 	virtual void NotifyActorBeginOverlap(AActor* Other) override;
 
-	UPROPERTY(EditAnywhere)
-		float HealingAmount = 0.2f;
 	UPROPERTY(VisibleAnywhere)
 		UStaticMeshComponent* StaticMesh;
 	UPROPERTY(VisibleAnywhere)
 		UBoxComponent* Collider;
+
+	float AmmoAmount = 24;
 };

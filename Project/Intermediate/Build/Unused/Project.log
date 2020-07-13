@@ -1,13 +1,16 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game).
-  Creating makefile for ProjectEditor (no existing makefile)
+  Parsing headers for ProjectEditor
+    Running UnrealHeaderTool "C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Project.uproject" "C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\ProjectEditor\Development\ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ProjectEditor in 5.4420799 seconds
   Building ProjectEditor...
   Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 12 processes...
-    [1/4] Module.Project.cpp
-    [2/4] UE4Editor-Project-0001.lib
-       Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0001.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0001.exp
-    [3/4] UE4Editor-Project-0001.dll
-       Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0001.suppressed.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0001.suppressed.exp
-    [4/4] ProjectEditor.target
-  Total time in Parallel executor: 13.93 seconds
-  Total execution time: 16.11 seconds
+  Building 5 actions with 12 processes...
+    [1/5] Module.Project.gen.cpp
+    [2/5] Module.Project.cpp
+    [3/5] UE4Editor-Project-0003.lib
+       Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0003.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0003.exp
+    [4/5] UE4Editor-Project-0003.dll
+       Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0003.suppressed.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0003.suppressed.exp
+    [5/5] ProjectEditor.target
+  Total time in Parallel executor: 7.72 seconds
+  Total execution time: 13.97 seconds
