@@ -44,11 +44,16 @@ void AHealthPickup::Tick(float DeltaTime)
 
 void AHealthPickup::NotifyActorBeginOverlap(AActor* Other)
 {
-	if (Cast<ATwinStickShooterPlayer>(Other) != nullptr)
+	auto Player = Cast<ATwinStickShooterPlayer>(Other);
+
+	if (Player != nullptr)
 	{
-		Cast<ATwinStickShooterPlayer>(Other)->Heal(HealingAmount);
-		
-		Destroy();
+		if (Player->Health != 1)
+		{
+			Player->Heal(HealingAmount);
+
+			Destroy();
+		}
 	}
 
 }
