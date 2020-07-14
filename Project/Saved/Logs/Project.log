@@ -1394,3 +1394,1432 @@ Script Stack (0 frames):
 [2020.07.14-19.10.19:330][953]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel10F60CB3F4BB27B9355E7C7B63494F63E.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
 [2020.07.14-19.10.19:410][953]AssetCheck: New page: Asset Save: PFinalLevel1
 [2020.07.14-19.10.19:410][953]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.11.49:682][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_LevelBorder2)
+[2020.07.14-19.11.50:061][508]LogEditorViewport: Clicking Background
+[2020.07.14-19.11.50:342][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.07.14-19.11.50:401][522]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1B30F978E405E5A571509A2A36A0ABC3B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.11.50:464][522]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.11.50:464][522]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.12.07:634][550]LogActorFactory: Actor Factory created SM_Terminal
+[2020.07.14-19.12.08:568][606]LogActorFactory: Actor Factory created SM_Terminal
+[2020.07.14-19.12.12:320][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2020.07.14-19.12.12:382][823]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1DC5B35274FA3F3854ADFEEB8EE9CCA9F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.12.12:460][823]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.12.12:460][823]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.12.56:040][544]Cmd: DELETE
+[2020.07.14-19.12.56:040][544]Cmd: ACTOR DELETE
+[2020.07.14-19.12.56:042][544]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.14-19.12.56:066][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.07.14-19.12.56:069][544]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2020.07.14-19.12.56:365][559]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.07.14-19.12.56:412][559]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel11576DD8F4B811803F96BB593805FBD23.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.12.56:478][559]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.12.56:478][559]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.12.58:860][699]LogActorFactory: Actor Factory created SM_Server2
+[2020.07.14-19.12.59:341][728]LogActorFactory: Actor Factory created SM_Server2
+[2020.07.14-19.13.04:013][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.07.14-19.13.04:073][  0]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel129CC1204481048CFEED4E695DDDBCA4E.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.13.04:141][  0]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.13.04:141][  0]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.13.05:452][ 73]LogActorFactory: Actor Factory created SM_Server
+[2020.07.14-19.13.06:339][126]LogActorFactory: Actor Factory created SM_Server
+[2020.07.14-19.13.09:050][284]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2020.07.14-19.13.09:100][284]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1FD04725A4E8713EC74A2BE981CDDA186.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.13.09:172][284]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.13.09:172][284]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.13.10:356][348]LogActorFactory: Actor Factory created SM_Terminal
+[2020.07.14-19.13.11:292][404]LogActorFactory: Actor Factory created SM_Terminal
+[2020.07.14-19.13.11:994][445]Cmd: DELETE
+[2020.07.14-19.13.11:994][445]Cmd: ACTOR DELETE
+[2020.07.14-19.13.11:996][445]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.14-19.13.12:024][445]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.07.14-19.13.12:025][445]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2020.07.14-19.13.12:331][461]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.14-19.13.12:380][461]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1D6C23548452D31F7DEB145919D391A29.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.13.12:457][461]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.13.12:457][461]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.13.13:815][543]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server)
+[2020.07.14-19.13.21:932][ 11]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.13.24:917][186]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.07.14-19.13.24:982][186]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1880F5D57467B013059660C910376FF34.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.13.25:050][186]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.13.25:050][186]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.13.25:363][205]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server)
+[2020.07.14-19.13.32:439][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server3)
+[2020.07.14-19.13.36:019][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server3)
+[2020.07.14-19.13.36:370][844]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.13.36:769][867]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server)
+[2020.07.14-19.13.38:373][961]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.13.39:327][ 17]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server)
+[2020.07.14-19.13.40:005][ 56]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server)
+[2020.07.14-19.13.44:885][331]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.13.46:472][422]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2020.07.14-19.13.46:533][422]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel190F882894E0651A44162318BE77BB3B2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.13.46:624][422]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.13.46:624][422]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.13.48:176][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server)
+[2020.07.14-19.13.49:030][564]Cmd: DELETE
+[2020.07.14-19.13.49:031][564]Cmd: ACTOR DELETE
+[2020.07.14-19.13.49:032][564]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.14-19.13.49:058][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.07.14-19.13.49:059][564]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2020.07.14-19.13.49:290][576]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.07.14-19.13.49:338][576]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel156F1641B4E5CFFB93DF37291D06CC39F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.13.49:403][576]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.13.49:403][576]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.13.50:797][660]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server2)
+[2020.07.14-19.13.51:122][677]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server3)
+[2020.07.14-19.13.58:554][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server5)
+[2020.07.14-19.13.59:074][120]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.14.02:359][316]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.14.05:360][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.07.14-19.14.05:426][491]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1A90ABC584BA68AA9E936CCA0FC2DB11C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.14.05:499][491]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.14.05:499][491]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.14.30:910][ 16]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2020.07.14-19.14.32:387][104]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.07.14-19.14.33:690][182]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.07.14-19.14.33:908][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.07.14-19.14.33:967][192]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel156F3B3C642E4CA9974123387CE0CDCCD.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.14.34:043][192]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.14.34:043][192]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.14.34:575][223]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.14-19.14.34:602][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.14-19.14.34:603][223]PIE: New page: PIE session: PFinalLevel1 (Jul 14, 2020, 11:14:34 AM)
+[2020.07.14-19.14.34:603][223]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-19.14.34:633][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030347s)
+[2020.07.14-19.14.34:634][223]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.14-19.14.34:634][223]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2020.07.14-19.14.34:634][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.031353s)
+[2020.07.14-19.14.34:659][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2020.07.14-19.14.34:659][223]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.14-19.14.34:659][223]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.14-19.14.34:659][223]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.14-19.14.34:659][223]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.14-19.14.34:659][223]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.14-19.14.34:659][223]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.14-19.14.34:659][223]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.14-19.14.34:659][223]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.14-19.14.34:659][223]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.14-19.14.34:659][223]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.14-19.14.34:681][223]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.14-19.14.34:681][223]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-19.14.34:681][223]LogAudioMixer: Display: Is Default: Yes
+[2020.07.14-19.14.34:681][223]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.14-19.14.34:681][223]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.14-19.14.34:681][223]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.14-19.14.34:681][223]LogAudioMixer: Display: Channel Order:
+[2020.07.14-19.14.34:681][223]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.14-19.14.34:681][223]LogAudioMixer: Display: 1: FrontRight
+[2020.07.14-19.14.34:691][223]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-19.14.34:692][223]LogInit: FAudioDevice initialized.
+[2020.07.14-19.14.34:698][223]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.14-19.14.34:701][223]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.14-15.14.34
+[2020.07.14-19.14.34:702][223]LogWorld: Bringing up level for play took: 0.003650
+[2020.07.14-19.14.34:702][223]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.07.14-19.14.34:705][223]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.14.34:705][223]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.14.34:708][223]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 -0.516
+[2020.07.14-19.14.53:005][321]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.14.53:005][321]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.14.53:005][321]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-19.14.53:005][321]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-19.14.53:005][321]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.14.53:006][321]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-19.14.53:007][321]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-19.14.53:015][321]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.14-19.14.53:018][321]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-19.14.53:042][321]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.14.53:045][321]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-19.14.53:048][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2020.07.14-19.14.53:118][325]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.07.14-19.14.55:250][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.07.14-19.14.55:308][450]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel111E009E84E95D333FC767DA864FF1C22.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.14.55:388][450]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.14.55:388][450]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.14.56:606][523]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server3)
+[2020.07.14-19.14.57:191][557]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server2)
+[2020.07.14-19.14.57:642][583]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.14.58:006][604]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server5)
+[2020.07.14-19.15.00:704][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.07.14-19.15.00:757][745]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel19C74579C4B6C39053E58E7B4D331DDA1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.15.00:825][745]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.15.00:825][745]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.15.10:189][307]LogEditorViewport: Clicking Background
+[2020.07.14-19.15.10:553][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.07.14-19.15.10:602][325]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1DC83BBF742CBA383B265A7BE5EB5EF61.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.15.10:686][325]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.15.10:686][325]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.15.26:597][280]LogEditorViewport: Clicking on Actor (LMB): BP_SlidingDoorLockedMultiple_C (BP_SlidingDoorLockedMultiple)
+[2020.07.14-19.15.28:322][382]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Wall1011)
+[2020.07.14-19.15.28:923][417]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Doorway_Small_A)
+[2020.07.14-19.15.34:996][764]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall1008)
+[2020.07.14-19.15.39:644][ 41]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall1009)
+[2020.07.14-19.15.41:833][171]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_LevelBorder2)
+[2020.07.14-19.15.44:294][317]Cmd: TRANSACTION UNDO
+[2020.07.14-19.15.44:294][317]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.14-19.15.44:556][323]Cmd: TRANSACTION UNDO
+[2020.07.14-19.15.44:556][323]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.14-19.15.44:871][333]Cmd: TRANSACTION UNDO
+[2020.07.14-19.15.44:872][333]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.14-19.15.45:141][349]Cmd: TRANSACTION UNDO
+[2020.07.14-19.15.45:141][349]LogEditorTransaction: Undo Move Actors
+[2020.07.14-19.15.45:424][366]Cmd: TRANSACTION UNDO
+[2020.07.14-19.15.45:424][366]LogEditorTransaction: Undo Move Actors
+[2020.07.14-19.15.46:325][420]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_DoorLight_C (BP_DoorLight2)
+[2020.07.14-19.15.48:359][523]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.07.14-19.15.48:411][523]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel12522066A400236DF2B02E2BBB2025FAC.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.15.48:488][523]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.15.48:488][523]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.15.49:481][583]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall1012)
+[2020.07.14-19.15.51:496][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.07.14-19.15.51:544][683]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1F4900A82493C79DF3F4CD09AD34AC6FA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.15.51:609][683]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.15.51:609][683]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.15.52:883][759]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall1010)
+[2020.07.14-19.15.55:406][909]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall1009)
+[2020.07.14-19.15.56:342][964]Cmd: DELETE
+[2020.07.14-19.15.56:342][964]Cmd: ACTOR DELETE
+[2020.07.14-19.15.56:343][964]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.14-19.15.56:369][964]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.07.14-19.15.56:371][964]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2020.07.14-19.15.56:734][983]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.07.14-19.15.56:781][983]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1CF09C02E455AFCEB11C177AB09AFA9EE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.15.56:846][983]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.15.56:846][983]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.15.59:470][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_Small_A)
+[2020.07.14-19.16.00:633][209]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_DoorLight_C (BP_DoorLight2)
+[2020.07.14-19.16.01:280][246]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_LevelBorder2)
+[2020.07.14-19.16.02:134][296]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_SlidingDoorLockedMultiple_C (BP_SlidingDoorLockedMultiple)
+[2020.07.14-19.16.05:776][492]LogEditorViewport: Clicking Background
+[2020.07.14-19.16.07:449][592]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Doorway_Small_A)
+[2020.07.14-19.16.07:968][621]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_SlidingDoorLockedMultiple_C (BP_SlidingDoorLockedMultiple)
+[2020.07.14-19.16.08:680][663]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_DoorLight_C (BP_DoorLight2)
+[2020.07.14-19.16.20:192][319]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.16.22:276][443]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_Small_A)
+[2020.07.14-19.16.27:407][749]LogEditorViewport: Clicking on Actor (LMB): BP_SlidingDoorLockedMultiple_C (BP_SlidingDoorLockedMultiple)
+[2020.07.14-19.16.29:189][855]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_Small_A)
+[2020.07.14-19.16.30:214][915]LogEditorViewport: Clicking on Actor (LMB): BP_SlidingDoorLockedMultiple_C (BP_SlidingDoorLockedMultiple)
+[2020.07.14-19.16.31:376][984]LogEditorViewport: Clicking on Actor (LMB): BP_DoorLight_C (BP_DoorLight2)
+[2020.07.14-19.16.33:119][ 86]Cmd: TRANSACTION UNDO
+[2020.07.14-19.16.33:119][ 86]LogEditorTransaction: Undo Snap Actors To Floor
+[2020.07.14-19.16.33:827][112]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.16.34:178][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2020.07.14-19.16.34:233][128]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1F07133D54F5325C586F2DA99EBFC0CDC.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.16.34:308][128]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.16.34:308][128]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.16.37:050][293]LogEditorViewport: Clicking on Actor (LMB): BP_SlidingDoorLockedMultiple_C (BP_SlidingDoorLockedMultiple)
+[2020.07.14-19.16.47:539][901]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.07.14-19.16.47:599][901]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1048AFE6340C4FA0383924786503B81AA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.16.47:669][901]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.16.47:669][901]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.16.48:562][955]LogEditorViewport: Clicking Background
+[2020.07.14-19.16.48:786][966]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.07.14-19.16.48:841][966]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1CC8FF1804D7C245929ACB3A847977EA8.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.16.48:906][966]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.16.48:906][966]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.16.51:167][102]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Doorway_Small_A)
+[2020.07.14-19.16.54:157][262]Cmd: TRANSACTION UNDO
+[2020.07.14-19.16.54:157][262]LogEditorTransaction: Undo Move Actors
+[2020.07.14-19.17.06:800][971]LogEditorViewport: Clicking on Actor (LMB): BP_DoorLight_C (BP_DoorLight2)
+[2020.07.14-19.17.16:270][505]LogEditorViewport: Clicking on Actor (LMB): BP_SlidingDoorLockedMultiple_C (BP_SlidingDoorLockedMultiple)
+[2020.07.14-19.17.16:858][539]LogEditorViewport: Clicking on Actor (LMB): BP_SlidingDoorLockedMultiple_C (BP_SlidingDoorLockedMultiple)
+[2020.07.14-19.17.26:301][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.07.14-19.17.26:369][ 86]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1FFA861CE4BE2C69669458F9FBC8A6197.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.17.26:438][ 86]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.17.26:438][ 86]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.17.30:468][328]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall1010)
+[2020.07.14-19.17.34:095][525]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall1011)
+[2020.07.14-19.17.38:179][753]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall1012)
+[2020.07.14-19.17.42:737][  9]LogEditorViewport: Clicking Background
+[2020.07.14-19.17.48:122][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall1012)
+[2020.07.14-19.17.51:614][523]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.17.52:029][544]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2020.07.14-19.17.52:078][544]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1769D7FF44558FD52C34B35A006B9D711.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.17.52:154][544]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.17.52:154][544]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.17.54:664][695]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_LevelBorder2)
+[2020.07.14-19.17.55:867][766]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall1012)
+[2020.07.14-19.17.56:978][831]Cmd: TRANSACTION UNDO
+[2020.07.14-19.17.56:978][831]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.14-19.17.57:369][841]Cmd: TRANSACTION UNDO
+[2020.07.14-19.17.57:369][841]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.14-19.17.59:018][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall1012)
+[2020.07.14-19.18.06:480][364]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall1012)
+[2020.07.14-19.18.07:368][416]LogEditorViewport: Clicking Background
+[2020.07.14-19.18.10:364][592]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.14-19.18.10:422][592]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel19152E03142C9F2752A9D4D9469ADE506.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.18.10:492][592]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.18.10:492][592]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.18.13:921][798]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Keycard_C (BP_Keycard3)
+[2020.07.14-19.18.14:333][819]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Keycard_C (BP_Keycard4)
+[2020.07.14-19.18.14:788][845]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Keycard_C (BP_Keycard5)
+[2020.07.14-19.18.15:114][863]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Keycard_C (BP_Keycard2)
+[2020.07.14-19.18.19:409][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.07.14-19.18.19:481][ 84]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1BB1665F74738EEF6BFC7EABF0EFF94F2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.18.19:551][ 84]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.18.19:551][ 84]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.18.21:853][222]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2020.07.14-19.18.24:134][358]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.07.14-19.18.24:661][387]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.07.14-19.18.24:711][387]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1A3111EAE45DF0E30796C509882613B65.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.18.24:788][387]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.18.24:788][387]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.18.25:180][411]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.14-19.18.25:207][411]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.14-19.18.25:207][411]PIE: New page: PIE session: PFinalLevel1 (Jul 14, 2020, 11:18:25 AM)
+[2020.07.14-19.18.25:207][411]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-19.18.25:238][411]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030613s)
+[2020.07.14-19.18.25:239][411]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.14-19.18.25:239][411]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2020.07.14-19.18.25:239][411]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.031567s)
+[2020.07.14-19.18.25:264][411]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2020.07.14-19.18.25:264][411]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.14-19.18.25:264][411]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.14-19.18.25:264][411]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.14-19.18.25:264][411]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.14-19.18.25:264][411]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.14-19.18.25:264][411]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.14-19.18.25:264][411]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.14-19.18.25:264][411]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.14-19.18.25:265][411]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.14-19.18.25:265][411]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.14-19.18.25:285][411]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.14-19.18.25:285][411]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-19.18.25:285][411]LogAudioMixer: Display: Is Default: Yes
+[2020.07.14-19.18.25:286][411]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.14-19.18.25:286][411]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.14-19.18.25:286][411]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.14-19.18.25:286][411]LogAudioMixer: Display: Channel Order:
+[2020.07.14-19.18.25:286][411]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.14-19.18.25:286][411]LogAudioMixer: Display: 1: FrontRight
+[2020.07.14-19.18.25:295][411]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-19.18.25:296][411]LogInit: FAudioDevice initialized.
+[2020.07.14-19.18.25:306][411]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.14-19.18.25:309][411]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.14-15.18.25
+[2020.07.14-19.18.25:311][411]LogWorld: Bringing up level for play took: 0.003610
+[2020.07.14-19.18.25:311][411]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.07.14-19.18.25:313][411]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.18.25:313][411]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.18.25:316][411]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.092
+[2020.07.14-19.18.35:567][ 26]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.18.35:567][ 26]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.18.35:567][ 26]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-19.18.35:567][ 26]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-19.18.35:567][ 26]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.18.35:568][ 26]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-19.18.35:568][ 26]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-19.18.35:575][ 26]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.14-19.18.35:578][ 26]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-19.18.35:604][ 26]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.18.35:606][ 26]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-19.18.35:610][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.07.14-19.18.35:675][ 30]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.07.14-19.18.38:148][175]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.07.14-19.18.38:212][175]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel10CCD726641FBF6B354EF89AB4EC9C92C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.18.38:280][175]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.18.38:281][175]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.18.39:843][269]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_15:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.18.39:844][269]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_15:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.18.47:419][720]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2020.07.14-19.18.48:213][751]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiver_2.BP_ObjectiveGiver_2
+[2020.07.14-19.18.48:410][751]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2020.07.14-19.18.49:218][751]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.07.14-19.18.51:780][898]LogSlate: Window 'BP_ObjectiveGiver_2' being destroyed
+[2020.07.14-19.18.51:816][898]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-19.18.51:816][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-19.18.53:365][987]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2020.07.14-19.18.54:354][987]LogSlate: Window 'Delete Assets' being destroyed
+[2020.07.14-19.18.54:453][987]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2020.07.14-19.18.57:055][141]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2020.07.14-19.19.06:300][676]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2020.07.14-19.19.06:321][676]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_ObjectiveGiverHackTerminals78B81580419B6EC78B7F608859F50D13.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.uasset'
+[2020.07.14-19.19.06:324][676]LogMetaData: Removing '/Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.SKEL_BP_ObjectiveGiverHackTerminals_C' ref from Metadata '/Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverKillMinibosses_2.PackageMetaData'
+[2020.07.14-19.19.06:324][676]LogMetaData: Removing '/Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.BP_ObjectiveGiverHackTerminals_C' ref from Metadata '/Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverKillMinibosses_2.PackageMetaData'
+[2020.07.14-19.19.06:395][676]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_ObjectiveGiverHackTerminals82F017854981FC27BEE858997554D44E.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.uasset'
+[2020.07.14-19.19.06:575][676]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2020.07.14-19.19.06:619][676]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2020.07.14-19.19.06:654][676]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.07.14-19.19.06:726][676]AssetCheck: New page: Asset Save: BP_ObjectiveGiverHackTerminals
+[2020.07.14-19.19.06:726][676]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.BP_ObjectiveGiverHackTerminals
+[2020.07.14-19.19.07:221][702]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_ObjectiveGiverHackTerminalsB34E4D634E9E975EAFF991AAD83AAFF7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.uasset'
+[2020.07.14-19.19.07:233][702]AssetCheck: New page: Asset Save: BP_ObjectiveGiverHackTerminals
+[2020.07.14-19.19.07:233][702]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.BP_ObjectiveGiverHackTerminals
+[2020.07.14-19.19.08:166][757]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.BP_ObjectiveGiverHackTerminals
+[2020.07.14-19.19.23:229][632]BlueprintLog: New page: Compile BP_ObjectiveGiverHackTerminals
+[2020.07.14-19.19.23:449][632]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2020.07.14-19.19.23:508][632]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_ObjectiveGiverHackTerminals1E91D3E3446DB48BE56072A61507E8D6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.uasset'
+[2020.07.14-19.19.23:524][632]AssetCheck: New page: Asset Save: BP_ObjectiveGiverHackTerminals
+[2020.07.14-19.19.23:524][632]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.BP_ObjectiveGiverHackTerminals
+[2020.07.14-19.19.23:856][648]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_ObjectiveGiverHackTerminalsE46527B548224DD4A09A5ABBBEF64CC5.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.uasset'
+[2020.07.14-19.19.23:869][648]AssetCheck: New page: Asset Save: BP_ObjectiveGiverHackTerminals
+[2020.07.14-19.19.23:869][648]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.BP_ObjectiveGiverHackTerminals
+[2020.07.14-19.19.24:162][666]LogSlate: Window 'BP_ObjectiveGiverHackTerminals' being destroyed
+[2020.07.14-19.19.24:194][666]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-19.19.24:194][666]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-19.19.27:770][873]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.07.14-19.19.27:851][873]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel118BEF6284D5B7A430618EDA845EA5288.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.19.27:922][873]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.19.27:922][873]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.19.32:037][113]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.07.14-19.19.32:099][113]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel13753C24C4E2019F2D56A86A8BCB52626.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.19.32:169][113]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.19.32:169][113]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.19.33:291][181]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.14-19.19.33:318][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.14-19.19.33:318][181]PIE: New page: PIE session: PFinalLevel1 (Jul 14, 2020, 11:19:33 AM)
+[2020.07.14-19.19.33:318][181]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-19.19.33:348][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030705s)
+[2020.07.14-19.19.33:348][181]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.14-19.19.33:348][181]LogPlayLevel: PIE: World Init took: (0.000800s)
+[2020.07.14-19.19.33:348][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.031623s)
+[2020.07.14-19.19.33:376][181]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.07.14-19.19.33:377][181]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.14-19.19.33:377][181]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.14-19.19.33:377][181]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.14-19.19.33:377][181]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.14-19.19.33:377][181]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.14-19.19.33:377][181]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.14-19.19.33:377][181]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.14-19.19.33:377][181]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.14-19.19.33:378][181]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.14-19.19.33:378][181]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.14-19.19.33:398][181]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.14-19.19.33:398][181]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-19.19.33:398][181]LogAudioMixer: Display: Is Default: Yes
+[2020.07.14-19.19.33:398][181]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.14-19.19.33:398][181]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.14-19.19.33:398][181]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.14-19.19.33:398][181]LogAudioMixer: Display: Channel Order:
+[2020.07.14-19.19.33:398][181]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.14-19.19.33:398][181]LogAudioMixer: Display: 1: FrontRight
+[2020.07.14-19.19.33:408][181]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-19.19.33:409][181]LogInit: FAudioDevice initialized.
+[2020.07.14-19.19.33:416][181]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.14-19.19.33:419][181]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.14-15.19.33
+[2020.07.14-19.19.33:420][181]LogWorld: Bringing up level for play took: 0.003329
+[2020.07.14-19.19.33:420][181]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2020.07.14-19.19.33:423][181]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.19.33:423][181]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.19.33:426][181]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.202
+[2020.07.14-19.19.38:764][500]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.19.38:764][500]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.19.38:764][500]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-19.19.38:764][500]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-19.19.38:764][500]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.19.38:764][500]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-19.19.38:765][500]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-19.19.38:771][500]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.14-19.19.38:775][500]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-19.19.38:805][500]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.19.38:807][500]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-19.19.38:811][500]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.07.14-19.19.38:878][504]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2020.07.14-19.19.40:827][621]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.19.41:424][656]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.19.41:858][682]LogEditorViewport: Clicking on Actor (LMB): BP_ObjectiveGiverHackTerminals_C (BP_ObjectiveGiverHackTerminals)
+[2020.07.14-19.19.44:179][816]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.07.14-19.19.44:231][816]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1B6C12BD542A12818CF7D43B0937F93C7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.19.44:295][816]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.19.44:295][816]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.19.44:872][851]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.14-19.19.44:913][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.14-19.19.44:913][851]PIE: New page: PIE session: PFinalLevel1 (Jul 14, 2020, 11:19:44 AM)
+[2020.07.14-19.19.44:913][851]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-19.19.44:944][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030534s)
+[2020.07.14-19.19.44:944][851]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.14-19.19.44:945][851]LogPlayLevel: PIE: World Init took: (0.001040s)
+[2020.07.14-19.19.44:945][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.031719s)
+[2020.07.14-19.19.44:972][851]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.07.14-19.19.44:973][851]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.14-19.19.44:973][851]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.14-19.19.44:973][851]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.14-19.19.44:973][851]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.14-19.19.44:973][851]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.14-19.19.44:973][851]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.14-19.19.44:973][851]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.14-19.19.44:973][851]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.14-19.19.44:973][851]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.14-19.19.44:973][851]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.14-19.19.44:993][851]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.14-19.19.44:993][851]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-19.19.44:994][851]LogAudioMixer: Display: Is Default: Yes
+[2020.07.14-19.19.44:994][851]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.14-19.19.44:994][851]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.14-19.19.44:994][851]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.14-19.19.44:994][851]LogAudioMixer: Display: Channel Order:
+[2020.07.14-19.19.44:994][851]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.14-19.19.44:994][851]LogAudioMixer: Display: 1: FrontRight
+[2020.07.14-19.19.45:003][851]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-19.19.45:004][851]LogInit: FAudioDevice initialized.
+[2020.07.14-19.19.45:011][851]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.14-19.19.45:014][851]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.14-15.19.45
+[2020.07.14-19.19.45:015][851]LogWorld: Bringing up level for play took: 0.003356
+[2020.07.14-19.19.45:016][851]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2020.07.14-19.19.45:017][851]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.19.45:017][851]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.19.45:020][851]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 -0.204
+[2020.07.14-19.19.55:354][471]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.19.55:354][471]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.19.55:355][471]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-19.19.55:355][471]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-19.19.55:355][471]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.19.55:355][471]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-19.19.55:356][471]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-19.19.55:366][471]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.14-19.19.55:370][471]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-19.19.55:395][471]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.19.55:399][471]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-19.19.55:407][471]LogUObjectHash: Compacting FUObjectHashTables data took   5.20ms
+[2020.07.14-19.19.55:462][474]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2020.07.14-19.19.57:156][572]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2020.07.14-19.19.57:207][572]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1054786F94C42175BC5D38B9AFA49BD95.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.19.57:281][572]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.19.57:281][572]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.19.59:874][724]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.07.14-19.19.59:928][724]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel12453340744D762840589F69FCB548406.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.20.00:003][724]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.20.00:003][724]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.20.01:368][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.07.14-19.20.01:423][804]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel173F454004388BD6A781B9883211C2E95.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.20.01:487][804]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.20.01:487][804]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.24.27:389][670]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.07.14-19.24.27:463][670]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel17630333A45FC958E9F1D889EB2A2D76E.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.24.27:553][670]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.24.27:553][670]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.25.41:165][221]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.25.44:516][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.07.14-19.25.44:583][416]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel13E45310342C5E5FD894A29B873846093.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.25.44:653][416]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.25.44:653][416]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.25.49:146][686]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server2)
+[2020.07.14-19.25.49:638][715]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server3)
+[2020.07.14-19.25.49:943][733]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.25.50:241][744]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server5)
+[2020.07.14-19.25.51:370][800]LogTexture: Error: Texture2D /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.Landscape_1.Texture2D_0 is unknown [raw type 0] which is not supported.
+[2020.07.14-19.25.51:373][800]LogTexture: Error: Texture2D /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.Landscape_1.Texture2D_0 is unknown [raw type 0] which is not supported.
+[2020.07.14-19.25.51:374][800]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 64X64)
+[2020.07.14-19.25.51:377][800]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 64X64)
+[2020.07.14-19.25.51:378][800]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2020.07.14-19.25.51:380][800]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 64X64)
+[2020.07.14-19.25.54:819][995]Cmd: TRANSACTION UNDO
+[2020.07.14-19.25.54:819][995]LogEditorTransaction: Undo Move Actors
+[2020.07.14-19.25.54:835][995]LogTexture: Error: Texture2D /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.Landscape_1.Texture2D_0 is unknown [raw type 0] which is not supported.
+[2020.07.14-19.25.55:183][  4]Cmd: TRANSACTION UNDO
+[2020.07.14-19.25.55:183][  4]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.14-19.25.55:931][ 43]Cmd: TRANSACTION UNDO
+[2020.07.14-19.25.55:931][ 43]LogEditorTransaction: Undo Move Actors
+[2020.07.14-19.25.56:285][ 59]Cmd: TRANSACTION UNDO
+[2020.07.14-19.25.56:285][ 59]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.14-19.25.56:618][ 79]Cmd: TRANSACTION UNDO
+[2020.07.14-19.25.56:618][ 79]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.14-19.25.59:169][232]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.25.59:558][252]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2020.07.14-19.25.59:618][252]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1D8BEAD084D4795D48965849F08B5D9F4.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.25.59:689][252]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.25.59:689][252]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.26.16:067][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server9)
+[2020.07.14-19.26.16:687][251]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.26.17:008][269]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.26.17:953][323]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.26.18:271][341]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server6)
+[2020.07.14-19.26.21:432][526]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2020.07.14-19.26.21:490][526]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1E06F48354B01CA20459F8488F0875AF3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.26.21:562][526]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.26.21:562][526]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.26.22:315][571]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.26.22:794][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.07.14-19.26.22:886][595]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel17E1940554EA836853AE8FB94D9C86BED.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.26.22:954][595]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.26.22:955][595]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.26.25:507][744]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.07.14-19.26.25:558][744]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1F2A811DE44E6C2B23EBF3B801BB5C4FC.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.26.25:624][744]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.26.25:624][744]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.26.28:901][941]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server2)
+[2020.07.14-19.26.30:093][ 11]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server3)
+[2020.07.14-19.26.30:481][ 33]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.26.30:836][ 52]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server5)
+[2020.07.14-19.26.31:205][ 73]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server6)
+[2020.07.14-19.26.31:629][ 97]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.26.32:001][118]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.26.32:395][140]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server9)
+[2020.07.14-19.26.41:972][713]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.26.42:252][725]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.07.14-19.26.42:320][725]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1885026CF445DB557B88C98848B50BBC2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.26.42:387][725]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.26.42:387][725]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.26.50:368][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server2)
+[2020.07.14-19.26.51:024][242]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server3)
+[2020.07.14-19.26.51:447][266]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.26.51:900][292]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server5)
+[2020.07.14-19.26.52:271][312]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server6)
+[2020.07.14-19.26.52:605][331]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.26.52:944][350]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.26.53:312][371]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server9)
+[2020.07.14-19.26.55:254][467]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.07.14-19.26.55:306][467]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1B75986F448DAE76032F10FBE38E606BF.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.26.55:373][467]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.26.55:373][467]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.27.01:313][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2020.07.14-19.27.01:383][820]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1CB1D13794B2490DE34F317908F9C2372.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.27.01:452][820]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.27.01:452][820]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.27.08:074][218]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server7)
+[2020.07.14-19.27.19:156][299]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
+[2020.07.14-19.27.24:118][584]LogStaticMesh: Building static mesh ShortWall...
+[2020.07.14-19.27.24:118][584]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.07.14-19.27.24:121][584]LogStaticMesh: Built static mesh [0.00s] /Game/Phil/Meshes/ShortWall.ShortWall
+[2020.07.14-19.27.24:186][584]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.07.14-19.27.38:417][584]LogSlate: Window 'Delete Assets' being destroyed
+[2020.07.14-19.27.41:219][729]LogStaticMesh: Building static mesh SlidingDoor...
+[2020.07.14-19.27.41:222][729]LogStaticMesh: Built static mesh [0.00s] /Game/Phil/Meshes/SlidingDoor.SlidingDoor
+[2020.07.14-19.27.41:269][729]LogAIModule: Creating AISystem for world PLevel1
+[2020.07.14-19.27.41:271][729]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PLevel1.PLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_339 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.27.41:271][729]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PLevel1.PLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_332 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.27.41:272][729]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PLevel1.PLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_343 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.27.41:273][729]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PLevel1.PLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_345 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.27.41:319][729]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PLevel1.PLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_339 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.27.41:320][729]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PLevel1.PLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_332 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.27.41:322][729]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PLevel1.PLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_349 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.27.41:323][729]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PLevel1.PLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_351 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.27.41:360][729]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2020.07.14-19.27.41:426][729]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PLevel16F21834543548D7518AB4C861F37A22E.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PLevel1.umap'
+[2020.07.14-19.27.41:433][729]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PLevel1.PLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_339 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.27.41:434][729]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PLevel1.PLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_332 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.27.41:435][729]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PLevel1.PLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_355 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.27.41:436][729]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PLevel1.PLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_357 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.27.41:437][729]LogFileHelpers: Saving map 'PLevel1' took 0.136
+[2020.07.14-19.27.41:490][729]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.07.14-19.27.43:982][729]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.07.14-19.27.44:013][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.07.14-19.27.44:041][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.07.14-19.27.44:073][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.07.14-19.27.44:108][729]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.07.14-19.27.44:138][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.07.14-19.27.44:145][729]AssetCheck: New page: Asset Save: PLevel1
+[2020.07.14-19.27.44:145][729]LogContentValidation: Display: Validating World /Game/Phil/Levels/PLevel1.PLevel1
+[2020.07.14-19.28.14:607][539]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2020.07.14-19.28.14:662][539]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel161158B9544E708B835F8768902FD95DD.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.28.14:728][539]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.28.14:728][539]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.28.20:759][897]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server7)
+[2020.07.14-19.28.32:677][ 11]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
+[2020.07.14-19.28.32:709][ 11]LogStaticMesh: Building static mesh SM_ServerBlock1...
+[2020.07.14-19.28.32:735][ 11]LogStaticMesh: Built static mesh [0.03s] /Game/Phil/Meshes/SM_ServerBlock1.SM_ServerBlock1
+[2020.07.14-19.28.35:041][123]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_ServerBlock1B83D3B6F495A40EB10FECD9E8923439F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Meshes/SM_ServerBlock1.uasset'
+[2020.07.14-19.28.35:057][123]AssetCheck: New page: Asset Save: SM_ServerBlock1
+[2020.07.14-19.28.35:057][123]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Meshes/SM_ServerBlock1.SM_ServerBlock1
+[2020.07.14-19.28.35:549][152]LogActorFactory: Actor Factory created SM_ServerBlock1
+[2020.07.14-19.28.36:035][181]LogActorFactory: Actor Factory created SM_ServerBlock1
+[2020.07.14-19.28.36:814][223]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.07.14-19.28.36:867][223]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1457729614E3BB1EACBEC51BF561DB94D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.28.36:972][223]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.28.36:972][223]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.28.39:768][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock1)
+[2020.07.14-19.28.40:108][411]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.28.40:445][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.28.40:788][449]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock1)
+[2020.07.14-19.28.41:693][502]Cmd: DELETE
+[2020.07.14-19.28.41:693][502]Cmd: ACTOR DELETE
+[2020.07.14-19.28.41:695][502]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.14-19.28.41:722][502]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.07.14-19.28.41:723][502]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2020.07.14-19.28.42:019][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.07.14-19.28.42:077][517]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel10FDD4EA44DB7EC188FA2A794940DA7E2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.28.42:144][517]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.28.42:144][517]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.28.42:533][541]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.28.43:473][596]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server9)
+[2020.07.14-19.28.44:072][630]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.28.44:781][671]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.28.45:189][694]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server6)
+[2020.07.14-19.28.45:603][717]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server5)
+[2020.07.14-19.28.45:979][738]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.28.46:413][763]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server3)
+[2020.07.14-19.28.46:748][782]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server2)
+[2020.07.14-19.28.47:318][815]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server5)
+[2020.07.14-19.28.58:768][930]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
+[2020.07.14-19.28.58:804][930]LogStaticMesh: Building static mesh SM_ServerBlock...
+[2020.07.14-19.28.58:840][930]LogStaticMesh: Built static mesh [0.04s] /Game/Phil/Meshes/SM_ServerBlock.SM_ServerBlock
+[2020.07.14-19.29.00:538][  7]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_ServerBlock79FC8FEA4901F12AA23A8585F9741626.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Meshes/SM_ServerBlock.uasset'
+[2020.07.14-19.29.00:556][  7]AssetCheck: New page: Asset Save: SM_ServerBlock
+[2020.07.14-19.29.00:556][  7]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Meshes/SM_ServerBlock.SM_ServerBlock
+[2020.07.14-19.29.00:961][ 30]LogActorFactory: Actor Factory created SM_ServerBlock
+[2020.07.14-19.29.01:381][ 55]LogActorFactory: Actor Factory created SM_ServerBlock
+[2020.07.14-19.29.02:826][136]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2020.07.14-19.29.02:879][136]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel18C6A638240920CEB9E912EBF42CDA26B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.29.02:948][136]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.29.02:948][136]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.29.05:575][294]Cmd: DELETE
+[2020.07.14-19.29.05:575][294]Cmd: ACTOR DELETE
+[2020.07.14-19.29.05:576][294]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.14-19.29.05:606][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.07.14-19.29.05:607][294]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2020.07.14-19.29.05:862][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.07.14-19.29.05:958][307]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel15CCB5697439AA1E5B1E2A3A9EF26FEED.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.29.06:033][307]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.29.06:033][307]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.29.09:814][530]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.07.14-19.29.11:736][530]LogSlate: Window 'Delete Assets' being destroyed
+[2020.07.14-19.29.11:828][530]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.07.14-19.29.11:869][530]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.07.14-19.29.11:898][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.07.14-19.29.12:759][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server6)
+[2020.07.14-19.29.14:237][662]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.07.14-19.29.14:320][662]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel189A7A20C440D4D0D2D7F928A8CBE91F5.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.29.14:387][662]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.29.14:387][662]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.29.14:760][683]LogActorFactory: Actor Factory created SM_ServerBlock
+[2020.07.14-19.29.15:129][705]LogActorFactory: Actor Factory created SM_ServerBlock
+[2020.07.14-19.29.22:969][170]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2020.07.14-19.29.23:042][170]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1BE2D6D4144D5B4DFE1300F9F8672D7BE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.29.23:117][170]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.29.23:117][170]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.29.27:516][431]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.07.14-19.29.27:594][431]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1BC7C16AB4D9943B3C802B886B72F8BD2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.29.27:681][431]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.29.27:681][431]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.29.34:506][837]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.07.14-19.29.34:573][837]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel10AE34F27425BB766B3C42BA60EE61471.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.29.34:639][837]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.29.34:639][837]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.29.38:452][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2020.07.14-19.29.38:521][ 62]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel18781AAC44F26E466119FC8884AB104C9.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.29.38:604][ 62]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.29.38:604][ 62]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.29.46:259][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.07.14-19.29.46:325][516]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1F69032E14C2DEF475EEEE6AE6E11C680.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.29.46:397][516]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.29.46:397][516]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.29.51:447][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server6)
+[2020.07.14-19.29.56:355][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.29.59:428][262]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server6)
+[2020.07.14-19.30.02:857][449]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.30.15:031][178]Cmd: TRANSACTION UNDO
+[2020.07.14-19.30.15:031][178]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.14-19.30.15:605][195]Cmd: TRANSACTION UNDO
+[2020.07.14-19.30.15:605][195]LogEditorTransaction: Undo Move Actors
+[2020.07.14-19.30.16:307][237]Cmd: TRANSACTION UNDO
+[2020.07.14-19.30.16:307][237]LogEditorTransaction: Undo Move Actors
+[2020.07.14-19.30.16:556][252]Cmd: TRANSACTION UNDO
+[2020.07.14-19.30.16:556][252]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.14-19.30.16:782][264]Cmd: TRANSACTION UNDO
+[2020.07.14-19.30.16:782][264]LogEditorTransaction: Undo Move Actors
+[2020.07.14-19.30.17:191][288]Cmd: TRANSACTION UNDO
+[2020.07.14-19.30.17:191][288]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.14-19.30.17:366][297]Cmd: TRANSACTION UNDO
+[2020.07.14-19.30.17:366][297]LogEditorTransaction: Undo Move Actors
+[2020.07.14-19.30.18:359][356]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.30.22:827][623]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.30.24:081][680]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.30.25:454][761]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.30.28:018][898]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.30.35:046][302]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.30.38:436][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.30.42:213][728]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.30.50:179][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.30.51:496][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server3)
+[2020.07.14-19.30.53:358][375]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.30.55:852][508]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server3)
+[2020.07.14-19.31.01:621][852]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.31.01:989][873]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2020.07.14-19.31.02:417][897]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server5)
+[2020.07.14-19.31.08:550][248]Cmd: TRANSACTION UNDO
+[2020.07.14-19.31.08:550][248]LogEditorTransaction: Undo Move Actors
+[2020.07.14-19.31.08:849][256]Cmd: TRANSACTION UNDO
+[2020.07.14-19.31.08:849][256]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.14-19.31.09:065][262]Cmd: TRANSACTION UNDO
+[2020.07.14-19.31.09:065][262]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.14-19.31.09:381][280]Cmd: TRANSACTION UNDO
+[2020.07.14-19.31.09:381][280]LogEditorTransaction: Undo Move Actors
+[2020.07.14-19.31.09:604][293]Cmd: TRANSACTION UNDO
+[2020.07.14-19.31.09:604][293]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.14-19.31.09:875][308]Cmd: TRANSACTION UNDO
+[2020.07.14-19.31.09:875][308]LogEditorTransaction: Undo Move Actors
+[2020.07.14-19.31.10:053][318]Cmd: TRANSACTION UNDO
+[2020.07.14-19.31.10:053][318]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.14-19.31.10:225][327]Cmd: TRANSACTION UNDO
+[2020.07.14-19.31.10:225][327]LogEditorTransaction: Undo Move Actors
+[2020.07.14-19.31.10:384][336]Cmd: TRANSACTION UNDO
+[2020.07.14-19.31.10:385][336]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.14-19.31.10:542][344]Cmd: TRANSACTION UNDO
+[2020.07.14-19.31.10:542][344]LogEditorTransaction: Undo Move Actors
+[2020.07.14-19.31.10:669][351]Cmd: TRANSACTION UNDO
+[2020.07.14-19.31.10:669][351]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.14-19.31.10:876][362]Cmd: TRANSACTION UNDO
+[2020.07.14-19.31.10:876][362]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.14-19.31.11:922][424]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.31.21:281][983]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server9)
+[2020.07.14-19.31.21:939][ 21]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.31.22:375][ 46]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.31.22:741][ 67]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server6)
+[2020.07.14-19.31.23:093][ 87]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server5)
+[2020.07.14-19.31.23:444][107]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.31.23:813][128]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server3)
+[2020.07.14-19.31.24:153][147]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server2)
+[2020.07.14-19.31.24:642][175]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server3)
+[2020.07.14-19.31.39:430][247]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
+[2020.07.14-19.31.39:466][247]LogStaticMesh: Building static mesh SM_ServerBlock2...
+[2020.07.14-19.31.39:492][247]LogStaticMesh: Built static mesh [0.03s] /Game/Phil/Meshes/SM_ServerBlock2.SM_ServerBlock2
+[2020.07.14-19.31.42:864][425]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_ServerBlock2EC9C0A714B21A7CEBDC26CA9D4026AB5.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Meshes/SM_ServerBlock2.uasset'
+[2020.07.14-19.31.42:884][425]AssetCheck: New page: Asset Save: SM_ServerBlock2
+[2020.07.14-19.31.42:884][425]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Meshes/SM_ServerBlock2.SM_ServerBlock2
+[2020.07.14-19.31.43:362][452]LogActorFactory: Actor Factory created SM_ServerBlock2
+[2020.07.14-19.31.43:694][472]LogActorFactory: Actor Factory created SM_ServerBlock2
+[2020.07.14-19.31.51:050][907]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.07.14-19.31.51:125][907]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1716BEBAC412606905F2523A97332C361.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.31.51:192][907]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.31.51:192][907]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.31.51:486][925]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.31.52:885][  8]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_LevelBorder2)
+[2020.07.14-19.31.53:714][ 56]LogEditorViewport: Clicking Background
+[2020.07.14-19.31.53:944][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.07.14-19.31.54:010][ 67]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel164094DAF4D9F65185D162D8EEF97DBC1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.31.54:086][ 67]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.31.54:086][ 67]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.32.35:522][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.32.37:013][640]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server6)
+[2020.07.14-19.32.37:674][678]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.32.38:291][714]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server2)
+[2020.07.14-19.32.38:893][749]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server4)
+[2020.07.14-19.32.42:544][961]LogActorFactory: Actor Factory created SM_ServerBlock
+[2020.07.14-19.32.42:566][961]LogActorFactory: Actor Factory created SM_ServerBlock
+[2020.07.14-19.32.42:588][961]LogActorFactory: Actor Factory created SM_ServerBlock
+[2020.07.14-19.32.42:612][961]LogActorFactory: Actor Factory created SM_ServerBlock
+[2020.07.14-19.32.42:635][961]EditorErrors: New page: Actor Reattachment
+[2020.07.14-19.32.51:243][475]Cmd: TRANSACTION UNDO
+[2020.07.14-19.32.51:243][475]LogEditorTransaction: Undo Move Actors
+[2020.07.14-19.32.51:712][489]Cmd: TRANSACTION UNDO
+[2020.07.14-19.32.51:712][489]LogEditorTransaction: Undo Replace Actor(s)
+[2020.07.14-19.32.53:090][569]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server6)
+[2020.07.14-19.32.58:186][868]LogActorFactory: Actor Factory created SM_ServerBlock2
+[2020.07.14-19.32.58:207][868]LogActorFactory: Actor Factory created SM_ServerBlock2
+[2020.07.14-19.32.58:226][868]LogActorFactory: Actor Factory created SM_ServerBlock2
+[2020.07.14-19.32.58:247][868]LogActorFactory: Actor Factory created SM_ServerBlock2
+[2020.07.14-19.32.58:274][868]EditorErrors: New page: Actor Reattachment
+[2020.07.14-19.32.59:720][951]Cmd: DELETE
+[2020.07.14-19.32.59:720][951]Cmd: ACTOR DELETE
+[2020.07.14-19.32.59:722][951]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.14-19.32.59:722][951]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.14-19.32.59:723][951]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.14-19.32.59:723][951]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.14-19.32.59:756][951]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2020.07.14-19.32.59:759][951]LogEditorActor: Deleted 4 Actors (0.039 secs)
+[2020.07.14-19.33.01:265][ 42]Cmd: TRANSACTION UNDO
+[2020.07.14-19.33.01:265][ 42]LogEditorTransaction: Undo Delete Actors
+[2020.07.14-19.33.01:577][ 50]Cmd: TRANSACTION UNDO
+[2020.07.14-19.33.01:577][ 50]LogEditorTransaction: Undo Replace Actor(s)
+[2020.07.14-19.33.05:742][292]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server6)
+[2020.07.14-19.33.22:811][298]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server4)
+[2020.07.14-19.33.24:102][370]LogActorFactory: Actor Factory created SM_Server
+[2020.07.14-19.33.29:230][677]Cmd: DELETE
+[2020.07.14-19.33.29:231][677]Cmd: ACTOR DELETE
+[2020.07.14-19.33.29:235][677]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.14-19.33.29:268][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.07.14-19.33.29:272][677]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2020.07.14-19.33.30:031][723]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.33.30:526][751]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server2)
+[2020.07.14-19.33.31:043][781]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server6)
+[2020.07.14-19.33.31:460][805]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.33.31:849][827]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server8)
+[2020.07.14-19.33.35:343][ 32]LogActorFactory: Actor Factory created SM_Server
+[2020.07.14-19.33.35:364][ 32]LogActorFactory: Actor Factory created SM_Server
+[2020.07.14-19.33.35:405][ 32]LogActorFactory: Actor Factory created SM_Server
+[2020.07.14-19.33.35:439][ 32]LogActorFactory: Actor Factory created SM_Server
+[2020.07.14-19.33.35:472][ 32]EditorErrors: New page: Actor Reattachment
+[2020.07.14-19.33.36:469][ 90]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.33.38:970][239]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server2)
+[2020.07.14-19.33.39:523][271]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server3)
+[2020.07.14-19.33.40:042][301]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.33.40:396][321]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server5)
+[2020.07.14-19.33.40:741][340]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server6)
+[2020.07.14-19.33.41:081][359]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.33.41:410][377]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.33.41:735][395]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server9)
+[2020.07.14-19.33.42:433][435]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server7)
+[2020.07.14-19.33.56:585][557]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
+[2020.07.14-19.33.56:618][557]LogStaticMesh: Building static mesh SM_ServerBlock3...
+[2020.07.14-19.33.56:649][557]LogStaticMesh: Built static mesh [0.03s] /Game/Phil/Meshes/SM_ServerBlock3.SM_ServerBlock3
+[2020.07.14-19.33.59:694][716]LogActorFactory: Actor Factory created SM_ServerBlock3
+[2020.07.14-19.34.00:100][740]LogActorFactory: Actor Factory created SM_ServerBlock3
+[2020.07.14-19.34.06:013][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.07.14-19.34.06:068][ 90]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1E3B6D6C8476E37F02799068ECD49E854.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.34.06:137][ 90]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.34.06:137][ 90]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.34.07:188][153]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.34.07:432][163]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2020.07.14-19.34.07:489][163]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel19AD2C8FF4A627BEF1B343F9F9BD1B01F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.34.07:558][163]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.34.07:558][163]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.34.17:965][788]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock3)
+[2020.07.14-19.34.29:592][483]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.34.31:805][614]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock3)
+[2020.07.14-19.34.41:310][178]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.07.14-19.34.41:389][178]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1BE47EE8B44C761CC07E007B521E50705.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.34.41:487][178]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.34.41:487][178]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.34.50:421][711]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_ServerBlock32559C2114CAAE020FFD9A6B4B33CCC1C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Meshes/SM_ServerBlock3.uasset'
+[2020.07.14-19.34.50:437][711]AssetCheck: New page: Asset Save: SM_ServerBlock3
+[2020.07.14-19.34.50:437][711]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Meshes/SM_ServerBlock3.SM_ServerBlock3
+[2020.07.14-19.34.57:868][156]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server3)
+[2020.07.14-19.34.59:884][275]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.35.01:213][353]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.35.01:815][388]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.35.03:088][463]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server7)
+[2020.07.14-19.35.09:531][832]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server7)
+[2020.07.14-19.35.16:152][223]LogActorFactory: Actor Factory created SM_Server2
+[2020.07.14-19.35.16:173][223]LogActorFactory: Actor Factory created SM_Server2
+[2020.07.14-19.35.16:193][223]LogActorFactory: Actor Factory created SM_Server2
+[2020.07.14-19.35.16:214][223]LogActorFactory: Actor Factory created SM_Server2
+[2020.07.14-19.35.16:237][223]EditorErrors: New page: Actor Reattachment
+[2020.07.14-19.35.17:148][276]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.35.17:793][310]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.07.14-19.35.17:851][310]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel11E1C74C743A4BF84D9F756BCF0E244C6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.35.17:925][310]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.35.17:925][310]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.35.22:003][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server2)
+[2020.07.14-19.35.22:733][597]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server3)
+[2020.07.14-19.35.23:207][624]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.35.23:545][643]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server5)
+[2020.07.14-19.35.23:882][662]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server6)
+[2020.07.14-19.35.24:208][680]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.35.24:567][700]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.35.24:899][719]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server9)
+[2020.07.14-19.35.25:229][737]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server9)
+[2020.07.14-19.35.38:441][801]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
+[2020.07.14-19.35.38:465][801]LogStaticMesh: Building static mesh SM_ServerBlock4...
+[2020.07.14-19.35.38:499][801]LogStaticMesh: Built static mesh [0.03s] /Game/Phil/Meshes/SM_ServerBlock4.SM_ServerBlock4
+[2020.07.14-19.35.39:803][856]LogActorFactory: Actor Factory created SM_ServerBlock4
+[2020.07.14-19.35.40:073][872]LogActorFactory: Actor Factory created SM_ServerBlock4
+[2020.07.14-19.35.50:297][479]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.07.14-19.35.50:360][479]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1F4743B294BA5399D0A9AFB94E4815AD5.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.35.50:427][479]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.35.50:427][479]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.35.59:155][998]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.36.01:574][142]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server7)
+[2020.07.14-19.36.03:959][277]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server7)
+[2020.07.14-19.36.06:045][394]LogActorFactory: Actor Factory created SM_Terminal
+[2020.07.14-19.36.06:057][394]EditorErrors: New page: Actor Reattachment
+[2020.07.14-19.36.07:277][467]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.36.08:593][545]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server2)
+[2020.07.14-19.36.09:204][581]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server3)
+[2020.07.14-19.36.09:548][601]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.36.10:000][627]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server5)
+[2020.07.14-19.36.10:442][653]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server6)
+[2020.07.14-19.36.10:819][675]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.36.11:156][694]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.36.11:484][713]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server9)
+[2020.07.14-19.36.21:228][297]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server8)
+[2020.07.14-19.36.40:187][435]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
+[2020.07.14-19.36.40:234][435]LogStaticMesh: Building static mesh SM_ServerBlock4Terminal...
+[2020.07.14-19.36.40:293][435]LogStaticMesh: Built static mesh [0.06s] /Game/Phil/Meshes/SM_ServerBlock4Terminal.SM_ServerBlock4Terminal
+[2020.07.14-19.36.40:298][435]LogStaticMesh: Warning: SM_ServerBlock4Terminal has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2020.07.14-19.36.40:298][435]LogStaticMesh: Warning: SM_ServerBlock4Terminal has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2020.07.14-19.36.41:722][497]LogActorFactory: Actor Factory created SM_ServerBlock4Terminal
+[2020.07.14-19.36.42:610][550]LogActorFactory: Actor Factory created SM_ServerBlock4Terminal
+[2020.07.14-19.36.43:544][606]LogActorFactory: Actor Factory created SM_ServerBlock4Terminal
+[2020.07.14-19.36.47:067][816]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock4Terminal)
+[2020.07.14-19.36.52:399][135]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock4)
+[2020.07.14-19.36.53:338][190]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock4Terminal)
+[2020.07.14-19.36.53:862][220]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock3)
+[2020.07.14-19.36.54:251][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock2)
+[2020.07.14-19.36.54:660][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock)
+[2020.07.14-19.36.55:026][285]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.36.55:974][340]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock4Terminal)
+[2020.07.14-19.37.43:584][191]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_ServerBlock4Terminal)
+[2020.07.14-19.37.46:913][380]Cmd: ACTOR BAKEPREPIVOT
+[2020.07.14-19.37.48:234][454]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.07.14-19.37.48:318][454]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1CFC762AA4E4AF907F1E4298F2ABEA61C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.37.48:385][454]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.37.48:385][454]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.38.01:533][238]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.07.14-19.38.01:604][238]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1784EAE554D26C87BB4F03399864559E6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.38.01:669][238]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.38.01:669][238]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.38.31:344][ 18]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.38.32:053][ 59]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.38.32:574][ 89]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.38.33:014][114]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server3)
+[2020.07.14-19.38.35:643][264]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server7)
+[2020.07.14-19.38.36:507][311]LogActorFactory: Actor Factory created SM_Server
+[2020.07.14-19.38.36:528][311]LogActorFactory: Actor Factory created SM_Server
+[2020.07.14-19.38.36:548][311]LogActorFactory: Actor Factory created SM_Server
+[2020.07.14-19.38.36:569][311]LogActorFactory: Actor Factory created SM_Server
+[2020.07.14-19.38.36:590][311]LogActorFactory: Actor Factory created SM_Server
+[2020.07.14-19.38.36:628][311]EditorErrors: New page: Actor Reattachment
+[2020.07.14-19.38.37:778][376]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server6)
+[2020.07.14-19.38.44:968][792]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.38.45:920][848]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server5)
+[2020.07.14-19.38.48:824][ 20]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server5)
+[2020.07.14-19.38.49:653][ 64]LogActorFactory: Actor Factory created SM_Terminal
+[2020.07.14-19.38.49:664][ 64]EditorErrors: New page: Actor Reattachment
+[2020.07.14-19.38.51:128][150]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server2)
+[2020.07.14-19.38.51:970][199]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server3)
+[2020.07.14-19.38.52:543][232]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.38.53:015][259]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server5)
+[2020.07.14-19.38.53:548][290]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server6)
+[2020.07.14-19.38.54:017][316]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.38.54:434][340]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.38.54:891][365]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server9)
+[2020.07.14-19.38.55:231][384]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server9)
+[2020.07.14-19.38.56:962][472]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Program Files/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Classes/Engine/StaticMeshActor.h'
+[2020.07.14-19.38.59:099][516]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server8)
+[2020.07.14-19.39.15:744][593]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
+[2020.07.14-19.39.15:788][593]LogStaticMesh: Building static mesh SM_ServerBlock3Terminal...
+[2020.07.14-19.39.15:833][593]LogStaticMesh: Built static mesh [0.04s] /Game/Phil/Meshes/SM_ServerBlock3Terminal.SM_ServerBlock3Terminal
+[2020.07.14-19.39.15:840][593]LogStaticMesh: Warning: SM_ServerBlock3Terminal has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2020.07.14-19.39.15:840][593]LogStaticMesh: Warning: SM_ServerBlock3Terminal has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2020.07.14-19.39.16:739][622]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_ServerBlock3Terminal9C8CF5BE42D17D254B093C9E41522DD6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Meshes/SM_ServerBlock3Terminal.uasset'
+[2020.07.14-19.39.16:754][622]AssetCheck: New page: Asset Save: SM_ServerBlock3Terminal
+[2020.07.14-19.39.16:755][622]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Meshes/SM_ServerBlock3Terminal.SM_ServerBlock3Terminal
+[2020.07.14-19.39.17:596][670]LogActorFactory: Actor Factory created SM_ServerBlock3Terminal
+[2020.07.14-19.39.18:116][701]LogActorFactory: Actor Factory created SM_ServerBlock3Terminal
+[2020.07.14-19.39.21:024][873]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock4Terminal)
+[2020.07.14-19.39.25:375][133]Cmd: DELETE
+[2020.07.14-19.39.25:375][133]Cmd: ACTOR DELETE
+[2020.07.14-19.39.25:377][133]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.14-19.39.25:411][133]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.07.14-19.39.25:415][133]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2020.07.14-19.39.27:091][232]LogActorFactory: Actor Factory created SM_ServerBlock4Terminal
+[2020.07.14-19.39.28:006][287]LogActorFactory: Actor Factory created SM_ServerBlock4Terminal
+[2020.07.14-19.39.44:876][297]LogEditorViewport: Clicking Background
+[2020.07.14-19.39.45:228][318]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock4Terminal)
+[2020.07.14-19.40.21:010][461]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_ServerBlock4Terminal)
+[2020.07.14-19.40.26:139][757]Cmd: ACTOR BAKEPREPIVOT
+[2020.07.14-19.40.27:167][814]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2020.07.14-19.40.27:233][814]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1FE32AE16448A3F6B92E0228808EA8A7C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.40.27:301][814]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.40.27:301][814]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.40.38:414][480]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.40.39:456][541]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.40.40:227][587]LogEditorViewport: Clicking Background
+[2020.07.14-19.40.44:297][831]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock4Terminal)
+[2020.07.14-19.40.47:289][  5]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.07.14-19.40.47:350][  5]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1818B03E14ED2E74CF5E80084F1A7B3F7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.40.47:444][  5]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.40.47:444][  5]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.40.49:327][118]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock4)
+[2020.07.14-19.40.50:006][157]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock4Terminal)
+[2020.07.14-19.40.52:127][278]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.07.14-19.40.52:183][278]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel15E5C2C7C4B937D1398BE0CAE3E1BBFA5.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.40.52:265][278]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.40.52:265][278]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.40.53:213][334]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.40.53:476][345]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.07.14-19.40.53:533][345]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel147DF66554A62D53B83BBA8B1ED5D2673.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.40.53:599][345]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.40.53:599][345]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.40.55:281][446]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock3Terminal)
+[2020.07.14-19.40.59:303][681]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.07.14-19.40.59:379][681]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1AFE513134248F071DC960F8D22F13B82.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.40.59:447][681]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.40.59:447][681]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.41.01:629][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.07.14-19.41.01:681][808]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1343ACB054AD250C68A346EA1502A02DA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.41.01:756][808]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.41.01:756][808]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.41.16:097][668]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server5)
+[2020.07.14-19.41.24:730][174]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server5)
+[2020.07.14-19.41.27:217][316]LogActorFactory: Actor Factory created SM_Server
+[2020.07.14-19.41.27:249][316]LogActorFactory: Actor Factory created SM_Server
+[2020.07.14-19.41.27:271][316]EditorErrors: New page: Actor Reattachment
+[2020.07.14-19.41.30:452][505]Cmd: TRANSACTION UNDO
+[2020.07.14-19.41.30:452][505]LogEditorTransaction: Undo Replace Actor(s)
+[2020.07.14-19.41.31:722][565]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.41.32:681][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server5)
+[2020.07.14-19.41.34:824][743]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server5)
+[2020.07.14-19.41.36:923][865]LogActorFactory: Actor Factory created SM_Server
+[2020.07.14-19.41.36:935][865]EditorErrors: New page: Actor Reattachment
+[2020.07.14-19.41.39:836][ 37]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server2)
+[2020.07.14-19.41.40:823][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.41.41:539][137]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server2)
+[2020.07.14-19.41.42:379][186]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.41.43:017][223]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server6)
+[2020.07.14-19.41.43:638][259]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.41.45:519][368]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server7)
+[2020.07.14-19.41.46:587][427]LogActorFactory: Actor Factory created SM_Server2
+[2020.07.14-19.41.46:620][427]LogActorFactory: Actor Factory created SM_Server2
+[2020.07.14-19.41.46:643][427]LogActorFactory: Actor Factory created SM_Server2
+[2020.07.14-19.41.46:663][427]LogActorFactory: Actor Factory created SM_Server2
+[2020.07.14-19.41.46:686][427]EditorErrors: New page: Actor Reattachment
+[2020.07.14-19.41.50:564][657]LogEditorViewport: Clicking Background
+[2020.07.14-19.41.55:264][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server2)
+[2020.07.14-19.41.55:825][971]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server3)
+[2020.07.14-19.41.56:374][  3]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.41.56:859][ 31]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server5)
+[2020.07.14-19.41.57:214][ 51]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server6)
+[2020.07.14-19.41.57:565][ 71]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.41.57:999][ 95]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.41.58:459][121]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server9)
+[2020.07.14-19.41.59:012][153]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server9)
+[2020.07.14-19.42.18:415][377]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
+[2020.07.14-19.42.18:973][402]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.42.29:065][  6]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server3)
+[2020.07.14-19.42.34:103][306]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server3)
+[2020.07.14-19.42.34:906][348]LogActorFactory: Actor Factory created SM_Terminal
+[2020.07.14-19.42.34:931][348]EditorErrors: New page: Actor Reattachment
+[2020.07.14-19.42.36:699][454]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server2)
+[2020.07.14-19.42.37:119][478]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server3)
+[2020.07.14-19.42.37:541][502]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.42.37:927][524]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server5)
+[2020.07.14-19.42.38:335][547]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server6)
+[2020.07.14-19.42.38:690][567]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.42.39:057][588]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.42.39:412][608]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server9)
+[2020.07.14-19.42.40:098][648]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server9)
+[2020.07.14-19.42.57:710][748]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
+[2020.07.14-19.42.57:754][748]LogStaticMesh: Building static mesh SM_ServerBlockTerminal...
+[2020.07.14-19.42.57:802][748]LogStaticMesh: Built static mesh [0.05s] /Game/Phil/Meshes/SM_ServerBlockTerminal.SM_ServerBlockTerminal
+[2020.07.14-19.42.57:808][748]LogStaticMesh: Warning: SM_ServerBlockTerminal has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2020.07.14-19.42.57:808][748]LogStaticMesh: Warning: SM_ServerBlockTerminal has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2020.07.14-19.43.00:301][872]LogActorFactory: Actor Factory created SM_ServerBlockTerminal
+[2020.07.14-19.43.02:772][ 20]LogActorFactory: Actor Factory created SM_ServerBlockTerminal
+[2020.07.14-19.43.04:421][113]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.07.14-19.43.04:499][113]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel146A0B39048920D7A1F22399E92EC9470.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.43.04:567][113]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.43.04:568][113]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.43.05:402][163]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.43.05:664][174]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.07.14-19.43.05:716][174]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel166D8CD884A85A098C2F70FA7E6CCC304.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.43.05:780][174]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.43.05:780][174]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.43.13:991][667]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server3)
+[2020.07.14-19.43.21:258][ 97]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server3)
+[2020.07.14-19.43.22:522][167]LogActorFactory: Actor Factory created SM_Server
+[2020.07.14-19.43.22:534][167]EditorErrors: New page: Actor Reattachment
+[2020.07.14-19.43.28:249][508]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.43.29:718][594]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server8)
+[2020.07.14-19.43.30:609][642]LogActorFactory: Actor Factory created SM_Server
+[2020.07.14-19.43.32:470][753]Cmd: DELETE
+[2020.07.14-19.43.32:470][753]Cmd: ACTOR DELETE
+[2020.07.14-19.43.32:472][753]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.14-19.43.32:499][753]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.07.14-19.43.32:501][753]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2020.07.14-19.43.33:174][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.43.33:539][814]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server8)
+[2020.07.14-19.43.34:447][862]LogActorFactory: Actor Factory created SM_Server
+[2020.07.14-19.43.34:463][862]EditorErrors: New page: Actor Reattachment
+[2020.07.14-19.43.36:826][  2]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server8)
+[2020.07.14-19.43.37:655][ 46]LogActorFactory: Actor Factory created SM_Server2
+[2020.07.14-19.43.37:667][ 46]EditorErrors: New page: Actor Reattachment
+[2020.07.14-19.43.38:430][ 90]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.43.46:662][583]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.43.49:041][722]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server7)
+[2020.07.14-19.43.51:094][835]LogActorFactory: Actor Factory created SM_Server
+[2020.07.14-19.43.51:106][835]EditorErrors: New page: Actor Reattachment
+[2020.07.14-19.43.51:945][884]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.43.53:743][991]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server5)
+[2020.07.14-19.43.57:571][219]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.44.03:351][564]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server6)
+[2020.07.14-19.44.05:534][694]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server6)
+[2020.07.14-19.44.06:471][745]LogActorFactory: Actor Factory created SM_Terminal
+[2020.07.14-19.44.06:482][745]EditorErrors: New page: Actor Reattachment
+[2020.07.14-19.44.07:428][800]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_LevelBorder2)
+[2020.07.14-19.44.09:324][912]LogEditorViewport: Clicking Background
+[2020.07.14-19.44.14:027][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server2)
+[2020.07.14-19.44.14:662][231]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server3)
+[2020.07.14-19.44.15:013][251]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.44.15:398][273]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server5)
+[2020.07.14-19.44.15:753][293]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server6)
+[2020.07.14-19.44.16:141][315]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.44.16:490][334]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.44.16:849][354]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server9)
+[2020.07.14-19.44.17:361][383]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server9)
+[2020.07.14-19.44.33:888][471]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
+[2020.07.14-19.44.33:942][471]LogStaticMesh: Building static mesh SM_ServerBlock2Terminal...
+[2020.07.14-19.44.33:999][471]LogStaticMesh: Built static mesh [0.06s] /Game/Phil/Meshes/SM_ServerBlock2Terminal.SM_ServerBlock2Terminal
+[2020.07.14-19.44.34:006][471]LogStaticMesh: Warning: SM_ServerBlock2Terminal has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2020.07.14-19.44.34:006][471]LogStaticMesh: Warning: SM_ServerBlock2Terminal has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2020.07.14-19.44.37:128][631]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_ServerBlock2TerminalA8330F5440FDD68871ED9D93E90767E9.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Meshes/SM_ServerBlock2Terminal.uasset'
+[2020.07.14-19.44.37:142][631]AssetCheck: New page: Asset Save: SM_ServerBlock2Terminal
+[2020.07.14-19.44.37:142][631]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Meshes/SM_ServerBlock2Terminal.SM_ServerBlock2Terminal
+[2020.07.14-19.44.37:834][671]LogActorFactory: Actor Factory created SM_ServerBlock2Terminal
+[2020.07.14-19.44.38:574][715]LogActorFactory: Actor Factory created SM_ServerBlock2Terminal
+[2020.07.14-19.44.39:199][751]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2020.07.14-19.44.40:977][851]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2020.07.14-19.44.41:034][851]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel12DEDA0AA403E35366E834EB03C185BB4.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.44.41:120][851]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.44.41:120][851]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.44.55:738][728]LogEditorViewport: Clicking on Actor (LMB): BP_ObjectiveGiverHackTerminals_C (BP_ObjectiveGiverHackTerminals)
+[2020.07.14-19.45.07:112][406]EditorErrors: New page: Actor attachment
+[2020.07.14-19.45.09:655][554]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.07.14-19.45.09:716][554]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1626FDCDD4F4F4CE6C3126CAA9ED7E0BF.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.45.09:792][554]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.45.09:792][554]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.45.11:582][660]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.BP_ObjectiveGiverHackTerminals
+[2020.07.14-19.45.17:307][972]BlueprintLog: New page: Compile BP_ObjectiveGiverHackTerminals
+[2020.07.14-19.45.17:536][972]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2020.07.14-19.45.17:589][972]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_ObjectiveGiverHackTerminals3D1B206649094CF6BEAB45B3ABED28C4.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.uasset'
+[2020.07.14-19.45.17:605][972]AssetCheck: New page: Asset Save: BP_ObjectiveGiverHackTerminals
+[2020.07.14-19.45.17:605][972]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.BP_ObjectiveGiverHackTerminals
+[2020.07.14-19.45.17:952][988]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_ObjectiveGiverHackTerminals8AEB49E24731AAE6F9012D8CFFDF1DBF.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.uasset'
+[2020.07.14-19.45.17:966][988]AssetCheck: New page: Asset Save: BP_ObjectiveGiverHackTerminals
+[2020.07.14-19.45.17:966][988]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.BP_ObjectiveGiverHackTerminals
+[2020.07.14-19.45.18:863][ 40]LogSlate: Window 'BP_ObjectiveGiverHackTerminals' being destroyed
+[2020.07.14-19.45.18:869][ 40]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-19.45.18:869][ 40]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-19.45.19:674][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2020.07.14-19.45.19:736][ 82]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1F99B648E42A4E38490322D83AC2E9D0B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.45.19:811][ 82]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.45.19:811][ 82]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.45.21:643][192]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.45.21:892][203]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.07.14-19.45.21:950][203]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1A907AE924C64446758B257874D22FD95.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.45.22:014][203]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.45.22:014][203]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.45.22:290][220]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server6)
+[2020.07.14-19.45.23:122][268]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Server8)
+[2020.07.14-19.45.23:813][306]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.45.25:771][422]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Server2)
+[2020.07.14-19.45.26:710][477]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server3)
+[2020.07.14-19.45.27:113][500]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server4)
+[2020.07.14-19.45.27:465][520]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server5)
+[2020.07.14-19.45.27:861][542]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server6)
+[2020.07.14-19.45.28:181][560]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server8)
+[2020.07.14-19.45.28:494][577]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server7)
+[2020.07.14-19.45.28:835][596]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Server9)
+[2020.07.14-19.45.29:572][639]Cmd: DELETE
+[2020.07.14-19.45.29:573][639]Cmd: ACTOR DELETE
+[2020.07.14-19.45.29:575][639]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.14-19.45.29:575][639]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.14-19.45.29:576][639]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.14-19.45.29:576][639]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.14-19.45.29:576][639]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.14-19.45.29:577][639]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.14-19.45.29:577][639]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.14-19.45.29:577][639]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.14-19.45.29:609][639]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.07.14-19.45.29:610][639]LogEditorActor: Deleted 8 Actors (0.037 secs)
+[2020.07.14-19.45.29:920][655]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.07.14-19.45.29:975][655]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1F060A4364191FC70C0575B957F9F9CA0.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.45.30:043][655]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.45.30:043][655]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.45.30:454][680]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlockTerminal)
+[2020.07.14-19.45.31:950][767]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock2Terminal)
+[2020.07.14-19.45.32:289][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock3Terminal)
+[2020.07.14-19.45.32:865][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock4Terminal)
+[2020.07.14-19.45.34:820][934]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.14-19.45.35:226][957]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock3Terminal)
+[2020.07.14-19.45.40:414][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock4Terminal)
+[2020.07.14-19.45.52:696][999]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_ServerBlock4Terminal)
+[2020.07.14-19.45.55:688][169]Cmd: ACTOR BAKEPREPIVOT
+[2020.07.14-19.45.56:103][190]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.07.14-19.45.56:155][190]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel14B65EF6442404DA5E2C55E9E4C24EA05.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.45.56:223][190]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.45.56:223][190]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.45.59:723][397]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.07.14-19.45.59:791][397]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1B2F12ED24297CEA4F61ED5AF04BB3744.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.45.59:868][397]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.45.59:868][397]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.46.03:829][630]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2020.07.14-19.46.03:899][630]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1DB2B5DE54080C5A93F6BED9815B6A061.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.46.03:974][630]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.46.03:974][630]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.46.04:581][667]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock3Terminal)
+[2020.07.14-19.46.12:017][108]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.07.14-19.46.12:078][108]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel10567A6444C0B470C03C2169E96BF9A14.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.46.12:150][108]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.46.12:150][108]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.46.13:165][169]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock)
+[2020.07.14-19.46.15:106][280]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.07.14-19.46.15:187][280]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1B54E4DEF4865C5EC54634DA101A8504F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.46.15:253][280]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.46.15:253][280]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.46.16:072][329]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlockTerminal)
+[2020.07.14-19.46.19:295][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.07.14-19.46.19:348][516]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel150FB28A54700F42B39E766B97580B596.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.46.19:426][516]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.46.19:426][516]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.46.25:694][892]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.07.14-19.46.26:296][925]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.07.14-19.46.26:353][925]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel16F74ECEC42054BC21A8031874ABB54AC.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.46.26:422][925]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.46.26:422][925]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.46.26:866][952]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.14-19.46.26:898][952]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.14-19.46.26:898][952]PIE: New page: PIE session: PFinalLevel1 (Jul 14, 2020, 11:46:26 AM)
+[2020.07.14-19.46.26:898][952]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-19.46.26:938][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039187s)
+[2020.07.14-19.46.26:939][952]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.14-19.46.26:939][952]LogPlayLevel: PIE: World Init took: (0.001043s)
+[2020.07.14-19.46.26:939][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.040376s)
+[2020.07.14-19.46.26:968][952]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.07.14-19.46.26:969][952]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.14-19.46.26:969][952]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.14-19.46.26:969][952]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.14-19.46.26:969][952]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.14-19.46.26:969][952]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.14-19.46.26:969][952]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.14-19.46.26:969][952]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.14-19.46.26:969][952]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.14-19.46.26:970][952]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.14-19.46.26:970][952]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.14-19.46.26:992][952]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.14-19.46.26:992][952]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-19.46.26:992][952]LogAudioMixer: Display: Is Default: Yes
+[2020.07.14-19.46.26:992][952]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.14-19.46.26:992][952]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.14-19.46.26:992][952]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.14-19.46.26:992][952]LogAudioMixer: Display: Channel Order:
+[2020.07.14-19.46.26:992][952]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.14-19.46.26:992][952]LogAudioMixer: Display: 1: FrontRight
+[2020.07.14-19.46.27:003][952]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-19.46.27:004][952]LogInit: FAudioDevice initialized.
+[2020.07.14-19.46.27:011][952]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.14-19.46.27:017][952]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.14-15.46.27
+[2020.07.14-19.46.27:020][952]LogWorld: Bringing up level for play took: 0.008482
+[2020.07.14-19.46.27:020][952]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2020.07.14-19.46.27:024][952]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.46.27:024][952]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.46.27:029][952]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 -0.195
+[2020.07.14-19.46.29:440][ 96]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.46.29:440][ 96]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.46.29:440][ 96]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-19.46.29:440][ 96]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-19.46.29:440][ 96]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.46.29:440][ 96]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-19.46.29:441][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-19.46.29:446][ 96]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.14-19.46.29:451][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-19.46.29:480][ 96]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.46.29:483][ 96]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-19.46.29:487][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.07.14-19.46.29:539][ 99]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2020.07.14-19.46.31:986][240]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_ServerBlock443621C9E4D1E160A4C23CC94C81ECF6D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Meshes/SM_ServerBlock4.uasset'
+[2020.07.14-19.46.32:007][240]AssetCheck: New page: Asset Save: SM_ServerBlock4
+[2020.07.14-19.46.32:007][240]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Meshes/SM_ServerBlock4.SM_ServerBlock4
+[2020.07.14-19.46.32:593][271]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_ServerBlock4TerminalD8406538423ED73F1E904DBC2940DF18.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Meshes/SM_ServerBlock4Terminal.uasset'
+[2020.07.14-19.46.32:608][271]AssetCheck: New page: Asset Save: SM_ServerBlock4Terminal
+[2020.07.14-19.46.32:608][271]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Meshes/SM_ServerBlock4Terminal.SM_ServerBlock4Terminal
+[2020.07.14-19.46.33:194][301]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_ServerBlockTerminal31F67FDD494895E4E02169B129238B2F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Meshes/SM_ServerBlockTerminal.uasset'
+[2020.07.14-19.46.33:218][301]AssetCheck: New page: Asset Save: SM_ServerBlockTerminal
+[2020.07.14-19.46.33:218][301]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Meshes/SM_ServerBlockTerminal.SM_ServerBlockTerminal
+[2020.07.14-19.46.34:460][374]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Phil/Meshes/SM_ServerBlock.SM_ServerBlock
+[2020.07.14-19.46.36:672][476]LogSlate: Window 'SM_ServerBlock' being destroyed
+[2020.07.14-19.46.37:983][552]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Phil/Meshes/SM_ServerBlock2.SM_ServerBlock2
+[2020.07.14-19.46.40:082][649]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Phil/Meshes/SM_ServerBlock2Terminal.SM_ServerBlock2Terminal
+[2020.07.14-19.46.42:170][736]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Phil/Meshes/SM_ServerBlock3.SM_ServerBlock3
+[2020.07.14-19.46.43:987][796]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Phil/Meshes/SM_ServerBlock3Terminal.SM_ServerBlock3Terminal
+[2020.07.14-19.46.45:457][835]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Phil/Meshes/SM_ServerBlock4.SM_ServerBlock4
+[2020.07.14-19.46.46:978][869]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Phil/Meshes/SM_ServerBlock4Terminal.SM_ServerBlock4Terminal
+[2020.07.14-19.46.52:297][986]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Phil/Meshes/SM_ServerBlockTerminal.SM_ServerBlockTerminal
+[2020.07.14-19.47.00:287][173]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_ServerBlockC24B3EEF4F03FEAE262405A125FFFA36.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Meshes/SM_ServerBlock.uasset'
+[2020.07.14-19.47.00:305][173]AssetCheck: New page: Asset Save: SM_ServerBlock
+[2020.07.14-19.47.00:305][173]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Meshes/SM_ServerBlock.SM_ServerBlock
+[2020.07.14-19.47.00:847][185]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-19.47.00:847][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-19.47.04:128][271]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_ServerBlock21FA9D2A4419B2439CE138294869DCB8A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Meshes/SM_ServerBlock2.uasset'
+[2020.07.14-19.47.04:143][271]AssetCheck: New page: Asset Save: SM_ServerBlock2
+[2020.07.14-19.47.04:143][271]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Meshes/SM_ServerBlock2.SM_ServerBlock2
+[2020.07.14-19.47.04:712][286]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-19.47.04:712][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-19.47.08:183][390]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_ServerBlock2TerminalB9435125457F0406C1B3819F6249A9F4.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Meshes/SM_ServerBlock2Terminal.uasset'
+[2020.07.14-19.47.08:202][390]AssetCheck: New page: Asset Save: SM_ServerBlock2Terminal
+[2020.07.14-19.47.08:202][390]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Meshes/SM_ServerBlock2Terminal.SM_ServerBlock2Terminal
+[2020.07.14-19.47.08:797][409]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-19.47.08:797][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-19.47.12:424][537]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_ServerBlock37E9630CB4BDEA9F61F4863A94615C41F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Meshes/SM_ServerBlock3.uasset'
+[2020.07.14-19.47.12:446][537]AssetCheck: New page: Asset Save: SM_ServerBlock3
+[2020.07.14-19.47.12:446][537]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Meshes/SM_ServerBlock3.SM_ServerBlock3
+[2020.07.14-19.47.12:934][555]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-19.47.12:934][555]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-19.47.16:481][713]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_ServerBlock3Terminal1D09C4E14B7F98F3F7C5F2885132C97D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Meshes/SM_ServerBlock3Terminal.uasset'
+[2020.07.14-19.47.16:500][713]AssetCheck: New page: Asset Save: SM_ServerBlock3Terminal
+[2020.07.14-19.47.16:500][713]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Meshes/SM_ServerBlock3Terminal.SM_ServerBlock3Terminal
+[2020.07.14-19.47.33:294][498]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_ServerBlock4EA6D10F6454629BF349C3A98FA97C773.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Meshes/SM_ServerBlock4.uasset'
+[2020.07.14-19.47.33:310][498]AssetCheck: New page: Asset Save: SM_ServerBlock4
+[2020.07.14-19.47.33:310][498]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Meshes/SM_ServerBlock4.SM_ServerBlock4
+[2020.07.14-19.47.35:400][590]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_ServerBlock47B70B0E54C8B9690595968B553272768.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Meshes/SM_ServerBlock4.uasset'
+[2020.07.14-19.47.35:414][590]AssetCheck: New page: Asset Save: SM_ServerBlock4
+[2020.07.14-19.47.35:414][590]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Meshes/SM_ServerBlock4.SM_ServerBlock4
+[2020.07.14-19.47.35:941][614]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-19.47.35:941][614]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-19.47.45:751][142]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_ServerBlock4Terminal8EE2BE3E4CD937A96442B680AFEE63BF.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Meshes/SM_ServerBlock4Terminal.uasset'
+[2020.07.14-19.47.45:774][142]AssetCheck: New page: Asset Save: SM_ServerBlock4Terminal
+[2020.07.14-19.47.45:774][142]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Meshes/SM_ServerBlock4Terminal.SM_ServerBlock4Terminal
+[2020.07.14-19.47.46:497][180]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-19.47.46:497][180]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-19.47.56:039][723]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_ServerBlockTerminal7D7B105E407C5CAFD974CD9C35573D02.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Meshes/SM_ServerBlockTerminal.uasset'
+[2020.07.14-19.47.56:063][723]AssetCheck: New page: Asset Save: SM_ServerBlockTerminal
+[2020.07.14-19.47.56:063][723]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Meshes/SM_ServerBlockTerminal.SM_ServerBlockTerminal
+[2020.07.14-19.47.56:542][749]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-19.47.56:542][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-19.48.06:844][337]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_ServerBlock3Terminal48CA9CF34B64B35AF75412A2C81680DD.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Meshes/SM_ServerBlock3Terminal.uasset'
+[2020.07.14-19.48.06:859][337]AssetCheck: New page: Asset Save: SM_ServerBlock3Terminal
+[2020.07.14-19.48.06:859][337]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Meshes/SM_ServerBlock3Terminal.SM_ServerBlock3Terminal
+[2020.07.14-19.48.07:603][378]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-19.48.07:603][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-19.48.11:403][600]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Phil/Meshes/SM_ServerBlock3Terminal.SM_ServerBlock3Terminal
+[2020.07.14-19.48.24:884][379]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Phil/Meshes/SM_ServerBlock4Terminal.SM_ServerBlock4Terminal
+[2020.07.14-19.48.33:743][857]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Phil/Meshes/SM_ServerBlock2Terminal.SM_ServerBlock2Terminal
+[2020.07.14-19.48.43:252][371]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_ServerBlock2TerminalDAB68CD84F986E9FB8E4F0A2CC5A2132.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Meshes/SM_ServerBlock2Terminal.uasset'
+[2020.07.14-19.48.43:269][371]AssetCheck: New page: Asset Save: SM_ServerBlock2Terminal
+[2020.07.14-19.48.43:270][371]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Meshes/SM_ServerBlock2Terminal.SM_ServerBlock2Terminal
+[2020.07.14-19.48.47:624][576]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Phil/Meshes/SM_ServerBlockTerminal.SM_ServerBlockTerminal
+[2020.07.14-19.48.52:945][807]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_ServerBlockTerminal2A50D8ED456FE19317DF8B8C64B9F115.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Meshes/SM_ServerBlockTerminal.uasset'
+[2020.07.14-19.48.52:961][807]AssetCheck: New page: Asset Save: SM_ServerBlockTerminal
+[2020.07.14-19.48.52:961][807]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Meshes/SM_ServerBlockTerminal.SM_ServerBlockTerminal
+[2020.07.14-19.48.53:773][840]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.07.14-19.48.53:827][840]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel10400AC2A4DF80CBFE0D877822EEF767C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.48.53:899][840]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.48.53:899][840]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.48.55:297][900]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.14-19.48.55:339][900]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.14-19.48.55:339][900]PIE: New page: PIE session: PFinalLevel1 (Jul 14, 2020, 11:48:55 AM)
+[2020.07.14-19.48.55:339][900]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-19.48.55:377][900]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037691s)
+[2020.07.14-19.48.55:378][900]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.14-19.48.55:378][900]LogPlayLevel: PIE: World Init took: (0.001186s)
+[2020.07.14-19.48.55:378][900]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.039041s)
+[2020.07.14-19.48.55:414][900]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.07.14-19.48.55:415][900]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.14-19.48.55:415][900]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.14-19.48.55:415][900]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.14-19.48.55:415][900]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.14-19.48.55:415][900]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.14-19.48.55:415][900]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.14-19.48.55:415][900]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.14-19.48.55:415][900]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.14-19.48.55:415][900]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.14-19.48.55:415][900]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.14-19.48.55:443][900]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.14-19.48.55:443][900]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-19.48.55:443][900]LogAudioMixer: Display: Is Default: Yes
+[2020.07.14-19.48.55:443][900]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.14-19.48.55:443][900]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.14-19.48.55:443][900]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.14-19.48.55:443][900]LogAudioMixer: Display: Channel Order:
+[2020.07.14-19.48.55:443][900]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.14-19.48.55:443][900]LogAudioMixer: Display: 1: FrontRight
+[2020.07.14-19.48.55:453][900]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-19.48.55:454][900]LogInit: FAudioDevice initialized.
+[2020.07.14-19.48.55:463][900]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.14-19.48.55:466][900]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.14-15.48.55
+[2020.07.14-19.48.55:467][900]LogWorld: Bringing up level for play took: 0.003502
+[2020.07.14-19.48.55:468][900]LogOnline: OSS: Creating online subsystem instance for: :Context_45
+[2020.07.14-19.48.55:470][900]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.48.55:470][900]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-19.48.55:473][900]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.249
+[2020.07.14-19.49.21:652][469]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.49.21:652][469]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.49.21:653][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-19.49.21:653][469]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-19.49.21:653][469]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.49.21:653][469]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-19.49.21:654][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-19.49.21:663][469]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.14-19.49.21:668][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-19.49.21:698][469]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-19.49.21:701][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-19.49.21:705][469]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.07.14-19.49.21:769][471]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2020.07.14-19.49.23:463][543]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.07.14-19.49.23:549][543]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1F04C0BD74991C21911FD39A5135B84F4.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.49.23:636][543]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.49.23:636][543]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-19.49.28:220][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2020.07.14-19.49.28:275][732]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel19DD1BADF48411D8506ED4D8B44E673FC.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-19.49.28:350][732]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-19.49.28:350][732]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
