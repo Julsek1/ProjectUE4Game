@@ -8464,3 +8464,1054 @@ Script Stack (0 frames):
 [2020.07.14-15.24.38:293][596]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel117F5803A4FFFA1B519EE5788DBFA4D7A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
 [2020.07.14-15.24.38:361][596]AssetCheck: New page: Asset Save: PFinalLevel1
 [2020.07.14-15.24.38:361][596]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.27.34:211][300]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.14-15.27.34:238][300]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.14-15.27.34:238][300]PIE: New page: PIE session: PFinalLevel1 (Jul 14, 2020, 7:27:34 AM)
+[2020.07.14-15.27.34:238][300]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-15.27.34:274][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035243s)
+[2020.07.14-15.27.34:275][300]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.14-15.27.34:275][300]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2020.07.14-15.27.34:275][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.036337s)
+[2020.07.14-15.27.34:304][300]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.07.14-15.27.34:305][300]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.14-15.27.34:305][300]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.14-15.27.34:305][300]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.14-15.27.34:305][300]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.14-15.27.34:305][300]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.14-15.27.34:305][300]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.14-15.27.34:305][300]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.14-15.27.34:305][300]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.14-15.27.34:306][300]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.14-15.27.34:306][300]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.14-15.27.34:327][300]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.14-15.27.34:328][300]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-15.27.34:328][300]LogAudioMixer: Display: Is Default: Yes
+[2020.07.14-15.27.34:328][300]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.14-15.27.34:328][300]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.14-15.27.34:328][300]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.14-15.27.34:328][300]LogAudioMixer: Display: Channel Order:
+[2020.07.14-15.27.34:328][300]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.14-15.27.34:328][300]LogAudioMixer: Display: 1: FrontRight
+[2020.07.14-15.27.34:338][300]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-15.27.34:340][300]LogInit: FAudioDevice initialized.
+[2020.07.14-15.27.34:348][300]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.14-15.27.34:351][300]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.14-11.27.34
+[2020.07.14-15.27.34:353][300]LogWorld: Bringing up level for play took: 0.003462
+[2020.07.14-15.27.34:353][300]LogOnline: OSS: Creating online subsystem instance for: :Context_123
+[2020.07.14-15.27.34:355][300]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.27.34:355][300]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.27.34:358][300]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.407
+[2020.07.14-15.27.38:348][539]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.27.38:348][539]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.27.38:349][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-15.27.38:349][539]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-15.27.38:349][539]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.27.38:349][539]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-15.27.38:350][539]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.27.38:359][539]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.14-15.27.38:364][539]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.27.38:395][539]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.27.38:397][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-15.27.38:402][539]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2020.07.14-15.27.38:455][542]LogPlayLevel: Display: Destroying online subsystem :Context_123
+[2020.07.14-15.27.39:922][630]LogEditorViewport: Clicking on Actor (LMB): BP_WallWithSlidingDoor_C (BP_WallWithSlidingDoor)
+[2020.07.14-15.27.46:395][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.07.14-15.27.46:449][ 14]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1B1DD37504DF7B328E6A00ABE2A9DD57C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.27.46:520][ 14]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.27.46:520][ 14]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.27.48:914][154]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.07.14-15.27.48:964][154]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel12C80BF3A44FE21A7B12BBAB520FCD8DC.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.27.49:037][154]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.27.49:037][154]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.27.50:371][234]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Room7)
+[2020.07.14-15.27.50:903][262]LogEditorViewport: Clicking on Actor (LMB): BP_SlidingDoorLockedMultiple_C (BP_SlidingDoorLocked)
+[2020.07.14-15.28.05:142][110]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.07.14-15.28.05:209][110]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1E4B251E04212AEC400152A9B14A23101.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.28.05:281][110]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.28.05:281][110]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.28.06:047][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.07.14-15.28.06:093][153]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel113F5881246712A53239FA783EEF3E7CA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.28.06:161][153]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.28.06:161][153]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.28.10:885][428]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.07.14-15.28.10:885][428]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-15.28.10:885][428]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.28.11:938][487]LogEditorViewport: Clicking on Actor (LMB): BP_SlidingDoorLockedMultiple_C (BP_SlidingDoorLocked)
+[2020.07.14-15.28.12:429][516]LogEditorViewport: Clicking on Actor (LMB): BP_SlidingDoorLockedMultiple_C (BP_SlidingDoorLocked)
+[2020.07.14-15.28.12:949][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Room7)
+[2020.07.14-15.28.13:578][579]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2020.07.14-15.28.13:630][579]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel13051889442330294DF2F2691B57D7795.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.28.14:404][579]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.28.14:404][579]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.28.14:882][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Room7)
+[2020.07.14-15.28.15:388][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Room7)
+[2020.07.14-15.28.15:723][658]LogEditorViewport: Clicking on Actor (LMB): BP_SlidingDoorLockedMultiple_C (BP_SlidingDoorLocked)
+[2020.07.14-15.28.23:604][126]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/WorldAssets/BP_SlidingDoorLockedMultiple.BP_SlidingDoorLockedMultiple
+[2020.07.14-15.28.35:628][823]BlueprintLog: New page: Compile BP_SlidingDoorLockedMultiple
+[2020.07.14-15.28.35:868][823]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2020.07.14-15.28.35:961][823]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_SlidingDoorLockedMultiple05BACA4347F84E16FC4CC0BC6B18D481.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/WorldAssets/BP_SlidingDoorLockedMultiple.uasset'
+[2020.07.14-15.28.35:975][823]AssetCheck: New page: Asset Save: BP_SlidingDoorLockedMultiple
+[2020.07.14-15.28.35:975][823]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/WorldAssets/BP_SlidingDoorLockedMultiple.BP_SlidingDoorLockedMultiple
+[2020.07.14-15.28.36:428][846]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_SlidingDoorLockedMultiple740B6BDE46B82E10C382ECAE5D9D1E1D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/WorldAssets/BP_SlidingDoorLockedMultiple.uasset'
+[2020.07.14-15.28.36:443][846]AssetCheck: New page: Asset Save: BP_SlidingDoorLockedMultiple
+[2020.07.14-15.28.36:443][846]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/WorldAssets/BP_SlidingDoorLockedMultiple.BP_SlidingDoorLockedMultiple
+[2020.07.14-15.28.36:941][875]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-15.28.36:941][875]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.28.37:821][919]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2020.07.14-15.28.37:869][919]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel18879A6FE44D53BA6F498638A9EA77C79.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.28.37:958][919]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.28.37:958][919]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.28.39:141][990]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Room7)
+[2020.07.14-15.28.39:862][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Room7)
+[2020.07.14-15.28.40:214][ 52]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Room7)
+[2020.07.14-15.28.40:683][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Room7)
+[2020.07.14-15.28.41:037][101]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Room7)
+[2020.07.14-15.28.41:669][136]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2020.07.14-15.28.41:723][136]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel19E33ABA846369A9CCB8B53B47783E01B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.28.41:788][136]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.28.41:788][136]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.28.47:079][449]LogEditorViewport: Clicking on Actor (LMB): BP_WallWithSlidingDoor_C (BP_WallWithSlidingDoor)
+[2020.07.14-15.28.47:389][464]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.07.14-15.28.47:436][464]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1598FA62547BA4DEFCE9B52AEBA810DC3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.28.47:501][464]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.28.47:501][464]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.28.48:194][506]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.14-15.28.48:223][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.14-15.28.48:223][506]PIE: New page: PIE session: PFinalLevel1 (Jul 14, 2020, 7:28:48 AM)
+[2020.07.14-15.28.48:223][506]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-15.28.48:253][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030435s)
+[2020.07.14-15.28.48:254][506]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.14-15.28.48:254][506]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2020.07.14-15.28.48:254][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.031353s)
+[2020.07.14-15.28.48:280][506]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.07.14-15.28.48:281][506]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.14-15.28.48:281][506]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.14-15.28.48:281][506]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.14-15.28.48:281][506]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.14-15.28.48:281][506]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.14-15.28.48:281][506]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.14-15.28.48:281][506]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.14-15.28.48:281][506]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.14-15.28.48:282][506]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.14-15.28.48:282][506]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.14-15.28.48:312][506]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.14-15.28.48:312][506]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-15.28.48:312][506]LogAudioMixer: Display: Is Default: Yes
+[2020.07.14-15.28.48:312][506]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.14-15.28.48:312][506]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.14-15.28.48:312][506]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.14-15.28.48:312][506]LogAudioMixer: Display: Channel Order:
+[2020.07.14-15.28.48:312][506]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.14-15.28.48:312][506]LogAudioMixer: Display: 1: FrontRight
+[2020.07.14-15.28.48:325][506]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-15.28.48:327][506]LogInit: FAudioDevice initialized.
+[2020.07.14-15.28.48:335][506]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.14-15.28.48:339][506]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.14-11.28.48
+[2020.07.14-15.28.48:340][506]LogWorld: Bringing up level for play took: 0.004267
+[2020.07.14-15.28.48:341][506]LogOnline: OSS: Creating online subsystem instance for: :Context_125
+[2020.07.14-15.28.48:344][506]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.28.48:344][506]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.28.48:348][506]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.396
+[2020.07.14-15.29.31:704][105]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.29.31:721][105]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.14-15.29.31:740][105]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.14-15.29.31:742][105]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-15.29.31:742][105]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-15.29.31:742][105]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.29.31:743][105]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-15.29.31:746][105]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.29.31:762][105]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.14-15.29.31:769][105]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.29.31:798][105]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.29.31:801][105]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-15.29.31:806][105]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2020.07.14-15.29.31:826][106]LogPlayLevel: Display: Destroying online subsystem :Context_125
+[2020.07.14-15.29.32:978][175]LogEditorViewport: Clicking on Actor (LMB): BP_SlidingDoorLockedMultiple_C (BP_SlidingDoorLocked)
+[2020.07.14-15.29.33:412][200]LogEditorViewport: Clicking on Actor (LMB): BP_SlidingDoorLockedMultiple_C (BP_SlidingDoorLocked)
+[2020.07.14-15.29.34:728][276]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.07.14-15.29.34:775][276]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel191399BDE4A9D6B05F6EEBDBA2261D8ED.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.29.34:840][276]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.29.34:840][276]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.29.38:700][505]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.07.14-15.29.38:752][505]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1E85780E343E6FEB4F5529A9F0CB6F440.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.29.38:818][505]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.29.38:818][505]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.29.40:973][633]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/WorldAssets/BP_SlidingDoorLockedMultiple.BP_SlidingDoorLockedMultiple
+[2020.07.14-15.29.50:200][156]BlueprintLog: New page: Compile BP_SlidingDoorLockedMultiple
+[2020.07.14-15.29.50:425][156]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2020.07.14-15.29.50:516][156]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_SlidingDoorLockedMultipleBCA2933E4707694FE0CB54B1AAC41F36.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/WorldAssets/BP_SlidingDoorLockedMultiple.uasset'
+[2020.07.14-15.29.50:530][156]AssetCheck: New page: Asset Save: BP_SlidingDoorLockedMultiple
+[2020.07.14-15.29.50:530][156]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/WorldAssets/BP_SlidingDoorLockedMultiple.BP_SlidingDoorLockedMultiple
+[2020.07.14-15.29.50:958][178]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_SlidingDoorLockedMultiple22745E494C6BE251D42BDEA13653967D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/WorldAssets/BP_SlidingDoorLockedMultiple.uasset'
+[2020.07.14-15.29.50:973][178]AssetCheck: New page: Asset Save: BP_SlidingDoorLockedMultiple
+[2020.07.14-15.29.50:973][178]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/WorldAssets/BP_SlidingDoorLockedMultiple.BP_SlidingDoorLockedMultiple
+[2020.07.14-15.29.51:999][237]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2020.07.14-15.29.52:045][237]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel12C7E0CEE40AE4A69CD59288D75F0AF0C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.29.52:115][237]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.29.52:115][237]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.29.53:431][316]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.14-15.29.53:459][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.14-15.29.53:459][316]PIE: New page: PIE session: PFinalLevel1 (Jul 14, 2020, 7:29:53 AM)
+[2020.07.14-15.29.53:460][316]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-15.29.53:489][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029274s)
+[2020.07.14-15.29.53:490][316]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.14-15.29.53:490][316]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2020.07.14-15.29.53:490][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.030163s)
+[2020.07.14-15.29.53:524][316]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2020.07.14-15.29.53:525][316]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.14-15.29.53:525][316]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.14-15.29.53:525][316]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.14-15.29.53:525][316]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.14-15.29.53:525][316]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.14-15.29.53:525][316]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.14-15.29.53:525][316]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.14-15.29.53:525][316]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.14-15.29.53:525][316]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.14-15.29.53:525][316]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.14-15.29.53:546][316]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.14-15.29.53:546][316]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-15.29.53:546][316]LogAudioMixer: Display: Is Default: Yes
+[2020.07.14-15.29.53:546][316]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.14-15.29.53:546][316]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.14-15.29.53:546][316]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.14-15.29.53:546][316]LogAudioMixer: Display: Channel Order:
+[2020.07.14-15.29.53:546][316]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.14-15.29.53:546][316]LogAudioMixer: Display: 1: FrontRight
+[2020.07.14-15.29.53:556][316]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-15.29.53:557][316]LogInit: FAudioDevice initialized.
+[2020.07.14-15.29.53:561][316]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.14-15.29.53:564][316]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.14-11.29.53
+[2020.07.14-15.29.53:566][316]LogWorld: Bringing up level for play took: 0.003330
+[2020.07.14-15.29.53:566][316]LogOnline: OSS: Creating online subsystem instance for: :Context_127
+[2020.07.14-15.29.53:568][316]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.29.53:568][316]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.29.53:571][316]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 -0.38
+[2020.07.14-15.30.11:894][415]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.30.11:900][415]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.14-15.30.11:921][415]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.14-15.30.11:922][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-15.30.11:922][415]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-15.30.11:922][415]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.30.11:923][415]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-15.30.11:925][415]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.30.11:942][415]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.14-15.30.11:946][415]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.30.11:980][415]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.30.11:983][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-15.30.11:988][415]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.07.14-15.30.12:011][416]LogPlayLevel: Display: Destroying online subsystem :Context_127
+[2020.07.14-15.30.13:704][514]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_SlidingDoorB6A52632428316CA95B47ABF8A6F3B24.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/WorldAssets/BP_SlidingDoor.uasset'
+[2020.07.14-15.30.13:717][514]AssetCheck: New page: Asset Save: BP_SlidingDoor
+[2020.07.14-15.30.13:717][514]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/WorldAssets/BP_SlidingDoor.BP_SlidingDoor
+[2020.07.14-15.30.14:326][549]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/WorldAssets/BP_SlidingDoor.BP_SlidingDoor
+[2020.07.14-15.30.25:753][208]BlueprintLog: New page: Compile BP_SlidingDoor
+[2020.07.14-15.30.25:973][208]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2020.07.14-15.30.26:058][208]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_SlidingDoorCC907FF94BFCAEF32367518452B740CB.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/WorldAssets/BP_SlidingDoor.uasset'
+[2020.07.14-15.30.26:073][208]AssetCheck: New page: Asset Save: BP_SlidingDoor
+[2020.07.14-15.30.26:073][208]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/WorldAssets/BP_SlidingDoor.BP_SlidingDoor
+[2020.07.14-15.30.26:446][225]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_SlidingDoor77480784490DD85A39B1B0B11A5E13F6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/WorldAssets/BP_SlidingDoor.uasset'
+[2020.07.14-15.30.26:466][225]AssetCheck: New page: Asset Save: BP_SlidingDoor
+[2020.07.14-15.30.26:466][225]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/WorldAssets/BP_SlidingDoor.BP_SlidingDoor
+[2020.07.14-15.30.26:790][245]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-15.30.26:790][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.30.28:811][360]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.07.14-15.30.28:811][360]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-15.30.28:811][360]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.30.30:463][454]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/WorldAssets/BP_SlidingDoorLocked.BP_SlidingDoorLocked
+[2020.07.14-15.30.40:100][997]BlueprintLog: New page: Compile BP_SlidingDoorLocked
+[2020.07.14-15.30.40:336][997]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2020.07.14-15.30.40:431][997]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_SlidingDoorLocked821843D045003F2DECCC38BC078A40C1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/WorldAssets/BP_SlidingDoorLocked.uasset'
+[2020.07.14-15.30.40:447][997]AssetCheck: New page: Asset Save: BP_SlidingDoorLocked
+[2020.07.14-15.30.40:447][997]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/WorldAssets/BP_SlidingDoorLocked.BP_SlidingDoorLocked
+[2020.07.14-15.30.40:814][ 14]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_SlidingDoorLocked62165D084C037A562F2253A4B3F09BE8.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/WorldAssets/BP_SlidingDoorLocked.uasset'
+[2020.07.14-15.30.40:829][ 14]AssetCheck: New page: Asset Save: BP_SlidingDoorLocked
+[2020.07.14-15.30.40:829][ 14]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/WorldAssets/BP_SlidingDoorLocked.BP_SlidingDoorLocked
+[2020.07.14-15.30.41:186][ 36]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-15.30.41:186][ 36]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.30.42:193][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2020.07.14-15.30.42:242][ 88]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1529763354086A0837EB35B91044A10FD.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.30.42:307][ 88]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.30.42:307][ 88]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.30.43:376][149]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2020.07.14-15.30.43:422][149]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1CE3C79384F40415CD57316BB84C31CE1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.30.43:487][149]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.30.43:487][149]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.30.46:604][336]LogEditorViewport: Clicking on Actor (LMB): BP_GasMask_C (BP_GasMask)
+[2020.07.14-15.30.47:544][388]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_686 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.30.50:902][588]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_688 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.30.50:920][589]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_690 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.30.50:938][590]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_692 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.30.50:953][591]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_694 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.30.50:969][592]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_696 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.30.50:987][593]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_698 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.30.51:003][594]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_700 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.30.51:019][595]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_702 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.30.51:036][596]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_704 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.30.51:054][597]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_706 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.30.51:069][598]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_708 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.30.51:087][599]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_710 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.30.51:104][600]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_712 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.30.51:120][601]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_714 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.30.51:138][602]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_716 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.30.51:153][603]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_718 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.30.51:170][604]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_720 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.30.51:187][605]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_722 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.30.51:203][606]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_724 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.30.51:220][607]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_726 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.30.51:239][608]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_728 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.30.51:438][620]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_730 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.30.51:699][632]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.07.14-15.30.51:748][632]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1456500E1412D4B3C166F0EBFC647A4D2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.30.51:818][632]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.30.51:818][632]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.31.50:577][132]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.07.14-15.31.50:635][132]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel10BF869D046A6E298608B1C94526DD340.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.31.50:704][132]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.31.50:704][132]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.31.55:017][388]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.07.14-15.31.55:079][388]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel191261E7D4B887F10ED206986DC314AFB.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.31.55:150][388]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.31.55:150][388]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.32.09:799][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.07.14-15.32.09:852][257]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel13C393DB947B529AF1F45AB9F94DDF8E8.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.32.09:920][257]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.32.09:920][257]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.32.11:082][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.07.14-15.32.11:129][324]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel11A202034432C6AF33691199E9BDEEDE7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.32.11:196][324]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.32.11:196][324]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.32.15:639][590]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.14-15.32.15:667][590]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.14-15.32.15:667][590]PIE: New page: PIE session: PFinalLevel1 (Jul 14, 2020, 7:32:15 AM)
+[2020.07.14-15.32.15:668][590]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-15.32.15:709][590]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041411s)
+[2020.07.14-15.32.15:710][590]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.14-15.32.15:711][590]LogPlayLevel: PIE: World Init took: (0.001254s)
+[2020.07.14-15.32.15:711][590]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.042850s)
+[2020.07.14-15.32.15:744][590]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2020.07.14-15.32.15:745][590]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.14-15.32.15:745][590]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.14-15.32.15:746][590]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.14-15.32.15:746][590]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.14-15.32.15:746][590]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.14-15.32.15:746][590]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.14-15.32.15:746][590]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.14-15.32.15:746][590]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.14-15.32.15:746][590]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.14-15.32.15:746][590]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.14-15.32.15:772][590]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.14-15.32.15:772][590]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-15.32.15:772][590]LogAudioMixer: Display: Is Default: Yes
+[2020.07.14-15.32.15:772][590]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.14-15.32.15:772][590]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.14-15.32.15:772][590]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.14-15.32.15:772][590]LogAudioMixer: Display: Channel Order:
+[2020.07.14-15.32.15:772][590]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.14-15.32.15:772][590]LogAudioMixer: Display: 1: FrontRight
+[2020.07.14-15.32.15:783][590]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-15.32.15:785][590]LogInit: FAudioDevice initialized.
+[2020.07.14-15.32.15:793][590]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.14-15.32.15:796][590]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.14-11.32.15
+[2020.07.14-15.32.15:797][590]LogWorld: Bringing up level for play took: 0.003335
+[2020.07.14-15.32.15:797][590]LogOnline: OSS: Creating online subsystem instance for: :Context_130
+[2020.07.14-15.32.15:799][590]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.32.15:800][590]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.32.15:803][590]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 -0.149
+[2020.07.14-15.32.28:185][333]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.32.28:200][333]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.14-15.32.28:221][333]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.14-15.32.28:221][333]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-15.32.28:221][333]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-15.32.28:221][333]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.32.28:221][333]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-15.32.28:222][333]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.32.28:226][333]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.14-15.32.28:230][333]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.32.28:261][333]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.32.28:264][333]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-15.32.28:268][333]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.07.14-15.32.28:286][334]LogPlayLevel: Display: Destroying online subsystem :Context_130
+[2020.07.14-15.32.31:210][509]LogEditorViewport: Clicking on Actor (LMB): BP_Keycard_C (BP_Keycard)
+[2020.07.14-15.32.33:815][643]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.07.14-15.32.33:866][643]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1676C918E476319DA00DEDAB49821C965.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.32.33:937][643]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.32.33:937][643]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.32.34:394][670]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.14-15.32.34:421][670]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.14-15.32.34:421][670]PIE: New page: PIE session: PFinalLevel1 (Jul 14, 2020, 7:32:34 AM)
+[2020.07.14-15.32.34:421][670]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-15.32.34:452][670]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030390s)
+[2020.07.14-15.32.34:452][670]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.14-15.32.34:453][670]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2020.07.14-15.32.34:453][670]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.031314s)
+[2020.07.14-15.32.34:483][670]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.07.14-15.32.34:484][670]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.14-15.32.34:484][670]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.14-15.32.34:484][670]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.14-15.32.34:484][670]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.14-15.32.34:484][670]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.14-15.32.34:484][670]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.14-15.32.34:484][670]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.14-15.32.34:484][670]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.14-15.32.34:484][670]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.14-15.32.34:484][670]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.14-15.32.34:505][670]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.14-15.32.34:505][670]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-15.32.34:505][670]LogAudioMixer: Display: Is Default: Yes
+[2020.07.14-15.32.34:505][670]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.14-15.32.34:505][670]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.14-15.32.34:505][670]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.14-15.32.34:505][670]LogAudioMixer: Display: Channel Order:
+[2020.07.14-15.32.34:505][670]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.14-15.32.34:505][670]LogAudioMixer: Display: 1: FrontRight
+[2020.07.14-15.32.34:515][670]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-15.32.34:516][670]LogInit: FAudioDevice initialized.
+[2020.07.14-15.32.34:520][670]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.14-15.32.34:522][670]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.14-11.32.34
+[2020.07.14-15.32.34:524][670]LogWorld: Bringing up level for play took: 0.003329
+[2020.07.14-15.32.34:524][670]LogOnline: OSS: Creating online subsystem instance for: :Context_131
+[2020.07.14-15.32.34:526][670]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.32.34:526][670]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.32.34:529][670]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.578
+[2020.07.14-15.32.49:750][583]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.32.49:750][583]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.14-15.32.49:770][583]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.14-15.32.49:771][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-15.32.49:771][583]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-15.32.49:771][583]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.32.49:771][583]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-15.32.49:771][583]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.32.49:781][583]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.14-15.32.49:786][583]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.32.49:813][583]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.32.49:815][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-15.32.49:819][583]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.07.14-15.32.49:861][585]LogPlayLevel: Display: Destroying online subsystem :Context_131
+[2020.07.14-15.32.50:279][607]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.07.14-15.32.50:324][607]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel18AA1661A414AE0EA2E7194AE0359DBAF.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.32.50:391][607]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.32.50:391][607]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.32.52:546][734]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.07.14-15.32.52:594][734]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1D67162204ECBD0649A3584AAF6E5D26D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.32.52:659][734]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.32.52:659][734]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.32.58:791][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.07.14-15.32.58:841][ 99]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1C200DD56423F6C736E516F8CA4CECECA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.32.58:907][ 99]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.32.58:907][ 99]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.33.00:241][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.07.14-15.33.00:289][176]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1BFEED9654F9E44B0262DD3978C82F021.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.33.00:354][176]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.33.00:354][176]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.34.48:222][264]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.07.14-15.34.48:278][264]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1ECBF618E48F2BE82CB45E9BA3E281DC3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.34.48:345][264]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.34.48:345][264]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.34.49:593][339]LogEditorViewport: Clicking Background
+[2020.07.14-15.34.49:844][351]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.07.14-15.34.49:892][351]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel149D092F243AD48E53BDC50B3F2CD0567.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.34.49:961][351]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.34.49:961][351]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.35.00:376][973]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.07.14-15.35.00:434][973]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1B1DDBF1244CE840F37CF2CA047F12D3A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.35.00:501][973]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.35.00:501][973]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.39.03:747][418]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\philf\Desktop\Super Computer\Super camputer 3D Models\Super camputer (5).FBX)
+[2020.07.14-15.39.03:789][418]LogFbx: Loading FBX Scene from C:\Users\philf\Desktop\Super Computer\Super camputer 3D Models\Super camputer (5).FBX
+[2020.07.14-15.39.03:828][418]LogFbx: FBX Scene Loaded Succesfully
+[2020.07.14-15.39.05:029][418]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.07.14-15.39.05:411][418]LogLinker: Failed to load '/Game/Phil/Models/Untitled-1': Can't find file.
+[2020.07.14-15.39.05:411][418]LogLinker: Failed to load '/Game/Phil/Models/Untitled-1': Can't find file.
+[2020.07.14-15.39.05:411][418]LogFbxMaterialImport: Warning: Unable to find Texture file E:\3D&Texture\2\Untitled-1.jpg
+[2020.07.14-15.39.05:415][418]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2020.07.14-15.39.05:716][418]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
+[2020.07.14-15.39.05:716][418]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2020.07.14-15.39.05:716][418]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2020.07.14-15.39.05:716][418]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2020.07.14-15.39.05:716][418]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2020.07.14-15.39.05:716][418]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2020.07.14-15.39.05:716][418]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.07.14-15.39.05:716][418]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.07.14-15.39.05:721][418]LogStaticMesh: Building static mesh Super_camputer__5_...
+[2020.07.14-15.39.06:121][418]LogStaticMesh: Built static mesh [0.40s] /Game/Phil/Models/Super_camputer__5_.Super_camputer__5_
+[2020.07.14-15.39.06:234][418]LogStaticMesh: Warning: Super_camputer__5_ has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2020.07.14-15.39.06:235][418]LogStaticMesh: Warning: Super_camputer__5_ has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2020.07.14-15.39.06:384][418]FBXImport: Warning: Super_camputer__5_ has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2020.07.14-15.39.06:384][418]FBXImport: Warning: Super_camputer__5_ has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2020.07.14-15.39.07:947][495]LogSlate: Window 'Message Log' being destroyed
+[2020.07.14-15.39.07:952][495]LogSlate: Window 'Message Log' being destroyed
+[2020.07.14-15.39.09:621][593]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Phil/Models/Super_camputer__5_.Super_camputer__5_
+[2020.07.14-15.39.28:439][702]LogSlate: Window 'Super_camputer__5_' being destroyed
+[2020.07.14-15.39.28:445][702]LogWorld: UWorld::CleanupWorld for World_60, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-15.39.28:445][702]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.39.30:059][791]LogActorFactory: Actor Factory created Super_camputer__5_
+[2020.07.14-15.39.41:666][ 39]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\philf\Desktop\Super Computer\textuer\SC Texture (1).bmp)
+[2020.07.14-15.39.41:695][ 39]LogTexture: Display: Building textures: SC_Texture__1_ (BC5, 1024X1024)
+[2020.07.14-15.39.41:755][ 39]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\philf\Desktop\Super Computer\textuer\SC Texture .bmp)
+[2020.07.14-15.39.41:762][ 39]LogTexture: Display: Building textures: SC_Texture_ (AutoDXT, 1024X1024)
+[2020.07.14-15.39.44:380][ 98]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Phil/Models/01_-_Default.01_-_Default
+[2020.07.14-15.39.44:384][ 98]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2020.07.14-15.39.44:510][ 98]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2020.07.14-15.39.44:522][ 98]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2020.07.14-15.39.44:542][ 98]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.07.14-15.39.44:542][ 98]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.07.14-15.39.44:542][ 98]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.07.14-15.39.44:542][ 98]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.07.14-15.39.44:542][ 98]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.07.14-15.39.44:542][ 98]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.07.14-15.39.44:542][ 98]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.07.14-15.39.44:542][ 98]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.07.14-15.39.44:542][ 98]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.07.14-15.39.45:201][124]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2020.07.14-15.39.45:218][125]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2020.07.14-15.39.45:366][134]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.07.14-15.39.45:402][136]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.07.14-15.39.45:452][139]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2020.07.14-15.39.45:608][148]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.07.14-15.39.45:609][148]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.07.14-15.39.45:609][148]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.07.14-15.39.45:609][148]MaterialEditorStats: Texture samplers: 2/16
+[2020.07.14-15.39.48:964][340]LogSlate: Window '01_-_Default' being destroyed
+[2020.07.14-15.39.52:984][573]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2020.07.14-15.39.52:995][573]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.07.14-15.39.53:011][573]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.07.14-15.39.53:011][573]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.07.14-15.39.53:011][573]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.07.14-15.39.53:011][573]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.07.14-15.39.53:011][573]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.07.14-15.39.53:011][573]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.07.14-15.39.53:011][573]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.07.14-15.39.53:011][573]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.07.14-15.39.53:018][573]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.07.14-15.39.53:029][573]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.07.14-15.39.53:059][573]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2020.07.14-15.39.53:088][573]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.07.14-15.39.53:117][573]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.07.14-15.39.53:136][573]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.07.14-15.39.53:154][573]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.07.14-15.39.53:467][590]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 21
+[2020.07.14-15.39.53:500][592]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 20
+[2020.07.14-15.39.53:640][598]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 19
+[2020.07.14-15.39.53:671][600]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 18
+[2020.07.14-15.39.53:706][602]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 17
+[2020.07.14-15.39.53:722][603]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 16
+[2020.07.14-15.39.53:722][603]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 15
+[2020.07.14-15.39.53:771][606]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 14
+[2020.07.14-15.39.54:098][625]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 13
+[2020.07.14-15.39.54:098][625]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 12
+[2020.07.14-15.39.54:144][628]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 11
+[2020.07.14-15.39.54:179][630]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 10
+[2020.07.14-15.39.54:363][640]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 9
+[2020.07.14-15.39.54:396][642]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 8
+[2020.07.14-15.39.54:414][643]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2020.07.14-15.39.54:458][646]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2020.07.14-15.39.54:552][651]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2020.07.14-15.39.54:557][651]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.07.14-15.39.54:557][651]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.07.14-15.39.54:557][651]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.07.14-15.39.54:557][651]MaterialEditorStats: Texture samplers: 2/16
+[2020.07.14-15.39.54:618][655]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.07.14-15.39.54:652][657]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.07.14-15.39.54:669][658]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2020.07.14-15.39.54:751][663]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.07.14-15.39.58:315][868]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2020.07.14-15.39.58:344][869]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.07.14-15.39.58:344][869]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.07.14-15.39.58:344][869]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.07.14-15.39.58:344][869]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.07.14-15.39.58:344][869]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.07.14-15.39.58:345][869]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.07.14-15.39.58:345][869]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.07.14-15.39.58:345][869]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.07.14-15.39.58:776][892]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.07.14-15.39.59:160][913]MaterialEditorStats: Base pass shader: 117 instructions
+[2020.07.14-15.39.59:160][913]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2020.07.14-15.39.59:160][913]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.07.14-15.39.59:160][913]MaterialEditorStats: Texture samplers: 2/16
+[2020.07.14-15.40.01:834][ 71]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2020.07.14-15.40.01:846][ 71]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.07.14-15.40.01:846][ 71]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.07.14-15.40.01:846][ 71]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.07.14-15.40.01:846][ 71]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.07.14-15.40.01:846][ 71]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.07.14-15.40.01:846][ 71]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.07.14-15.40.01:846][ 71]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.07.14-15.40.01:846][ 71]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.07.14-15.40.01:851][ 71]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.07.14-15.40.02:333][ 94]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2020.07.14-15.40.02:375][ 96]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.07.14-15.40.02:584][106]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.07.14-15.40.02:584][106]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.07.14-15.40.02:637][109]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2020.07.14-15.40.02:760][116]MaterialEditorStats: Base pass shader: 123 instructions
+[2020.07.14-15.40.02:760][116]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 197 instructions
+[2020.07.14-15.40.02:760][116]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.07.14-15.40.02:760][116]MaterialEditorStats: Texture samplers: 3/16
+[2020.07.14-15.40.02:760][116]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.07.14-15.40.02:760][116]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.14-15.40.04:735][234]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2020.07.14-15.40.04:749][234]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.07.14-15.40.04:749][234]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.07.14-15.40.04:749][234]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.07.14-15.40.04:749][234]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.07.14-15.40.04:749][234]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.07.14-15.40.04:749][234]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.07.14-15.40.04:749][234]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.07.14-15.40.04:749][234]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.07.14-15.40.04:754][234]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.07.14-15.40.05:262][256]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2020.07.14-15.40.05:296][258]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.07.14-15.40.05:474][268]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.07.14-15.40.05:497][269]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.07.14-15.40.05:520][270]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.07.14-15.40.05:670][278]MaterialEditorStats: Base pass shader: 126 instructions
+[2020.07.14-15.40.05:670][278]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2020.07.14-15.40.05:670][278]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.07.14-15.40.05:670][278]MaterialEditorStats: Texture samplers: 4/16
+[2020.07.14-15.40.05:670][278]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2020.07.14-15.40.05:670][278]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.14-15.40.08:405][439]LogMaterialEditor: Saving and Compiling material 01_-_Default
+[2020.07.14-15.40.10:313][439]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2020.07.14-15.40.10:340][439]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.07.14-15.40.10:340][439]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.07.14-15.40.10:340][439]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.07.14-15.40.10:340][439]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.07.14-15.40.10:340][439]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.07.14-15.40.10:340][439]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.07.14-15.40.10:340][439]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.07.14-15.40.10:340][439]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.07.14-15.40.10:374][439]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2020.07.14-15.40.10:447][439]LogUObjectHash: Compacting FUObjectHashTables data took   4.95ms
+[2020.07.14-15.40.10:482][439]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.14-15.40.11:191][439]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 18
+[2020.07.14-15.40.11:191][439]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 17
+[2020.07.14-15.40.11:191][439]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 16
+[2020.07.14-15.40.11:191][439]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
+[2020.07.14-15.40.11:191][439]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2020.07.14-15.40.11:192][439]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 11
+[2020.07.14-15.40.11:192][439]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2020.07.14-15.40.11:192][439]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2020.07.14-15.40.11:192][439]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2020.07.14-15.40.11:192][439]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2020.07.14-15.40.11:192][439]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2020.07.14-15.40.11:197][439]TextureStreamingBuild: Display: Compiling optional shaders took 0.739 seconds.
+[2020.07.14-15.40.11:250][439]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2020.07.14-15.40.11:922][439]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
+[2020.07.14-15.40.11:922][439]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.07.14-15.40.11:922][439]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2020.07.14-15.40.11:964][439]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/01_-_DefaultFFE3460341A40B0965B5C3B838C4A527.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Models/01_-_Default.uasset'
+[2020.07.14-15.40.12:010][439]AssetCheck: New page: Asset Save: 01_-_Default
+[2020.07.14-15.40.12:010][439]LogContentValidation: Display: Validating Material /Game/Phil/Models/01_-_Default.01_-_Default
+[2020.07.14-15.40.12:012][439]MaterialEditorStats: Base pass shader: 126 instructions
+[2020.07.14-15.40.12:012][439]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2020.07.14-15.40.12:012][439]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.07.14-15.40.12:012][439]MaterialEditorStats: Texture samplers: 5/16
+[2020.07.14-15.40.12:012][439]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2020.07.14-15.40.12:012][439]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.14-15.40.12:576][467]LogSlate: Window '01_-_Default' being destroyed
+[2020.07.14-15.40.12:618][467]LogWorld: UWorld::CleanupWorld for World_61, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-15.40.12:618][467]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.40.15:179][612]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Phil/Models/Super_camputer__5_.Super_camputer__5_
+[2020.07.14-15.40.19:074][823]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Super_camputer__5_D36B6EE8442DB621CB5BFD81DC6E0530.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Models/Super_camputer__5_.uasset'
+[2020.07.14-15.40.19:095][823]AssetCheck: New page: Asset Save: Super_camputer__5_
+[2020.07.14-15.40.19:095][823]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Models/Super_camputer__5_.Super_camputer__5_
+[2020.07.14-15.40.36:725][862]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Super_camputer__5_F81A13FB4675AF07B87318B02DCC3C00.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Models/Super_camputer__5_.uasset'
+[2020.07.14-15.40.36:744][862]AssetCheck: New page: Asset Save: Super_camputer__5_
+[2020.07.14-15.40.36:744][862]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Models/Super_camputer__5_.Super_camputer__5_
+[2020.07.14-15.41.01:953][359]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Super_camputer__5_27B531A44D34F59FDACDE4B6F3187E74.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Models/Super_camputer__5_.uasset'
+[2020.07.14-15.41.01:970][359]AssetCheck: New page: Asset Save: Super_camputer__5_
+[2020.07.14-15.41.01:970][359]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Models/Super_camputer__5_.Super_camputer__5_
+[2020.07.14-15.42.04:497][102]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.07.14-15.42.04:566][102]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel13B78E2C74D27B2783BD1808858EA6DAD.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.42.04:634][102]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.42.04:634][102]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.42.22:817][972]LogSlate: Window 'Super_camputer__5_' being destroyed
+[2020.07.14-15.42.22:849][972]LogWorld: UWorld::CleanupWorld for World_62, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-15.42.22:849][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.42.23:633][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2020.07.14-15.42.23:682][ 11]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel17230169F441DF06E280106981C40D7B2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.42.23:749][ 11]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.42.23:749][ 11]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.42.24:297][ 44]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.14-15.42.24:324][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.14-15.42.24:324][ 44]PIE: New page: PIE session: PFinalLevel1 (Jul 14, 2020, 7:42:24 AM)
+[2020.07.14-15.42.24:325][ 44]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-15.42.24:372][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047146s)
+[2020.07.14-15.42.24:373][ 44]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.14-15.42.24:373][ 44]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2020.07.14-15.42.24:373][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.048072s)
+[2020.07.14-15.42.24:397][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.07.14-15.42.24:398][ 44]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.14-15.42.24:398][ 44]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.14-15.42.24:398][ 44]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.14-15.42.24:398][ 44]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.14-15.42.24:398][ 44]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.14-15.42.24:398][ 44]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.14-15.42.24:398][ 44]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.14-15.42.24:398][ 44]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.14-15.42.24:398][ 44]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.14-15.42.24:398][ 44]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.14-15.42.24:420][ 44]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.14-15.42.24:420][ 44]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-15.42.24:420][ 44]LogAudioMixer: Display: Is Default: Yes
+[2020.07.14-15.42.24:420][ 44]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.14-15.42.24:420][ 44]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.14-15.42.24:420][ 44]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.14-15.42.24:420][ 44]LogAudioMixer: Display: Channel Order:
+[2020.07.14-15.42.24:420][ 44]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.14-15.42.24:420][ 44]LogAudioMixer: Display: 1: FrontRight
+[2020.07.14-15.42.24:430][ 44]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-15.42.24:432][ 44]LogInit: FAudioDevice initialized.
+[2020.07.14-15.42.24:441][ 44]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.14-15.42.24:444][ 44]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.14-11.42.24
+[2020.07.14-15.42.24:445][ 44]LogWorld: Bringing up level for play took: 0.004010
+[2020.07.14-15.42.24:446][ 44]LogOnline: OSS: Creating online subsystem instance for: :Context_135
+[2020.07.14-15.42.24:448][ 44]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.42.24:449][ 44]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.42.24:452][ 44]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.5
+[2020.07.14-15.42.47:540][428]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.42.47:540][428]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.42.47:540][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-15.42.47:540][428]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-15.42.47:540][428]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.42.47:540][428]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-15.42.47:541][428]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.42.47:546][428]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.14-15.42.47:551][428]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.42.47:579][428]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.42.47:582][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-15.42.47:586][428]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.07.14-15.42.47:642][430]LogPlayLevel: Display: Destroying online subsystem :Context_135
+[2020.07.14-15.42.48:124][456]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.07.14-15.42.48:172][456]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel134BD6E714B0800F7164AEB8EC6497710.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.42.48:236][456]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.42.48:236][456]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.42.49:375][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.07.14-15.42.49:422][522]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel10EEED50F487799364D80A79479A4AD15.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.42.49:492][522]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.42.49:492][522]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.42.51:115][616]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.07.14-15.42.51:168][616]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel16E24ADE74A1BD7DD265A88A396E317E6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.42.51:241][616]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.42.51:241][616]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.42.52:250][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.07.14-15.42.52:308][674]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel14B56AB2A451FB6681BC054A11C5A79A6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.42.52:373][674]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.42.52:373][674]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.42.55:833][878]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.07.14-15.42.55:888][878]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel104BB1A3243521FCE5D2996A92FD9A453.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.42.55:958][878]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.42.55:958][878]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.42.58:358][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.07.14-15.42.58:416][ 19]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1EE889611485C6483F542FCB56865B86C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.42.58:483][ 19]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.42.58:483][ 19]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.42.59:200][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.07.14-15.42.59:247][ 60]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel12EC9695C4F776D762502538DBE724689.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.42.59:315][ 60]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.42.59:315][ 60]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.43.23:970][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.07.14-15.43.24:024][536]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1C4C94DA443295E47EF5791B7C54BAC72.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.43.24:090][536]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.43.24:090][536]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.43.36:954][298]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.07.14-15.43.37:002][298]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel179C79B5145B236540A9F09A4838A65F4.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.43.37:067][298]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.43.37:067][298]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.43.40:699][501]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/01_-_DefaultE0A6E314404D3DA763C4ED93D09F5700.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Models/Servers/01_-_Default.uasset'
+[2020.07.14-15.43.40:807][501]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SC_Texture_9642427842F64F05995F49ADBC054A5B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Models/Servers/SC_Texture_.uasset'
+[2020.07.14-15.43.40:864][501]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/Super_camputer__5_09BC090244510BCC46B6608B58A31F9D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Models/Servers/Super_camputer__5_.uasset'
+[2020.07.14-15.43.41:038][501]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SC_Texture__1_DDAE3FB049B0B912AF1F128F2CB7266C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Models/Servers/SC_Texture__1_.uasset'
+[2020.07.14-15.43.41:529][501]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.07.14-15.43.41:556][501]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.07.14-15.43.41:585][501]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.07.14-15.43.41:615][501]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.07.14-15.43.41:651][501]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.07.14-15.43.41:680][501]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.07.14-15.43.41:755][501]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.14-15.43.41:755][501]LogContentValidation: Display: Validating Material /Game/Phil/Models/Servers/01_-_Default.01_-_Default
+[2020.07.14-15.43.41:755][501]LogContentValidation: Display: Validating Texture2D /Game/Phil/Models/Servers/SC_Texture_.SC_Texture_
+[2020.07.14-15.43.41:755][501]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Models/Servers/Super_camputer__5_.Super_camputer__5_
+[2020.07.14-15.43.41:755][501]LogContentValidation: Display: Validating Texture2D /Game/Phil/Models/Servers/SC_Texture__1_.SC_Texture__1_
+[2020.07.14-15.43.55:570][319]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_SuperComputerServers5B802E1D43FAD1E4907506AD1B66BB2D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Models/Servers/SM_SuperComputerServers.uasset'
+[2020.07.14-15.43.55:749][319]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.07.14-15.43.55:790][319]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.07.14-15.43.55:819][319]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.07.14-15.43.55:872][319]AssetCheck: New page: Asset Save: SM_SuperComputerServers
+[2020.07.14-15.43.55:872][319]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Models/Servers/SM_SuperComputerServers.SM_SuperComputerServers
+[2020.07.14-15.43.56:408][347]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_SuperComputerServers722B889C409058BB598821896FF81C47.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Models/Servers/SM_SuperComputerServers.uasset'
+[2020.07.14-15.43.56:419][347]AssetCheck: New page: Asset Save: SM_SuperComputerServers
+[2020.07.14-15.43.56:419][347]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Models/Servers/SM_SuperComputerServers.SM_SuperComputerServers
+[2020.07.14-15.44.07:376][995]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/M_SuperComputerServers6C15E68A492EC3E8BB1CC6B510934917.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Models/Servers/M_SuperComputerServers.uasset'
+[2020.07.14-15.44.07:544][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.07.14-15.44.07:579][995]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2020.07.14-15.44.07:607][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.07.14-15.44.07:682][995]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/SM_SuperComputerServers01F330FD414BF8388E208BAB9E5581D9.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Models/Servers/SM_SuperComputerServers.uasset'
+[2020.07.14-15.44.07:748][995]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.14-15.44.07:748][995]LogContentValidation: Display: Validating Material /Game/Phil/Models/Servers/M_SuperComputerServers.M_SuperComputerServers
+[2020.07.14-15.44.07:748][995]LogContentValidation: Display: Validating StaticMesh /Game/Phil/Models/Servers/SM_SuperComputerServers.SM_SuperComputerServers
+[2020.07.14-15.44.18:289][620]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/T_SuperComputerServers_BCB369C4814FE4382964BBC399B8FD35A1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Models/Servers/T_SuperComputerServers_BC.uasset'
+[2020.07.14-15.44.18:458][620]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.07.14-15.44.18:493][620]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.07.14-15.44.18:524][620]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.07.14-15.44.18:568][620]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/M_SuperComputerServers0C2790AF4E5CD9BE3BD7C7A23D8B8688.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Models/Servers/M_SuperComputerServers.uasset'
+[2020.07.14-15.44.18:636][620]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.14-15.44.18:636][620]LogContentValidation: Display: Validating Texture2D /Game/Phil/Models/Servers/T_SuperComputerServers_BC.T_SuperComputerServers_BC
+[2020.07.14-15.44.18:636][620]LogContentValidation: Display: Validating Material /Game/Phil/Models/Servers/M_SuperComputerServers.M_SuperComputerServers
+[2020.07.14-15.44.25:343][ 14]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/T_SuperComputerServers_NB95C5B9C49D5419432AB33A9FAF8DEDE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Models/Servers/T_SuperComputerServers_N.uasset'
+[2020.07.14-15.44.25:515][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.07.14-15.44.25:554][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.07.14-15.44.25:580][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.07.14-15.44.25:620][ 14]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/M_SuperComputerServers1849AB734A559CAF1C49EBB4555F641E.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Models/Servers/M_SuperComputerServers.uasset'
+[2020.07.14-15.44.25:687][ 14]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.14-15.44.25:687][ 14]LogContentValidation: Display: Validating Texture2D /Game/Phil/Models/Servers/T_SuperComputerServers_N.T_SuperComputerServers_N
+[2020.07.14-15.44.25:687][ 14]LogContentValidation: Display: Validating Material /Game/Phil/Models/Servers/M_SuperComputerServers.M_SuperComputerServers
+[2020.07.14-15.44.26:932][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.07.14-15.44.26:980][ 86]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel18AA8F4B9458AEF34AB4042910B9DB65D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.44.27:043][ 86]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.44.27:043][ 86]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.44.29:883][256]LogActorFactory: Actor Factory created SM_SuperComputerServers
+[2020.07.14-15.44.30:166][273]LogActorFactory: Actor Factory created SM_SuperComputerServers
+[2020.07.14-15.44.36:995][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.07.14-15.44.37:049][677]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1BB9821D341983D249F4A35BF71085B39.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.44.37:117][677]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.44.37:117][677]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.44.43:673][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.07.14-15.44.43:731][ 65]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel13CBC892A494785230577F398B5FFA6F6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.44.43:797][ 65]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.44.43:797][ 65]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.44.49:461][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2020.07.14-15.44.49:514][386]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel18ACBB55E45BD89084CE1FE82904E2C74.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.44.49:581][386]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.44.49:581][386]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.44.53:465][616]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.07.14-15.44.53:524][616]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel138F841B94EB0EA4096CCCEBBC9A4CE2F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.44.53:595][616]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.44.53:595][616]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.45.02:026][122]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2020.07.14-15.45.02:922][175]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.07.14-15.45.05:491][329]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.07.14-15.45.06:459][387]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.07.14-15.45.06:661][396]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.07.14-15.45.06:714][396]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel15111F6FD4BA18C683B53E5906E4719B7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.45.06:781][396]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.45.06:781][396]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.45.08:816][518]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.07.14-15.45.09:602][565]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.07.14-15.45.09:817][575]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.07.14-15.45.09:865][575]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1D900955B461A644EC3F194BF9DA0764B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.45.09:929][575]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.45.09:929][575]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.45.10:550][612]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.14-15.45.10:576][612]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.14-15.45.10:576][612]PIE: New page: PIE session: PFinalLevel1 (Jul 14, 2020, 7:45:10 AM)
+[2020.07.14-15.45.10:577][612]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-15.45.10:608][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030849s)
+[2020.07.14-15.45.10:608][612]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.14-15.45.10:609][612]LogPlayLevel: PIE: World Init took: (0.001001s)
+[2020.07.14-15.45.10:609][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.031977s)
+[2020.07.14-15.45.10:637][612]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.07.14-15.45.10:638][612]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.14-15.45.10:638][612]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.14-15.45.10:638][612]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.14-15.45.10:638][612]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.14-15.45.10:638][612]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.14-15.45.10:638][612]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.14-15.45.10:638][612]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.14-15.45.10:638][612]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.14-15.45.10:639][612]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.14-15.45.10:639][612]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.14-15.45.10:659][612]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.14-15.45.10:659][612]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-15.45.10:659][612]LogAudioMixer: Display: Is Default: Yes
+[2020.07.14-15.45.10:659][612]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.14-15.45.10:659][612]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.14-15.45.10:659][612]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.14-15.45.10:659][612]LogAudioMixer: Display: Channel Order:
+[2020.07.14-15.45.10:659][612]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.14-15.45.10:659][612]LogAudioMixer: Display: 1: FrontRight
+[2020.07.14-15.45.10:669][612]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-15.45.10:670][612]LogInit: FAudioDevice initialized.
+[2020.07.14-15.45.10:674][612]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.14-15.45.10:677][612]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.14-11.45.10
+[2020.07.14-15.45.10:679][612]LogWorld: Bringing up level for play took: 0.003497
+[2020.07.14-15.45.10:679][612]LogOnline: OSS: Creating online subsystem instance for: :Context_136
+[2020.07.14-15.45.10:681][612]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.45.10:682][612]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.45.10:685][612]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.733
+[2020.07.14-15.45.17:735][ 35]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.45.17:735][ 35]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.45.17:736][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-15.45.17:736][ 35]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-15.45.17:736][ 35]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.45.17:736][ 35]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-15.45.17:737][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.45.17:744][ 35]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.14-15.45.17:749][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.45.17:775][ 35]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.45.17:777][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-15.45.17:782][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.07.14-15.45.17:838][ 38]LogPlayLevel: Display: Destroying online subsystem :Context_136
+[2020.07.14-15.45.22:197][296]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.07.14-15.45.22:252][296]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1C1F06EA145AA7B775FF55494C8EC15C9.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.45.22:320][296]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.45.22:320][296]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.45.23:703][378]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.14-15.45.23:729][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.14-15.45.23:730][378]PIE: New page: PIE session: PFinalLevel1 (Jul 14, 2020, 7:45:23 AM)
+[2020.07.14-15.45.23:730][378]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-15.45.23:760][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030454s)
+[2020.07.14-15.45.23:761][378]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.14-15.45.23:761][378]LogPlayLevel: PIE: World Init took: (0.000844s)
+[2020.07.14-15.45.23:761][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.031423s)
+[2020.07.14-15.45.23:790][378]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.07.14-15.45.23:791][378]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.14-15.45.23:791][378]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.14-15.45.23:791][378]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.14-15.45.23:791][378]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.14-15.45.23:791][378]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.14-15.45.23:791][378]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.14-15.45.23:791][378]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.14-15.45.23:791][378]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.14-15.45.23:791][378]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.14-15.45.23:791][378]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.14-15.45.23:811][378]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.14-15.45.23:811][378]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-15.45.23:811][378]LogAudioMixer: Display: Is Default: Yes
+[2020.07.14-15.45.23:811][378]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.14-15.45.23:812][378]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.14-15.45.23:812][378]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.14-15.45.23:812][378]LogAudioMixer: Display: Channel Order:
+[2020.07.14-15.45.23:812][378]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.14-15.45.23:812][378]LogAudioMixer: Display: 1: FrontRight
+[2020.07.14-15.45.23:821][378]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-15.45.23:822][378]LogInit: FAudioDevice initialized.
+[2020.07.14-15.45.23:828][378]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.14-15.45.23:831][378]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.14-11.45.23
+[2020.07.14-15.45.23:832][378]LogWorld: Bringing up level for play took: 0.003478
+[2020.07.14-15.45.23:833][378]LogOnline: OSS: Creating online subsystem instance for: :Context_137
+[2020.07.14-15.45.23:835][378]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.45.23:835][378]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.45.23:838][378]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 -0.113
+[2020.07.14-15.45.33:023][928]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.45.33:023][928]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.45.33:023][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-15.45.33:023][928]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-15.45.33:023][928]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.45.33:023][928]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-15.45.33:024][928]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.45.33:033][928]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.14-15.45.33:038][928]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.45.33:066][928]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.45.33:069][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-15.45.33:073][928]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2020.07.14-15.45.33:126][931]LogPlayLevel: Display: Destroying online subsystem :Context_137
+[2020.07.14-15.45.33:959][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.07.14-15.45.34:006][978]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1F8C70238482AC78B455AA6BBC119E05E.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.45.34:069][978]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.45.34:069][978]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.45.37:363][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SuperComputerServers)
+[2020.07.14-15.45.41:054][388]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2020.07.14-15.45.41:119][388]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1B83360BA46A37BA6025500AA5EC48E08.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.45.41:185][388]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.45.41:185][388]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.45.43:157][504]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.07.14-15.45.43:206][504]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel151B2545A4EA63A9F4B10A28B5E0A942D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.45.43:275][504]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.45.43:275][504]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.45.45:641][643]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.07.14-15.45.45:697][643]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1CAF27BF94ADFD13AA18511A6F9DF186C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.45.45:771][643]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.45.45:771][643]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.45.48:575][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.07.14-15.45.48:623][809]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel10E86BB4A45C279AFBBD43DBAB539409D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.45.48:692][809]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.45.48:692][809]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.45.49:913][882]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SuperComputerServers)
+[2020.07.14-15.45.51:761][973]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.07.14-15.45.51:810][973]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel18B57F0234A76B08AB6541F86759EA70C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.45.51:881][973]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.45.51:881][973]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.45.53:065][ 42]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.14-15.45.53:092][ 42]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.14-15.45.53:092][ 42]PIE: New page: PIE session: PFinalLevel1 (Jul 14, 2020, 7:45:53 AM)
+[2020.07.14-15.45.53:092][ 42]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-15.45.53:124][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031116s)
+[2020.07.14-15.45.53:125][ 42]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.14-15.45.53:125][ 42]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2020.07.14-15.45.53:125][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.032072s)
+[2020.07.14-15.45.53:155][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2020.07.14-15.45.53:156][ 42]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.14-15.45.53:156][ 42]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.14-15.45.53:156][ 42]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.14-15.45.53:156][ 42]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.14-15.45.53:156][ 42]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.14-15.45.53:156][ 42]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.14-15.45.53:156][ 42]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.14-15.45.53:156][ 42]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.14-15.45.53:156][ 42]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.14-15.45.53:156][ 42]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.14-15.45.53:183][ 42]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.14-15.45.53:183][ 42]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-15.45.53:183][ 42]LogAudioMixer: Display: Is Default: Yes
+[2020.07.14-15.45.53:183][ 42]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.14-15.45.53:183][ 42]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.14-15.45.53:183][ 42]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.14-15.45.53:183][ 42]LogAudioMixer: Display: Channel Order:
+[2020.07.14-15.45.53:183][ 42]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.14-15.45.53:183][ 42]LogAudioMixer: Display: 1: FrontRight
+[2020.07.14-15.45.53:193][ 42]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.14-15.45.53:194][ 42]LogInit: FAudioDevice initialized.
+[2020.07.14-15.45.53:200][ 42]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.14-15.45.53:202][ 42]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.14-11.45.53
+[2020.07.14-15.45.53:204][ 42]LogWorld: Bringing up level for play took: 0.003350
+[2020.07.14-15.45.53:204][ 42]LogOnline: OSS: Creating online subsystem instance for: :Context_138
+[2020.07.14-15.45.53:207][ 42]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.45.53:207][ 42]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.14-15.45.53:210][ 42]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 -0.741
+[2020.07.14-15.46.00:711][492]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.46.00:711][492]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.46.00:712][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-15.46.00:712][492]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.14-15.46.00:712][492]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.46.00:712][492]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.14-15.46.00:714][492]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.46.00:725][492]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.14-15.46.00:730][492]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.14-15.46.00:759][492]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.14-15.46.00:762][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.14-15.46.00:766][492]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2020.07.14-15.46.00:830][494]LogPlayLevel: Display: Destroying online subsystem :Context_138
+[2020.07.14-15.46.02:656][601]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.07.14-15.46.02:702][601]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1C3A91CE94E02FA983665B98F65C4EDF5.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.46.02:771][601]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.46.02:771][601]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.46.03:491][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.07.14-15.46.03:537][642]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel183EEAB9A407EFEA3BC8FEB89A21D5D3F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.46.03:605][642]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.46.03:605][642]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.46.05:458][751]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2020.07.14-15.46.05:507][751]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel11B8F70464D180D15058EE09AC89193DB.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.46.05:574][751]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.46.05:574][751]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.46.05:832][767]LogEditorViewport: Clicking Background
+[2020.07.14-15.46.06:179][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.07.14-15.46.06:225][784]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel120DA0DE44353D8C6751D71A3395DB729.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.46.06:293][784]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.46.06:293][784]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.46.11:568][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.07.14-15.46.11:625][ 98]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel12BF87CDB4AA7778AC83F6291C36B23B8.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.46.11:691][ 98]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.46.11:691][ 98]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.47.11:834][792]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2020.07.14-15.47.11:900][792]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1C074785943E43E4BA6BD5AA9D56CC8F7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.47.11:969][792]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.47.11:969][792]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.47.27:011][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.07.14-15.47.27:062][689]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel174BF5B33488AD7548864BE83F36FF13B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.47.27:134][689]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.47.27:135][689]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.14-15.47.29:441][825]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.07.14-15.47.29:503][825]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1D170E54C445DF48DE2993B9502D0ECA9.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.14-15.47.29:577][825]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.14-15.47.29:577][825]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
