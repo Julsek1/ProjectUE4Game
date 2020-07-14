@@ -13,7 +13,8 @@
 #include "DamageType_Melee.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
-#include "MinibossLevelPillar.h"
+//#include "MinibossLevelPillar.h"
+#include "InteractableActor.h"
 #include "ParentEnemy.h"
 #include "Perception/AISense_Hearing.h"
 //#include "Shotgun.h"
@@ -175,7 +176,8 @@ void ATwinStickShooterPlayer::Tick(float DeltaTime)
 		bFoundInteractablePillar = false;
 	}*/
 
-	bFoundInteractablePillar = LookForInteractablePillar() != nullptr && !LookForInteractablePillar()->bExplosivePlanted;
+	//bFoundInteractablePillar = LookForInteractablePillar() != nullptr && !LookForInteractablePillar()->bExplosivePlanted;
+	bFoundInteractableActor = LookForInteractableActor() != nullptr && !LookForInteractableActor()->bHasBeenInteractedWith;
 }
 
 // Called to bind functionality to input
@@ -509,14 +511,34 @@ void ATwinStickShooterPlayer::Interact()
 	//{
 	//	Cast<AMinibossLevelPillar>(OutHit.GetActor())->PlantExplosive();
 	//}
-
-	if (LookForInteractablePillar())
+	
+	/*if (LookForInteractablePillar())
 	{
 		LookForInteractablePillar()->PlantExplosive();
+	}*/
+
+	if (LookForInteractableActor())
+	{
+		LookForInteractableActor()->Interact();
+		//LookForInteractablePillar()->PlantExplosive();
 	}
 }
 
-AMinibossLevelPillar* ATwinStickShooterPlayer::LookForInteractablePillar()
+//AMinibossLevelPillar* ATwinStickShooterPlayer::LookForInteractablePillar()
+//{
+//	FHitResult OutHit;
+//	FVector Start = GetActorLocation();
+//	FVector ForwardVector = GetActorForwardVector();
+//
+//	FVector End = ForwardVector * InteractRange + Start;
+//	FCollisionQueryParams CollisionParams;
+//
+//	GetWorld()->LineTraceSingleByChannel(OUT OutHit, Start, End, ECollisionChannel(ECC_Visibility), CollisionParams);
+//
+//	return Cast<AMinibossLevelPillar>(OutHit.GetActor());
+//}
+
+AInteractableActor* ATwinStickShooterPlayer::LookForInteractableActor()
 {
 	FHitResult OutHit;
 	FVector Start = GetActorLocation();
@@ -527,5 +549,5 @@ AMinibossLevelPillar* ATwinStickShooterPlayer::LookForInteractablePillar()
 
 	GetWorld()->LineTraceSingleByChannel(OUT OutHit, Start, End, ECollisionChannel(ECC_Visibility), CollisionParams);
 
-	return Cast<AMinibossLevelPillar>(OutHit.GetActor());
+	return Cast<AInteractableActor>(OutHit.GetActor());
 }

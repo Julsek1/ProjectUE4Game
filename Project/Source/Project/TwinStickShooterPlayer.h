@@ -165,10 +165,14 @@ public:
 
 	//Interact (only used for miniboss blue pillars)
 	void Interact();
-	class AMinibossLevelPillar* LookForInteractablePillar();
+	//class AMinibossLevelPillar* LookForInteractablePillar();
+	UFUNCTION(BlueprintCallable)
+		class AInteractableActor* LookForInteractableActor();
 	float InteractRange = 200.f;
+	/*UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		bool bFoundInteractablePillar = false;*/
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		bool bFoundInteractablePillar = false;
+		bool bFoundInteractableActor = false;
 
 	//Actions
 	UFUNCTION(BlueprintCallable)
