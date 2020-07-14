@@ -10,7 +10,7 @@
 AKeyPickup::AKeyPickup()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	//PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.bCanEverTick = true;
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	Collider = CreateDefaultSubobject<UBoxComponent>(TEXT("Collider"));
 	RootComponent = Collider;
@@ -23,12 +23,11 @@ AKeyPickup::AKeyPickup()
 //	Super::BeginPlay();
 //	
 //}
-//
-//// Called every frame
+
+// Called every frame
 //void AKeyPickup::Tick(float DeltaTime)
 //{
 //	Super::Tick(DeltaTime);
-//
 //}
 
 void AKeyPickup::NotifyActorBeginOverlap(AActor* Other)

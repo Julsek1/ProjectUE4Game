@@ -27,8 +27,8 @@ public:
 
 	virtual void NotifyActorBeginOverlap(AActor* Other) override;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UStaticMeshComponent* StaticMesh;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UBoxComponent* Collider;
 };

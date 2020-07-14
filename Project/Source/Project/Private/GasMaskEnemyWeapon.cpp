@@ -39,7 +39,7 @@ void AGasMaskEnemyWeapon::Fire(USceneComponent* Location)
 
 		DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 0.1f, 0, 1);
 		//GetWorld()->LineTraceSingleByChannel(OUT OutHit, Start, End, ECollisionChannel(ECC_Pawn), CollisionParams);
-		GetWorld()->LineTraceMultiByChannel(OutHits, Start, End, ECollisionChannel(ECC_Pawn), CollisionParams);
+		GetWorld()->LineTraceMultiByChannel(OutHits, Start, End, ECollisionChannel(ECC_Vehicle), CollisionParams);
 
 		if (OutHits.Num() > 0 && Cast<AParentPlayer>(OutHits[0].GetActor()))
 		{

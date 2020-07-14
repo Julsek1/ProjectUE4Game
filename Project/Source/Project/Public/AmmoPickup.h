@@ -26,9 +26,9 @@ public:
 	//virtual void Tick(float DeltaTime) override;
 	virtual void NotifyActorBeginOverlap(AActor* Other) override;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UStaticMeshComponent* StaticMesh;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UBoxComponent* Collider;
 
 	float AmmoAmount = 24;
