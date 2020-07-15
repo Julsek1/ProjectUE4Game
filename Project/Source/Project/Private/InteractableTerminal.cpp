@@ -2,6 +2,7 @@
 
 
 #include "InteractableTerminal.h"
+#include "TSHackWidget.h"
 
 AInteractableTerminal::AInteractableTerminal()
 {
@@ -9,6 +10,13 @@ AInteractableTerminal::AInteractableTerminal()
 	/*WidgetComponent = CreateDefaultSubobject<UWidgetComponent>(TEXT("Widget"));
 	WidgetComponent->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
 	WidgetComponent->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepRelativeTransform);*/
+}
+
+// Called when the game starts or when spawned
+void AInteractableTerminal::BeginPlay()
+{
+	Super::BeginPlay();
+	//Cast<UTSHackWidget>(WidgetComponent->GetUserWidgetObject())->Terminal = this;
 }
 
 void AInteractableTerminal::Interact()

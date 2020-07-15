@@ -18,8 +18,10 @@ class PROJECT_API AInteractableTerminal : public AInteractableActor
 
 public:
 	AInteractableTerminal();
+	virtual void BeginPlay() override;
 
-	void Interact() override;
+	UFUNCTION(BlueprintCallable)
+		void Interact() override;
 
 	/*UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		UWidgetComponent* WidgetComponent;*/
