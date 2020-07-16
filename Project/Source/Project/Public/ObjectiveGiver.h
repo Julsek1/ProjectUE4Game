@@ -33,4 +33,7 @@ public:
 		AObjective* Objective = nullptr;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool bSeekPlayer = true;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<AObjectiveGiver*> LinkedObjectives;
+	void DestroySelfAndLinked();
 };

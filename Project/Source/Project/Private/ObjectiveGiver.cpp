@@ -51,7 +51,7 @@ void AObjectiveGiver::NotifyActorBeginOverlap(AActor* Other)
 	{
 		Cast<ATwinStickShooterPlayer>(Other)->ReceiveObjective(Objective);
 
-		Destroy();
+		DestroySelfAndLinked();
 	}
 }
 
@@ -60,6 +60,20 @@ void AObjectiveGiver::NotifyActorEndOverlap(AActor* Other)
 	if (Cast<ATwinStickShooterPlayer>(Other) != nullptr && Objective)
 	{
 		Cast<ATwinStickShooterPlayer>(Other)->ReceiveObjective(Objective);
-		Destroy();
+
+		DestroySelfAndLinked();
 	}
+}
+
+void AObjectiveGiver::DestroySelfAndLinked()
+{
+	for (auto LinkedObjective : LinkedObjectives)
+	{
+		if (LinkedObjective)
+		{
+			LinkedObjective->Destroy();
+		}
+	}
+	
+	Destroy();
 }
