@@ -234,7 +234,6 @@ void ATwinStickShooterPlayer::Rotate()
 		FRotator CharacterRotation = CharacterVector.Rotation();
 		GetController()->SetControlRotation(CharacterRotation);
 	}
-
 }
 
 //void ATwinStickShooterPlayer::TakeDamage(float Damage)
