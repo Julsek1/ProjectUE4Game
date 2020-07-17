@@ -21,14 +21,19 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
 	TSubclassOf<UDamageType> DamageTypeClass;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Defuse")
-	class USphereComponent* DefuseSphere;
+	/*UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Defuse")
+	class USphereComponent* DefuseSphere;*/
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Defuse")
 	bool WasDefused;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hazard")
 	float Damage;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Defuse")
+	bool IsATrap;
+
+	
 	
 	virtual void OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, 

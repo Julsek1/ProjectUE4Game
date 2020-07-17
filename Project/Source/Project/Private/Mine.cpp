@@ -6,6 +6,7 @@
 #include "Sound/SoundCue.h"
 #include "JFollowEnemy.h"
 #include "Kismet/GameplayStatics.h"
+#include "Components/SphereComponent.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "JBasePlayer.h"
 
@@ -13,10 +14,22 @@
 AMine::AMine()
 {
 	Damage = 20.f;
-	DefuseSphere = CreateDefaultSubobject<USphereComponent>(TEXT("DefuseSphere"));
+	/*DefuseSphere = CreateDefaultSubobject<USphereComponent>(TEXT("DefuseSphere"));
+	
+	DefuseSphere->SetupAttachment(Mesh);
+	DefuseSphere->InitSphereRadius(12.f);*/
+
+	ColliderSphere->SetupAttachment(Mesh);
+	ColliderSphere->InitSphereRadius(18.f);
+
 	WasDefused = false;
 
+	IsATrap = false;
+
 }
+
+
+
 
 void AMine::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
@@ -29,7 +42,7 @@ void AMine::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 
 		if (Player || Mutant)
 		{
-			if (Player->IsCrawling == false)
+			if ((Player->IsCrawling == false) || IsATrap)
 			{
 				if (BasicPSComponent)
 				{
