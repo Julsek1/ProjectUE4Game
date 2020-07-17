@@ -18,6 +18,15 @@ public:
 
 	AMine();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+	TSubclassOf<UDamageType> DamageTypeClass;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Defuse")
+	class USphereComponent* DefuseSphere;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Defuse")
+	bool WasDefused;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hazard")
 	float Damage;
 	

@@ -4,14 +4,21 @@
 #include "JBasePlayer.h"
 #include "Engine/Engine.h"
 #include "Components/CapsuleComponent.h"
+#include "Components/BoxComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Engine/GameInstance.h"
 #include "Kismet/GameplayStatics.h"
 #include "GameFramework/Controller.h"
 #include "Gun.h"
+#include "Engine.h"
 #include "Sound/SoundCue.h"
+#include "PickupVault.h"
+#include "JFollowEnemy.h"
+#include "Mutant.h"
 #include "Animation/AnimInstance.h"
 #include "JSaveGame.h"
+#include "Math/UnrealMathUtility.h"
+#include "Kismet/KismetMathLibrary.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "..\Public\JBasePlayer.h"
 #include "BasePlayerController.h"
@@ -28,17 +35,19 @@ AJBasePlayer::AJBasePlayer()
 
 	//Create camera's holder
 	CameraStick = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraStick"));
-	CameraStick->SetupAttachment(GetRootComponent());
-	CameraStick->TargetArmLength = 400.f; //camera distance from player
-	CameraStick->bUsePawnControlRotation = true; //Rotate according to controller
+	CameraStick->SetupAttachment(GetCapsuleComponent());
+	CameraStick->TargetArmLength = 300.f; //camera distance from player
+	CameraStick->bUsePawnControlRotation = false; //Rotate according to controller
 
+	
 	//Capsule component size
 	GetCapsuleComponent()->SetCapsuleSize(34.f, 95.f);
 
 	//Create player's camera
 	PlayerCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("PlayerCamera"));
 	PlayerCamera->SetupAttachment(CameraStick, USpringArmComponent::SocketName);
-	PlayerCamera->bUsePawnControlRotation = false;
+	PlayerCamera->bUsePawnControlRotation = true;
+
 
 	//Camera's Turn values
 	InitialTurnValue = 65.f;
@@ -52,8 +61,11 @@ AJBasePlayer::AJBasePlayer()
 	//Player movement configuration with rotation rate
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 	GetCharacterMovement()->RotationRate = FRotator(0.f, 540.f, 0.f);
-	GetCharacterMovement()->JumpZVelocity = 650.f;
+	/*GetCharacterMovement()->JumpZVelocity = 650.f;*/
 	GetCharacterMovement()->AirControl = 0.2f;
+
+	IsDead = false;
+	IsWithFightGoal = false;
 
 	Hp = 70.f;
 	MaxHp = 100.f;
@@ -62,18 +74,42 @@ AJBasePlayer::AJBasePlayer()
 	IsEscDown = false;
 	IsLeftMouseDown = false;
 
-	IsIDown = false;
-
 	IsFighting = false;
 
+	IsAnnexed = false;
+	AnnexPace = 16.f;
+
+	//StealthKill
+
+	IsIDown = false;
+
+	IsKDown = false;
+
+	CanKill = false;
+
+	CanPerformKill = false;
+
+	IsKilling = false;
+
+	IsHanging = false;
+	IsAgainstWall = false;
+
+	IsCrawling = false;
+	IsDefusing = false;
+
+	IsCombatMode = false;
 	
 }
+
+
+
 
 // Called when the game starts or when spawned
 void AJBasePlayer::BeginPlay()
 {
 	Super::BeginPlay();
 	
+
 
 }
 
@@ -82,6 +118,22 @@ void AJBasePlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (IsAnnexed && FightGoal)
+	{
+		FRotator Sight = GetSightTurning(FightGoal->GetActorLocation());
+		
+	// Smooth transition while turning player towards goal
+       FRotator AnnexTurning = FMath::RInterpTo(GetActorRotation(), Sight, DeltaTime, AnnexPace);
+
+	   SetActorRotation(AnnexTurning);
+	}
+}
+
+FRotator AJBasePlayer::GetSightTurning(FVector Goal)
+{
+	FRotator SightTurning = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), Goal);
+	FRotator GetSightTurning(0.f, SightTurning.Yaw, 0.f);
+	return GetSightTurning;
 }
 
 // Called to bind functionality to input
@@ -90,8 +142,14 @@ void AJBasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	check(PlayerInputComponent);
 
-	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
-	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+	/*PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AJBasePlayer::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Released, this, &AJBasePlayer::StopJumping);*/
+
+	PlayerInputComponent->BindAction("Kill", IE_Pressed, this, &AJBasePlayer::KDown);
+	PlayerInputComponent->BindAction("Kill", IE_Released, this, &AJBasePlayer::KUp);
+
+	PlayerInputComponent->BindAction("Crouching", IE_Pressed, this, &AJBasePlayer::CrouchBegin);
+	PlayerInputComponent->BindAction("Crouching", IE_Released, this, &AJBasePlayer::CrouchEnd);
 
 	PlayerInputComponent->BindAction("EquipItem", IE_Pressed, this, &AJBasePlayer::IDown);
 	PlayerInputComponent->BindAction("EquipItem", IE_Released, this, &AJBasePlayer::IUp);
@@ -116,7 +174,7 @@ void AJBasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 void AJBasePlayer::MoveForward(float Value)
 {
-	if ((Controller != nullptr) && (Value != 0.0f) && (!IsFighting))
+	if ((Controller != nullptr) && (Value != 0.0f) && (!IsFighting) && (!IsDead) && (!IsHanging) && (!IsAgainstWall) && (!IsDefusing))
 	{
 		//find forward direction
 		const FRotator Rotation = Controller->GetControlRotation();
@@ -129,12 +187,15 @@ void AJBasePlayer::MoveForward(float Value)
 
 void AJBasePlayer::MoveRight(float Value)
 {
-	if ((Controller != nullptr) && (Value != 0.0f) && (!IsFighting))
+
+
+	if ((Controller != nullptr) && (Value != 0.0f) && (!IsFighting)  && (!IsDead) && (!IsHanging) && (!IsAgainstWall) && (!IsDefusing))
 	{
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-		AddMovementInput(Direction, Value);
+		ControlDirection = Direction;
+		AddMovementInput(ControlDirection, Value);
 	}
 }
 
@@ -155,13 +216,20 @@ void AJBasePlayer::LookUpAtUnit(float Value)
 void AJBasePlayer::IDown()
 {
 	IsIDown = true;
+
 	if (OverlapedPickup)
 	{
+	
 		AGun* Gun = Cast<AGun>(OverlapedPickup);
+	
+		SetOverlapedPickup(Gun);
 		if (Gun)
 		{
 			Gun->UseGun(this);
 			SetOverlapedPickup(nullptr);
+			// Disable collision once knife is equiped 
+			Gun->ColliderSphere->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+			
 		}
 	}
 }
@@ -176,20 +244,17 @@ void AJBasePlayer::IUp()
 void AJBasePlayer::LeftMouseD()
 {
 	IsLeftMouseDown = true;
+	
 	if (GunEquipped) {
-
-
 		Fight();
-		
 	}
-	
-	
 }
 
 void AJBasePlayer::LeftMouseUp()
 {
 	IsLeftMouseDown = false;
-	IsFighting = false;
+	/*IsFighting = false;*/
+	
 
 }
 
@@ -212,19 +277,42 @@ void AJBasePlayer::EscUp()
 
 void AJBasePlayer::Death()
 {
+	UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
+	if (AnimationInst && FightMontage)
+	{
+		AnimationInst->Montage_Play(FightMontage, 1.2f);
+		AnimationInst->Montage_JumpToSection(FName("Death"));
+	}
+	IsDead = true;
 }
 
 void AJBasePlayer::DamageHp(float Damage)
 {
-	if (Hp - Damage <= 0.f)
+	
+}
+
+float AJBasePlayer::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
+{
+	if (Hp - DamageAmount <= 0.f)
 	{
-		Hp -= Damage;
+		Hp -= DamageAmount;
 		Death();
+
+		if (DamageCauser)
+		{
+
+			AJFollowEnemy* FEnemy = Cast<AJFollowEnemy>(DamageCauser);
+			if (FEnemy)
+			{
+				FEnemy->IsWithGoal = false;
+			}
+		}
 	}
 	else
 	{
-		Hp -= Damage;
+		Hp -= DamageAmount;
 	}
+	return DamageAmount;
 }
 
 void AJBasePlayer::SetGunEquipped(AGun* GunToSet)
@@ -262,6 +350,11 @@ void AJBasePlayer::SaveGame()
 	SaveGameInst->PlayerStats.PlayerLocation = GetActorLocation();
 	SaveGameInst->PlayerStats.PlayerRotation = GetActorRotation();
 
+	if (GunEquipped)
+	{
+		SaveGameInst->PlayerStats.Item = GunEquipped->Name;
+	}
+
 	UGameplayStatics::SaveGameToSlot(SaveGameInst, SaveGameInst->NameOfPlayer, SaveGameInst->IndexUser);
 
 }
@@ -275,6 +368,18 @@ void AJBasePlayer::LoadGame(bool Setpos)
 	MaxHp = LoadGameInst->PlayerStats.MaxHp;
 	Collectibles = LoadGameInst->PlayerStats.Collectibles;
 
+	if (ItemVault)
+	{
+		APickupVault* Items =  GetWorld()->SpawnActor<APickupVault>(ItemVault);
+		if (Items)
+		{
+			FString ItemName = LoadGameInst->PlayerStats.Item;
+			AGun* ItemtoUse = GetWorld()->SpawnActor<AGun>(Items->InventoryBP[ItemName]);
+			ItemtoUse->UseGun(this);
+		}
+	}
+
+
 	if (Setpos)
 	{
 		SetActorLocation(LoadGameInst->PlayerStats.PlayerLocation);
@@ -287,28 +392,39 @@ void AJBasePlayer::LoadGame(bool Setpos)
 
 void AJBasePlayer::Fight()
 {
-	if (!IsFighting)
+	if (!IsFighting && !IsDead)
 	{
-		IsFighting = true;
+		/*IsFighting = true;*/
+
+		//Timer to go into Combat mode and trigger its animation
+		IsCombatMode = true;
 
 		
 
+		float FightLapsus = FMath::RandRange(1.5f, 2.f);
+		GetWorldTimerManager().SetTimer(FightTempo, this, &AJBasePlayer::CombatMode, FightLapsus);
+
+		
+		
+		SetAnnexEnemy(true);
+		
 		UAnimInstance* AnimationInst = GetMesh()->GetAnimInstance();
 		if (AnimationInst && FightMontage)
 		{
-			 
-			
+			 			
 			int32 MontageSection = FMath::RandRange(0, 1);
 			switch (MontageSection)
 			{
 			case 0:
 
+				
 				AnimationInst->Montage_Play(FightMontage, 2.0f);
 				AnimationInst->Montage_JumpToSection(FName("Attack1"), FightMontage);
 
 				break;
 			case 1:
 
+				
 				AnimationInst->Montage_Play(FightMontage, 2.0f);
 				AnimationInst->Montage_JumpToSection(FName("Attack2"), FightMontage);
 
@@ -323,10 +439,12 @@ void AJBasePlayer::Fight()
 
 void AJBasePlayer::FightFinished()
 {
-	IsFighting = false;
+	
+	SetAnnexEnemy(false);
 	if (IsLeftMouseDown)
 	{
 		Fight();
+
 	}
 }
 
@@ -338,12 +456,111 @@ void AJBasePlayer::KnifeSwingPlaySound()
 	}
 }
 
+void AJBasePlayer::PlayerTerminated()
+{
+	GetMesh()->bPauseAnims = true;
+	GetMesh()->bNoSkeletonUpdate = true;
+}
+
+void AJBasePlayer::CrouchBegin()
+{
+	Crouch();
+}
+
+void AJBasePlayer::CrouchEnd()
+{
+	UnCrouch();
+}
+
+
+
+
 void AJBasePlayer::CollectUp(int32 CollectQty)
 {
 	Collectibles += CollectQty;
 }
 
+void AJBasePlayer::HpUp(float Quantity)
+{
+	if (Hp + Quantity >= MaxHp)
+	{
+		Hp = MaxHp;
+	}
+	else
+	{
+		Hp += Quantity;
+	}
+}
 
+
+//change direction towards enemy when attacking.
+void AJBasePlayer::SetAnnexEnemy(bool Annex)
+{
+	IsAnnexed = Annex;
+}
+
+
+
+void AJBasePlayer::FightGoalUpdate()
+{
+	TArray<AActor*> ActorsOverlapped;
+	GetOverlappingActors(ActorsOverlapped, MutantF);
+
+	if (ActorsOverlapped.Num() == 0) return;
+
+	AJFollowEnemy* MutantNear = Cast<AJFollowEnemy>(ActorsOverlapped[0]);
+	if (MutantNear)
+	{
+		FVector Position = GetActorLocation();
+		float DistMinimun = (MutantNear->GetActorLocation() - Position).Size();
+		for (auto Enemy : ActorsOverlapped)
+		{
+			AJFollowEnemy* Mutant = Cast<AJFollowEnemy>(Enemy);
+			if (Mutant)
+			{
+				float EnemyDist = (Mutant->GetActorLocation() - Position).Size();
+				if (EnemyDist < DistMinimun)
+				{
+					DistMinimun = EnemyDist;
+					MutantNear = Mutant;
+				}
+			}
+
+		}
+		SetFightGoal(MutantNear);
+		IsWithFightGoal = true;
+	}
+
+}
+
+
+
+void AJBasePlayer::KUp()
+{
+	IsKDown = false;
+	
+	
+}
+	
+
+void AJBasePlayer::KDown()
+{
+	
+	IsKDown = true;
+	
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("K"));
+	
+}
+
+void AJBasePlayer::CombatMode()
+{
+	if (IsCombatMode)
+	{
+		IsCombatMode = false;
+	}
+
+	
+}
 
 
 

@@ -2,12 +2,20 @@
 
 
 #include "Mine.h"
+#include "Engine/World.h"
+#include "Sound/SoundCue.h"
+#include "JFollowEnemy.h"
+#include "Kismet/GameplayStatics.h"
+#include "Particles/ParticleSystemComponent.h"
 #include "JBasePlayer.h"
 
 
 AMine::AMine()
 {
 	Damage = 20.f;
+	DefuseSphere = CreateDefaultSubobject<USphereComponent>(TEXT("DefuseSphere"));
+	WasDefused = false;
+
 }
 
 void AMine::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
@@ -17,10 +25,30 @@ void AMine::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 	if (OtherActor)
 	{
 		AJBasePlayer* Player = Cast<AJBasePlayer>(OtherActor);
-		if (Player)
+		AJFollowEnemy* Mutant = Cast<AJFollowEnemy>(OtherActor);
+
+		if (Player || Mutant)
 		{
-			Player->DamageHp(Damage);
-			Destroy();
+			if (Player->IsCrawling == false)
+			{
+				if (BasicPSComponent)
+				{
+					UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), PSOverlap, GetActorLocation(), FRotator(0.f), true);
+
+				}
+				if (SoundFX)
+				{
+					UGameplayStatics::PlaySound2D(this, SoundFX);
+				}
+
+				UGameplayStatics::ApplyDamage(OtherActor, Damage, nullptr, this, DamageTypeClass);
+				Destroy();
+
+				if (WasDefused)
+				{
+					Destroy();
+				}
+			}
 		}
 	}
 }

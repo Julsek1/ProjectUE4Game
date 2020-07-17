@@ -17,7 +17,7 @@ enum class EGunState : uint8
 	EGS_Using UMETA(DisplayName = "UsingGun"),
 
 
-	EGS_Top UMETA(DisplayName = "Top")
+	EGS_Top UMETA(DisplayName = "Top"),
 
 };
 
@@ -31,6 +31,9 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Pickup")
 	EGunState GunState;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Data")
+	FString Name;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "SkMesh")
 	class USkeletalMeshComponent* SkMesh;
@@ -47,6 +50,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
 	float Damage;
 
+	
 
 
 	virtual void BeginPlay() override;
@@ -71,10 +75,18 @@ public:
 	void FightOnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 		UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
+	
 	UFUNCTION(BlueprintCallable)
 	void CollActive();
 
 	UFUNCTION(BlueprintCallable)
 	void CollInactive();
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Fight")
+	AController* GunInstr;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+	TSubclassOf<UDamageType> DamageTypeClass;
 	
+	FORCEINLINE void SetInstr(AController* Instr) { GunInstr = Instr; }
 };

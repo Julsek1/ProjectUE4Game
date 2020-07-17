@@ -3,7 +3,9 @@
 
 #include "JSpawnVolume.h"
 #include "Components/BoxComponent.h"
+#include "AIController.h"
 #include "Engine/World.h"
+#include "JFollowEnemy.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "Project/Public/PRJPawn.h"
 
@@ -22,6 +24,13 @@ AJSpawnVolume::AJSpawnVolume()
 void AJSpawnVolume::BeginPlay()
 {
 	Super::BeginPlay();
+
+	if (ActorToSpawn1 && ActorToSpawn2 && ActorToSpawn3)
+	{
+		ArrayToSpawn.Add(ActorToSpawn1);
+		ArrayToSpawn.Add(ActorToSpawn2);
+		ArrayToSpawn.Add(ActorToSpawn3);
+	}
 	
 }
 
@@ -32,7 +41,21 @@ void AJSpawnVolume::Tick(float DeltaTime)
 
 }
 
-FVector AJSpawnVolume::GetSpawnPoint()
+TSubclassOf<AActor> AJSpawnVolume::GetSpawnActor()
+{
+	if (ArrayToSpawn.Num() > 0)
+	{
+		int32 Option = FMath::RandRange(0, ArrayToSpawn.Num() -1);
+
+		return ArrayToSpawn[Option];
+	}
+	else
+	{
+		return nullptr;
+	}
+}
+
+FVector AJSpawnVolume::GetSpawnLocation()
 {
 	FVector Extension = SpawnBox->GetScaledBoxExtent();
 	FVector StartingPoint = SpawnBox->GetComponentLocation();
@@ -42,8 +65,7 @@ FVector AJSpawnVolume::GetSpawnPoint()
 	return Point;
 }
 
-//"_Implementation" to be implemented in both C++ and blueprints
-void AJSpawnVolume::SpawnGamePawn_Implementation(UClass* ToBeSpawned, const FVector& Position)
+void AJSpawnVolume::SpawnGameActor_Implementation(UClass* ToBeSpawned, const FVector& Position)
 {
 	if (ToBeSpawned)
 	{
@@ -51,7 +73,19 @@ void AJSpawnVolume::SpawnGamePawn_Implementation(UClass* ToBeSpawned, const FVec
 		FActorSpawnParameters SpawnParameters;
 		if (World)
 		{
-		 APRJPawn* EnemySpawned = World->SpawnActor<APRJPawn>(ToBeSpawned, Position, FRotator(0.0f), SpawnParameters);
+			AActor* SpawnedActor = World->SpawnActor<AActor>(ToBeSpawned, Position, FRotator(0.0f), SpawnParameters);
+			
+			AJFollowEnemy* Opponent = Cast<AJFollowEnemy>(SpawnedActor);
+			if (Opponent)
+			{
+				Opponent->SpawnDefaultController();
+				AAIController* CtrlAI = Cast<AAIController>(Opponent->GetController());
+				if (CtrlAI)
+				{
+					Opponent->AIController = CtrlAI;
+				}
+			}
 		}
 	}
 }
+

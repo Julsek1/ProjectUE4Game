@@ -7,9 +7,11 @@
 #include "Components/InputComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "GameFramework/Character.h"
+#include "TimerManager.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "../ParentPlayer.h"
 #include "JBasePlayer.generated.h"
+
 
 /**
  * 
@@ -23,6 +25,9 @@ public:
 	// Sets default values for this character's properties
 	AJBasePlayer();
 
+UPROPERTY(EditDefaultsOnly, Category = "StoredData")
+TSubclassOf<class APickupVault> ItemVault;
+
 UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
 class UParticleSystem* TakeHitPS;
 
@@ -30,7 +35,7 @@ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
 class USoundCue* DamageSound;
 
 //Camera position in reference to player
- UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess=true))
+ UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Camera", meta = (AllowPrivateAccess=true))
  class USpringArmComponent* CameraStick;
 
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = true))
@@ -39,6 +44,21 @@ class USoundCue* DamageSound;
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Controller")
  class ABasePlayerController* PController;
 
+
+
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
+ FVector ControlDirection;
+ 
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
+ bool IsHanging;
+
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
+ bool IsAgainstWall;
+
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
+ bool IsDefusing;
+
+ FTimerHandle FightTempo;
 
 
  //Turning camera values
@@ -55,14 +75,40 @@ class USoundCue* DamageSound;
  UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Stats")
  float MaxHp;
 
- UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Stats")
- float MaxHealth;
+ /*UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Stats")
+ float MaxHealth;*/
 
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stats")
  int32 Collectibles;
 
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stats")
+ float AnnexPace;
 
 
+
+ //check if player has been rotated towards enemy
+ bool IsAnnexed;
+
+ // Check if player is Dead or alive
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
+ bool IsDead;
+
+ void SetAnnexEnemy(bool Annex);
+
+
+ FRotator GetSightTurning(FVector Goal);
+
+ 
+
+ UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Fight")
+ class AJFollowEnemy* FightGoal;
+
+ FORCEINLINE void SetFightGoal(AJFollowEnemy* Goal) { FightGoal = Goal; }
+ 
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+ TSubclassOf<AJFollowEnemy> MutantF;
+
+ void FightGoalUpdate();
 
 protected:
 	// Called when the game starts or when spawned
@@ -78,6 +124,7 @@ public:
 	//forward and backwards movement
 	void MoveForward(float Value);
 	//side movement
+	UFUNCTION(BlueprintCallable)
 	void MoveRight(float Value);
 
 	//Turn at a provided value
@@ -117,10 +164,20 @@ public:
 	void Death();
 
 	//Collectibles++
+	UFUNCTION(BlueprintCallable)
 	void CollectUp(int32 CollectQty);
+
+	//Health++
+	UFUNCTION(BlueprintCallable)
+	void HpUp(float Quantity);
+
+
 	
 	//Affect Health
 	void DamageHp(float Damage);
+
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent,
+		                    class AController* EventInstigator, AActor* DamageCauser) override;
 
 	FORCEINLINE class USpringArmComponent* GetCameraStick() const { return CameraStick; };
 	FORCEINLINE class UCameraComponent* GetPlayerCamera() const { return PlayerCamera; };
@@ -130,6 +187,7 @@ public:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Pickup")
 	class AGun* GunEquipped;
+
 
 	
 
@@ -153,8 +211,16 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void LoadGame(bool SetPos);
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Animation")
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Animation")
 	bool IsFighting;
+
+	
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Movement")
+	bool IsCrawling;
+
+	// checks if the enemy has a valid goal to continue attacking
+	bool IsWithFightGoal;
 
 	void Fight();
 
@@ -166,6 +232,40 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void KnifeSwingPlaySound();
+
+	UFUNCTION(BlueprintCallable)
+	void PlayerTerminated();
+
+	//Crouch
+	UFUNCTION()
+	void CrouchBegin();
+
+	UFUNCTION()
+	void CrouchEnd();
+
 	
+
+	UFUNCTION()
+	void KUp();
+
+	UFUNCTION()
+	void KDown();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stealth")
+	bool IsKDown;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stealth")
+	bool CanKill;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stealth")
+	bool CanPerformKill;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stealth")
+	bool IsKilling;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+	bool IsCombatMode;
+	
+	void CombatMode();
 	
 };

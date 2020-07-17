@@ -19,7 +19,15 @@ public:
 	class UBoxComponent* SpawnBox;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Spawn")
-	TSubclassOf <class APRJPawn> PawnToSpawn;
+	TSubclassOf <class AActor> ActorToSpawn1;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Spawn")
+	TSubclassOf <class AActor> ActorToSpawn2;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Spawn")
+	TSubclassOf <class AActor> ActorToSpawn3;
+
+	TArray<TSubclassOf<AActor>> ArrayToSpawn;
 
 protected:
 	// Called when the game starts or when spawned
@@ -29,11 +37,15 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+
 	UFUNCTION(BlueprintPure, Category = "Spawn")
-	FVector GetSpawnPoint();
+	TSubclassOf <AActor> GetSpawnActor();
+
+	UFUNCTION(BlueprintPure, Category = "Spawn")
+	FVector GetSpawnLocation();
 
 	//spawn any class type
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Spawn")
-		void SpawnGamePawn(UClass* ToBeSpawned, const FVector& Position);
+	void SpawnGameActor(UClass* ToBeSpawned, const FVector& Position);
 
 };

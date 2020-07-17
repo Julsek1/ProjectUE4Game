@@ -23,7 +23,7 @@ AGun::AGun()
 
 	GunState = EGunState::EGS_Take;
 
-	Damage = 20.f;
+	Damage = 15.f;
 }
 
 void AGun::BeginPlay()
@@ -38,6 +38,8 @@ void AGun::BeginPlay()
 	FightColl->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
 	FightColl->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
 
+	
+	
 }
 
 void AGun::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
@@ -73,6 +75,7 @@ void AGun::UseGun(AJBasePlayer* Player)
 {
 	if (Player)
 	{
+		SetInstr(Player->GetController());
 		//Avoid camera zooming in when the gun is in the way
 		SkMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Camera, ECollisionResponse::ECR_Ignore);
 		SkMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Ignore);
@@ -117,6 +120,10 @@ void AGun::FightOnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor*
 			{
 				UGameplayStatics::PlaySound2D(this, Enemy->KnifeHitSound);
 			}
+			if (DamageTypeClass)
+			{
+				UGameplayStatics::ApplyDamage(Enemy, Damage, GunInstr, this, DamageTypeClass);
+			}
 		}
 	}
 }
@@ -124,6 +131,8 @@ void AGun::FightOnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor*
 void AGun::FightOnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
 }
+
+
 
 void AGun::CollActive()
 {

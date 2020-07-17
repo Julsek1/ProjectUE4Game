@@ -9,10 +9,11 @@
 UENUM(BlueprintType)
 enum class EFEnemyMoveStat :uint8
 {
-	FEMS_Idle          UMETA(DeplayName = "Idle"),
-	FEMS_MoveToPlayer  UMETA(DeplayName = "MoveToPlayer"),
-	FEMS_Attack        UMETA(DeplayName = "Attack"),
-	FEMS_Max           UMETA(DeplayName = "DefMax")
+	FEMS_Idle          UMETA(DisplayName = "Idle"),
+	FEMS_MoveToPlayer  UMETA(DisplayName = "MoveToPlayer"),
+	FEMS_Attack        UMETA(DisplayName = "Attack"),
+	FEMS_Death         UMETA(DisplayName = "Death"),
+	FEMS_Max           UMETA(DisplayName = "DefMax"),
 
 };
 
@@ -29,6 +30,12 @@ public:
 	EFEnemyMoveStat EFEnemyMoveStatus;
 
 	FORCEINLINE void SetFEnemyMovStatus(EFEnemyMoveStat Stat) { EFEnemyMoveStatus = Stat;}
+	FORCEINLINE EFEnemyMoveStat GetFEnemyMovStatus() { return EFEnemyMoveStatus; }
+
+
+	//Sight
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "AI")
+	class UBoxComponent* VisionBox;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "AI")
 	class USphereComponent* FollowSphere;
@@ -54,6 +61,25 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
 	float Damage;
 
+	FTimerHandle DyingTempo;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+	bool IsFighting;
+
+	// checks if the enemy has a valid goal to continue attacking
+	bool IsWithGoal;
+
+	FTimerHandle FightTempo;
+
+	FTimerHandle PatrolStopTempo;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+	float Delay;
+
+	void EnemeyGhost();
+
+	AJFollowEnemy* Mutant;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
 	class UParticleSystem* TakeHitPS;
 
@@ -63,16 +89,22 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
     USoundCue* PunchSound;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+    TSubclassOf<UDamageType> DamageTypeClass;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Fight")
 	class UBoxComponent* BoxCollFight;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Fight")
 	class UAnimMontage* FightMontage;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Fight")
-	bool IsFighting;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
+	FVector  LastSeenPos;
 
-	AJFollowEnemy* Mutant;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
+	class APatrolPoint* NextPatrolPoint;
+
+	
 
 protected:
 	// Called when the game starts or when spawned
@@ -85,11 +117,21 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	UFUNCTION()
-	void FollowSphereOnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	/*UFUNCTION()
+	void FollowSphereOnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);*/
 
 	UFUNCTION()
-	void FollowSphereOnOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+		void VisionBoxOnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	
+	
+	/*UFUNCTION()
+	void FollowSphereOnOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);*/
+
+	UFUNCTION()
+		void VisionBoxOnOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
+
+
 
 	UFUNCTION()
 	void AttackSphereOnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
@@ -116,10 +158,24 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void CollisionInactive();
 
+	bool IsLiving();
+
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent,
+		class AController* EventInstigator, AActor* DamageCauser) override;
+
+	void Death(AActor* DamageMaker);
+
 	void Fight();
+
+	//At the end of enemy's death animation
+	UFUNCTION(BlueprintCallable)
+    void EnemyFinished();
+
 
 	UFUNCTION(BlueprintCallable)
 	void FightFinished();
 
+	UFUNCTION(BlueprintCallable)
+	void BasicPatrol(APatrolPoint* point);
 
 };
