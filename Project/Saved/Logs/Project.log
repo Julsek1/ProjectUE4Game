@@ -1314,3 +1314,1723 @@ Script Stack (0 frames):
 [2020.07.17-21.32.01:995][353]LogFileHelpers: Saving map 'MineField' took 0.262
 [2020.07.17-21.32.02:019][353]AssetCheck: New page: Asset Save: MineField
 [2020.07.17-21.32.02:019][353]LogContentValidation: Display: Validating World /Game/Julian/JLevels/MineField.MineField
+[2020.07.17-21.37.16:452][372]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2020.07.17-21.38.19:698][  6]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2020.07.17-21.38.19:822][  6]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/MineField0823BC0149B396B04FC9B5B4D34BFA4B.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JLevels/MineField.umap'
+[2020.07.17-21.38.20:064][  6]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/MineField_BuiltData187B837E4BE948CDF66EE7AD92CFCAD8.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JLevels/MineField_BuiltData.uasset'
+[2020.07.17-21.38.20:085][  6]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-21.38.20:085][  6]LogContentValidation: Display: Validating World /Game/Julian/JLevels/MineField.MineField
+[2020.07.17-21.38.20:085][  6]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Julian/JLevels/MineField_BuiltData.MineField_BuiltData
+[2020.07.17-21.40.51:621][ 79]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-21.40.51:661][ 79]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-21.40.51:661][ 79]PIE: New page: PIE session: MineField (Jul. 17, 2020, 1:40:51 p.m.)
+[2020.07.17-21.40.51:661][ 79]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-21.40.51:687][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025719s)
+[2020.07.17-21.40.51:689][ 79]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-21.40.51:689][ 79]LogPlayLevel: PIE: World Init took: (0.001647s)
+[2020.07.17-21.40.51:689][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.027640s)
+[2020.07.17-21.40.51:748][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2020.07.17-21.40.51:749][ 79]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-21.40.51:749][ 79]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-21.40.51:749][ 79]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-21.40.51:749][ 79]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-21.40.51:749][ 79]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-21.40.51:749][ 79]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-21.40.51:749][ 79]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-21.40.51:749][ 79]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-21.40.51:750][ 79]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-21.40.51:750][ 79]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-21.40.51:756][ 79]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-21.40.51:756][ 79]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-21.40.51:756][ 79]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-21.40.51:756][ 79]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-21.40.51:756][ 79]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-21.40.51:756][ 79]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-21.40.51:756][ 79]LogAudioMixer: Display: Channel Order:
+[2020.07.17-21.40.51:756][ 79]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-21.40.51:756][ 79]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-21.40.51:869][ 79]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-21.40.51:871][ 79]LogInit: FAudioDevice initialized.
+[2020.07.17-21.40.51:878][ 79]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-21.40.51:883][ 79]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-17.40.51
+[2020.07.17-21.40.51:883][ 79]LogWorld: Bringing up level for play took: 0.004537
+[2020.07.17-21.40.51:883][ 79]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.07.17-21.40.51:885][ 79]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Game/Julian/JLevels/UEDPIE_0_MineField.MineField:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:0186
+[2020.07.17-21.40.51:885][ 79]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-21.40.51:885][ 79]LogScript: Warning: Accessed None trying to read property RefPlayer
+	BP_JBasePlayerAnim_C /Game/Julian/JLevels/UEDPIE_0_MineField.MineField:PersistentLevel.BP_JBasePlayer_C_0.CharacterMesh0.BP_JBasePlayerAnim_C_0
+	Function /Game/Julian/JCharacter/BP_JBasePlayerAnim.BP_JBasePlayerAnim_C:ExecuteUbergraph_BP_JBasePlayerAnim:00F5
+[2020.07.17-21.40.51:885][ 79]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-21.40.51:885][ 79]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-21.40.51:889][ 79]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField -0.193
+[2020.07.17-21.40.55:846][292]LogBlueprintUserMessages: [BP_Mine62] Defuse
+[2020.07.17-21.41.00:515][529]LogBlueprintUserMessages: [BP_Mine65] Defuse
+[2020.07.17-21.41.13:500][ 98]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-21.41.13:500][ 98]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-21.41.13:500][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-21.41.13:500][ 98]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-21.41.13:500][ 98]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-21.41.13:502][ 98]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-21.41.13:503][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-21.41.13:558][ 98]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-21.41.13:569][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-21.41.13:628][ 98]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-21.41.13:632][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-21.41.13:640][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   5.33ms
+[2020.07.17-21.41.13:777][ 99]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.07.17-21.41.16:615][242]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-21.41.16:619][242]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-21.42.22:209][709]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-21.42.22:266][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-21.42.22:266][709]PIE: New page: PIE session: MineField (Jul. 17, 2020, 1:42:22 p.m.)
+[2020.07.17-21.42.22:266][709]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-21.42.22:299][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032462s)
+[2020.07.17-21.42.22:300][709]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-21.42.22:300][709]LogPlayLevel: PIE: World Init took: (0.001262s)
+[2020.07.17-21.42.22:300][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.033928s)
+[2020.07.17-21.42.22:360][709]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2020.07.17-21.42.22:361][709]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-21.42.22:361][709]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-21.42.22:361][709]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-21.42.22:362][709]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-21.42.22:362][709]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-21.42.22:362][709]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-21.42.22:362][709]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-21.42.22:362][709]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-21.42.22:362][709]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-21.42.22:362][709]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-21.42.22:369][709]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-21.42.22:369][709]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-21.42.22:369][709]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-21.42.22:369][709]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-21.42.22:369][709]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-21.42.22:369][709]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-21.42.22:369][709]LogAudioMixer: Display: Channel Order:
+[2020.07.17-21.42.22:369][709]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-21.42.22:369][709]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-21.42.22:483][709]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-21.42.22:485][709]LogInit: FAudioDevice initialized.
+[2020.07.17-21.42.22:493][709]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-21.42.22:498][709]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-17.42.22
+[2020.07.17-21.42.22:498][709]LogWorld: Bringing up level for play took: 0.005151
+[2020.07.17-21.42.22:499][709]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.07.17-21.42.22:501][709]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-21.42.22:501][709]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-21.42.22:501][709]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-21.42.22:504][709]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField 0.422
+[2020.07.17-21.42.57:410][625]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-21.42.57:430][625]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.17-21.42.57:450][625]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.17-21.42.57:451][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-21.42.57:451][625]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-21.42.57:451][625]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-21.42.57:451][625]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-21.42.57:452][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-21.42.57:467][625]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-21.42.57:473][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-21.42.57:516][625]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-21.42.57:522][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-21.42.57:529][625]LogUObjectHash: Compacting FUObjectHashTables data took   5.10ms
+[2020.07.17-21.42.57:722][626]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.07.17-21.42.59:212][693]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-21.42.59:219][693]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-21.43.40:052][434]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-21.43.40:094][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-21.43.40:094][434]PIE: New page: PIE session: MineField (Jul. 17, 2020, 1:43:40 p.m.)
+[2020.07.17-21.43.40:094][434]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-21.43.40:131][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036427s)
+[2020.07.17-21.43.40:132][434]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-21.43.40:133][434]LogPlayLevel: PIE: World Init took: (0.001579s)
+[2020.07.17-21.43.40:133][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.038248s)
+[2020.07.17-21.43.40:201][434]LogUObjectHash: Compacting FUObjectHashTables data took   5.71ms
+[2020.07.17-21.43.40:203][434]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-21.43.40:203][434]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-21.43.40:203][434]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-21.43.40:203][434]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-21.43.40:203][434]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-21.43.40:203][434]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-21.43.40:203][434]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-21.43.40:203][434]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-21.43.40:204][434]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-21.43.40:204][434]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-21.43.40:211][434]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-21.43.40:211][434]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-21.43.40:211][434]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-21.43.40:211][434]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-21.43.40:211][434]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-21.43.40:211][434]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-21.43.40:211][434]LogAudioMixer: Display: Channel Order:
+[2020.07.17-21.43.40:211][434]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-21.43.40:211][434]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-21.43.40:348][434]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-21.43.40:350][434]LogInit: FAudioDevice initialized.
+[2020.07.17-21.43.40:364][434]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-21.43.40:374][434]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-17.43.40
+[2020.07.17-21.43.40:374][434]LogWorld: Bringing up level for play took: 0.009241
+[2020.07.17-21.43.40:375][434]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.07.17-21.43.40:377][434]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-21.43.40:378][434]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-21.43.40:378][434]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-21.43.40:384][434]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField 0.302
+[2020.07.17-21.44.05:013][729]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-21.44.05:013][729]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-21.44.05:013][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-21.44.05:014][729]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-21.44.05:014][729]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-21.44.05:014][729]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-21.44.05:015][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-21.44.05:062][729]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-21.44.05:068][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-21.44.05:110][729]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-21.44.05:113][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-21.44.05:119][729]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2020.07.17-21.44.05:286][730]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.07.17-21.44.10:014][963]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-21.44.10:018][963]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-21.44.15:224][237]LogRenderer: Reallocating scene render targets to support 696x360 Format 10 NumSamples 1 (Frame:12191).
+[2020.07.17-21.44.15:251][238]LogRenderer: Reallocating scene render targets to support 696x368 Format 10 NumSamples 1 (Frame:12193).
+[2020.07.17-21.44.15:283][239]LogRenderer: Reallocating scene render targets to support 696x384 Format 10 NumSamples 1 (Frame:12195).
+[2020.07.17-21.44.15:317][240]LogRenderer: Reallocating scene render targets to support 696x404 Format 10 NumSamples 1 (Frame:12197).
+[2020.07.17-21.44.15:357][241]LogRenderer: Reallocating scene render targets to support 696x424 Format 10 NumSamples 1 (Frame:12199).
+[2020.07.17-21.44.15:393][242]LogRenderer: Reallocating scene render targets to support 696x432 Format 10 NumSamples 1 (Frame:12201).
+[2020.07.17-21.44.15:427][243]LogRenderer: Reallocating scene render targets to support 696x448 Format 10 NumSamples 1 (Frame:12203).
+[2020.07.17-21.44.15:477][244]LogRenderer: Reallocating scene render targets to support 696x456 Format 10 NumSamples 1 (Frame:12205).
+[2020.07.17-21.44.15:503][245]LogRenderer: Reallocating scene render targets to support 696x464 Format 10 NumSamples 1 (Frame:12207).
+[2020.07.17-21.44.15:537][246]LogRenderer: Reallocating scene render targets to support 696x468 Format 10 NumSamples 1 (Frame:12209).
+[2020.07.17-21.45.55:352][953]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-21.45.55:399][953]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-21.45.55:399][953]PIE: New page: PIE session: MineField (Jul. 17, 2020, 1:45:55 p.m.)
+[2020.07.17-21.45.55:399][953]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-21.45.55:430][953]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030907s)
+[2020.07.17-21.45.55:432][953]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-21.45.55:432][953]LogPlayLevel: PIE: World Init took: (0.002061s)
+[2020.07.17-21.45.55:432][953]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.033243s)
+[2020.07.17-21.45.55:496][953]LogUObjectHash: Compacting FUObjectHashTables data took   6.20ms
+[2020.07.17-21.45.55:500][953]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-21.45.55:500][953]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-21.45.55:500][953]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-21.45.55:500][953]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-21.45.55:500][953]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-21.45.55:500][953]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-21.45.55:500][953]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-21.45.55:500][953]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-21.45.55:501][953]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-21.45.55:501][953]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-21.45.55:508][953]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-21.45.55:508][953]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-21.45.55:508][953]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-21.45.55:508][953]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-21.45.55:508][953]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-21.45.55:508][953]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-21.45.55:508][953]LogAudioMixer: Display: Channel Order:
+[2020.07.17-21.45.55:508][953]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-21.45.55:508][953]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-21.45.55:640][953]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-21.45.55:642][953]LogInit: FAudioDevice initialized.
+[2020.07.17-21.45.55:654][953]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-21.45.55:659][953]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-17.45.55
+[2020.07.17-21.45.55:659][953]LogWorld: Bringing up level for play took: 0.005042
+[2020.07.17-21.45.55:659][953]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2020.07.17-21.45.55:662][953]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-21.45.55:662][953]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-21.45.55:662][953]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-21.45.55:666][953]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField -0.416
+[2020.07.17-21.46.25:195][380]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-21.46.25:195][380]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-21.46.25:195][380]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-21.46.25:195][380]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-21.46.25:195][380]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-21.46.25:195][380]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-21.46.25:197][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-21.46.25:257][380]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-21.46.25:264][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-21.46.25:302][380]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-21.46.25:306][380]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-21.46.25:311][380]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2020.07.17-21.46.25:442][381]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.07.17-21.46.27:660][493]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-21.46.27:664][493]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.07.01:029][257]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-22.07.01:080][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-22.07.01:081][257]PIE: New page: PIE session: MineField (Jul. 17, 2020, 2:07:01 p.m.)
+[2020.07.17-22.07.01:081][257]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.07.01:123][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041751s)
+[2020.07.17-22.07.01:125][257]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-22.07.01:125][257]LogPlayLevel: PIE: World Init took: (0.002395s)
+[2020.07.17-22.07.01:125][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.044453s)
+[2020.07.17-22.07.01:205][257]LogUObjectHash: Compacting FUObjectHashTables data took   7.17ms
+[2020.07.17-22.07.01:207][257]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-22.07.01:207][257]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-22.07.01:207][257]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-22.07.01:207][257]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-22.07.01:207][257]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-22.07.01:207][257]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-22.07.01:207][257]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-22.07.01:207][257]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-22.07.01:208][257]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-22.07.01:208][257]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-22.07.01:217][257]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-22.07.01:217][257]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.07.01:217][257]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-22.07.01:217][257]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-22.07.01:217][257]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-22.07.01:217][257]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-22.07.01:217][257]LogAudioMixer: Display: Channel Order:
+[2020.07.17-22.07.01:217][257]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-22.07.01:217][257]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-22.07.01:378][257]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.07.01:382][257]LogInit: FAudioDevice initialized.
+[2020.07.17-22.07.01:398][257]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-22.07.01:409][257]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-18.07.01
+[2020.07.17-22.07.01:410][257]LogWorld: Bringing up level for play took: 0.010520
+[2020.07.17-22.07.01:410][257]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.07.17-22.07.01:413][257]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.07.01:413][257]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.07.01:413][257]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.07.01:418][257]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField 1.337
+[2020.07.17-22.07.27:336][505]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.07.27:336][505]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.07.27:337][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.07.27:337][505]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.07.27:337][505]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.07.27:337][505]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-22.07.27:339][505]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.07.27:392][505]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-22.07.27:399][505]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.07.27:437][505]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.07.27:442][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.07.27:447][505]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2020.07.17-22.07.27:643][506]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.07.17-22.07.29:092][578]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.07.29:098][578]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.08.49:281][317]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-22.08.49:329][317]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-22.08.49:329][317]PIE: New page: PIE session: MineField (Jul. 17, 2020, 2:08:49 p.m.)
+[2020.07.17-22.08.49:329][317]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.08.49:370][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041178s)
+[2020.07.17-22.08.49:372][317]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-22.08.49:372][317]LogPlayLevel: PIE: World Init took: (0.001811s)
+[2020.07.17-22.08.49:372][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.043262s)
+[2020.07.17-22.08.49:437][317]LogUObjectHash: Compacting FUObjectHashTables data took   5.32ms
+[2020.07.17-22.08.49:439][317]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-22.08.49:439][317]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-22.08.49:439][317]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-22.08.49:439][317]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-22.08.49:439][317]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-22.08.49:439][317]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-22.08.49:439][317]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-22.08.49:439][317]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-22.08.49:440][317]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-22.08.49:440][317]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-22.08.49:446][317]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-22.08.49:447][317]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.08.49:447][317]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-22.08.49:447][317]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-22.08.49:447][317]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-22.08.49:447][317]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-22.08.49:447][317]LogAudioMixer: Display: Channel Order:
+[2020.07.17-22.08.49:447][317]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-22.08.49:447][317]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-22.08.49:615][317]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.08.49:618][317]LogInit: FAudioDevice initialized.
+[2020.07.17-22.08.49:630][317]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-22.08.49:638][317]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-18.08.49
+[2020.07.17-22.08.49:639][317]LogWorld: Bringing up level for play took: 0.007391
+[2020.07.17-22.08.49:639][317]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2020.07.17-22.08.49:641][317]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.08.49:641][317]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.08.49:642][317]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.08.49:646][317]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField -0.435
+[2020.07.17-22.09.09:787][286]LogTemp: Warning: CollectibleOverlapEnd
+[2020.07.17-22.09.09:787][286]LogTemp: Warning: CollectibleOverlapEnd
+[2020.07.17-22.09.53:432][685]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.09.53:432][685]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.09.53:433][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.09.53:433][685]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.09.53:433][685]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.09.53:433][685]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-22.09.53:436][685]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.09.53:475][685]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-22.09.53:482][685]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.09.53:518][685]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.09.53:522][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.09.53:527][685]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2020.07.17-22.09.53:722][686]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.07.17-22.09.55:223][752]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.09.55:226][752]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.13.45:648][667]LogEditorViewport: Clicking on Actor (LMB): BP_Mine2_C (BP_Mine22)
+[2020.07.17-22.13.51:584][992]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine2_C (BP_Mine14)
+[2020.07.17-22.13.54:057][125]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine2_C (BP_Mine6)
+[2020.07.17-22.13.55:893][226]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine2_C (BP_Mine59)
+[2020.07.17-22.14.30:492][167]LogActorFactory: Actor Factory created Cube
+[2020.07.17-22.14.32:165][261]LogActorFactory: Actor Factory created Cube
+[2020.07.17-22.14.48:192][153]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-22.14.48:258][153]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-22.14.48:258][153]PIE: New page: PIE session: MineField (Jul. 17, 2020, 2:14:48 p.m.)
+[2020.07.17-22.14.48:258][153]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.14.48:302][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044310s)
+[2020.07.17-22.14.48:304][153]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-22.14.48:305][153]LogPlayLevel: PIE: World Init took: (0.002053s)
+[2020.07.17-22.14.48:305][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.046802s)
+[2020.07.17-22.14.48:384][153]LogUObjectHash: Compacting FUObjectHashTables data took   6.08ms
+[2020.07.17-22.14.48:386][153]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-22.14.48:386][153]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-22.14.48:386][153]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-22.14.48:386][153]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-22.14.48:387][153]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-22.14.48:387][153]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-22.14.48:387][153]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-22.14.48:387][153]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-22.14.48:387][153]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-22.14.48:387][153]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-22.14.48:397][153]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-22.14.48:397][153]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.14.48:397][153]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-22.14.48:397][153]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-22.14.48:397][153]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-22.14.48:397][153]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-22.14.48:397][153]LogAudioMixer: Display: Channel Order:
+[2020.07.17-22.14.48:397][153]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-22.14.48:397][153]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-22.14.48:538][153]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.14.48:539][153]LogInit: FAudioDevice initialized.
+[2020.07.17-22.14.48:548][153]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-22.14.48:554][153]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-18.14.48
+[2020.07.17-22.14.48:555][153]LogWorld: Bringing up level for play took: 0.005784
+[2020.07.17-22.14.48:555][153]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.07.17-22.14.48:557][153]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.14.48:557][153]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.14.48:557][153]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.14.48:563][153]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField 0.481
+[2020.07.17-22.15.26:512][ 35]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.15.26:512][ 35]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.15.26:513][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.15.26:513][ 35]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.15.26:513][ 35]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.15.26:514][ 35]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-22.15.26:515][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.15.26:568][ 35]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-22.15.26:575][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.15.26:621][ 35]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.15.26:626][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.15.26:637][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   6.70ms
+[2020.07.17-22.15.26:827][ 36]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.07.17-22.15.28:045][ 89]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.15.28:050][ 89]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.15.29:420][166]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.07.17-22.15.44:440][998]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-22.15.44:493][998]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-22.15.44:494][998]PIE: New page: PIE session: MineField (Jul. 17, 2020, 2:15:44 p.m.)
+[2020.07.17-22.15.44:494][998]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.15.44:531][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037847s)
+[2020.07.17-22.15.44:533][998]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-22.15.44:533][998]LogPlayLevel: PIE: World Init took: (0.001853s)
+[2020.07.17-22.15.44:533][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.039957s)
+[2020.07.17-22.15.44:602][998]LogUObjectHash: Compacting FUObjectHashTables data took   6.02ms
+[2020.07.17-22.15.44:603][998]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-22.15.44:604][998]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-22.15.44:604][998]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-22.15.44:604][998]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-22.15.44:604][998]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-22.15.44:604][998]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-22.15.44:604][998]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-22.15.44:604][998]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-22.15.44:605][998]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-22.15.44:605][998]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-22.15.44:613][998]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-22.15.44:613][998]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.15.44:613][998]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-22.15.44:613][998]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-22.15.44:613][998]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-22.15.44:613][998]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-22.15.44:613][998]LogAudioMixer: Display: Channel Order:
+[2020.07.17-22.15.44:613][998]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-22.15.44:613][998]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-22.15.44:756][998]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.15.44:758][998]LogInit: FAudioDevice initialized.
+[2020.07.17-22.15.44:765][998]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-22.15.44:772][998]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-18.15.44
+[2020.07.17-22.15.44:772][998]LogWorld: Bringing up level for play took: 0.006335
+[2020.07.17-22.15.44:772][998]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2020.07.17-22.15.44:774][998]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.15.44:774][998]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.15.44:774][998]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.15.44:778][998]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField 0.696
+[2020.07.17-22.15.56:670][625]LogCharacterMovement: BP_JBasePlayer_C_0 is stuck and failed to move! Velocity: X=-18.54 Y=-28.66 Z=0.00 Location: X=1061.66 Y=370.78 Z=271.73 Normal: X=0.00 Y=1.00 Z=-0.00 PenetrationDepth:41.798 Actor:Cube_2 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2020.07.17-22.15.57:764][688]LogCharacterMovement: BP_JBasePlayer_C_0 is stuck and failed to move! Velocity: X=98.31 Y=-46.01 Z=0.00 Location: X=1073.32 Y=370.84 Z=301.95 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:41.744 Actor:Cube_2 Component:StaticMeshComponent0 BoneName:None (43 other events since notify)
+[2020.07.17-22.16.02:624][962]LogCharacterMovement: BP_JBasePlayer_C_0 is stuck and failed to move! Velocity: X=-18.62 Y=-28.78 Z=0.00 Location: X=1026.66 Y=370.03 Z=271.73 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:42.549 Actor:Cube_2 Component:StaticMeshComponent0 BoneName:None (42 other events since notify)
+[2020.07.17-22.16.28:926][452]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.16.28:926][452]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.16.28:926][452]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.16.28:926][452]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.16.28:926][452]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.16.28:926][452]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-22.16.28:928][452]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.16.28:966][452]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-22.16.28:973][452]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.16.29:028][452]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.16.29:033][452]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.16.29:041][452]LogUObjectHash: Compacting FUObjectHashTables data took   6.60ms
+[2020.07.17-22.16.29:234][453]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.07.17-22.16.30:735][524]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.16.30:738][524]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.16.31:617][572]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.07.17-22.16.54:167][873]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-22.16.54:217][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-22.16.54:218][873]PIE: New page: PIE session: MineField (Jul. 17, 2020, 2:16:54 p.m.)
+[2020.07.17-22.16.54:218][873]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.16.54:266][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047690s)
+[2020.07.17-22.16.54:268][873]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-22.16.54:268][873]LogPlayLevel: PIE: World Init took: (0.002160s)
+[2020.07.17-22.16.54:268][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.050141s)
+[2020.07.17-22.16.54:344][873]LogUObjectHash: Compacting FUObjectHashTables data took   6.60ms
+[2020.07.17-22.16.54:347][873]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-22.16.54:347][873]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-22.16.54:347][873]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-22.16.54:347][873]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-22.16.54:347][873]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-22.16.54:347][873]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-22.16.54:347][873]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-22.16.54:347][873]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-22.16.54:348][873]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-22.16.54:348][873]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-22.16.54:356][873]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-22.16.54:356][873]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.16.54:356][873]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-22.16.54:357][873]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-22.16.54:357][873]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-22.16.54:357][873]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-22.16.54:357][873]LogAudioMixer: Display: Channel Order:
+[2020.07.17-22.16.54:357][873]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-22.16.54:357][873]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-22.16.54:529][873]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.16.54:531][873]LogInit: FAudioDevice initialized.
+[2020.07.17-22.16.54:544][873]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-22.16.54:557][873]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-18.16.54
+[2020.07.17-22.16.54:557][873]LogWorld: Bringing up level for play took: 0.010921
+[2020.07.17-22.16.54:557][873]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2020.07.17-22.16.54:560][873]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.16.54:560][873]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.16.54:561][873]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.16.54:565][873]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField 0.484
+[2020.07.17-22.17.43:252][276]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.17.43:261][276]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.17-22.17.43:280][276]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.17-22.17.43:282][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.17.43:282][276]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.17.43:282][276]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.17.43:283][276]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-22.17.43:284][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.17.43:304][276]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-22.17.43:311][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.17.43:363][276]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.17.43:368][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.17.43:377][276]LogUObjectHash: Compacting FUObjectHashTables data took   6.57ms
+[2020.07.17-22.17.43:566][277]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2020.07.17-22.17.44:965][335]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.17.44:969][335]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.17.46:396][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.07.17-22.18.26:289][720]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-22.18.26:340][720]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-22.18.26:340][720]PIE: New page: PIE session: MineField (Jul. 17, 2020, 2:18:26 p.m.)
+[2020.07.17-22.18.26:340][720]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.18.26:376][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035734s)
+[2020.07.17-22.18.26:378][720]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-22.18.26:378][720]LogPlayLevel: PIE: World Init took: (0.001946s)
+[2020.07.17-22.18.26:378][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.037942s)
+[2020.07.17-22.18.26:463][720]LogUObjectHash: Compacting FUObjectHashTables data took   7.12ms
+[2020.07.17-22.18.26:465][720]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-22.18.26:465][720]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-22.18.26:465][720]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-22.18.26:465][720]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-22.18.26:465][720]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-22.18.26:465][720]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-22.18.26:465][720]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-22.18.26:465][720]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-22.18.26:466][720]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-22.18.26:466][720]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-22.18.26:474][720]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-22.18.26:474][720]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.18.26:474][720]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-22.18.26:474][720]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-22.18.26:474][720]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-22.18.26:474][720]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-22.18.26:474][720]LogAudioMixer: Display: Channel Order:
+[2020.07.17-22.18.26:474][720]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-22.18.26:474][720]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-22.18.26:638][720]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.18.26:640][720]LogInit: FAudioDevice initialized.
+[2020.07.17-22.18.26:649][720]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-22.18.26:657][720]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-18.18.26
+[2020.07.17-22.18.26:658][720]LogWorld: Bringing up level for play took: 0.007546
+[2020.07.17-22.18.26:658][720]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2020.07.17-22.18.26:660][720]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.18.26:660][720]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.18.26:660][720]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.18.26:664][720]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField 0.582
+[2020.07.17-22.19.48:553][202]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.19.48:553][202]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.19.48:553][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.19.48:553][202]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.19.48:553][202]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.19.48:554][202]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-22.19.48:555][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.19.48:607][202]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-22.19.48:614][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.19.48:666][202]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.19.48:672][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.19.48:682][202]LogUObjectHash: Compacting FUObjectHashTables data took   6.27ms
+[2020.07.17-22.19.48:902][203]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2020.07.17-22.19.50:453][270]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.19.50:457][270]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.21.52:940][425]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-22.21.52:983][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-22.21.52:983][425]PIE: New page: PIE session: MineField (Jul. 17, 2020, 2:21:52 p.m.)
+[2020.07.17-22.21.52:983][425]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.21.53:019][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034896s)
+[2020.07.17-22.21.53:020][425]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-22.21.53:021][425]LogPlayLevel: PIE: World Init took: (0.001993s)
+[2020.07.17-22.21.53:021][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.037152s)
+[2020.07.17-22.21.53:078][425]LogUObjectHash: Compacting FUObjectHashTables data took   5.13ms
+[2020.07.17-22.21.53:079][425]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-22.21.53:079][425]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-22.21.53:079][425]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-22.21.53:079][425]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-22.21.53:079][425]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-22.21.53:079][425]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-22.21.53:079][425]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-22.21.53:079][425]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-22.21.53:079][425]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-22.21.53:079][425]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-22.21.53:086][425]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-22.21.53:086][425]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.21.53:086][425]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-22.21.53:086][425]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-22.21.53:086][425]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-22.21.53:086][425]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-22.21.53:086][425]LogAudioMixer: Display: Channel Order:
+[2020.07.17-22.21.53:086][425]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-22.21.53:086][425]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-22.21.53:213][425]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.21.53:215][425]LogInit: FAudioDevice initialized.
+[2020.07.17-22.21.53:232][425]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-22.21.53:247][425]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-18.21.53
+[2020.07.17-22.21.53:248][425]LogWorld: Bringing up level for play took: 0.014054
+[2020.07.17-22.21.53:248][425]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2020.07.17-22.21.53:252][425]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.21.53:252][425]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.21.53:252][425]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.21.53:257][425]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField 1.176
+[2020.07.17-22.22.10:838][329]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.22.10:841][329]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.17-22.22.10:860][329]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.17-22.22.10:861][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.22.10:861][329]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.22.10:861][329]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.22.10:861][329]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-22.22.10:862][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.22.10:886][329]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-22.22.10:892][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.22.10:929][329]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.22.10:933][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.22.10:938][329]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2020.07.17-22.22.11:059][330]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2020.07.17-22.22.12:501][389]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.22.12:505][389]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.22.15:301][539]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-22.22.15:353][539]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-22.22.15:353][539]PIE: New page: PIE session: MineField (Jul. 17, 2020, 2:22:15 p.m.)
+[2020.07.17-22.22.15:353][539]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.22.15:384][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030381s)
+[2020.07.17-22.22.15:385][539]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-22.22.15:385][539]LogPlayLevel: PIE: World Init took: (0.001395s)
+[2020.07.17-22.22.15:386][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.031990s)
+[2020.07.17-22.22.15:448][539]LogUObjectHash: Compacting FUObjectHashTables data took   5.51ms
+[2020.07.17-22.22.15:449][539]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-22.22.15:449][539]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-22.22.15:449][539]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-22.22.15:449][539]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-22.22.15:449][539]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-22.22.15:449][539]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-22.22.15:449][539]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-22.22.15:449][539]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-22.22.15:450][539]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-22.22.15:450][539]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-22.22.15:456][539]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-22.22.15:456][539]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.22.15:456][539]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-22.22.15:456][539]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-22.22.15:456][539]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-22.22.15:456][539]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-22.22.15:457][539]LogAudioMixer: Display: Channel Order:
+[2020.07.17-22.22.15:457][539]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-22.22.15:457][539]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-22.22.15:602][539]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.22.15:604][539]LogInit: FAudioDevice initialized.
+[2020.07.17-22.22.15:622][539]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-22.22.15:646][539]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-18.22.15
+[2020.07.17-22.22.15:647][539]LogWorld: Bringing up level for play took: 0.023720
+[2020.07.17-22.22.15:648][539]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2020.07.17-22.22.15:651][539]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.22.15:652][539]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.22.15:652][539]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.22.15:657][539]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField -0.424
+[2020.07.17-22.23.45:741][156]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.23.45:741][156]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.23.45:741][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.23.45:741][156]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.23.45:741][156]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.23.45:742][156]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-22.23.45:742][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.23.45:798][156]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-22.23.45:807][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.23.45:854][156]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.23.45:859][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.23.45:866][156]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2020.07.17-22.23.46:012][157]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2020.07.17-22.23.47:439][222]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.23.47:442][222]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.23.58:360][876]LogEditorViewport: Clicking on Actor (LMB): BP_Mine2_C (BP_Mine50)
+[2020.07.17-22.24.00:870][ 21]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine2_C (BP_Mine49)
+[2020.07.17-22.24.01:881][ 76]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine2_C (BP_Mine48)
+[2020.07.17-22.24.02:914][133]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine2_C (BP_Mine47)
+[2020.07.17-22.24.13:699][764]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine)
+[2020.07.17-22.24.15:480][863]Cmd: DUPLICATE
+[2020.07.17-22.24.15:481][863]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.24.27:351][551]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine)
+[2020.07.17-22.24.30:489][728]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine3)
+[2020.07.17-22.24.32:118][821]Cmd: DUPLICATE
+[2020.07.17-22.24.32:118][821]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.24.42:415][427]Cmd: DUPLICATE
+[2020.07.17-22.24.42:415][427]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.24.50:430][869]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-22.24.50:504][869]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-22.24.50:504][869]PIE: New page: PIE session: MineField (Jul. 17, 2020, 2:24:50 p.m.)
+[2020.07.17-22.24.50:505][869]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.24.50:547][869]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042084s)
+[2020.07.17-22.24.50:549][869]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-22.24.50:549][869]LogPlayLevel: PIE: World Init took: (0.001972s)
+[2020.07.17-22.24.50:550][869]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.044414s)
+[2020.07.17-22.24.50:616][869]LogUObjectHash: Compacting FUObjectHashTables data took   6.34ms
+[2020.07.17-22.24.50:618][869]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-22.24.50:618][869]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-22.24.50:618][869]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-22.24.50:618][869]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-22.24.50:618][869]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-22.24.50:618][869]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-22.24.50:619][869]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-22.24.50:619][869]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-22.24.50:619][869]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-22.24.50:619][869]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-22.24.50:627][869]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-22.24.50:627][869]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.24.50:627][869]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-22.24.50:627][869]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-22.24.50:627][869]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-22.24.50:627][869]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-22.24.50:627][869]LogAudioMixer: Display: Channel Order:
+[2020.07.17-22.24.50:627][869]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-22.24.50:627][869]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-22.24.50:775][869]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.24.50:777][869]LogInit: FAudioDevice initialized.
+[2020.07.17-22.24.50:785][869]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-22.24.50:794][869]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-18.24.50
+[2020.07.17-22.24.50:794][869]LogWorld: Bringing up level for play took: 0.008057
+[2020.07.17-22.24.50:794][869]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2020.07.17-22.24.50:796][869]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.24.50:797][869]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.24.50:797][869]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.24.50:813][869]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField 0.731
+[2020.07.17-22.25.13:929][ 55]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.25.13:940][ 55]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.17-22.25.13:961][ 55]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.17-22.25.13:962][ 55]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.25.13:962][ 55]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.25.13:962][ 55]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.25.13:962][ 55]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-22.25.13:963][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.25.13:984][ 55]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-22.25.13:990][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.25.14:029][ 55]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.25.14:034][ 55]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.25.14:040][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2020.07.17-22.25.14:183][ 56]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2020.07.17-22.25.15:894][138]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.25.15:898][138]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.25.18:618][296]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine16)
+[2020.07.17-22.25.21:814][479]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine10)
+[2020.07.17-22.25.23:740][586]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine8)
+[2020.07.17-22.25.24:876][650]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine16)
+[2020.07.17-22.25.26:105][718]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine10)
+[2020.07.17-22.25.27:473][793]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine9)
+[2020.07.17-22.25.28:623][858]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine8)
+[2020.07.17-22.25.30:251][952]Cmd: DUPLICATE
+[2020.07.17-22.25.30:252][952]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.25.45:237][831]Cmd: DUPLICATE
+[2020.07.17-22.25.45:237][831]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.25.49:045][ 50]Cmd: DUPLICATE
+[2020.07.17-22.25.49:045][ 50]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.25.53:750][324]Cmd: DUPLICATE
+[2020.07.17-22.25.53:750][324]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.26.05:510][ 16]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine)
+[2020.07.17-22.26.06:562][ 71]Cmd: DELETE
+[2020.07.17-22.26.06:562][ 71]Cmd: ACTOR DELETE
+[2020.07.17-22.26.06:591][ 71]LogEditorActor: Deleted Actor: BP_Mine_C
+[2020.07.17-22.26.06:654][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2020.07.17-22.26.06:655][ 71]LogEditorActor: Deleted 1 Actors (0.094 secs)
+[2020.07.17-22.26.12:222][401]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine84)
+[2020.07.17-22.26.15:423][579]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine83)
+[2020.07.17-22.26.16:644][645]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine82)
+[2020.07.17-22.26.17:694][703]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine81)
+[2020.07.17-22.26.18:527][747]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine42)
+[2020.07.17-22.26.19:308][790]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine43)
+[2020.07.17-22.26.20:023][828]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine35)
+[2020.07.17-22.26.20:743][866]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine36)
+[2020.07.17-22.26.21:260][892]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine79)
+[2020.07.17-22.26.22:235][945]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine80)
+[2020.07.17-22.26.22:906][982]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine41)
+[2020.07.17-22.26.24:163][ 52]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine29)
+[2020.07.17-22.26.24:901][ 92]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine17)
+[2020.07.17-22.26.25:648][131]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine18)
+[2020.07.17-22.26.26:396][170]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine19)
+[2020.07.17-22.26.28:754][302]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine27)
+[2020.07.17-22.26.34:283][621]Cmd: DUPLICATE
+[2020.07.17-22.26.34:283][621]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.26.41:170][ 10]Cmd: DUPLICATE
+[2020.07.17-22.26.41:170][ 10]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.26.58:753][ 28]LogEditorViewport: Clicking on Actor (LMB): BP_Mine2_C (BP_Mine44)
+[2020.07.17-22.27.07:424][515]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine2_C (BP_Mine45)
+[2020.07.17-22.27.08:957][602]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine2_C (BP_Mine46)
+[2020.07.17-22.27.21:550][322]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.07.17-22.27.45:569][692]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine16)
+[2020.07.17-22.27.47:495][800]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine10)
+[2020.07.17-22.27.48:771][871]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine9)
+[2020.07.17-22.27.49:705][921]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine8)
+[2020.07.17-22.27.50:433][960]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine3)
+[2020.07.17-22.27.52:511][ 75]Cmd: DUPLICATE
+[2020.07.17-22.27.52:511][ 75]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.28.04:333][749]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine121)
+[2020.07.17-22.28.05:353][804]Cmd: DELETE
+[2020.07.17-22.28.05:353][804]Cmd: ACTOR DELETE
+[2020.07.17-22.28.05:358][804]LogEditorActor: Deleted Actor: BP_Mine_C
+[2020.07.17-22.28.05:404][804]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2020.07.17-22.28.05:405][804]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2020.07.17-22.28.22:325][817]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine81)
+[2020.07.17-22.28.24:374][929]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine42)
+[2020.07.17-22.28.25:234][975]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine29)
+[2020.07.17-22.28.26:118][ 23]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine17)
+[2020.07.17-22.28.27:313][ 91]Cmd: DELETE
+[2020.07.17-22.28.27:313][ 91]Cmd: ACTOR DELETE
+[2020.07.17-22.28.27:319][ 91]LogEditorActor: Deleted Actor: BP_Mine_C
+[2020.07.17-22.28.27:320][ 91]LogEditorActor: Deleted Actor: BP_Mine_C
+[2020.07.17-22.28.27:320][ 91]LogEditorActor: Deleted Actor: BP_Mine_C
+[2020.07.17-22.28.27:321][ 91]LogEditorActor: Deleted Actor: BP_Mine_C
+[2020.07.17-22.28.27:365][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2020.07.17-22.28.27:366][ 91]LogEditorActor: Deleted 4 Actors (0.053 secs)
+[2020.07.17-22.28.32:106][368]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine3)
+[2020.07.17-22.28.33:056][418]Cmd: DELETE
+[2020.07.17-22.28.33:056][418]Cmd: ACTOR DELETE
+[2020.07.17-22.28.33:062][418]LogEditorActor: Deleted Actor: BP_Mine_C
+[2020.07.17-22.28.33:103][418]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2020.07.17-22.28.33:103][418]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2020.07.17-22.28.34:937][523]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine8)
+[2020.07.17-22.28.35:481][552]Cmd: DELETE
+[2020.07.17-22.28.35:481][552]Cmd: ACTOR DELETE
+[2020.07.17-22.28.35:486][552]LogEditorActor: Deleted Actor: BP_Mine_C
+[2020.07.17-22.28.35:528][552]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.07.17-22.28.35:529][552]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2020.07.17-22.28.37:700][680]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.07.17-22.28.56:250][752]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine9)
+[2020.07.17-22.28.58:108][854]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine119)
+[2020.07.17-22.29.00:706][999]LogEditorViewport: Clicking on Actor (CTRL LMB): DirectionalLight (DirectionalLight)
+[2020.07.17-22.29.02:078][ 76]Cmd: DUPLICATE
+[2020.07.17-22.29.02:078][ 76]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.29.08:721][449]Cmd: DELETE
+[2020.07.17-22.29.08:721][449]Cmd: ACTOR DELETE
+[2020.07.17-22.29.08:729][449]LogEditorActor: Deleted Actor: DirectionalLight
+[2020.07.17-22.29.08:730][449]LogEditorActor: Deleted Actor: BP_Mine_C
+[2020.07.17-22.29.08:771][449]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2020.07.17-22.29.08:772][449]LogEditorActor: Deleted 2 Actors (0.051 secs)
+[2020.07.17-22.29.10:390][546]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine119)
+[2020.07.17-22.29.12:517][665]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine120)
+[2020.07.17-22.29.14:059][751]Cmd: DUPLICATE
+[2020.07.17-22.29.14:059][751]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.29.32:016][785]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine18)
+[2020.07.17-22.29.42:855][391]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine35)
+[2020.07.17-22.30.14:933][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.07.17-22.30.26:465][919]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine119)
+[2020.07.17-22.30.32:317][248]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine118)
+[2020.07.17-22.30.33:873][334]Cmd: DELETE
+[2020.07.17-22.30.33:873][334]Cmd: ACTOR DELETE
+[2020.07.17-22.30.33:878][334]LogEditorActor: Deleted Actor: BP_Mine_C
+[2020.07.17-22.30.33:930][334]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
+[2020.07.17-22.30.33:932][334]LogEditorActor: Deleted 1 Actors (0.059 secs)
+[2020.07.17-22.30.34:750][381]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine117)
+[2020.07.17-22.30.46:378][ 45]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-22.30.46:432][ 45]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-22.30.46:432][ 45]PIE: New page: PIE session: MineField (Jul. 17, 2020, 2:30:46 p.m.)
+[2020.07.17-22.30.46:432][ 45]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.30.46:496][ 45]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064784s)
+[2020.07.17-22.30.46:498][ 45]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-22.30.46:498][ 45]LogPlayLevel: PIE: World Init took: (0.002032s)
+[2020.07.17-22.30.46:499][ 45]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.067323s)
+[2020.07.17-22.30.46:564][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   6.63ms
+[2020.07.17-22.30.46:565][ 45]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-22.30.46:565][ 45]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-22.30.46:565][ 45]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-22.30.46:566][ 45]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-22.30.46:566][ 45]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-22.30.46:566][ 45]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-22.30.46:566][ 45]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-22.30.46:566][ 45]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-22.30.46:566][ 45]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-22.30.46:566][ 45]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-22.30.46:575][ 45]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-22.30.46:575][ 45]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.30.46:575][ 45]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-22.30.46:575][ 45]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-22.30.46:575][ 45]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-22.30.46:575][ 45]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-22.30.46:575][ 45]LogAudioMixer: Display: Channel Order:
+[2020.07.17-22.30.46:575][ 45]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-22.30.46:575][ 45]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-22.30.46:708][ 45]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.30.46:710][ 45]LogInit: FAudioDevice initialized.
+[2020.07.17-22.30.46:715][ 45]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-22.30.46:731][ 45]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-18.30.46
+[2020.07.17-22.30.46:731][ 45]LogWorld: Bringing up level for play took: 0.015163
+[2020.07.17-22.30.46:731][ 45]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2020.07.17-22.30.46:733][ 45]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.30.46:733][ 45]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.30.46:733][ 45]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.30.46:738][ 45]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField 0.656
+[2020.07.17-22.31.28:521][197]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.31.28:522][197]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.31.28:522][197]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.31.28:522][197]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.31.28:522][197]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.31.28:523][197]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-22.31.28:525][197]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.31.28:570][197]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-22.31.28:578][197]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.31.28:638][197]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.31.28:642][197]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.31.28:649][197]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2020.07.17-22.31.28:811][198]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2020.07.17-22.31.30:479][275]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.31.30:484][275]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.31.48:361][328]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine16)
+[2020.07.17-22.31.51:015][479]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine2)
+[2020.07.17-22.31.52:420][560]Cmd: DUPLICATE
+[2020.07.17-22.31.52:420][560]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.32.00:268][  4]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine2)
+[2020.07.17-22.32.02:049][101]Cmd: DUPLICATE
+[2020.07.17-22.32.02:049][101]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.32.09:521][525]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine3)
+[2020.07.17-22.32.10:807][595]Cmd: DUPLICATE
+[2020.07.17-22.32.10:807][595]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.32.14:514][805]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine3)
+[2020.07.17-22.32.15:520][860]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine17)
+[2020.07.17-22.32.16:934][941]Cmd: DUPLICATE
+[2020.07.17-22.32.16:934][941]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.32.31:571][763]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-22.32.31:619][763]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-22.32.31:619][763]PIE: New page: PIE session: MineField (Jul. 17, 2020, 2:32:31 p.m.)
+[2020.07.17-22.32.31:619][763]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.32.31:673][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053976s)
+[2020.07.17-22.32.31:675][763]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-22.32.31:675][763]LogPlayLevel: PIE: World Init took: (0.001813s)
+[2020.07.17-22.32.31:675][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.056089s)
+[2020.07.17-22.32.31:751][763]LogUObjectHash: Compacting FUObjectHashTables data took   7.05ms
+[2020.07.17-22.32.31:753][763]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-22.32.31:753][763]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-22.32.31:754][763]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-22.32.31:754][763]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-22.32.31:754][763]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-22.32.31:754][763]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-22.32.31:754][763]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-22.32.31:754][763]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-22.32.31:754][763]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-22.32.31:754][763]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-22.32.31:762][763]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-22.32.31:762][763]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.32.31:762][763]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-22.32.31:762][763]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-22.32.31:762][763]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-22.32.31:762][763]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-22.32.31:762][763]LogAudioMixer: Display: Channel Order:
+[2020.07.17-22.32.31:762][763]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-22.32.31:762][763]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-22.32.31:906][763]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.32.31:908][763]LogInit: FAudioDevice initialized.
+[2020.07.17-22.32.31:931][763]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-22.32.31:951][763]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-18.32.31
+[2020.07.17-22.32.31:952][763]LogWorld: Bringing up level for play took: 0.020523
+[2020.07.17-22.32.31:952][763]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2020.07.17-22.32.31:954][763]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.32.31:955][763]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.32.31:955][763]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.32.31:960][763]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField -0.121
+[2020.07.17-22.32.50:347][622]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.32.50:361][622]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.17-22.32.50:381][622]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.17-22.32.50:382][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.32.50:382][622]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.32.50:382][622]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.32.50:382][622]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-22.32.50:387][622]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.32.50:403][622]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-22.32.50:413][622]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.32.50:476][622]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.32.50:481][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.32.50:492][622]LogUObjectHash: Compacting FUObjectHashTables data took   6.19ms
+[2020.07.17-22.32.50:675][623]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2020.07.17-22.32.52:004][689]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.32.52:008][689]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.33.05:439][487]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine8)
+[2020.07.17-22.33.08:494][657]Cmd: DUPLICATE
+[2020.07.17-22.33.08:494][657]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.33.15:599][ 59]Cmd: DUPLICATE
+[2020.07.17-22.33.15:600][ 59]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.33.36:643][229]Cmd: DUPLICATE
+[2020.07.17-22.33.36:643][229]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.33.50:878][ 25]Cmd: DUPLICATE
+[2020.07.17-22.33.50:878][ 25]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.34.09:875][103]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine117)
+[2020.07.17-22.34.10:794][152]Cmd: DUPLICATE
+[2020.07.17-22.34.10:794][152]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.34.16:339][465]Cmd: DUPLICATE
+[2020.07.17-22.34.16:339][465]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.34.36:756][623]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine81)
+[2020.07.17-22.34.37:871][682]Cmd: DUPLICATE
+[2020.07.17-22.34.37:871][682]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.34.46:986][181]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-22.34.47:064][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-22.34.47:064][181]PIE: New page: PIE session: MineField (Jul. 17, 2020, 2:34:47 p.m.)
+[2020.07.17-22.34.47:066][181]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.34.47:113][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048008s)
+[2020.07.17-22.34.47:114][181]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-22.34.47:115][181]LogPlayLevel: PIE: World Init took: (0.001791s)
+[2020.07.17-22.34.47:115][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.050106s)
+[2020.07.17-22.34.47:174][181]LogUObjectHash: Compacting FUObjectHashTables data took   5.16ms
+[2020.07.17-22.34.47:176][181]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-22.34.47:176][181]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-22.34.47:176][181]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-22.34.47:176][181]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-22.34.47:176][181]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-22.34.47:176][181]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-22.34.47:176][181]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-22.34.47:176][181]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-22.34.47:177][181]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-22.34.47:177][181]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-22.34.47:183][181]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-22.34.47:183][181]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.34.47:183][181]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-22.34.47:183][181]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-22.34.47:183][181]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-22.34.47:183][181]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-22.34.47:183][181]LogAudioMixer: Display: Channel Order:
+[2020.07.17-22.34.47:183][181]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-22.34.47:183][181]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-22.34.47:326][181]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.34.47:329][181]LogInit: FAudioDevice initialized.
+[2020.07.17-22.34.47:341][181]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-22.34.47:352][181]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-18.34.47
+[2020.07.17-22.34.47:352][181]LogWorld: Bringing up level for play took: 0.010647
+[2020.07.17-22.34.47:353][181]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2020.07.17-22.34.47:356][181]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.34.47:356][181]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.34.47:356][181]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.34.47:360][181]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField 1.278
+[2020.07.17-22.35.43:536][157]LogTemp: Warning: CollectibleOverlapEnd
+[2020.07.17-22.35.43:536][157]LogTemp: Warning: CollectibleOverlapEnd
+[2020.07.17-22.35.44:565][217]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.35.44:581][217]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.17-22.35.44:601][217]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.17-22.35.44:603][217]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.35.44:603][217]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.35.44:603][217]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.35.44:604][217]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-22.35.44:611][217]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.35.44:640][217]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-22.35.44:658][217]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.35.44:703][217]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.35.44:707][217]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.35.44:713][217]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2020.07.17-22.35.44:937][218]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2020.07.17-22.35.46:363][291]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.35.46:369][291]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.35.48:693][428]LogEditorViewport: Clicking on Actor (LMB): BP_Collectable_C (BP_Collectable)
+[2020.07.17-22.36.01:778][188]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine122)
+[2020.07.17-22.36.09:462][630]Cmd: DUPLICATE
+[2020.07.17-22.36.09:462][630]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.36.31:669][911]Cmd: DUPLICATE
+[2020.07.17-22.36.31:669][911]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.36.37:267][235]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine131)
+[2020.07.17-22.36.38:286][290]Cmd: DUPLICATE
+[2020.07.17-22.36.38:286][290]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.36.43:078][556]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-22.36.43:131][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-22.36.43:131][556]PIE: New page: PIE session: MineField (Jul. 17, 2020, 2:36:43 p.m.)
+[2020.07.17-22.36.43:133][556]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.36.43:194][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060560s)
+[2020.07.17-22.36.43:195][556]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-22.36.43:195][556]LogPlayLevel: PIE: World Init took: (0.001377s)
+[2020.07.17-22.36.43:195][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.062332s)
+[2020.07.17-22.36.43:267][556]LogUObjectHash: Compacting FUObjectHashTables data took   5.51ms
+[2020.07.17-22.36.43:269][556]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-22.36.43:269][556]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-22.36.43:269][556]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-22.36.43:269][556]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-22.36.43:269][556]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-22.36.43:269][556]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-22.36.43:269][556]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-22.36.43:269][556]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-22.36.43:269][556]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-22.36.43:269][556]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-22.36.43:277][556]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-22.36.43:277][556]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.36.43:277][556]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-22.36.43:277][556]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-22.36.43:277][556]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-22.36.43:277][556]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-22.36.43:277][556]LogAudioMixer: Display: Channel Order:
+[2020.07.17-22.36.43:277][556]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-22.36.43:277][556]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-22.36.43:441][556]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.36.43:444][556]LogInit: FAudioDevice initialized.
+[2020.07.17-22.36.43:454][556]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-22.36.43:470][556]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-18.36.43
+[2020.07.17-22.36.43:470][556]LogWorld: Bringing up level for play took: 0.015716
+[2020.07.17-22.36.43:470][556]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2020.07.17-22.36.43:472][556]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.36.43:473][556]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.36.43:473][556]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.36.43:477][556]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField -0.605
+[2020.07.17-22.37.16:959][325]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.37.16:960][325]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.17-22.37.16:980][325]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.17-22.37.16:981][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.37.16:981][325]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.37.16:981][325]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.37.16:981][325]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-22.37.16:983][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.37.16:989][325]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-22.37.16:995][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.37.17:037][325]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.37.17:041][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.37.17:048][325]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2020.07.17-22.37.17:230][326]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2020.07.17-22.37.18:638][395]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.37.18:643][395]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.37.30:296][ 86]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine101)
+[2020.07.17-22.37.34:019][302]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine102)
+[2020.07.17-22.37.34:710][339]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine103)
+[2020.07.17-22.37.35:459][379]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine104)
+[2020.07.17-22.37.36:179][414]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine85)
+[2020.07.17-22.37.37:372][480]Cmd: DUPLICATE
+[2020.07.17-22.37.37:372][480]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.37.56:835][603]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine118)
+[2020.07.17-22.37.57:817][653]Cmd: DUPLICATE
+[2020.07.17-22.37.57:817][653]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.38.16:803][722]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-22.38.16:854][722]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-22.38.16:854][722]PIE: New page: PIE session: MineField (Jul. 17, 2020, 2:38:16 p.m.)
+[2020.07.17-22.38.16:855][722]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.38.16:916][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060611s)
+[2020.07.17-22.38.16:918][722]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-22.38.16:918][722]LogPlayLevel: PIE: World Init took: (0.001960s)
+[2020.07.17-22.38.16:919][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.063009s)
+[2020.07.17-22.38.16:993][722]LogUObjectHash: Compacting FUObjectHashTables data took   6.81ms
+[2020.07.17-22.38.16:995][722]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-22.38.16:995][722]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-22.38.16:995][722]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-22.38.16:995][722]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-22.38.16:995][722]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-22.38.16:995][722]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-22.38.16:995][722]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-22.38.16:995][722]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-22.38.16:996][722]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-22.38.16:996][722]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-22.38.17:005][722]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-22.38.17:005][722]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.38.17:005][722]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-22.38.17:005][722]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-22.38.17:005][722]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-22.38.17:005][722]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-22.38.17:005][722]LogAudioMixer: Display: Channel Order:
+[2020.07.17-22.38.17:005][722]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-22.38.17:005][722]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-22.38.17:161][722]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.38.17:163][722]LogInit: FAudioDevice initialized.
+[2020.07.17-22.38.17:170][722]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-22.38.17:184][722]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-18.38.17
+[2020.07.17-22.38.17:185][722]LogWorld: Bringing up level for play took: 0.013756
+[2020.07.17-22.38.17:185][722]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2020.07.17-22.38.17:187][722]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.38.17:187][722]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.38.17:187][722]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.38.17:192][722]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField 1.11
+[2020.07.17-22.38.43:371][937]LogBlueprintUserMessages: [BP_Mine50] Defuse
+[2020.07.17-22.39.11:188][252]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.39.11:188][252]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.39.11:188][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.39.11:188][252]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.39.11:188][252]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.39.11:189][252]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-22.39.11:191][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.39.11:225][252]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-22.39.11:231][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.39.11:276][252]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.39.11:280][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.39.11:286][252]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2020.07.17-22.39.11:507][253]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2020.07.17-22.39.12:894][311]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.39.12:898][311]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.39.34:042][562]LogEditorViewport: Clicking on Actor (LMB): BP_Mine2_C (BP_Mine24)
+[2020.07.17-22.39.37:509][754]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine2_C (BP_Mine48)
+[2020.07.17-22.39.39:217][849]Cmd: DUPLICATE
+[2020.07.17-22.39.39:217][849]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.39.49:006][383]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-22.39.49:055][383]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-22.39.49:055][383]PIE: New page: PIE session: MineField (Jul. 17, 2020, 2:39:49 p.m.)
+[2020.07.17-22.39.49:056][383]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.39.49:118][383]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061797s)
+[2020.07.17-22.39.49:119][383]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-22.39.49:120][383]LogPlayLevel: PIE: World Init took: (0.001853s)
+[2020.07.17-22.39.49:120][383]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.063951s)
+[2020.07.17-22.39.49:190][383]LogUObjectHash: Compacting FUObjectHashTables data took   6.27ms
+[2020.07.17-22.39.49:193][383]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-22.39.49:193][383]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-22.39.49:193][383]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-22.39.49:193][383]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-22.39.49:193][383]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-22.39.49:193][383]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-22.39.49:193][383]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-22.39.49:193][383]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-22.39.49:193][383]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-22.39.49:193][383]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-22.39.49:201][383]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-22.39.49:201][383]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.39.49:201][383]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-22.39.49:201][383]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-22.39.49:201][383]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-22.39.49:201][383]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-22.39.49:201][383]LogAudioMixer: Display: Channel Order:
+[2020.07.17-22.39.49:201][383]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-22.39.49:201][383]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-22.39.49:355][383]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.39.49:357][383]LogInit: FAudioDevice initialized.
+[2020.07.17-22.39.49:377][383]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-22.39.49:407][383]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-18.39.49
+[2020.07.17-22.39.49:407][383]LogWorld: Bringing up level for play took: 0.029328
+[2020.07.17-22.39.49:407][383]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2020.07.17-22.39.49:410][383]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.39.49:410][383]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.39.49:410][383]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.39.49:416][383]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField 1.335
+[2020.07.17-22.40.22:999][951]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.40.22:999][951]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.40.23:000][951]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.40.23:001][951]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.40.23:001][951]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.40.23:002][951]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-22.40.23:007][951]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.40.23:041][951]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-22.40.23:047][951]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.40.23:087][951]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.40.23:091][951]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.40.23:096][951]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2020.07.17-22.40.23:275][952]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2020.07.17-22.40.24:603][ 13]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.40.24:607][ 13]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.40.52:038][617]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-22.40.52:091][617]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-22.40.52:092][617]PIE: New page: PIE session: MineField (Jul. 17, 2020, 2:40:52 p.m.)
+[2020.07.17-22.40.52:092][617]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.40.52:165][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072554s)
+[2020.07.17-22.40.52:166][617]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-22.40.52:167][617]LogPlayLevel: PIE: World Init took: (0.001955s)
+[2020.07.17-22.40.52:167][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.074811s)
+[2020.07.17-22.40.52:231][617]LogUObjectHash: Compacting FUObjectHashTables data took   7.84ms
+[2020.07.17-22.40.52:234][617]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-22.40.52:234][617]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-22.40.52:234][617]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-22.40.52:234][617]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-22.40.52:234][617]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-22.40.52:234][617]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-22.40.52:234][617]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-22.40.52:234][617]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-22.40.52:235][617]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-22.40.52:235][617]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-22.40.52:243][617]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-22.40.52:243][617]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.40.52:244][617]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-22.40.52:244][617]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-22.40.52:244][617]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-22.40.52:244][617]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-22.40.52:244][617]LogAudioMixer: Display: Channel Order:
+[2020.07.17-22.40.52:244][617]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-22.40.52:244][617]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-22.40.52:381][617]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.40.52:383][617]LogInit: FAudioDevice initialized.
+[2020.07.17-22.40.52:394][617]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-22.40.52:405][617]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-18.40.52
+[2020.07.17-22.40.52:405][617]LogWorld: Bringing up level for play took: 0.010406
+[2020.07.17-22.40.52:405][617]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2020.07.17-22.40.52:407][617]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.40.52:407][617]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.40.52:407][617]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.40.52:412][617]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField 0.33
+[2020.07.17-22.41.35:370][542]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.41.35:370][542]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.17-22.41.35:390][542]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.17-22.41.35:391][542]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.41.35:391][542]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.41.35:391][542]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.41.35:391][542]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-22.41.35:393][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.41.35:433][542]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-22.41.35:441][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.41.35:481][542]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.41.35:485][542]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.41.35:491][542]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2020.07.17-22.41.35:686][543]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2020.07.17-22.41.37:116][604]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.41.37:121][604]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.41.51:714][448]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-22.41.51:776][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-22.41.51:776][448]PIE: New page: PIE session: MineField (Jul. 17, 2020, 2:41:51 p.m.)
+[2020.07.17-22.41.51:777][448]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.41.51:833][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056115s)
+[2020.07.17-22.41.51:835][448]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-22.41.51:835][448]LogPlayLevel: PIE: World Init took: (0.002080s)
+[2020.07.17-22.41.51:835][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.058582s)
+[2020.07.17-22.41.51:898][448]LogUObjectHash: Compacting FUObjectHashTables data took   6.98ms
+[2020.07.17-22.41.51:899][448]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-22.41.51:899][448]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-22.41.51:899][448]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-22.41.51:899][448]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-22.41.51:899][448]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-22.41.51:899][448]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-22.41.51:899][448]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-22.41.51:899][448]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-22.41.51:900][448]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-22.41.51:900][448]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-22.41.51:907][448]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-22.41.51:907][448]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.41.51:907][448]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-22.41.51:907][448]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-22.41.51:907][448]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-22.41.51:907][448]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-22.41.51:907][448]LogAudioMixer: Display: Channel Order:
+[2020.07.17-22.41.51:907][448]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-22.41.51:907][448]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-22.41.52:049][448]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.41.52:050][448]LogInit: FAudioDevice initialized.
+[2020.07.17-22.41.52:066][448]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-22.41.52:085][448]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-18.41.52
+[2020.07.17-22.41.52:085][448]LogWorld: Bringing up level for play took: 0.018105
+[2020.07.17-22.41.52:085][448]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2020.07.17-22.41.52:087][448]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.41.52:087][448]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.41.52:087][448]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.41.52:092][448]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField 0.011
+[2020.07.17-22.42.01:550][831]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.42.01:551][831]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.17-22.42.01:570][831]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.17-22.42.01:570][831]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.42.01:571][831]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.42.01:571][831]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.42.01:571][831]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-22.42.01:572][831]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.42.01:614][831]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-22.42.01:622][831]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.42.01:683][831]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.42.01:689][831]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.42.01:698][831]LogUObjectHash: Compacting FUObjectHashTables data took   6.32ms
+[2020.07.17-22.42.01:882][832]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2020.07.17-22.42.03:019][879]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.42.03:040][879]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.42.12:973][453]LogEditorViewport: Clicking on Actor (LMB): BP_Mine2_C (BP_Mine4)
+[2020.07.17-22.42.14:212][519]Cmd: DUPLICATE
+[2020.07.17-22.42.14:212][519]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.42.18:369][751]Cmd: DUPLICATE
+[2020.07.17-22.42.18:369][751]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.42.33:054][572]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-22.42.33:107][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-22.42.33:107][572]PIE: New page: PIE session: MineField (Jul. 17, 2020, 2:42:33 p.m.)
+[2020.07.17-22.42.33:107][572]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.42.33:174][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066468s)
+[2020.07.17-22.42.33:175][572]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-22.42.33:176][572]LogPlayLevel: PIE: World Init took: (0.001853s)
+[2020.07.17-22.42.33:176][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.068626s)
+[2020.07.17-22.42.33:243][572]LogUObjectHash: Compacting FUObjectHashTables data took   5.92ms
+[2020.07.17-22.42.33:245][572]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-22.42.33:245][572]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-22.42.33:245][572]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-22.42.33:245][572]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-22.42.33:245][572]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-22.42.33:245][572]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-22.42.33:245][572]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-22.42.33:245][572]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-22.42.33:246][572]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-22.42.33:246][572]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-22.42.33:254][572]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-22.42.33:254][572]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.42.33:254][572]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-22.42.33:254][572]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-22.42.33:254][572]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-22.42.33:254][572]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-22.42.33:254][572]LogAudioMixer: Display: Channel Order:
+[2020.07.17-22.42.33:254][572]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-22.42.33:254][572]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-22.42.33:412][572]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.42.33:415][572]LogInit: FAudioDevice initialized.
+[2020.07.17-22.42.33:424][572]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-22.42.33:440][572]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-18.42.33
+[2020.07.17-22.42.33:440][572]LogWorld: Bringing up level for play took: 0.015151
+[2020.07.17-22.42.33:441][572]LogOnline: OSS: Creating online subsystem instance for: :Context_42
+[2020.07.17-22.42.33:443][572]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.42.33:443][572]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.42.33:443][572]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.42.33:449][572]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField -0.633
+[2020.07.17-22.42.59:200][639]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.42.59:200][639]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.42.59:202][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.42.59:202][639]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.42.59:202][639]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.42.59:203][639]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-22.42.59:205][639]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.42.59:258][639]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-22.42.59:264][639]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.42.59:305][639]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.42.59:309][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.42.59:315][639]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2020.07.17-22.42.59:535][640]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2020.07.17-22.43.00:818][695]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.43.00:822][695]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.43.06:843][ 51]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine114)
+[2020.07.17-22.43.07:957][113]Cmd: DUPLICATE
+[2020.07.17-22.43.07:957][113]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.43.12:206][358]Cmd: DUPLICATE
+[2020.07.17-22.43.12:206][358]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.43.19:462][779]Cmd: DUPLICATE
+[2020.07.17-22.43.19:462][779]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.43.44:074][224]LogEditorViewport: Clicking on Actor (LMB): BP_Mine2_C (BP_Mine38)
+[2020.07.17-22.43.45:438][301]Cmd: DUPLICATE
+[2020.07.17-22.43.45:438][301]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.43.51:487][638]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-22.43.51:539][638]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-22.43.51:539][638]PIE: New page: PIE session: MineField (Jul. 17, 2020, 2:43:51 p.m.)
+[2020.07.17-22.43.51:539][638]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.43.51:595][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055685s)
+[2020.07.17-22.43.51:597][638]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-22.43.51:597][638]LogPlayLevel: PIE: World Init took: (0.001975s)
+[2020.07.17-22.43.51:598][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.058184s)
+[2020.07.17-22.43.51:675][638]LogUObjectHash: Compacting FUObjectHashTables data took   7.00ms
+[2020.07.17-22.43.51:677][638]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-22.43.51:677][638]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-22.43.51:678][638]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-22.43.51:678][638]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-22.43.51:678][638]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-22.43.51:678][638]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-22.43.51:678][638]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-22.43.51:678][638]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-22.43.51:678][638]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-22.43.51:679][638]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-22.43.51:687][638]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-22.43.51:687][638]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.43.51:687][638]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-22.43.51:687][638]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-22.43.51:687][638]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-22.43.51:687][638]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-22.43.51:687][638]LogAudioMixer: Display: Channel Order:
+[2020.07.17-22.43.51:687][638]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-22.43.51:687][638]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-22.43.51:846][638]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.43.51:849][638]LogInit: FAudioDevice initialized.
+[2020.07.17-22.43.51:857][638]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-22.43.51:869][638]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-18.43.51
+[2020.07.17-22.43.51:869][638]LogWorld: Bringing up level for play took: 0.010817
+[2020.07.17-22.43.51:869][638]LogOnline: OSS: Creating online subsystem instance for: :Context_43
+[2020.07.17-22.43.51:871][638]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.43.51:871][638]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.43.51:871][638]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.43.51:876][638]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField -0.206
+[2020.07.17-22.44.13:906][584]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.44.13:906][584]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.44.13:906][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.44.13:906][584]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.44.13:906][584]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.44.13:907][584]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-22.44.13:910][584]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.44.13:961][584]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-22.44.13:971][584]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.44.14:036][584]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.44.14:041][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.44.14:050][584]LogUObjectHash: Compacting FUObjectHashTables data took   4.96ms
+[2020.07.17-22.44.14:214][585]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2020.07.17-22.44.15:610][652]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.44.15:613][652]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.44.21:875][ 14]LogEditorViewport: Clicking on Actor (LMB): BP_Mine2_C (BP_Mine148)
+[2020.07.17-22.44.36:223][826]Cmd: DUPLICATE
+[2020.07.17-22.44.36:223][826]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.44.49:615][592]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine146)
+[2020.07.17-22.44.53:677][826]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine145)
+[2020.07.17-22.44.54:393][861]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Mine_C (BP_Mine147)
+[2020.07.17-22.44.55:438][919]Cmd: DUPLICATE
+[2020.07.17-22.44.55:438][919]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.45.02:040][307]Cmd: DUPLICATE
+[2020.07.17-22.45.02:040][307]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.45.08:547][670]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-22.45.08:598][670]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-22.45.08:598][670]PIE: New page: PIE session: MineField (Jul. 17, 2020, 2:45:08 p.m.)
+[2020.07.17-22.45.08:598][670]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.45.08:655][670]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056423s)
+[2020.07.17-22.45.08:656][670]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-22.45.08:657][670]LogPlayLevel: PIE: World Init took: (0.001866s)
+[2020.07.17-22.45.08:657][670]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.058648s)
+[2020.07.17-22.45.08:722][670]LogUObjectHash: Compacting FUObjectHashTables data took   5.57ms
+[2020.07.17-22.45.08:725][670]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-22.45.08:725][670]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-22.45.08:725][670]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-22.45.08:725][670]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-22.45.08:725][670]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-22.45.08:725][670]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-22.45.08:725][670]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-22.45.08:725][670]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-22.45.08:726][670]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-22.45.08:726][670]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-22.45.08:734][670]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-22.45.08:734][670]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.45.08:734][670]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-22.45.08:734][670]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-22.45.08:734][670]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-22.45.08:734][670]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-22.45.08:734][670]LogAudioMixer: Display: Channel Order:
+[2020.07.17-22.45.08:734][670]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-22.45.08:734][670]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-22.45.08:888][670]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.45.08:890][670]LogInit: FAudioDevice initialized.
+[2020.07.17-22.45.08:895][670]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-22.45.08:909][670]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-18.45.08
+[2020.07.17-22.45.08:910][670]LogWorld: Bringing up level for play took: 0.014309
+[2020.07.17-22.45.08:911][670]LogOnline: OSS: Creating online subsystem instance for: :Context_44
+[2020.07.17-22.45.08:917][670]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.45.08:917][670]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.45.08:918][670]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.45.08:927][670]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField 0.846
+[2020.07.17-22.45.26:033][403]LogTemp: Warning: CollectibleOverlapEnd
+[2020.07.17-22.45.26:033][403]LogTemp: Warning: CollectibleOverlapEnd
+[2020.07.17-22.45.30:072][626]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.45.30:090][626]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.17-22.45.30:112][626]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.17-22.45.30:113][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.45.30:113][626]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.45.30:113][626]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.45.30:114][626]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-22.45.30:123][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.45.30:148][626]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-22.45.30:157][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.45.30:206][626]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.45.30:209][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.45.30:215][626]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2020.07.17-22.45.30:393][627]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2020.07.17-22.45.32:138][703]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.45.32:142][703]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.45.34:692][835]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-22.45.34:735][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-22.45.34:736][835]PIE: New page: PIE session: MineField (Jul. 17, 2020, 2:45:34 p.m.)
+[2020.07.17-22.45.34:736][835]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.45.34:784][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047620s)
+[2020.07.17-22.45.34:785][835]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-22.45.34:786][835]LogPlayLevel: PIE: World Init took: (0.001737s)
+[2020.07.17-22.45.34:786][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.049652s)
+[2020.07.17-22.45.34:845][835]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2020.07.17-22.45.34:847][835]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-22.45.34:847][835]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-22.45.34:847][835]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-22.45.34:847][835]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-22.45.34:847][835]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-22.45.34:847][835]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-22.45.34:847][835]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-22.45.34:847][835]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-22.45.34:848][835]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-22.45.34:848][835]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-22.45.34:854][835]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-22.45.34:854][835]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.45.34:854][835]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-22.45.34:854][835]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-22.45.34:854][835]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-22.45.34:854][835]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-22.45.34:854][835]LogAudioMixer: Display: Channel Order:
+[2020.07.17-22.45.34:854][835]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-22.45.34:854][835]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-22.45.34:985][835]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.45.34:987][835]LogInit: FAudioDevice initialized.
+[2020.07.17-22.45.34:996][835]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-22.45.35:007][835]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-18.45.35
+[2020.07.17-22.45.35:008][835]LogWorld: Bringing up level for play took: 0.011835
+[2020.07.17-22.45.35:008][835]LogOnline: OSS: Creating online subsystem instance for: :Context_45
+[2020.07.17-22.45.35:010][835]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.45.35:010][835]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.45.35:010][835]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.45.35:018][835]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField 0.937
+[2020.07.17-22.45.44:251][212]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.45.44:252][212]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.45.44:252][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.45.44:252][212]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.45.44:253][212]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.45.44:253][212]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-22.45.44:258][212]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.45.44:311][212]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-22.45.44:317][212]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.45.44:357][212]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.45.44:360][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.45.44:366][212]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2020.07.17-22.45.44:557][213]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2020.07.17-22.45.45:696][258]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.45.45:700][258]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.45.48:431][411]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine118)
+[2020.07.17-22.45.49:676][478]Cmd: DUPLICATE
+[2020.07.17-22.45.49:676][478]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.45.59:194][ 18]Cmd: DUPLICATE
+[2020.07.17-22.45.59:194][ 18]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.46.05:006][335]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-22.46.05:059][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-22.46.05:060][335]PIE: New page: PIE session: MineField (Jul. 17, 2020, 2:46:05 p.m.)
+[2020.07.17-22.46.05:060][335]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.46.05:122][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061443s)
+[2020.07.17-22.46.05:123][335]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-22.46.05:124][335]LogPlayLevel: PIE: World Init took: (0.001823s)
+[2020.07.17-22.46.05:124][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.063552s)
+[2020.07.17-22.46.05:185][335]LogUObjectHash: Compacting FUObjectHashTables data took   6.11ms
+[2020.07.17-22.46.05:186][335]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-22.46.05:186][335]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-22.46.05:186][335]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-22.46.05:186][335]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-22.46.05:186][335]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-22.46.05:187][335]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-22.46.05:187][335]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-22.46.05:187][335]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-22.46.05:187][335]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-22.46.05:187][335]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-22.46.05:193][335]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-22.46.05:193][335]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.46.05:193][335]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-22.46.05:193][335]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-22.46.05:193][335]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-22.46.05:193][335]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-22.46.05:193][335]LogAudioMixer: Display: Channel Order:
+[2020.07.17-22.46.05:193][335]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-22.46.05:193][335]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-22.46.05:350][335]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.46.05:353][335]LogInit: FAudioDevice initialized.
+[2020.07.17-22.46.05:367][335]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-22.46.05:386][335]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-18.46.05
+[2020.07.17-22.46.05:386][335]LogWorld: Bringing up level for play took: 0.017846
+[2020.07.17-22.46.05:386][335]LogOnline: OSS: Creating online subsystem instance for: :Context_46
+[2020.07.17-22.46.05:389][335]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.46.05:389][335]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.46.05:389][335]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.46.05:395][335]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField 1.313
+[2020.07.17-22.46.30:858][387]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.46.30:872][387]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.17-22.46.30:891][387]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.17-22.46.30:892][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.46.30:892][387]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.46.30:892][387]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.46.30:892][387]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-22.46.30:895][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.46.30:925][387]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-22.46.30:937][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.46.31:006][387]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.46.31:011][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.46.31:020][387]LogUObjectHash: Compacting FUObjectHashTables data took   6.02ms
+[2020.07.17-22.46.31:191][388]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2020.07.17-22.46.32:239][434]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.46.32:243][434]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.46.34:372][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2020.07.17-22.46.35:782][518]LogSlate: Window 'Save Content' being destroyed
+[2020.07.17-22.46.35:881][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.07.17-22.46.36:113][518]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/MineFieldEBD42B0347FA2CCB9FB1F4867A19EE81.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JLevels/MineField.umap'
+[2020.07.17-22.46.36:211][518]LogFileHelpers: Saving map 'MineField' took 0.381
+[2020.07.17-22.46.36:278][518]AssetCheck: New page: Asset Save: MineField
+[2020.07.17-22.46.36:278][518]LogContentValidation: Display: Validating World /Game/Julian/JLevels/MineField.MineField
+[2020.07.17-22.46.59:269][882]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine10)
+[2020.07.17-22.47.00:295][937]Cmd: DUPLICATE
+[2020.07.17-22.47.00:295][937]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.47.06:084][260]Cmd: DUPLICATE
+[2020.07.17-22.47.06:084][260]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.47.18:303][958]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine120)
+[2020.07.17-22.47.19:419][ 15]Cmd: DUPLICATE
+[2020.07.17-22.47.19:419][ 15]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.47.31:184][684]LogEditorViewport: Clicking on Actor (LMB): BP_Mine_C (BP_Mine119)
+[2020.07.17-22.47.32:295][746]Cmd: DUPLICATE
+[2020.07.17-22.47.32:295][746]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.47.35:585][928]Cmd: DUPLICATE
+[2020.07.17-22.47.35:585][928]Cmd: ACTOR DUPLICATE
+[2020.07.17-22.47.46:405][526]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-22.47.46:468][526]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-22.47.46:468][526]PIE: New page: PIE session: MineField (Jul. 17, 2020, 2:47:46 p.m.)
+[2020.07.17-22.47.46:468][526]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.47.46:546][526]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077295s)
+[2020.07.17-22.47.46:548][526]LogAIModule: Creating AISystem for world MineField
+[2020.07.17-22.47.46:548][526]LogPlayLevel: PIE: World Init took: (0.002089s)
+[2020.07.17-22.47.46:548][526]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/MineField.MineField to /Game/Julian/JLevels/UEDPIE_0_MineField.MineField (0.079686s)
+[2020.07.17-22.47.46:612][526]LogUObjectHash: Compacting FUObjectHashTables data took   7.68ms
+[2020.07.17-22.47.46:616][526]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-22.47.46:616][526]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-22.47.46:617][526]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-22.47.46:617][526]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-22.47.46:617][526]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-22.47.46:617][526]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-22.47.46:617][526]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-22.47.46:617][526]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-22.47.46:618][526]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-22.47.46:618][526]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-22.47.46:625][526]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-22.47.46:625][526]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.47.46:625][526]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-22.47.46:625][526]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-22.47.46:625][526]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-22.47.46:626][526]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-22.47.46:626][526]LogAudioMixer: Display: Channel Order:
+[2020.07.17-22.47.46:626][526]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-22.47.46:626][526]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-22.47.46:775][526]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.17-22.47.46:777][526]LogInit: FAudioDevice initialized.
+[2020.07.17-22.47.46:789][526]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.17-22.47.46:810][526]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_MineField.MineField up for play (max tick rate 60) at 2020.07.17-18.47.46
+[2020.07.17-22.47.46:810][526]LogWorld: Bringing up level for play took: 0.020228
+[2020.07.17-22.47.46:811][526]LogOnline: OSS: Creating online subsystem instance for: :Context_47
+[2020.07.17-22.47.46:813][526]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.47.46:813][526]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.47.46:814][526]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RefPlayer". Blueprint:  BP_JBasePlayerAnim Function:  Execute Ubergraph BP JBase Player Anim Graph:  Transition Node:  Result
+[2020.07.17-22.47.46:819][526]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_MineField 0.738
+[2020.07.17-22.48.13:318][680]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.48.13:318][680]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.48.13:320][680]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.48.13:320][680]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_MineField
+[2020.07.17-22.48.13:320][680]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.48.13:321][680]LogWorld: UWorld::CleanupWorld for MineField, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-22.48.13:323][680]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.48.13:362][680]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-22.48.13:369][680]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-22.48.13:417][680]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-22.48.13:424][680]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-22.48.13:434][680]LogUObjectHash: Compacting FUObjectHashTables data took   6.21ms
+[2020.07.17-22.48.13:619][681]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2020.07.17-22.48.15:481][770]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.48.15:486][770]LogSlate: Window 'Message Log' being destroyed
+[2020.07.17-22.48.16:856][817]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.07.17-22.48.18:385][817]LogSlate: Window 'Save Content' being destroyed
+[2020.07.17-22.48.18:493][817]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.07.17-22.48.18:682][817]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/MineFieldC8FAC13240FF34131A8CB9911A19AF1F.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JLevels/MineField.umap'
+[2020.07.17-22.48.18:767][817]LogFileHelpers: Saving map 'MineField' took 0.336
+[2020.07.17-22.48.18:783][817]AssetCheck: New page: Asset Save: MineField
+[2020.07.17-22.48.18:783][817]LogContentValidation: Display: Validating World /Game/Julian/JLevels/MineField.MineField
+[2020.07.17-22.48.53:364][566]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
