@@ -15,8 +15,8 @@ UCLASS()
 class PROJECT_API AParentWeapon : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	AParentWeapon();
 	virtual void Fire(USceneComponent* Location);
@@ -29,16 +29,19 @@ public:
 		bool bCanShoot = true;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float Range;
+	UPROPERTY(BlueprintReadOnly)
+		bool bCurrentlyReloading = false;
+	UPROPERTY(BlueprintReadOnly)
+		FTimerHandle FireRateTimerHandle;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float Damage;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-	bool bCurrentlyReloading = false;
-	FTimerHandle FireRateTimerHandle;
 	void TimeToFireElapsed();
-	float Damage;
 
-public:	
+public:
 	// Called every frame
 	//virtual void Tick(float DeltaTime) override;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -55,11 +58,18 @@ public:
 		int32 ClipSize;//Max ammo for the clip
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		FString WeaponName;
-	bool CanTheWeaponFire();
-	//istheweaponfiring
+
+	UFUNCTION(BlueprintCallable)
+		bool CanTheWeaponFire();
+	UFUNCTION(BlueprintCallable)
+		bool CanTheWeaponReload();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UAnimationAsset* FiringAnimation = nullptr;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UAnimationAsset* ReloadingAnimation = nullptr;
+
+	void InterruptReload();
 
 private:
 	UPROPERTY(EditAnywhere)

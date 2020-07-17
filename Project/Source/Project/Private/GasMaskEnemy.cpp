@@ -3,6 +3,10 @@
 
 #include "GasMaskEnemy.h"
 
+#include "Animation/AnimInstance.h"
+#include "GameFramework/CharacterMovementComponent.h"
+
+
 AGasMaskEnemy::AGasMaskEnemy()
 {
 	PrimaryActorTick.bCanEverTick = true;
@@ -17,27 +21,77 @@ void AGasMaskEnemy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	/*if (Weapon)
+	if (!bIsDead)
 	{
-		if (Weapon->CurrentClipAmmo > 0)
+		if (bIsStunned)
 		{
-			Fire();
+			GetCharacterMovement()->MaxWalkSpeed = 0.f;
 		}
 
 		else
 		{
-			Reload();
+			if (Weapon && bDetectedPlayer)
+			{
+				if (Weapon->CurrentClipAmmo > 0)
+				{
+					Fire();
+
+					if (Weapon->bCanShoot)
+					{
+						GetCharacterMovement()->MaxWalkSpeed = DesiredMovementSpeed;
+					}
+
+					else
+					{
+						GetCharacterMovement()->MaxWalkSpeed = DesiredMovementSpeed / 2;
+					}
+				}
+
+				else
+				{
+					Reload();
+				}
+			}
+
+			else
+			{
+				GetCharacterMovement()->MaxWalkSpeed = DesiredMovementSpeed;
+			}
 		}
-	}*/
+	}
+
+
 }
 
 void AGasMaskEnemy::Fire()
 {
-	Weapon->Fire(WeaponMuzzle);
+	if (Weapon)
+	{
+		Weapon->Fire(WeaponMuzzle);
+	}
 }
 
 void AGasMaskEnemy::Reload()
 {
-	Weapon->Reload();
+	if (Weapon)
+	{
+		if (Weapon->CanTheWeaponReload())
+		{
+			if (ReloadAnimation)
+			{
+				GetMesh()->GetAnimInstance()->Montage_Play(ReloadAnimation, ReloadAnimation->SequenceLength / Weapon->ReloadSpeed);
+			}
+		}
 
+		Weapon->Reload();
+	}
+}
+
+void AGasMaskEnemy::GetStunned()
+{
+	Super::GetStunned();
+	/*if (Weapon && Weapon->bCurrentlyReloading)
+	{
+		Weapon->InterruptReload();
+	}*/
 }

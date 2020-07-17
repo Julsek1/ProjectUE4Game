@@ -3,15 +3,22 @@
 
 #include "TwinStickShooterPlayer.h"
 
+#include "Animation/AnimInstance.h"
 #include "AssaultRifle.h"
 #include "CustomGameInstance.h"
 #include "Engine/Engine.h"
 #include "Engine/GameInstance.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
+#include "DamageType_Melee.h"
+#include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
+//#include "MinibossLevelPillar.h"
+#include "InteractableActor.h"
 #include "ParentEnemy.h"
-#include "Shotgun.h"
+#include "Perception/AISense_Hearing.h"
+//#include "Shotgun.h"
+//#include "Grenade.h"
 
 
 // Sets default values
@@ -64,6 +71,9 @@ void ATwinStickShooterPlayer::BeginPlay()
 {
 	Super::BeginPlay();
 
+	//Give empty objective
+	CurrentObjective = NewObject<AObjective>(this);
+	//Grenade = NewObject<AGrenade>(this);
 	//Give a weapon
 	//Weapons.Add(NewObject<AAssaultRifle>(this));
 	//Weapons.Add(NewObject<AShotgun>(this));
@@ -94,11 +104,18 @@ void ATwinStickShooterPlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (GetVelocity() != FVector(0.f, 0.f, 0.f))
+	{
+		UAISense_Hearing::ReportNoiseEvent(this, GetActorLocation(), 1, this, 300, FName("Sound"));
+	}
+
+
 	//UE_LOG(LogTemp, Warning, TEXT("Max walk speed: %f"), GetCharacterMovement()->GetMaxSpeed());
 
-	if (bIsFiring && bCanMelee)
+	if (bIsFiring && bCanMelee && bCanThrowGrenade)
 	{
 		Fire();
+
 		if (CurrentWeapon)
 		{
 			if (CurrentWeapon->bCanShoot)
@@ -120,9 +137,47 @@ void ATwinStickShooterPlayer::Tick(float DeltaTime)
 
 	if (LaserSight)
 	{
-		LaserSight->SetBeamSourcePoint(0, LaserSight->GetComponentLocation(), 0);
-		LaserSight->SetBeamTargetPoint(0, (LaserSight->GetForwardVector() * CurrentWeapon->Range) + LaserSight->GetComponentLocation(), 0);
+		TArray<FHitResult> OutHits;
+		FVector Start = LaserSight->GetComponentLocation();
+		FCollisionQueryParams CollisionParams;
+		float LaserSightDistance = CurrentWeapon->Range;
+
+		FVector End = LaserSight->GetForwardVector() * LaserSightDistance + LaserSight->GetComponentLocation();
+		GetWorld()->LineTraceMultiByChannel(OutHits, Start, End, ECollisionChannel(ECC_Pawn), CollisionParams);
+
+		if (OutHits.Num() > 0 && OutHits[0].GetActor())
+		{
+			//UE_LOG(LogTemp, Warning, TEXT("Self: %s"), *WeaponMuzzle->GetForwardVector().ToString());
+			//UE_LOG(LogTemp, Warning, TEXT("Hit: %s"), *OutHits[0].GetActor()->GetActorLocation().ToString());
+			FVector HitActorLocation = OutHits[0].GetActor()->GetActorLocation();
+			float HitDistX = FMath::Abs(HitActorLocation.X - Start.X);
+			float HitDistY = FMath::Abs(HitActorLocation.Y - Start.Y);
+			float DistX = FMath::Abs(WeaponMuzzle->GetForwardVector().X * HitDistX);
+			float DistY = FMath::Abs(WeaponMuzzle->GetForwardVector().Y * HitDistY);
+
+			LaserSightDistance = DistX + DistY;
+			//LaserSightDistance = ((DistX + DistY) < (HitActorLocation - Start).Size()) ? DistX + DistY : (HitActorLocation - Start).Size();
+		}
+
+		End = LaserSight->GetForwardVector() * LaserSightDistance + LaserSight->GetComponentLocation();
+
+		LaserSight->SetBeamSourcePoint(0, Start, 0);
+		LaserSight->SetBeamTargetPoint(0, End, 0);
 	}
+
+	//look for interactable actor
+	/*if (LookForInteractablePillar())
+	{
+		bFoundInteractablePillar = !LookForInteractablePillar()->bExplosivePlanted;
+	}
+
+	else
+	{
+		bFoundInteractablePillar = false;
+	}*/
+
+	//bFoundInteractablePillar = LookForInteractablePillar() != nullptr && !LookForInteractablePillar()->bExplosivePlanted;
+	bFoundInteractableActor = LookForInteractableActor() != nullptr && !LookForInteractableActor()->bHasBeenInteractedWith;
 }
 
 // Called to bind functionality to input
@@ -138,6 +193,9 @@ void ATwinStickShooterPlayer::SetupPlayerInputComponent(UInputComponent* PlayerI
 	PlayerInputComponent->BindAction("Fire", IE_Released, this, &ATwinStickShooterPlayer::FireButtonUp);
 	PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &ATwinStickShooterPlayer::Reload);
 	PlayerInputComponent->BindAction("TSMelee", IE_Pressed, this, &ATwinStickShooterPlayer::MeleeAttack);
+	PlayerInputComponent->BindAction("TSGrenade", IE_Pressed, this, &ATwinStickShooterPlayer::StartGrenadeThrow);
+	PlayerInputComponent->BindAction("TSDash", IE_Pressed, this, &ATwinStickShooterPlayer::Dash);
+	PlayerInputComponent->BindAction("TSInteract", IE_Pressed, this, &ATwinStickShooterPlayer::Interact);
 }
 
 void ATwinStickShooterPlayer::MoveForward(float Vertical)
@@ -186,7 +244,7 @@ void ATwinStickShooterPlayer::Rotate()
 
 void ATwinStickShooterPlayer::Heal(float HealingAmount)
 {
-	Health += HealingAmount * 2;
+	Health += HealingAmount;
 
 	if (Health >= 1)
 	{
@@ -198,23 +256,44 @@ void ATwinStickShooterPlayer::Heal(float HealingAmount)
 
 void ATwinStickShooterPlayer::ReceiveObjective(AObjective* Objective)
 {
-	CurrentObjective = Objective;
-	/*CurrentObjective->Description = Objective->Description;
-	CurrentObjective->Requirement = Objective->Requirement*/;
+	//CurrentObjective = Objective;
+	CurrentObjective->Description = Objective->Description;
+	CurrentObjective->Requirement = Objective->Requirement;
+	CurrentObjective->Progress = Objective->Progress;
+	CurrentObjective->bComplete = Objective->bComplete;
 }
 
 void ATwinStickShooterPlayer::Fire()
 {
 	if (CurrentWeapon)
 	{
+		if (CurrentWeapon->CanTheWeaponFire())
+		{
+			if (FiringAnimation)
+			{
+				GetMesh()->GetAnimInstance()->Montage_Play(FiringAnimation, FiringAnimation->SequenceLength / CurrentWeapon->FireRate);
+			}
+
+			UAISense_Hearing::ReportNoiseEvent(this, GetActorLocation(), 1, this, 1500, FName("Sound"));
+		}
+
 		CurrentWeapon->Fire(WeaponMuzzle);
 	}
 }
 
 void ATwinStickShooterPlayer::Reload()
 {
-	if (CurrentWeapon)
+	if (CurrentWeapon && bCanThrowGrenade)
 	{
+		if (CurrentWeapon->CanTheWeaponReload())
+		{
+			if (ReloadAnimation)
+			{
+				GetMesh()->GetAnimInstance()->Montage_Play(ReloadAnimation, ReloadAnimation->SequenceLength / CurrentWeapon->ReloadSpeed);
+				DisableLaserSight(CurrentWeapon->ReloadSpeed);
+			}
+		}
+
 		CurrentWeapon->Reload();
 	}
 }
@@ -231,34 +310,44 @@ void ATwinStickShooterPlayer::FireButtonUp()
 
 void ATwinStickShooterPlayer::MeleeAttack()
 {
-	if (bCanMelee)
+	if (CanPerformActions())
 	{
 		if (MeleeAnimation)
 		{
 			GetMesh()->GetAnimInstance()->Montage_Play(MeleeAnimation);
 		}
 
-		if (LaserSight)
+		DisableLaserSight(MeleeCooldown);
+
+		/*if (LaserSight)
 		{
 			LaserSight->SetVisibility(false);
-		}
+		}*/
 
 		bCanMelee = false;
 		GetWorldTimerManager().SetTimer(MeleeTimerHandle, this, &ATwinStickShooterPlayer::RestoreMelee, MeleeCooldown, false);
 
-		TArray<TEnumAsByte<EObjectTypeQuery>> Query;
+		//TArray<TEnumAsByte<EObjectTypeQuery>> Query;
 		TArray<AActor*> Ignore;
-		TArray<AActor*> OutHits;
+		Ignore.Add(this);
+		//TArray<AActor*> OutHits;
 
-		UKismetSystemLibrary::SphereOverlapActors(this, GetActorLocation(), MeleeRange, Query, AParentEnemy::StaticClass(), Ignore, OutHits);
+		UGameplayStatics::ApplyRadialDamage(GetWorld(), MeleeDamage, GetActorLocation(), MeleeRange, UDamageType_Melee::StaticClass(), Ignore, this, GetController(), true);
 
-		for (auto Enemy : OutHits)
-		{
-			if (Cast<AParentEnemy>(Enemy))
-			{
-				Cast<AParentEnemy>(Enemy)->Health -= MeleeDamage;
-			}
-		}
+		//UKismetSystemLibrary::SphereOverlapActors(this, GetActorLocation(), MeleeRange, Query, AParentEnemy::StaticClass(), Ignore, OutHits);
+
+		//for (auto Enemy : OutHits)
+		//{
+		//	//UE_LOG(LogTemp, Warning, TEXT("Hit: %s"), *Enemy->GetClass()->GetName());
+
+		//	if (Cast<AParentEnemy>(Enemy))
+		//	{
+		//		Cast<AParentEnemy>(Enemy)->GetHit(MeleeDamage);
+		//		Cast<AParentEnemy>(Enemy)->GetStunned();
+		//	}
+		//}
+
+
 	}
 }
 
@@ -267,8 +356,198 @@ void ATwinStickShooterPlayer::RestoreMelee()
 	GetWorldTimerManager().ClearTimer(MeleeTimerHandle);
 	bCanMelee = true;
 
+	/*if (LaserSight)
+	{
+		LaserSight->SetVisibility(true);
+	}*/
+}
+
+void ATwinStickShooterPlayer::DisableLaserSight(float Duration)
+{
+	if (LaserSight)
+	{
+		LaserSight->SetVisibility(false);
+	}
+
+	GetWorldTimerManager().SetTimer(LaserSightTimerHandle, this, &ATwinStickShooterPlayer::EnableLaserSight, Duration, false);
+}
+
+void ATwinStickShooterPlayer::EnableLaserSight()
+{
 	if (LaserSight)
 	{
 		LaserSight->SetVisibility(true);
 	}
+
+	GetWorldTimerManager().ClearTimer(LaserSightTimerHandle);
+}
+
+//void ATwinStickShooterPlayer::SwapWeapons()
+//{
+//
+//}
+
+void ATwinStickShooterPlayer::StartGrenadeThrow()
+{
+	if (bCanThrowGrenade && !bGrenadeOnCooldown)
+	{
+		bCanThrowGrenade = false;
+		bGrenadeOnCooldown = true;
+
+		if (GrenadeThrowAnimation)
+		{
+			GrenadeThrowTime = GrenadeThrowAnimation->SequenceLength / GrenadeThrowAnimation->RateScale;
+			GetWorldTimerManager().SetTimer(ThrowAnimationTimerHandle, this, &ATwinStickShooterPlayer::EndGrenadeThrow, GrenadeThrowTime, false);
+			GetWorldTimerManager().SetTimer(GrenadeThrowTimerHandle, this, &ATwinStickShooterPlayer::ThrowGrenade, 0.7 * GrenadeThrowTime, false);
+			GetMesh()->GetAnimInstance()->Montage_Play(GrenadeThrowAnimation);
+			DisableLaserSight(GrenadeThrowTime);
+		}
+
+		else
+		{
+			GetWorldTimerManager().SetTimer(ThrowAnimationTimerHandle, this, &ATwinStickShooterPlayer::EndGrenadeThrow, GrenadeThrowTime, false);
+		}
+	}
+}
+
+void ATwinStickShooterPlayer::EndGrenadeThrow()
+{
+	GetWorldTimerManager().ClearTimer(ThrowAnimationTimerHandle);
+	bCanThrowGrenade = true;
+}
+
+void ATwinStickShooterPlayer::ThrowGrenade()
+{
+	GetWorldTimerManager().SetTimer(GrenadeCooldownTimerHandle, this, &ATwinStickShooterPlayer::RestoreGrenade, GrenadeCooldown, false);
+	GetWorldTimerManager().ClearTimer(GrenadeThrowTimerHandle);
+
+	if (Grenade)
+	{
+		FActorSpawnParameters SpawnParams;
+		GetWorld()->SpawnActor<AGrenade>(Grenade, GetActorTransform());
+	}
+}
+
+void ATwinStickShooterPlayer::RestoreGrenade()
+{
+	GetWorldTimerManager().ClearTimer(GrenadeCooldownTimerHandle);
+	bGrenadeOnCooldown = false;
+}
+
+void ATwinStickShooterPlayer::Dash()
+{
+	if (bCanDash && !bIsFiring)
+	{
+		bCanDash = false;
+		//bIsFiring = false;
+
+		DisableLaserSight(DashCooldown);
+
+		GetWorldTimerManager().SetTimer(DashTimerHandle, this, &ATwinStickShooterPlayer::RestoreDash, DashCooldown, false);
+		GetWorldTimerManager().SetTimer(DashImmunityTimerHandle, this, &ATwinStickShooterPlayer::DashImmunityEnded, DashImmunityDuration, false);
+		GetWorldTimerManager().SetTimer(DashRecoveryTimerHandle, this, &ATwinStickShooterPlayer::RecoverFromDash, DashRecoveryTime, false);
+
+		DisableInput(UGameplayStatics::GetPlayerController(this, 0));
+
+		FVector VerticaldDirection = GetInputAxisValue("TSForward") * DashForce * FVector(1, 0, 0);
+		FVector HorizontalDirection = GetInputAxisValue("TSRight") * DashForce * FVector(0, 1, 0);
+
+		FVector DashVelocity = VerticaldDirection + HorizontalDirection;
+
+		LaunchCharacter(DashVelocity, true, true);
+
+		bDamageImmune = true;
+	}
+}
+
+void ATwinStickShooterPlayer::RestoreDash()
+{
+	GetWorldTimerManager().ClearTimer(DashTimerHandle);
+	bCanDash = true;
+}
+
+void ATwinStickShooterPlayer::DashImmunityEnded()
+{
+	GetWorldTimerManager().ClearTimer(DashImmunityTimerHandle);
+	bDamageImmune = false;
+}
+
+void ATwinStickShooterPlayer::RecoverFromDash()
+{
+	GetWorldTimerManager().ClearTimer(DashRecoveryTimerHandle);
+	EnableInput(UGameplayStatics::GetPlayerController(this, 0));
+}
+
+
+bool ATwinStickShooterPlayer::CanPerformActions()
+{
+	bool bCanPerformActions = bCanMelee;
+	if (CurrentWeapon)
+	{
+		bCanPerformActions = bCanPerformActions && !CurrentWeapon->bCurrentlyReloading;
+	}
+
+	if (Grenade)
+	{
+		bCanPerformActions = bCanPerformActions && bCanThrowGrenade;
+	}
+
+	return bCanPerformActions;
+}
+
+void ATwinStickShooterPlayer::Interact()
+{
+	////single line ray trace
+	//FHitResult OutHit;
+	//FVector Start = GetActorLocation();
+	//FVector ForwardVector = GetActorForwardVector();
+
+	//FVector End = ForwardVector * InteractRange + Start;
+	//FCollisionQueryParams CollisionParams;
+
+	//GetWorld()->LineTraceSingleByChannel(OUT OutHit, Start, End, ECollisionChannel(ECC_Visibility), CollisionParams);
+
+	//if (Cast<AMinibossLevelPillar>(OutHit.GetActor()))
+	//{
+	//	Cast<AMinibossLevelPillar>(OutHit.GetActor())->PlantExplosive();
+	//}
+	
+	/*if (LookForInteractablePillar())
+	{
+		LookForInteractablePillar()->PlantExplosive();
+	}*/
+
+	if (LookForInteractableActor())
+	{
+		LookForInteractableActor()->Interact();
+		//LookForInteractablePillar()->PlantExplosive();
+	}
+}
+
+//AMinibossLevelPillar* ATwinStickShooterPlayer::LookForInteractablePillar()
+//{
+//	FHitResult OutHit;
+//	FVector Start = GetActorLocation();
+//	FVector ForwardVector = GetActorForwardVector();
+//
+//	FVector End = ForwardVector * InteractRange + Start;
+//	FCollisionQueryParams CollisionParams;
+//
+//	GetWorld()->LineTraceSingleByChannel(OUT OutHit, Start, End, ECollisionChannel(ECC_Visibility), CollisionParams);
+//
+//	return Cast<AMinibossLevelPillar>(OutHit.GetActor());
+//}
+
+AInteractableActor* ATwinStickShooterPlayer::LookForInteractableActor()
+{
+	FHitResult OutHit;
+	FVector Start = GetActorLocation();
+	FVector ForwardVector = GetActorForwardVector();
+
+	FVector End = ForwardVector * InteractRange + Start;
+	FCollisionQueryParams CollisionParams;
+
+	GetWorld()->LineTraceSingleByChannel(OUT OutHit, Start, End, ECollisionChannel(ECC_Visibility), CollisionParams);
+
+	return Cast<AInteractableActor>(OutHit.GetActor());
 }

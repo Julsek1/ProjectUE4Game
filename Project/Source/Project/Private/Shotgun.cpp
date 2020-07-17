@@ -7,6 +7,7 @@
 #include "Engine/World.h"
 #include "GameFramework/PlayerController.h"
 #include "ParentEnemy.h"
+#include "DamageableActor.h"
 
 AShotgun::AShotgun()
 {
@@ -43,13 +44,23 @@ void AShotgun::Fire(USceneComponent* Location)
 			FCollisionQueryParams CollisionParams;
 
 			DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 0.1f, 0, 1);
-			GetWorld()->LineTraceMultiByChannel(OutHits, Start, End, ECollisionChannel(ECC_Pawn), CollisionParams);
+			GetWorld()->LineTraceMultiByChannel(OutHits, Start, End, ECollisionChannel(ECC_Vehicle), CollisionParams);
 
 			for (int32 j = 0; j < OutHits.Num(); j++)
 			{
 				if (Cast<AParentEnemy>(OutHits[j].GetActor()))
 				{
-					Cast<AParentEnemy>(OutHits[j].GetActor())->Health -= Damage;
+					FVector Difference = End - Start;
+					FVector Direction;
+					float Length;
+					Difference.ToDirectionAndLength(Direction, Length);
+
+					Cast<AParentEnemy>(OutHits[j].GetActor())->GetHit(Damage, 100000.f, Direction);
+				}
+				
+				else if (Cast<ADamageableActor>(OutHits[j].GetActor()))
+				{
+					Cast<ADamageableActor>(OutHits[j].GetActor())->GetHit(Damage);
 				}
 			}
 

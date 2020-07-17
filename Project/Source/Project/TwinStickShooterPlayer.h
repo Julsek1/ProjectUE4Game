@@ -2,7 +2,6 @@
 
 #pragma once
 
-#include "Animation/AnimInstance.h"
 #include "Camera/CameraComponent.h"
 #include "Components/ChildActorComponent.h"
 #include "Components/InputComponent.h"
@@ -90,17 +89,28 @@ public:
 		AParentWeapon* CurrentWeapon = nullptr;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TArray<AParentWeapon*> Weapons;
-	
-	//Laser sight
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UAnimMontage* ReloadAnimation = nullptr;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UAnimMontage* FiringAnimation = nullptr;
+	/*UFUNCTION(BlueprintCallable)
+		void SwapWeapons();*/
+
+		//Laser sight
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UParticleSystemComponent* LaserSight = nullptr;
+	void DisableLaserSight(float Duration);
+	void EnableLaserSight();
+	FTimerHandle LaserSightTimerHandle;
 
 	//Melee
-	float MeleeDamage = 0.1f;
-	float MeleeRange = 200.f;
+	float MeleeDamage = 0.2f;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		float MeleeRange = 150.f;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		float MeleeCooldown = 0.525f;
-	bool bCanMelee = true;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		bool bCanMelee = true;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		FTimerHandle MeleeTimerHandle;
 	UFUNCTION(BlueprintCallable)
@@ -109,11 +119,71 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UAnimMontage* MeleeAnimation = nullptr;
 
+	//Grenade
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TSubclassOf<class AGrenade> Grenade;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		FTimerHandle GrenadeCooldownTimerHandle;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		float GrenadeCooldown = 10.f;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		bool bGrenadeOnCooldown = false;
+	void ThrowGrenade();
+	void RestoreGrenade();
+
+	FTimerHandle GrenadeThrowTimerHandle;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		float GrenadeThrowTime = 2.8f;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		bool bCanThrowGrenade = true;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UAnimMontage* GrenadeThrowAnimation = nullptr;
+	UFUNCTION(BlueprintCallable)
+		void StartGrenadeThrow();
+	void EndGrenadeThrow();
+	FTimerHandle ThrowAnimationTimerHandle;
+
+	//Dash
+	float DashForce = 4000.f;
+	void Dash();
+	bool bCanDash = true;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		FTimerHandle DashTimerHandle;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		float DashCooldown = 2.f;
+	void RestoreDash();
+
+	FTimerHandle DashImmunityTimerHandle;
+	float DashImmunityDuration = 0.2f;
+	void DashImmunityEnded();
+
+	FTimerHandle DashRecoveryTimerHandle;
+	float DashRecoveryTime = DashImmunityDuration;
+	void RecoverFromDash();
+
+	//Interact (only used for miniboss blue pillars)
+	void Interact();
+	//class AMinibossLevelPillar* LookForInteractablePillar();
+	UFUNCTION(BlueprintCallable)
+		class AInteractableActor* LookForInteractableActor();
+	float InteractRange = 200.f;
+	/*UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		bool bFoundInteractablePillar = false;*/
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		bool bFoundInteractableActor = false;
+
+	//Actions
+	UFUNCTION(BlueprintCallable)
+		bool CanPerformActions();
+
+
 private:
 	float CharacterRotationX = 0.f;
 	float CharacterRotationY = 0.f;
 	void Rotate();
-	
+
 	bool bIsFiring = false;
 	void FireButtonDown();
 	void FireButtonUp();

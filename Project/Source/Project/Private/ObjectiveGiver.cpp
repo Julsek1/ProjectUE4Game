@@ -27,11 +27,10 @@ void AObjectiveGiver::BeginPlay()
 
 }
 
-//// Called every frame
+// Called every frame
 //void AObjectiveGiver::Tick(float DeltaTime)
 //{
 //	Super::Tick(DeltaTime);
-//
 //}
 
 //void AObjectiveGiver::NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& hit)
@@ -51,9 +50,9 @@ void AObjectiveGiver::NotifyActorBeginOverlap(AActor* Other)
 	if (Cast<ATwinStickShooterPlayer>(Other) != nullptr && Objective)
 	{
 		Cast<ATwinStickShooterPlayer>(Other)->ReceiveObjective(Objective);
-	}
 
-	Destroy();
+		DestroySelfAndLinked();
+	}
 }
 
 void AObjectiveGiver::NotifyActorEndOverlap(AActor* Other)
@@ -61,7 +60,20 @@ void AObjectiveGiver::NotifyActorEndOverlap(AActor* Other)
 	if (Cast<ATwinStickShooterPlayer>(Other) != nullptr && Objective)
 	{
 		Cast<ATwinStickShooterPlayer>(Other)->ReceiveObjective(Objective);
-	}
 
+		DestroySelfAndLinked();
+	}
+}
+
+void AObjectiveGiver::DestroySelfAndLinked()
+{
+	for (auto LinkedObjective : LinkedObjectives)
+	{
+		if (LinkedObjective)
+		{
+			LinkedObjective->Destroy();
+		}
+	}
+	
 	Destroy();
 }

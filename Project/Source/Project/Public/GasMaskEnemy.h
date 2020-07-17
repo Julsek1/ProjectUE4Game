@@ -8,13 +8,13 @@
 #include "GasMaskEnemy.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class PROJECT_API AGasMaskEnemy : public AParentEnemy
 {
 	GENERATED_BODY()
-	
+
 public:
 	AGasMaskEnemy();
 	virtual void Tick(float DeltaTime) override;
@@ -26,4 +26,13 @@ public:
 		void Fire();
 	UFUNCTION(BlueprintCallable)
 		void Reload();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool bDetectedPlayer = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UAnimMontage* ReloadAnimation = nullptr;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float DesiredMovementSpeed = 500.f;
+	virtual void GetStunned() override;
 };

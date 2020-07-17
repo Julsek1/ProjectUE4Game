@@ -80,7 +80,6 @@ void AParentWeapon::Fire()
 	{
 		SkeletalMesh->PlayAnimation(FiringAnimation, false);
 	}
-
 }
 
 bool AParentWeapon::CanTheWeaponFire()
@@ -97,13 +96,22 @@ void AParentWeapon::TimeToFireElapsed()
 
 void AParentWeapon::Reload()
 {
-	if (!bCurrentlyReloading && AmmoCapacity > 0 && CurrentClipAmmo < ClipSize)
+	if (CanTheWeaponReload())
 	{
 		bCurrentlyReloading = true;
 
 		GetWorldTimerManager().SetTimer(ReloadTimerHandle, this, &AParentWeapon::ReplenishClip, ReloadSpeed, false);
-	}
 
+		if (ReloadingAnimation)
+		{
+			SkeletalMesh->PlayAnimation(ReloadingAnimation, false);
+		}
+	}
+}
+
+bool AParentWeapon::CanTheWeaponReload()
+{
+	return !bCurrentlyReloading && AmmoCapacity > 0 && CurrentClipAmmo < ClipSize;
 }
 
 void AParentWeapon::ReplenishClip()
@@ -129,4 +137,12 @@ void AParentWeapon::ReplenishClip()
 	//}
 
 	bCurrentlyReloading = false;
+}
+
+void AParentWeapon::InterruptReload()
+{
+	if (bCurrentlyReloading)
+	{
+		GetWorldTimerManager().ClearTimer(ReloadTimerHandle);
+	}
 }
