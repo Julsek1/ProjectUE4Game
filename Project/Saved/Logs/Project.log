@@ -8948,3 +8948,829 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.07.19-19.51.42:714][178]AssetCheck: New page: Asset Save: multiple assets
 [2020.07.19-19.51.42:714][178]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
 [2020.07.19-19.51.42:714][178]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.19-19.53.42:478][822]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.07.19-19.53.42:578][822]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel170A51C9C4E8A73D9F5C2F0A2C12F8944.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.19-19.53.42:797][822]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData256799F941EBA5354C1EF69760D92BDC.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.19-19.53.42:816][822]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.19-19.53.42:816][822]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.19-19.53.42:816][822]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.19-19.53.43:956][879]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.19-19.53.44:861][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.07.19-19.53.44:959][928]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1A024DB264DE434DB2F598AAA7EB85563.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.19-19.53.45:204][928]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData096DAC29417A05A226E823967BB5C6E8.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.19-19.53.45:236][928]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.19-19.53.45:237][928]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.19-19.53.45:237][928]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.19-19.53.46:119][981]LogEditorViewport: Clicking Background
+[2020.07.19-19.53.47:995][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.07.19-19.53.48:092][ 90]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1D101A53142AFC7C9718CA59104F039EC.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.19-19.53.48:327][ 90]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData188868264FA9308B1E87FCB103C2CFCF.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.19-19.53.48:345][ 90]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.19-19.53.48:345][ 90]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.19-19.53.48:345][ 90]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.19-19.53.51:811][298]LogEditorViewport: Clicking on Actor (LMB): BP_GasMaskNoHearing_C (BP_GasMaskNoHearing)
+[2020.07.19-19.53.54:891][470]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1581 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.54:908][471]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1583 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.54:925][472]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1585 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.54:941][473]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1587 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.54:958][474]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1589 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.54:977][475]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1591 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.54:996][476]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1593 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.55:017][477]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1595 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.55:035][478]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1597 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.55:052][479]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1599 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.55:068][480]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1601 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.55:220][489]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1603 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.55:237][490]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1605 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.55:254][491]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1607 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.55:271][492]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1609 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.55:294][493]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1611 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.55:313][494]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1613 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.55:328][495]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1615 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.55:345][496]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1617 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.55:361][497]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1619 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.55:380][498]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1621 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.55:397][499]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1623 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.55:412][500]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1625 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.55:428][501]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1627 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.55:595][511]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1629 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.55:612][512]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1631 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.55:645][514]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1633 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.55:912][530]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1635 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.55:928][531]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_1637 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.53.57:542][622]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.07.19-19.53.57:645][622]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel11F3E5A0A4A5838E2A84ABCB9E62A55AA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.19-19.53.57:871][622]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltDataB6440AF243C2FE409F511BA0A8860E55.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.19-19.53.57:890][622]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.19-19.53.57:890][622]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.19-19.53.57:890][622]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.19-19.53.58:919][680]Cmd: DELETE
+[2020.07.19-19.53.58:919][680]Cmd: ACTOR DELETE
+[2020.07.19-19.53.58:923][680]LogEditorActor: Deleted Actor: BP_GasMaskNoHearing_C
+[2020.07.19-19.53.58:964][680]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.07.19-19.53.58:965][680]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2020.07.19-19.53.59:312][697]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.07.19-19.53.59:406][697]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1F636B11C43C62AB0DC78D791F0501011.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.19-19.53.59:640][697]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltDataB221D4F4492509DAD9DC4EACCCA528C3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.19-19.53.59:661][697]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.19-19.53.59:661][697]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.19-19.53.59:661][697]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.19-19.54.01:949][830]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.07.19-19.54.02:043][830]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel19A2517F9438213F2F0888797E6534541.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.19-19.54.02:292][830]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData5FA9C34340F84C71A921D3A79ECF9F8F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.19-19.54.02:313][830]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.19-19.54.02:313][830]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.19-19.54.02:313][830]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.19-19.54.34:672][771]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.19-19.54.34:723][771]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.19-19.54.34:723][771]PIE: New page: PIE session: PFinalLevel1 (Jul 19, 2020, 11:54:34 AM)
+[2020.07.19-19.54.34:723][771]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.19-19.54.34:788][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065856s)
+[2020.07.19-19.54.34:789][771]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.19-19.54.34:789][771]LogPlayLevel: PIE: World Init took: (0.000890s)
+[2020.07.19-19.54.34:789][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.066906s)
+[2020.07.19-19.54.34:827][771]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.07.19-19.54.34:829][771]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.19-19.54.34:829][771]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.19-19.54.34:829][771]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.19-19.54.34:829][771]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.19-19.54.34:829][771]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.19-19.54.34:829][771]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.19-19.54.34:829][771]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.19-19.54.34:829][771]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.19-19.54.34:829][771]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.19-19.54.34:829][771]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.19-19.54.34:852][771]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.19-19.54.34:852][771]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.19-19.54.34:852][771]LogAudioMixer: Display: Is Default: Yes
+[2020.07.19-19.54.34:852][771]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.19-19.54.34:852][771]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.19-19.54.34:852][771]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.19-19.54.34:852][771]LogAudioMixer: Display: Channel Order:
+[2020.07.19-19.54.34:852][771]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.19-19.54.34:852][771]LogAudioMixer: Display: 1: FrontRight
+[2020.07.19-19.54.34:863][771]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.19-19.54.34:864][771]LogInit: FAudioDevice initialized.
+[2020.07.19-19.54.34:872][771]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.19-19.54.34:877][771]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.19-15.54.34
+[2020.07.19-19.54.34:878][771]LogWorld: Bringing up level for play took: 0.005930
+[2020.07.19-19.54.34:878][771]LogOnline: OSS: Creating online subsystem instance for: :Context_127
+[2020.07.19-19.54.34:881][771]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.54.34:881][771]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.54.34:885][771]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.185
+[2020.07.19-19.54.57:775][144]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.19-19.54.57:778][144]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.19-19.54.57:799][144]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.19-19.54.57:799][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.19-19.54.57:799][144]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.19-19.54.57:799][144]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.19-19.54.57:799][144]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.19-19.54.57:800][144]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.19-19.54.57:809][144]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.19-19.54.57:814][144]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.19-19.54.57:852][144]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.19-19.54.57:855][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.19-19.54.57:861][144]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.07.19-19.54.57:881][145]LogPlayLevel: Display: Destroying online subsystem :Context_127
+[2020.07.19-19.54.58:361][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.07.19-19.54.58:451][169]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1B7DFB2E249EC4121B50AA3A29B2F9A82.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.19-19.54.58:668][169]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltDataA84D5E804E42A2DE88D64B80DC1B0DBB.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.19-19.54.58:686][169]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.19-19.54.58:686][169]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.19-19.54.58:686][169]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.19-19.55.01:713][347]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.07.19-19.55.01:812][347]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1F770FC4747C148E3761B948C41B257C2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.19-19.55.02:070][347]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltDataF1B002934FF779E2FF0392BE4EBD791C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.19-19.55.02:090][347]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.19-19.55.02:090][347]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.19-19.55.02:090][347]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.19-19.55.04:740][505]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_28:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.08:831][741]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.19-19.55.09:174][741]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.09:175][741]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.10:878][836]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.10:878][836]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:590][118]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:591][118]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:607][119]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:607][119]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:624][120]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:624][120]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:641][121]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:642][121]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:657][122]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:658][122]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:674][123]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:674][123]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:690][124]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:690][124]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:707][125]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:708][125]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:741][127]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:741][127]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:757][128]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:758][128]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:773][129]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:773][129]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:790][130]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:791][130]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:808][131]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:808][131]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:824][132]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:824][132]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:841][133]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:841][133]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:873][135]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:874][135]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:890][136]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:891][136]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:923][138]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:924][138]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:940][139]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:940][139]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:958][140]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:958][140]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:977][141]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:977][141]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:991][142]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_46 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.32:991][142]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_46 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.33:007][143]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_48 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.33:007][143]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_48 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.33:090][148]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.33:090][148]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.33:106][149]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_52 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.33:107][149]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_52 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.33:123][150]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_54 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.33:124][150]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_54 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.33:224][156]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_56 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.33:225][156]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_56 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.33:240][157]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_58 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.33:240][157]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_58 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.33:257][158]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_60 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.33:257][158]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_60 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.33:636][175]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerCA43A12A4B19E7CE250EBFA03454C988.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.19-19.55.33:653][175]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.19-19.55.33:653][175]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.19-19.55.35:007][257]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.07.19-19.55.35:051][257]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.35:051][257]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.35:052][257]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_62 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.35:052][257]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_62 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.35:293][257]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2020.07.19-19.55.35:298][257]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.35:298][257]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.35:300][257]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_64 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.35:301][257]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_64 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.35:302][257]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.35:303][257]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.35:315][257]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_66 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.35:316][257]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_66 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.35:317][257]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.35:318][257]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.35:344][257]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_68 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.35:345][257]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_68 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.35:658][271]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerAFD7F43849D6908F28AE948D89FBFF6A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.19-19.55.35:673][271]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.19-19.55.35:673][271]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.19-19.55.36:708][330]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2020.07.19-19.55.36:806][330]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1A618A6454E02A954C48505B503449BA7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.19-19.55.37:042][330]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData4FF92BBD4F65047FC674BE808D92D294.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.19-19.55.37:062][330]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.19-19.55.37:062][330]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.19-19.55.37:062][330]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.19-19.55.37:543][359]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.19-19.55.37:591][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.19-19.55.37:591][359]PIE: New page: PIE session: PFinalLevel1 (Jul 19, 2020, 11:55:37 AM)
+[2020.07.19-19.55.37:591][359]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.19-19.55.37:631][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040287s)
+[2020.07.19-19.55.37:632][359]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.19-19.55.37:632][359]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2020.07.19-19.55.37:632][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.041245s)
+[2020.07.19-19.55.37:674][359]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.07.19-19.55.37:675][359]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.19-19.55.37:675][359]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.19-19.55.37:675][359]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.19-19.55.37:675][359]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.19-19.55.37:675][359]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.19-19.55.37:675][359]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.19-19.55.37:675][359]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.19-19.55.37:675][359]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.19-19.55.37:675][359]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.19-19.55.37:675][359]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.19-19.55.37:695][359]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.19-19.55.37:695][359]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.19-19.55.37:695][359]LogAudioMixer: Display: Is Default: Yes
+[2020.07.19-19.55.37:695][359]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.19-19.55.37:695][359]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.19-19.55.37:695][359]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.19-19.55.37:695][359]LogAudioMixer: Display: Channel Order:
+[2020.07.19-19.55.37:695][359]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.19-19.55.37:695][359]LogAudioMixer: Display: 1: FrontRight
+[2020.07.19-19.55.37:705][359]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.19-19.55.37:707][359]LogInit: FAudioDevice initialized.
+[2020.07.19-19.55.37:715][359]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.19-19.55.37:720][359]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.19-15.55.37
+[2020.07.19-19.55.37:722][359]LogWorld: Bringing up level for play took: 0.005754
+[2020.07.19-19.55.37:722][359]LogOnline: OSS: Creating online subsystem instance for: :Context_129
+[2020.07.19-19.55.37:725][359]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.37:725][359]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.37:729][359]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 1.029
+[2020.07.19-19.55.44:848][786]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.19-19.55.44:868][786]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.19-19.55.44:888][786]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.19-19.55.44:889][786]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.19-19.55.44:889][786]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.19-19.55.44:889][786]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.19-19.55.44:889][786]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.19-19.55.44:890][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.19-19.55.44:902][786]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.19-19.55.44:909][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.19-19.55.44:949][786]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.19-19.55.44:952][786]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.19-19.55.44:958][786]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2020.07.19-19.55.44:981][787]LogPlayLevel: Display: Destroying online subsystem :Context_129
+[2020.07.19-19.55.54:479][354]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_70 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:479][354]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_70 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:496][355]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_72 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:496][355]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_72 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:513][356]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_74 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:514][356]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_74 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:531][357]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_76 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:531][357]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_76 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:546][358]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_78 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:546][358]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_78 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:563][359]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_80 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:563][359]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_80 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:580][360]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_82 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:581][360]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_82 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:596][361]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_84 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:596][361]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_84 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:613][362]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_86 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:613][362]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_86 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:630][363]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_88 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:630][363]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_88 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:645][364]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_90 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:646][364]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_90 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:662][365]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_92 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:663][365]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_92 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:679][366]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_94 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:680][366]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_94 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:695][367]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_96 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:696][367]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_96 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:762][371]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_98 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:763][371]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_98 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:779][372]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_100 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:780][372]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_100 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:812][374]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_102 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.54:813][374]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_102 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.55:513][416]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_104 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.55:514][416]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_104 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.55:530][417]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_106 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.55:530][417]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_106 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.55:546][418]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_108 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.55:546][418]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_108 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.55:563][419]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_110 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.55:563][419]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_110 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.55:597][421]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_112 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.55:597][421]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_112 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.55:613][422]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_114 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.55:613][422]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_114 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.56:016][441]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer155F1D21430B083078D338ACE2FD1111.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.19-19.55.56:032][441]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.19-19.55.56:032][441]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.19-19.55.56:844][489]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.07.19-19.55.56:890][489]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.56:891][489]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.56:893][489]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_116 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.56:894][489]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_116 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.57:181][489]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2020.07.19-19.55.57:184][489]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.57:184][489]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.57:186][489]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_118 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.57:187][489]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_118 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.57:189][489]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.57:189][489]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.57:194][489]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_120 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.57:194][489]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_120 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.57:196][489]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.57:197][489]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.57:220][489]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_122 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.57:221][489]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_122 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.57:540][503]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerEB2BEB8A442DCD81F4959ABCA00504B7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.19-19.55.57:560][503]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.19-19.55.57:560][503]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.19-19.55.58:183][536]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2020.07.19-19.55.58:276][536]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1C107B48A4C0DAFCCFA509A817737FE33.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.19-19.55.58:510][536]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltDataE385069B40A689F1663A97B274721350.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.19-19.55.58:529][536]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.19-19.55.58:529][536]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.19-19.55.58:530][536]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.19-19.55.59:014][565]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.19-19.55.59:065][565]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.19-19.55.59:065][565]PIE: New page: PIE session: PFinalLevel1 (Jul 19, 2020, 11:55:59 AM)
+[2020.07.19-19.55.59:065][565]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.19-19.55.59:123][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058794s)
+[2020.07.19-19.55.59:125][565]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.19-19.55.59:125][565]LogPlayLevel: PIE: World Init took: (0.001393s)
+[2020.07.19-19.55.59:125][565]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.060417s)
+[2020.07.19-19.55.59:178][565]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2020.07.19-19.55.59:179][565]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.19-19.55.59:179][565]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.19-19.55.59:179][565]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.19-19.55.59:179][565]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.19-19.55.59:179][565]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.19-19.55.59:179][565]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.19-19.55.59:179][565]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.19-19.55.59:179][565]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.19-19.55.59:180][565]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.19-19.55.59:180][565]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.19-19.55.59:209][565]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.19-19.55.59:209][565]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.19-19.55.59:209][565]LogAudioMixer: Display: Is Default: Yes
+[2020.07.19-19.55.59:209][565]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.19-19.55.59:209][565]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.19-19.55.59:209][565]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.19-19.55.59:209][565]LogAudioMixer: Display: Channel Order:
+[2020.07.19-19.55.59:209][565]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.19-19.55.59:209][565]LogAudioMixer: Display: 1: FrontRight
+[2020.07.19-19.55.59:221][565]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.19-19.55.59:223][565]LogInit: FAudioDevice initialized.
+[2020.07.19-19.55.59:235][565]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.19-19.55.59:243][565]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.19-15.55.59
+[2020.07.19-19.55.59:244][565]LogWorld: Bringing up level for play took: 0.008964
+[2020.07.19-19.55.59:245][565]LogOnline: OSS: Creating online subsystem instance for: :Context_130
+[2020.07.19-19.55.59:247][565]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.59:248][565]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.55.59:252][565]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.552
+[2020.07.19-19.56.14:024][451]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.19-19.56.14:028][451]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.19-19.56.14:048][451]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.19-19.56.14:049][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.19-19.56.14:049][451]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.19-19.56.14:049][451]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.19-19.56.14:049][451]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.19-19.56.14:050][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.19-19.56.14:056][451]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.19-19.56.14:060][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.19-19.56.14:092][451]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.19-19.56.14:094][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.19-19.56.14:099][451]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.07.19-19.56.14:140][453]LogPlayLevel: Display: Destroying online subsystem :Context_130
+[2020.07.19-19.56.21:946][919]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_124 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.21:947][919]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_124 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.21:963][920]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_126 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.21:964][920]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_126 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.21:981][921]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_128 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.21:981][921]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_128 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.21:997][922]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_130 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.21:997][922]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_130 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:013][923]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_132 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:013][923]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_132 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:030][924]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_134 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:030][924]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_134 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:046][925]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_136 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:047][925]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_136 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:064][926]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_138 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:064][926]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_138 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:080][927]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_140 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:081][927]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_140 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:097][928]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_142 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:097][928]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_142 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:115][929]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_144 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:115][929]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_144 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:131][930]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_146 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:131][930]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_146 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:148][931]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_148 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:148][931]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_148 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:163][932]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_150 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:164][932]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_150 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:181][933]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_152 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:181][933]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_152 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:198][934]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_154 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:198][934]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_154 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:213][935]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_156 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:214][935]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_156 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:230][936]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_158 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:230][936]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_158 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:247][937]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_160 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:247][937]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_160 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:263][938]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_162 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:263][938]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_162 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:281][939]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_164 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:281][939]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_164 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:297][940]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_166 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:297][940]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_166 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:314][941]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_168 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:314][941]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_168 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:330][942]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_170 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:330][942]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_170 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:346][943]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_172 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:347][943]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_172 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:363][944]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_174 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:364][944]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_174 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:380][945]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_176 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:381][945]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_176 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:397][946]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_178 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:398][946]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_178 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:415][947]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_180 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:415][947]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_180 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:430][948]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_182 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:431][948]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_182 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:447][949]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_184 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:447][949]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_184 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:463][950]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_186 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:463][950]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_186 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:480][951]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_188 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:480][951]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_188 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:496][952]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_190 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:496][952]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_190 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:513][953]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_192 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:513][953]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_192 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:529][954]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_194 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:530][954]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_194 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:546][955]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_196 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:547][955]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_196 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:564][956]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_198 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:564][956]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_198 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.22:987][977]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer8FB97D514D34847ECFF2A5ABC8CE1CCD.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.19-19.56.23:001][977]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.19-19.56.23:001][977]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.19-19.56.23:441][  3]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.07.19-19.56.23:476][  3]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.23:477][  3]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.23:478][  3]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_200 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.23:478][  3]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_200 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.23:717][  3]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2020.07.19-19.56.23:719][  3]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.23:720][  3]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.23:721][  3]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_202 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.23:722][  3]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_202 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.23:724][  3]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.23:724][  3]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.23:729][  3]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_204 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.23:730][  3]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_204 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.23:731][  3]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.23:732][  3]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.23:765][  3]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_206 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.23:765][  3]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_206 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.24:053][ 17]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerCC73CF05487167CFC892289AA1C2E0B9.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.19-19.56.24:068][ 17]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.19-19.56.24:068][ 17]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.19-19.56.24:913][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2020.07.19-19.56.25:007][ 64]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1BE576FE345747E72176324A12F71C9C9.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.19-19.56.25:226][ 64]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData791394F94C53788A61F7BCBCEBA05D81.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.19-19.56.25:245][ 64]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.19-19.56.25:245][ 64]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.19-19.56.25:245][ 64]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.19-19.56.25:483][ 79]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.19-19.56.25:530][ 79]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.19-19.56.25:530][ 79]PIE: New page: PIE session: PFinalLevel1 (Jul 19, 2020, 11:56:25 AM)
+[2020.07.19-19.56.25:530][ 79]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.19-19.56.25:568][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038422s)
+[2020.07.19-19.56.25:569][ 79]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.19-19.56.25:569][ 79]LogPlayLevel: PIE: World Init took: (0.000743s)
+[2020.07.19-19.56.25:569][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.039315s)
+[2020.07.19-19.56.25:602][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2020.07.19-19.56.25:603][ 79]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.19-19.56.25:603][ 79]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.19-19.56.25:603][ 79]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.19-19.56.25:603][ 79]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.19-19.56.25:603][ 79]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.19-19.56.25:603][ 79]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.19-19.56.25:603][ 79]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.19-19.56.25:603][ 79]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.19-19.56.25:603][ 79]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.19-19.56.25:603][ 79]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.19-19.56.25:624][ 79]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.19-19.56.25:624][ 79]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.19-19.56.25:624][ 79]LogAudioMixer: Display: Is Default: Yes
+[2020.07.19-19.56.25:624][ 79]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.19-19.56.25:624][ 79]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.19-19.56.25:624][ 79]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.19-19.56.25:624][ 79]LogAudioMixer: Display: Channel Order:
+[2020.07.19-19.56.25:624][ 79]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.19-19.56.25:624][ 79]LogAudioMixer: Display: 1: FrontRight
+[2020.07.19-19.56.25:635][ 79]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.19-19.56.25:636][ 79]LogInit: FAudioDevice initialized.
+[2020.07.19-19.56.25:640][ 79]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.19-19.56.25:645][ 79]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.19-15.56.25
+[2020.07.19-19.56.25:647][ 79]LogWorld: Bringing up level for play took: 0.005818
+[2020.07.19-19.56.25:647][ 79]LogOnline: OSS: Creating online subsystem instance for: :Context_131
+[2020.07.19-19.56.25:649][ 79]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.25:650][ 79]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.25:653][ 79]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.953
+[2020.07.19-19.56.38:001][818]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.19-19.56.38:008][818]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.19-19.56.38:028][818]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.19-19.56.38:028][818]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.19-19.56.38:028][818]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.19-19.56.38:029][818]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.19-19.56.38:029][818]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.19-19.56.38:030][818]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.19-19.56.38:041][818]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.19-19.56.38:046][818]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.19-19.56.38:081][818]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.19-19.56.38:084][818]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.19-19.56.38:089][818]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.07.19-19.56.38:106][819]LogPlayLevel: Display: Destroying online subsystem :Context_131
+[2020.07.19-19.56.42:164][ 61]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_208 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:164][ 61]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_208 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:180][ 62]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_210 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:180][ 62]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_210 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:197][ 63]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_212 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:198][ 63]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_212 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:214][ 64]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_214 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:214][ 64]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_214 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:231][ 65]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_216 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:231][ 65]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_216 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:247][ 66]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_218 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:247][ 66]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_218 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:264][ 67]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_220 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:264][ 67]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_220 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:282][ 68]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_222 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:282][ 68]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_222 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:297][ 69]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_224 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:298][ 69]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_224 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:315][ 70]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_226 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:315][ 70]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_226 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:332][ 71]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_228 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:332][ 71]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_228 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:347][ 72]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_230 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:348][ 72]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_230 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:364][ 73]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_232 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:365][ 73]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_232 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:381][ 74]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_234 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:382][ 74]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_234 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:398][ 75]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_236 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:399][ 75]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_236 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:414][ 76]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_238 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:414][ 76]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_238 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:430][ 77]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_240 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:431][ 77]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_240 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:464][ 79]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_242 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:464][ 79]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_242 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:482][ 80]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_244 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:482][ 80]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_244 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:497][ 81]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_246 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:498][ 81]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_246 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:514][ 82]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_248 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:515][ 82]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_248 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:531][ 83]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_250 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:532][ 83]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_250 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:548][ 84]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_252 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:549][ 84]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_252 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:564][ 85]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_254 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:564][ 85]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_254 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:580][ 86]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_256 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:581][ 86]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_256 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:597][ 87]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_258 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:597][ 87]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_258 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:797][ 99]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_260 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.42:798][ 99]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_260 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.43:511][137]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerD9A73CF54913C3B209A3E38AE31C5459.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.19-19.56.43:525][137]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.19-19.56.43:525][137]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.19-19.56.44:117][173]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.07.19-19.56.44:152][173]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.44:152][173]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.44:153][173]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_262 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.44:153][173]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_262 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.44:414][173]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2020.07.19-19.56.44:417][173]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.44:417][173]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.44:419][173]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_264 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.44:419][173]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_264 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.44:422][173]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.44:422][173]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.44:428][173]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_266 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.44:429][173]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_266 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.44:431][173]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.44:431][173]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.44:471][173]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_268 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.44:471][173]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_268 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.44:995][199]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerB3911405498EADE27215529E8ED234CE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.19-19.56.45:012][199]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.19-19.56.45:012][199]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.19-19.56.45:686][236]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
+[2020.07.19-19.56.45:791][236]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel130187D1C4AB9E51C0357F09CFAABBB75.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.19-19.56.46:012][236]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltDataD2DF8A3941F85F1FCB8657811E7DC53D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.19-19.56.46:032][236]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.19-19.56.46:032][236]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.19-19.56.46:032][236]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.19-19.56.52:364][615]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_270 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:364][615]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_270 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:381][616]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_272 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:381][616]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_272 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:398][617]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_274 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:398][617]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_274 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:414][618]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_276 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:415][618]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_276 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:431][619]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_278 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:432][619]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_278 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:448][620]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_280 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:448][620]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_280 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:465][621]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_282 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:466][621]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_282 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:499][623]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_284 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:499][623]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_284 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:515][624]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_286 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:515][624]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_286 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:533][625]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_288 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:533][625]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_288 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:550][626]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_290 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:550][626]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_290 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:564][627]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_292 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:565][627]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_292 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:598][629]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_294 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:598][629]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_294 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:615][630]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_296 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:615][630]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_296 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:630][631]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_298 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:631][631]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_298 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:647][632]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_300 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:647][632]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_300 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:664][633]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_302 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:664][633]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_302 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:680][634]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_304 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:681][634]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_304 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:697][635]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_306 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:698][635]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_306 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:714][636]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_308 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:715][636]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_308 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:731][637]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_310 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.52:731][637]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_310 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.53:120][656]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer21C8FEFB4EA53003C3A3EBA7B9676537.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooterPlayer.uasset'
+[2020.07.19-19.56.53:135][656]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.19-19.56.53:135][656]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.19-19.56.53:728][692]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.07.19-19.56.53:763][692]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_312 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.53:763][692]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_312 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.53:764][692]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_46 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.53:765][692]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_46 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.54:005][692]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.07.19-19.56.54:008][692]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_314 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.54:008][692]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_314 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.54:010][692]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_48 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.54:011][692]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_48 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.54:012][692]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.54:013][692]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.54:018][692]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_316 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.54:018][692]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_316 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.54:020][692]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_52 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.54:020][692]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_3:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_52 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.54:048][692]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_52:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_318 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.54:048][692]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_52:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_318 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.55:742][788]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2020.07.19-19.56.55:834][788]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel13293846D4EF595B249534CADE3A479CB.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.19-19.56.56:056][788]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltDataE479900A478237DD06490EADFE15D589.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.19-19.56.56:076][788]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.19-19.56.56:076][788]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.19-19.56.56:076][788]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.19-19.56.56:295][801]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.19-19.56.56:341][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.19-19.56.56:342][801]PIE: New page: PIE session: PFinalLevel1 (Jul 19, 2020, 11:56:56 AM)
+[2020.07.19-19.56.56:342][801]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.19-19.56.56:380][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038997s)
+[2020.07.19-19.56.56:381][801]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.19-19.56.56:381][801]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2020.07.19-19.56.56:381][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.039901s)
+[2020.07.19-19.56.56:423][801]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.07.19-19.56.56:423][801]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.19-19.56.56:423][801]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.19-19.56.56:423][801]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.19-19.56.56:423][801]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.19-19.56.56:423][801]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.19-19.56.56:423][801]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.19-19.56.56:423][801]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.19-19.56.56:423][801]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.19-19.56.56:423][801]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.19-19.56.56:423][801]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.19-19.56.56:444][801]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.19-19.56.56:444][801]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.19-19.56.56:444][801]LogAudioMixer: Display: Is Default: Yes
+[2020.07.19-19.56.56:444][801]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.19-19.56.56:444][801]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.19-19.56.56:444][801]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.19-19.56.56:444][801]LogAudioMixer: Display: Channel Order:
+[2020.07.19-19.56.56:444][801]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.19-19.56.56:444][801]LogAudioMixer: Display: 1: FrontRight
+[2020.07.19-19.56.56:454][801]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.19-19.56.56:456][801]LogInit: FAudioDevice initialized.
+[2020.07.19-19.56.56:461][801]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.19-19.56.56:466][801]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.19-15.56.56
+[2020.07.19-19.56.56:468][801]LogWorld: Bringing up level for play took: 0.006166
+[2020.07.19-19.56.56:468][801]LogOnline: OSS: Creating online subsystem instance for: :Context_132
+[2020.07.19-19.56.56:471][801]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.56:472][801]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.56.56:476][801]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 -0.225
+[2020.07.19-19.57.01:383][ 95]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.19-19.57.01:398][ 95]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.19-19.57.01:429][ 95]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.19-19.57.01:429][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.19-19.57.01:429][ 95]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.19-19.57.01:429][ 95]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.19-19.57.01:430][ 95]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.19-19.57.01:431][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.19-19.57.01:441][ 95]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.19-19.57.01:445][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.19-19.57.01:482][ 95]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.19-19.57.01:485][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.19-19.57.01:490][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2020.07.19-19.57.01:511][ 96]LogPlayLevel: Display: Destroying online subsystem :Context_132
+[2020.07.19-19.57.02:087][127]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.19-19.57.02:131][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.19-19.57.02:131][127]PIE: New page: PIE session: PFinalLevel1 (Jul 19, 2020, 11:57:02 AM)
+[2020.07.19-19.57.02:131][127]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.19-19.57.02:170][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038689s)
+[2020.07.19-19.57.02:171][127]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.19-19.57.02:171][127]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2020.07.19-19.57.02:171][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.039580s)
+[2020.07.19-19.57.02:210][127]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2020.07.19-19.57.02:211][127]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.19-19.57.02:211][127]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.19-19.57.02:211][127]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.19-19.57.02:211][127]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.19-19.57.02:211][127]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.19-19.57.02:211][127]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.19-19.57.02:211][127]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.19-19.57.02:211][127]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.19-19.57.02:211][127]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.19-19.57.02:212][127]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.19-19.57.02:232][127]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.19-19.57.02:232][127]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.19-19.57.02:232][127]LogAudioMixer: Display: Is Default: Yes
+[2020.07.19-19.57.02:232][127]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.19-19.57.02:232][127]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.19-19.57.02:232][127]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.19-19.57.02:232][127]LogAudioMixer: Display: Channel Order:
+[2020.07.19-19.57.02:232][127]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.19-19.57.02:232][127]LogAudioMixer: Display: 1: FrontRight
+[2020.07.19-19.57.02:242][127]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.19-19.57.02:243][127]LogInit: FAudioDevice initialized.
+[2020.07.19-19.57.02:251][127]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.19-19.57.02:256][127]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.19-15.57.02
+[2020.07.19-19.57.02:258][127]LogWorld: Bringing up level for play took: 0.006002
+[2020.07.19-19.57.02:258][127]LogOnline: OSS: Creating online subsystem instance for: :Context_133
+[2020.07.19-19.57.02:260][127]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.57.02:261][127]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-19.57.02:264][127]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 -0.436
+[2020.07.19-19.57.13:917][826]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.19-19.57.13:939][826]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.19-19.57.13:959][826]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.19-19.57.13:960][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.19-19.57.13:960][826]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.19-19.57.13:960][826]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.19-19.57.13:960][826]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.19-19.57.13:961][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.19-19.57.13:970][826]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.19-19.57.13:976][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.19-19.57.14:017][826]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.19-19.57.14:021][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.19-19.57.14:026][826]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2020.07.19-19.57.14:046][827]LogPlayLevel: Display: Destroying online subsystem :Context_133
+[2020.07.19-19.57.14:476][848]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.07.19-19.57.14:565][848]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel111CE6978478D725EC7B3BD9060ACAD39.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.19-19.57.14:779][848]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData4DF831904A9D5F17D23E88899E76C983.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.19-19.57.14:799][848]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.19-19.57.14:799][848]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.19-19.57.14:799][848]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
