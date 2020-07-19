@@ -15,5 +15,5 @@ class PROJECT_API UDamageType_Explosive : public UDamageType
 	GENERATED_BODY()
 public:
 	UPROPERTY(BlueprintReadWrite)
-		float Force = 300000.f;
+		float Force = 200000.f;
 };
