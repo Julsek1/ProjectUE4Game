@@ -102,6 +102,7 @@ void ALaserTrap::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor
 		AJBasePlayer* Player = Cast<AJBasePlayer>(OtherActor);
 		AJFollowEnemy* Mutant = Cast<AJFollowEnemy>(OtherActor);
 
+
 		if (Player || Mutant)
 		{
 			
@@ -115,6 +116,7 @@ void ALaserTrap::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor
 					UGameplayStatics::PlaySound2D(this, SoundFX);
 				}
 
+				
 				UGameplayStatics::ApplyDamage(OtherActor, Damage, nullptr, this, DamageTypeClass);
 				
 
