@@ -1495,3 +1495,803 @@ Make sure 'BP_TSHUD' has been compiled for  Get InteractMessage
 [2020.07.17-18.40.57:882][574]AssetCheck: New page: Asset Save: multiple assets
 [2020.07.17-18.40.57:882][574]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
 [2020.07.17-18.40.57:882][574]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.43.17:297][189]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.07.17-18.43.17:425][189]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1F2653571407F9B9036C4929362603A39.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.43.17:567][189]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData50B57C1748CA10BAA67F0494F9EC6676.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.43.17:586][189]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.43.17:586][189]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.43.17:586][189]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.43.20:333][350]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.07.17-18.43.20:445][350]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel17C53C7B847AF23756C7B0EA97CD730BF.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.43.20:570][350]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData35CB876B465B513D7A066C9FC59279AC.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.43.20:589][350]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.43.20:589][350]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.43.20:589][350]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.43.21:639][413]LogEditorViewport: Clicking on Actor (LMB): BP_SlidingDoorLockedMultiple_C (BP_SlidingDoorLockedMultiple)
+[2020.07.17-18.43.23:899][548]LogEditorViewport: Clicking on Actor (LMB): BP_SlidingDoorLockedMultiple_C (BP_SlidingDoorLocked2)
+[2020.07.17-18.43.36:219][268]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2020.07.17-18.43.36:324][268]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1DE532CC442D5D2FEA4B650B7065DE12F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.43.36:451][268]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltDataDD4E6C1546C242C683D9908F809A8437.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.43.36:472][268]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.43.36:472][268]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.43.36:472][268]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.43.38:120][363]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.07.17-18.43.38:220][363]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel10B33482040B8A68DA6C6059AD048985F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.43.38:365][363]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltDataDB45721D43164825C43B92963FE4F806.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.43.38:388][363]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.43.38:388][363]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.43.38:388][363]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.43.42:257][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2020.07.17-18.43.42:364][591]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1E107EC6E406C5688350B738F1993E173.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.43.42:489][591]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltDataC0A0689E4E9DFFF76C9597B6E5C2AEFD.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.43.42:509][591]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.43.42:509][591]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.43.42:509][591]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.43.51:262][100]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2020.07.17-18.43.51:373][100]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1AF8FB77E4F32B2D8F6275BA851D03F16.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.43.51:506][100]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData359664FB4ED78DCDB8F6DA89459192D5.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.43.51:527][100]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.43.51:527][100]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.43.51:527][100]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.43.52:074][133]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.17-18.43.52:766][173]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2020.07.17-18.43.53:694][228]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.07.17-18.43.55:050][309]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.07.17-18.43.55:224][316]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.07.17-18.43.55:350][316]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel178573A12484951F6F0D28F97ACB6A965.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.43.55:490][316]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData20370CAD4B08C47627E6358608ABA4E3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.43.55:510][316]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.43.55:510][316]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.43.55:510][316]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.43.57:423][427]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.07.17-18.43.57:528][427]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1919CA5514849741EA907E3BC6508D762.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.43.57:675][427]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData341FA6694467E8559641B6A928BD1D47.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.43.57:695][427]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.43.57:695][427]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.43.57:695][427]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.43.58:231][459]LogEditorViewport: Clicking on Actor (LMB): BP_SlidingDoorLockedMultiple_C (BP_SlidingDoorLockedMultiple)
+[2020.07.17-18.44.07:551][  1]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2020.07.17-18.44.07:661][  1]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1CAFFC3B54619EEF407A7B5A4A5B9CB20.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.44.07:796][  1]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData5D78AC884B3700DD76A553847ABF4502.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.44.07:814][  1]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.44.07:814][  1]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.44.07:814][  1]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.44.11:986][248]LogEditorViewport: Clicking on Actor (LMB): BP_SlidingDoorLockedMultiple_C (BP_SlidingDoorLocked)
+[2020.07.17-18.44.17:016][545]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.07.17-18.44.17:119][545]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1C6024A664D94C10D85DEA990AC582C28.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.44.17:247][545]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltDataCE2B668A420916D7A9BE58AB74D4750B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.44.17:268][545]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.44.17:268][545]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.44.17:268][545]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.44.17:724][572]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-18.44.17:755][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-18.44.17:755][572]PIE: New page: PIE session: PFinalLevel1 (Jul 17, 2020, 10:44:17 AM)
+[2020.07.17-18.44.17:756][572]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.17-18.44.17:791][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035303s)
+[2020.07.17-18.44.17:792][572]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.17-18.44.17:792][572]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2020.07.17-18.44.17:792][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.036219s)
+[2020.07.17-18.44.17:826][572]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.07.17-18.44.17:827][572]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-18.44.17:827][572]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-18.44.17:827][572]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-18.44.17:827][572]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-18.44.17:827][572]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-18.44.17:827][572]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-18.44.17:827][572]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-18.44.17:827][572]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-18.44.17:827][572]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-18.44.17:828][572]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-18.44.17:849][572]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-18.44.17:849][572]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.17-18.44.17:849][572]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-18.44.17:849][572]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-18.44.17:849][572]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-18.44.17:849][572]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-18.44.17:849][572]LogAudioMixer: Display: Channel Order:
+[2020.07.17-18.44.17:849][572]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-18.44.17:849][572]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-18.44.17:859][572]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.17-18.44.17:860][572]LogInit: FAudioDevice initialized.
+[2020.07.17-18.44.17:864][572]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.17-18.44.17:868][572]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.17-14.44.17
+[2020.07.17-18.44.17:869][572]LogWorld: Bringing up level for play took: 0.004634
+[2020.07.17-18.44.17:869][572]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2020.07.17-18.44.17:871][572]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.17-18.44.17:871][572]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.17-18.44.17:875][572]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.846
+[2020.07.17-18.44.29:141][248]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-18.44.29:143][248]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.17-18.44.29:164][248]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.17-18.44.29:165][248]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-18.44.29:165][248]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.17-18.44.29:165][248]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-18.44.29:165][248]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-18.44.29:166][248]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-18.44.29:175][248]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-18.44.29:180][248]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-18.44.29:217][248]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-18.44.29:221][248]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-18.44.29:225][248]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2020.07.17-18.44.29:243][249]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.07.17-18.44.33:696][516]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Keycard_C (BP_Keycard)
+[2020.07.17-18.44.51:277][565]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SEditableText [SEditableTextBox.cpp(53)].
+[2020.07.17-18.44.51:328][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.07.17-18.44.51:450][565]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1DE74C8434AD7A55B20738C84E1F42265.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.44.51:584][565]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData278E0FFD4C12D333E3C92ABEEF2E6C77.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.44.51:604][565]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.44.51:604][565]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.44.51:604][565]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.44.52:109][595]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.17-18.44.52:681][628]LogEditorViewport: Clicking on Actor (LMB): BP_Keycard_C (BP_Keycard3)
+[2020.07.17-18.44.56:665][863]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SViewport [SEditorViewport.cpp(54)].
+[2020.07.17-18.44.56:712][863]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2020.07.17-18.44.56:816][863]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1BC96BF414F0F9E3990F7CDA43DC6201E.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.44.56:948][863]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltDataD2C356454750235B370F94A0FEDD2407.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.44.56:965][863]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.44.56:965][863]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.44.56:965][863]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.44.57:478][894]LogEditorViewport: Clicking on Actor (LMB): BP_Keycard_C (BP_Keycard2)
+[2020.07.17-18.45.02:944][218]LogEditorViewport: Clicking on Actor (LMB): BP_Keycard_C (BP_Keycard4)
+[2020.07.17-18.45.08:290][531]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2020.07.17-18.45.08:394][531]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel16890C7CC46500FB296558C9319349EBF.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.45.08:523][531]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltDataA773229F4CDE4518F4243CA4E3772AC3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.45.08:545][531]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.45.08:545][531]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.45.08:545][531]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.45.09:262][574]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-18.45.09:296][574]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-18.45.09:296][574]PIE: New page: PIE session: PFinalLevel1 (Jul 17, 2020, 10:45:09 AM)
+[2020.07.17-18.45.09:297][574]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.17-18.45.09:344][574]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047091s)
+[2020.07.17-18.45.09:344][574]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.17-18.45.09:345][574]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2020.07.17-18.45.09:345][574]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.048037s)
+[2020.07.17-18.45.09:385][574]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2020.07.17-18.45.09:386][574]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-18.45.09:386][574]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-18.45.09:386][574]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-18.45.09:386][574]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-18.45.09:386][574]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-18.45.09:386][574]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-18.45.09:386][574]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-18.45.09:386][574]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-18.45.09:387][574]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-18.45.09:387][574]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-18.45.09:417][574]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-18.45.09:417][574]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.17-18.45.09:417][574]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-18.45.09:417][574]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-18.45.09:417][574]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-18.45.09:417][574]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-18.45.09:417][574]LogAudioMixer: Display: Channel Order:
+[2020.07.17-18.45.09:417][574]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-18.45.09:417][574]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-18.45.09:433][574]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.17-18.45.09:434][574]LogInit: FAudioDevice initialized.
+[2020.07.17-18.45.09:445][574]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.17-18.45.09:451][574]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.17-14.45.09
+[2020.07.17-18.45.09:453][574]LogWorld: Bringing up level for play took: 0.007768
+[2020.07.17-18.45.09:454][574]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.07.17-18.45.09:456][574]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.17-18.45.09:456][574]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.17-18.45.09:460][574]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.431
+[2020.07.17-18.45.18:469][114]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-18.45.18:469][114]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-18.45.18:469][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-18.45.18:469][114]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.17-18.45.18:469][114]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-18.45.18:470][114]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-18.45.18:471][114]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-18.45.18:481][114]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-18.45.18:486][114]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-18.45.18:518][114]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-18.45.18:520][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-18.45.18:525][114]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.07.17-18.45.18:576][117]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.07.17-18.45.20:344][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ServerBlock3Terminal)
+[2020.07.17-18.45.47:884][831]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2020.07.17-18.45.48:002][831]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel164C60B2446140F3AA6754D9E63CCDB2F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.45.48:133][831]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData76773FDA4A29CA45E8FFF4AB079BD4FA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.45.48:151][831]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.45.48:151][831]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.45.48:151][831]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.45.59:854][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.07.17-18.45.59:963][995]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel114FDC45B48DF1AA568FB60A189704794.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.46.00:100][995]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData4EB5305B40607A8B10C0D88DC34C9F15.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.46.00:120][995]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.46.00:120][995]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.46.00:120][995]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.46.18:343][262]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-18.46.18:343][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-18.46.18:808][285]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-18.46.18:808][285]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-18.46.18:813][285]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-18.46.18:813][285]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-18.46.19:885][341]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2020.07.17-18.46.19:975][341]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1ED248A9C48AE62392313C797125DF607.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.46.20:104][341]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData7A4B07A346047FEB6DABF09F94E60C58.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.46.20:119][341]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.46.20:119][341]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.46.20:119][341]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.46.20:474][363]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.17-18.46.20:507][363]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.17-18.46.20:507][363]PIE: New page: PIE session: PFinalLevel1 (Jul 17, 2020, 10:46:20 AM)
+[2020.07.17-18.46.20:508][363]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.17-18.46.20:550][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042036s)
+[2020.07.17-18.46.20:550][363]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.17-18.46.20:551][363]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2020.07.17-18.46.20:551][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.043055s)
+[2020.07.17-18.46.20:606][363]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2020.07.17-18.46.20:606][363]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.17-18.46.20:606][363]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.17-18.46.20:606][363]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.17-18.46.20:606][363]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.17-18.46.20:606][363]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.17-18.46.20:606][363]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.17-18.46.20:606][363]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.17-18.46.20:606][363]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.17-18.46.20:607][363]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.17-18.46.20:607][363]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.17-18.46.20:631][363]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.17-18.46.20:631][363]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.17-18.46.20:631][363]LogAudioMixer: Display: Is Default: Yes
+[2020.07.17-18.46.20:631][363]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.17-18.46.20:631][363]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.17-18.46.20:631][363]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.17-18.46.20:631][363]LogAudioMixer: Display: Channel Order:
+[2020.07.17-18.46.20:631][363]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.17-18.46.20:631][363]LogAudioMixer: Display: 1: FrontRight
+[2020.07.17-18.46.20:641][363]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.17-18.46.20:642][363]LogInit: FAudioDevice initialized.
+[2020.07.17-18.46.20:645][363]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.17-18.46.20:649][363]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.17-14.46.20
+[2020.07.17-18.46.20:651][363]LogWorld: Bringing up level for play took: 0.004433
+[2020.07.17-18.46.20:651][363]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2020.07.17-18.46.20:653][363]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.17-18.46.20:654][363]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.17-18.46.20:657][363]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 -0.372
+[2020.07.17-18.47.13:889][908]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-18.47.13:903][908]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.17-18.47.13:934][908]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.17-18.47.13:935][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-18.47.13:935][908]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.17-18.47.13:935][908]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-18.47.13:935][908]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-18.47.13:936][908]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-18.47.13:940][908]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.17-18.47.13:944][908]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.17-18.47.13:974][908]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-18.47.13:977][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.17-18.47.13:980][908]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.07.17-18.47.14:010][909]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.07.17-18.47.14:489][934]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.07.17-18.47.14:589][934]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1C38B608A4A974E53E2544A8DE389E1B8.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.47.14:737][934]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltDataA6AA9D2D418B2F2FA06BE5BB05470222.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.47.14:753][934]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.47.14:753][934]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.47.14:754][934]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.47.17:772][113]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.07.17-18.47.17:889][113]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1D2B985854A0601C76864C98393B07B15.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.47.18:029][113]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData92D07DC24EDF71EC06F527AA7478F4AE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.47.18:050][113]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.47.18:050][113]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.47.18:050][113]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.47.21:576][320]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.07.17-18.47.21:672][320]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel163EAD5DD43DF19C353FA8DA1174D0997.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.47.21:797][320]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData64B2801D44F776269E5F0BB6ECDD47AA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.47.21:815][320]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.47.21:815][320]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.47.21:815][320]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.47.28:452][713]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.07.17-18.47.28:572][713]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel117C669D6403B6F21333C4291BFA02A63.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.47.28:697][713]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltDataFF8A79DF4FD933F4D2D6368E3AC0D491.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.47.28:714][713]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.47.28:714][713]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.47.28:715][713]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.47.32:248][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.07.17-18.47.32:352][921]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1E04AE5F54202BE367A5F44B2439D4A3D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.47.32:494][921]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData1CB16E4E47D9587114EB4195940A4056.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.47.32:514][921]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.47.32:514][921]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.47.32:514][921]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.47.35:947][124]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.07.17-18.47.36:039][124]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel122B9BF6B4321162EA707A89C2D1C463D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.47.36:166][124]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData846178B34E9B5522678C208E9EEAF089.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.47.36:185][124]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.47.36:185][124]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.47.36:185][124]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.47.37:841][223]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2020.07.17-18.47.38:076][235]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2020.07.17-18.47.39:130][297]LogEditorViewport: Clicking Background
+[2020.07.17-18.47.41:315][428]Cmd: TRANSACTION UNDO
+[2020.07.17-18.47.41:315][428]LogEditorTransaction: Undo Clicking Background
+[2020.07.17-18.47.41:734][439]Cmd: TRANSACTION UNDO
+[2020.07.17-18.47.41:734][439]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2020.07.17-18.47.42:484][481]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.17-18.48.03:832][745]Cmd: TRANSACTION UNDO
+[2020.07.17-18.48.03:832][745]LogEditorTransaction: Undo Move Actors
+[2020.07.17-18.48.10:712][138]LogEditorViewport: Clicking Background
+[2020.07.17-18.48.11:113][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.07.17-18.48.11:213][159]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1F8AC0BE44A2F329331434898B30DC79F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.48.11:343][159]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData079603C047D0C074962CF3A80ECF7728.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.48.11:359][159]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.48.11:359][159]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.48.11:359][159]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.48.19:943][674]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.17-18.48.21:798][765]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.07.17-18.48.21:921][765]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1034CFCBD43146B7671ACAB95BB207141.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.48.22:072][765]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData2FC8588D4E4553B5F88CCB823E7177B3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.48.22:091][765]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.48.22:091][765]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.48.22:091][765]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.48.23:411][843]LogEditorViewport: Clicking Background
+[2020.07.17-18.48.33:734][462]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.17-18.48.34:239][487]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.07.17-18.48.34:334][487]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1F92C6BF44DBF957300E6C58CE64FE286.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.48.34:475][487]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData022140A245B03106FA7C9E826436DDAE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.48.34:497][487]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.48.34:497][487]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.48.34:497][487]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.48.35:711][560]LogEditorViewport: Clicking Background
+[2020.07.17-18.48.36:013][575]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.07.17-18.48.36:133][575]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1B8E9A86F43694511FE650AA1C5FC9AB1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.48.36:274][575]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData11821E62446A0C53A04A25BF397C1542.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.48.36:292][575]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.48.36:292][575]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.48.36:292][575]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.49.57:922][488]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.07.17-18.49.58:036][488]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1E3FA53B84A34A8BB6886CEB5FF835294.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.49.58:160][488]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltDataD63D7FD846820705179302AFC0D9C5E1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.49.58:181][488]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.49.58:181][488]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.49.58:181][488]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.50.00:735][641]LogEditorViewport: Clicking on Actor (LMB): BP_GasMask_C (BP_GasMask)
+[2020.07.17-18.50.02:002][712]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.17-18.50.05:902][944]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.17-18.50.06:403][974]LogEditorViewport: Clicking on Actor (LMB): BP_GasMask_C (BP_GasMask)
+[2020.07.17-18.50.06:826][993]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.07.17-18.50.06:915][993]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel16BFBFFF143834E2A20A2FBAC2C56F22B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.50.07:048][993]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData745FF1164CADFD55236AA59B172412D1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.50.07:067][993]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.50.07:067][993]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.50.07:067][993]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.50.11:530][258]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.07.17-18.50.11:672][258]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel17F07484E4D5320C3AEF7BB977B1995D1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.50.11:827][258]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltDataDE772A3440C3380E31F100AB5DFE48AC.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.50.11:843][258]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.50.11:843][258]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.50.11:844][258]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.50.40:713][508]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.07.17-18.50.40:837][508]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel121B3F7874C987E534B986E90D13D5911.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.50.40:965][508]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData52D567AE4BBF6B44B85BA2A1289BC666.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.50.40:987][508]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.50.40:987][508]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.50.40:987][508]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.50.43:919][681]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.07.17-18.50.44:013][681]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1EA1A47E747A19B3DCCEBB2B8D1281BF6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.50.44:143][681]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData8245E8D64AACC946373BF1A8EF34E921.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.50.44:165][681]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.50.44:165][681]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.50.44:165][681]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.57.45:572][791]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2020.07.17-18.57.45:695][791]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1042644C7440876FE05C2618090128D54.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.57.45:861][791]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData0334651D454D9F3BB2C3D39823844DF9.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.57.45:879][791]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.57.45:879][791]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.57.45:879][791]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-18.57.47:343][871]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.07.17-18.57.47:437][871]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel199D1B0D841449E0AFEA3A0B7019D7506.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.17-18.57.47:584][871]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData7733BBFD4EB90491432450AF28DC5030.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.17-18.57.47:609][871]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.17-18.57.47:609][871]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.17-18.57.47:609][871]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.17-19.23.20:956][518]LogHttp: Warning: 00000204A98AD300: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA772CEDB-4D36-7253-7170-5C81D560AC64%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=031ce581448aebb55564079ec7ecf194%7C26b81dd4b90e47b1a6762aa00f40b824%7Caaf06244-6ebc-4d36-b62c-edeb95748ce5&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.17-19.23.20:956][518]LogHttp: Warning: 00000204A98AD300: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.07.17-19.23.20:956][518]LogHttp: Warning: 00000204A98AD300: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x204757cff70 [can pipeline])
+[2020.07.17-19.23.20:956][518]LogHttp: Warning: 00000204A98AD300: libcurl info message cache 1 (Re-using existing connection! (#24) with host datarouter.ol.epicgames.com)
+[2020.07.17-19.23.20:956][518]LogHttp: Warning: 00000204A98AD300: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.211.254.83) port 443 (#24))
+[2020.07.17-19.23.20:956][518]LogHttp: Warning: 00000204A98AD300: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.07.17-19.23.20:956][518]LogHttp: Warning: 00000204A98AD300: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10053)
+[2020.07.17-19.23.20:956][518]LogHttp: Warning: 00000204A98AD300: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.07.17-19.23.20:956][518]LogHttp: Warning: 00000204A98AD300: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.07.17-19.23.20:956][518]LogHttp: Warning: 00000204A98AD300: libcurl info message cache 7 (Closing connection 24)
+[2020.07.17-19.23.20:956][518]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA772CEDB-4D36-7253-7170-5C81D560AC64%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=031ce581448aebb55564079ec7ecf194%7C26b81dd4b90e47b1a6762aa00f40b824%7Caaf06244-6ebc-4d36-b62c-edeb95748ce5&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.07.17-19.34.20:934][486]LogHttp: Warning: 00000204A98AD300: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA772CEDB-4D36-7253-7170-5C81D560AC64%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=031ce581448aebb55564079ec7ecf194%7C26b81dd4b90e47b1a6762aa00f40b824%7Caaf06244-6ebc-4d36-b62c-edeb95748ce5&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.17-19.34.20:934][486]LogHttp: Warning: 00000204A98AD300: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.07.17-19.34.20:934][486]LogHttp: Warning: 00000204A98AD300: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x204757cff70 [can pipeline])
+[2020.07.17-19.34.20:934][486]LogHttp: Warning: 00000204A98AD300: libcurl info message cache 1 (Re-using existing connection! (#27) with host datarouter.ol.epicgames.com)
+[2020.07.17-19.34.20:934][486]LogHttp: Warning: 00000204A98AD300: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.72.166.6) port 443 (#27))
+[2020.07.17-19.34.20:934][486]LogHttp: Warning: 00000204A98AD300: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.07.17-19.34.20:934][486]LogHttp: Warning: 00000204A98AD300: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10053)
+[2020.07.17-19.34.20:934][486]LogHttp: Warning: 00000204A98AD300: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.07.17-19.34.20:934][486]LogHttp: Warning: 00000204A98AD300: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.07.17-19.34.20:934][486]LogHttp: Warning: 00000204A98AD300: libcurl info message cache 7 (Closing connection 27)
+[2020.07.17-19.34.20:934][486]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA772CEDB-4D36-7253-7170-5C81D560AC64%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=031ce581448aebb55564079ec7ecf194%7C26b81dd4b90e47b1a6762aa00f40b824%7Caaf06244-6ebc-4d36-b62c-edeb95748ce5&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.07.17-20.15.12:001][853]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.07.17-20.15.12:181][853]LogSlate: Window 'Project - Unreal Editor' being destroyed
+[2020.07.17-20.15.12:184][853]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.07.17-20.15.12:439][854]Cmd: QUIT_EDITOR
+[2020.07.17-20.15.12:439][854]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.07.17-20.15.12:454][854]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.07.17-20.15.12:454][854]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.17-20.15.13:040][854]LogExit: Preparing to exit.
+[2020.07.17-20.15.13:260][854]LogUObjectHash: Compacting FUObjectHashTables data took   6.51ms
+[2020.07.17-20.15.13:528][854]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-20.15.13:531][854]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-20.15.13:533][854]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-20.15.13:534][854]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-20.15.13:535][854]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-20.15.13:536][854]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-20.15.13:538][854]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-20.15.13:539][854]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-20.15.13:540][854]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-20.15.13:541][854]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-20.15.13:742][854]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.07.17-20.15.13:744][854]LogExit: Editor shut down
+[2020.07.17-20.15.13:745][854]LogExit: Transaction tracking system shut down
+[2020.07.17-20.15.13:751][854]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.07.17-20.15.15:015][854]LogExit: Object subsystem successfully closed.
+[2020.07.17-20.15.15:134][854]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.07.17-20.15.15:560][854]LogModuleManager: Shutting down and abandoning module SequencerWidgets (714)
+[2020.07.17-20.15.15:560][854]LogModuleManager: Shutting down and abandoning module BlueprintGraph (712)
+[2020.07.17-20.15.15:560][854]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (710)
+[2020.07.17-20.15.15:560][854]LogModuleManager: Shutting down and abandoning module Voice (708)
+[2020.07.17-20.15.15:563][854]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (706)
+[2020.07.17-20.15.15:563][854]LogModuleManager: Shutting down and abandoning module SceneOutliner (704)
+[2020.07.17-20.15.15:563][854]LogModuleManager: Shutting down and abandoning module AddContentDialog (702)
+[2020.07.17-20.15.15:567][854]LogModuleManager: Shutting down and abandoning module WidgetCarousel (701)
+[2020.07.17-20.15.15:567][854]LogModuleManager: Shutting down and abandoning module EditorWidgets (698)
+[2020.07.17-20.15.15:567][854]LogModuleManager: Shutting down and abandoning module CollectionManager (696)
+[2020.07.17-20.15.15:568][854]LogModuleManager: Shutting down and abandoning module StatsViewer (694)
+[2020.07.17-20.15.15:570][854]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (692)
+[2020.07.17-20.15.15:570][854]LogModuleManager: Shutting down and abandoning module FoliageEdit (690)
+[2020.07.17-20.15.15:572][854]LogModuleManager: Shutting down and abandoning module LandscapeEditor (688)
+[2020.07.17-20.15.15:579][854]LogModuleManager: Shutting down and abandoning module MeshPaintMode (686)
+[2020.07.17-20.15.15:579][854]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (684)
+[2020.07.17-20.15.15:579][854]LogModuleManager: Shutting down and abandoning module ActorPickerMode (682)
+[2020.07.17-20.15.15:579][854]LogModuleManager: Shutting down and abandoning module GeometryMode (680)
+[2020.07.17-20.15.15:579][854]LogModuleManager: Shutting down and abandoning module TextureAlignMode (678)
+[2020.07.17-20.15.15:579][854]LogModuleManager: Shutting down and abandoning module BspMode (676)
+[2020.07.17-20.15.15:579][854]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (674)
+[2020.07.17-20.15.15:581][854]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (672)
+[2020.07.17-20.15.15:581][854]LogModuleManager: Shutting down and abandoning module AutomationWorker (670)
+[2020.07.17-20.15.15:581][854]LogModuleManager: Shutting down and abandoning module SteamVREditor (668)
+[2020.07.17-20.15.15:581][854]LogModuleManager: Shutting down and abandoning module OculusMR (666)
+[2020.07.17-20.15.15:582][854]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (664)
+[2020.07.17-20.15.15:582][854]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (662)
+[2020.07.17-20.15.15:582][854]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (660)
+[2020.07.17-20.15.15:584][854]LogModuleManager: Shutting down and abandoning module PlacementMode (659)
+[2020.07.17-20.15.15:584][854]LogModuleManager: Shutting down and abandoning module MaterialEditor (658)
+[2020.07.17-20.15.15:585][854]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (654)
+[2020.07.17-20.15.15:586][854]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (652)
+[2020.07.17-20.15.15:586][854]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (650)
+[2020.07.17-20.15.15:586][854]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (648)
+[2020.07.17-20.15.15:586][854]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (646)
+[2020.07.17-20.15.15:586][854]LogModuleManager: Shutting down and abandoning module WebMMedia (644)
+[2020.07.17-20.15.15:586][854]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (642)
+[2020.07.17-20.15.15:587][854]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (640)
+[2020.07.17-20.15.15:588][854]LogModuleManager: Shutting down and abandoning module SequenceRecorder (639)
+[2020.07.17-20.15.15:588][854]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (636)
+[2020.07.17-20.15.15:588][854]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (634)
+[2020.07.17-20.15.15:588][854]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (632)
+[2020.07.17-20.15.15:588][854]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (630)
+[2020.07.17-20.15.15:588][854]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (628)
+[2020.07.17-20.15.15:588][854]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (626)
+[2020.07.17-20.15.15:588][854]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (624)
+[2020.07.17-20.15.15:588][854]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (622)
+[2020.07.17-20.15.15:588][854]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (620)
+[2020.07.17-20.15.15:588][854]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (618)
+[2020.07.17-20.15.15:588][854]LogModuleManager: Shutting down and abandoning module CharacterAI (616)
+[2020.07.17-20.15.15:588][854]LogModuleManager: Shutting down and abandoning module SmartSnapping (614)
+[2020.07.17-20.15.15:588][854]LogModuleManager: Shutting down and abandoning module SessionServices (612)
+[2020.07.17-20.15.15:588][854]LogModuleManager: Shutting down and abandoning module MeshPaint (610)
+[2020.07.17-20.15.15:589][854]LogModuleManager: Shutting down and abandoning module ViewportSnapping (608)
+[2020.07.17-20.15.15:589][854]LogModuleManager: Shutting down and abandoning module ViewportInteraction (606)
+[2020.07.17-20.15.15:589][854]LogModuleManager: Shutting down and abandoning module ClothPainter (604)
+[2020.07.17-20.15.15:590][854]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (603)
+[2020.07.17-20.15.15:591][854]LogModuleManager: Shutting down and abandoning module LogVisualizer (600)
+[2020.07.17-20.15.15:592][854]LogModuleManager: Shutting down and abandoning module IntroTutorials (598)
+[2020.07.17-20.15.15:593][854]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (597)
+[2020.07.17-20.15.15:594][854]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (594)
+[2020.07.17-20.15.15:594][854]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (592)
+[2020.07.17-20.15.15:594][854]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (590)
+[2020.07.17-20.15.15:594][854]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (589)
+[2020.07.17-20.15.15:678][854]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (586)
+[2020.07.17-20.15.15:678][854]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (584)
+[2020.07.17-20.15.15:678][854]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (582)
+[2020.07.17-20.15.15:678][854]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (580)
+[2020.07.17-20.15.15:678][854]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (578)
+[2020.07.17-20.15.15:678][854]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (576)
+[2020.07.17-20.15.15:678][854]LogModuleManager: Shutting down and abandoning module InputBindingEditor (574)
+[2020.07.17-20.15.15:679][854]LogModuleManager: Shutting down and abandoning module MergeActors (572)
+[2020.07.17-20.15.15:680][854]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (570)
+[2020.07.17-20.15.15:681][854]LogModuleManager: Shutting down and abandoning module LocalizationService (569)
+[2020.07.17-20.15.15:681][854]LogModuleManager: Shutting down and abandoning module HardwareTargeting (566)
+[2020.07.17-20.15.15:681][854]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (564)
+[2020.07.17-20.15.15:682][854]LogModuleManager: Shutting down and abandoning module UndoHistory (562)
+[2020.07.17-20.15.15:682][854]LogModuleManager: Shutting down and abandoning module XmlParser (560)
+[2020.07.17-20.15.15:682][854]LogModuleManager: Shutting down and abandoning module Blutility (558)
+[2020.07.17-20.15.15:682][854]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (556)
+[2020.07.17-20.15.15:682][854]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (555)
+[2020.07.17-20.15.15:683][854]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (552)
+[2020.07.17-20.15.15:683][854]LogModuleManager: Shutting down and abandoning module SettingsEditor (550)
+[2020.07.17-20.15.15:683][854]LogModuleManager: Shutting down and abandoning module ProjectLauncher (548)
+[2020.07.17-20.15.15:684][854]LogModuleManager: Shutting down and abandoning module SessionFrontend (546)
+[2020.07.17-20.15.15:684][854]LogModuleManager: Shutting down and abandoning module ProfilerClient (544)
+[2020.07.17-20.15.15:685][854]LogModuleManager: Shutting down and abandoning module DeviceManager (542)
+[2020.07.17-20.15.15:685][854]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (541)
+[2020.07.17-20.15.15:719][854]LogModuleManager: Shutting down and abandoning module AutomationController (538)
+[2020.07.17-20.15.15:719][854]LogModuleManager: Shutting down and abandoning module AutomationWindow (536)
+[2020.07.17-20.15.15:720][854]LogModuleManager: Shutting down and abandoning module Layers (534)
+[2020.07.17-20.15.15:722][854]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (532)
+[2020.07.17-20.15.15:722][854]LogModuleManager: Shutting down and abandoning module DetailCustomizations (530)
+[2020.07.17-20.15.15:723][854]LogModuleManager: Shutting down and abandoning module PackagesDialog (528)
+[2020.07.17-20.15.15:724][854]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (526)
+[2020.07.17-20.15.15:725][854]LogModuleManager: Shutting down and abandoning module Persona (524)
+[2020.07.17-20.15.15:727][854]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (523)
+[2020.07.17-20.15.15:727][854]LogModuleManager: Shutting down and abandoning module AnimGraph (521)
+[2020.07.17-20.15.15:727][854]LogModuleManager: Shutting down and abandoning module Kismet (518)
+[2020.07.17-20.15.15:755][854]LogModuleManager: Shutting down and abandoning module KismetWidgets (517)
+[2020.07.17-20.15.15:755][854]LogModuleManager: Shutting down and abandoning module GraphEditor (514)
+[2020.07.17-20.15.15:756][854]LogModuleManager: Shutting down and abandoning module StructViewer (512)
+[2020.07.17-20.15.15:756][854]LogModuleManager: Shutting down and abandoning module ClassViewer (510)
+[2020.07.17-20.15.15:756][854]LogModuleManager: Shutting down and abandoning module Toolbox (508)
+[2020.07.17-20.15.15:756][854]LogModuleManager: Shutting down and abandoning module ModuleUI (506)
+[2020.07.17-20.15.15:756][854]LogModuleManager: Shutting down and abandoning module OutputLog (504)
+[2020.07.17-20.15.15:758][854]LogModuleManager: Shutting down and abandoning module GammaUI (502)
+[2020.07.17-20.15.15:759][854]LogModuleManager: Shutting down and abandoning module Documentation (500)
+[2020.07.17-20.15.15:759][854]LogModuleManager: Shutting down and abandoning module ToolMenus (498)
+[2020.07.17-20.15.15:759][854]LogModuleManager: Shutting down and abandoning module LiveCoding (496)
+[2020.07.17-20.15.15:760][854]LogModuleManager: Shutting down and abandoning module LevelSequence (494)
+[2020.07.17-20.15.15:760][854]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (492)
+[2020.07.17-20.15.15:760][854]LogModuleManager: Shutting down and abandoning module MovieScene (490)
+[2020.07.17-20.15.15:760][854]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (488)
+[2020.07.17-20.15.15:760][854]LogModuleManager: Shutting down and abandoning module LauncherPlatform (486)
+[2020.07.17-20.15.15:761][854]LogModuleManager: Shutting down and abandoning module AnalyticsET (484)
+[2020.07.17-20.15.15:761][854]LogModuleManager: Shutting down and abandoning module PortalServices (482)
+[2020.07.17-20.15.15:761][854]LogModuleManager: Shutting down and abandoning module PortalRpc (480)
+[2020.07.17-20.15.15:761][854]LogModuleManager: Shutting down and abandoning module MessagingRpc (478)
+[2020.07.17-20.15.15:761][854]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (476)
+[2020.07.17-20.15.15:761][854]LogModuleManager: Shutting down and abandoning module AIModule (474)
+[2020.07.17-20.15.15:761][854]LogModuleManager: Shutting down and abandoning module GameplayDebugger (473)
+[2020.07.17-20.15.15:761][854]LogModuleManager: Shutting down and abandoning module AITestSuite (471)
+[2020.07.17-20.15.15:761][854]LogModuleManager: Shutting down and abandoning module NavigationSystem (469)
+[2020.07.17-20.15.15:761][854]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (466)
+[2020.07.17-20.15.15:764][854]LogModuleManager: Shutting down and abandoning module ProfilerService (464)
+[2020.07.17-20.15.15:993][854]LogModuleManager: Shutting down and abandoning module TaskGraph (462)
+[2020.07.17-20.15.15:994][854]LogModuleManager: Shutting down and abandoning module MegascansPlugin (460)
+[2020.07.17-20.15.15:994][854]LogModuleManager: Shutting down and abandoning module ScreenshotTools (458)
+[2020.07.17-20.15.15:994][854]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (456)
+[2020.07.17-20.15.15:994][854]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (454)
+[2020.07.17-20.15.15:994][854]LogModuleManager: Shutting down and abandoning module OculusEditor (452)
+[2020.07.17-20.15.15:994][854]LogModuleManager: Shutting down and abandoning module OculusInput (450)
+[2020.07.17-20.15.15:994][854]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (448)
+[2020.07.17-20.15.15:994][854]LogModuleManager: Shutting down and abandoning module EditableMesh (446)
+[2020.07.17-20.15.15:995][854]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (444)
+[2020.07.17-20.15.15:995][854]LogModuleManager: Shutting down and abandoning module CableComponent (442)
+[2020.07.17-20.15.15:995][854]LogModuleManager: Shutting down and abandoning module AudioCapture (440)
+[2020.07.17-20.15.15:995][854]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (439)
+[2020.07.17-20.15.15:995][854]LogModuleManager: Shutting down and abandoning module AssetTags (436)
+[2020.07.17-20.15.15:995][854]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (434)
+[2020.07.17-20.15.15:995][854]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (432)
+[2020.07.17-20.15.15:995][854]LogModuleManager: Shutting down and abandoning module AppleImageUtils (430)
+[2020.07.17-20.15.15:995][854]LogModuleManager: Shutting down and abandoning module AndroidPermission (428)
+[2020.07.17-20.15.15:995][854]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (426)
+[2020.07.17-20.15.15:995][854]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (424)
+[2020.07.17-20.15.15:996][854]LogModuleManager: Shutting down and abandoning module MediaCompositing (422)
+[2020.07.17-20.15.15:996][854]LogModuleManager: Shutting down and abandoning module ImgMedia (420)
+[2020.07.17-20.15.15:996][854]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (418)
+[2020.07.17-20.15.15:996][854]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (416)
+[2020.07.17-20.15.15:996][854]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (414)
+[2020.07.17-20.15.15:996][854]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (412)
+[2020.07.17-20.15.15:996][854]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (410)
+[2020.07.17-20.15.15:996][854]LogModuleManager: Shutting down and abandoning module BackChannel (408)
+[2020.07.17-20.15.15:997][854]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (406)
+[2020.07.17-20.15.15:997][854]LogModuleManager: Shutting down and abandoning module AutomationUtils (404)
+[2020.07.17-20.15.15:997][854]LogModuleManager: Shutting down and abandoning module AlembicImporter (402)
+[2020.07.17-20.15.15:997][854]LogModuleManager: Shutting down and abandoning module AlembicLibrary (401)
+[2020.07.17-20.15.15:997][854]LogModuleManager: Shutting down and abandoning module GeometryCache (400)
+[2020.07.17-20.15.15:997][854]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (399)
+[2020.07.17-20.15.15:998][854]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (394)
+[2020.07.17-20.15.15:998][854]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (392)
+[2020.07.17-20.15.15:999][854]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (390)
+[2020.07.17-20.15.15:999][854]LogModuleManager: Shutting down and abandoning module PluginBrowser (388)
+[2020.07.17-20.15.16:001][854]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (386)
+[2020.07.17-20.15.16:002][854]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (384)
+[2020.07.17-20.15.16:002][854]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (382)
+[2020.07.17-20.15.16:002][854]LogModuleManager: Shutting down and abandoning module CurveEditorTools (380)
+[2020.07.17-20.15.16:002][854]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (378)
+[2020.07.17-20.15.16:002][854]LogModuleManager: Shutting down and abandoning module CryptoKeys (376)
+[2020.07.17-20.15.16:002][854]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (374)
+[2020.07.17-20.15.16:002][854]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (372)
+[2020.07.17-20.15.16:002][854]LogModuleManager: Shutting down and abandoning module UObjectPlugin (370)
+[2020.07.17-20.15.16:002][854]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (368)
+[2020.07.17-20.15.16:003][854]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (366)
+[2020.07.17-20.15.16:005][854]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (364)
+[2020.07.17-20.15.16:006][854]LogModuleManager: Shutting down and abandoning module GitSourceControl (362)
+[2020.07.17-20.15.16:008][854]LogModuleManager: Shutting down and abandoning module SourceControl (361)
+[2020.07.17-20.15.16:008][854]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (358)
+[2020.07.17-20.15.16:009][854]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (356)
+[2020.07.17-20.15.16:009][854]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (354)
+[2020.07.17-20.15.16:009][854]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (352)
+[2020.07.17-20.15.16:009][854]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (350)
+[2020.07.17-20.15.16:009][854]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (348)
+[2020.07.17-20.15.16:009][854]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (346)
+[2020.07.17-20.15.16:009][854]LogModuleManager: Shutting down and abandoning module Paper2DEditor (344)
+[2020.07.17-20.15.16:011][854]LogModuleManager: Shutting down and abandoning module Project (342)
+[2020.07.17-20.15.16:011][854]LogModuleManager: Shutting down and abandoning module SignificanceManager (340)
+[2020.07.17-20.15.16:011][854]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (338)
+[2020.07.17-20.15.16:011][854]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (336)
+[2020.07.17-20.15.16:011][854]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (332)
+[2020.07.17-20.15.16:011][854]LogModuleManager: Shutting down and abandoning module ActorSequence (330)
+[2020.07.17-20.15.16:011][854]LogModuleManager: Shutting down and abandoning module UdpMessaging (328)
+[2020.07.17-20.15.16:112][854]LogModuleManager: Shutting down and abandoning module TcpMessaging (326)
+[2020.07.17-20.15.16:212][854]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (324)
+[2020.07.17-20.15.16:212][854]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (322)
+[2020.07.17-20.15.16:213][854]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.07.17-20.15.16:213][854]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (320)
+[2020.07.17-20.15.16:213][854]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (318)
+[2020.07.17-20.15.16:213][854]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (316)
+[2020.07.17-20.15.16:213][854]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (314)
+[2020.07.17-20.15.16:213][854]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (312)
+[2020.07.17-20.15.16:213][854]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (310)
+[2020.07.17-20.15.16:213][854]LogModuleManager: Shutting down and abandoning module MagicLeapController (308)
+[2020.07.17-20.15.16:214][854]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.07.17-20.15.16:214][854]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (306)
+[2020.07.17-20.15.16:214][854]LogModuleManager: Shutting down and abandoning module MagicLeapAR (304)
+[2020.07.17-20.15.16:214][854]LogModuleManager: Shutting down and abandoning module AugmentedReality (303)
+[2020.07.17-20.15.16:214][854]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (300)
+[2020.07.17-20.15.16:214][854]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (298)
+[2020.07.17-20.15.16:215][854]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (296)
+[2020.07.17-20.15.16:215][854]LogModuleManager: Shutting down and abandoning module FacialAnimation (294)
+[2020.07.17-20.15.16:215][854]LogModuleManager: Shutting down and abandoning module DataValidation (292)
+[2020.07.17-20.15.16:215][854]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (290)
+[2020.07.17-20.15.16:215][854]LogModuleManager: Shutting down and abandoning module LevelEditor (289)
+[2020.07.17-20.15.16:218][854]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (288)
+[2020.07.17-20.15.16:219][854]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (286)
+[2020.07.17-20.15.16:219][854]LogModuleManager: Shutting down and abandoning module MainFrame (284)
+[2020.07.17-20.15.16:220][854]LogModuleManager: Shutting down and abandoning module HotReload (283)
+[2020.07.17-20.15.16:221][854]LogModuleManager: Shutting down and abandoning module ContentBrowser (279)
+[2020.07.17-20.15.16:223][854]LogModuleManager: Shutting down and abandoning module TreeMap (277)
+[2020.07.17-20.15.16:224][854]LogModuleManager: Shutting down and abandoning module AnimationSharing (274)
+[2020.07.17-20.15.16:224][854]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (272)
+[2020.07.17-20.15.16:224][854]LogModuleManager: Shutting down and abandoning module Paper2D (270)
+[2020.07.17-20.15.16:224][854]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (268)
+[2020.07.17-20.15.16:225][854]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (266)
+[2020.07.17-20.15.16:225][854]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (264)
+[2020.07.17-20.15.16:225][854]LogModuleManager: Shutting down and abandoning module PacketHandler (262)
+[2020.07.17-20.15.16:225][854]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (260)
+[2020.07.17-20.15.16:225][854]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (258)
+[2020.07.17-20.15.16:226][854]LogModuleManager: Shutting down and abandoning module MediaAssets (256)
+[2020.07.17-20.15.16:226][854]LogModuleManager: Shutting down and abandoning module Overlay (254)
+[2020.07.17-20.15.16:226][854]LogModuleManager: Shutting down and abandoning module OverlayEditor (253)
+[2020.07.17-20.15.16:226][854]LogModuleManager: Shutting down and abandoning module VREditor (250)
+[2020.07.17-20.15.16:229][854]LogModuleManager: Shutting down and abandoning module StringTableEditor (248)
+[2020.07.17-20.15.16:229][854]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (246)
+[2020.07.17-20.15.16:229][854]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (244)
+[2020.07.17-20.15.16:230][854]LogModuleManager: Shutting down and abandoning module FunctionalTesting (242)
+[2020.07.17-20.15.16:231][854]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (240)
+[2020.07.17-20.15.16:232][854]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (239)
+[2020.07.17-20.15.16:232][854]LogModuleManager: Shutting down and abandoning module UMG (236)
+[2020.07.17-20.15.16:232][854]LogModuleManager: Shutting down and abandoning module UMGEditor (235)
+[2020.07.17-20.15.16:232][854]LogModuleManager: Shutting down and abandoning module MessageLog (233)
+[2020.07.17-20.15.16:232][854]LogModuleManager: Shutting down and abandoning module SlateReflector (228)
+[2020.07.17-20.15.16:235][854]LogModuleManager: Shutting down and abandoning module Slate (226)
+[2020.07.17-20.15.16:235][854]LogModuleManager: Shutting down and abandoning module SlateCore (224)
+[2020.07.17-20.15.16:235][854]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (222)
+[2020.07.17-20.15.16:235][854]LogModuleManager: Shutting down and abandoning module UnrealEd (220)
+[2020.07.17-20.15.16:235][854]LogModuleManager: Shutting down and abandoning module MRMesh (218)
+[2020.07.17-20.15.16:235][854]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (216)
+[2020.07.17-20.15.16:235][854]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (214)
+[2020.07.17-20.15.16:235][854]LogModuleManager: Shutting down and abandoning module XAudio2 (212)
+[2020.07.17-20.15.16:236][854]LogModuleManager: Shutting down and abandoning module Networking (210)
+[2020.07.17-20.15.16:236][854]LogModuleManager: Shutting down and abandoning module Core (208)
+[2020.07.17-20.15.16:236][854]LogModuleManager: Shutting down and abandoning module MovieSceneTools (206)
+[2020.07.17-20.15.16:236][854]LogModuleManager: Shutting down and abandoning module CurveEditor (205)
+[2020.07.17-20.15.16:237][854]LogModuleManager: Shutting down and abandoning module Sequencer (203)
+[2020.07.17-20.15.16:237][854]LogModuleManager: Shutting down and abandoning module EditorStyle (202)
+[2020.07.17-20.15.16:239][854]LogModuleManager: Shutting down and abandoning module KismetCompiler (198)
+[2020.07.17-20.15.16:239][854]LogModuleManager: Shutting down and abandoning module MeshUtilities (196)
+[2020.07.17-20.15.16:240][854]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (195)
+[2020.07.17-20.15.16:241][854]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (194)
+[2020.07.17-20.15.16:241][854]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (193)
+[2020.07.17-20.15.16:241][854]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (191)
+[2020.07.17-20.15.16:241][854]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (189)
+[2020.07.17-20.15.16:242][854]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (187)
+[2020.07.17-20.15.16:243][854]LogModuleManager: Shutting down and abandoning module MaterialBaking (183)
+[2020.07.17-20.15.16:243][854]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (178)
+[2020.07.17-20.15.16:243][854]LogModuleManager: Shutting down and abandoning module DerivedDataCache (176)
+[2020.07.17-20.15.16:243][854]LogDerivedDataCache: Shutdown
+[2020.07.17-20.15.16:243][854]LogModuleManager: Shutting down and abandoning module XGEController (174)
+[2020.07.17-20.15.16:243][854]LogXGEController: Cleaning working directory: C:/Users/philf/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.07.17-20.15.16:243][854]LogModuleManager: Shutting down and abandoning module TargetPlatform (172)
+[2020.07.17-20.15.16:243][854]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (171)
+[2020.07.17-20.15.16:244][854]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (169)
+[2020.07.17-20.15.16:244][854]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (167)
+[2020.07.17-20.15.16:245][854]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (165)
+[2020.07.17-20.15.16:245][854]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (163)
+[2020.07.17-20.15.16:245][854]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (161)
+[2020.07.17-20.15.16:245][854]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (159)
+[2020.07.17-20.15.16:245][854]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (157)
+[2020.07.17-20.15.16:246][854]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (155)
+[2020.07.17-20.15.16:246][854]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (153)
+[2020.07.17-20.15.16:246][854]LogModuleManager: Shutting down and abandoning module ImageWrapper (152)
+[2020.07.17-20.15.16:246][854]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (149)
+[2020.07.17-20.15.16:246][854]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (147)
+[2020.07.17-20.15.16:246][854]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (145)
+[2020.07.17-20.15.16:247][854]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (143)
+[2020.07.17-20.15.16:247][854]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (141)
+[2020.07.17-20.15.16:247][854]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (139)
+[2020.07.17-20.15.16:247][854]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (137)
+[2020.07.17-20.15.16:247][854]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (135)
+[2020.07.17-20.15.16:247][854]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (133)
+[2020.07.17-20.15.16:280][854]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (131)
+[2020.07.17-20.15.16:291][854]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (129)
+[2020.07.17-20.15.16:291][854]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (127)
+[2020.07.17-20.15.16:291][854]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (125)
+[2020.07.17-20.15.16:291][854]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2020.07.17-20.15.16:291][854]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
+[2020.07.17-20.15.16:291][854]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2020.07.17-20.15.16:292][854]LogModuleManager: Shutting down and abandoning module Messaging (117)
+[2020.07.17-20.15.16:292][854]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
+[2020.07.17-20.15.16:362][854]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (113)
+[2020.07.17-20.15.16:551][854]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (111)
+[2020.07.17-20.15.16:551][854]LogModuleManager: Shutting down and abandoning module InputCore (108)
+[2020.07.17-20.15.16:551][854]LogModuleManager: Shutting down and abandoning module Settings (106)
+[2020.07.17-20.15.16:551][854]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (104)
+[2020.07.17-20.15.16:552][854]LogModuleManager: Shutting down and abandoning module PhysXCooking (102)
+[2020.07.17-20.15.16:552][854]LogModuleManager: Shutting down and abandoning module ChaosSolvers (100)
+[2020.07.17-20.15.16:552][854]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (99)
+[2020.07.17-20.15.16:552][854]LogModuleManager: Shutting down and abandoning module Chaos (96)
+[2020.07.17-20.15.16:552][854]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (94)
+[2020.07.17-20.15.16:552][854]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (93)
+[2020.07.17-20.15.16:553][854]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (90)
+[2020.07.17-20.15.16:553][854]LogModuleManager: Shutting down and abandoning module SteamVRInput (88)
+[2020.07.17-20.15.16:553][854]LogModuleManager: Shutting down and abandoning module SteamVR (86)
+[2020.07.17-20.15.16:553][854]LogHMD: Freeing OpenVRDLLHandle.
+[2020.07.17-20.15.16:553][854]LogModuleManager: Shutting down and abandoning module OculusHMD (84)
+[2020.07.17-20.15.16:554][854]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (82)
+[2020.07.17-20.15.16:554][854]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (80)
+[2020.07.17-20.15.16:554][854]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (78)
+[2020.07.17-20.15.16:554][854]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (74)
+[2020.07.17-20.15.16:555][854]LogModuleManager: Shutting down and abandoning module XMPP (69)
+[2020.07.17-20.15.16:556][854]LogModuleManager: Shutting down and abandoning module WebSockets (68)
+[2020.07.17-20.15.16:577][854]LogModuleManager: Shutting down and abandoning module HTTP (65)
+[2020.07.17-20.15.16:577][854]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.07.17-20.15.16:577][854]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA772CEDB-4D36-7253-7170-5C81D560AC64%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=031ce581448aebb55564079ec7ecf194%7C26b81dd4b90e47b1a6762aa00f40b824%7Caaf06244-6ebc-4d36-b62c-edeb95748ce5&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2020.07.17-20.15.16:608][854]LogModuleManager: Shutting down and abandoning module SSL (64)
+[2020.07.17-20.15.16:609][854]LogModuleManager: Shutting down and abandoning module WmfMedia (60)
+[2020.07.17-20.15.16:611][854]LogModuleManager: Shutting down and abandoning module Media (59)
+[2020.07.17-20.15.16:612][854]LogModuleManager: Shutting down and abandoning module MagicLeap (56)
+[2020.07.17-20.15.16:612][854]LogModuleManager: Shutting down and abandoning module VariantManagerContent (54)
+[2020.07.17-20.15.16:612][854]LogModuleManager: Shutting down and abandoning module DatasmithContent (52)
+[2020.07.17-20.15.16:612][854]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2020.07.17-20.15.16:612][854]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2020.07.17-20.15.16:612][854]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (46)
+[2020.07.17-20.15.16:612][854]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.07.17-20.15.16:613][854]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.07.17-20.15.16:613][854]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.07.17-20.15.16:613][854]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.07.17-20.15.16:613][854]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.07.17-20.15.16:615][854]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.07.17-20.15.16:616][854]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.07.17-20.15.16:617][854]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.07.17-20.15.16:617][854]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.07.17-20.15.16:617][854]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.07.17-20.15.16:619][854]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.07.17-20.15.16:620][854]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.07.17-20.15.16:620][854]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.07.17-20.15.16:620][854]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.07.17-20.15.16:621][854]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.07.17-20.15.16:621][854]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.07.17-20.15.16:621][854]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.07.17-20.15.16:621][854]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.07.17-20.15.16:621][854]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.07.17-20.15.16:621][854]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.07.17-20.15.16:622][854]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.07.17-20.15.16:622][854]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.07.17-20.15.16:624][854]LogD3D11RHI: Shutdown
+[2020.07.17-20.15.16:624][854]LogD3D11RHI: CleanupD3DDevice
+[2020.07.17-20.15.16:641][854]LogExit: Exiting.
+[2020.07.17-20.15.16:670][854]Log file closed, 07/17/20 16:15:16
