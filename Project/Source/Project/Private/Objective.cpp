@@ -9,5 +9,16 @@ void AObjective::UpdateProgress()
 	if (Progress >= Requirement)
 	{
 		bComplete = true;
+		GetWorldTimerManager().SetTimer(CompleteTimerHandle, this, &AObjective::DisplayCompleteText, 3, false);
 	}
+}
+
+void AObjective::DisplayCompleteText()
+{
+	GetWorldTimerManager().ClearTimer(CompleteTimerHandle);
+
+	Description = CompleteText;
+	bComplete = false;
+	Progress = 0;
+	Requirement = 0;
 }

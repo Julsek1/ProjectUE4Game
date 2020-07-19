@@ -260,6 +260,7 @@ void ATwinStickShooterPlayer::ReceiveObjective(AObjective* Objective)
 	CurrentObjective->Requirement = Objective->Requirement;
 	CurrentObjective->Progress = Objective->Progress;
 	CurrentObjective->bComplete = Objective->bComplete;
+	CurrentObjective->CompleteText = Objective->CompleteText;
 }
 
 void ATwinStickShooterPlayer::Fire()

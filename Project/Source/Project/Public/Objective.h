@@ -4,16 +4,18 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "TimerManager.h"
+
 #include "Objective.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class PROJECT_API AObjective : public AActor
 {
 	GENERATED_BODY()
-	
+
 public:
 	UFUNCTION(BlueprintCallable)
 		void UpdateProgress();
@@ -26,4 +28,9 @@ public:
 		int32 Requirement;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool bComplete;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FString CompleteText;
+	void DisplayCompleteText();
+
+	FTimerHandle CompleteTimerHandle;
 };
