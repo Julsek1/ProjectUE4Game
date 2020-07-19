@@ -260,6 +260,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stealth")
 	bool CanPerformKill;
 
+	//Animation start/end while performing Stealth Kill
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stealth")
 	bool IsKilling;
 
