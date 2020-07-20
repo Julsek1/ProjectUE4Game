@@ -44,12 +44,14 @@ void AShotgun::Fire(USceneComponent* Location)
 			FCollisionQueryParams CollisionParams;
 
 			DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 0.1f, 0, 1);
-			GetWorld()->LineTraceMultiByChannel(OutHits, Start, End, ECollisionChannel(ECC_Vehicle), CollisionParams);
+			GetWorld()->LineTraceMultiByChannel(OutHits, Start, End, ECollisionChannel(ECC_Pawn), CollisionParams);
 
 			for (int32 j = 0; j < OutHits.Num(); j++)
 			{
 				if (Cast<AParentEnemy>(OutHits[j].GetActor()))
 				{
+					UE_LOG(LogTemp, Warning, TEXT("%s"), *OutHits[j].GetActor()->GetName());
+
 					FVector Difference = End - Start;
 					FVector Direction;
 					float Length;
