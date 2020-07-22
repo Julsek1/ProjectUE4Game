@@ -2,10 +2,10 @@
 
 #pragma once
 
-#include "Components/BoxComponent.h"
+//#include "Components/BoxComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
+#include "InteractableActor.h"
 #include "Particles/ParticleSystem.h"
 #include "Sound/SoundBase.h"
 
@@ -13,7 +13,7 @@
 
 
 UCLASS()
-class PROJECT_API AMinibossLevelPillar : public AActor
+class PROJECT_API AMinibossLevelPillar : public AInteractableActor
 {
 	GENERATED_BODY()
 
@@ -28,17 +28,17 @@ protected:
 public:
 	// Called every frame
 	//virtual void Tick(float DeltaTime) override;
-
-	UPROPERTY(VisibleAnywhere)
-		UStaticMeshComponent* StaticMesh;
+	void Interact() override;
+	/*UPROPERTY(VisibleAnywhere)
+		UStaticMeshComponent* StaticMesh;*/
 	UPROPERTY(VisibleAnywhere)
 		UStaticMeshComponent* Explosive;
 	/*UPROPERTY(VisibleAnywhere)
 		UBoxComponent* Collider;*/
 
-	void PlantExplosive();
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		bool bExplosivePlanted = false;
+	//void PlantExplosive();
+	/*UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		bool bExplosivePlanted = false;*/
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UParticleSystem* Explosion;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)

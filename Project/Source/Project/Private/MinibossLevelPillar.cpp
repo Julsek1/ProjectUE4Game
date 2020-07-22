@@ -9,14 +9,17 @@
 // Sets default values
 AMinibossLevelPillar::AMinibossLevelPillar()
 {
+	InteractMessage = "Interact to plant an explosive";
+
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	//PrimaryActorTick.bCanEverTick = true;
-	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
+	//StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	//Collider = CreateDefaultSubobject<UBoxComponent>(TEXT("Collider"));
 	Explosive = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Explosive"));
-	RootComponent = StaticMesh;
+	//RootComponent = StaticMesh;
 	//Collider->SetupAttachment(StaticMesh);
 	Explosive->SetupAttachment(StaticMesh);
+
 }
 
 // Called when the game starts or when spawned
@@ -33,10 +36,11 @@ void AMinibossLevelPillar::BeginPlay()
 //
 //}
 
-void AMinibossLevelPillar::PlantExplosive()
+void AMinibossLevelPillar::Interact()
 {
+	Super::Interact();
+
 	Explosive->SetVisibility(true);
-	bExplosivePlanted = true;
 
 	if (ToggleOff)
 	{
@@ -48,6 +52,22 @@ void AMinibossLevelPillar::PlantExplosive()
 		ToggleOn->Toggle();
 	}
 }
+
+//void AMinibossLevelPillar::PlantExplosive()
+//{
+//	Explosive->SetVisibility(true);
+//	bExplosivePlanted = true;
+//
+//	if (ToggleOff)
+//	{
+//		ToggleOff->Toggle();
+//	}
+//
+//	if (ToggleOn)
+//	{
+//		ToggleOn->Toggle();
+//	}
+//}
 
 void AMinibossLevelPillar::Explode()
 {
