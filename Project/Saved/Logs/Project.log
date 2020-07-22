@@ -1605,3 +1605,1721 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.07.22-14.38.37:421][425]AssetCheck: New page: Asset Save: multiple assets
 [2020.07.22-14.38.37:421][425]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
 [2020.07.22-14.38.37:421][425]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.22-14.39.38:913][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.07.22-14.39.39:151][136]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel170BAB61C4B57CBD2FDA9C28DD82F8960.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.22-14.39.39:601][136]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData364E71444205E447A3A4AB825DDD73C9.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.22-14.39.39:618][136]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.22-14.39.39:619][136]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.22-14.39.39:619][136]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.22-14.39.47:887][628]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.07.22-14.39.48:116][628]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel13DA711F347038D262B6EF2BFEA1A7862.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.22-14.39.48:563][628]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData7F6CB6F343B71BED251161AB0F371826.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.22-14.39.48:588][628]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.22-14.39.48:588][628]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.22-14.39.48:588][628]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.22-14.39.55:747][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.07.22-14.39.55:982][ 52]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1D25257FD4AA0E71CCFCEA0A9A07FE297.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.22-14.39.56:411][ 52]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1_BuiltData3403D1334E5F9CEB58449FAA27D12D88.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1_BuiltData.uasset'
+[2020.07.22-14.39.56:427][ 52]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.22-14.39.56:427][ 52]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.22-14.39.56:427][ 52]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/PFinalLevel1_BuiltData.PFinalLevel1_BuiltData
+[2020.07.22-14.48.33:500][289]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{590c8f1a-0d78-4e23-ad20-1ccae1fae786}.
+[2020.07.22-14.48.33:500][289]LogTemp: Resetting audio stream to device id 
+[2020.07.22-14.48.33:528][289]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.22-14.48.33:528][289]LogAudioMixer: Display: Name: H243H (NVIDIA High Definition Audio)
+[2020.07.22-14.48.33:528][289]LogAudioMixer: Display: Is Default: Yes
+[2020.07.22-14.48.33:528][289]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.22-14.48.33:528][289]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.22-14.48.33:528][289]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.22-14.48.33:528][289]LogAudioMixer: Display: Channel Order:
+[2020.07.22-14.48.33:528][289]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.22-14.48.33:528][289]LogAudioMixer: Display: 1: FrontRight
+[2020.07.22-15.09.30:486][ 27]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{3603032f-7f6e-4fe6-8fe1-e37a705eba4e}.
+[2020.07.22-15.09.30:487][ 27]LogTemp: Resetting audio stream to device id 
+[2020.07.22-15.09.30:548][ 27]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.22-15.09.30:548][ 27]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.22-15.09.30:548][ 27]LogAudioMixer: Display: Is Default: Yes
+[2020.07.22-15.09.30:548][ 27]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.22-15.09.30:548][ 27]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.22-15.09.30:548][ 27]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.22-15.09.30:548][ 27]LogAudioMixer: Display: Channel Order:
+[2020.07.22-15.09.30:548][ 27]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.22-15.09.30:548][ 27]LogAudioMixer: Display: 1: FrontRight
+[2020.07.22-15.45.39:442][110]LogLinker: Warning: While loading '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap' failed to load '/Game/Phil/Levels/MinibossSeparateArenas_BuiltData': Can't find file.
+[2020.07.22-15.45.39:442][110]LogLinker: Warning: While loading '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap' failed to load '/Game/Phil/Levels/MinibossSeparateArenas_BuiltData': Can't find file.
+[2020.07.22-15.45.39:444][110]LogLinker: Warning: While loading '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap' failed to load '/Game/Phil/Levels/MinibossSeparateArenas_BuiltData': Can't find file.
+[2020.07.22-15.45.39:445][110]LogLinker: Warning: While loading '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap' failed to load '/Game/Phil/Levels/MinibossSeparateArenas_BuiltData': Can't find file.
+[2020.07.22-15.45.39:452][110]LogLinker: Warning: While loading '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap' failed to load '/Game/Phil/Levels/MinibossSeparateArenas_BuiltData': Can't find file.
+[2020.07.22-15.45.39:452][110]LoadErrors: Failed to load /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData Referenced by PersistentLevel
+[2020.07.22-15.45.39:453][110]LogLinker: Warning: While loading '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap' failed to load '/Game/Phil/Levels/MinibossSeparateArenas_BuiltData': Can't find file.
+[2020.07.22-15.45.39:907][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifle_Reload_Cue.SniperRifle_Reload_Cue:SoundCueGraph_66.SoundCueGraphNode_15' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.39:907][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifle_Reload_Cue.SniperRifle_Reload_Cue:SoundCueGraph_66.SoundCueGraphNode_16' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.39:907][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifle_Reload_Cue.SniperRifle_Reload_Cue:SoundCueGraph_66.SoundCueGraphNode_17' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.39:907][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifle_Reload_Cue.SniperRifle_Reload_Cue:SoundCueGraph_66.SoundCueGraphNode_18' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.39:907][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifle_Reload_Cue.SniperRifle_Reload_Cue:SoundCueGraph_66.SoundCueGraphNode_Root_66' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.40:006][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifleB_Fire_Cue.SniperRifleB_Fire_Cue:SoundCueGraph_70.EdGraphNode_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.40:006][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifleB_Fire_Cue.SniperRifleB_Fire_Cue:SoundCueGraph_70.EdGraphNode_Comment_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.40:006][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifleB_Fire_Cue.SniperRifleB_Fire_Cue:SoundCueGraph_70.SoundCueGraphNode_248' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.40:006][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifleB_Fire_Cue.SniperRifleB_Fire_Cue:SoundCueGraph_70.SoundCueGraphNode_249' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.40:006][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifleB_Fire_Cue.SniperRifleB_Fire_Cue:SoundCueGraph_70.SoundCueGraphNode_250' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.40:006][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifleB_Fire_Cue.SniperRifleB_Fire_Cue:SoundCueGraph_70.SoundCueGraphNode_251' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.40:006][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifleB_Fire_Cue.SniperRifleB_Fire_Cue:SoundCueGraph_70.SoundCueGraphNode_252' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.40:006][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifleB_Fire_Cue.SniperRifleB_Fire_Cue:SoundCueGraph_70.SoundCueGraphNode_253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.40:006][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifleB_Fire_Cue.SniperRifleB_Fire_Cue:SoundCueGraph_70.SoundCueGraphNode_254' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.40:006][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifleB_Fire_Cue.SniperRifleB_Fire_Cue:SoundCueGraph_70.SoundCueGraphNode_255' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.40:006][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifleB_Fire_Cue.SniperRifleB_Fire_Cue:SoundCueGraph_70.SoundCueGraphNode_256' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.40:006][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifleB_Fire_Cue.SniperRifleB_Fire_Cue:SoundCueGraph_70.SoundCueGraphNode_257' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.40:006][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifleB_Fire_Cue.SniperRifleB_Fire_Cue:SoundCueGraph_70.SoundCueGraphNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.40:006][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifleB_Fire_Cue.SniperRifleB_Fire_Cue:SoundCueGraph_70.SoundCueGraphNode_90' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.40:006][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifleB_Fire_Cue.SniperRifleB_Fire_Cue:SoundCueGraph_70.SoundCueGraphNode_Root_70' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.40:034][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifle_ReloadInsert_Cue.SniperRifle_ReloadInsert_Cue:SoundCueGraph_66.SoundCueGraphNode_11' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.40:034][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifle_ReloadInsert_Cue.SniperRifle_ReloadInsert_Cue:SoundCueGraph_66.SoundCueGraphNode_12' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.40:034][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifle_ReloadInsert_Cue.SniperRifle_ReloadInsert_Cue:SoundCueGraph_66.SoundCueGraphNode_13' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.40:034][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifle_ReloadInsert_Cue.SniperRifle_ReloadInsert_Cue:SoundCueGraph_66.SoundCueGraphNode_14' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.40:034][110]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/SniperRifle/SniperRifle_ReloadInsert_Cue.SniperRifle_ReloadInsert_Cue:SoundCueGraph_66.SoundCueGraphNode_Root_66' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.22-15.45.40:267][110]LogAIModule: Creating AISystem for world MinibossSeparateArenas
+[2020.07.22-15.45.40:270][110]LogActor: Warning: BP_MinibossBlueWeapon_C /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossBlueWeapon_C_CAT_270 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.22-15.45.40:278][110]LogActor: Warning: BP_MinibossBlueWeapon_C /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossBlueWeapon_C_CAT_273 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.22-15.45.40:283][110]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-15.45.40:344][110]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2020.07.22-15.45.40:352][110]Cmd: MAP LOAD FILE="../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.07.22-15.45.40:352][110]LightingResults: New page: Lighting Build
+[2020.07.22-15.45.40:353][110]LoadErrors: New page: Loading map: MinibossSeparateArenas.umap
+[2020.07.22-15.45.40:387][110]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.22-15.45.40:387][110]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.22-15.45.40:387][110]MapCheck: New page: Map Check
+[2020.07.22-15.45.40:387][110]LightingResults: New page: Lighting Build
+[2020.07.22-15.45.40:456][110]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.07.22-15.45.40:469][110]LogActor: Warning: BP_MinibossBlueWeapon_C /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossBlueWeapon_C_CAT_270 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.22-15.45.40:475][110]LogActor: Warning: BP_MinibossBlueWeapon_C /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossBlueWeapon_C_CAT_276 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.22-15.45.40:687][110]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.07.22-15.45.40:732][110]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.07.22-15.45.40:797][110]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.07.22-15.45.40:797][110]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.123ms to complete.
+[2020.07.22-15.45.40:797][110]LogFileHelpers: Loading map 'MinibossSeparateArenas' took 0.448
+[2020.07.22-15.45.49:579][626]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.07.22-15.45.49:618][626]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas06AF429548AA2DDC4ECE72A00BD7E862.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-15.45.49:694][626]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-15.45.49:694][626]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-15.45.51:317][720]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.22-15.45.51:345][720]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas4FD8F3B142D8566898D111ACB3559E7D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-15.45.51:416][720]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-15.45.51:416][720]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-15.45.58:821][165]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2020.07.22-15.46.05:086][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.07.22-15.46.05:119][531]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasF2B732944FC25048E42F3ABFBCA65C40.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-15.46.05:194][531]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-15.46.05:194][531]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-15.46.14:981][ 84]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2020.07.22-15.46.37:970][457]Cmd: SELECT NONE
+[2020.07.22-15.46.39:675][557]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2020.07.22-15.46.50:719][212]Cmd: TRANSACTION UNDO
+[2020.07.22-15.46.50:719][212]LogEditorTransaction: Undo Replace component used material
+[2020.07.22-15.47.13:911][577]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2020.07.22-15.47.17:900][813]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.07.22-15.47.17:934][813]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas4F00DCBD4E6B0B0FA548A182D86D1843.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-15.47.18:017][813]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-15.47.18:017][813]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-15.47.34:717][815]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere2)
+[2020.07.22-15.47.37:015][950]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.07.22-15.47.37:318][964]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2020.07.22-15.47.37:347][964]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasCB919FC141FE7D64D458A1A7816C7618.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-15.47.37:418][964]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-15.47.37:418][964]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-15.47.38:277][ 16]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2020.07.22-15.47.38:939][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.07.22-15.47.38:967][ 51]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas8412CF1D447C799B6CEEDA9B3BB3E77E.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-15.47.39:036][ 51]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-15.47.39:036][ 51]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-15.47.40:096][115]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2020.07.22-15.47.53:054][888]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.07.22-15.47.53:098][888]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas1E8440B14958142D5F4C6785C04852F7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-15.47.53:171][888]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-15.47.53:172][888]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-15.47.56:061][ 58]LogTexture: Display: Building textures: Texture2D_3 (G8, 128X128)
+[2020.07.22-15.48.06:171][661]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.07.22-15.48.06:209][661]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas1B0EB56D44EDDFDC5ADB97A9C5FB77AD.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-15.48.06:285][661]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-15.48.06:285][661]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-15.48.58:016][761]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-15.49.05:469][199]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.22-15.49.10:145][474]LogMaterial: Display: Missing cached shader map for material M_TSLandscape, compiling. 
+[2020.07.22-15.49.10:214][474]LogMaterial: Display: Missing cached shader map for material M_TSLandscape, compiling. 
+[2020.07.22-15.49.10:235][474]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 46
+[2020.07.22-15.49.10:235][474]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 40
+[2020.07.22-15.49.10:235][474]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 34
+[2020.07.22-15.49.10:235][474]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 28
+[2020.07.22-15.49.10:235][474]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 22
+[2020.07.22-15.49.10:235][474]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 16
+[2020.07.22-15.49.10:235][474]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 10
+[2020.07.22-15.49.10:235][474]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2020.07.22-15.49.10:239][474]LogMaterial: Display: Missing cached shader map for material M_TSLandscape, compiling. 
+[2020.07.22-15.49.10:265][474]LogMaterial: Display: Missing cached shader map for material M_TSLandscape, compiling. 
+[2020.07.22-15.49.12:011][560]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 138
+[2020.07.22-15.49.12:688][601]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 128
+[2020.07.22-15.49.12:723][603]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 118
+[2020.07.22-15.49.12:891][613]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 108
+[2020.07.22-15.49.13:023][621]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 98
+[2020.07.22-15.49.13:056][623]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 88
+[2020.07.22-15.49.13:105][626]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 78
+[2020.07.22-15.49.13:155][629]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 68
+[2020.07.22-15.49.15:928][794]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 59
+[2020.07.22-15.49.16:732][842]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 51
+[2020.07.22-15.49.16:949][855]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 44
+[2020.07.22-15.49.16:966][856]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 38
+[2020.07.22-15.49.16:998][858]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 33
+[2020.07.22-15.49.17:070][862]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 28
+[2020.07.22-15.49.17:181][869]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 24
+[2020.07.22-15.49.17:198][870]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 20
+[2020.07.22-15.49.18:501][948]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 17
+[2020.07.22-15.49.18:518][949]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 14
+[2020.07.22-15.49.18:749][963]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 12
+[2020.07.22-15.49.19:116][985]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 10
+[2020.07.22-15.49.19:147][987]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2020.07.22-15.49.19:283][995]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.07.22-15.49.19:333][998]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2020.07.22-15.49.19:349][999]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2020.07.22-15.49.19:473][  6]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.07.22-15.49.19:704][ 20]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2020.07.22-15.49.19:735][ 22]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.07.22-15.49.24:443][300]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.22-15.49.25:043][336]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.22-15.49.26:412][418]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.22-15.49.33:985][868]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2020.07.22-15.49.33:994][868]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-15.49.34:044][868]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas3FDC4675493A33D0688A93B0EDDB763D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-15.49.34:123][868]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-15.49.34:123][868]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-15.50.10:409][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.07.22-15.50.10:452][ 37]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasB9D925FC4E75BC088C8EFDA16B2CCB4F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-15.50.10:521][ 37]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-15.50.10:521][ 37]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-15.50.18:715][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.07.22-15.50.18:757][526]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasE6D83C7A4AF66288BE2408AC2CAC472C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-15.50.18:827][526]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-15.50.18:827][526]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-15.53.30:320][998]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.07.22-15.53.30:333][998]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-15.53.30:378][998]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas439A8C4A446E67F8F53F8C954221E165.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-15.53.30:453][998]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-15.53.30:453][998]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-15.53.39:570][542]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.07.22-15.53.39:577][542]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-15.53.39:619][542]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasA57200014139878484AC2CB6558A2F35.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-15.53.39:695][542]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-15.53.39:695][542]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-15.54.08:454][264]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.07.22-15.54.08:461][264]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-15.54.08:505][264]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas1FBFA5784244131AD215498B1C9953E7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-15.54.08:574][264]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-15.54.08:574][264]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-15.54.11:106][413]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.22-15.54.11:147][413]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas0F473A9E462B8303A36D8A8DFA62B4D5.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-15.54.11:216][413]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-15.54.11:216][413]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-15.54.15:185][648]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.07.22-15.54.15:191][648]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-15.54.15:232][648]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasCF9F89F64EB830E825744BBE78ED6652.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-15.54.15:302][648]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-15.54.15:302][648]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-15.54.20:433][953]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.07.22-15.54.20:440][953]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-15.54.20:479][953]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasC7C4581A430F618AC0FFA29F1E8C0E3A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-15.54.20:558][953]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-15.54.20:558][953]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-15.54.47:532][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.07.22-15.54.47:539][568]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-15.54.47:576][568]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasD3CA00704B2D50A7868777921E236E7D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-15.54.47:649][568]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-15.54.47:649][568]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-15.54.55:705][ 51]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog2)
+[2020.07.22-15.54.57:224][138]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.07.22-15.54.57:266][138]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasD5BEAC6246A3BE52A1A41D80C7E14334.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-15.54.57:335][138]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-15.54.57:335][138]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-15.55.02:867][470]LogEditorViewport: Clicking on Actor (LMB): BP_ToggleableStartingLayout_C (BP_ToggleableStartingLayout)
+[2020.07.22-15.55.03:500][505]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.07.22-15.55.04:714][577]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.07.22-15.55.04:882][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.22-15.55.04:925][584]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas4FF51F2D4BB83F958B45A3B2D1905030.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-15.55.04:994][584]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-15.55.04:994][584]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-15.55.05:623][622]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.22-15.55.05:653][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.22-15.55.05:653][622]PIE: New page: PIE session: MinibossSeparateArenas (Jul 22, 2020, 7:55:05 AM)
+[2020.07.22-15.55.05:653][622]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.22-15.55.05:686][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032446s)
+[2020.07.22-15.55.05:687][622]LogAIModule: Creating AISystem for world MinibossSeparateArenas
+[2020.07.22-15.55.05:688][622]LogPlayLevel: PIE: World Init took: (0.001458s)
+[2020.07.22-15.55.05:688][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas to /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas (0.034189s)
+[2020.07.22-15.55.05:716][622]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2020.07.22-15.55.05:717][622]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.22-15.55.05:717][622]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.22-15.55.05:717][622]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.22-15.55.05:717][622]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.22-15.55.05:717][622]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.22-15.55.05:717][622]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.22-15.55.05:717][622]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.22-15.55.05:717][622]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.22-15.55.05:718][622]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.22-15.55.05:718][622]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.22-15.55.05:740][622]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.22-15.55.05:740][622]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.22-15.55.05:740][622]LogAudioMixer: Display: Is Default: Yes
+[2020.07.22-15.55.05:740][622]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.22-15.55.05:740][622]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.22-15.55.05:740][622]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.22-15.55.05:740][622]LogAudioMixer: Display: Channel Order:
+[2020.07.22-15.55.05:740][622]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.22-15.55.05:740][622]LogAudioMixer: Display: 1: FrontRight
+[2020.07.22-15.55.05:750][622]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.22-15.55.05:751][622]LogInit: FAudioDevice initialized.
+[2020.07.22-15.55.05:762][622]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.22-15.55.05:764][622]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas up for play (max tick rate 60) at 2020.07.22-11.55.05
+[2020.07.22-15.55.05:765][622]LogWorld: Bringing up level for play took: 0.002177
+[2020.07.22-15.55.05:765][622]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.07.22-15.55.05:768][622]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.22-15.55.05:768][622]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.22-15.55.05:772][622]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas 0.616
+[2020.07.22-15.55.10:160][884]LogScript: Warning: Attempted to access BP_TwinStickShooterPlayer_C_0 via property Player, but BP_TwinStickShooterPlayer_C_0 is pending kill
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_1.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_HPValueText_Text_1:002C
+[2020.07.22-15.55.10:160][884]LogScript: Warning: Attempted to access BP_TwinStickShooterPlayer_C_0 via property Player, but BP_TwinStickShooterPlayer_C_0 is pending kill
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_1.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_ObjectiveOverlay_Visibility_0:0023
+[2020.07.22-15.55.10:161][884]LogScript: Warning: Attempted to access BP_TwinStickShooterPlayer_C_0 via property Player, but BP_TwinStickShooterPlayer_C_0 is pending kill
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_1.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_ObjectiveDescription_ColorAndOpacity_0:0014
+[2020.07.22-15.55.10:161][884]LogScript: Warning: Accessed None
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_1.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_ObjectiveDescription_ColorAndOpacity_0:0029
+[2020.07.22-15.55.10:161][884]LogScript: Warning: Attempted to access BP_TwinStickShooterPlayer_C_0 via property Player, but BP_TwinStickShooterPlayer_C_0 is pending kill
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_1.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_ObjectiveDescription_ColorAndOpacity_0:0014
+[2020.07.22-15.55.10:161][884]LogScript: Warning: Accessed None
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_1.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_ObjectiveDescription_ColorAndOpacity_0:0029
+[2020.07.22-15.55.10:161][884]LogScript: Warning: Attempted to access BP_TwinStickShooterPlayer_C_0 via property Player, but BP_TwinStickShooterPlayer_C_0 is pending kill
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_1.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_ObjectiveProgress_Text_0:0020
+[2020.07.22-15.55.10:161][884]LogScript: Warning: Accessed None
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_1.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_ObjectiveProgress_Text_0:0035
+[2020.07.22-15.55.10:161][884]LogScript: Warning: Attempted to access BP_TwinStickShooterPlayer_C_0 via property Player, but BP_TwinStickShooterPlayer_C_0 is pending kill
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_1.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_WeaponImage_Brush_0:0021
+[2020.07.22-15.55.10:161][884]LogScript: Warning: Accessed None
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_1.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_WeaponImage_Brush_0:0036
+[2020.07.22-15.55.10:161][884]LogScript: Warning: Attempted to access BP_TwinStickShooterPlayer_C_0 via property Player, but BP_TwinStickShooterPlayer_C_0 is pending kill
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_1.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_WeaponImage_Brush_0:0082
+[2020.07.22-15.55.10:161][884]LogScript: Warning: Accessed None
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_1.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_WeaponImage_Brush_0:0097
+[2020.07.22-15.55.10:161][884]LogScript: Warning: Attempted to access BP_TwinStickShooterPlayer_C_0 via property Player, but BP_TwinStickShooterPlayer_C_0 is pending kill
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_1.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_Clip_Text_0:0028
+[2020.07.22-15.55.10:161][884]LogScript: Warning: Accessed None
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_1.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_Clip_Text_0:003D
+[2020.07.22-15.55.10:161][884]LogScript: Warning: Attempted to access BP_TwinStickShooterPlayer_C_0 via property Player, but BP_TwinStickShooterPlayer_C_0 is pending kill
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_1.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_Clip_Text_0:0079
+[2020.07.22-15.55.10:161][884]LogScript: Warning: Accessed None
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_1.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_Clip_Text_0:008E
+[2020.07.22-15.55.10:161][884]LogScript: Warning: Attempted to access BP_TwinStickShooterPlayer_C_0 via property Player, but BP_TwinStickShooterPlayer_C_0 is pending kill
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_1.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_InteractOverlay_Visibility_0:0013
+[2020.07.22-15.55.10:163][884]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:163][884]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:163][884]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:176][885]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:176][885]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:176][885]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:192][886]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:192][886]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:192][886]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:208][887]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:208][887]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:208][887]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:225][888]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:225][888]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:225][888]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:242][889]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:242][889]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:242][889]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:258][890]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:258][890]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:258][890]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:276][891]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:276][891]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:276][891]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:292][892]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:293][892]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:293][892]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:308][893]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:308][893]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:309][893]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:325][894]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:325][894]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:325][894]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:342][895]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:342][895]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:342][895]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:359][896]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:359][896]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:359][896]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:377][897]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:377][897]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:377][897]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:392][898]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:392][898]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:392][898]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:409][899]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:409][899]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:409][899]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:425][900]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:425][900]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:425][900]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:442][901]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:442][901]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:442][901]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:459][902]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:459][902]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:459][902]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:476][903]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:476][903]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:476][903]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:492][904]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:492][904]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:492][904]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:509][905]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:509][905]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:509][905]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:526][906]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:526][906]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:526][906]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:542][907]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:542][907]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:542][907]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:559][908]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:559][908]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:559][908]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:576][909]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:576][909]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:576][909]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:593][910]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:593][910]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:593][910]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:609][911]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:609][911]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:609][911]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:626][912]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:626][912]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:626][912]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:643][913]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:643][913]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:643][913]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:661][914]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:661][914]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:661][914]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:678][915]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:678][915]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:678][915]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:693][916]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:693][916]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:693][916]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:709][917]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:709][917]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:709][917]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:726][918]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:726][918]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:726][918]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:742][919]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:742][919]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:742][919]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:759][920]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:759][920]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:759][920]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:776][921]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:776][921]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:776][921]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:792][922]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:792][922]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:792][922]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:810][923]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:810][923]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:810][923]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:826][924]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:826][924]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:826][924]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:844][925]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:844][925]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:844][925]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:861][926]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:861][926]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:861][926]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:877][927]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:878][927]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:878][927]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:894][928]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:894][928]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:894][928]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:910][929]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:910][929]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:910][929]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:927][930]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:927][930]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:927][930]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:943][931]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:943][931]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:943][931]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:959][932]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:960][932]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:960][932]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:977][933]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:977][933]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:977][933]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.10:992][934]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.10:992][934]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.10:992][934]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.11:008][935]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.11:008][935]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.11:008][935]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.11:025][936]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.11:025][936]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.11:025][936]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.11:042][937]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.11:042][937]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.11:042][937]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.11:059][938]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.11:059][938]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.11:059][938]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.11:075][939]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.11:075][939]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.11:075][939]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.11:092][940]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.11:093][940]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.11:093][940]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.11:109][941]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.11:109][941]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.11:109][941]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.11:126][942]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.11:126][942]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.11:126][942]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.11:143][943]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.11:143][943]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.11:143][943]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.11:160][944]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.11:160][944]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.11:160][944]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.11:176][945]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.11:176][945]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.11:176][945]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.11:192][946]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.11:192][946]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.11:192][946]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.11:209][947]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.11:209][947]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.11:209][947]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.11:226][948]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.11:226][948]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.11:226][948]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.11:242][949]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.11:242][949]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.11:242][949]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.11:259][950]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.11:259][950]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.11:259][950]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.11:276][951]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_MeleeCooldown_Percent_0
+
+[2020.07.22-15.55.11:276][951]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_DashCooldown_Percent_0
+
+[2020.07.22-15.55.11:276][951]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_GrenadeCooldown_Percent_0
+
+[2020.07.22-15.55.11:291][952]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.22-15.55.11:291][952]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.22-15.55.11:291][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.22-15.55.11:291][952]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.22-15.55.11:291][952]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.22-15.55.11:292][952]LogWorld: UWorld::CleanupWorld for MinibossSeparateArenas, bSessionEnded=true, bCleanupResources=true
+[2020.07.22-15.55.11:292][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.22-15.55.11:302][952]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.22-15.55.11:305][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.22-15.55.11:332][952]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.22-15.55.11:334][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.22-15.55.11:338][952]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2020.07.22-15.55.11:403][956]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.07.22-15.55.18:123][359]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.07.22-15.55.20:502][501]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.07.22-15.55.20:699][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.07.22-15.55.20:765][509]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas6F4DC3464FF303F5667ADB91329CA57B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-15.55.20:836][509]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-15.55.20:836][509]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-15.56.25:539][385]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2020.07.22-15.56.25:546][385]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-15.56.25:589][385]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas607DCEE6497A3E88196329B09E711472.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-15.56.25:672][385]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-15.56.25:672][385]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-15.56.55:134][150]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2020.07.22-15.56.55:666][180]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor)
+[2020.07.22-15.56.56:592][234]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor2)
+[2020.07.22-15.56.57:661][297]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.07.22-15.56.59:280][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2020.07.22-15.59.39:616][689]Cmd: TRANSACTION UNDO
+[2020.07.22-15.59.39:616][689]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2020.07.22-15.59.39:630][689]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.00.09:890][482]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.07.22-16.00.09:903][482]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.00.09:946][482]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasA452A6314476436864CD2DB21682FBE9.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.00.10:019][482]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.00.10:019][482]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.00.21:969][199]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2020.07.22-16.00.25:921][434]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor4)
+[2020.07.22-16.00.26:383][460]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor)
+[2020.07.22-16.00.26:908][490]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor2)
+[2020.07.22-16.00.39:158][218]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2020.07.22-16.00.39:200][218]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas8639AC844823D7DF7877FCA092843530.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.00.39:273][218]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.00.39:273][218]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.01.10:778][107]Cmd: TRANSACTION UNDO
+[2020.07.22-16.01.10:778][107]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2020.07.22-16.01.10:792][107]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.01.13:287][239]Cmd: TRANSACTION UNDO
+[2020.07.22-16.01.13:287][239]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2020.07.22-16.01.29:727][221]Cmd: TRANSACTION UNDO
+[2020.07.22-16.01.29:727][221]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2020.07.22-16.01.34:883][513]Cmd: TRANSACTION UNDO
+[2020.07.22-16.01.34:883][513]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2020.07.22-16.01.50:374][425]Cmd: TRANSACTION UNDO
+[2020.07.22-16.01.50:374][425]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2020.07.22-16.01.50:387][425]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.01.54:268][642]Cmd: TRANSACTION UNDO
+[2020.07.22-16.01.54:268][642]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2020.07.22-16.01.54:281][642]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.02.02:681][128]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2020.07.22-16.02.03:208][158]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor3)
+[2020.07.22-16.02.03:724][188]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor2)
+[2020.07.22-16.02.03:995][203]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor)
+[2020.07.22-16.02.19:846][144]Cmd: TRANSACTION UNDO
+[2020.07.22-16.02.19:846][144]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2020.07.22-16.02.19:860][144]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.02.31:020][798]Cmd: TRANSACTION UNDO
+[2020.07.22-16.02.31:020][798]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2020.07.22-16.02.31:033][798]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.02.56:434][304]Cmd: TRANSACTION UNDO
+[2020.07.22-16.02.56:434][304]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2020.07.22-16.02.56:447][304]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.03.18:004][581]Cmd: TRANSACTION UNDO
+[2020.07.22-16.03.18:004][581]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2020.07.22-16.03.18:018][581]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.03.19:676][663]Cmd: TRANSACTION UNDO
+[2020.07.22-16.03.19:676][663]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2020.07.22-16.04.08:941][617]Cmd: TRANSACTION UNDO
+[2020.07.22-16.04.08:941][617]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2020.07.22-16.04.08:954][617]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.04.09:494][633]Cmd: TRANSACTION UNDO
+[2020.07.22-16.04.09:494][633]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2020.07.22-16.04.09:508][633]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.04.44:757][744]Cmd: SELECT NONE
+[2020.07.22-16.05.21:771][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.07.22-16.05.21:792][957]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.05.21:830][957]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas73DE302946BA76E9256D7599083FE3A8.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.05.21:903][957]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.05.21:903][957]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.05.28:609][356]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.07.22-16.05.28:623][356]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.05.28:662][356]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas79B7B35842B9131D8635A8B2E6BA30C7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.05.28:733][356]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.05.28:733][356]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.05.31:860][541]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.22-16.05.31:867][541]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.05.31:905][541]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas8D4142D340136D3FBE0C40AF998254CD.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.05.31:980][541]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.05.31:980][541]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.05.47:999][498]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.07.22-16.05.48:007][498]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.05.48:053][498]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas5BE6A4B64253E83387D43CAA032EC0AC.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.05.48:126][498]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.05.48:126][498]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.06.05:000][507]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.07.22-16.06.05:008][507]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.06.05:047][507]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas11700C474E82C5FBF1DB6B828566E72B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.06.05:123][507]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.06.05:123][507]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.06.15:080][102]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.07.22-16.06.15:087][102]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.06.15:126][102]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasE7A50AD4428C3A176244748AD28C3E5D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.06.15:199][102]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.06.15:199][102]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.07.37:718][ 50]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2020.07.22-16.07.37:903][ 59]Cmd: TRANSACTION UNDO
+[2020.07.22-16.07.37:903][ 59]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2020.07.22-16.07.39:622][146]Cmd: TRANSACTION UNDO
+[2020.07.22-16.07.39:622][146]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2020.07.22-16.07.39:635][146]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.07.43:661][386]Cmd: TRANSACTION UNDO
+[2020.07.22-16.07.43:661][386]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2020.07.22-16.08.00:110][355]Cmd: TRANSACTION UNDO
+[2020.07.22-16.08.00:110][355]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2020.07.22-16.08.00:124][355]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.08.51:184][398]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.07.22-16.08.51:192][398]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.08.51:231][398]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas7C0DA1764F082001E2D65F9EA355EB87.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.08.51:305][398]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.08.51:305][398]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.08.54:395][580]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2020.07.22-16.08.54:436][580]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas677F43CF408907D59906F6990B566B6B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.08.54:510][580]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.08.54:510][580]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.09.46:212][678]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.22-16.09.46:218][678]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.09.46:263][678]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasCB998DD945CDBD83E92E588C8ED5E073.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.09.46:337][678]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.09.46:337][678]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.09.49:715][878]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.07.22-16.09.49:757][878]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas673626A34D869ADE99DACAB42F9B8B70.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.09.49:828][878]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.09.49:828][878]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.09.57:973][367]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.07.22-16.10.55:219][771]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2020.07.22-16.11.47:976][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.07.22-16.11.47:990][933]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.11.48:028][933]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasC4BA430C4FC00495849E4993969E6445.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.11.48:100][933]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.11.48:100][933]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.12.17:908][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.07.22-16.12.17:916][717]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.12.17:958][717]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas850666D54131DFA9C2925796BFEE9545.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.12.18:030][717]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.12.18:030][717]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.12.20:985][891]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.22-16.12.20:992][891]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.12.21:029][891]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas3B47E63F4576B476738EE9AE38555920.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.12.21:098][891]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.12.21:098][891]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.12.24:071][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.22-16.12.24:078][ 66]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.12.24:116][ 66]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas2130383749107BB207EFF097665C0896.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.12.24:185][ 66]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.12.24:185][ 66]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.12.27:804][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.22-16.12.27:811][281]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.12.27:847][281]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasCC9D938C4F414FCC56A4A2A6BA9EE83B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.12.27:918][281]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.12.27:918][281]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.12.35:816][751]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.07.22-16.12.35:824][751]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.12.35:862][751]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas9EE1AFB94DD678E7700998A1B585C770.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.12.35:930][751]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.12.35:930][751]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.12.37:568][847]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.07.22-16.12.37:574][847]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.12.37:614][847]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas479E7FF54933096156FEC29304D27CDD.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.12.37:683][847]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.12.37:683][847]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.12.40:102][989]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.07.22-16.12.40:109][989]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.12.40:146][989]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas68F1F2524A91CB9CE46BB8999132B942.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.12.40:215][989]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.12.40:215][989]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.12.47:028][395]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.07.22-16.12.47:035][395]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.12.47:083][395]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas14AEFBF84A3D3926819D59890F74C32B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.12.47:152][395]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.12.47:152][395]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.12.56:439][950]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.07.22-16.12.56:446][950]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.12.56:499][950]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas001ED6A44F5AF0C3F1E1559EAD6999F3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.12.56:570][950]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.12.56:570][950]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.13.06:575][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.22-16.13.06:583][547]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.13.06:630][547]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas23762E57460FE14A5C5223BF40B676AB.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.13.06:703][547]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.13.06:703][547]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.13.13:314][940]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.07.22-16.13.13:327][940]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.13.13:367][940]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas7497C4A246B9876B44D8FBAAEE87EA07.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.13.13:440][940]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.13.13:440][940]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.13.28:669][850]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.07.22-16.13.28:677][850]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.13.28:718][850]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas543A370F4DD03A3D65678DB33C3B3D8B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.13.28:787][850]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.13.28:787][850]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.13.45:907][877]Cmd: TRANSACTION UNDO
+[2020.07.22-16.13.45:907][877]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2020.07.22-16.13.45:920][877]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.13.57:772][569]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.07.22-16.13.57:780][569]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.13.57:819][569]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas81E43F8446634E427D2378B6CB4BC44A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.13.57:890][569]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.13.57:890][569]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.14.10:472][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.07.22-16.14.10:479][321]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.14.10:517][321]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasC6770266459CEEA928844AACD282B6D4.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.14.10:596][321]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.14.10:596][321]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.14.27:214][314]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.07.22-16.14.27:220][314]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.14.27:260][314]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas0A8C45A64731B7E829FE39A8B6E59792.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.14.27:331][314]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.14.27:331][314]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.14.33:830][701]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.07.22-16.14.33:837][701]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.14.33:876][701]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas37BD1093435DBAE706400CB05B0068BE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.14.33:945][701]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.14.33:945][701]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.14.58:799][190]Cmd: TRANSACTION UNDO
+[2020.07.22-16.14.58:800][190]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2020.07.22-16.14.58:825][190]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.15.03:447][451]Cmd: TRANSACTION UNDO
+[2020.07.22-16.15.03:447][451]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2020.07.22-16.15.11:070][891]Cmd: TRANSACTION UNDO
+[2020.07.22-16.15.11:070][891]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2020.07.22-16.15.13:328][  9]Cmd: TRANSACTION UNDO
+[2020.07.22-16.15.13:328][  9]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2020.07.22-16.15.25:553][738]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2020.07.22-16.15.25:560][738]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.15.25:598][738]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas53FCD458407DB37572BBC98966709902.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.15.25:670][738]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.15.25:670][738]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.15.33:865][226]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2020.07.22-16.15.33:872][226]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.15.33:912][226]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas86B6C2D44C3AE7CE706F328F21681C21.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.15.33:984][226]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.15.33:984][226]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.15.37:902][458]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.07.22-16.15.37:949][458]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasF09CE771468FB7354D90EFB03FCDB1CE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.15.38:023][458]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.15.38:023][458]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.15.39:688][558]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.22-16.15.39:716][558]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.22-16.15.39:716][558]PIE: New page: PIE session: MinibossSeparateArenas (Jul 22, 2020, 8:15:39 AM)
+[2020.07.22-16.15.39:716][558]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.22-16.15.39:747][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031826s)
+[2020.07.22-16.15.39:748][558]LogAIModule: Creating AISystem for world MinibossSeparateArenas
+[2020.07.22-16.15.39:748][558]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2020.07.22-16.15.39:749][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas to /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas (0.032983s)
+[2020.07.22-16.15.39:775][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2020.07.22-16.15.39:785][558]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.22-16.15.39:785][558]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.22-16.15.39:786][558]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.22-16.15.39:786][558]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.22-16.15.39:786][558]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.22-16.15.39:786][558]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.22-16.15.39:786][558]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.22-16.15.39:786][558]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.22-16.15.39:786][558]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.22-16.15.39:786][558]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.22-16.15.39:809][558]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.22-16.15.39:809][558]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.22-16.15.39:809][558]LogAudioMixer: Display: Is Default: Yes
+[2020.07.22-16.15.39:809][558]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.22-16.15.39:809][558]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.22-16.15.39:809][558]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.22-16.15.39:809][558]LogAudioMixer: Display: Channel Order:
+[2020.07.22-16.15.39:809][558]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.22-16.15.39:809][558]LogAudioMixer: Display: 1: FrontRight
+[2020.07.22-16.15.39:819][558]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.22-16.15.39:820][558]LogInit: FAudioDevice initialized.
+[2020.07.22-16.15.39:827][558]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.22-16.15.39:830][558]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas up for play (max tick rate 60) at 2020.07.22-12.15.39
+[2020.07.22-16.15.39:830][558]LogWorld: Bringing up level for play took: 0.001965
+[2020.07.22-16.15.39:830][558]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.07.22-16.15.39:832][558]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.07.22-16.15.39:833][558]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.22-16.15.39:834][558]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.22-16.15.39:834][558]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=0.000] for [BP_TwinStickShooterPlayer_C]
+[2020.07.22-16.15.39:834][558]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type BP_TwinStickShooterPlayer_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2020.07.22-16.15.39:836][558]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas 0.68
+[2020.07.22-16.15.41:431][653]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.22-16.15.41:431][653]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.22-16.15.41:431][653]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.22-16.15.41:431][653]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.22-16.15.41:432][653]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.22-16.15.41:432][653]LogWorld: UWorld::CleanupWorld for MinibossSeparateArenas, bSessionEnded=true, bCleanupResources=true
+[2020.07.22-16.15.41:432][653]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.22-16.15.41:439][653]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.22-16.15.41:442][653]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.22-16.15.41:469][653]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.22-16.15.41:472][653]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.22-16.15.41:476][653]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.07.22-16.15.41:541][657]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.07.22-16.15.48:564][ 76]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.07.22-16.15.49:498][131]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.07.22-16.15.50:170][171]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.07.22-16.15.50:366][180]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.07.22-16.15.50:407][180]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas3464BD2F4C05B077502EA0A7E13FCF08.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.15.50:480][180]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.15.50:480][180]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.15.50:985][208]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.22-16.15.51:015][208]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.22-16.15.51:015][208]PIE: New page: PIE session: MinibossSeparateArenas (Jul 22, 2020, 8:15:51 AM)
+[2020.07.22-16.15.51:015][208]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.22-16.15.51:047][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031263s)
+[2020.07.22-16.15.51:047][208]LogAIModule: Creating AISystem for world MinibossSeparateArenas
+[2020.07.22-16.15.51:047][208]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2020.07.22-16.15.51:047][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas to /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas (0.032221s)
+[2020.07.22-16.15.51:074][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2020.07.22-16.15.51:075][208]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.22-16.15.51:075][208]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.22-16.15.51:075][208]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.22-16.15.51:075][208]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.22-16.15.51:075][208]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.22-16.15.51:075][208]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.22-16.15.51:075][208]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.22-16.15.51:075][208]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.22-16.15.51:075][208]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.22-16.15.51:075][208]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.22-16.15.51:097][208]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.22-16.15.51:097][208]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.22-16.15.51:097][208]LogAudioMixer: Display: Is Default: Yes
+[2020.07.22-16.15.51:097][208]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.22-16.15.51:097][208]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.22-16.15.51:097][208]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.22-16.15.51:097][208]LogAudioMixer: Display: Channel Order:
+[2020.07.22-16.15.51:097][208]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.22-16.15.51:097][208]LogAudioMixer: Display: 1: FrontRight
+[2020.07.22-16.15.51:106][208]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.22-16.15.51:107][208]LogInit: FAudioDevice initialized.
+[2020.07.22-16.15.51:112][208]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.22-16.15.51:115][208]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas up for play (max tick rate 60) at 2020.07.22-12.15.51
+[2020.07.22-16.15.51:115][208]LogWorld: Bringing up level for play took: 0.001838
+[2020.07.22-16.15.51:115][208]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2020.07.22-16.15.51:117][208]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.07.22-16.15.51:118][208]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.22-16.15.51:118][208]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.22-16.15.51:118][208]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=0.000] for [BP_TwinStickShooterPlayer_C]
+[2020.07.22-16.15.51:119][208]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type BP_TwinStickShooterPlayer_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2020.07.22-16.15.51:120][208]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas -0.035
+[2020.07.22-16.15.52:534][292]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.22-16.15.52:534][292]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.22-16.15.52:535][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.22-16.15.52:535][292]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.22-16.15.52:535][292]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.22-16.15.52:535][292]LogWorld: UWorld::CleanupWorld for MinibossSeparateArenas, bSessionEnded=true, bCleanupResources=true
+[2020.07.22-16.15.52:535][292]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.22-16.15.52:540][292]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.22-16.15.52:543][292]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.22-16.15.52:571][292]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.22-16.15.52:573][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.22-16.15.52:577][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.07.22-16.15.52:638][296]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.07.22-16.15.56:805][546]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.07.22-16.15.57:678][598]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.07.22-16.15.58:482][646]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.07.22-16.15.59:249][692]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.07.22-16.15.59:476][702]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.07.22-16.15.59:518][702]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasBFD5361640D81F443CDB3897FE28B022.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.15.59:590][702]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.15.59:590][702]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.16.03:757][952]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.07.22-16.16.03:964][962]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.07.22-16.16.04:006][962]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasCC91E630492DBA4AA69392AA3C1A90F8.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.16.04:075][962]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.16.04:075][962]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.16.05:187][ 29]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.22-16.16.05:215][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.22-16.16.05:216][ 29]PIE: New page: PIE session: MinibossSeparateArenas (Jul 22, 2020, 8:16:05 AM)
+[2020.07.22-16.16.05:216][ 29]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.22-16.16.05:247][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031683s)
+[2020.07.22-16.16.05:248][ 29]LogAIModule: Creating AISystem for world MinibossSeparateArenas
+[2020.07.22-16.16.05:248][ 29]LogPlayLevel: PIE: World Init took: (0.000853s)
+[2020.07.22-16.16.05:248][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas to /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas (0.032687s)
+[2020.07.22-16.16.05:275][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.07.22-16.16.05:276][ 29]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.22-16.16.05:276][ 29]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.22-16.16.05:276][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.22-16.16.05:276][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.22-16.16.05:276][ 29]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.22-16.16.05:276][ 29]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.22-16.16.05:276][ 29]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.22-16.16.05:276][ 29]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.22-16.16.05:277][ 29]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.22-16.16.05:277][ 29]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.22-16.16.05:298][ 29]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.22-16.16.05:298][ 29]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.22-16.16.05:298][ 29]LogAudioMixer: Display: Is Default: Yes
+[2020.07.22-16.16.05:298][ 29]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.22-16.16.05:298][ 29]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.22-16.16.05:298][ 29]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.22-16.16.05:298][ 29]LogAudioMixer: Display: Channel Order:
+[2020.07.22-16.16.05:298][ 29]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.22-16.16.05:298][ 29]LogAudioMixer: Display: 1: FrontRight
+[2020.07.22-16.16.05:306][ 29]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.22-16.16.05:307][ 29]LogInit: FAudioDevice initialized.
+[2020.07.22-16.16.05:313][ 29]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.22-16.16.05:316][ 29]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas up for play (max tick rate 60) at 2020.07.22-12.16.05
+[2020.07.22-16.16.05:316][ 29]LogWorld: Bringing up level for play took: 0.001880
+[2020.07.22-16.16.05:316][ 29]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.07.22-16.16.05:317][ 29]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.07.22-16.16.05:318][ 29]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.22-16.16.05:319][ 29]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.22-16.16.05:319][ 29]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=0.000] for [BP_TwinStickShooterPlayer_C]
+[2020.07.22-16.16.05:319][ 29]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type BP_TwinStickShooterPlayer_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2020.07.22-16.16.05:320][ 29]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas 0.165
+[2020.07.22-16.16.06:218][ 82]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.22-16.16.06:218][ 82]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.22-16.16.06:218][ 82]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.22-16.16.06:218][ 82]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.22-16.16.06:218][ 82]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.22-16.16.06:218][ 82]LogWorld: UWorld::CleanupWorld for MinibossSeparateArenas, bSessionEnded=true, bCleanupResources=true
+[2020.07.22-16.16.06:219][ 82]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.22-16.16.06:224][ 82]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.22-16.16.06:227][ 82]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.22-16.16.06:254][ 82]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.22-16.16.06:257][ 82]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.22-16.16.06:260][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2020.07.22-16.16.06:324][ 86]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.07.22-16.16.13:739][531]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.07.22-16.16.14:006][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.07.22-16.16.14:051][544]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasAC966FEF41988244BE79B2B9805C4FBB.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.16.14:119][544]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.16.14:119][544]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.16.14:864][589]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.22-16.16.14:893][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.22-16.16.14:893][589]PIE: New page: PIE session: MinibossSeparateArenas (Jul 22, 2020, 8:16:14 AM)
+[2020.07.22-16.16.14:893][589]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.22-16.16.14:924][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031422s)
+[2020.07.22-16.16.14:925][589]LogAIModule: Creating AISystem for world MinibossSeparateArenas
+[2020.07.22-16.16.14:925][589]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2020.07.22-16.16.14:925][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas to /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas (0.032274s)
+[2020.07.22-16.16.14:952][589]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2020.07.22-16.16.14:953][589]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.22-16.16.14:953][589]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.22-16.16.14:953][589]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.22-16.16.14:953][589]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.22-16.16.14:953][589]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.22-16.16.14:953][589]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.22-16.16.14:953][589]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.22-16.16.14:953][589]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.22-16.16.14:954][589]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.22-16.16.14:954][589]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.22-16.16.14:977][589]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.22-16.16.14:977][589]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.22-16.16.14:977][589]LogAudioMixer: Display: Is Default: Yes
+[2020.07.22-16.16.14:977][589]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.22-16.16.14:977][589]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.22-16.16.14:977][589]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.22-16.16.14:977][589]LogAudioMixer: Display: Channel Order:
+[2020.07.22-16.16.14:977][589]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.22-16.16.14:977][589]LogAudioMixer: Display: 1: FrontRight
+[2020.07.22-16.16.14:988][589]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.22-16.16.14:989][589]LogInit: FAudioDevice initialized.
+[2020.07.22-16.16.14:995][589]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.22-16.16.14:997][589]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas up for play (max tick rate 60) at 2020.07.22-12.16.14
+[2020.07.22-16.16.14:998][589]LogWorld: Bringing up level for play took: 0.001872
+[2020.07.22-16.16.14:998][589]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.07.22-16.16.15:000][589]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.22-16.16.15:001][589]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.22-16.16.15:004][589]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas -0.152
+[2020.07.22-16.16.29:330][447]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.22-16.16.29:347][447]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.22-16.16.29:367][447]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.22-16.16.29:367][447]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.22-16.16.29:367][447]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.22-16.16.29:367][447]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.22-16.16.29:368][447]LogWorld: UWorld::CleanupWorld for MinibossSeparateArenas, bSessionEnded=true, bCleanupResources=true
+[2020.07.22-16.16.29:368][447]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.22-16.16.29:376][447]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.22-16.16.29:380][447]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.22-16.16.29:407][447]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.22-16.16.29:411][447]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.22-16.16.29:413][447]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.07.22-16.16.29:442][449]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.07.22-16.16.39:053][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.07.22-16.16.39:061][ 22]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.16.39:099][ 22]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas7E1DF9984EF8878E362BEFA5B35CF38F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.16.39:171][ 22]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.16.39:171][ 22]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.17.24:036][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.07.22-16.17.24:049][707]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.17.24:089][707]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasFCF7F25344FC73C4D999088EC418B8C5.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.17.24:160][707]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.17.24:160][707]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.17.38:520][566]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.07.22-16.17.38:528][566]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.17.38:569][566]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas10F3501D417009EAB033858839ECBB12.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.17.38:641][566]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.17.38:641][566]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.17.47:997][123]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.07.22-16.17.48:004][123]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.17.48:051][123]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasEC6835D44288430218F6C7A2660ED4E4.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.17.48:121][123]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.17.48:121][123]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.18.05:197][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.07.22-16.18.05:205][143]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.18.05:242][143]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas79DF3CB440ECDE0F4D7A49BA77625CD3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.18.05:311][143]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.18.05:311][143]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.18.16:962][839]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.07.22-16.18.16:970][839]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.18.17:009][839]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas3EFECAE543AF442424E57681A630091B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.18.17:085][839]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.18.17:085][839]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.18.32:078][735]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.07.22-16.18.32:085][735]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.18.32:129][735]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas3BA4529944B159FF1D471FA3FDD95597.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.18.32:199][735]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.18.32:199][735]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.18.50:400][822]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.07.22-16.18.50:408][822]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.07.22-16.18.50:447][822]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas5C27EB0D4195495F7C067995C599E0B5.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.18.50:518][822]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.18.50:518][822]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.18.57:980][270]Cmd: TRANSACTION UNDO
+[2020.07.22-16.18.57:980][270]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2020.07.22-16.19.07:414][815]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.07.22-16.19.07:459][815]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasEF07850042409AA24E0486AA7744BEB1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.19.07:531][815]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.19.07:531][815]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.19.10:539][993]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.07.22-16.19.10:581][993]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas2B26716D4AF0390BB20791A70877305C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.19.10:653][993]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.19.10:653][993]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.19.11:673][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.07.22-16.19.11:714][ 51]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas17657E47408FE8A1C1961D961230E88C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.19.11:782][ 51]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.19.11:782][ 51]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.20.51:800][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2020.07.22-16.20.52:679][295]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor3)
+[2020.07.22-16.20.52:964][311]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor4)
+[2020.07.22-16.20.53:317][331]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor)
+[2020.07.22-16.20.54:554][404]Cmd: DELETE
+[2020.07.22-16.20.54:554][404]Cmd: ACTOR DELETE
+[2020.07.22-16.20.54:556][404]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.22-16.20.54:556][404]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.22-16.20.54:556][404]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.22-16.20.54:556][404]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.22-16.20.54:586][404]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.07.22-16.20.54:587][404]LogEditorActor: Deleted 4 Actors (0.033 secs)
+[2020.07.22-16.20.55:020][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.07.22-16.20.55:061][428]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas3B8D7FAB4E12B8DB0FA415AD1394227F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.20.55:130][428]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.20.55:130][428]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.22-16.20.57:173][548]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2020.07.22-16.20.57:214][548]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas2A4C544A4B6BEFE36FBB6DAEE72FDF1B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.22-16.20.57:285][548]AssetCheck: New page: Asset Save: MinibossSeparateArenas
+[2020.07.22-16.20.57:285][548]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
