@@ -441,7 +441,7 @@ void ATwinStickShooterPlayer::Dash()
 		bCanDash = false;
 		//bIsFiring = false;
 
-		DisableLaserSight(DashCooldown);
+		DisableLaserSight(DashImmunityDuration);
 
 		GetWorldTimerManager().SetTimer(DashTimerHandle, this, &ATwinStickShooterPlayer::RestoreDash, DashCooldown, false);
 		GetWorldTimerManager().SetTimer(DashImmunityTimerHandle, this, &ATwinStickShooterPlayer::DashImmunityEnded, DashImmunityDuration, false);
