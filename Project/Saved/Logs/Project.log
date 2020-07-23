@@ -1435,3 +1435,186 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.07.23-21.36.24:221][641]AssetCheck: New page: Asset Save: multiple assets
 [2020.07.23-21.36.24:221][641]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
 [2020.07.23-21.36.24:221][641]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.23-21.38.32:271][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2020.07.23-21.38.32:360][336]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasE365E9094448D846672E83B07555891D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.23-21.38.32:663][336]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData298351324898BD09AA4545A464F23044.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.23-21.38.32:683][336]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.23-21.38.32:683][336]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.23-21.38.32:683][336]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.23-21.38.34:676][454]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossBlue.BP_MinibossBlue
+[2020.07.23-21.38.35:029][454]LogActor: Warning: BP_MinibossBlueWeapon_C /Engine/Transient.World_12:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossBlueWeapon_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.38.36:597][544]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossGreen.BP_MinibossGreen
+[2020.07.23-21.38.36:909][544]LogActor: Warning: BP_MinibossGreenWeapon_C /Engine/Transient.World_14:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossGreenWeapon_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.38.37:980][604]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossGreenClone.BP_MinibossGreenClone
+[2020.07.23-21.38.38:322][604]LogActor: Warning: BP_MinibossGreenWeapon_C /Engine/Transient.World_15:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossGreenWeapon_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.38.39:736][667]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/RocketLauncher/RocketLauncherB_Fire_Cue.RocketLauncherB_Fire_Cue:SoundCueGraph_52.EdGraphNode_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.23-21.38.39:736][667]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/RocketLauncher/RocketLauncherB_Fire_Cue.RocketLauncherB_Fire_Cue:SoundCueGraph_52.EdGraphNode_Comment_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.23-21.38.39:736][667]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/RocketLauncher/RocketLauncherB_Fire_Cue.RocketLauncherB_Fire_Cue:SoundCueGraph_52.SoundCueGraphNode_288' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.23-21.38.39:736][667]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/RocketLauncher/RocketLauncherB_Fire_Cue.RocketLauncherB_Fire_Cue:SoundCueGraph_52.SoundCueGraphNode_289' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.23-21.38.39:736][667]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/RocketLauncher/RocketLauncherB_Fire_Cue.RocketLauncherB_Fire_Cue:SoundCueGraph_52.SoundCueGraphNode_290' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.23-21.38.39:736][667]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/RocketLauncher/RocketLauncherB_Fire_Cue.RocketLauncherB_Fire_Cue:SoundCueGraph_52.SoundCueGraphNode_291' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.23-21.38.39:736][667]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/RocketLauncher/RocketLauncherB_Fire_Cue.RocketLauncherB_Fire_Cue:SoundCueGraph_52.SoundCueGraphNode_292' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.23-21.38.39:736][667]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/RocketLauncher/RocketLauncherB_Fire_Cue.RocketLauncherB_Fire_Cue:SoundCueGraph_52.SoundCueGraphNode_293' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.23-21.38.39:736][667]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/RocketLauncher/RocketLauncherB_Fire_Cue.RocketLauncherB_Fire_Cue:SoundCueGraph_52.SoundCueGraphNode_294' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.23-21.38.39:736][667]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/RocketLauncher/RocketLauncherB_Fire_Cue.RocketLauncherB_Fire_Cue:SoundCueGraph_52.SoundCueGraphNode_295' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.23-21.38.39:736][667]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/RocketLauncher/RocketLauncherB_Fire_Cue.RocketLauncherB_Fire_Cue:SoundCueGraph_52.SoundCueGraphNode_296' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.23-21.38.39:736][667]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/RocketLauncher/RocketLauncherB_Fire_Cue.RocketLauncherB_Fire_Cue:SoundCueGraph_52.SoundCueGraphNode_297' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.23-21.38.39:736][667]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/RocketLauncher/RocketLauncherB_Fire_Cue.RocketLauncherB_Fire_Cue:SoundCueGraph_52.SoundCueGraphNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.23-21.38.39:737][667]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/RocketLauncher/RocketLauncherB_Fire_Cue.RocketLauncherB_Fire_Cue:SoundCueGraph_52.SoundCueGraphNode_90' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.23-21.38.39:737][667]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/RocketLauncher/RocketLauncherB_Fire_Cue.RocketLauncherB_Fire_Cue:SoundCueGraph_52.SoundCueGraphNode_Root_52' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.23-21.38.39:817][667]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/RocketLauncher/RocketLauncher_Reload_Cue.RocketLauncher_Reload_Cue:SoundCueGraph_50.SoundCueGraphNode_135' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.23-21.38.39:817][667]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/RocketLauncher/RocketLauncher_Reload_Cue.RocketLauncher_Reload_Cue:SoundCueGraph_50.SoundCueGraphNode_136' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.23-21.38.39:817][667]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/RocketLauncher/RocketLauncher_Reload_Cue.RocketLauncher_Reload_Cue:SoundCueGraph_50.SoundCueGraphNode_137' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.23-21.38.39:817][667]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/RocketLauncher/RocketLauncher_Reload_Cue.RocketLauncher_Reload_Cue:SoundCueGraph_50.SoundCueGraphNode_49' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.23-21.38.39:817][667]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/RocketLauncher/RocketLauncher_Reload_Cue.RocketLauncher_Reload_Cue:SoundCueGraph_50.SoundCueGraphNode_Root_50' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.07.23-21.38.39:881][667]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossRed.BP_MinibossRed
+[2020.07.23-21.38.40:214][667]LogActor: Warning: BP_MinibossRedWeapon_C /Engine/Transient.World_17:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.38.40:231][667]LogActor: Warning: BP_MinibossRedWeapon_C /Engine/Transient.World_16:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.38.43:141][838]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossYellow.BP_MinibossYellow
+[2020.07.23-21.38.43:488][838]LogActor: Warning: BP_MinibossYellowWeapon_C /Engine/Transient.World_18:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossYellowWeapon_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.39.36:641][967]BlueprintLog: New page: Compile BP_MinibossBlue
+[2020.07.23-21.39.36:680][967]LogActor: Warning: BP_MinibossBlueWeapon_C /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossBlueWeapon_C_CAT_278 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.39.36:681][967]LogActor: Warning: BP_MinibossBlueWeapon_C /Engine/Transient.World_9:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossBlueWeapon_C_CAT_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.39.36:682][967]LogActor: Warning: BP_MinibossBlueWeapon_C /Engine/Transient.World_12:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossBlueWeapon_C_CAT_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.39.36:944][967]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.07.23-21.39.36:948][967]LogActor: Warning: BP_MinibossBlueWeapon_C /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossBlueWeapon_C_CAT_280 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.39.36:951][967]LogActor: Warning: BP_MinibossBlueWeapon_C /Engine/Transient.World_9:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossBlueWeapon_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.39.36:952][967]LogActor: Warning: BP_MinibossBlueWeapon_C /Engine/Transient.World_12:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossBlueWeapon_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.39.36:954][967]LogActor: Warning: BP_MinibossBlueWeapon_C /Engine/Transient.World_9:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossBlueWeapon_C_CAT_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.39.36:963][967]LogActor: Warning: BP_MinibossBlueWeapon_C /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossBlueWeapon_C_CAT_282 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.39.36:965][967]LogActor: Warning: BP_MinibossBlueWeapon_C /Engine/Transient.World_12:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossBlueWeapon_C_CAT_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.39.36:967][967]LogActor: Warning: BP_MinibossBlueWeapon_C /Engine/Transient.World_9:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossBlueWeapon_C_CAT_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.39.37:058][967]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_MinibossBlueB39939E342F48DE9C393CFA99CDDE7F3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/Miniboss/BP_MinibossBlue.uasset'
+[2020.07.23-21.39.37:074][967]AssetCheck: New page: Asset Save: BP_MinibossBlue
+[2020.07.23-21.39.37:074][967]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossBlue.BP_MinibossBlue
+[2020.07.23-21.39.37:392][981]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_MinibossBlueD5F90B714B97EBF01AC5E9BA079CDB5A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/Miniboss/BP_MinibossBlue.uasset'
+[2020.07.23-21.39.37:410][981]AssetCheck: New page: Asset Save: BP_MinibossBlue
+[2020.07.23-21.39.37:410][981]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossBlue.BP_MinibossBlue
+[2020.07.23-21.39.44:902][426]BlueprintLog: New page: Compile BP_MinibossGreen
+[2020.07.23-21.39.44:925][426]LogActor: Warning: BP_MinibossGreenWeapon_C /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossGreenWeapon_C_CAT_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.39.44:926][426]LogActor: Warning: BP_MinibossGreenWeapon_C /Engine/Transient.World_8:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossGreenWeapon_C_CAT_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.39.44:927][426]LogActor: Warning: BP_MinibossGreenWeapon_C /Engine/Transient.World_14:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossGreenWeapon_C_CAT_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.39.45:232][426]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.07.23-21.39.45:234][426]LogActor: Warning: BP_MinibossGreenWeapon_C /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossGreenWeapon_C_CAT_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.39.45:237][426]LogActor: Warning: BP_MinibossGreenWeapon_C /Engine/Transient.World_8:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossGreenWeapon_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.39.45:238][426]LogActor: Warning: BP_MinibossGreenWeapon_C /Engine/Transient.World_14:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossGreenWeapon_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.39.45:240][426]LogActor: Warning: BP_MinibossGreenWeapon_C /Engine/Transient.World_8:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossGreenWeapon_C_CAT_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.39.45:247][426]LogActor: Warning: BP_MinibossGreenWeapon_C /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossGreenWeapon_C_CAT_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.39.45:249][426]LogActor: Warning: BP_MinibossGreenWeapon_C /Engine/Transient.World_14:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossGreenWeapon_C_CAT_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.39.45:251][426]LogActor: Warning: BP_MinibossGreenWeapon_C /Engine/Transient.World_8:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossGreenWeapon_C_CAT_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.39.45:338][426]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_MinibossGreen55E9D28042DDB3AE499D29AEC4E2D87D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/Miniboss/BP_MinibossGreen.uasset'
+[2020.07.23-21.39.45:353][426]AssetCheck: New page: Asset Save: BP_MinibossGreen
+[2020.07.23-21.39.45:353][426]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossGreen.BP_MinibossGreen
+[2020.07.23-21.39.45:668][441]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_MinibossGreenA4CE97D54460C0DE2FF9A19CD3B009C8.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/Miniboss/BP_MinibossGreen.uasset'
+[2020.07.23-21.39.45:683][441]AssetCheck: New page: Asset Save: BP_MinibossGreen
+[2020.07.23-21.39.45:683][441]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossGreen.BP_MinibossGreen
+[2020.07.23-21.39.52:422][841]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.07.23-21.39.52:422][841]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.23-21.40.01:854][392]BlueprintLog: New page: Compile BP_MinibossRed
+[2020.07.23-21.40.01:864][392]LogActor: Warning: BP_MinibossRedWeapon_C /Engine/Transient.World_17:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.40.01:865][392]LogActor: Warning: BP_MinibossRedWeapon_C /Engine/Transient.World_16:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.40.02:147][392]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2020.07.23-21.40.02:151][392]LogActor: Warning: BP_MinibossRedWeapon_C /Engine/Transient.World_17:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.40.02:152][392]LogActor: Warning: BP_MinibossRedWeapon_C /Engine/Transient.World_16:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.40.02:154][392]LogActor: Warning: BP_MinibossRedWeapon_C /Engine/Transient.World_17:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.40.02:160][392]LogActor: Warning: BP_MinibossRedWeapon_C /Engine/Transient.World_16:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.40.02:161][392]LogActor: Warning: BP_MinibossRedWeapon_C /Engine/Transient.World_17:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossRedWeapon_C_CAT_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.40.02:265][392]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_MinibossRed786D61224D217E40DEB66D954043204A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/Miniboss/BP_MinibossRed.uasset'
+[2020.07.23-21.40.02:285][392]AssetCheck: New page: Asset Save: BP_MinibossRed
+[2020.07.23-21.40.02:285][392]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossRed.BP_MinibossRed
+[2020.07.23-21.40.02:620][408]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_MinibossRed647EE2354092A22830F3D493BB2A6074.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/Miniboss/BP_MinibossRed.uasset'
+[2020.07.23-21.40.02:635][408]AssetCheck: New page: Asset Save: BP_MinibossRed
+[2020.07.23-21.40.02:635][408]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossRed.BP_MinibossRed
+[2020.07.23-21.40.10:795][895]BlueprintLog: New page: Compile BP_MinibossYellow
+[2020.07.23-21.40.10:810][895]LogActor: Warning: BP_MinibossYellowWeapon_C /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossYellowWeapon_C_CAT_352 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.40.10:811][895]LogActor: Warning: BP_MinibossYellowWeapon_C /Engine/Transient.World_6:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossYellowWeapon_C_CAT_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.40.10:812][895]LogActor: Warning: BP_MinibossYellowWeapon_C /Engine/Transient.World_18:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossYellowWeapon_C_CAT_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.40.11:084][895]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.07.23-21.40.11:086][895]LogActor: Warning: BP_MinibossYellowWeapon_C /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossYellowWeapon_C_CAT_354 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.40.11:088][895]LogActor: Warning: BP_MinibossYellowWeapon_C /Engine/Transient.World_6:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossYellowWeapon_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.40.11:089][895]LogActor: Warning: BP_MinibossYellowWeapon_C /Engine/Transient.World_18:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossYellowWeapon_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.40.11:091][895]LogActor: Warning: BP_MinibossYellowWeapon_C /Engine/Transient.World_6:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossYellowWeapon_C_CAT_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.40.11:097][895]LogActor: Warning: BP_MinibossYellowWeapon_C /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossYellowWeapon_C_CAT_356 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.40.11:099][895]LogActor: Warning: BP_MinibossYellowWeapon_C /Engine/Transient.World_18:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossYellowWeapon_C_CAT_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.40.11:100][895]LogActor: Warning: BP_MinibossYellowWeapon_C /Engine/Transient.World_6:PersistentLevel.Weapon_GEN_VARIABLE_BP_MinibossYellowWeapon_C_CAT_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.40.11:180][895]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_MinibossYellowC5DA539B40D81EEC0A3373AEF094A3EB.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/Miniboss/BP_MinibossYellow.uasset'
+[2020.07.23-21.40.11:198][895]AssetCheck: New page: Asset Save: BP_MinibossYellow
+[2020.07.23-21.40.11:198][895]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossYellow.BP_MinibossYellow
+[2020.07.23-21.40.11:562][913]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_MinibossYellowD6C3519D44C200FB5E45D3BAD0A9F3A0.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Enemy/Miniboss/BP_MinibossYellow.uasset'
+[2020.07.23-21.40.11:575][913]AssetCheck: New page: Asset Save: BP_MinibossYellow
+[2020.07.23-21.40.11:575][913]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Enemy/Miniboss/BP_MinibossYellow.BP_MinibossYellow
+[2020.07.23-21.40.13:132][  2]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2020.07.23-21.40.13:242][  2]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasCCD5FC3D4EC300A6EDFABD9C069C019D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.23-21.40.13:568][  2]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData88FAFDA34E405E9197076DB8377A1824.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.23-21.40.13:585][  2]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.23-21.40.13:585][  2]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.23-21.40.13:585][  2]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.23-21.40.14:383][ 50]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.23-21.40.14:415][ 50]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.23-21.40.14:415][ 50]PIE: New page: PIE session: MinibossSeparateArenas (Jul 23, 2020, 1:40:14 PM)
+[2020.07.23-21.40.14:415][ 50]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.23-21.40.14:460][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043999s)
+[2020.07.23-21.40.14:460][ 50]LogAIModule: Creating AISystem for world MinibossSeparateArenas
+[2020.07.23-21.40.14:460][ 50]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2020.07.23-21.40.14:460][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas to /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas (0.044914s)
+[2020.07.23-21.40.14:499][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2020.07.23-21.40.14:500][ 50]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.23-21.40.14:500][ 50]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.23-21.40.14:500][ 50]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.23-21.40.14:500][ 50]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.23-21.40.14:500][ 50]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.23-21.40.14:500][ 50]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.23-21.40.14:500][ 50]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.23-21.40.14:500][ 50]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.23-21.40.14:500][ 50]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.23-21.40.14:500][ 50]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.23-21.40.14:522][ 50]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.23-21.40.14:522][ 50]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.23-21.40.14:522][ 50]LogAudioMixer: Display: Is Default: Yes
+[2020.07.23-21.40.14:522][ 50]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.23-21.40.14:523][ 50]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.23-21.40.14:523][ 50]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.23-21.40.14:523][ 50]LogAudioMixer: Display: Channel Order:
+[2020.07.23-21.40.14:523][ 50]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.23-21.40.14:523][ 50]LogAudioMixer: Display: 1: FrontRight
+[2020.07.23-21.40.14:534][ 50]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.23-21.40.14:535][ 50]LogInit: FAudioDevice initialized.
+[2020.07.23-21.40.14:546][ 50]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.23-21.40.14:550][ 50]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas up for play (max tick rate 60) at 2020.07.23-17.40.14
+[2020.07.23-21.40.14:551][ 50]LogWorld: Bringing up level for play took: 0.004858
+[2020.07.23-21.40.14:552][ 50]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.07.23-21.40.14:554][ 50]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.40.14:554][ 50]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.23-21.40.14:559][ 50]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas 0.22
+[2020.07.23-21.40.24:976][675]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.23-21.40.24:992][675]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.23-21.40.25:012][675]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.23-21.40.25:012][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.23-21.40.25:012][675]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.23-21.40.25:012][675]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.23-21.40.25:012][675]LogWorld: UWorld::CleanupWorld for MinibossSeparateArenas, bSessionEnded=true, bCleanupResources=true
+[2020.07.23-21.40.25:013][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.23-21.40.25:034][675]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.23-21.40.25:038][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.23-21.40.25:077][675]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.23-21.40.25:079][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.23-21.40.25:088][675]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2020.07.23-21.40.25:105][676]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.07.23-21.40.26:073][730]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.07.23-21.40.26:150][730]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasE4EB676149745805919B549C1A531C37.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.23-21.40.26:442][730]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltDataF215966D45BA4A5FF8591888F107A6CF.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.23-21.40.26:458][730]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.23-21.40.26:458][730]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.23-21.40.26:458][730]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.23-21.40.26:794][750]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.07.23-21.40.26:794][750]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.07.23-21.40.26:794][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.23-21.40.27:199][771]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.07.23-21.40.27:199][771]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.07.23-21.40.27:200][771]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.23-21.40.27:495][785]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.07.23-21.40.27:495][785]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.07.23-21.40.27:495][785]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.23-21.40.27:809][799]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.07.23-21.40.27:809][799]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.07.23-21.40.27:809][799]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
