@@ -57,6 +57,8 @@ AJFollowEnemy::AJFollowEnemy()
 
 	IsFighting = false;
 
+	IsAttacking = false;
+
 }
 
 
@@ -198,7 +200,7 @@ void AJFollowEnemy::AttackSphereOnOverlapBegin(UPrimitiveComponent* OverlappedCo
 					Player->FightGoalUpdate();
 
 
-					float FightLapsus = FMath::RandRange(0.5f, 1.5f);
+					float FightLapsus = FMath::RandRange(0.f, 0.5f);
 					GetWorldTimerManager().SetTimer(FightTempo, this, &AJFollowEnemy::Fight, FightLapsus);
 
 				}
@@ -240,7 +242,7 @@ void AJFollowEnemy::AttackSphereOnOverlapEnd(UPrimitiveComponent* OverlappedComp
 
 void AJFollowEnemy::MoveToPlayer(AJBasePlayer* Player)
 {
-	if (!IsFighting)
+	if (!IsFighting && !IsAttacking)
 	{
 		SetFEnemyMovStatus(EFEnemyMoveStat::FEMS_MoveToPlayer);
 
@@ -369,11 +371,11 @@ void AJFollowEnemy::EnemyFinished()
 
 void AJFollowEnemy::FightFinished()
 {
-	IsFighting = false;
+	//IsFighting = false;
 	if (IsOverlapAttackSphere)
 	{
 
-		float FightLapsus = FMath::RandRange(1.0f, 2.0f);
+		float FightLapsus = FMath::RandRange(0.5f, 1.f);
 		GetWorldTimerManager().SetTimer(FightTempo, this, &AJFollowEnemy::Fight, FightLapsus);
 		
 	}

@@ -66,6 +66,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
 	bool IsFighting;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+	bool IsAttacking;
+
 	// checks if the enemy has a valid goal to continue attacking
 	bool IsWithGoal;
 
