@@ -79,9 +79,9 @@ AJBasePlayer::AJBasePlayer()
 	IsAnnexed = false;
 	AnnexPace = 16.f;
 
-	//StealthKill
-
-	IsIDown = false;
+	
+	//equip knife
+	IsIDown = true;
 
 	IsKDown = false;
 
@@ -109,7 +109,7 @@ void AJBasePlayer::BeginPlay()
 {
 	Super::BeginPlay();
 	
-
+	IDown();
 
 }
 

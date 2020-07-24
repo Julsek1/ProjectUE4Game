@@ -101,7 +101,7 @@ void AJFollowEnemy::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	
-	BasicPatrol(NextPatrolPoint);
+	//BasicPatrol(NextPatrolPoint);
 }
 
 // Called to bind functionality to input

@@ -40,7 +40,7 @@ void AMine::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 		AJBasePlayer* Player = Cast<AJBasePlayer>(OtherActor);
 		AJFollowEnemy* Mutant = Cast<AJFollowEnemy>(OtherActor);
 
-		if (Player || Mutant)
+		if (Player)
 		{
 			if ((Player->IsCrawling == false) || IsATrap)
 			{
@@ -62,6 +62,23 @@ void AMine::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 					Destroy();
 				}
 			}
+		}
+
+		if (Mutant)
+		{
+			if (BasicPSComponent)
+			{
+				UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), PSOverlap, GetActorLocation(), FRotator(0.f), true);
+
+			}
+			if (SoundFX)
+			{
+				UGameplayStatics::PlaySound2D(this, SoundFX);
+			}
+
+			UGameplayStatics::ApplyDamage(OtherActor, Damage, nullptr, this, DamageTypeClass);
+			Destroy();
+
 		}
 	}
 }
