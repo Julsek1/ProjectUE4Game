@@ -115,7 +115,7 @@ void AJFollowEnemy::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 
 void AJFollowEnemy::VisionBoxOnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	if (OtherActor && IsLiving())
+	if (OtherActor && IsLiving() && !IsAttacking)
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("OVERLAP BEGIN"));
 		AJBasePlayer* Player = Cast<AJBasePlayer>(OtherActor);
@@ -148,15 +148,18 @@ void AJFollowEnemy::VisionBoxOnOverlapEnd(UPrimitiveComponent* OverlappedComp, A
 			if (Player)
 			{
 				LastSeenPos = Player->GetActorLocation();
+				
+					if (AIController)
+					{
+						AIController->MoveToLocation(LastSeenPos);
+						/*AIController->StopMovement();
+						SetFEnemyMovStatus(EFEnemyMoveStat::FEMS_Idle);*/
+					}
 
-				if (AIController)
-				{
-					AIController->MoveToLocation(LastSeenPos);
-					/*AIController->StopMovement();
-					SetFEnemyMovStatus(EFEnemyMoveStat::FEMS_Idle);*/
-				}
+				
+				
 
-				DrawDebugSphere(GetWorld(), LastSeenPos, 50, 26, FColor(52, 220, 239), true, -1, 0, 2);
+				//DrawDebugSphere(GetWorld(), LastSeenPos, 50, 26, FColor(52, 220, 239), true, -1, 0, 2);
 
 				GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, TEXT("OVERLAP END"));
 				IsWithGoal = false;
@@ -379,7 +382,6 @@ void AJFollowEnemy::FightFinished()
 		GetWorldTimerManager().SetTimer(FightTempo, this, &AJFollowEnemy::Fight, FightLapsus);
 		
 	}
-	
 	
 	
 }

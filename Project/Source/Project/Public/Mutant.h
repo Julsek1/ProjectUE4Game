@@ -27,6 +27,19 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
 	float Damage;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
+		class UParticleSystem* TakeHitPS;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
+		class USoundCue* KnifeHitSound;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
+		USoundCue* PunchSound;
+
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
+		TSubclassOf<UDamageType> DamageTypeClass;
+
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Fight")
 		class UAnimMontage* FightMontage;
 
