@@ -2056,3 +2056,1370 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.07.24-14.35.00:254][944]AssetCheck: New page: Asset Save: multiple assets
 [2020.07.24-14.35.00:254][944]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
 [2020.07.24-14.35.00:254][944]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.38.18:790][700]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.07.24-14.38.18:790][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-14.38.20:804][808]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2020.07.24-14.38.20:891][808]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas4310408D4F649A2FDA3BC98A6C0704C0.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.38.21:149][808]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltDataE15F274C4A8B46F4C74EBE9F450855CB.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.38.21:168][808]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.38.21:168][808]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.38.21:169][808]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.38.31:990][453]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.07.24-14.38.32:082][453]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas19C85AAA4B04CAD7B712B99A3F3C1C2F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.38.32:346][453]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData9CC859B24FBD5D9DC44666BA68624FA7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.38.32:363][453]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.38.32:363][453]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.38.32:363][453]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.38.38:217][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.07.24-14.38.38:306][798]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasF283F08C4D83C3CA5087618ABC9C5A44.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.38.38:566][798]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData7F9AE0EF4E5E6B44334D4CB98B785851.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.38.38:583][798]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.38.38:583][798]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.38.38:583][798]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.38.47:803][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.07.24-14.38.47:890][348]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasD05294AD44B8C4D26A4D4DBAB28C56E2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.38.48:168][348]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData04DCC44F466B9959CF7C68925C36A88F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.38.48:184][348]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.38.48:184][348]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.38.48:184][348]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.39.02:075][177]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.07.24-14.39.02:164][177]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas3728DF984CA337868E3458A64E8D4BDE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.39.02:426][177]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltDataD4D898654F7D256F4293348968161652.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.39.02:442][177]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.39.02:442][177]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.39.02:442][177]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.45.02:738][354]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2020.07.24-14.45.02:839][354]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasD74269B14C0D0AD39E52A8945E8B1FAE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.45.03:111][354]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData70304B194013E3D7234A9DB12353A84E.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.45.03:130][354]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.45.03:130][354]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.45.03:130][354]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.45.06:310][541]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.07.24-14.45.06:419][541]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasA3ACE5794E2E4741F1EE118C64CDC22D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.45.06:720][541]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData01152F8146A04ADA023D638EA971F0BB.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.45.06:737][541]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.45.06:737][541]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.45.06:737][541]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.45.13:804][959]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.07.24-14.45.13:897][959]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas9769B7A9498ECCE78EA73E9934C9E2AB.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.45.14:155][959]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData396013924A8697FADE98998DA79555A1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.45.14:174][959]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.45.14:174][959]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.45.14:174][959]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.45.23:799][528]LogActor: Warning: BP_Secret_C /Engine/Transient.World_23:PersistentLevel.BP_Secret_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-14.45.23:806][528]LogActor: Warning: BP_MinibossLevelPillar_C /Engine/Transient.World_24:PersistentLevel.BP_MinibossLevelPillar_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-14.45.23:873][531]LogActor: Warning: BP_InteractableTerminal_C /Engine/Transient.World_27:PersistentLevel.BP_InteractableTerminal_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-14.45.25:982][651]LogActor: Warning: BP_MinibossYellowWeapon_C /Engine/Transient.World_31:PersistentLevel.BP_MinibossYellowWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-14.45.25:998][652]LogActor: Warning: BP_MinibossRedWeapon_C /Engine/Transient.World_32:PersistentLevel.BP_MinibossRedWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-14.45.26:042][653]LogActor: Warning: BP_MinibossGreenWeapon_C /Engine/Transient.World_33:PersistentLevel.BP_MinibossGreenWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-14.45.26:080][654]LogActor: Warning: BP_MinibossBlueWeapon_C /Engine/Transient.World_34:PersistentLevel.BP_MinibossBlueWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-14.45.26:106][655]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_35:PersistentLevel.BP_GasMaskEnemyWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-14.45.27:702][747]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/Weapons/Enemy/BP_Rocket.BP_Rocket
+[2020.07.24-14.45.29:983][852]LogSlate: Window 'BP_Rocket' being destroyed
+[2020.07.24-14.45.29:989][852]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2020.07.24-14.45.29:989][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-14.45.30:069][852]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/Weapons/Enemy/BP_Rocket.BP_Rocket
+[2020.07.24-14.45.33:434][ 21]LogRenderer: Reallocating scene render targets to support 1248x712 Format 10 NumSamples 1 (Frame:1).
+[2020.07.24-14.45.42:655][551]LogSlate: Window 'BP_Rocket' being destroyed
+[2020.07.24-14.45.42:666][551]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2020.07.24-14.45.42:667][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-14.45.45:221][699]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/Weapons/Enemy/BP_FallingRocket.BP_FallingRocket
+[2020.07.24-14.45.57:915][436]BlueprintLog: New page: Compile BP_FallingRocket
+[2020.07.24-14.45.58:181][436]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.07.24-14.45.58:672][460]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_FallingRocket42508E9A4A6427279BBBCC85D721AF97.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Weapons/Enemy/BP_FallingRocket.uasset'
+[2020.07.24-14.45.58:689][460]AssetCheck: New page: Asset Save: BP_FallingRocket
+[2020.07.24-14.45.58:689][460]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Weapons/Enemy/BP_FallingRocket.BP_FallingRocket
+[2020.07.24-14.45.59:876][528]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2020.07.24-14.45.59:989][528]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasCD24722848ABCC234EE529B5614AB82E.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.46.00:326][528]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData121412D94124EE71672FD182456691AF.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.46.00:344][528]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.46.00:344][528]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.46.00:344][528]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.46.10:241][113]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Phil/Materials_Textures/M_Melee.M_Melee
+[2020.07.24-14.46.10:256][113]LogMaterial: Display: Missing cached shader map for material M_Melee, compiling. 
+[2020.07.24-14.46.10:684][113]LogMaterial: Display: Missing cached shader map for material M_Melee, compiling. 
+[2020.07.24-14.46.10:703][113]LogMaterial: Display: Missing cached shader map for material M_Melee, compiling. 
+[2020.07.24-14.46.10:726][113]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 22
+[2020.07.24-14.46.10:726][113]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 21
+[2020.07.24-14.46.10:726][113]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 20
+[2020.07.24-14.46.10:726][113]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 19
+[2020.07.24-14.46.10:726][113]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 18
+[2020.07.24-14.46.10:726][113]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 17
+[2020.07.24-14.46.10:726][113]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 16
+[2020.07.24-14.46.10:726][113]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 15
+[2020.07.24-14.46.10:726][113]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.07.24-14.46.11:540][139]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 18
+[2020.07.24-14.46.11:563][140]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 17
+[2020.07.24-14.46.11:760][148]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 16
+[2020.07.24-14.46.11:789][149]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 15
+[2020.07.24-14.46.12:056][159]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 14
+[2020.07.24-14.46.12:319][168]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 13
+[2020.07.24-14.46.12:353][169]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 12
+[2020.07.24-14.46.12:704][183]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 11
+[2020.07.24-14.46.12:755][185]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 10
+[2020.07.24-14.46.12:830][188]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 9
+[2020.07.24-14.46.12:959][193]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 8
+[2020.07.24-14.46.13:130][200]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 7
+[2020.07.24-14.46.13:379][210]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2020.07.24-14.46.13:694][223]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 5
+[2020.07.24-14.46.13:713][224]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2020.07.24-14.46.13:972][234]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
+[2020.07.24-14.46.14:045][237]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.07.24-14.46.14:072][238]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.07.24-14.46.14:838][269]MaterialEditorStats: Base pass shader: 79 instructions
+[2020.07.24-14.46.14:838][269]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 100 instructions
+[2020.07.24-14.46.14:839][269]MaterialEditorStats: Base pass vertex shader: 169 instructions
+[2020.07.24-14.46.14:839][269]MaterialEditorStats: Texture samplers: 4/16
+[2020.07.24-14.46.14:839][269]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.07.24-14.46.14:839][269]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.24-14.46.26:568][962]LogSlate: Window 'M_Melee' being destroyed
+[2020.07.24-14.46.26:639][962]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2020.07.24-14.46.26:640][962]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-14.46.27:834][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2020.07.24-14.46.27:938][ 29]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasFAB04ACE46A0B881981C358C0B22D440.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.46.28:223][ 29]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData232846064A8C812CBA3D9A8B66E499DF.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.46.28:246][ 29]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.46.28:246][ 29]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.46.28:246][ 29]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.46.39:283][689]LogMaterial: Display: Missing cached shader map for material M_Melee_2, compiling. 
+[2020.07.24-14.46.39:337][689]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 87
+[2020.07.24-14.46.39:337][689]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 77
+[2020.07.24-14.46.39:337][689]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 67
+[2020.07.24-14.46.39:337][689]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 57
+[2020.07.24-14.46.39:337][689]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 47
+[2020.07.24-14.46.39:337][689]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 37
+[2020.07.24-14.46.39:337][689]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 27
+[2020.07.24-14.46.39:337][689]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 17
+[2020.07.24-14.46.46:747][986]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 7
+[2020.07.24-14.46.48:173][ 45]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2020.07.24-14.46.48:455][ 57]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2020.07.24-14.46.48:731][ 68]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2020.07.24-14.46.48:832][ 72]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2020.07.24-14.46.49:035][ 81]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2020.07.24-14.46.49:298][ 91]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.07.24-14.46.50:262][130]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/M_FallingRocket84C5F37D49131E01781DB6805710AA62.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Materials_Textures/M_FallingRocket.uasset'
+[2020.07.24-14.46.50:462][130]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.07.24-14.46.50:506][130]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2020.07.24-14.46.50:540][130]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.07.24-14.46.50:612][130]AssetCheck: New page: Asset Save: M_FallingRocket
+[2020.07.24-14.46.50:612][130]LogContentValidation: Display: Validating Material /Game/Phil/Materials_Textures/M_FallingRocket.M_FallingRocket
+[2020.07.24-14.46.51:109][157]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/M_FallingRocketB914FE6C46784294E8089A925B5C2FB4.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Materials_Textures/M_FallingRocket.uasset'
+[2020.07.24-14.46.51:123][157]AssetCheck: New page: Asset Save: M_FallingRocket
+[2020.07.24-14.46.51:123][157]LogContentValidation: Display: Validating Material /Game/Phil/Materials_Textures/M_FallingRocket.M_FallingRocket
+[2020.07.24-14.46.53:566][300]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Phil/Materials_Textures/M_FallingRocket.M_FallingRocket
+[2020.07.24-14.46.53:573][300]LogMaterial: Display: Missing cached shader map for material M_FallingRocket, compiling. 
+[2020.07.24-14.46.53:752][300]LogMaterial: Display: Missing cached shader map for material M_FallingRocket, compiling. 
+[2020.07.24-14.46.53:769][300]LogMaterial: Display: Missing cached shader map for material M_FallingRocket, compiling. 
+[2020.07.24-14.46.53:787][300]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 22
+[2020.07.24-14.46.53:787][300]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 21
+[2020.07.24-14.46.53:787][300]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 20
+[2020.07.24-14.46.53:787][300]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 19
+[2020.07.24-14.46.53:787][300]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 18
+[2020.07.24-14.46.53:787][300]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 17
+[2020.07.24-14.46.53:787][300]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 16
+[2020.07.24-14.46.53:787][300]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 15
+[2020.07.24-14.46.53:797][300]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.07.24-14.46.54:028][301]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 18
+[2020.07.24-14.46.54:078][302]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 17
+[2020.07.24-14.46.54:286][309]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 16
+[2020.07.24-14.46.54:315][310]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 15
+[2020.07.24-14.46.54:741][326]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 14
+[2020.07.24-14.46.54:791][328]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 13
+[2020.07.24-14.46.54:914][332]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 12
+[2020.07.24-14.46.55:242][343]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 11
+[2020.07.24-14.46.55:273][344]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 10
+[2020.07.24-14.46.55:412][349]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 9
+[2020.07.24-14.46.55:640][358]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 8
+[2020.07.24-14.46.55:733][362]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2020.07.24-14.46.55:755][363]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2020.07.24-14.46.56:114][377]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2020.07.24-14.46.56:146][378]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.07.24-14.46.56:386][386]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2020.07.24-14.46.56:563][393]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2020.07.24-14.46.56:614][395]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.07.24-14.46.57:350][424]MaterialEditorStats: Base pass shader: 79 instructions
+[2020.07.24-14.46.57:350][424]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 100 instructions
+[2020.07.24-14.46.57:350][424]MaterialEditorStats: Base pass vertex shader: 169 instructions
+[2020.07.24-14.46.57:350][424]MaterialEditorStats: Texture samplers: 4/16
+[2020.07.24-14.46.57:350][424]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.07.24-14.46.57:350][424]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.24-14.47.06:643][958]LogMaterial: Display: Missing cached shader map for material M_FallingRocket, compiling. 
+[2020.07.24-14.47.06:682][959]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 22
+[2020.07.24-14.47.06:682][959]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 21
+[2020.07.24-14.47.06:682][959]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 20
+[2020.07.24-14.47.06:682][959]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 19
+[2020.07.24-14.47.06:682][959]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 18
+[2020.07.24-14.47.06:682][959]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 17
+[2020.07.24-14.47.06:682][959]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 16
+[2020.07.24-14.47.06:682][959]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 15
+[2020.07.24-14.47.07:076][976]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 14
+[2020.07.24-14.47.07:076][976]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2020.07.24-14.47.07:257][983]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 12
+[2020.07.24-14.47.07:279][984]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 11
+[2020.07.24-14.47.07:722][  2]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 10
+[2020.07.24-14.47.07:722][  2]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 9
+[2020.07.24-14.47.07:798][  5]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2020.07.24-14.47.08:141][ 19]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 7
+[2020.07.24-14.47.08:190][ 21]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2020.07.24-14.47.08:212][ 22]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 5
+[2020.07.24-14.47.08:459][ 33]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2020.07.24-14.47.08:652][ 41]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2020.07.24-14.47.08:725][ 44]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.07.24-14.47.08:866][ 50]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.07.24-14.47.09:911][ 99]MaterialEditorStats: Base pass shader: 79 instructions
+[2020.07.24-14.47.09:911][ 99]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 100 instructions
+[2020.07.24-14.47.09:911][ 99]MaterialEditorStats: Base pass vertex shader: 169 instructions
+[2020.07.24-14.47.09:911][ 99]MaterialEditorStats: Texture samplers: 4/16
+[2020.07.24-14.47.09:911][ 99]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.07.24-14.47.09:911][ 99]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.24-14.47.13:577][311]LogMaterial: Display: Missing cached shader map for material M_FallingRocket, compiling. 
+[2020.07.24-14.47.13:594][311]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 22
+[2020.07.24-14.47.13:594][311]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 21
+[2020.07.24-14.47.13:594][311]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 20
+[2020.07.24-14.47.13:594][311]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 19
+[2020.07.24-14.47.13:594][311]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 18
+[2020.07.24-14.47.13:594][311]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 17
+[2020.07.24-14.47.13:594][311]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 16
+[2020.07.24-14.47.13:594][311]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 15
+[2020.07.24-14.47.13:594][311]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.07.24-14.47.14:003][326]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 18
+[2020.07.24-14.47.14:036][327]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 17
+[2020.07.24-14.47.14:141][330]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 16
+[2020.07.24-14.47.14:169][331]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 15
+[2020.07.24-14.47.14:549][345]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 14
+[2020.07.24-14.47.14:635][348]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 13
+[2020.07.24-14.47.14:693][350]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 12
+[2020.07.24-14.47.14:935][360]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 11
+[2020.07.24-14.47.15:023][363]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 10
+[2020.07.24-14.47.15:096][366]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2020.07.24-14.47.15:450][379]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 8
+[2020.07.24-14.47.15:517][381]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 7
+[2020.07.24-14.47.15:658][386]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2020.07.24-14.47.15:967][395]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2020.07.24-14.47.15:967][395]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
+[2020.07.24-14.47.16:269][405]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
+[2020.07.24-14.47.16:269][405]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2020.07.24-14.47.16:499][412]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.07.24-14.47.17:173][441]MaterialEditorStats: Base pass shader: 79 instructions
+[2020.07.24-14.47.17:173][441]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 100 instructions
+[2020.07.24-14.47.17:173][441]MaterialEditorStats: Base pass vertex shader: 169 instructions
+[2020.07.24-14.47.17:173][441]MaterialEditorStats: Texture samplers: 4/16
+[2020.07.24-14.47.17:173][441]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.07.24-14.47.17:173][441]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.24-14.47.19:177][550]LogMaterial: Display: Missing cached shader map for material M_FallingRocket, compiling. 
+[2020.07.24-14.47.19:192][550]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 22
+[2020.07.24-14.47.19:192][550]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 21
+[2020.07.24-14.47.19:192][550]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 20
+[2020.07.24-14.47.19:192][550]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 19
+[2020.07.24-14.47.19:192][550]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 18
+[2020.07.24-14.47.19:192][550]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 17
+[2020.07.24-14.47.19:192][550]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 16
+[2020.07.24-14.47.19:192][550]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 15
+[2020.07.24-14.47.19:198][550]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.07.24-14.47.19:567][563]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 18
+[2020.07.24-14.47.19:597][564]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 17
+[2020.07.24-14.47.19:742][569]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 16
+[2020.07.24-14.47.19:756][569]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2020.07.24-14.47.19:756][569]LogMaterial: Display: Missing cached shader map for material M_FallingRocket, compiling. 
+[2020.07.24-14.47.19:800][569]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.07.24-14.47.20:149][577]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 26
+[2020.07.24-14.47.20:205][579]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 25
+[2020.07.24-14.47.20:315][583]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 24
+[2020.07.24-14.47.20:605][594]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 23
+[2020.07.24-14.47.20:632][595]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 22
+[2020.07.24-14.47.20:660][596]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 21
+[2020.07.24-14.47.20:660][596]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 20
+[2020.07.24-14.47.20:710][598]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 19
+[2020.07.24-14.47.20:785][601]LogMaterial: Display: Missing cached shader map for material M_FallingRocket, compiling. 
+[2020.07.24-14.47.20:818][601]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.07.24-14.47.20:832][601]LogSlate: Window 'Color Picker' being destroyed
+[2020.07.24-14.47.21:022][608]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 26
+[2020.07.24-14.47.21:022][608]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 25
+[2020.07.24-14.47.21:075][610]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 24
+[2020.07.24-14.47.21:336][620]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 23
+[2020.07.24-14.47.21:358][621]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 22
+[2020.07.24-14.47.21:380][622]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 21
+[2020.07.24-14.47.21:502][627]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 20
+[2020.07.24-14.47.21:582][630]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 19
+[2020.07.24-14.47.21:607][631]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 18
+[2020.07.24-14.47.21:631][632]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 17
+[2020.07.24-14.47.21:844][641]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 16
+[2020.07.24-14.47.22:274][657]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 15
+[2020.07.24-14.47.22:323][659]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2020.07.24-14.47.22:421][663]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 13
+[2020.07.24-14.47.22:467][663]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 12
+[2020.07.24-14.47.22:573][667]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 11
+[2020.07.24-14.47.22:674][670]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 10
+[2020.07.24-14.47.23:125][686]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 9
+[2020.07.24-14.47.23:179][688]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2020.07.24-14.47.23:275][692]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 7
+[2020.07.24-14.47.23:367][695]LogMaterial: Display: Missing cached shader map for material M_FallingRocket, compiling. 
+[2020.07.24-14.47.23:404][695]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2020.07.24-14.47.23:422][695]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.07.24-14.47.23:436][695]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 22
+[2020.07.24-14.47.23:467][696]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 25
+[2020.07.24-14.47.23:676][704]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 24
+[2020.07.24-14.47.23:816][710]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 23
+[2020.07.24-14.47.23:863][712]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 22
+[2020.07.24-14.47.24:046][719]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 21
+[2020.07.24-14.47.24:100][721]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 20
+[2020.07.24-14.47.24:172][724]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 19
+[2020.07.24-14.47.24:236][727]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 18
+[2020.07.24-14.47.24:264][728]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 17
+[2020.07.24-14.47.24:358][732]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 16
+[2020.07.24-14.47.24:731][746]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 15
+[2020.07.24-14.47.24:804][749]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 14
+[2020.07.24-14.47.25:111][761]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2020.07.24-14.47.25:141][762]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 12
+[2020.07.24-14.47.25:230][765]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 11
+[2020.07.24-14.47.25:313][768]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 10
+[2020.07.24-14.47.25:799][785]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 9
+[2020.07.24-14.47.25:903][789]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2020.07.24-14.47.26:004][793]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 7
+[2020.07.24-14.47.26:201][801]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.07.24-14.47.26:231][802]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2020.07.24-14.47.26:231][802]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
+[2020.07.24-14.47.26:446][809]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2020.07.24-14.47.26:832][824]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2020.07.24-14.47.26:914][828]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1
+[2020.07.24-14.47.27:598][855]MaterialEditorStats: Base pass shader: 80 instructions
+[2020.07.24-14.47.27:598][855]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 101 instructions
+[2020.07.24-14.47.27:598][855]MaterialEditorStats: Base pass vertex shader: 169 instructions
+[2020.07.24-14.47.27:598][855]MaterialEditorStats: Texture samplers: 4/16
+[2020.07.24-14.47.27:598][855]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.07.24-14.47.27:598][855]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.24-14.47.31:797][102]LogMaterialEditor: Applying material M_FallingRocket
+[2020.07.24-14.47.32:201][102]LogMaterial: Display: Missing cached shader map for material M_FallingRocket, compiling. 
+[2020.07.24-14.47.32:253][102]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 22
+[2020.07.24-14.47.32:253][102]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 21
+[2020.07.24-14.47.32:253][102]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 20
+[2020.07.24-14.47.32:253][102]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 19
+[2020.07.24-14.47.32:253][102]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 18
+[2020.07.24-14.47.32:253][102]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 17
+[2020.07.24-14.47.32:253][102]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 16
+[2020.07.24-14.47.32:253][102]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 15
+[2020.07.24-14.47.32:303][102]LogMaterial: Display: Missing cached shader map for material M_FallingRocket, compiling. 
+[2020.07.24-14.47.32:447][102]LogUObjectHash: Compacting FUObjectHashTables data took   5.14ms
+[2020.07.24-14.47.32:494][102]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 101
+[2020.07.24-14.47.32:494][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.24-14.47.33:965][102]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 102
+[2020.07.24-14.47.33:965][102]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 101
+[2020.07.24-14.47.33:965][102]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 100
+[2020.07.24-14.47.33:965][102]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 99
+[2020.07.24-14.47.33:965][102]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 98
+[2020.07.24-14.47.33:965][102]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 97
+[2020.07.24-14.47.33:965][102]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 96
+[2020.07.24-14.47.33:965][102]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 95
+[2020.07.24-14.47.33:965][102]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 94
+[2020.07.24-14.47.33:965][102]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 93
+[2020.07.24-14.47.33:965][102]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 92
+[2020.07.24-14.47.33:965][102]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 91
+[2020.07.24-14.47.33:965][102]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 90
+[2020.07.24-14.47.33:965][102]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 89
+[2020.07.24-14.47.33:965][102]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 88
+[2020.07.24-14.47.33:965][102]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 87
+[2020.07.24-14.47.33:965][102]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 77
+[2020.07.24-14.47.33:965][102]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 67
+[2020.07.24-14.47.33:965][102]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 58
+[2020.07.24-14.47.33:965][102]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 50
+[2020.07.24-14.47.33:965][102]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 43
+[2020.07.24-14.47.33:976][102]TextureStreamingBuild: Display: Compiling optional shaders took 1.524 seconds.
+[2020.07.24-14.47.34:034][102]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.07.24-14.47.34:053][102]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 37
+[2020.07.24-14.47.34:070][102]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 32
+[2020.07.24-14.47.34:468][116]LogMaterialEditor: Saving and Compiling material M_FallingRocket
+[2020.07.24-14.47.39:352][116]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 27
+[2020.07.24-14.47.39:352][116]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 23
+[2020.07.24-14.47.39:352][116]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 20
+[2020.07.24-14.47.39:352][116]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 17
+[2020.07.24-14.47.39:352][116]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 14
+[2020.07.24-14.47.39:352][116]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2020.07.24-14.47.39:352][116]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 10
+[2020.07.24-14.47.39:352][116]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2020.07.24-14.47.39:352][116]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2020.07.24-14.47.39:353][116]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2020.07.24-14.47.39:353][116]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2020.07.24-14.47.39:353][116]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2020.07.24-14.47.39:353][116]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.07.24-14.47.39:353][116]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.07.24-14.47.39:394][116]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/M_FallingRocket848E407448C9A21EE0892D9D82C40788.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Materials_Textures/M_FallingRocket.uasset'
+[2020.07.24-14.47.39:436][116]AssetCheck: New page: Asset Save: M_FallingRocket
+[2020.07.24-14.47.39:436][116]LogContentValidation: Display: Validating Material /Game/Phil/Materials_Textures/M_FallingRocket.M_FallingRocket
+[2020.07.24-14.47.39:444][116]MaterialEditorStats: Base pass shader: 80 instructions
+[2020.07.24-14.47.39:444][116]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 101 instructions
+[2020.07.24-14.47.39:444][116]MaterialEditorStats: Base pass vertex shader: 169 instructions
+[2020.07.24-14.47.39:444][116]MaterialEditorStats: Texture samplers: 8/16
+[2020.07.24-14.47.39:444][116]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.07.24-14.47.39:444][116]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.24-14.47.40:091][146]LogSlate: Window 'M_FallingRocket' being destroyed
+[2020.07.24-14.47.40:160][146]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2020.07.24-14.47.40:161][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-14.47.41:123][198]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2020.07.24-14.47.41:215][198]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas1FD51EF6466D421F7BD2B1A5CA8E758F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.47.41:495][198]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData4C549E4B4A06BC8A44D5AEA16C6A4AAE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.47.41:515][198]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.47.41:515][198]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.47.41:515][198]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.47.50:357][695]BlueprintLog: New page: Compile BP_FallingRocket
+[2020.07.24-14.47.50:656][695]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2020.07.24-14.47.50:729][695]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_FallingRocket4567ACDF4BD353909DF68ABC4E24FC86.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Weapons/Enemy/BP_FallingRocket.uasset'
+[2020.07.24-14.47.50:743][695]AssetCheck: New page: Asset Save: BP_FallingRocket
+[2020.07.24-14.47.50:743][695]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Weapons/Enemy/BP_FallingRocket.BP_FallingRocket
+[2020.07.24-14.47.50:966][705]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_FallingRocket0D397F0B411F45389950628B7020ED12.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Weapons/Enemy/BP_FallingRocket.uasset'
+[2020.07.24-14.47.50:980][705]AssetCheck: New page: Asset Save: BP_FallingRocket
+[2020.07.24-14.47.50:980][705]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Weapons/Enemy/BP_FallingRocket.BP_FallingRocket
+[2020.07.24-14.47.51:786][750]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2020.07.24-14.47.51:878][750]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasE7922D60418E28582E55749C4A95B48D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.47.52:167][750]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData40112A3E466CABEB233E409E447F63AE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.47.52:186][750]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.47.52:186][750]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.47.52:186][750]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.47.52:664][778]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.24-14.47.52:705][778]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.24-14.47.52:705][778]PIE: New page: PIE session: MinibossSeparateArenas (Jul 24, 2020, 6:47:52 AM)
+[2020.07.24-14.47.52:705][778]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.24-14.47.52:745][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040908s)
+[2020.07.24-14.47.52:746][778]LogAIModule: Creating AISystem for world MinibossSeparateArenas
+[2020.07.24-14.47.52:746][778]LogPlayLevel: PIE: World Init took: (0.000768s)
+[2020.07.24-14.47.52:746][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas to /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas (0.041808s)
+[2020.07.24-14.47.52:784][778]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.07.24-14.47.52:785][778]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.24-14.47.52:785][778]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.24-14.47.52:785][778]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.24-14.47.52:785][778]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.24-14.47.52:785][778]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.24-14.47.52:785][778]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.24-14.47.52:785][778]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.24-14.47.52:785][778]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.24-14.47.52:785][778]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.24-14.47.52:785][778]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.24-14.47.52:808][778]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.24-14.47.52:808][778]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.24-14.47.52:808][778]LogAudioMixer: Display: Is Default: Yes
+[2020.07.24-14.47.52:808][778]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.24-14.47.52:808][778]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.24-14.47.52:808][778]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.24-14.47.52:808][778]LogAudioMixer: Display: Channel Order:
+[2020.07.24-14.47.52:808][778]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-14.47.52:808][778]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-14.47.52:819][778]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.24-14.47.52:820][778]LogInit: FAudioDevice initialized.
+[2020.07.24-14.47.52:830][778]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.24-14.47.52:836][778]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas up for play (max tick rate 60) at 2020.07.24-10.47.52
+[2020.07.24-14.47.52:837][778]LogWorld: Bringing up level for play took: 0.006264
+[2020.07.24-14.47.52:837][778]LogOnline: OSS: Creating online subsystem instance for: :Context_51
+[2020.07.24-14.47.52:840][778]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-14.47.52:840][778]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-14.47.52:846][778]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas -0.599
+[2020.07.24-14.48.10:535][834]LogTemp: Warning: BP_MinibossRed_2
+[2020.07.24-14.48.10:535][834]LogTemp: Warning: BP_MinibossRed_2
+[2020.07.24-14.48.10:535][834]LogTemp: Warning: BP_MinibossRed_2
+[2020.07.24-14.48.10:535][834]LogTemp: Warning: BP_MinibossRed_2
+[2020.07.24-14.48.10:535][834]LogTemp: Warning: BP_MinibossRed_2
+[2020.07.24-14.48.10:535][834]LogTemp: Warning: BP_MinibossRed_2
+[2020.07.24-14.48.10:535][834]LogTemp: Warning: BP_MinibossRed_2
+[2020.07.24-14.48.10:535][834]LogTemp: Warning: BP_MinibossRed_2
+[2020.07.24-14.48.27:806][866]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-14.48.27:824][866]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.24-14.48.27:844][866]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.24-14.48.27:845][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.24-14.48.27:845][866]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.24-14.48.27:845][866]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-14.48.27:845][866]LogWorld: UWorld::CleanupWorld for MinibossSeparateArenas, bSessionEnded=true, bCleanupResources=true
+[2020.07.24-14.48.27:847][866]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-14.48.27:856][866]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.24-14.48.27:862][866]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-14.48.27:897][866]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-14.48.27:899][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.24-14.48.27:906][866]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.07.24-14.48.27:927][867]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2020.07.24-14.48.28:477][895]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.07.24-14.48.28:565][895]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas4CF358284E311C85DC8E8893DA8D6832.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.48.28:826][895]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltDataB62B49D249C6B3E19BFE42881EABD692.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.48.28:845][895]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.48.28:845][895]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.48.28:845][895]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.48.29:753][946]BlueprintLog: New page: Compile BP_FallingRocket
+[2020.07.24-14.48.30:037][946]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2020.07.24-14.48.30:503][970]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_FallingRocketA20368834C98BEDB67C51EB10A428139.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Weapons/Enemy/BP_FallingRocket.uasset'
+[2020.07.24-14.48.30:519][970]AssetCheck: New page: Asset Save: BP_FallingRocket
+[2020.07.24-14.48.30:519][970]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Weapons/Enemy/BP_FallingRocket.BP_FallingRocket
+[2020.07.24-14.48.30:936][995]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2020.07.24-14.48.30:936][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-14.48.42:844][124]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2020.07.24-14.48.42:932][124]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas64FD99FD47F7A7379F208D9E104CA925.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.48.43:191][124]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData8016E073445FA92860B5B2861B6B637F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.48.43:208][124]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.48.43:208][124]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.48.43:208][124]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.49.03:295][312]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2020.07.24-14.49.03:382][312]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasBCA862424353099BEC1A2FA7DA0C6911.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.49.03:640][312]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData4C9C021A4006FA008AE29B99E572FE25.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.49.03:658][312]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.49.03:658][312]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.49.03:658][312]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.49.04:157][333]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.07.24-14.49.04:240][333]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas955A6188490EAD42B4273FAE17BA08DE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.49.04:538][333]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData463461F94FA62F1558A6F5B47AC42A98.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.49.04:553][333]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.49.04:553][333]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.49.04:553][333]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.52.13:671][878]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedTransitionToPhase3.BTTask_MBRedTransitionToPhase3
+[2020.07.24-14.52.16:569][ 26]LogSlate: Window 'BTTask_MBRedTransitionToPhase3' being destroyed
+[2020.07.24-14.52.16:604][ 26]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2020.07.24-14.52.16:604][ 26]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-14.52.17:391][ 69]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.BT_MinibossRedPhase2
+[2020.07.24-14.52.25:870][556]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase2554EF213432FFB9AB700ABB385700722.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.uasset'
+[2020.07.24-14.52.25:887][556]AssetCheck: New page: Asset Save: BT_MinibossRedPhase2
+[2020.07.24-14.52.25:887][556]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.BT_MinibossRedPhase2
+[2020.07.24-14.52.45:891][738]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.07.24-14.52.45:996][738]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas8D02539743EFC35DE17D7FAE5000EFF6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.52.46:269][738]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData486EA2F546D22E3148B9558420B29453.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.52.46:285][738]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.52.46:286][738]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.52.46:286][738]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.52.47:222][793]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.BTTask_MBRedSpawnRockets
+[2020.07.24-14.53.05:178][837]BlueprintLog: New page: Compile BTTask_MBRedSpawnRockets
+[2020.07.24-14.53.05:429][837]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2020.07.24-14.53.05:525][837]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedSpawnRocketsAA7604D14BA95FF67E6B6EB2048E4349.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.uasset'
+[2020.07.24-14.53.05:543][837]AssetCheck: New page: Asset Save: BTTask_MBRedSpawnRockets
+[2020.07.24-14.53.05:543][837]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.BTTask_MBRedSpawnRockets
+[2020.07.24-14.53.05:893][853]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedSpawnRockets66DE90D54D4128CD61DCACBF3C364275.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.uasset'
+[2020.07.24-14.53.05:907][853]AssetCheck: New page: Asset Save: BTTask_MBRedSpawnRockets
+[2020.07.24-14.53.05:907][853]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.BTTask_MBRedSpawnRockets
+[2020.07.24-14.53.07:581][947]LogSlate: Window 'BTTask_MBRedSpawnRockets' being destroyed
+[2020.07.24-14.53.08:725][ 14]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase2C4FE97AF43E6400473483BA6D96862D2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.uasset'
+[2020.07.24-14.53.08:739][ 14]AssetCheck: New page: Asset Save: BT_MinibossRedPhase2
+[2020.07.24-14.53.08:739][ 14]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.BT_MinibossRedPhase2
+[2020.07.24-14.53.10:016][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.07.24-14.53.10:102][ 84]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas32C2890A440012088A21EC9E57AB3D82.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.53.10:367][ 84]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData71EF72194E77EA9128EC95B7836F79EF.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.53.10:385][ 84]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.53.10:386][ 84]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.53.10:386][ 84]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.53.10:628][ 98]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.24-14.53.10:663][ 98]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.24-14.53.10:663][ 98]PIE: New page: PIE session: MinibossSeparateArenas (Jul 24, 2020, 6:53:10 AM)
+[2020.07.24-14.53.10:663][ 98]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.24-14.53.10:701][ 98]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037826s)
+[2020.07.24-14.53.10:702][ 98]LogAIModule: Creating AISystem for world MinibossSeparateArenas
+[2020.07.24-14.53.10:702][ 98]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2020.07.24-14.53.10:702][ 98]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas to /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas (0.038719s)
+[2020.07.24-14.53.10:738][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.07.24-14.53.10:738][ 98]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.24-14.53.10:738][ 98]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.24-14.53.10:738][ 98]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.24-14.53.10:738][ 98]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.24-14.53.10:738][ 98]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.24-14.53.10:738][ 98]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.24-14.53.10:738][ 98]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.24-14.53.10:738][ 98]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.24-14.53.10:739][ 98]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.24-14.53.10:739][ 98]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.24-14.53.10:761][ 98]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.24-14.53.10:761][ 98]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.24-14.53.10:761][ 98]LogAudioMixer: Display: Is Default: Yes
+[2020.07.24-14.53.10:761][ 98]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.24-14.53.10:761][ 98]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.24-14.53.10:761][ 98]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.24-14.53.10:761][ 98]LogAudioMixer: Display: Channel Order:
+[2020.07.24-14.53.10:761][ 98]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-14.53.10:761][ 98]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-14.53.10:772][ 98]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.24-14.53.10:774][ 98]LogInit: FAudioDevice initialized.
+[2020.07.24-14.53.10:781][ 98]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.24-14.53.10:787][ 98]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas up for play (max tick rate 60) at 2020.07.24-10.53.10
+[2020.07.24-14.53.10:789][ 98]LogWorld: Bringing up level for play took: 0.006307
+[2020.07.24-14.53.10:789][ 98]LogOnline: OSS: Creating online subsystem instance for: :Context_54
+[2020.07.24-14.53.10:792][ 98]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-14.53.10:792][ 98]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-14.53.10:799][ 98]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas -0.647
+[2020.07.24-14.53.53:983][682]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-14.53.53:995][682]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.24-14.53.54:015][682]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.24-14.53.54:023][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.24-14.53.54:023][682]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.24-14.53.54:023][682]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-14.53.54:024][682]LogWorld: UWorld::CleanupWorld for MinibossSeparateArenas, bSessionEnded=true, bCleanupResources=true
+[2020.07.24-14.53.54:026][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-14.53.54:033][682]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.24-14.53.54:040][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-14.53.54:077][682]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-14.53.54:081][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.24-14.53.54:086][682]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.07.24-14.53.54:105][683]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2020.07.24-14.53.55:101][738]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.07.24-14.53.55:186][738]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasC4E4E3E24AB024864E0C87A9D5FD177D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.53.55:456][738]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltDataBF91B455424EE9C97A4048878FB81F62.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.53.55:473][738]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.53.55:473][738]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.53.55:473][738]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.53.57:870][877]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.07.24-14.53.57:956][877]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas5CB62BAA421639F66F662C8911D5E722.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.53.58:223][877]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData0D90EC5F4D519F567B18ABA094097AC3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.53.58:241][877]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.53.58:241][877]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.53.58:241][877]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.54.42:081][485]BlueprintLog: New page: Compile BTTask_MBRedSpawnRockets
+[2020.07.24-14.54.42:335][485]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2020.07.24-14.54.42:742][505]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedSpawnRockets0E1B7CFC4723507D88FDAFAC46555153.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.uasset'
+[2020.07.24-14.54.42:757][505]AssetCheck: New page: Asset Save: BTTask_MBRedSpawnRockets
+[2020.07.24-14.54.42:757][505]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.BTTask_MBRedSpawnRockets
+[2020.07.24-14.54.55:075][239]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2020.07.24-14.54.55:075][239]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-14.54.56:112][296]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase2F60230D44DE7EAB0BA89B08906214362.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.uasset'
+[2020.07.24-14.54.56:126][296]AssetCheck: New page: Asset Save: BT_MinibossRedPhase2
+[2020.07.24-14.54.56:126][296]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.BT_MinibossRedPhase2
+[2020.07.24-14.54.58:822][451]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.BTTask_MBRedSpawnRockets
+[2020.07.24-14.55.45:417][222]BlueprintLog: New page: Compile BTTask_MBRedSpawnRockets
+[2020.07.24-14.55.45:674][222]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2020.07.24-14.55.45:738][222]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedSpawnRockets353C2BDC40303722FFA1A981E59348EE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.uasset'
+[2020.07.24-14.55.45:752][222]AssetCheck: New page: Asset Save: BTTask_MBRedSpawnRockets
+[2020.07.24-14.55.45:752][222]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.BTTask_MBRedSpawnRockets
+[2020.07.24-14.55.46:086][239]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedSpawnRocketsA4D02613497664D8EC8573A6D9DA7422.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.uasset'
+[2020.07.24-14.55.46:100][239]AssetCheck: New page: Asset Save: BTTask_MBRedSpawnRockets
+[2020.07.24-14.55.46:100][239]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.BTTask_MBRedSpawnRockets
+[2020.07.24-14.55.47:154][299]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase2D694891948013A74F0BCEE95DF446401.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.uasset'
+[2020.07.24-14.55.47:168][299]AssetCheck: New page: Asset Save: BT_MinibossRedPhase2
+[2020.07.24-14.55.47:168][299]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.BT_MinibossRedPhase2
+[2020.07.24-14.55.48:829][388]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2020.07.24-14.55.48:914][388]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas3E70CA794BBB3FB31415889524097312.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.55.49:175][388]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData391DC18F49A78A846476D3AE31874512.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.55.49:195][388]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.55.49:195][388]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.55.49:195][388]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.55.49:557][410]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.24-14.55.49:621][410]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.24-14.55.49:621][410]PIE: New page: PIE session: MinibossSeparateArenas (Jul 24, 2020, 6:55:49 AM)
+[2020.07.24-14.55.49:621][410]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.24-14.55.49:668][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046433s)
+[2020.07.24-14.55.49:668][410]LogAIModule: Creating AISystem for world MinibossSeparateArenas
+[2020.07.24-14.55.49:669][410]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2020.07.24-14.55.49:669][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas to /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas (0.047578s)
+[2020.07.24-14.55.49:706][410]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2020.07.24-14.55.49:706][410]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.24-14.55.49:706][410]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.24-14.55.49:706][410]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.24-14.55.49:706][410]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.24-14.55.49:706][410]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.24-14.55.49:706][410]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.24-14.55.49:706][410]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.24-14.55.49:706][410]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.24-14.55.49:707][410]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.24-14.55.49:707][410]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.24-14.55.49:728][410]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.24-14.55.49:728][410]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.24-14.55.49:728][410]LogAudioMixer: Display: Is Default: Yes
+[2020.07.24-14.55.49:728][410]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.24-14.55.49:728][410]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.24-14.55.49:728][410]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.24-14.55.49:728][410]LogAudioMixer: Display: Channel Order:
+[2020.07.24-14.55.49:728][410]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-14.55.49:728][410]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-14.55.49:739][410]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.24-14.55.49:740][410]LogInit: FAudioDevice initialized.
+[2020.07.24-14.55.49:748][410]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.24-14.55.49:754][410]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas up for play (max tick rate 60) at 2020.07.24-10.55.49
+[2020.07.24-14.55.49:755][410]LogWorld: Bringing up level for play took: 0.006383
+[2020.07.24-14.55.49:755][410]LogOnline: OSS: Creating online subsystem instance for: :Context_56
+[2020.07.24-14.55.49:758][410]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-14.55.49:758][410]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-14.55.49:764][410]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas 0.318
+[2020.07.24-14.56.24:167][471]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-14.56.24:174][471]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.24-14.56.24:195][471]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.24-14.56.24:197][471]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.24-14.56.24:197][471]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.24-14.56.24:197][471]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-14.56.24:197][471]LogWorld: UWorld::CleanupWorld for MinibossSeparateArenas, bSessionEnded=true, bCleanupResources=true
+[2020.07.24-14.56.24:199][471]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-14.56.24:204][471]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.24-14.56.24:209][471]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-14.56.24:243][471]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-14.56.24:246][471]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.24-14.56.24:251][471]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2020.07.24-14.56.24:268][472]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2020.07.24-14.56.26:818][623]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.07.24-14.56.29:272][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.07.24-14.56.29:364][763]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasA9E6AF514F1D2119B9EE2A83B1DCC7DA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.56.29:636][763]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData1190413B473F6B4574F1798F797E04EE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.56.29:657][763]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.56.29:657][763]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.56.29:657][763]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.56.29:907][778]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2020.07.24-14.56.31:609][875]LogEditorViewport: Clicking Background
+[2020.07.24-14.56.31:939][891]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.07.24-14.56.32:024][891]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasC49C78B448966BF7D65876AB8ADDA653.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.56.32:290][891]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltDataC2E49A724C646006F9F7FAB83A87F0BE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.56.32:312][891]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.56.32:312][891]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.56.32:312][891]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.56.40:799][396]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.07.24-14.56.40:893][396]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas370DE2864BF8DD5C5718C5892FA50746.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.56.41:161][396]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltDataF130C28F42623031141DCB98788D4C41.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.56.41:181][396]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.56.41:181][396]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.56.41:181][396]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.56.41:763][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.07.24-14.56.41:855][428]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasCF0312B64948CD017821D1AC7AAAAB51.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.56.42:156][428]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltDataE246117146282C85338612903DE08037.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.56.42:177][428]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.56.42:177][428]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.56.42:178][428]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.56.42:379][440]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2020.07.24-14.56.51:095][953]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.07.24-14.56.51:184][953]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasA67DE7F8427C2ABB1A1F76A504B5D8E4.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.56.51:447][953]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData90F1C6984B37C45FC03FC18C9F0687AE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.56.51:469][953]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.56.51:469][953]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.56.51:469][953]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.56.51:794][971]LogEditorViewport: Clicking Background
+[2020.07.24-14.56.52:227][993]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.07.24-14.56.52:332][993]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas9EC4CDB74A4180C8E6571DBD388F533F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.56.52:609][993]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltDataD0E8BCFC422C0432CEEC0DB43DB14919.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.56.52:632][993]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.56.52:632][993]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.56.52:632][993]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.57.52:750][634]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.07.24-14.57.52:860][634]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas187ABFCB43D8FD818CADCBAB27709BB6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.57.53:130][634]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltDataAE21384244E908E32D40F6931EA8E032.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.57.53:150][634]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.57.53:150][634]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.57.53:150][634]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.57.53:477][654]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.24-14.57.53:514][654]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.24-14.57.53:514][654]PIE: New page: PIE session: MinibossSeparateArenas (Jul 24, 2020, 6:57:53 AM)
+[2020.07.24-14.57.53:514][654]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.24-14.57.53:551][654]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037212s)
+[2020.07.24-14.57.53:552][654]LogAIModule: Creating AISystem for world MinibossSeparateArenas
+[2020.07.24-14.57.53:552][654]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2020.07.24-14.57.53:552][654]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas to /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas (0.038153s)
+[2020.07.24-14.57.53:588][654]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.07.24-14.57.53:589][654]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.24-14.57.53:589][654]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.24-14.57.53:589][654]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.24-14.57.53:589][654]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.24-14.57.53:589][654]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.24-14.57.53:589][654]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.24-14.57.53:589][654]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.24-14.57.53:589][654]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.24-14.57.53:589][654]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.24-14.57.53:589][654]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.24-14.57.53:610][654]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.24-14.57.53:610][654]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.24-14.57.53:611][654]LogAudioMixer: Display: Is Default: Yes
+[2020.07.24-14.57.53:611][654]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.24-14.57.53:611][654]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.24-14.57.53:611][654]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.24-14.57.53:611][654]LogAudioMixer: Display: Channel Order:
+[2020.07.24-14.57.53:611][654]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-14.57.53:611][654]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-14.57.53:621][654]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.24-14.57.53:622][654]LogInit: FAudioDevice initialized.
+[2020.07.24-14.57.53:630][654]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.24-14.57.53:636][654]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas up for play (max tick rate 60) at 2020.07.24-10.57.53
+[2020.07.24-14.57.53:637][654]LogWorld: Bringing up level for play took: 0.006104
+[2020.07.24-14.57.53:637][654]LogOnline: OSS: Creating online subsystem instance for: :Context_57
+[2020.07.24-14.57.53:639][654]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-14.57.53:640][654]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-14.57.53:646][654]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas 0.2
+[2020.07.24-14.58.21:475][316]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-14.58.21:484][316]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.24-14.58.21:504][316]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.24-14.58.21:507][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.24-14.58.21:507][316]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.24-14.58.21:507][316]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-14.58.21:507][316]LogWorld: UWorld::CleanupWorld for MinibossSeparateArenas, bSessionEnded=true, bCleanupResources=true
+[2020.07.24-14.58.21:509][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-14.58.21:514][316]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.24-14.58.21:519][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-14.58.21:557][316]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-14.58.21:560][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.24-14.58.21:566][316]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2020.07.24-14.58.21:596][317]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2020.07.24-14.58.22:529][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.07.24-14.58.22:614][369]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas2A97D20B48B69C2C4F56DB9A5D152E5B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.58.22:875][369]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltDataAB17AFB54CBB7116D96853ADF4388B5F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.58.22:894][369]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.58.22:894][369]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.58.22:894][369]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.59.12:031][291]BlueprintLog: New page: Compile BTTask_MBRedSpawnRockets
+[2020.07.24-14.59.12:041][291]LogBlueprint: Error: [Compiler BTTask_MBRedSpawnRockets] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Begin Deferred Actor Spawn from Class' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2020.07.24-14.59.12:041][291]LogBlueprint: Error: [Compiler BTTask_MBRedSpawnRockets] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Finish Spawning Actor' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2020.07.24-14.59.12:289][291]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2020.07.24-14.59.12:722][311]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedSpawnRocketsD7391D2A46D5AD3B20F9B1A3D1776EA5.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.uasset'
+[2020.07.24-14.59.12:737][311]AssetCheck: New page: Asset Save: BTTask_MBRedSpawnRockets
+[2020.07.24-14.59.12:737][311]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.BTTask_MBRedSpawnRockets
+[2020.07.24-14.59.52:028][659]BlueprintLog: New page: Compile BTTask_MBRedSpawnRockets
+[2020.07.24-14.59.52:287][659]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2020.07.24-14.59.52:360][659]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedSpawnRockets063A7F7D4BDCD636B476D0A3B1CC9EE0.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.uasset'
+[2020.07.24-14.59.52:375][659]AssetCheck: New page: Asset Save: BTTask_MBRedSpawnRockets
+[2020.07.24-14.59.52:375][659]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.BTTask_MBRedSpawnRockets
+[2020.07.24-14.59.52:725][677]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedSpawnRockets73FA463648E161F7519EE1B5DA210FBD.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.uasset'
+[2020.07.24-14.59.52:739][677]AssetCheck: New page: Asset Save: BTTask_MBRedSpawnRockets
+[2020.07.24-14.59.52:739][677]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.BTTask_MBRedSpawnRockets
+[2020.07.24-14.59.53:960][742]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2020.07.24-14.59.54:048][742]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasC59464884A68E00F14EF64B30A914891.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.59.54:320][742]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData4A13DB1342BEAD96DB37F0A249380371.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.59.54:340][742]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.59.54:340][742]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.59.54:340][742]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-14.59.54:728][763]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.24-14.59.54:784][763]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.24-14.59.54:784][763]PIE: New page: PIE session: MinibossSeparateArenas (Jul 24, 2020, 6:59:54 AM)
+[2020.07.24-14.59.54:784][763]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.24-14.59.54:824][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039760s)
+[2020.07.24-14.59.54:825][763]LogAIModule: Creating AISystem for world MinibossSeparateArenas
+[2020.07.24-14.59.54:825][763]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2020.07.24-14.59.54:825][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas to /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas (0.040650s)
+[2020.07.24-14.59.54:854][763]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.07.24-14.59.54:855][763]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.24-14.59.54:855][763]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.24-14.59.54:855][763]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.24-14.59.54:855][763]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.24-14.59.54:855][763]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.24-14.59.54:855][763]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.24-14.59.54:855][763]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.24-14.59.54:855][763]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.24-14.59.54:855][763]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.24-14.59.54:855][763]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.24-14.59.54:878][763]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.24-14.59.54:878][763]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.24-14.59.54:878][763]LogAudioMixer: Display: Is Default: Yes
+[2020.07.24-14.59.54:878][763]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.24-14.59.54:878][763]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.24-14.59.54:878][763]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.24-14.59.54:878][763]LogAudioMixer: Display: Channel Order:
+[2020.07.24-14.59.54:878][763]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-14.59.54:878][763]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-14.59.54:889][763]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.24-14.59.54:890][763]LogInit: FAudioDevice initialized.
+[2020.07.24-14.59.54:895][763]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.24-14.59.54:900][763]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas up for play (max tick rate 60) at 2020.07.24-10.59.54
+[2020.07.24-14.59.54:902][763]LogWorld: Bringing up level for play took: 0.006023
+[2020.07.24-14.59.54:902][763]LogOnline: OSS: Creating online subsystem instance for: :Context_58
+[2020.07.24-14.59.54:904][763]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-14.59.54:904][763]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-14.59.54:910][763]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas -0.536
+[2020.07.24-14.59.56:510][856]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-14.59.56:514][856]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.24-14.59.56:534][856]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.24-14.59.56:536][856]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.24-14.59.56:536][856]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.24-14.59.56:536][856]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-14.59.56:537][856]LogWorld: UWorld::CleanupWorld for MinibossSeparateArenas, bSessionEnded=true, bCleanupResources=true
+[2020.07.24-14.59.56:538][856]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-14.59.56:546][856]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.24-14.59.56:551][856]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-14.59.56:578][856]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-14.59.56:580][856]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.24-14.59.56:586][856]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.07.24-14.59.56:637][858]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2020.07.24-14.59.57:516][907]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.07.24-14.59.57:614][907]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas06DABC174642CBE002D609B79A0ABD80.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-14.59.57:880][907]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData08BCF3EB49A4AAC71C50AB806572C269.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-14.59.57:899][907]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-14.59.57:899][907]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-14.59.57:899][907]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-15.00.05:973][389]BlueprintLog: New page: Compile BTTask_MBRedSpawnRockets
+[2020.07.24-15.00.06:247][389]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2020.07.24-15.00.06:561][403]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedSpawnRockets67890DC5443ACC35B29D29904831AA88.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.uasset'
+[2020.07.24-15.00.06:574][403]AssetCheck: New page: Asset Save: BTTask_MBRedSpawnRockets
+[2020.07.24-15.00.06:574][403]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.BTTask_MBRedSpawnRockets
+[2020.07.24-15.00.14:093][850]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.07.24-15.00.14:181][850]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas5723C8964CFCD84013C911A52F8D626B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-15.00.14:449][850]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltDataE12B56E24579284912001B984CEB3937.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-15.00.14:470][850]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-15.00.14:470][850]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-15.00.14:470][850]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-15.00.21:343][258]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2020.07.24-15.00.21:368][258]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets_2.
+[2020.07.24-15.00.30:347][778]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2020.07.24-15.00.30:390][778]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedSpawnRocketsFollowPl2B466DDE445FE7B48BC599981F5044E0.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRocketsFollowPlayer.uasset'
+[2020.07.24-15.00.30:392][778]LogMetaData: Removing '/Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRocketsFollowPlayer.SKEL_BTTask_MBRedSpawnRocketsFollowPlayer_C' ref from Metadata '/Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets_2.PackageMetaData'
+[2020.07.24-15.00.30:392][778]LogMetaData: Removing '/Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRocketsFollowPlayer.BTTask_MBRedSpawnRocketsFollowPlayer_C' ref from Metadata '/Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets_2.PackageMetaData'
+[2020.07.24-15.00.30:453][778]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedSpawnRocketsFollowPlC9041021450FBEF311527A8033815D46.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRocketsFollowPlayer.uasset'
+[2020.07.24-15.00.30:653][778]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2020.07.24-15.00.30:693][778]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.07.24-15.00.30:728][778]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.07.24-15.00.30:793][778]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRocketsFollowPlayer.
+[2020.07.24-15.00.30:801][778]AssetCheck: New page: Asset Save: BTTask_MBRedSpawnRocketsFollowPlayer
+[2020.07.24-15.00.30:801][778]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRocketsFollowPlayer.BTTask_MBRedSpawnRocketsFollowPlayer
+[2020.07.24-15.00.31:183][798]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedSpawnRocketsFollowPl45A1CE5940B34E66C3F47DB94D888C0B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRocketsFollowPlayer.uasset'
+[2020.07.24-15.00.31:196][798]AssetCheck: New page: Asset Save: BTTask_MBRedSpawnRocketsFollowPlayer
+[2020.07.24-15.00.31:196][798]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRocketsFollowPlayer.BTTask_MBRedSpawnRocketsFollowPlayer
+[2020.07.24-15.00.32:006][846]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRocketsFollowPlayer.BTTask_MBRedSpawnRocketsFollowPlayer
+[2020.07.24-15.00.42:339][328]LogSlate: Window 'Delete Variable' being destroyed
+[2020.07.24-15.00.55:280][ 29]LogSlate: Window 'Delete Variable' being destroyed
+[2020.07.24-15.00.57:040][ 74]LogSlate: Window 'Delete Variable' being destroyed
+[2020.07.24-15.01.41:363][668]BlueprintLog: New page: Compile BTTask_MBRedSpawnRocketsFollowPlayer
+[2020.07.24-15.01.41:401][668]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.07.24-15.01.41:453][668]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedSpawnRocketsFollowPlCFC0E0EB4D53951E6E67CD9E127F4B95.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRocketsFollowPlayer.uasset'
+[2020.07.24-15.01.41:470][668]AssetCheck: New page: Asset Save: BTTask_MBRedSpawnRocketsFollowPlayer
+[2020.07.24-15.01.41:470][668]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRocketsFollowPlayer.BTTask_MBRedSpawnRocketsFollowPlayer
+[2020.07.24-15.01.42:215][710]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedSpawnRocketsFollowPl45B4915941FB9B89D57627A0345A299C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRocketsFollowPlayer.uasset'
+[2020.07.24-15.01.42:233][710]AssetCheck: New page: Asset Save: BTTask_MBRedSpawnRocketsFollowPlayer
+[2020.07.24-15.01.42:233][710]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRocketsFollowPlayer.BTTask_MBRedSpawnRocketsFollowPlayer
+[2020.07.24-15.01.45:334][895]LogSlate: Window 'BTTask_MBRedSpawnRocketsFollowPlayer' being destroyed
+[2020.07.24-15.01.47:046][994]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.07.24-15.01.47:131][994]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas04DC4A4748F6A8318964F7A2C9761970.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-15.01.47:391][994]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData866E48E6453ED0EEFE12DB977E9A32A2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-15.01.47:411][994]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-15.01.47:411][994]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-15.01.47:411][994]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-15.01.55:181][443]LogSlate: Window 'BT_MinibossRedPhase2' being destroyed
+[2020.07.24-15.02.28:220][392]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase28D9C4592437D47A89EBE0FBBE6A3EFF2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.uasset'
+[2020.07.24-15.02.28:236][392]AssetCheck: New page: Asset Save: BT_MinibossRedPhase2
+[2020.07.24-15.02.28:236][392]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.BT_MinibossRedPhase2
+[2020.07.24-15.02.30:273][511]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.07.24-15.02.30:361][511]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas7FC0666F4DD3E43A77F01FB5FF9B0187.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-15.02.30:642][511]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData045A454F4AD8EB0FAD618AB8F69183E5.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-15.02.30:664][511]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-15.02.30:664][511]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-15.02.30:664][511]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-15.02.31:082][536]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.24-15.02.31:119][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.24-15.02.31:119][536]PIE: New page: PIE session: MinibossSeparateArenas (Jul 24, 2020, 7:02:31 AM)
+[2020.07.24-15.02.31:119][536]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.24-15.02.31:157][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037285s)
+[2020.07.24-15.02.31:157][536]LogAIModule: Creating AISystem for world MinibossSeparateArenas
+[2020.07.24-15.02.31:157][536]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2020.07.24-15.02.31:157][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas to /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas (0.038252s)
+[2020.07.24-15.02.31:193][536]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.07.24-15.02.31:193][536]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.24-15.02.31:193][536]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.24-15.02.31:193][536]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.24-15.02.31:193][536]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.24-15.02.31:193][536]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.24-15.02.31:193][536]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.24-15.02.31:193][536]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.24-15.02.31:193][536]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.24-15.02.31:194][536]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.24-15.02.31:194][536]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.24-15.02.31:217][536]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.24-15.02.31:218][536]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.24-15.02.31:218][536]LogAudioMixer: Display: Is Default: Yes
+[2020.07.24-15.02.31:218][536]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.24-15.02.31:218][536]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.24-15.02.31:218][536]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.24-15.02.31:218][536]LogAudioMixer: Display: Channel Order:
+[2020.07.24-15.02.31:218][536]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-15.02.31:218][536]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-15.02.31:229][536]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.24-15.02.31:231][536]LogInit: FAudioDevice initialized.
+[2020.07.24-15.02.31:237][536]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.24-15.02.31:243][536]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas up for play (max tick rate 60) at 2020.07.24-11.02.31
+[2020.07.24-15.02.31:244][536]LogWorld: Bringing up level for play took: 0.006143
+[2020.07.24-15.02.31:244][536]LogOnline: OSS: Creating online subsystem instance for: :Context_60
+[2020.07.24-15.02.31:247][536]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-15.02.31:247][536]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-15.02.31:253][536]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas -0.192
+[2020.07.24-15.02.32:661][620]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-15.02.32:684][620]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.24-15.02.32:704][620]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.24-15.02.32:706][620]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.24-15.02.32:706][620]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.24-15.02.32:706][620]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-15.02.32:706][620]LogWorld: UWorld::CleanupWorld for MinibossSeparateArenas, bSessionEnded=true, bCleanupResources=true
+[2020.07.24-15.02.32:707][620]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-15.02.32:712][620]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.24-15.02.32:717][620]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-15.02.32:755][620]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-15.02.32:758][620]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.24-15.02.32:764][620]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2020.07.24-15.02.32:785][621]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2020.07.24-15.02.43:251][237]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase25A753E0F459C9463A89839A28C4912D7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.uasset'
+[2020.07.24-15.02.43:267][237]AssetCheck: New page: Asset Save: BT_MinibossRedPhase2
+[2020.07.24-15.02.43:267][237]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.BT_MinibossRedPhase2
+[2020.07.24-15.02.44:619][315]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.07.24-15.02.44:706][315]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasA23BE11B4E740FF4F55F63A211C04E80.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-15.02.44:972][315]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltDataFAA2422142D1EC42D7B22B961A4BBAFE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-15.02.44:993][315]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-15.02.44:993][315]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-15.02.44:993][315]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-15.02.45:282][333]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.24-15.02.45:323][333]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.24-15.02.45:323][333]PIE: New page: PIE session: MinibossSeparateArenas (Jul 24, 2020, 7:02:45 AM)
+[2020.07.24-15.02.45:324][333]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.24-15.02.45:366][333]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041918s)
+[2020.07.24-15.02.45:367][333]LogAIModule: Creating AISystem for world MinibossSeparateArenas
+[2020.07.24-15.02.45:367][333]LogPlayLevel: PIE: World Init took: (0.001117s)
+[2020.07.24-15.02.45:367][333]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas to /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas (0.043223s)
+[2020.07.24-15.02.45:400][333]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2020.07.24-15.02.45:400][333]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.24-15.02.45:400][333]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.24-15.02.45:400][333]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.24-15.02.45:400][333]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.24-15.02.45:400][333]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.24-15.02.45:400][333]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.24-15.02.45:400][333]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.24-15.02.45:400][333]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.24-15.02.45:400][333]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.24-15.02.45:401][333]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.24-15.02.45:423][333]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.24-15.02.45:423][333]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.24-15.02.45:423][333]LogAudioMixer: Display: Is Default: Yes
+[2020.07.24-15.02.45:423][333]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.24-15.02.45:423][333]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.24-15.02.45:423][333]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.24-15.02.45:423][333]LogAudioMixer: Display: Channel Order:
+[2020.07.24-15.02.45:423][333]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-15.02.45:423][333]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-15.02.45:434][333]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.24-15.02.45:435][333]LogInit: FAudioDevice initialized.
+[2020.07.24-15.02.45:440][333]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.24-15.02.45:446][333]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas up for play (max tick rate 60) at 2020.07.24-11.02.45
+[2020.07.24-15.02.45:447][333]LogWorld: Bringing up level for play took: 0.006487
+[2020.07.24-15.02.45:447][333]LogOnline: OSS: Creating online subsystem instance for: :Context_61
+[2020.07.24-15.02.45:450][333]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-15.02.45:450][333]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-15.02.45:457][333]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas 0.011
+[2020.07.24-15.03.09:621][777]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-15.03.09:634][777]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.24-15.03.09:654][777]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.24-15.03.09:659][777]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.24-15.03.09:659][777]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.24-15.03.09:659][777]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-15.03.09:660][777]LogWorld: UWorld::CleanupWorld for MinibossSeparateArenas, bSessionEnded=true, bCleanupResources=true
+[2020.07.24-15.03.09:662][777]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-15.03.09:673][777]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.24-15.03.09:678][777]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-15.03.09:713][777]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-15.03.09:716][777]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.24-15.03.09:722][777]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.07.24-15.03.09:741][778]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2020.07.24-15.03.25:940][746]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2020.07.24-15.03.25:940][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-15.04.11:794][434]BlueprintLog: New page: Compile BTTask_MBRedSpawnRocketsFollowPlayer
+[2020.07.24-15.04.12:058][434]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2020.07.24-15.04.12:100][434]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedSpawnRocketsFollowPl2DFB08F4436CDF25C6C8E2BDA798FF6D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRocketsFollowPlayer.uasset'
+[2020.07.24-15.04.12:116][434]AssetCheck: New page: Asset Save: BTTask_MBRedSpawnRocketsFollowPlayer
+[2020.07.24-15.04.12:116][434]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRocketsFollowPlayer.BTTask_MBRedSpawnRocketsFollowPlayer
+[2020.07.24-15.04.12:413][450]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedSpawnRocketsFollowPlD2BE94884F64D268203F80A238C2E66A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRocketsFollowPlayer.uasset'
+[2020.07.24-15.04.12:427][450]AssetCheck: New page: Asset Save: BTTask_MBRedSpawnRocketsFollowPlayer
+[2020.07.24-15.04.12:427][450]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRocketsFollowPlayer.BTTask_MBRedSpawnRocketsFollowPlayer
+[2020.07.24-15.04.13:119][489]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2020.07.24-15.04.13:231][489]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas24BC92AB4199466C5C5344A2F79DD88B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-15.04.13:529][489]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData2DFDB009436D223E8B45DBBFA0EE628B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-15.04.13:551][489]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-15.04.13:551][489]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-15.04.13:551][489]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-15.04.13:798][504]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.24-15.04.13:833][504]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.24-15.04.13:833][504]PIE: New page: PIE session: MinibossSeparateArenas (Jul 24, 2020, 7:04:13 AM)
+[2020.07.24-15.04.13:833][504]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.24-15.04.13:871][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038064s)
+[2020.07.24-15.04.13:872][504]LogAIModule: Creating AISystem for world MinibossSeparateArenas
+[2020.07.24-15.04.13:872][504]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2020.07.24-15.04.13:872][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas to /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas (0.038977s)
+[2020.07.24-15.04.13:905][504]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.07.24-15.04.13:905][504]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.24-15.04.13:905][504]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.24-15.04.13:905][504]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.24-15.04.13:905][504]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.24-15.04.13:905][504]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.24-15.04.13:905][504]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.24-15.04.13:905][504]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.24-15.04.13:905][504]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.24-15.04.13:906][504]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.24-15.04.13:906][504]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.24-15.04.13:930][504]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.24-15.04.13:930][504]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.24-15.04.13:931][504]LogAudioMixer: Display: Is Default: Yes
+[2020.07.24-15.04.13:931][504]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.24-15.04.13:931][504]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.24-15.04.13:931][504]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.24-15.04.13:931][504]LogAudioMixer: Display: Channel Order:
+[2020.07.24-15.04.13:931][504]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-15.04.13:931][504]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-15.04.13:942][504]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.24-15.04.13:944][504]LogInit: FAudioDevice initialized.
+[2020.07.24-15.04.13:954][504]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.24-15.04.13:962][504]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas up for play (max tick rate 60) at 2020.07.24-11.04.13
+[2020.07.24-15.04.13:964][504]LogWorld: Bringing up level for play took: 0.009027
+[2020.07.24-15.04.13:964][504]LogOnline: OSS: Creating online subsystem instance for: :Context_62
+[2020.07.24-15.04.13:967][504]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-15.04.13:967][504]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-15.04.13:974][504]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas 0.528
+[2020.07.24-15.04.25:348][185]LogTemp: Warning: BP_MinibossRed_2
+[2020.07.24-15.04.25:348][185]LogTemp: Warning: BP_MinibossRed_2
+[2020.07.24-15.04.29:587][439]LogTemp: Warning: BP_MinibossRed_2
+[2020.07.24-15.04.40:108][ 70]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-15.04.40:124][ 70]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.24-15.04.40:144][ 70]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.24-15.04.40:146][ 70]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.24-15.04.40:146][ 70]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.24-15.04.40:147][ 70]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-15.04.40:147][ 70]LogWorld: UWorld::CleanupWorld for MinibossSeparateArenas, bSessionEnded=true, bCleanupResources=true
+[2020.07.24-15.04.40:148][ 70]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-15.04.40:155][ 70]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.24-15.04.40:161][ 70]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-15.04.40:191][ 70]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-15.04.40:194][ 70]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.24-15.04.40:200][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.07.24-15.04.40:219][ 71]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2020.07.24-15.04.46:137][424]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.BTTask_MBRedSpawnRockets
+[2020.07.24-15.04.57:394][ 78]BlueprintLog: New page: Compile BTTask_MBRedSpawnRockets
+[2020.07.24-15.04.57:656][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2020.07.24-15.04.57:721][ 78]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedSpawnRockets788730E245B78AA3E25CCABCD9B79A2D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.uasset'
+[2020.07.24-15.04.57:734][ 78]AssetCheck: New page: Asset Save: BTTask_MBRedSpawnRockets
+[2020.07.24-15.04.57:734][ 78]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.BTTask_MBRedSpawnRockets
+[2020.07.24-15.04.58:068][ 94]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BTTask_MBRedSpawnRockets8637C33E4A917DD62B583CB34AABE8A0.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.uasset'
+[2020.07.24-15.04.58:080][ 94]AssetCheck: New page: Asset Save: BTTask_MBRedSpawnRockets
+[2020.07.24-15.04.58:080][ 94]LogContentValidation: Display: Validating Blueprint /Game/Phil/AI/Minibosses/Red/Phase2/BTTask_MBRedSpawnRockets.BTTask_MBRedSpawnRockets
+[2020.07.24-15.04.59:654][184]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2020.07.24-15.04.59:755][184]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas4CA09BC74AAB389A36A87FB5B869BC02.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-15.05.00:034][184]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData5F2D49F745E448EAB13E2FBEAC36A24C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-15.05.00:054][184]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-15.05.00:054][184]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-15.05.00:054][184]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-15.05.02:259][306]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.07.24-15.05.02:344][306]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas1A1423284AA1BEB563790488DB20EFF3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-15.05.02:622][306]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData64340D35436B1C60C87918BCB4EAA213.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-15.05.02:640][306]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-15.05.02:640][306]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-15.05.02:640][306]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-15.05.09:061][683]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase205B62E564A8D6149D1F09BABCAC0E299.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.uasset'
+[2020.07.24-15.05.09:076][683]AssetCheck: New page: Asset Save: BT_MinibossRedPhase2
+[2020.07.24-15.05.09:076][683]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.BT_MinibossRedPhase2
+[2020.07.24-15.05.42:802][694]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase282796FE749260900F319D39B48C37773.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.uasset'
+[2020.07.24-15.05.42:817][694]AssetCheck: New page: Asset Save: BT_MinibossRedPhase2
+[2020.07.24-15.05.42:817][694]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.BT_MinibossRedPhase2
+[2020.07.24-15.05.43:623][737]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.07.24-15.05.43:706][737]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasBBD90EBE46BBE10DDE7D858B040983D4.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-15.05.44:006][737]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData9EF09A914A489BC691FE0297FC697696.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-15.05.44:024][737]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-15.05.44:024][737]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-15.05.44:024][737]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-15.05.44:314][755]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.24-15.05.44:358][755]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.24-15.05.44:358][755]PIE: New page: PIE session: MinibossSeparateArenas (Jul 24, 2020, 7:05:44 AM)
+[2020.07.24-15.05.44:358][755]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.24-15.05.44:401][755]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042893s)
+[2020.07.24-15.05.44:402][755]LogAIModule: Creating AISystem for world MinibossSeparateArenas
+[2020.07.24-15.05.44:402][755]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2020.07.24-15.05.44:402][755]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas to /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas (0.043790s)
+[2020.07.24-15.05.44:440][755]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2020.07.24-15.05.44:440][755]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.24-15.05.44:440][755]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.24-15.05.44:440][755]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.24-15.05.44:440][755]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.24-15.05.44:441][755]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.24-15.05.44:441][755]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.24-15.05.44:441][755]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.24-15.05.44:441][755]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.24-15.05.44:441][755]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.24-15.05.44:441][755]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.24-15.05.44:464][755]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.24-15.05.44:464][755]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.24-15.05.44:464][755]LogAudioMixer: Display: Is Default: Yes
+[2020.07.24-15.05.44:464][755]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.24-15.05.44:464][755]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.24-15.05.44:464][755]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.24-15.05.44:464][755]LogAudioMixer: Display: Channel Order:
+[2020.07.24-15.05.44:464][755]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-15.05.44:464][755]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-15.05.44:475][755]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.24-15.05.44:476][755]LogInit: FAudioDevice initialized.
+[2020.07.24-15.05.44:485][755]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.24-15.05.44:491][755]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas up for play (max tick rate 60) at 2020.07.24-11.05.44
+[2020.07.24-15.05.44:492][755]LogWorld: Bringing up level for play took: 0.006157
+[2020.07.24-15.05.44:492][755]LogOnline: OSS: Creating online subsystem instance for: :Context_64
+[2020.07.24-15.05.44:495][755]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-15.05.44:495][755]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-15.05.44:502][755]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas 1.056
+[2020.07.24-15.06.26:214][251]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-15.06.26:224][251]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.24-15.06.26:254][251]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.24-15.06.26:263][251]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.24-15.06.26:263][251]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.24-15.06.26:263][251]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-15.06.26:264][251]LogWorld: UWorld::CleanupWorld for MinibossSeparateArenas, bSessionEnded=true, bCleanupResources=true
+[2020.07.24-15.06.26:268][251]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-15.06.26:280][251]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.24-15.06.26:285][251]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-15.06.26:320][251]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-15.06.26:323][251]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.24-15.06.26:328][251]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.07.24-15.06.26:348][252]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2020.07.24-15.06.44:219][315]LogUObjectHash: Warning: Ambiguous path search, could be BehaviorTreeGraphNode_Task /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy:Behavior Tree.BehaviorTreeGraphNode_Task_2 or BehaviorTreeGraphNode_Task /Game/Phil/AI/Minibosses/Blue/BT_MinibossBlue.BT_MinibossBlue:Behavior Tree.BehaviorTreeGraphNode_Task_2
+[2020.07.24-15.06.44:220][315]LogUObjectHash: Warning: Ambiguous path search, could be BehaviorTreeGraphNode_Task /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy:Behavior Tree.BehaviorTreeGraphNode_Task_2 or BehaviorTreeGraphNode_Task /Game/Phil/AI/Minibosses/Green/BT_MinibossGreen.BT_MinibossGreen:Behavior Tree.BehaviorTreeGraphNode_Task_2
+[2020.07.24-15.06.44:220][315]LogUObjectHash: Warning: Ambiguous path search, could be BehaviorTreeGraphNode_Task /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy:Behavior Tree.BehaviorTreeGraphNode_Task_2 or BehaviorTreeGraphNode_Task /Game/Phil/AI/Minibosses/Green/Clone/BT_MinibossGreenClone.BT_MinibossGreenClone:Behavior Tree.BehaviorTreeGraphNode_Task_2
+[2020.07.24-15.06.44:220][315]LogUObjectHash: Warning: Ambiguous path search, could be BehaviorTreeGraphNode_Task /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy:Behavior Tree.BehaviorTreeGraphNode_Task_2 or BehaviorTreeGraphNode_Task /Game/Phil/AI/Minibosses/Red/Phase3/BT_MinibossRedPhase3.BT_MinibossRedPhase3:Behavior Tree.BehaviorTreeGraphNode_Task_2
+[2020.07.24-15.06.44:220][315]LogUObjectHash: Warning: Ambiguous path search, could be BehaviorTreeGraphNode_Task /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy:Behavior Tree.BehaviorTreeGraphNode_Task_2 or BehaviorTreeGraphNode_Task /Game/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.BT_MinibossRedPhase1:Behavior Tree.BehaviorTreeGraphNode_Task_2
+[2020.07.24-15.06.44:220][315]LogUObjectHash: Warning: Ambiguous path search, could be BehaviorTreeGraphNode_Task /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy:Behavior Tree.BehaviorTreeGraphNode_Task_2 or BehaviorTreeGraphNode_Task /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.BT_MinibossRedPhase2:Behavior Tree.BehaviorTreeGraphNode_Task_2
+[2020.07.24-15.06.44:220][315]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'BTTask_MBRedSpawnRocketsFollowPlayer_C'"BehaviorTreeGraphNode_Task_2.BTTask_MBRedSpawnRocketsFollowPlayer_C_0"')'
+[2020.07.24-15.06.44:220][315]LogUObjectHash: Warning: Ambiguous path search, could be BehaviorTreeGraphNode_Task /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy:Behavior Tree.BehaviorTreeGraphNode_Task_4 or BehaviorTreeGraphNode_Task /Game/Phil/AI/Minibosses/Blue/BT_MinibossBlue.BT_MinibossBlue:Behavior Tree.BehaviorTreeGraphNode_Task_4
+[2020.07.24-15.06.44:221][315]LogUObjectHash: Warning: Ambiguous path search, could be BehaviorTreeGraphNode_Task /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy:Behavior Tree.BehaviorTreeGraphNode_Task_4 or BehaviorTreeGraphNode_Task /Game/Phil/AI/Minibosses/Green/BT_MinibossGreen.BT_MinibossGreen:Behavior Tree.BehaviorTreeGraphNode_Task_4
+[2020.07.24-15.06.44:221][315]LogUObjectHash: Warning: Ambiguous path search, could be BehaviorTreeGraphNode_Task /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy:Behavior Tree.BehaviorTreeGraphNode_Task_4 or BehaviorTreeGraphNode_Task /Game/Phil/AI/Minibosses/Yellow/BT_MinibossYellow.BT_MinibossYellow:Behavior Tree.BehaviorTreeGraphNode_Task_4
+[2020.07.24-15.06.44:221][315]LogUObjectHash: Warning: Ambiguous path search, could be BehaviorTreeGraphNode_Task /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy:Behavior Tree.BehaviorTreeGraphNode_Task_4 or BehaviorTreeGraphNode_Task /Game/Phil/AI/Minibosses/Red/Phase3/BT_MinibossRedPhase3.BT_MinibossRedPhase3:Behavior Tree.BehaviorTreeGraphNode_Task_4
+[2020.07.24-15.06.44:221][315]LogUObjectHash: Warning: Ambiguous path search, could be BehaviorTreeGraphNode_Task /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy:Behavior Tree.BehaviorTreeGraphNode_Task_4 or BehaviorTreeGraphNode_Task /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.BT_MinibossRedPhase2:Behavior Tree.BehaviorTreeGraphNode_Task_4
+[2020.07.24-15.06.44:221][315]LogUObjectHash: Warning: Ambiguous path search, could be BehaviorTreeGraphNode_Task /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy:Behavior Tree.BehaviorTreeGraphNode_Task_4 or BehaviorTreeGraphNode_Task /Game/Phil/AI/Minibosses/Red/Phase1/BT_MinibossRedPhase1.BT_MinibossRedPhase1:Behavior Tree.BehaviorTreeGraphNode_Task_4
+[2020.07.24-15.06.44:221][315]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'BTTask_Wait'"BehaviorTreeGraphNode_Task_4.BTTask_Wait_1"')'
+[2020.07.24-15.06.44:222][315]LogUObjectHash: Warning: Ambiguous path search, could be BehaviorTreeGraphNode_Composite /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy:Behavior Tree.BehaviorTreeGraphNode_Composite_1 or BehaviorTreeGraphNode_Composite /Game/Phil/AI/Minibosses/Blue/BT_MinibossBlue.BT_MinibossBlue:Behavior Tree.BehaviorTreeGraphNode_Composite_1
+[2020.07.24-15.06.44:222][315]LogUObjectHash: Warning: Ambiguous path search, could be BehaviorTreeGraphNode_Composite /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy:Behavior Tree.BehaviorTreeGraphNode_Composite_1 or BehaviorTreeGraphNode_Composite /Game/Phil/AI/Minibosses/Green/BT_MinibossGreen.BT_MinibossGreen:Behavior Tree.BehaviorTreeGraphNode_Composite_1
+[2020.07.24-15.06.44:222][315]LogUObjectHash: Warning: Ambiguous path search, could be BehaviorTreeGraphNode_Composite /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy:Behavior Tree.BehaviorTreeGraphNode_Composite_1 or BehaviorTreeGraphNode_Composite /Game/Phil/AI/Minibosses/Yellow/BT_MinibossYellow.BT_MinibossYellow:Behavior Tree.BehaviorTreeGraphNode_Composite_1
+[2020.07.24-15.06.44:222][315]LogUObjectHash: Warning: Ambiguous path search, could be BehaviorTreeGraphNode_Composite /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy:Behavior Tree.BehaviorTreeGraphNode_Composite_1 or BehaviorTreeGraphNode_Composite /Game/Phil/AI/Minibosses/Red/Phase3/BT_MinibossRedPhase3.BT_MinibossRedPhase3:Behavior Tree.BehaviorTreeGraphNode_Composite_1
+[2020.07.24-15.06.44:223][315]LogUObjectHash: Warning: Ambiguous path search, could be BehaviorTreeGraphNode_Composite /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy:Behavior Tree.BehaviorTreeGraphNode_Composite_1 or BehaviorTreeGraphNode_Composite /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.BT_MinibossRedPhase2:Behavior Tree.BehaviorTreeGraphNode_Composite_1
+[2020.07.24-15.06.44:223][315]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_1.BTComposite_Sequence_2"''
+[2020.07.24-15.06.44:223][315]LogUObjectHash: Warning: Ambiguous path search, could be BehaviorTreeGraphNode_Composite /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy:Behavior Tree.BehaviorTreeGraphNode_Composite_1 or BehaviorTreeGraphNode_Composite /Game/Phil/AI/Minibosses/Blue/BT_MinibossBlue.BT_MinibossBlue:Behavior Tree.BehaviorTreeGraphNode_Composite_1
+[2020.07.24-15.06.44:223][315]LogUObjectHash: Warning: Ambiguous path search, could be BehaviorTreeGraphNode_Composite /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy:Behavior Tree.BehaviorTreeGraphNode_Composite_1 or BehaviorTreeGraphNode_Composite /Game/Phil/AI/Minibosses/Green/BT_MinibossGreen.BT_MinibossGreen:Behavior Tree.BehaviorTreeGraphNode_Composite_1
+[2020.07.24-15.06.44:223][315]LogUObjectHash: Warning: Ambiguous path search, could be BehaviorTreeGraphNode_Composite /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy:Behavior Tree.BehaviorTreeGraphNode_Composite_1 or BehaviorTreeGraphNode_Composite /Game/Phil/AI/Minibosses/Yellow/BT_MinibossYellow.BT_MinibossYellow:Behavior Tree.BehaviorTreeGraphNode_Composite_1
+[2020.07.24-15.06.44:224][315]LogUObjectHash: Warning: Ambiguous path search, could be BehaviorTreeGraphNode_Composite /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy:Behavior Tree.BehaviorTreeGraphNode_Composite_1 or BehaviorTreeGraphNode_Composite /Game/Phil/AI/Minibosses/Red/Phase3/BT_MinibossRedPhase3.BT_MinibossRedPhase3:Behavior Tree.BehaviorTreeGraphNode_Composite_1
+[2020.07.24-15.06.44:224][315]LogUObjectHash: Warning: Ambiguous path search, could be BehaviorTreeGraphNode_Composite /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy:Behavior Tree.BehaviorTreeGraphNode_Composite_1 or BehaviorTreeGraphNode_Composite /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.BT_MinibossRedPhase2:Behavior Tree.BehaviorTreeGraphNode_Composite_1
+[2020.07.24-15.06.44:224][315]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_1.BTComposite_Sequence_2"''
+[2020.07.24-15.06.51:394][737]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase26549954C47645D944F35C4BDDD20190D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.uasset'
+[2020.07.24-15.06.51:409][737]AssetCheck: New page: Asset Save: BT_MinibossRedPhase2
+[2020.07.24-15.06.51:409][737]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.BT_MinibossRedPhase2
+[2020.07.24-15.07.09:064][779]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase2ED95FB4B4A5E961C3A9D76B630029B95.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.uasset'
+[2020.07.24-15.07.09:086][779]AssetCheck: New page: Asset Save: BT_MinibossRedPhase2
+[2020.07.24-15.07.09:086][779]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.BT_MinibossRedPhase2
+[2020.07.24-15.07.09:965][826]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.07.24-15.07.10:050][826]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasAD175351428464780E3C19B64032404F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-15.07.10:340][826]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltDataCF86793B4E79431AE2695380E036E1CE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-15.07.10:358][826]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-15.07.10:358][826]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-15.07.10:358][826]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-15.07.11:678][905]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.24-15.07.11:715][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.24-15.07.11:715][905]PIE: New page: PIE session: MinibossSeparateArenas (Jul 24, 2020, 7:07:11 AM)
+[2020.07.24-15.07.11:715][905]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.24-15.07.11:751][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037240s)
+[2020.07.24-15.07.11:752][905]LogAIModule: Creating AISystem for world MinibossSeparateArenas
+[2020.07.24-15.07.11:752][905]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2020.07.24-15.07.11:752][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas to /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas (0.038103s)
+[2020.07.24-15.07.11:782][905]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2020.07.24-15.07.11:782][905]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.24-15.07.11:782][905]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.24-15.07.11:782][905]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.24-15.07.11:782][905]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.24-15.07.11:782][905]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.24-15.07.11:782][905]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.24-15.07.11:782][905]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.24-15.07.11:782][905]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.24-15.07.11:783][905]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.24-15.07.11:783][905]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.24-15.07.11:805][905]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.24-15.07.11:805][905]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.24-15.07.11:805][905]LogAudioMixer: Display: Is Default: Yes
+[2020.07.24-15.07.11:805][905]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.24-15.07.11:805][905]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.24-15.07.11:805][905]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.24-15.07.11:805][905]LogAudioMixer: Display: Channel Order:
+[2020.07.24-15.07.11:805][905]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-15.07.11:805][905]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-15.07.11:816][905]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.24-15.07.11:817][905]LogInit: FAudioDevice initialized.
+[2020.07.24-15.07.11:826][905]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.24-15.07.11:832][905]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas up for play (max tick rate 60) at 2020.07.24-11.07.11
+[2020.07.24-15.07.11:833][905]LogWorld: Bringing up level for play took: 0.006478
+[2020.07.24-15.07.11:833][905]LogOnline: OSS: Creating online subsystem instance for: :Context_65
+[2020.07.24-15.07.11:836][905]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-15.07.11:836][905]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-15.07.11:842][905]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas 0.396
+[2020.07.24-15.08.00:286][809]LogTemp: Warning: BP_MinibossRed_2
+[2020.07.24-15.08.00:286][809]LogTemp: Warning: BP_MinibossRed_2
+[2020.07.24-15.08.00:286][809]LogTemp: Warning: BP_MinibossRed_2
+[2020.07.24-15.08.00:286][809]LogTemp: Warning: BP_MinibossRed_2
+[2020.07.24-15.08.00:286][809]LogTemp: Warning: BP_MinibossRed_2
+[2020.07.24-15.08.00:286][809]LogTemp: Warning: BP_MinibossRed_2
+[2020.07.24-15.08.00:286][809]LogTemp: Warning: BP_MinibossRed_2
+[2020.07.24-15.08.00:286][809]LogTemp: Warning: BP_MinibossRed_2
+[2020.07.24-15.08.13:393][592]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-15.08.13:404][592]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.24-15.08.13:434][592]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.24-15.08.13:437][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.24-15.08.13:437][592]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.24-15.08.13:437][592]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-15.08.13:437][592]LogWorld: UWorld::CleanupWorld for MinibossSeparateArenas, bSessionEnded=true, bCleanupResources=true
+[2020.07.24-15.08.13:438][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-15.08.13:444][592]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.24-15.08.13:449][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-15.08.13:481][592]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-15.08.13:484][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.24-15.08.13:489][592]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.07.24-15.08.13:506][593]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2020.07.24-15.08.14:072][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.07.24-15.08.14:156][623]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas20F0F18E43337B952B5C72A307668532.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-15.08.14:432][623]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData637D0D9D40253A8525B90CBC3D325347.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-15.08.14:450][623]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-15.08.14:450][623]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-15.08.14:450][623]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-15.08.15:536][685]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.07.24-15.08.15:624][685]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas7F8E0FB44370B302BCCFC296C91E92A8.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-15.08.16:095][685]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData41FB25374DB669BEA3646AABFD78F279.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-15.08.16:113][685]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-15.08.16:113][685]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-15.08.16:113][685]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-15.08.17:139][744]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.07.24-15.08.17:229][744]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas572286514E4F5B774505F4B131F30812.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-15.08.17:505][744]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltDataF10AC71F4E27DE8D58B74A8BFF95BAAA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-15.08.17:524][744]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-15.08.17:524][744]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-15.08.17:524][744]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-15.09.10:767][670]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_MinibossRedPhase281E0137E427C7041FBE86BA95CB77F2F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.uasset'
+[2020.07.24-15.09.10:782][670]AssetCheck: New page: Asset Save: BT_MinibossRedPhase2
+[2020.07.24-15.09.10:782][670]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/Minibosses/Red/Phase2/BT_MinibossRedPhase2.BT_MinibossRedPhase2
+[2020.07.24-15.09.13:036][800]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.07.24-15.09.13:137][800]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas5792942C4966B20C3564DB9AA00C01CB.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-15.09.13:425][800]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData2A9C4F6C414AC2AE2BDF6ABFF2AB50EE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-15.09.13:442][800]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-15.09.13:442][800]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-15.09.13:442][800]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.24-15.09.15:481][922]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.24-15.09.15:520][922]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.24-15.09.15:520][922]PIE: New page: PIE session: MinibossSeparateArenas (Jul 24, 2020, 7:09:15 AM)
+[2020.07.24-15.09.15:520][922]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.24-15.09.15:558][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037926s)
+[2020.07.24-15.09.15:559][922]LogAIModule: Creating AISystem for world MinibossSeparateArenas
+[2020.07.24-15.09.15:559][922]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2020.07.24-15.09.15:559][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas to /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas (0.038861s)
+[2020.07.24-15.09.15:595][922]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2020.07.24-15.09.15:596][922]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.24-15.09.15:596][922]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.24-15.09.15:596][922]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.24-15.09.15:596][922]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.24-15.09.15:596][922]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.24-15.09.15:596][922]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.24-15.09.15:596][922]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.24-15.09.15:596][922]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.24-15.09.15:596][922]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.24-15.09.15:596][922]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.24-15.09.15:622][922]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.24-15.09.15:622][922]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.24-15.09.15:622][922]LogAudioMixer: Display: Is Default: Yes
+[2020.07.24-15.09.15:622][922]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.24-15.09.15:622][922]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.24-15.09.15:623][922]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.24-15.09.15:623][922]LogAudioMixer: Display: Channel Order:
+[2020.07.24-15.09.15:623][922]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-15.09.15:623][922]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-15.09.15:634][922]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.24-15.09.15:635][922]LogInit: FAudioDevice initialized.
+[2020.07.24-15.09.15:643][922]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.24-15.09.15:649][922]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas up for play (max tick rate 60) at 2020.07.24-11.09.15
+[2020.07.24-15.09.15:650][922]LogWorld: Bringing up level for play took: 0.006323
+[2020.07.24-15.09.15:650][922]LogOnline: OSS: Creating online subsystem instance for: :Context_66
+[2020.07.24-15.09.15:653][922]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-15.09.15:653][922]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.24-15.09.15:660][922]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas 0.214
+[2020.07.24-15.09.50:620][ 15]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-15.09.50:624][ 15]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.24-15.09.50:644][ 15]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.24-15.09.50:646][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.24-15.09.50:646][ 15]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.24-15.09.50:646][ 15]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-15.09.50:646][ 15]LogWorld: UWorld::CleanupWorld for MinibossSeparateArenas, bSessionEnded=true, bCleanupResources=true
+[2020.07.24-15.09.50:648][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-15.09.50:655][ 15]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.24-15.09.50:660][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-15.09.50:691][ 15]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.24-15.09.50:694][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.24-15.09.50:701][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2020.07.24-15.09.50:722][ 16]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2020.07.24-15.09.51:710][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.07.24-15.09.51:795][ 71]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas4F2E24E84E913B8B6EF018B7ED3E412E.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.24-15.09.52:053][ 71]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData4ACE785C4BFAB2899F19498521D17BB7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.24-15.09.52:071][ 71]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.24-15.09.52:071][ 71]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.24-15.09.52:071][ 71]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
