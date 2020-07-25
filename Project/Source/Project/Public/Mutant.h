@@ -27,6 +27,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
 	float Damage;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "AI")
+		class AAIController* AIController;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
 		class UParticleSystem* TakeHitPS;
 
@@ -39,6 +42,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
 		TSubclassOf<UDamageType> DamageTypeClass;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Fight")
+		class UBoxComponent* BoxCollFight;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Fight")
 		class UAnimMontage* FightMontage;
@@ -57,6 +63,18 @@ public:
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent,
 		class AController* EventInstigator, AActor* DamageCauser) override;
 
-	
+	UFUNCTION()
+		void FightOnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
+	UFUNCTION()
+		void FightOnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
+	UFUNCTION(BlueprintCallable)
+		void CollisionActive();
+
+	UFUNCTION(BlueprintCallable)
+		void CollisionInactive();
 
 };
