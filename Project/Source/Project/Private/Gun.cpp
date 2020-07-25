@@ -127,6 +127,7 @@ void AGun::FightOnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor*
 			{
 				UGameplayStatics::ApplyDamage(Enemy, Damage, GunInstr, this, DamageTypeClass);
 			}
+			
 		}
 	}
 }
