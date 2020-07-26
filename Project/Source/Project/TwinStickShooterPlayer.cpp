@@ -202,15 +202,21 @@ void ATwinStickShooterPlayer::MoveForward(float Vertical)
 {
 	FVector Direction = MainCamera->GetForwardVector();
 
-	//Multiplied by 2 because of the camera placement, will have to change if the camera is at a different angle
-	AddMovementInput(Direction, Vertical * 2);
+	if (Direction.Size() > 0.1)
+	{
+		//Multiplied by 2 because of the camera placement, will have to change if the camera is at a different angle
+		AddMovementInput(Direction, Vertical * 2);
+	}
 }
 
 void ATwinStickShooterPlayer::MoveRight(float Horizontal)
 {
 	FVector Direction = MainCamera->GetRightVector();
 
-	AddMovementInput(Direction, Horizontal);
+	if (Direction.Size() > 0.1)
+	{
+		AddMovementInput(Direction, Horizontal);
+	}
 }
 
 void ATwinStickShooterPlayer::RotateX(float RotationX)
@@ -511,7 +517,7 @@ void ATwinStickShooterPlayer::Interact()
 	//{
 	//	Cast<AMinibossLevelPillar>(OutHit.GetActor())->PlantExplosive();
 	//}
-	
+
 	/*if (LookForInteractablePillar())
 	{
 		LookForInteractablePillar()->PlantExplosive();
