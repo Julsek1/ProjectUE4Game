@@ -296,7 +296,10 @@ float AJBasePlayer::TakeDamage(float DamageAmount, FDamageEvent const& DamageEve
 	if (Hp - DamageAmount <= 0.f)
 	{
 		Hp -= DamageAmount;
+		IsDead = true;
 		Death();
+
+		
 
 		if (DamageCauser)
 		{
@@ -460,6 +463,7 @@ void AJBasePlayer::PlayerTerminated()
 {
 	GetMesh()->bPauseAnims = true;
 	GetMesh()->bNoSkeletonUpdate = true;
+	GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 
 }
 
