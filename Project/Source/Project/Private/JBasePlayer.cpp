@@ -460,6 +460,7 @@ void AJBasePlayer::PlayerTerminated()
 {
 	GetMesh()->bPauseAnims = true;
 	GetMesh()->bNoSkeletonUpdate = true;
+
 }
 
 void AJBasePlayer::CrouchBegin()

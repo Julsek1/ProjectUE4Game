@@ -100,11 +100,12 @@ void ALaserTrap::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor
 	if (OtherActor)
 	{
 		AJBasePlayer* Player = Cast<AJBasePlayer>(OtherActor);
-		AJFollowEnemy* Mutant = Cast<AJFollowEnemy>(OtherActor);
+		
 
 
-		if (Player || Mutant)
+		if (Player)
 		{
+			
 			
 				if (BasicPSComponent)
 				{
@@ -155,4 +156,5 @@ void ALaserTrap::ToggleInterp()
 {
 	IsInterpolating = !IsInterpolating;
 }
+
 
