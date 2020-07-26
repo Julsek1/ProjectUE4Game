@@ -31,5 +31,5 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UBoxComponent* Collider;
 
-	float AmmoAmount = 24;
+	float AmmoAmount = 48;
 };

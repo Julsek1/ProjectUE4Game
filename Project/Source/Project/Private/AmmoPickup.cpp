@@ -39,7 +39,7 @@ void AAmmoPickup::NotifyActorBeginOverlap(AActor* Other)
 	{
 		if (Player->CurrentWeapon->WeaponName == "Shotgun")
 		{
-			AmmoAmount /= 6;
+			AmmoAmount /= 3;
 		}
 
 		Player->CurrentWeapon->AmmoCapacity += AmmoAmount;

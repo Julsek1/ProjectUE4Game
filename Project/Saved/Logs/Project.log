@@ -1408,3 +1408,814 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.07.26-15.01.07:242][917]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_KeycardA5E30D424FE6EA0F8FEBEB8C80C7DE6B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_Keycard.uasset'
 [2020.07.26-15.01.07:257][917]AssetCheck: New page: Asset Save: BP_Keycard
 [2020.07.26-15.01.07:257][917]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_Keycard.BP_Keycard
+[2020.07.26-15.01.39:396][159]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.07.26-15.01.39:396][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.26-15.01.39:835][181]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.07.26-15.01.39:835][181]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.07.26-15.01.39:835][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.26-15.01.40:220][199]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.07.26-15.01.40:220][199]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.07.26-15.01.40:220][199]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.26-15.01.41:192][248]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2020.07.26-15.01.41:282][248]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas55AFB9644B4E44F8C644B3B16F04EDDF.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.26-15.01.41:555][248]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData556269274B13366BC8D6CDAE3BC11AD4.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.26-15.01.41:575][248]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.26-15.01.41:575][248]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.26-15.01.41:575][248]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.26-15.01.50:769][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_AmmoPickup.BP_AmmoPickup:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Phil/Blueprints/BP_AmmoPickup.PackageMetaData'
+[2020.07.26-15.01.50:769][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_AmmoPickup.BP_AmmoPickup_C' ref from Metadata '/Game/Phil/Blueprints/BP_AmmoPickup.PackageMetaData'
+[2020.07.26-15.01.50:770][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_AmmoPickup.BP_AmmoPickup:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Phil/Blueprints/BP_AmmoPickup.PackageMetaData'
+[2020.07.26-15.01.50:770][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_AmmoPickup.BP_AmmoPickup:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Phil/Blueprints/BP_AmmoPickup.PackageMetaData'
+[2020.07.26-15.01.50:770][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_AmmoPickup.BP_AmmoPickup:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Phil/Blueprints/BP_AmmoPickup.PackageMetaData'
+[2020.07.26-15.01.50:770][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_AmmoPickup.BP_AmmoPickup_C:ReceiveTick' ref from Metadata '/Game/Phil/Blueprints/BP_AmmoPickup.PackageMetaData'
+[2020.07.26-15.01.50:770][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_AmmoPickup.SKEL_BP_AmmoPickup_C' ref from Metadata '/Game/Phil/Blueprints/BP_AmmoPickup.PackageMetaData'
+[2020.07.26-15.01.50:770][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_AmmoPickup.SKEL_BP_AmmoPickup_C:UserConstructionScript' ref from Metadata '/Game/Phil/Blueprints/BP_AmmoPickup.PackageMetaData'
+[2020.07.26-15.01.50:770][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_AmmoPickup.SKEL_BP_AmmoPickup_C:ReceiveTick' ref from Metadata '/Game/Phil/Blueprints/BP_AmmoPickup.PackageMetaData'
+[2020.07.26-15.01.50:770][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_AmmoPickup.SKEL_BP_AmmoPickup_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Phil/Blueprints/BP_AmmoPickup.PackageMetaData'
+[2020.07.26-15.01.50:770][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_AmmoPickup.SKEL_BP_AmmoPickup_C:ReceiveBeginPlay' ref from Metadata '/Game/Phil/Blueprints/BP_AmmoPickup.PackageMetaData'
+[2020.07.26-15.01.50:780][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_HealthPickup.BP_HealthPickup_C' ref from Metadata '/Game/Phil/Blueprints/BP_HealthPickup.PackageMetaData'
+[2020.07.26-15.01.50:780][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_HealthPickup.BP_HealthPickup:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Phil/Blueprints/BP_HealthPickup.PackageMetaData'
+[2020.07.26-15.01.50:780][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_HealthPickup.BP_HealthPickup:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Phil/Blueprints/BP_HealthPickup.PackageMetaData'
+[2020.07.26-15.01.50:780][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_HealthPickup.BP_HealthPickup:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Phil/Blueprints/BP_HealthPickup.PackageMetaData'
+[2020.07.26-15.01.50:780][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_HealthPickup.BP_HealthPickup:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Phil/Blueprints/BP_HealthPickup.PackageMetaData'
+[2020.07.26-15.01.50:780][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_HealthPickup.BP_HealthPickup_C:ReceiveTick' ref from Metadata '/Game/Phil/Blueprints/BP_HealthPickup.PackageMetaData'
+[2020.07.26-15.01.50:780][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_HealthPickup.SKEL_BP_HealthPickup_C:UserConstructionScript' ref from Metadata '/Game/Phil/Blueprints/BP_HealthPickup.PackageMetaData'
+[2020.07.26-15.01.50:780][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_HealthPickup.SKEL_BP_HealthPickup_C:ReceiveTick' ref from Metadata '/Game/Phil/Blueprints/BP_HealthPickup.PackageMetaData'
+[2020.07.26-15.01.50:780][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_HealthPickup.SKEL_BP_HealthPickup_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Phil/Blueprints/BP_HealthPickup.PackageMetaData'
+[2020.07.26-15.01.50:780][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_HealthPickup.SKEL_BP_HealthPickup_C:ReceiveBeginPlay' ref from Metadata '/Game/Phil/Blueprints/BP_HealthPickup.PackageMetaData'
+[2020.07.26-15.01.50:780][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_HealthPickup.SKEL_BP_HealthPickup_C' ref from Metadata '/Game/Phil/Blueprints/BP_HealthPickup.PackageMetaData'
+[2020.07.26-15.01.50:787][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_Keycard.BP_Keycard:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Phil/Blueprints/BP_Keycard.PackageMetaData'
+[2020.07.26-15.01.50:787][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_Keycard.BP_Keycard_C' ref from Metadata '/Game/Phil/Blueprints/BP_Keycard.PackageMetaData'
+[2020.07.26-15.01.50:787][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_Keycard.BP_Keycard:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Phil/Blueprints/BP_Keycard.PackageMetaData'
+[2020.07.26-15.01.50:787][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_Keycard.BP_Keycard:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Phil/Blueprints/BP_Keycard.PackageMetaData'
+[2020.07.26-15.01.50:787][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_Keycard.BP_Keycard:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Phil/Blueprints/BP_Keycard.PackageMetaData'
+[2020.07.26-15.01.50:787][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_Keycard.BP_Keycard_C:ReceiveBeginPlay' ref from Metadata '/Game/Phil/Blueprints/BP_Keycard.PackageMetaData'
+[2020.07.26-15.01.50:787][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_Keycard.BP_Keycard_C:ReceiveTick' ref from Metadata '/Game/Phil/Blueprints/BP_Keycard.PackageMetaData'
+[2020.07.26-15.01.50:787][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_Keycard.SKEL_BP_Keycard_C:UserConstructionScript' ref from Metadata '/Game/Phil/Blueprints/BP_Keycard.PackageMetaData'
+[2020.07.26-15.01.50:787][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_Keycard.SKEL_BP_Keycard_C:ReceiveTick' ref from Metadata '/Game/Phil/Blueprints/BP_Keycard.PackageMetaData'
+[2020.07.26-15.01.50:787][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_Keycard.SKEL_BP_Keycard_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Phil/Blueprints/BP_Keycard.PackageMetaData'
+[2020.07.26-15.01.50:787][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_Keycard.SKEL_BP_Keycard_C:ReceiveBeginPlay' ref from Metadata '/Game/Phil/Blueprints/BP_Keycard.PackageMetaData'
+[2020.07.26-15.01.50:787][789]LogMetaData: Removing '/Game/Phil/Blueprints/Pickups/BP_Keycard.SKEL_BP_Keycard_C' ref from Metadata '/Game/Phil/Blueprints/BP_Keycard.PackageMetaData'
+[2020.07.26-15.01.50:851][789]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_AmmoPickupD5B22E73497A70C53881ED9647BFD8C1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Pickups/BP_AmmoPickup.uasset'
+[2020.07.26-15.01.50:878][789]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_AmmoPickupFDF08C29491F52D1939E539E74FADAC2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_AmmoPickup.uasset'
+[2020.07.26-15.01.50:911][789]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_HealthPickup283E9239449DBAC8DAFA88B077B447A3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Pickups/BP_HealthPickup.uasset'
+[2020.07.26-15.01.50:935][789]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_HealthPickup509589CE446BDBD509E95BA04534FBFD.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_HealthPickup.uasset'
+[2020.07.26-15.01.50:969][789]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_KeycardB5A2B1144BEFD9724A02CBB42B8B175B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Pickups/BP_Keycard.uasset'
+[2020.07.26-15.01.50:987][789]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_KeycardD6E7D24B4D24765BBE977BBE5BFFDC10.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_Keycard.uasset'
+[2020.07.26-15.01.51:093][789]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.26-15.01.51:093][789]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Pickups/BP_AmmoPickup.BP_AmmoPickup
+[2020.07.26-15.01.51:093][789]LogContentValidation: Display: Validating ObjectRedirector /Game/Phil/Blueprints/BP_AmmoPickup.BP_AmmoPickup
+[2020.07.26-15.01.51:093][789]LogContentValidation: Display: Validating ObjectRedirector /Game/Phil/Blueprints/BP_AmmoPickup.Default__BP_AmmoPickup_C
+[2020.07.26-15.01.51:093][789]LogContentValidation: Display: Validating ObjectRedirector /Game/Phil/Blueprints/BP_AmmoPickup.BP_AmmoPickup_C
+[2020.07.26-15.01.51:093][789]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Pickups/BP_HealthPickup.BP_HealthPickup
+[2020.07.26-15.01.51:093][789]LogContentValidation: Display: Validating ObjectRedirector /Game/Phil/Blueprints/BP_HealthPickup.BP_HealthPickup
+[2020.07.26-15.01.51:093][789]LogContentValidation: Display: Validating ObjectRedirector /Game/Phil/Blueprints/BP_HealthPickup.Default__BP_HealthPickup_C
+[2020.07.26-15.01.51:093][789]LogContentValidation: Display: Validating ObjectRedirector /Game/Phil/Blueprints/BP_HealthPickup.BP_HealthPickup_C
+[2020.07.26-15.01.51:093][789]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Pickups/BP_Keycard.BP_Keycard
+[2020.07.26-15.01.51:093][789]LogContentValidation: Display: Validating ObjectRedirector /Game/Phil/Blueprints/BP_Keycard.BP_Keycard
+[2020.07.26-15.01.51:093][789]LogContentValidation: Display: Validating ObjectRedirector /Game/Phil/Blueprints/BP_Keycard.Default__BP_Keycard_C
+[2020.07.26-15.01.51:093][789]LogContentValidation: Display: Validating ObjectRedirector /Game/Phil/Blueprints/BP_Keycard.BP_Keycard_C
+[2020.07.26-15.02.04:098][562]LogMetaData: Removing '/Game/Phil/Blueprints/Misc/BP_Measure.BP_Measure:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Phil/Blueprints/BP_Measure.PackageMetaData'
+[2020.07.26-15.02.04:098][562]LogMetaData: Removing '/Game/Phil/Blueprints/Misc/BP_Measure.BP_Measure_C' ref from Metadata '/Game/Phil/Blueprints/BP_Measure.PackageMetaData'
+[2020.07.26-15.02.04:098][562]LogMetaData: Removing '/Game/Phil/Blueprints/Misc/BP_Measure.BP_Measure:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Phil/Blueprints/BP_Measure.PackageMetaData'
+[2020.07.26-15.02.04:098][562]LogMetaData: Removing '/Game/Phil/Blueprints/Misc/BP_Measure.BP_Measure:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Phil/Blueprints/BP_Measure.PackageMetaData'
+[2020.07.26-15.02.04:098][562]LogMetaData: Removing '/Game/Phil/Blueprints/Misc/BP_Measure.BP_Measure:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Phil/Blueprints/BP_Measure.PackageMetaData'
+[2020.07.26-15.02.04:098][562]LogMetaData: Removing '/Game/Phil/Blueprints/Misc/BP_Measure.SKEL_BP_Measure_C:ReceiveBeginPlay' ref from Metadata '/Game/Phil/Blueprints/BP_Measure.PackageMetaData'
+[2020.07.26-15.02.04:099][562]LogMetaData: Removing '/Game/Phil/Blueprints/Misc/BP_Measure.SKEL_BP_Measure_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Phil/Blueprints/BP_Measure.PackageMetaData'
+[2020.07.26-15.02.04:099][562]LogMetaData: Removing '/Game/Phil/Blueprints/Misc/BP_Measure.SKEL_BP_Measure_C:ReceiveTick' ref from Metadata '/Game/Phil/Blueprints/BP_Measure.PackageMetaData'
+[2020.07.26-15.02.04:099][562]LogMetaData: Removing '/Game/Phil/Blueprints/Misc/BP_Measure.SKEL_BP_Measure_C:DefaultSceneRoot' ref from Metadata '/Game/Phil/Blueprints/BP_Measure.PackageMetaData'
+[2020.07.26-15.02.04:099][562]LogMetaData: Removing '/Game/Phil/Blueprints/Misc/BP_Measure.SKEL_BP_Measure_C:StaticMesh' ref from Metadata '/Game/Phil/Blueprints/BP_Measure.PackageMetaData'
+[2020.07.26-15.02.04:099][562]LogMetaData: Removing '/Game/Phil/Blueprints/Misc/BP_Measure.SKEL_BP_Measure_C:UserConstructionScript' ref from Metadata '/Game/Phil/Blueprints/BP_Measure.PackageMetaData'
+[2020.07.26-15.02.04:099][562]LogMetaData: Removing '/Game/Phil/Blueprints/Misc/BP_Measure.SKEL_BP_Measure_C' ref from Metadata '/Game/Phil/Blueprints/BP_Measure.PackageMetaData'
+[2020.07.26-15.02.04:099][562]LogMetaData: Removing '/Game/Phil/Blueprints/Misc/BP_Measure.BP_Measure_C:DefaultSceneRoot' ref from Metadata '/Game/Phil/Blueprints/BP_Measure.PackageMetaData'
+[2020.07.26-15.02.04:099][562]LogMetaData: Removing '/Game/Phil/Blueprints/Misc/BP_Measure.BP_Measure_C:StaticMesh' ref from Metadata '/Game/Phil/Blueprints/BP_Measure.PackageMetaData'
+[2020.07.26-15.02.04:099][562]LogMetaData: Removing '/Game/Phil/Blueprints/Misc/BP_Measure.BP_Measure_C:ReceiveBeginPlay' ref from Metadata '/Game/Phil/Blueprints/BP_Measure.PackageMetaData'
+[2020.07.26-15.02.04:148][562]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_Measure52244C0E4B2D8A8C9127DB9283A27083.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Misc/BP_Measure.uasset'
+[2020.07.26-15.02.04:379][562]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2020.07.26-15.02.04:416][562]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2020.07.26-15.02.04:442][562]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.07.26-15.02.04:524][562]AssetCheck: New page: Asset Save: BP_Measure
+[2020.07.26-15.02.04:524][562]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Misc/BP_Measure.BP_Measure
+[2020.07.26-15.02.11:591][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:591][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer_C' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:591][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer:EventGraph.K2Node_Event_3' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:591][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:591][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:591][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.SKEL_BP_TwinStickShooterPlayer_C:ReceiveBeginPlay' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:591][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.SKEL_BP_TwinStickShooterPlayer_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:591][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.SKEL_BP_TwinStickShooterPlayer_C:ReceiveTick' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:591][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.SKEL_BP_TwinStickShooterPlayer_C:MinimapArrowIcon' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:592][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.SKEL_BP_TwinStickShooterPlayer_C:MinimapPlayerIcon' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:592][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.SKEL_BP_TwinStickShooterPlayer_C:MinimapCapture2D' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:592][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.SKEL_BP_TwinStickShooterPlayer_C:AssaultRifle' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:592][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.SKEL_BP_TwinStickShooterPlayer_C:Shotgun' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:592][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.SKEL_BP_TwinStickShooterPlayer_C:MeleeRangeVisualization' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:592][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.SKEL_BP_TwinStickShooterPlayer_C:DamageShield' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:592][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.SKEL_BP_TwinStickShooterPlayer_C:UserConstructionScript' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:592][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.SKEL_BP_TwinStickShooterPlayer_C' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:592][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer_C:MinimapArrowIcon' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:592][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer_C:MinimapPlayerIcon' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:592][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer_C:MinimapCapture2D' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:592][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer_C:AssaultRifle' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:592][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer_C:Shotgun' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:592][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer_C:MeleeRangeVisualization' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:592][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer_C:DamageShield' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:592][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer_C:ReceiveTick' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:592][975]LogMetaData: Removing '/Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer_C:ReceiveBeginPlay' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooterPlayer.PackageMetaData'
+[2020.07.26-15.02.11:702][975]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer210831B342CEE240B70C52BCBD491742.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.uasset'
+[2020.07.26-15.02.11:886][975]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.07.26-15.02.11:926][975]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.07.26-15.02.11:954][975]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.07.26-15.02.12:032][975]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/AnimBP_TwinStickPlayer8AC280184DFB08BF40818F9FC3A32D24.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Animations/Player/AnimBP_TwinStickPlayer.uasset'
+[2020.07.26-15.02.12:058][975]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooter3BE74596440855F1AEC8729F0C295E3A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooter.uasset'
+[2020.07.26-15.02.12:113][975]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_MinibossLockedDoor1E2454784CF8579DB80DE4AD6ABF13E3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/WorldAssets/BP_MinibossLockedDoor.uasset'
+[2020.07.26-15.02.12:165][975]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TempDoorF57748D54C1FFBD9F13084AA9E90C5CB.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/WorldAssets/BP_TempDoor.uasset'
+[2020.07.26-15.02.12:214][975]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_Keycard27FCFFBD430DF29BDD4AFFA59F9B4224.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Pickups/BP_Keycard.uasset'
+[2020.07.26-15.02.12:317][975]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.26-15.02.12:318][975]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.26-15.02.12:318][975]LogContentValidation: Display: Validating AnimBlueprint /Game/Phil/Animations/Player/AnimBP_TwinStickPlayer.AnimBP_TwinStickPlayer
+[2020.07.26-15.02.12:318][975]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/BP_TwinStickShooter.BP_TwinStickShooter
+[2020.07.26-15.02.12:318][975]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/WorldAssets/BP_MinibossLockedDoor.BP_MinibossLockedDoor
+[2020.07.26-15.02.12:318][975]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/WorldAssets/BP_TempDoor.BP_TempDoor
+[2020.07.26-15.02.12:318][975]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Pickups/BP_Keycard.BP_Keycard
+[2020.07.26-15.02.26:089][785]LogMetaData: Removing '/Game/Phil/Blueprints/GameModes/BP_TwinStickShooter.BP_TwinStickShooter_C' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooter.PackageMetaData'
+[2020.07.26-15.02.26:089][785]LogMetaData: Removing '/Game/Phil/Blueprints/GameModes/BP_TwinStickShooter.BP_TwinStickShooter:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooter.PackageMetaData'
+[2020.07.26-15.02.26:090][785]LogMetaData: Removing '/Game/Phil/Blueprints/GameModes/BP_TwinStickShooter.BP_TwinStickShooter:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooter.PackageMetaData'
+[2020.07.26-15.02.26:090][785]LogMetaData: Removing '/Game/Phil/Blueprints/GameModes/BP_TwinStickShooter.BP_TwinStickShooter:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooter.PackageMetaData'
+[2020.07.26-15.02.26:090][785]LogMetaData: Removing '/Game/Phil/Blueprints/GameModes/BP_TwinStickShooter.SKEL_BP_TwinStickShooter_C:ReceiveBeginPlay' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooter.PackageMetaData'
+[2020.07.26-15.02.26:090][785]LogMetaData: Removing '/Game/Phil/Blueprints/GameModes/BP_TwinStickShooter.SKEL_BP_TwinStickShooter_C:ReceiveTick' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooter.PackageMetaData'
+[2020.07.26-15.02.26:090][785]LogMetaData: Removing '/Game/Phil/Blueprints/GameModes/BP_TwinStickShooter.SKEL_BP_TwinStickShooter_C:DefaultSceneRoot' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooter.PackageMetaData'
+[2020.07.26-15.02.26:090][785]LogMetaData: Removing '/Game/Phil/Blueprints/GameModes/BP_TwinStickShooter.SKEL_BP_TwinStickShooter_C:UserConstructionScript' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooter.PackageMetaData'
+[2020.07.26-15.02.26:090][785]LogMetaData: Removing '/Game/Phil/Blueprints/GameModes/BP_TwinStickShooter.SKEL_BP_TwinStickShooter_C' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooter.PackageMetaData'
+[2020.07.26-15.02.26:090][785]LogMetaData: Removing '/Game/Phil/Blueprints/GameModes/BP_TwinStickShooter.BP_TwinStickShooter_C:DefaultSceneRoot' ref from Metadata '/Game/Phil/Blueprints/BP_TwinStickShooter.PackageMetaData'
+[2020.07.26-15.02.26:098][785]LogMetaData: Removing '/Game/Phil/Blueprints/GameModes/BP_MenuGameMode.BP_MenuGameMode_C' ref from Metadata '/Game/Phil/Blueprints/BP_MenuGameMode.PackageMetaData'
+[2020.07.26-15.02.26:098][785]LogMetaData: Removing '/Game/Phil/Blueprints/GameModes/BP_MenuGameMode.SKEL_BP_MenuGameMode_C:ReceiveBeginPlay' ref from Metadata '/Game/Phil/Blueprints/BP_MenuGameMode.PackageMetaData'
+[2020.07.26-15.02.26:098][785]LogMetaData: Removing '/Game/Phil/Blueprints/GameModes/BP_MenuGameMode.SKEL_BP_MenuGameMode_C:ReceiveTick' ref from Metadata '/Game/Phil/Blueprints/BP_MenuGameMode.PackageMetaData'
+[2020.07.26-15.02.26:099][785]LogMetaData: Removing '/Game/Phil/Blueprints/GameModes/BP_MenuGameMode.SKEL_BP_MenuGameMode_C:DefaultSceneRoot' ref from Metadata '/Game/Phil/Blueprints/BP_MenuGameMode.PackageMetaData'
+[2020.07.26-15.02.26:099][785]LogMetaData: Removing '/Game/Phil/Blueprints/GameModes/BP_MenuGameMode.SKEL_BP_MenuGameMode_C:UserConstructionScript' ref from Metadata '/Game/Phil/Blueprints/BP_MenuGameMode.PackageMetaData'
+[2020.07.26-15.02.26:099][785]LogMetaData: Removing '/Game/Phil/Blueprints/GameModes/BP_MenuGameMode.SKEL_BP_MenuGameMode_C' ref from Metadata '/Game/Phil/Blueprints/BP_MenuGameMode.PackageMetaData'
+[2020.07.26-15.02.26:099][785]LogMetaData: Removing '/Game/Phil/Blueprints/GameModes/BP_MenuGameMode.BP_MenuGameMode_C:DefaultSceneRoot' ref from Metadata '/Game/Phil/Blueprints/BP_MenuGameMode.PackageMetaData'
+[2020.07.26-15.02.26:138][785]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterCE799F6641BFF99FAE4E759DD3813F19.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/GameModes/BP_TwinStickShooter.uasset'
+[2020.07.26-15.02.26:165][785]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterA5FA7D894FBDD8A9FB150E9BA3B8E643.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_TwinStickShooter.uasset'
+[2020.07.26-15.02.26:179][785]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_MenuGameModeAE8E6CD941DA7F5F7AE58C94A7F572F8.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/GameModes/BP_MenuGameMode.uasset'
+[2020.07.26-15.02.26:207][785]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_MenuGameModeEF8FA707423660C396B791A323F670E2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/BP_MenuGameMode.uasset'
+[2020.07.26-15.02.26:303][785]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.26-15.02.26:303][785]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/GameModes/BP_TwinStickShooter.BP_TwinStickShooter
+[2020.07.26-15.02.26:303][785]LogContentValidation: Display: Validating ObjectRedirector /Game/Phil/Blueprints/BP_TwinStickShooter.BP_TwinStickShooter
+[2020.07.26-15.02.26:303][785]LogContentValidation: Display: Validating ObjectRedirector /Game/Phil/Blueprints/BP_TwinStickShooter.Default__BP_TwinStickShooter_C
+[2020.07.26-15.02.26:303][785]LogContentValidation: Display: Validating ObjectRedirector /Game/Phil/Blueprints/BP_TwinStickShooter.BP_TwinStickShooter_C
+[2020.07.26-15.02.26:303][785]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/GameModes/BP_MenuGameMode.BP_MenuGameMode
+[2020.07.26-15.02.26:303][785]LogContentValidation: Display: Validating ObjectRedirector /Game/Phil/Blueprints/BP_MenuGameMode.BP_MenuGameMode
+[2020.07.26-15.02.26:303][785]LogContentValidation: Display: Validating ObjectRedirector /Game/Phil/Blueprints/BP_MenuGameMode.Default__BP_MenuGameMode_C
+[2020.07.26-15.02.26:303][785]LogContentValidation: Display: Validating ObjectRedirector /Game/Phil/Blueprints/BP_MenuGameMode.BP_MenuGameMode_C
+[2020.07.26-15.02.31:719][105]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2020.07.26-15.02.31:828][105]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas1A300A41481A6A4E26DBE494AC68160F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.26-15.02.32:100][105]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltDataCB28B7BD400922A65365598C54FF9AD4.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.26-15.02.32:121][105]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.26-15.02.32:121][105]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.26-15.02.32:121][105]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.26-15.02.33:818][207]LogEditorViewport: Clicking on Actor (LMB): BP_AmmoPickup_C (BP_AmmoPickup)
+[2020.07.26-15.02.38:717][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.07.26-15.02.38:825][496]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas06E90A3B48545E819807D7808AE07698.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.26-15.02.39:094][496]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData96FE15EC4875FB9474545CA7118CD79C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.26-15.02.39:112][496]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.26-15.02.39:112][496]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.26-15.02.39:113][496]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.26-15.02.44:447][811]LogEditorViewport: Clicking on Actor (LMB): BP_AmmoPickup_C (BP_AmmoPickup2)
+[2020.07.26-15.02.46:326][922]LogEditorViewport: Clicking on Actor (LMB): BP_AmmoPickup_C (BP_AmmoPickup3)
+[2020.07.26-15.02.51:059][201]LogEditorViewport: Clicking on Actor (LMB): BP_HealthPickup_C (BP_HealthPickup)
+[2020.07.26-15.02.55:096][439]Cmd: TRANSACTION UNDO
+[2020.07.26-15.02.55:096][439]LogEditorTransaction: Undo Move Actors
+[2020.07.26-15.02.55:321][444]Cmd: TRANSACTION UNDO
+[2020.07.26-15.02.55:321][444]LogEditorTransaction: Undo Move Actors
+[2020.07.26-15.02.56:105][481]LogEditorViewport: Clicking on Actor (LMB): BP_AmmoPickup_C (BP_AmmoPickup2)
+[2020.07.26-15.02.56:800][521]Cmd: TRANSACTION UNDO
+[2020.07.26-15.02.56:800][521]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.26-15.02.57:054][533]Cmd: TRANSACTION UNDO
+[2020.07.26-15.02.57:054][533]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.26-15.02.57:270][545]Cmd: TRANSACTION UNDO
+[2020.07.26-15.02.57:270][545]LogEditorTransaction: Undo Move Actors
+[2020.07.26-15.02.57:455][554]Cmd: TRANSACTION UNDO
+[2020.07.26-15.02.57:455][554]LogEditorTransaction: Undo Move Actors
+[2020.07.26-15.02.57:626][563]Cmd: TRANSACTION UNDO
+[2020.07.26-15.02.57:626][563]LogEditorTransaction: Undo Move Actors
+[2020.07.26-15.02.57:943][582]Cmd: TRANSACTION UNDO
+[2020.07.26-15.02.57:943][582]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.26-15.02.58:267][600]Cmd: TRANSACTION UNDO
+[2020.07.26-15.02.58:267][600]LogEditorTransaction: Undo Move Actors
+[2020.07.26-15.02.58:544][616]Cmd: TRANSACTION UNDO
+[2020.07.26-15.02.58:544][616]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.26-15.02.58:819][631]Cmd: TRANSACTION UNDO
+[2020.07.26-15.02.58:819][631]LogEditorTransaction: Undo Move Actors
+[2020.07.26-15.02.59:094][647]Cmd: TRANSACTION UNDO
+[2020.07.26-15.02.59:094][647]LogEditorTransaction: Undo Move Actors
+[2020.07.26-15.02.59:347][661]Cmd: TRANSACTION UNDO
+[2020.07.26-15.02.59:347][661]LogEditorTransaction: Undo Move Actors
+[2020.07.26-15.03.01:745][803]LogEditorViewport: Clicking on Actor (LMB): BP_HealthPickup_C (BP_HealthPickup)
+[2020.07.26-15.03.04:981][995]LogEditorViewport: Clicking on Actor (LMB): BP_AmmoPickup_C (BP_AmmoPickup)
+[2020.07.26-15.03.07:954][166]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.07.26-15.03.08:067][166]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas53F2E3F74B69FF25E7AF9B9CE4DB55B3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.26-15.03.08:335][166]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltDataA5B5388E48973F5D0EF8FC98536CE883.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.26-15.03.08:356][166]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.26-15.03.08:356][166]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.26-15.03.08:356][166]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.26-15.03.08:919][200]LogEditorViewport: Clicking on Actor (LMB): BP_HealthPickup_C (BP_HealthPickup)
+[2020.07.26-15.03.09:549][236]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_AmmoPickup_C (BP_AmmoPickup)
+[2020.07.26-15.03.18:055][742]LogEditorViewport: Clicking on Actor (LMB): BP_AmmoPickup_C (BP_AmmoPickup)
+[2020.07.26-15.03.18:766][783]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_HealthPickup_C (BP_HealthPickup)
+[2020.07.26-15.03.20:882][909]LogEditorViewport: Clicking on Actor (LMB): BP_AmmoPickup_C (BP_AmmoPickup2)
+[2020.07.26-15.03.21:360][936]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_HealthPickup_C (BP_HealthPickup2)
+[2020.07.26-15.03.29:106][399]LogEditorViewport: Clicking on Actor (LMB): BP_HealthPickup_C (BP_HealthPickup3)
+[2020.07.26-15.03.29:630][429]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_AmmoPickup_C (BP_AmmoPickup3)
+[2020.07.26-15.03.36:349][831]LogEditorViewport: Clicking on Actor (LMB): BP_HealthPickup_C (BP_HealthPickup4)
+[2020.07.26-15.03.36:830][858]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_AmmoPickup_C (BP_AmmoPickup4)
+[2020.07.26-15.03.44:320][306]LogEditorViewport: Clicking on Actor (LMB): BP_AmmoPickup_C (BP_AmmoPickup5)
+[2020.07.26-15.03.44:812][334]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_HealthPickup_C (BP_HealthPickup5)
+[2020.07.26-15.03.48:035][523]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.07.26-15.03.48:137][523]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas7B04081848E3429F1982D0BE533B2FF9.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.26-15.03.48:403][523]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltDataE3B0093A44006A16B588D59C32535DB3.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.26-15.03.48:424][523]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.26-15.03.48:424][523]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.26-15.03.48:424][523]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.26-15.03.49:594][593]LogEditorViewport: Clicking on Actor (LMB): BP_AmmoPickup_C (BP_AmmoPickup)
+[2020.07.26-15.03.50:411][640]LogEditorViewport: Clicking on Actor (LMB): BP_AmmoPickup_C (BP_AmmoPickup2)
+[2020.07.26-15.03.51:622][711]LogEditorViewport: Clicking on Actor (LMB): BP_AmmoPickup_C (BP_AmmoPickup3)
+[2020.07.26-15.03.52:913][787]LogEditorViewport: Clicking on Actor (LMB): BP_AmmoPickup_C (BP_AmmoPickup4)
+[2020.07.26-15.03.54:140][859]LogEditorViewport: Clicking on Actor (LMB): BP_AmmoPickup_C (BP_AmmoPickup3)
+[2020.07.26-15.03.58:635][127]LogEditorViewport: Clicking on Actor (LMB): BP_HealthPickup_C (BP_HealthPickup)
+[2020.07.26-15.03.59:132][155]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_AmmoPickup_C (BP_AmmoPickup)
+[2020.07.26-15.03.59:696][188]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_AmmoPickup_C (BP_AmmoPickup2)
+[2020.07.26-15.04.00:216][218]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_HealthPickup_C (BP_HealthPickup2)
+[2020.07.26-15.04.00:565][238]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_HealthPickup_C (BP_HealthPickup3)
+[2020.07.26-15.04.00:927][259]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_AmmoPickup_C (BP_AmmoPickup3)
+[2020.07.26-15.04.01:390][286]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_AmmoPickup_C (BP_AmmoPickup4)
+[2020.07.26-15.04.01:868][314]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_HealthPickup_C (BP_HealthPickup4)
+[2020.07.26-15.04.02:223][334]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_HealthPickup_C (BP_HealthPickup5)
+[2020.07.26-15.04.02:599][356]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_AmmoPickup_C (BP_AmmoPickup5)
+[2020.07.26-15.04.04:444][462]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.07.26-15.04.04:557][462]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasA6997B0442251A5602EF66A2642A9CCC.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.26-15.04.04:842][462]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData490E664144D0E34587DC3293537F8A84.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.26-15.04.04:863][462]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.26-15.04.04:863][462]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.26-15.04.04:863][462]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.26-15.04.05:797][516]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.26-15.04.05:829][516]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.07.26-15.04.05:829][516]LogPlayLevel: [PlayLevel] Compiling BP_HealthPickup before play...
+[2020.07.26-15.04.06:127][516]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_HealthPickup25DDFFC54A30E579F574FF88A4151606.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Pickups/BP_HealthPickup.uasset'
+[2020.07.26-15.04.06:134][516]LogPlayLevel: [PlayLevel] Compiling BP_AmmoPickup before play...
+[2020.07.26-15.04.06:432][516]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_AmmoPickupF94C413A439308E30E4ACBBF23626192.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Pickups/BP_AmmoPickup.uasset'
+[2020.07.26-15.04.06:447][516]LogPlayLevel: [PlayLevel] Compiling BP_MinibossLockedDoor before play...
+[2020.07.26-15.04.06:653][516]LogPlayLevel: [PlayLevel] Compiling BP_Keycard before play...
+[2020.07.26-15.04.06:874][516]LogPlayLevel: [PlayLevel] Compiling BP_TempDoor before play...
+[2020.07.26-15.04.07:070][516]LogPlayLevel: [PlayLevel] Compiling AnimBP_TwinStickPlayer before play...
+[2020.07.26-15.04.07:302][516]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2020.07.26-15.04.07:303][516]LogPlayLevel: PlayLevel: Blueprint regeneration took 1474 ms (6 blueprints)
+[2020.07.26-15.04.07:303][516]PIE: New page: PIE session: MinibossSeparateArenas (Jul 26, 2020, 7:04:07 AM)
+[2020.07.26-15.04.07:303][516]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.26-15.04.07:340][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036978s)
+[2020.07.26-15.04.07:341][516]LogAIModule: Creating AISystem for world MinibossSeparateArenas
+[2020.07.26-15.04.07:341][516]LogPlayLevel: PIE: World Init took: (0.000807s)
+[2020.07.26-15.04.07:341][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas to /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas (0.037911s)
+[2020.07.26-15.04.07:372][516]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.07.26-15.04.07:373][516]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.26-15.04.07:373][516]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.26-15.04.07:373][516]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.26-15.04.07:373][516]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.26-15.04.07:373][516]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.26-15.04.07:373][516]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.26-15.04.07:373][516]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.26-15.04.07:373][516]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.26-15.04.07:373][516]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.26-15.04.07:373][516]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.26-15.04.07:395][516]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.26-15.04.07:395][516]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.26-15.04.07:395][516]LogAudioMixer: Display: Is Default: Yes
+[2020.07.26-15.04.07:395][516]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.26-15.04.07:395][516]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.26-15.04.07:395][516]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.26-15.04.07:395][516]LogAudioMixer: Display: Channel Order:
+[2020.07.26-15.04.07:395][516]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.26-15.04.07:395][516]LogAudioMixer: Display: 1: FrontRight
+[2020.07.26-15.04.07:406][516]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.26-15.04.07:407][516]LogInit: FAudioDevice initialized.
+[2020.07.26-15.04.07:416][516]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.26-15.04.07:422][516]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas up for play (max tick rate 60) at 2020.07.26-11.04.07
+[2020.07.26-15.04.07:423][516]LogWorld: Bringing up level for play took: 0.006059
+[2020.07.26-15.04.07:423][516]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.07.26-15.04.07:426][516]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.26-15.04.07:426][516]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.26-15.04.07:432][516]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas 1.255
+[2020.07.26-15.04.07:457][517]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.26-15.04.07:458][517]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Pickups/BP_HealthPickup.BP_HealthPickup
+[2020.07.26-15.04.07:458][517]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Pickups/BP_AmmoPickup.BP_AmmoPickup
+[2020.07.26-15.04.10:235][682]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.26-15.04.10:242][682]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.26-15.04.10:261][682]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.26-15.04.10:261][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.26-15.04.10:261][682]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.26-15.04.10:261][682]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.26-15.04.10:262][682]LogWorld: UWorld::CleanupWorld for MinibossSeparateArenas, bSessionEnded=true, bCleanupResources=true
+[2020.07.26-15.04.10:263][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.26-15.04.10:270][682]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.26-15.04.10:274][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.26-15.04.10:304][682]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.26-15.04.10:307][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.26-15.04.10:312][682]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.07.26-15.04.10:347][684]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.07.26-15.04.11:202][735]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.26-15.04.11:233][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.26-15.04.11:233][735]PIE: New page: PIE session: MinibossSeparateArenas (Jul 26, 2020, 7:04:11 AM)
+[2020.07.26-15.04.11:233][735]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.26-15.04.11:271][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037100s)
+[2020.07.26-15.04.11:271][735]LogAIModule: Creating AISystem for world MinibossSeparateArenas
+[2020.07.26-15.04.11:271][735]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2020.07.26-15.04.11:271][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas to /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas (0.037963s)
+[2020.07.26-15.04.11:301][735]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.07.26-15.04.11:302][735]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.26-15.04.11:302][735]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.26-15.04.11:302][735]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.26-15.04.11:302][735]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.26-15.04.11:302][735]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.26-15.04.11:302][735]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.26-15.04.11:302][735]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.26-15.04.11:302][735]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.26-15.04.11:302][735]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.26-15.04.11:302][735]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.26-15.04.11:323][735]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.26-15.04.11:323][735]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.26-15.04.11:323][735]LogAudioMixer: Display: Is Default: Yes
+[2020.07.26-15.04.11:323][735]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.26-15.04.11:324][735]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.26-15.04.11:324][735]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.26-15.04.11:324][735]LogAudioMixer: Display: Channel Order:
+[2020.07.26-15.04.11:324][735]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.26-15.04.11:324][735]LogAudioMixer: Display: 1: FrontRight
+[2020.07.26-15.04.11:333][735]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.26-15.04.11:334][735]LogInit: FAudioDevice initialized.
+[2020.07.26-15.04.11:342][735]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.26-15.04.11:347][735]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas up for play (max tick rate 60) at 2020.07.26-11.04.11
+[2020.07.26-15.04.11:349][735]LogWorld: Bringing up level for play took: 0.005963
+[2020.07.26-15.04.11:349][735]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2020.07.26-15.04.11:351][735]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.26-15.04.11:351][735]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.26-15.04.11:357][735]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas -0.82
+[2020.07.26-15.04.21:812][361]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.26-15.04.21:812][361]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.26-15.04.21:814][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.26-15.04.21:814][361]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.26-15.04.21:814][361]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.26-15.04.21:815][361]LogWorld: UWorld::CleanupWorld for MinibossSeparateArenas, bSessionEnded=true, bCleanupResources=true
+[2020.07.26-15.04.21:819][361]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.26-15.04.21:832][361]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.26-15.04.21:838][361]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.26-15.04.21:866][361]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.26-15.04.21:869][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.26-15.04.21:874][361]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.07.26-15.04.21:909][363]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.07.26-15.04.22:967][423]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.07.26-15.04.23:066][423]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas79130F4B4BF64F39E8E928BA511D88F2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.26-15.04.23:330][423]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData70372589432887113B2309AB176A8D43.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.26-15.04.23:350][423]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.26-15.04.23:350][423]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.26-15.04.23:350][423]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.26-15.04.24:628][500]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_HealthPickup_C (BP_HealthPickup)
+[2020.07.26-15.04.25:045][522]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_HealthPickup_C (BP_HealthPickup2)
+[2020.07.26-15.04.26:786][625]Cmd: TRANSACTION UNDO
+[2020.07.26-15.04.26:786][625]LogEditorTransaction: Undo Move Actors
+[2020.07.26-15.04.27:972][681]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_HealthPickup_C (BP_HealthPickup3)
+[2020.07.26-15.04.28:394][705]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_HealthPickup_C (BP_HealthPickup4)
+[2020.07.26-15.04.28:804][728]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_HealthPickup_C (BP_HealthPickup5)
+[2020.07.26-15.04.29:394][762]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_AmmoPickup_C (BP_AmmoPickup5)
+[2020.07.26-15.04.30:024][799]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_AmmoPickup_C (BP_AmmoPickup4)
+[2020.07.26-15.04.30:538][829]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape)
+[2020.07.26-15.04.31:294][873]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_AmmoPickup_C (BP_AmmoPickup3)
+[2020.07.26-15.04.31:644][893]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_AmmoPickup_C (BP_AmmoPickup2)
+[2020.07.26-15.04.32:208][926]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_AmmoPickup_C (BP_AmmoPickup)
+[2020.07.26-15.04.34:020][ 32]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape_1.Texture2D_0 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.34:021][ 32]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape_1.Texture2D_1 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.34:023][ 32]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape_1.Texture2D_0 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.34:024][ 32]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape_1.Texture2D_1 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.34:026][ 32]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 64X64)
+[2020.07.26-15.04.34:028][ 32]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2020.07.26-15.04.34:028][ 32]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2020.07.26-15.04.34:030][ 32]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2020.07.26-15.04.34:032][ 32]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 64X64)
+[2020.07.26-15.04.34:034][ 32]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2020.07.26-15.04.34:036][ 32]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 64X64)
+[2020.07.26-15.04.34:038][ 32]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2020.07.26-15.04.34:042][ 32]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 64X64)
+[2020.07.26-15.04.34:045][ 32]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2020.07.26-15.04.37:810][226]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape2_2.Texture2D_6 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.37:810][226]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape2_2.Texture2D_5 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.37:811][226]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape2_2.Texture2D_4 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.37:812][226]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape2_2.Texture2D_3 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.37:813][226]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape2_2.Texture2D_2 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.37:815][226]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape2_2.Texture2D_1 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.37:816][226]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape2_2.Texture2D_0 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.37:818][226]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape2_2.Texture2D_6 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.37:818][226]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape2_2.Texture2D_5 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.37:819][226]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape2_2.Texture2D_4 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.37:820][226]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape2_2.Texture2D_3 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.37:820][226]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape2_2.Texture2D_2 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.37:824][226]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 64X64)
+[2020.07.26-15.04.37:825][226]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 64X64)
+[2020.07.26-15.04.37:826][226]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 64X64)
+[2020.07.26-15.04.37:827][226]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 64X64)
+[2020.07.26-15.04.37:830][226]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 64X64)
+[2020.07.26-15.04.37:832][226]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 64X64)
+[2020.07.26-15.04.37:835][226]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 64X64)
+[2020.07.26-15.04.37:837][226]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 64X64)
+[2020.07.26-15.04.37:840][226]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2020.07.26-15.04.37:841][226]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 64X64)
+[2020.07.26-15.04.37:843][226]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape2_2.Texture2D_1 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.37:844][226]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape2_2.Texture2D_0 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:898][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_11 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:899][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_10 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:899][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_9 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:900][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_8 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:901][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_7 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:901][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_0 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:902][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_1 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:904][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_2 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:905][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_3 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:906][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_4 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:906][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_5 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:907][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_6 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:909][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_11 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:910][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_10 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:911][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_9 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:911][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_8 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:912][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_7 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:912][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_0 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:912][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_1 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:914][377]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 64X64)
+[2020.07.26-15.04.40:924][377]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2020.07.26-15.04.40:925][377]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2020.07.26-15.04.40:927][377]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2020.07.26-15.04.40:930][377]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 64X64)
+[2020.07.26-15.04.40:932][377]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2020.07.26-15.04.40:935][377]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 64X64)
+[2020.07.26-15.04.40:937][377]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2020.07.26-15.04.40:939][377]LogTexture: Display: Building textures: Texture2D_16 (BGRA8, 64X64)
+[2020.07.26-15.04.40:941][377]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2020.07.26-15.04.40:946][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_2 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:947][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_3 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:948][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_4 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:949][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_5 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.40:949][377]LogTexture: Error: Texture2D /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.Landscape3_3.Texture2D_6 is unknown [raw type 0] which is not supported.
+[2020.07.26-15.04.44:515][565]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.07.26-15.04.44:677][565]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas5A03A71F4FCBA05EB81490B131DC82F2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.26-15.04.44:950][565]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData4510D18E4C5106201F408CAAB2D7D2ED.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.26-15.04.44:970][565]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.26-15.04.44:970][565]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.26-15.04.44:971][565]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.26-15.04.46:839][676]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape3)
+[2020.07.26-15.04.47:166][691]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.07.26-15.04.47:303][691]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas5E4F9F2945FDD0622AFEFBBE6878BEEA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.26-15.04.47:571][691]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltDataD504928E46AF204612AA6D8167519F7F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.26-15.04.47:591][691]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.26-15.04.47:591][691]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.26-15.04.47:591][691]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.26-15.04.48:778][759]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.07.26-15.04.48:906][759]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasC60F1DF543C2E9B7148FD3B799EF3841.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.26-15.04.49:216][759]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData2ACB017441092873F049C5B8708903F8.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.26-15.04.49:240][759]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.26-15.04.49:240][759]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.26-15.04.49:240][759]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.26-15.04.49:594][780]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.26-15.04.49:624][780]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.26-15.04.49:624][780]PIE: New page: PIE session: MinibossSeparateArenas (Jul 26, 2020, 7:04:49 AM)
+[2020.07.26-15.04.49:624][780]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.26-15.04.49:733][780]LogPlayLevel: PIE: StaticDuplicateObject took: (0.108442s)
+[2020.07.26-15.04.49:733][780]LogAIModule: Creating AISystem for world MinibossSeparateArenas
+[2020.07.26-15.04.49:734][780]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2020.07.26-15.04.49:734][780]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas to /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas (0.109349s)
+[2020.07.26-15.04.49:766][780]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2020.07.26-15.04.49:767][780]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.26-15.04.49:767][780]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.26-15.04.49:767][780]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.26-15.04.49:767][780]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.26-15.04.49:767][780]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.26-15.04.49:767][780]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.26-15.04.49:767][780]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.26-15.04.49:767][780]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.26-15.04.49:768][780]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.26-15.04.49:768][780]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.26-15.04.49:790][780]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.26-15.04.49:790][780]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.26-15.04.49:790][780]LogAudioMixer: Display: Is Default: Yes
+[2020.07.26-15.04.49:790][780]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.26-15.04.49:790][780]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.26-15.04.49:790][780]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.26-15.04.49:790][780]LogAudioMixer: Display: Channel Order:
+[2020.07.26-15.04.49:790][780]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.26-15.04.49:790][780]LogAudioMixer: Display: 1: FrontRight
+[2020.07.26-15.04.49:801][780]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.26-15.04.49:802][780]LogInit: FAudioDevice initialized.
+[2020.07.26-15.04.49:811][780]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.26-15.04.49:817][780]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas up for play (max tick rate 60) at 2020.07.26-11.04.49
+[2020.07.26-15.04.49:818][780]LogWorld: Bringing up level for play took: 0.006838
+[2020.07.26-15.04.49:818][780]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.07.26-15.04.49:821][780]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.26-15.04.49:821][780]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.26-15.04.49:827][780]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas -0.35
+[2020.07.26-15.04.56:653][189]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.26-15.04.56:653][189]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.26-15.04.56:653][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.26-15.04.56:653][189]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.26-15.04.56:653][189]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.26-15.04.56:654][189]LogWorld: UWorld::CleanupWorld for MinibossSeparateArenas, bSessionEnded=true, bCleanupResources=true
+[2020.07.26-15.04.56:656][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.26-15.04.56:665][189]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.26-15.04.56:674][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.26-15.04.56:701][189]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.26-15.04.56:703][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.26-15.04.56:709][189]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.07.26-15.04.56:759][192]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.07.26-15.05.02:682][542]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Phil/Models/AmmoCrate/M_AmmoCrate.M_AmmoCrate
+[2020.07.26-15.05.02:686][542]LogMaterial: Display: Missing cached shader map for material M_AmmoCrate, compiling. 
+[2020.07.26-15.05.02:870][542]LogMaterial: Display: Missing cached shader map for material M_AmmoCrate, compiling. 
+[2020.07.26-15.05.02:886][542]LogMaterial: Display: Missing cached shader map for material M_AmmoCrate, compiling. 
+[2020.07.26-15.05.02:904][542]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.07.26-15.05.02:904][542]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.07.26-15.05.02:904][542]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.07.26-15.05.02:904][542]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.07.26-15.05.02:904][542]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.07.26-15.05.02:904][542]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.07.26-15.05.02:904][542]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.07.26-15.05.02:904][542]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.07.26-15.05.02:904][542]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.07.26-15.05.02:914][542]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.07.26-15.05.02:923][542]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.07.26-15.05.02:933][542]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2020.07.26-15.05.03:602][564]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 17
+[2020.07.26-15.05.03:622][565]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 16
+[2020.07.26-15.05.03:822][576]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 15
+[2020.07.26-15.05.03:879][579]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 14
+[2020.07.26-15.05.03:879][579]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 13
+[2020.07.26-15.05.03:913][581]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2020.07.26-15.05.03:931][582]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 11
+[2020.07.26-15.05.03:932][582]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 10
+[2020.07.26-15.05.04:152][594]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 9
+[2020.07.26-15.05.04:184][595]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2020.07.26-15.05.04:186][595]MaterialEditorStats: Base pass shader: 126 instructions
+[2020.07.26-15.05.04:186][595]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 204 instructions
+[2020.07.26-15.05.04:186][595]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.07.26-15.05.04:186][595]MaterialEditorStats: Texture samplers: 5/16
+[2020.07.26-15.05.04:186][595]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.07.26-15.05.04:186][595]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.26-15.05.04:368][602]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 7
+[2020.07.26-15.05.04:391][603]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2020.07.26-15.05.04:418][604]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2020.07.26-15.05.04:443][605]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2020.07.26-15.05.04:506][608]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2020.07.26-15.05.04:506][608]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2020.07.26-15.05.04:589][613]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.07.26-15.05.10:266][946]LogMaterial: Display: Missing cached shader map for material M_AmmoCrate, compiling. 
+[2020.07.26-15.05.10:280][946]LogMaterial: Display: Missing cached shader map for material M_AmmoCrate, compiling. 
+[2020.07.26-15.05.10:297][946]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.07.26-15.05.10:297][946]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.07.26-15.05.10:297][946]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.07.26-15.05.10:297][946]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.07.26-15.05.10:297][946]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.07.26-15.05.10:297][946]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.07.26-15.05.10:297][946]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.07.26-15.05.10:297][946]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.07.26-15.05.10:297][946]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.07.26-15.05.10:783][971]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2020.07.26-15.05.10:874][976]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.07.26-15.05.11:067][986]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.07.26-15.05.11:086][987]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.07.26-15.05.11:086][987]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2020.07.26-15.05.11:242][996]MaterialEditorStats: Base pass shader: 126 instructions
+[2020.07.26-15.05.11:243][996]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 204 instructions
+[2020.07.26-15.05.11:243][996]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.07.26-15.05.11:243][996]MaterialEditorStats: Texture samplers: 5/16
+[2020.07.26-15.05.11:243][996]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.07.26-15.05.11:243][996]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.26-15.05.13:883][152]LogMaterial: Display: Missing cached shader map for material M_AmmoCrate, compiling. 
+[2020.07.26-15.05.13:913][153]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.07.26-15.05.13:913][153]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.07.26-15.05.13:913][153]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.07.26-15.05.13:913][153]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.07.26-15.05.13:913][153]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.07.26-15.05.13:913][153]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.07.26-15.05.13:913][153]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.07.26-15.05.13:913][153]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.07.26-15.05.14:418][173]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.07.26-15.05.14:790][195]MaterialEditorStats: Base pass shader: 127 instructions
+[2020.07.26-15.05.14:790][195]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 205 instructions
+[2020.07.26-15.05.14:790][195]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.07.26-15.05.14:790][195]MaterialEditorStats: Texture samplers: 5/16
+[2020.07.26-15.05.14:790][195]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.07.26-15.05.14:790][195]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.26-15.05.17:714][370]LogMaterial: Display: Missing cached shader map for material M_AmmoCrate, compiling. 
+[2020.07.26-15.05.17:727][370]LogMaterial: Display: Missing cached shader map for material M_AmmoCrate, compiling. 
+[2020.07.26-15.05.17:747][371]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.07.26-15.05.17:747][371]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.07.26-15.05.17:747][371]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.07.26-15.05.17:747][371]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.07.26-15.05.17:747][371]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.07.26-15.05.17:747][371]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.07.26-15.05.17:747][371]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.07.26-15.05.17:747][371]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.07.26-15.05.18:306][399]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.07.26-15.05.18:652][417]MaterialEditorStats: Base pass shader: 128 instructions
+[2020.07.26-15.05.18:653][417]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 206 instructions
+[2020.07.26-15.05.18:653][417]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.07.26-15.05.18:653][417]MaterialEditorStats: Texture samplers: 5/16
+[2020.07.26-15.05.18:653][417]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.07.26-15.05.18:653][417]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.26-15.05.18:941][434]LogMaterial: Display: Missing cached shader map for material M_AmmoCrate, compiling. 
+[2020.07.26-15.05.18:959][435]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.07.26-15.05.18:959][435]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.07.26-15.05.18:959][435]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.07.26-15.05.18:959][435]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.07.26-15.05.18:959][435]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.07.26-15.05.18:959][435]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.07.26-15.05.18:959][435]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.07.26-15.05.18:959][435]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.07.26-15.05.18:993][437]LogMaterialEditor: Applying material M_AmmoCrate
+[2020.07.26-15.05.19:637][437]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.07.26-15.05.19:649][437]LogMaterial: Display: Missing cached shader map for material M_AmmoCrate, compiling. 
+[2020.07.26-15.05.19:677][437]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.07.26-15.05.19:678][437]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.07.26-15.05.19:678][437]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 7
+[2020.07.26-15.05.19:678][437]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2020.07.26-15.05.19:678][437]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2020.07.26-15.05.19:678][437]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2020.07.26-15.05.19:678][437]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2020.07.26-15.05.19:714][437]LogMaterial: Display: Missing cached shader map for material M_AmmoCrate, compiling. 
+[2020.07.26-15.05.19:739][437]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.07.26-15.05.19:781][437]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2020.07.26-15.05.19:812][437]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.26-15.05.20:555][437]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 18
+[2020.07.26-15.05.20:555][437]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 17
+[2020.07.26-15.05.20:556][437]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 16
+[2020.07.26-15.05.20:556][437]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
+[2020.07.26-15.05.20:556][437]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 13
+[2020.07.26-15.05.20:556][437]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 11
+[2020.07.26-15.05.20:556][437]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 9
+[2020.07.26-15.05.20:556][437]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 7
+[2020.07.26-15.05.20:556][437]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2020.07.26-15.05.20:556][437]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 5
+[2020.07.26-15.05.20:556][437]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2020.07.26-15.05.20:565][437]TextureStreamingBuild: Display: Compiling optional shaders took 0.781 seconds.
+[2020.07.26-15.05.20:626][437]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.07.26-15.05.20:740][440]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
+[2020.07.26-15.05.20:890][448]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2020.07.26-15.05.20:967][451]LogMaterialEditor: Saving and Compiling material M_AmmoCrate
+[2020.07.26-15.05.20:971][451]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2020.07.26-15.05.21:479][451]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/M_AmmoCrate99AF06D943BA5DC0D3C875862F2B9558.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Models/AmmoCrate/M_AmmoCrate.uasset'
+[2020.07.26-15.05.21:498][451]AssetCheck: New page: Asset Save: M_AmmoCrate
+[2020.07.26-15.05.21:498][451]LogContentValidation: Display: Validating Material /Game/Phil/Models/AmmoCrate/M_AmmoCrate.M_AmmoCrate
+[2020.07.26-15.05.21:499][451]MaterialEditorStats: Base pass shader: 128 instructions
+[2020.07.26-15.05.21:499][451]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 206 instructions
+[2020.07.26-15.05.21:499][451]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.07.26-15.05.21:499][451]MaterialEditorStats: Texture samplers: 6/16
+[2020.07.26-15.05.21:499][451]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.07.26-15.05.21:499][451]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.26-15.05.21:915][476]LogSlate: Window 'M_AmmoCrate' being destroyed
+[2020.07.26-15.05.21:985][476]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.07.26-15.05.21:985][476]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.26-15.05.22:860][524]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2020.07.26-15.05.22:989][524]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasF7F21AB146811DE46FC9B7A11CA6E464.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.26-15.05.23:269][524]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltDataDBD90A0B4B9A6C66E36E0EB60AC89395.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.26-15.05.23:295][524]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.26-15.05.23:295][524]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.26-15.05.23:295][524]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.26-15.05.23:666][546]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.26-15.05.23:699][546]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.26-15.05.23:699][546]PIE: New page: PIE session: MinibossSeparateArenas (Jul 26, 2020, 7:05:23 AM)
+[2020.07.26-15.05.23:699][546]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.26-15.05.23:815][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.116661s)
+[2020.07.26-15.05.23:816][546]LogAIModule: Creating AISystem for world MinibossSeparateArenas
+[2020.07.26-15.05.23:816][546]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2020.07.26-15.05.23:816][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas to /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas (0.117555s)
+[2020.07.26-15.05.23:847][546]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2020.07.26-15.05.23:848][546]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.26-15.05.23:848][546]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.26-15.05.23:848][546]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.26-15.05.23:848][546]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.26-15.05.23:848][546]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.26-15.05.23:848][546]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.26-15.05.23:848][546]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.26-15.05.23:848][546]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.26-15.05.23:848][546]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.26-15.05.23:848][546]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.26-15.05.23:870][546]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.26-15.05.23:870][546]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.26-15.05.23:870][546]LogAudioMixer: Display: Is Default: Yes
+[2020.07.26-15.05.23:870][546]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.26-15.05.23:870][546]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.26-15.05.23:870][546]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.26-15.05.23:870][546]LogAudioMixer: Display: Channel Order:
+[2020.07.26-15.05.23:870][546]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.26-15.05.23:870][546]LogAudioMixer: Display: 1: FrontRight
+[2020.07.26-15.05.23:880][546]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.26-15.05.23:881][546]LogInit: FAudioDevice initialized.
+[2020.07.26-15.05.23:891][546]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.26-15.05.23:898][546]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas up for play (max tick rate 60) at 2020.07.26-11.05.23
+[2020.07.26-15.05.23:899][546]LogWorld: Bringing up level for play took: 0.006640
+[2020.07.26-15.05.23:899][546]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.07.26-15.05.23:901][546]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.26-15.05.23:902][546]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.26-15.05.23:908][546]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas -0.269
+[2020.07.26-15.05.34:102][152]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.26-15.05.34:102][152]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.26-15.05.34:103][152]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.26-15.05.34:103][152]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.26-15.05.34:103][152]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.26-15.05.34:103][152]LogWorld: UWorld::CleanupWorld for MinibossSeparateArenas, bSessionEnded=true, bCleanupResources=true
+[2020.07.26-15.05.34:106][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.26-15.05.34:115][152]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.26-15.05.34:120][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.26-15.05.34:146][152]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.26-15.05.34:149][152]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.26-15.05.34:155][152]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.07.26-15.05.34:208][155]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.07.26-15.05.34:779][186]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.07.26-15.05.34:904][186]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas86726CBA451DAC7E2F8B28906D5081E6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.26-15.05.35:166][186]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData9BA52ED543B0D179D461D0AC5092B6A9.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.26-15.05.35:185][186]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.26-15.05.35:185][186]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.26-15.05.35:185][186]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.26-15.06.17:840][502]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.07.26-15.06.17:981][502]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas3C43D9064C0649F1EC1E77B234635C45.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.26-15.06.18:250][502]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltDataE5D50A0E44160F19209D508D8C0B5D23.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.26-15.06.18:272][502]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.26-15.06.18:272][502]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.26-15.06.18:272][502]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.26-15.06.33:693][659]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.07.26-15.06.33:844][659]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasE17C7CAC46484E79BCB3819D0982200A.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.26-15.06.34:108][659]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltData6F5286004ED63206EC4026A87F9418C1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.26-15.06.34:127][659]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.26-15.06.34:127][659]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.26-15.06.34:127][659]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
+[2020.07.26-15.07.11:389][881]LogHotReload: New module detected: UE4Editor-Project-0038.dll
+[2020.07.26-15.07.12:074][884]LogHotReload: Starting Hot-Reload from IDE
+[2020.07.26-15.07.12:128][884]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2020.07.26-15.07.12:290][884]LogClass: EGunState HotReload.
+[2020.07.26-15.07.12:290][884]LogClass: EFEnemyMoveStat HotReload.
+[2020.07.26-15.07.12:290][884]LogClass: PlayerStats HotReload.
+[2020.07.26-15.07.12:341][884]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0005 seconds. Added 63 classes and 3 folders.
+[2020.07.26-15.07.12:367][884]Display: HotReload successful (74 functions remapped  1 scriptstructs remapped)
+[2020.07.26-15.07.12:471][884]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.07.26-15.07.12:495][884]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 3103 classes and 733 folders.
+[2020.07.26-15.07.12:499][884]Display: HotReload took  0.4s.
+[2020.07.26-15.08.30:172][227]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.26-15.08.30:205][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.26-15.08.30:205][227]PIE: New page: PIE session: MinibossSeparateArenas (Jul 26, 2020, 7:08:30 AM)
+[2020.07.26-15.08.30:205][227]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.26-15.08.30:335][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.129929s)
+[2020.07.26-15.08.30:336][227]LogAIModule: Creating AISystem for world MinibossSeparateArenas
+[2020.07.26-15.08.30:336][227]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2020.07.26-15.08.30:336][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas to /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas (0.130964s)
+[2020.07.26-15.08.30:409][227]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2020.07.26-15.08.30:410][227]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.26-15.08.30:410][227]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.26-15.08.30:410][227]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.26-15.08.30:410][227]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.26-15.08.30:410][227]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.26-15.08.30:410][227]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.26-15.08.30:410][227]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.26-15.08.30:410][227]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.26-15.08.30:410][227]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.26-15.08.30:410][227]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.26-15.08.30:433][227]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.26-15.08.30:433][227]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.26-15.08.30:433][227]LogAudioMixer: Display: Is Default: Yes
+[2020.07.26-15.08.30:433][227]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.26-15.08.30:433][227]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.26-15.08.30:433][227]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.26-15.08.30:433][227]LogAudioMixer: Display: Channel Order:
+[2020.07.26-15.08.30:433][227]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.26-15.08.30:433][227]LogAudioMixer: Display: 1: FrontRight
+[2020.07.26-15.08.30:444][227]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.26-15.08.30:445][227]LogInit: FAudioDevice initialized.
+[2020.07.26-15.08.30:449][227]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.26-15.08.30:455][227]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas up for play (max tick rate 60) at 2020.07.26-11.08.30
+[2020.07.26-15.08.30:457][227]LogWorld: Bringing up level for play took: 0.006841
+[2020.07.26-15.08.30:457][227]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2020.07.26-15.08.30:459][227]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.26-15.08.30:460][227]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas.MinibossSeparateArenas:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.26-15.08.30:466][227]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas 0.288
+[2020.07.26-15.08.42:080][923]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.26-15.08.42:080][923]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.26-15.08.42:080][923]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.26-15.08.42:080][923]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_MinibossSeparateArenas
+[2020.07.26-15.08.42:081][923]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.26-15.08.42:081][923]LogWorld: UWorld::CleanupWorld for MinibossSeparateArenas, bSessionEnded=true, bCleanupResources=true
+[2020.07.26-15.08.42:082][923]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.26-15.08.42:092][923]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.26-15.08.42:097][923]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.26-15.08.42:126][923]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.26-15.08.42:128][923]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.26-15.08.42:154][923]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2020.07.26-15.08.42:190][925]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.07.26-15.08.43:145][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.07.26-15.08.43:268][979]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenasB1676CC743ED7534E24805AAB84EF8EA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas.umap'
+[2020.07.26-15.08.43:547][979]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/MinibossSeparateArenas_BuiltDataE9D5D9514932909BBC973BA711F56912.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/MinibossSeparateArenas_BuiltData.uasset'
+[2020.07.26-15.08.43:566][979]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.26-15.08.43:566][979]LogContentValidation: Display: Validating World /Game/Phil/Levels/MinibossSeparateArenas.MinibossSeparateArenas
+[2020.07.26-15.08.43:566][979]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Phil/Levels/MinibossSeparateArenas_BuiltData.MinibossSeparateArenas_BuiltData
