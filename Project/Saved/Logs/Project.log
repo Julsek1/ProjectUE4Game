@@ -4475,3 +4475,1098 @@ ough space on the disk.)
 [2020.07.27-20.25.07:520][457]AssetCheck: New page: Asset Save: TestMap
 [2020.07.27-20.25.07:521][457]LogContentValidation: Display: Validating World /Game/Julian/JLevels/TestMap.TestMap
 [2020.07.27-20.31.01:341][945]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.07.27-20.32.44:293][467]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-20.32.44:342][467]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-20.32.44:342][467]PIE: New page: PIE session: TestMap (Jul. 27, 2020, 12:32:44 p.m.)
+[2020.07.27-20.32.44:343][467]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-20.32.44:386][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042339s)
+[2020.07.27-20.32.44:389][467]LogAIModule: Creating AISystem for world TestMap
+[2020.07.27-20.32.44:390][467]LogPlayLevel: PIE: World Init took: (0.004092s)
+[2020.07.27-20.32.44:390][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.046740s)
+[2020.07.27-20.32.44:448][467]LogUObjectHash: Compacting FUObjectHashTables data took   5.06ms
+[2020.07.27-20.32.44:450][467]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-20.32.44:450][467]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-20.32.44:450][467]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-20.32.44:450][467]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-20.32.44:450][467]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-20.32.44:450][467]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-20.32.44:450][467]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-20.32.44:451][467]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-20.32.44:451][467]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-20.32.44:451][467]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-20.32.44:459][467]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-20.32.44:459][467]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.27-20.32.44:459][467]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-20.32.44:459][467]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-20.32.44:459][467]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-20.32.44:459][467]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-20.32.44:460][467]LogAudioMixer: Display: Channel Order:
+[2020.07.27-20.32.44:460][467]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-20.32.44:460][467]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-20.32.44:642][467]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.27-20.32.44:646][467]LogInit: FAudioDevice initialized.
+[2020.07.27-20.32.44:662][467]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.27-20.32.44:671][467]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.27-16.32.44
+[2020.07.27-20.32.44:676][467]LogWorld: Bringing up level for play took: 0.012891
+[2020.07.27-20.32.44:677][467]LogOnline: OSS: Creating online subsystem instance for: :Context_56
+[2020.07.27-20.32.44:690][467]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.609
+[2020.07.27-20.33.08:083][843]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.33.08:090][843]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-20.33.08:109][843]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-20.33.08:113][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-20.33.08:113][843]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-20.33.08:113][843]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.33.08:114][843]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-20.33.08:114][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-20.33.08:128][843]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-20.33.08:133][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-20.33.08:180][843]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.33.08:183][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-20.33.08:190][843]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2020.07.27-20.33.08:220][844]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2020.07.27-20.33.26:417][294]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Julian/Enemies/JGasMask/JGasMaskAI/BT_JGasMaskEnemy.BT_JGasMaskEnemy
+[2020.07.27-20.34.07:981][745]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-20.34.08:061][745]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-20.34.08:061][745]PIE: New page: PIE session: TestMap (Jul. 27, 2020, 12:34:08 p.m.)
+[2020.07.27-20.34.08:061][745]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-20.34.08:110][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048467s)
+[2020.07.27-20.34.08:111][745]LogAIModule: Creating AISystem for world TestMap
+[2020.07.27-20.34.08:112][745]LogPlayLevel: PIE: World Init took: (0.001643s)
+[2020.07.27-20.34.08:112][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.050316s)
+[2020.07.27-20.34.08:177][745]LogUObjectHash: Compacting FUObjectHashTables data took   5.69ms
+[2020.07.27-20.34.08:180][745]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-20.34.08:180][745]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-20.34.08:180][745]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-20.34.08:180][745]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-20.34.08:180][745]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-20.34.08:180][745]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-20.34.08:180][745]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-20.34.08:180][745]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-20.34.08:181][745]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-20.34.08:181][745]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-20.34.08:189][745]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-20.34.08:189][745]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.27-20.34.08:189][745]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-20.34.08:189][745]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-20.34.08:189][745]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-20.34.08:190][745]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-20.34.08:190][745]LogAudioMixer: Display: Channel Order:
+[2020.07.27-20.34.08:190][745]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-20.34.08:190][745]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-20.34.08:323][745]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.27-20.34.08:325][745]LogInit: FAudioDevice initialized.
+[2020.07.27-20.34.08:333][745]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.27-20.34.08:337][745]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.27-16.34.08
+[2020.07.27-20.34.08:339][745]LogWorld: Bringing up level for play took: 0.004775
+[2020.07.27-20.34.08:339][745]LogOnline: OSS: Creating online subsystem instance for: :Context_57
+[2020.07.27-20.34.08:346][745]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.264
+[2020.07.27-20.34.49:672][119]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.34.49:690][119]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-20.34.49:710][119]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-20.34.49:721][119]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-20.34.49:721][119]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-20.34.49:721][119]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.34.49:722][119]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-20.34.49:724][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-20.34.49:751][119]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-20.34.49:773][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-20.34.49:849][119]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.34.49:855][119]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-20.34.49:866][119]LogUObjectHash: Compacting FUObjectHashTables data took   7.55ms
+[2020.07.27-20.34.49:914][120]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2020.07.27-20.44.37:979][538]BlueprintLog: New page: Compile AIC_JGasMaskEnemy
+[2020.07.27-20.44.38:578][538]LogUObjectHash: Compacting FUObjectHashTables data took   6.77ms
+[2020.07.27-20.44.38:824][538]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/AIC_JGasMaskEnemyFD9FBEDA4A07CF20F1C6ED97AAE6BFED.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/JGasMask/JGasMaskAI/AIC_JGasMaskEnemy.uasset'
+[2020.07.27-20.44.38:846][538]AssetCheck: New page: Asset Save: AIC_JGasMaskEnemy
+[2020.07.27-20.44.38:846][538]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/JGasMask/JGasMaskAI/AIC_JGasMaskEnemy.AIC_JGasMaskEnemy
+[2020.07.27-20.44.39:555][566]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/AIC_JGasMaskEnemyC040C712466176291DF595906393AB4C.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/JGasMask/JGasMaskAI/AIC_JGasMaskEnemy.uasset'
+[2020.07.27-20.44.39:573][566]AssetCheck: New page: Asset Save: AIC_JGasMaskEnemy
+[2020.07.27-20.44.39:574][566]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/JGasMask/JGasMaskAI/AIC_JGasMaskEnemy.AIC_JGasMaskEnemy
+[2020.07.27-20.44.42:452][724]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-20.44.42:523][724]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-20.44.42:523][724]PIE: New page: PIE session: TestMap (Jul. 27, 2020, 12:44:42 p.m.)
+[2020.07.27-20.44.42:523][724]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-20.44.42:553][724]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029647s)
+[2020.07.27-20.44.42:555][724]LogAIModule: Creating AISystem for world TestMap
+[2020.07.27-20.44.42:555][724]LogPlayLevel: PIE: World Init took: (0.002249s)
+[2020.07.27-20.44.42:556][724]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.032470s)
+[2020.07.27-20.44.42:627][724]LogUObjectHash: Compacting FUObjectHashTables data took   6.68ms
+[2020.07.27-20.44.42:627][724]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-20.44.42:627][724]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-20.44.42:627][724]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-20.44.42:627][724]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-20.44.42:628][724]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-20.44.42:628][724]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-20.44.42:628][724]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-20.44.42:628][724]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-20.44.42:628][724]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-20.44.42:628][724]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-20.44.42:637][724]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-20.44.42:637][724]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.27-20.44.42:637][724]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-20.44.42:637][724]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-20.44.42:637][724]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-20.44.42:637][724]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-20.44.42:637][724]LogAudioMixer: Display: Channel Order:
+[2020.07.27-20.44.42:637][724]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-20.44.42:637][724]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-20.44.42:778][724]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.27-20.44.42:788][724]LogInit: FAudioDevice initialized.
+[2020.07.27-20.44.42:801][724]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.27-20.44.42:805][724]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.27-16.44.42
+[2020.07.27-20.44.42:807][724]LogWorld: Bringing up level for play took: 0.005810
+[2020.07.27-20.44.42:807][724]LogOnline: OSS: Creating online subsystem instance for: :Context_59
+[2020.07.27-20.44.42:816][724]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.735
+[2020.07.27-20.45.36:579][855]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.45.36:598][855]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-20.45.36:618][855]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-20.45.36:623][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-20.45.36:623][855]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-20.45.36:623][855]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.45.36:623][855]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-20.45.36:624][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-20.45.36:639][855]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-20.45.36:646][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-20.45.36:700][855]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.45.36:707][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-20.45.36:719][855]LogUObjectHash: Compacting FUObjectHashTables data took   7.89ms
+[2020.07.27-20.45.36:770][856]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2020.07.27-20.46.49:368][817]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-20.46.49:451][817]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-20.46.49:451][817]PIE: New page: PIE session: TestMap (Jul. 27, 2020, 12:46:49 p.m.)
+[2020.07.27-20.46.49:452][817]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-20.46.49:495][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042646s)
+[2020.07.27-20.46.49:496][817]LogAIModule: Creating AISystem for world TestMap
+[2020.07.27-20.46.49:497][817]LogPlayLevel: PIE: World Init took: (0.001620s)
+[2020.07.27-20.46.49:497][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.044509s)
+[2020.07.27-20.46.49:568][817]LogUObjectHash: Compacting FUObjectHashTables data took   7.13ms
+[2020.07.27-20.46.49:569][817]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-20.46.49:569][817]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-20.46.49:569][817]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-20.46.49:569][817]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-20.46.49:569][817]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-20.46.49:569][817]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-20.46.49:570][817]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-20.46.49:570][817]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-20.46.49:570][817]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-20.46.49:570][817]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-20.46.49:578][817]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-20.46.49:578][817]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.27-20.46.49:578][817]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-20.46.49:578][817]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-20.46.49:578][817]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-20.46.49:578][817]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-20.46.49:578][817]LogAudioMixer: Display: Channel Order:
+[2020.07.27-20.46.49:578][817]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-20.46.49:578][817]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-20.46.49:721][817]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.27-20.46.49:726][817]LogInit: FAudioDevice initialized.
+[2020.07.27-20.46.49:747][817]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.27-20.46.49:760][817]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.27-16.46.49
+[2020.07.27-20.46.49:765][817]LogWorld: Bringing up level for play took: 0.015429
+[2020.07.27-20.46.49:765][817]LogOnline: OSS: Creating online subsystem instance for: :Context_60
+[2020.07.27-20.46.49:779][817]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap -0.303
+[2020.07.27-20.46.55:612][146]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.46.55:628][146]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-20.46.55:658][146]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-20.46.55:669][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-20.46.55:669][146]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-20.46.55:669][146]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.46.55:670][146]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-20.46.55:674][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-20.46.55:709][146]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-20.46.55:725][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-20.46.55:790][146]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.46.55:794][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-20.46.55:799][146]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2020.07.27-20.46.55:830][147]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2020.07.27-20.47.15:744][295]BlueprintLog: New page: Compile AIC_JGasMaskEnemy
+[2020.07.27-20.47.16:353][295]LogUObjectHash: Compacting FUObjectHashTables data took   5.86ms
+[2020.07.27-20.47.16:504][295]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/AIC_JGasMaskEnemy528D7D8741DF39DFC6C784B4F5EE50BF.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/JGasMask/JGasMaskAI/AIC_JGasMaskEnemy.uasset'
+[2020.07.27-20.47.16:524][295]AssetCheck: New page: Asset Save: AIC_JGasMaskEnemy
+[2020.07.27-20.47.16:524][295]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/JGasMask/JGasMaskAI/AIC_JGasMaskEnemy.AIC_JGasMaskEnemy
+[2020.07.27-20.47.17:233][318]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/AIC_JGasMaskEnemyF129EEE940B833E41FF2998F490A242A.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/JGasMask/JGasMaskAI/AIC_JGasMaskEnemy.uasset'
+[2020.07.27-20.47.17:254][318]AssetCheck: New page: Asset Save: AIC_JGasMaskEnemy
+[2020.07.27-20.47.17:254][318]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/JGasMask/JGasMaskAI/AIC_JGasMaskEnemy.AIC_JGasMaskEnemy
+[2020.07.27-20.48.01:239][832]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_16:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_124 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.48.01:244][832]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_660 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.48.01:247][832]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_12:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_158 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.48.01:250][832]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_16:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_126 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.48.01:253][832]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_662 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.48.01:257][832]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_12:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_160 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.48.02:595][906]BlueprintLog: New page: Compile BP_JGasMask
+[2020.07.27-20.48.02:630][906]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:630][906]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:630][906]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:631][906]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:631][906]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:631][906]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:631][906]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:631][906]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:631][906]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:631][906]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:631][906]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:631][906]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:631][906]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:631][906]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:636][906]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:636][906]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:636][906]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:636][906]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:636][906]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:636][906]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:636][906]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:636][906]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:636][906]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:637][906]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:637][906]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:637][906]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:637][906]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:637][906]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.48.02:644][906]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_16:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_128 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.48.02:645][906]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_664 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.48.02:646][906]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_12:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_162 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.48.03:139][906]LogUObjectHash: Compacting FUObjectHashTables data took   5.92ms
+[2020.07.27-20.48.03:143][906]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_16:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_130 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.48.03:146][906]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_666 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.48.03:150][906]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_12:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_164 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.48.03:152][906]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_12:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_166 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.48.03:161][906]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_16:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_132 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.48.03:165][906]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_668 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.48.03:167][906]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_12:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_168 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.48.03:383][906]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JGasMask2538F19C4AF549D3A3113A8F93DC8394.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/JGasMask/BP_JGasMask.uasset'
+[2020.07.27-20.48.03:402][906]AssetCheck: New page: Asset Save: BP_JGasMask
+[2020.07.27-20.48.03:402][906]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/JGasMask/BP_JGasMask.BP_JGasMask
+[2020.07.27-20.48.04:181][941]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JGasMask929440054B03E0A684BB978D04E0FB46.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/JGasMask/BP_JGasMask.uasset'
+[2020.07.27-20.48.04:200][941]AssetCheck: New page: Asset Save: BP_JGasMask
+[2020.07.27-20.48.04:200][941]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/JGasMask/BP_JGasMask.BP_JGasMask
+[2020.07.27-20.48.07:261][103]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-20.48.07:360][103]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-20.48.07:360][103]PIE: New page: PIE session: TestMap (Jul. 27, 2020, 12:48:07 p.m.)
+[2020.07.27-20.48.07:360][103]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-20.48.07:395][103]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035215s)
+[2020.07.27-20.48.07:397][103]LogAIModule: Creating AISystem for world TestMap
+[2020.07.27-20.48.07:397][103]LogPlayLevel: PIE: World Init took: (0.001859s)
+[2020.07.27-20.48.07:397][103]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.037306s)
+[2020.07.27-20.48.07:474][103]LogUObjectHash: Compacting FUObjectHashTables data took   6.29ms
+[2020.07.27-20.48.07:475][103]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-20.48.07:475][103]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-20.48.07:475][103]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-20.48.07:475][103]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-20.48.07:475][103]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-20.48.07:475][103]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-20.48.07:475][103]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-20.48.07:475][103]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-20.48.07:476][103]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-20.48.07:476][103]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-20.48.07:483][103]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-20.48.07:483][103]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.27-20.48.07:483][103]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-20.48.07:483][103]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-20.48.07:483][103]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-20.48.07:483][103]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-20.48.07:483][103]LogAudioMixer: Display: Channel Order:
+[2020.07.27-20.48.07:483][103]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-20.48.07:483][103]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-20.48.07:626][103]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.27-20.48.07:629][103]LogInit: FAudioDevice initialized.
+[2020.07.27-20.48.07:641][103]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.27-20.48.07:647][103]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.27-16.48.07
+[2020.07.27-20.48.07:651][103]LogWorld: Bringing up level for play took: 0.008470
+[2020.07.27-20.48.07:651][103]LogOnline: OSS: Creating online subsystem instance for: :Context_61
+[2020.07.27-20.48.07:662][103]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap -0.42
+[2020.07.27-20.48.41:346][ 92]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.48.41:358][ 92]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-20.48.41:378][ 92]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-20.48.41:381][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-20.48.41:381][ 92]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-20.48.41:382][ 92]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.48.41:382][ 92]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-20.48.41:382][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-20.48.41:398][ 92]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-20.48.41:404][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-20.48.41:454][ 92]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.48.41:462][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-20.48.41:469][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   5.61ms
+[2020.07.27-20.48.41:517][ 93]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2020.07.27-20.49.11:763][852]BlueprintLog: New page: Compile AIC_JGasMaskEnemy
+[2020.07.27-20.49.12:351][852]LogUObjectHash: Compacting FUObjectHashTables data took   5.70ms
+[2020.07.27-20.49.12:488][852]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/AIC_JGasMaskEnemy886A0C28439175A95ECA978B8F011000.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/JGasMask/JGasMaskAI/AIC_JGasMaskEnemy.uasset'
+[2020.07.27-20.49.12:507][852]AssetCheck: New page: Asset Save: AIC_JGasMaskEnemy
+[2020.07.27-20.49.12:508][852]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/JGasMask/JGasMaskAI/AIC_JGasMaskEnemy.AIC_JGasMaskEnemy
+[2020.07.27-20.49.13:223][881]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/AIC_JGasMaskEnemy76AB3647419AE13120B0178C0BC0B427.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/JGasMask/JGasMaskAI/AIC_JGasMaskEnemy.uasset'
+[2020.07.27-20.49.13:246][881]AssetCheck: New page: Asset Save: AIC_JGasMaskEnemy
+[2020.07.27-20.49.13:247][881]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/JGasMask/JGasMaskAI/AIC_JGasMaskEnemy.AIC_JGasMaskEnemy
+[2020.07.27-20.49.15:750][  5]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-20.49.15:831][  5]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-20.49.15:831][  5]PIE: New page: PIE session: TestMap (Jul. 27, 2020, 12:49:15 p.m.)
+[2020.07.27-20.49.15:831][  5]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-20.49.15:878][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046543s)
+[2020.07.27-20.49.15:880][  5]LogAIModule: Creating AISystem for world TestMap
+[2020.07.27-20.49.15:880][  5]LogPlayLevel: PIE: World Init took: (0.001746s)
+[2020.07.27-20.49.15:880][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.048545s)
+[2020.07.27-20.49.15:957][  5]LogUObjectHash: Compacting FUObjectHashTables data took   9.33ms
+[2020.07.27-20.49.15:958][  5]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-20.49.15:958][  5]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-20.49.15:958][  5]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-20.49.15:958][  5]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-20.49.15:958][  5]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-20.49.15:958][  5]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-20.49.15:958][  5]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-20.49.15:958][  5]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-20.49.15:959][  5]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-20.49.15:959][  5]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-20.49.15:965][  5]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-20.49.15:965][  5]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.27-20.49.15:965][  5]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-20.49.15:965][  5]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-20.49.15:965][  5]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-20.49.15:965][  5]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-20.49.15:965][  5]LogAudioMixer: Display: Channel Order:
+[2020.07.27-20.49.15:965][  5]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-20.49.15:965][  5]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-20.49.16:104][  5]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.27-20.49.16:106][  5]LogInit: FAudioDevice initialized.
+[2020.07.27-20.49.16:115][  5]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.27-20.49.16:118][  5]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.27-16.49.16
+[2020.07.27-20.49.16:120][  5]LogWorld: Bringing up level for play took: 0.004643
+[2020.07.27-20.49.16:121][  5]LogOnline: OSS: Creating online subsystem instance for: :Context_62
+[2020.07.27-20.49.16:127][  5]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.045
+[2020.07.27-20.50.14:840][432]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.50.14:858][432]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-20.50.14:878][432]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-20.50.14:883][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-20.50.14:883][432]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-20.50.14:883][432]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.50.14:883][432]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-20.50.14:885][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-20.50.14:904][432]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-20.50.14:913][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-20.50.14:982][432]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.50.14:988][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-20.50.14:995][432]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2020.07.27-20.50.15:039][433]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2020.07.27-20.51.19:899][264]BlueprintLog: New page: Compile BP_JGasMask
+[2020.07.27-20.51.19:908][264]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:908][264]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:908][264]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:908][264]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:908][264]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:908][264]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:908][264]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:908][264]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:908][264]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:908][264]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:908][264]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:908][264]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:909][264]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:909][264]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.BP_JGasMask_C_0.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:912][264]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:912][264]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:912][264]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:912][264]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:912][264]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:912][264]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:912][264]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:912][264]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:912][264]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:912][264]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:912][264]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:912][264]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:912][264]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:912][264]PIE: Warning: Constraint in '/Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.BP_JGasMask_2.CharacterMesh0' attempting to create a joint between objects that are both static.  No joint created.
+[2020.07.27-20.51.19:919][264]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_16:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_134 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.51.19:920][264]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_670 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.51.19:922][264]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_12:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_170 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.51.20:480][264]LogUObjectHash: Compacting FUObjectHashTables data took   5.63ms
+[2020.07.27-20.51.20:483][264]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_16:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_136 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.51.20:486][264]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_672 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.51.20:489][264]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_12:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_172 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.51.20:491][264]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_12:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_174 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.51.20:500][264]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_16:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_138 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.51.20:504][264]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Game/Julian/JLevels/TestMap.TestMap:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_674 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.51.20:507][264]LogActor: Warning: BP_GasMaskEnemyWeapon_C /Engine/Transient.World_12:PersistentLevel.ActiveWeapon_GEN_VARIABLE_BP_GasMaskEnemyWeapon_C_CAT_176 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-20.51.20:767][264]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JGasMask8BB32875474D133209DC82B967C73D09.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/JGasMask/BP_JGasMask.uasset'
+[2020.07.27-20.51.20:788][264]AssetCheck: New page: Asset Save: BP_JGasMask
+[2020.07.27-20.51.20:789][264]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/JGasMask/BP_JGasMask.BP_JGasMask
+[2020.07.27-20.51.21:360][287]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JGasMask15DBB99A413802ABA7EE0A9098C27254.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/Enemies/JGasMask/BP_JGasMask.uasset'
+[2020.07.27-20.51.21:379][287]AssetCheck: New page: Asset Save: BP_JGasMask
+[2020.07.27-20.51.21:379][287]LogContentValidation: Display: Validating Blueprint /Game/Julian/Enemies/JGasMask/BP_JGasMask.BP_JGasMask
+[2020.07.27-20.51.24:413][443]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-20.51.24:487][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-20.51.24:487][443]PIE: New page: PIE session: TestMap (Jul. 27, 2020, 12:51:24 p.m.)
+[2020.07.27-20.51.24:488][443]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-20.51.24:526][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038124s)
+[2020.07.27-20.51.24:528][443]LogAIModule: Creating AISystem for world TestMap
+[2020.07.27-20.51.24:528][443]LogPlayLevel: PIE: World Init took: (0.002036s)
+[2020.07.27-20.51.24:528][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.040450s)
+[2020.07.27-20.51.24:646][443]LogUObjectHash: Compacting FUObjectHashTables data took  11.79ms
+[2020.07.27-20.51.24:647][443]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-20.51.24:647][443]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-20.51.24:647][443]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-20.51.24:647][443]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-20.51.24:648][443]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-20.51.24:648][443]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-20.51.24:648][443]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-20.51.24:648][443]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-20.51.24:648][443]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-20.51.24:649][443]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-20.51.24:660][443]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-20.51.24:660][443]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.27-20.51.24:660][443]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-20.51.24:660][443]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-20.51.24:660][443]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-20.51.24:660][443]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-20.51.24:660][443]LogAudioMixer: Display: Channel Order:
+[2020.07.27-20.51.24:660][443]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-20.51.24:660][443]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-20.51.24:860][443]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.27-20.51.24:863][443]LogInit: FAudioDevice initialized.
+[2020.07.27-20.51.24:874][443]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.27-20.51.24:880][443]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.27-16.51.24
+[2020.07.27-20.51.24:884][443]LogWorld: Bringing up level for play took: 0.008987
+[2020.07.27-20.51.24:884][443]LogOnline: OSS: Creating online subsystem instance for: :Context_63
+[2020.07.27-20.51.24:897][443]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.816
+[2020.07.27-20.51.34:412][984]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.51.34:417][984]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-20.51.34:438][984]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-20.51.34:450][984]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-20.51.34:450][984]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-20.51.34:450][984]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.51.34:451][984]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-20.51.34:454][984]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-20.51.34:486][984]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-20.51.34:505][984]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-20.51.34:570][984]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.51.34:576][984]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-20.51.34:587][984]LogUObjectHash: Compacting FUObjectHashTables data took   8.70ms
+[2020.07.27-20.51.34:635][985]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2020.07.27-20.51.36:759][ 91]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-20.51.36:821][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-20.51.36:822][ 91]PIE: New page: PIE session: TestMap (Jul. 27, 2020, 12:51:36 p.m.)
+[2020.07.27-20.51.36:822][ 91]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-20.51.36:842][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020313s)
+[2020.07.27-20.51.36:843][ 91]LogAIModule: Creating AISystem for world TestMap
+[2020.07.27-20.51.36:843][ 91]LogPlayLevel: PIE: World Init took: (0.001068s)
+[2020.07.27-20.51.36:843][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.021531s)
+[2020.07.27-20.51.36:910][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2020.07.27-20.51.36:911][ 91]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-20.51.36:911][ 91]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-20.51.36:911][ 91]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-20.51.36:911][ 91]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-20.51.36:911][ 91]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-20.51.36:911][ 91]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-20.51.36:911][ 91]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-20.51.36:911][ 91]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-20.51.36:912][ 91]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-20.51.36:912][ 91]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-20.51.36:921][ 91]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-20.51.36:921][ 91]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.27-20.51.36:921][ 91]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-20.51.36:921][ 91]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-20.51.36:921][ 91]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-20.51.36:921][ 91]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-20.51.36:921][ 91]LogAudioMixer: Display: Channel Order:
+[2020.07.27-20.51.36:921][ 91]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-20.51.36:921][ 91]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-20.51.37:082][ 91]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.27-20.51.37:085][ 91]LogInit: FAudioDevice initialized.
+[2020.07.27-20.51.37:092][ 91]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.27-20.51.37:096][ 91]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.27-16.51.37
+[2020.07.27-20.51.37:098][ 91]LogWorld: Bringing up level for play took: 0.005140
+[2020.07.27-20.51.37:099][ 91]LogOnline: OSS: Creating online subsystem instance for: :Context_64
+[2020.07.27-20.51.37:105][ 91]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 1.023
+[2020.07.27-20.52.20:579][624]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.52.20:598][624]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-20.52.20:628][624]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-20.52.20:632][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-20.52.20:632][624]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-20.52.20:632][624]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.52.20:632][624]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-20.52.20:632][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-20.52.20:644][624]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-20.52.20:652][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-20.52.20:698][624]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.52.20:702][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-20.52.20:707][624]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2020.07.27-20.52.20:740][625]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2020.07.27-20.52.25:882][923]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.07.27-20.52.27:447][923]LogSlate: Window 'Save Content' being destroyed
+[2020.07.27-20.52.27:600][923]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.07.27-20.52.27:729][923]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/TestMapED4EC7B24C20E8875D30D2912B5D7275.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JLevels/TestMap.umap'
+[2020.07.27-20.52.27:827][923]LogFileHelpers: Saving map 'TestMap' took 0.305
+[2020.07.27-20.52.27:842][923]AssetCheck: New page: Asset Save: TestMap
+[2020.07.27-20.52.27:842][923]LogContentValidation: Display: Validating World /Game/Julian/JLevels/TestMap.TestMap
+[2020.07.27-20.53.04:180][396]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-20.53.04:251][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-20.53.04:251][396]PIE: New page: PIE session: TestMap (Jul. 27, 2020, 12:53:04 p.m.)
+[2020.07.27-20.53.04:252][396]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-20.53.04:291][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038060s)
+[2020.07.27-20.53.04:292][396]LogAIModule: Creating AISystem for world TestMap
+[2020.07.27-20.53.04:292][396]LogPlayLevel: PIE: World Init took: (0.001517s)
+[2020.07.27-20.53.04:292][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.039819s)
+[2020.07.27-20.53.04:358][396]LogUObjectHash: Compacting FUObjectHashTables data took   7.07ms
+[2020.07.27-20.53.04:359][396]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-20.53.04:359][396]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-20.53.04:359][396]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-20.53.04:359][396]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-20.53.04:359][396]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-20.53.04:359][396]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-20.53.04:360][396]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-20.53.04:360][396]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-20.53.04:360][396]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-20.53.04:360][396]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-20.53.04:367][396]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-20.53.04:367][396]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.27-20.53.04:367][396]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-20.53.04:367][396]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-20.53.04:367][396]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-20.53.04:367][396]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-20.53.04:367][396]LogAudioMixer: Display: Channel Order:
+[2020.07.27-20.53.04:367][396]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-20.53.04:367][396]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-20.53.04:495][396]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.27-20.53.04:498][396]LogInit: FAudioDevice initialized.
+[2020.07.27-20.53.04:508][396]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.27-20.53.04:511][396]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.27-16.53.04
+[2020.07.27-20.53.04:513][396]LogWorld: Bringing up level for play took: 0.004203
+[2020.07.27-20.53.04:513][396]LogOnline: OSS: Creating online subsystem instance for: :Context_65
+[2020.07.27-20.53.04:521][396]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.439
+[2020.07.27-20.53.24:794][568]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.53.24:797][568]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-20.53.24:828][568]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-20.53.24:832][568]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-20.53.24:832][568]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-20.53.24:832][568]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.53.24:832][568]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-20.53.24:834][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-20.53.24:844][568]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-20.53.24:856][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-20.53.24:930][568]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.53.24:935][568]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-20.53.24:945][568]LogUObjectHash: Compacting FUObjectHashTables data took   7.10ms
+[2020.07.27-20.53.24:982][569]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2020.07.27-20.53.26:776][654]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-20.53.26:835][654]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-20.53.26:835][654]PIE: New page: PIE session: TestMap (Jul. 27, 2020, 12:53:26 p.m.)
+[2020.07.27-20.53.26:835][654]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-20.53.26:861][654]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026492s)
+[2020.07.27-20.53.26:862][654]LogAIModule: Creating AISystem for world TestMap
+[2020.07.27-20.53.26:863][654]LogPlayLevel: PIE: World Init took: (0.001706s)
+[2020.07.27-20.53.26:863][654]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.028419s)
+[2020.07.27-20.53.26:925][654]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2020.07.27-20.53.26:927][654]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-20.53.26:927][654]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-20.53.26:927][654]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-20.53.26:927][654]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-20.53.26:927][654]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-20.53.26:927][654]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-20.53.26:927][654]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-20.53.26:927][654]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-20.53.26:928][654]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-20.53.26:928][654]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-20.53.26:933][654]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-20.53.26:933][654]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.27-20.53.26:933][654]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-20.53.26:933][654]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-20.53.26:933][654]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-20.53.26:933][654]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-20.53.26:933][654]LogAudioMixer: Display: Channel Order:
+[2020.07.27-20.53.26:933][654]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-20.53.26:933][654]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-20.53.27:090][654]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.27-20.53.27:093][654]LogInit: FAudioDevice initialized.
+[2020.07.27-20.53.27:114][654]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.27-20.53.27:122][654]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.27-16.53.27
+[2020.07.27-20.53.27:126][654]LogWorld: Bringing up level for play took: 0.010434
+[2020.07.27-20.53.27:127][654]LogOnline: OSS: Creating online subsystem instance for: :Context_66
+[2020.07.27-20.53.27:136][654]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 1.054
+[2020.07.27-20.54.12:311][272]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.54.12:317][272]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-20.54.12:337][272]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-20.54.12:347][272]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-20.54.12:347][272]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-20.54.12:348][272]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.54.12:348][272]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-20.54.12:351][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-20.54.12:366][272]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-20.54.12:374][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-20.54.12:423][272]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-20.54.12:429][272]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-20.54.12:439][272]LogUObjectHash: Compacting FUObjectHashTables data took   6.40ms
+[2020.07.27-20.54.12:489][273]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2020.07.27-20.54.15:582][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.07.27-20.57.39:828][869]BlueprintLog: New page: Compile BP_JBasePlayer
+[2020.07.27-20.57.40:642][869]LogUObjectHash: Compacting FUObjectHashTables data took   7.98ms
+[2020.07.27-20.57.41:656][869]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JBasePlayer2FE8D3624C3FA8BEBF21B3BF7AA0912B.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/BP_JBasePlayer.uasset'
+[2020.07.27-20.57.41:691][869]AssetCheck: New page: Asset Save: BP_JBasePlayer
+[2020.07.27-20.57.41:691][869]LogContentValidation: Display: Validating Blueprint /Game/Julian/JCharacter/BP_JBasePlayer.BP_JBasePlayer
+[2020.07.27-20.57.44:629][987]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JBasePlayer6691F1F6445C934ECA52758556F51E25.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/BP_JBasePlayer.uasset'
+[2020.07.27-20.57.44:650][987]AssetCheck: New page: Asset Save: BP_JBasePlayer
+[2020.07.27-20.57.44:650][987]LogContentValidation: Display: Validating Blueprint /Game/Julian/JCharacter/BP_JBasePlayer.BP_JBasePlayer
+[2020.07.27-21.04.11:597][794]BlueprintLog: New page: Compile BP_JBasePlayer
+[2020.07.27-21.04.12:304][794]LogUObjectHash: Compacting FUObjectHashTables data took  10.78ms
+[2020.07.27-21.04.12:789][794]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JBasePlayer641F5C914FBECEF423989EB0B57B8AE2.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/BP_JBasePlayer.uasset'
+[2020.07.27-21.04.12:812][794]AssetCheck: New page: Asset Save: BP_JBasePlayer
+[2020.07.27-21.04.12:812][794]LogContentValidation: Display: Validating Blueprint /Game/Julian/JCharacter/BP_JBasePlayer.BP_JBasePlayer
+[2020.07.27-21.04.14:265][830]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JBasePlayer35457C7C40C3D87BD4F798BC51D09D4D.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/BP_JBasePlayer.uasset'
+[2020.07.27-21.04.14:288][830]AssetCheck: New page: Asset Save: BP_JBasePlayer
+[2020.07.27-21.04.14:288][830]LogContentValidation: Display: Validating Blueprint /Game/Julian/JCharacter/BP_JBasePlayer.BP_JBasePlayer
+[2020.07.27-21.04.17:387][993]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-21.04.17:469][993]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-21.04.17:470][993]PIE: New page: PIE session: TestMap (Jul. 27, 2020, 1:04:17 p.m.)
+[2020.07.27-21.04.17:471][993]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-21.04.17:514][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042834s)
+[2020.07.27-21.04.17:516][993]LogAIModule: Creating AISystem for world TestMap
+[2020.07.27-21.04.17:516][993]LogPlayLevel: PIE: World Init took: (0.002215s)
+[2020.07.27-21.04.17:516][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.045299s)
+[2020.07.27-21.04.17:584][993]LogUObjectHash: Compacting FUObjectHashTables data took   7.99ms
+[2020.07.27-21.04.17:586][993]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-21.04.17:586][993]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-21.04.17:586][993]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-21.04.17:586][993]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-21.04.17:586][993]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-21.04.17:586][993]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-21.04.17:586][993]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-21.04.17:586][993]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-21.04.17:587][993]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-21.04.17:587][993]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-21.04.17:594][993]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-21.04.17:594][993]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.27-21.04.17:595][993]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-21.04.17:595][993]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-21.04.17:595][993]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-21.04.17:595][993]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-21.04.17:595][993]LogAudioMixer: Display: Channel Order:
+[2020.07.27-21.04.17:595][993]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-21.04.17:595][993]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-21.04.17:734][993]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.27-21.04.17:737][993]LogInit: FAudioDevice initialized.
+[2020.07.27-21.04.17:744][993]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.27-21.04.17:749][993]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.27-17.04.17
+[2020.07.27-21.04.17:751][993]LogWorld: Bringing up level for play took: 0.006905
+[2020.07.27-21.04.17:751][993]LogOnline: OSS: Creating online subsystem instance for: :Context_67
+[2020.07.27-21.04.17:760][993]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap -0.321
+[2020.07.27-21.04.32:887][872]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.04.32:887][872]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-21.04.32:907][872]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-21.04.32:911][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.04.32:911][872]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-21.04.32:911][872]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.04.32:911][872]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.04.32:911][872]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.04.32:924][872]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-21.04.32:930][872]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.04.32:978][872]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.04.32:982][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.04.32:989][872]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2020.07.27-21.04.33:021][873]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2020.07.27-21.05.28:943][184]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-21.05.29:031][184]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-21.05.29:032][184]PIE: New page: PIE session: TestMap (Jul. 27, 2020, 1:05:29 p.m.)
+[2020.07.27-21.05.29:033][184]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-21.05.29:078][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046214s)
+[2020.07.27-21.05.29:080][184]LogAIModule: Creating AISystem for world TestMap
+[2020.07.27-21.05.29:080][184]LogPlayLevel: PIE: World Init took: (0.001824s)
+[2020.07.27-21.05.29:080][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.048325s)
+[2020.07.27-21.05.29:157][184]LogUObjectHash: Compacting FUObjectHashTables data took   6.80ms
+[2020.07.27-21.05.29:159][184]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-21.05.29:159][184]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-21.05.29:159][184]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-21.05.29:159][184]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-21.05.29:159][184]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-21.05.29:159][184]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-21.05.29:159][184]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-21.05.29:159][184]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-21.05.29:160][184]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-21.05.29:160][184]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-21.05.29:170][184]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-21.05.29:170][184]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.27-21.05.29:170][184]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-21.05.29:170][184]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-21.05.29:170][184]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-21.05.29:170][184]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-21.05.29:170][184]LogAudioMixer: Display: Channel Order:
+[2020.07.27-21.05.29:170][184]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-21.05.29:170][184]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-21.05.29:320][184]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.27-21.05.29:322][184]LogInit: FAudioDevice initialized.
+[2020.07.27-21.05.29:331][184]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.27-21.05.29:334][184]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.27-17.05.29
+[2020.07.27-21.05.29:336][184]LogWorld: Bringing up level for play took: 0.004652
+[2020.07.27-21.05.29:336][184]LogOnline: OSS: Creating online subsystem instance for: :Context_68
+[2020.07.27-21.05.29:343][184]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 1.261
+[2020.07.27-21.05.41:317][864]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.05.41:337][864]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-21.05.41:357][864]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-21.05.41:371][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.05.41:372][864]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-21.05.41:372][864]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.05.41:372][864]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.05.41:373][864]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.05.41:389][864]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-21.05.41:400][864]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.05.41:467][864]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.05.41:474][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.05.41:487][864]LogUObjectHash: Compacting FUObjectHashTables data took   8.08ms
+[2020.07.27-21.05.41:535][865]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2020.07.27-21.06.40:351][300]BlueprintLog: New page: Compile BP_JBasePlayer
+[2020.07.27-21.06.41:028][300]LogUObjectHash: Compacting FUObjectHashTables data took   6.13ms
+[2020.07.27-21.06.41:608][300]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JBasePlayer6588B5E641EDEE92DCAA90BF7DB52041.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/BP_JBasePlayer.uasset'
+[2020.07.27-21.06.41:627][300]AssetCheck: New page: Asset Save: BP_JBasePlayer
+[2020.07.27-21.06.41:627][300]LogContentValidation: Display: Validating Blueprint /Game/Julian/JCharacter/BP_JBasePlayer.BP_JBasePlayer
+[2020.07.27-21.06.42:970][331]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JBasePlayer2B79B11A4A997DE828E7D9969D276231.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/BP_JBasePlayer.uasset'
+[2020.07.27-21.06.42:987][331]AssetCheck: New page: Asset Save: BP_JBasePlayer
+[2020.07.27-21.06.42:987][331]LogContentValidation: Display: Validating Blueprint /Game/Julian/JCharacter/BP_JBasePlayer.BP_JBasePlayer
+[2020.07.27-21.06.46:261][505]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-21.06.46:329][505]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-21.06.46:329][505]PIE: New page: PIE session: TestMap (Jul. 27, 2020, 1:06:46 p.m.)
+[2020.07.27-21.06.46:330][505]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-21.06.46:351][505]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020858s)
+[2020.07.27-21.06.46:352][505]LogAIModule: Creating AISystem for world TestMap
+[2020.07.27-21.06.46:352][505]LogPlayLevel: PIE: World Init took: (0.001154s)
+[2020.07.27-21.06.46:352][505]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.022178s)
+[2020.07.27-21.06.46:430][505]LogUObjectHash: Compacting FUObjectHashTables data took  10.94ms
+[2020.07.27-21.06.46:432][505]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-21.06.46:432][505]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-21.06.46:433][505]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-21.06.46:433][505]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-21.06.46:433][505]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-21.06.46:433][505]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-21.06.46:433][505]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-21.06.46:433][505]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-21.06.46:434][505]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-21.06.46:434][505]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-21.06.46:442][505]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-21.06.46:442][505]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.27-21.06.46:442][505]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-21.06.46:442][505]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-21.06.46:442][505]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-21.06.46:442][505]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-21.06.46:442][505]LogAudioMixer: Display: Channel Order:
+[2020.07.27-21.06.46:442][505]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-21.06.46:443][505]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-21.06.46:608][505]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.27-21.06.46:610][505]LogInit: FAudioDevice initialized.
+[2020.07.27-21.06.46:623][505]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.27-21.06.46:628][505]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.27-17.06.46
+[2020.07.27-21.06.46:630][505]LogWorld: Bringing up level for play took: 0.006433
+[2020.07.27-21.06.46:630][505]LogOnline: OSS: Creating online subsystem instance for: :Context_69
+[2020.07.27-21.06.46:638][505]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.557
+[2020.07.27-21.06.57:605][138]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.06.57:616][138]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-21.06.57:637][138]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-21.06.57:639][138]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.06.57:639][138]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-21.06.57:639][138]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.06.57:639][138]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.06.57:640][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.06.57:649][138]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-21.06.57:655][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.06.57:701][138]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.06.57:705][138]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.06.57:711][138]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2020.07.27-21.06.57:741][139]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2020.07.27-21.06.59:982][250]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-21.07.00:073][250]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-21.07.00:073][250]PIE: New page: PIE session: TestMap (Jul. 27, 2020, 1:07:00 p.m.)
+[2020.07.27-21.07.00:074][250]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-21.07.00:124][250]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050034s)
+[2020.07.27-21.07.00:126][250]LogAIModule: Creating AISystem for world TestMap
+[2020.07.27-21.07.00:126][250]LogPlayLevel: PIE: World Init took: (0.001808s)
+[2020.07.27-21.07.00:126][250]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.052118s)
+[2020.07.27-21.07.00:200][250]LogUObjectHash: Compacting FUObjectHashTables data took   5.27ms
+[2020.07.27-21.07.00:201][250]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-21.07.00:201][250]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-21.07.00:201][250]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-21.07.00:201][250]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-21.07.00:201][250]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-21.07.00:201][250]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-21.07.00:201][250]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-21.07.00:201][250]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-21.07.00:202][250]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-21.07.00:202][250]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-21.07.00:210][250]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-21.07.00:210][250]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.27-21.07.00:211][250]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-21.07.00:211][250]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-21.07.00:211][250]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-21.07.00:211][250]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-21.07.00:211][250]LogAudioMixer: Display: Channel Order:
+[2020.07.27-21.07.00:211][250]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-21.07.00:211][250]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-21.07.00:370][250]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.27-21.07.00:372][250]LogInit: FAudioDevice initialized.
+[2020.07.27-21.07.00:379][250]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.27-21.07.00:382][250]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.27-17.07.00
+[2020.07.27-21.07.00:384][250]LogWorld: Bringing up level for play took: 0.004717
+[2020.07.27-21.07.00:385][250]LogOnline: OSS: Creating online subsystem instance for: :Context_70
+[2020.07.27-21.07.00:390][250]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.309
+[2020.07.27-21.07.19:916][379]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.07.19:917][379]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-21.07.19:936][379]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-21.07.19:939][379]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.07.19:939][379]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-21.07.19:939][379]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.07.19:939][379]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.07.19:939][379]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.07.19:951][379]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-21.07.19:957][379]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.07.20:001][379]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.07.20:006][379]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.07.20:012][379]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2020.07.27-21.07.20:042][380]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2020.07.27-21.08.22:383][972]BlueprintLog: New page: Compile BP_JBasePlayer
+[2020.07.27-21.08.23:069][972]LogUObjectHash: Compacting FUObjectHashTables data took   6.45ms
+[2020.07.27-21.08.23:657][972]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JBasePlayer88C81722442D74AFAE36D4B81332C5A0.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/BP_JBasePlayer.uasset'
+[2020.07.27-21.08.23:679][972]AssetCheck: New page: Asset Save: BP_JBasePlayer
+[2020.07.27-21.08.23:679][972]LogContentValidation: Display: Validating Blueprint /Game/Julian/JCharacter/BP_JBasePlayer.BP_JBasePlayer
+[2020.07.27-21.08.25:078][  9]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JBasePlayerF52843F0429E2CB6DF008F8659E74EE1.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JCharacter/BP_JBasePlayer.uasset'
+[2020.07.27-21.08.25:111][  9]AssetCheck: New page: Asset Save: BP_JBasePlayer
+[2020.07.27-21.08.25:111][  9]LogContentValidation: Display: Validating Blueprint /Game/Julian/JCharacter/BP_JBasePlayer.BP_JBasePlayer
+[2020.07.27-21.08.28:454][192]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-21.08.28:537][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-21.08.28:537][192]PIE: New page: PIE session: TestMap (Jul. 27, 2020, 1:08:28 p.m.)
+[2020.07.27-21.08.28:539][192]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-21.08.28:582][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042959s)
+[2020.07.27-21.08.28:583][192]LogAIModule: Creating AISystem for world TestMap
+[2020.07.27-21.08.28:584][192]LogPlayLevel: PIE: World Init took: (0.001775s)
+[2020.07.27-21.08.28:584][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.045043s)
+[2020.07.27-21.08.28:665][192]LogUObjectHash: Compacting FUObjectHashTables data took  10.47ms
+[2020.07.27-21.08.28:667][192]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-21.08.28:667][192]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-21.08.28:667][192]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-21.08.28:667][192]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-21.08.28:667][192]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-21.08.28:667][192]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-21.08.28:667][192]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-21.08.28:667][192]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-21.08.28:668][192]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-21.08.28:668][192]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-21.08.28:676][192]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-21.08.28:676][192]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.27-21.08.28:676][192]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-21.08.28:676][192]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-21.08.28:676][192]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-21.08.28:676][192]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-21.08.28:677][192]LogAudioMixer: Display: Channel Order:
+[2020.07.27-21.08.28:677][192]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-21.08.28:677][192]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-21.08.28:836][192]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.27-21.08.28:839][192]LogInit: FAudioDevice initialized.
+[2020.07.27-21.08.28:853][192]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.27-21.08.28:859][192]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.27-17.08.28
+[2020.07.27-21.08.28:863][192]LogWorld: Bringing up level for play took: 0.008757
+[2020.07.27-21.08.28:863][192]LogOnline: OSS: Creating online subsystem instance for: :Context_71
+[2020.07.27-21.08.28:874][192]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.793
+[2020.07.27-21.08.46:059][171]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.08.46:076][171]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-21.08.46:096][171]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-21.08.46:101][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.08.46:101][171]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-21.08.46:101][171]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.08.46:102][171]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.08.46:103][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.08.46:118][171]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-21.08.46:130][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.08.46:180][171]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.08.46:184][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.08.46:190][171]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2020.07.27-21.08.46:218][172]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2020.07.27-21.08.48:432][279]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-21.08.48:499][279]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-21.08.48:499][279]PIE: New page: PIE session: TestMap (Jul. 27, 2020, 1:08:48 p.m.)
+[2020.07.27-21.08.48:500][279]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-21.08.48:551][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050583s)
+[2020.07.27-21.08.48:553][279]LogAIModule: Creating AISystem for world TestMap
+[2020.07.27-21.08.48:553][279]LogPlayLevel: PIE: World Init took: (0.002197s)
+[2020.07.27-21.08.48:553][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.053019s)
+[2020.07.27-21.08.48:623][279]LogUObjectHash: Compacting FUObjectHashTables data took   6.29ms
+[2020.07.27-21.08.48:624][279]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-21.08.48:624][279]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-21.08.48:624][279]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-21.08.48:624][279]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-21.08.48:624][279]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-21.08.48:624][279]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-21.08.48:624][279]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-21.08.48:624][279]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-21.08.48:624][279]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-21.08.48:624][279]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-21.08.48:631][279]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-21.08.48:631][279]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.27-21.08.48:631][279]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-21.08.48:631][279]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-21.08.48:631][279]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-21.08.48:632][279]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-21.08.48:632][279]LogAudioMixer: Display: Channel Order:
+[2020.07.27-21.08.48:632][279]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-21.08.48:632][279]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-21.08.48:791][279]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.27-21.08.48:794][279]LogInit: FAudioDevice initialized.
+[2020.07.27-21.08.48:802][279]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.27-21.08.48:808][279]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.27-17.08.48
+[2020.07.27-21.08.48:810][279]LogWorld: Bringing up level for play took: 0.006139
+[2020.07.27-21.08.48:810][279]LogOnline: OSS: Creating online subsystem instance for: :Context_72
+[2020.07.27-21.08.48:815][279]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.734
+[2020.07.27-21.09.02:252][ 64]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.09.02:257][ 64]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-21.09.02:276][ 64]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-21.09.02:279][ 64]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.09.02:279][ 64]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-21.09.02:279][ 64]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.09.02:279][ 64]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.09.02:280][ 64]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.09.02:289][ 64]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-21.09.02:296][ 64]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.09.02:365][ 64]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.09.02:372][ 64]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.09.02:383][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   8.23ms
+[2020.07.27-21.09.02:433][ 65]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2020.07.27-21.09.04:970][192]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-21.09.05:046][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-21.09.05:046][192]PIE: New page: PIE session: TestMap (Jul. 27, 2020, 1:09:05 p.m.)
+[2020.07.27-21.09.05:047][192]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-21.09.05:079][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031986s)
+[2020.07.27-21.09.05:080][192]LogAIModule: Creating AISystem for world TestMap
+[2020.07.27-21.09.05:081][192]LogPlayLevel: PIE: World Init took: (0.001467s)
+[2020.07.27-21.09.05:081][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.033689s)
+[2020.07.27-21.09.05:152][192]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2020.07.27-21.09.05:153][192]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-21.09.05:153][192]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-21.09.05:153][192]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-21.09.05:153][192]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-21.09.05:153][192]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-21.09.05:153][192]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-21.09.05:153][192]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-21.09.05:153][192]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-21.09.05:153][192]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-21.09.05:153][192]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-21.09.05:160][192]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-21.09.05:160][192]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.27-21.09.05:160][192]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-21.09.05:160][192]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-21.09.05:160][192]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-21.09.05:160][192]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-21.09.05:160][192]LogAudioMixer: Display: Channel Order:
+[2020.07.27-21.09.05:160][192]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-21.09.05:160][192]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-21.09.05:295][192]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.27-21.09.05:297][192]LogInit: FAudioDevice initialized.
+[2020.07.27-21.09.05:310][192]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.27-21.09.05:315][192]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.27-17.09.05
+[2020.07.27-21.09.05:318][192]LogWorld: Bringing up level for play took: 0.007183
+[2020.07.27-21.09.05:319][192]LogOnline: OSS: Creating online subsystem instance for: :Context_73
+[2020.07.27-21.09.05:325][192]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 1.244
+[2020.07.27-21.09.23:044][207]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.09.23:046][207]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-21.09.23:076][207]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-21.09.23:087][207]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.09.23:088][207]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-21.09.23:088][207]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.09.23:088][207]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.09.23:090][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.09.23:115][207]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-21.09.23:131][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.09.23:186][207]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.09.23:190][207]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.09.23:195][207]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2020.07.27-21.09.23:223][208]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2020.07.27-21.09.26:337][379]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-21.09.26:427][379]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-21.09.26:427][379]PIE: New page: PIE session: TestMap (Jul. 27, 2020, 1:09:26 p.m.)
+[2020.07.27-21.09.26:427][379]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-21.09.26:475][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047898s)
+[2020.07.27-21.09.26:477][379]LogAIModule: Creating AISystem for world TestMap
+[2020.07.27-21.09.26:477][379]LogPlayLevel: PIE: World Init took: (0.001897s)
+[2020.07.27-21.09.26:478][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.050150s)
+[2020.07.27-21.09.26:554][379]LogUObjectHash: Compacting FUObjectHashTables data took   7.44ms
+[2020.07.27-21.09.26:555][379]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-21.09.26:555][379]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-21.09.26:555][379]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-21.09.26:555][379]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-21.09.26:555][379]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-21.09.26:555][379]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-21.09.26:555][379]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-21.09.26:555][379]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-21.09.26:556][379]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-21.09.26:556][379]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-21.09.26:563][379]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-21.09.26:563][379]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.27-21.09.26:563][379]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-21.09.26:563][379]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-21.09.26:564][379]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-21.09.26:564][379]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-21.09.26:564][379]LogAudioMixer: Display: Channel Order:
+[2020.07.27-21.09.26:564][379]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-21.09.26:564][379]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-21.09.26:721][379]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.27-21.09.26:723][379]LogInit: FAudioDevice initialized.
+[2020.07.27-21.09.26:732][379]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.27-21.09.26:736][379]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.27-17.09.26
+[2020.07.27-21.09.26:739][379]LogWorld: Bringing up level for play took: 0.006185
+[2020.07.27-21.09.26:739][379]LogOnline: OSS: Creating online subsystem instance for: :Context_74
+[2020.07.27-21.09.26:745][379]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.664
+[2020.07.27-21.09.45:883][489]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.09.45:896][489]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-21.09.45:916][489]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-21.09.45:919][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.09.45:920][489]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-21.09.45:920][489]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.09.45:920][489]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.09.45:921][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.09.45:933][489]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-21.09.45:942][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.09.46:026][489]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.09.46:032][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.09.46:039][489]LogUObjectHash: Compacting FUObjectHashTables data took   5.39ms
+[2020.07.27-21.09.46:086][490]LogPlayLevel: Display: Destroying online subsystem :Context_74
+[2020.07.27-21.09.48:139][592]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-21.09.48:220][592]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-21.09.48:220][592]PIE: New page: PIE session: TestMap (Jul. 27, 2020, 1:09:48 p.m.)
+[2020.07.27-21.09.48:221][592]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-21.09.48:249][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027704s)
+[2020.07.27-21.09.48:250][592]LogAIModule: Creating AISystem for world TestMap
+[2020.07.27-21.09.48:250][592]LogPlayLevel: PIE: World Init took: (0.001180s)
+[2020.07.27-21.09.48:250][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/TestMap.TestMap to /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap (0.029058s)
+[2020.07.27-21.09.48:307][592]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
+[2020.07.27-21.09.48:307][592]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-21.09.48:307][592]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-21.09.48:307][592]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-21.09.48:307][592]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-21.09.48:307][592]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-21.09.48:307][592]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-21.09.48:307][592]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-21.09.48:308][592]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-21.09.48:308][592]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-21.09.48:308][592]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-21.09.48:313][592]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-21.09.48:313][592]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.27-21.09.48:313][592]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-21.09.48:313][592]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-21.09.48:313][592]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-21.09.48:313][592]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-21.09.48:313][592]LogAudioMixer: Display: Channel Order:
+[2020.07.27-21.09.48:314][592]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-21.09.48:314][592]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-21.09.48:460][592]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.27-21.09.48:462][592]LogInit: FAudioDevice initialized.
+[2020.07.27-21.09.48:475][592]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.27-21.09.48:479][592]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.07.27-17.09.48
+[2020.07.27-21.09.48:481][592]LogWorld: Bringing up level for play took: 0.005334
+[2020.07.27-21.09.48:481][592]LogOnline: OSS: Creating online subsystem instance for: :Context_75
+[2020.07.27-21.09.48:487][592]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_TestMap 0.406
+[2020.07.27-21.10.01:398][334]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.10.01:406][334]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-21.10.01:436][334]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-21.10.01:440][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.10.01:441][334]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_TestMap
+[2020.07.27-21.10.01:441][334]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.10.01:441][334]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.10.01:443][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.10.01:459][334]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-21.10.01:467][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.10.01:542][334]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.10.01:548][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.10.01:557][334]LogUObjectHash: Compacting FUObjectHashTables data took   5.89ms
+[2020.07.27-21.10.01:603][335]LogPlayLevel: Display: Destroying online subsystem :Context_75
+[2020.07.27-21.10.04:980][527]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
