@@ -127,6 +127,11 @@ void AJBasePlayer::Tick(float DeltaTime)
 
 	   SetActorRotation(AnnexTurning);
 	}
+
+	if (Health * 100 < Hp)
+	{
+		Hp = Health * 100;
+	}
 }
 
 FRotator AJBasePlayer::GetSightTurning(FVector Goal)
