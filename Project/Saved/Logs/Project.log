@@ -9717,3 +9717,215 @@ Make sure 'BP_HintGuide_C' has been compiled for  Get WidgetNotifications
 [2020.07.27-04.00.59:009][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2020.07.27-04.00.59:017][147]LogUObjectHash: Compacting FUObjectHashTables data took   5.38ms
 [2020.07.27-04.00.59:061][148]LogPlayLevel: Display: Destroying online subsystem :Context_147
+[2020.07.27-04.02.55:661][584]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-04.02.55:662][584]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-04.04.18:751][515]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Julian/HUD/WBP_HUD.WBP_HUD
+[2020.07.27-04.04.22:182][649]LogSlate: Took 0.021917 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.07.27-04.07.46:805][281]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Julian/JBP_Classes/BP_JGameModeBase.BP_JGameModeBase
+[2020.07.27-04.08.12:330][721]BlueprintLog: New page: Compile BP_JGameModeBase
+[2020.07.27-04.08.12:830][721]LogUObjectHash: Compacting FUObjectHashTables data took   8.79ms
+[2020.07.27-04.08.13:028][721]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JGameModeBase8FD575EB4B6936174DD252A373D57245.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_JGameModeBase.uasset'
+[2020.07.27-04.08.13:048][721]AssetCheck: New page: Asset Save: BP_JGameModeBase
+[2020.07.27-04.08.13:049][721]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_JGameModeBase.BP_JGameModeBase
+[2020.07.27-04.08.13:991][765]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JGameModeBase738060184DFB064D4D70D7A851F821A1.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_JGameModeBase.uasset'
+[2020.07.27-04.08.14:013][765]AssetCheck: New page: Asset Save: BP_JGameModeBase
+[2020.07.27-04.08.14:013][765]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_JGameModeBase.BP_JGameModeBase
+[2020.07.27-04.10.05:414][311]BlueprintLog: New page: Compile BP_JGameModeBase
+[2020.07.27-04.10.05:979][311]LogUObjectHash: Compacting FUObjectHashTables data took   8.48ms
+[2020.07.27-04.10.06:116][311]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JGameModeBaseC4D2D906403082276931A58E3D7EB652.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_JGameModeBase.uasset'
+[2020.07.27-04.10.06:137][311]AssetCheck: New page: Asset Save: BP_JGameModeBase
+[2020.07.27-04.10.06:137][311]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_JGameModeBase.BP_JGameModeBase
+[2020.07.27-04.10.08:129][415]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JGameModeBase4FDE09D74EB0EEB4BE61679AB8DD7A65.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_JGameModeBase.uasset'
+[2020.07.27-04.10.08:150][415]AssetCheck: New page: Asset Save: BP_JGameModeBase
+[2020.07.27-04.10.08:150][415]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_JGameModeBase.BP_JGameModeBase
+[2020.07.27-04.10.23:676][720]LogSlate: Window 'Color Picker' being destroyed
+[2020.07.27-04.10.24:945][787]BlueprintLog: New page: Compile BP_JGameModeBase
+[2020.07.27-04.10.25:392][787]LogUObjectHash: Compacting FUObjectHashTables data took   7.08ms
+[2020.07.27-04.10.25:522][787]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JGameModeBase5530C487426F4FF97EF88B8F2588C496.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_JGameModeBase.uasset'
+[2020.07.27-04.10.25:543][787]AssetCheck: New page: Asset Save: BP_JGameModeBase
+[2020.07.27-04.10.25:543][787]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_JGameModeBase.BP_JGameModeBase
+[2020.07.27-04.10.26:370][825]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/BP_JGameModeBaseB1B521534520FE350EBC1DAF14805C45.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JBP_Classes/BP_JGameModeBase.uasset'
+[2020.07.27-04.10.26:392][825]AssetCheck: New page: Asset Save: BP_JGameModeBase
+[2020.07.27-04.10.26:392][825]LogContentValidation: Display: Validating Blueprint /Game/Julian/JBP_Classes/BP_JGameModeBase.BP_JGameModeBase
+[2020.07.27-04.10.29:494][991]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-04.10.29:572][991]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel' with GeneratedClass '/Game/Julian/JLevels/IntroLevel.IntroLevel_C' with ClassGeneratedBy '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel'
+[2020.07.27-04.10.29:572][991]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-04.10.29:572][991]PIE: New page: PIE session: IntroLevel (Jul. 26, 2020, 8:10:29 p.m.)
+[2020.07.27-04.10.29:574][991]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_IntroLevel
+[2020.07.27-04.10.29:711][991]LogPlayLevel: PIE: StaticDuplicateObject took: (0.135714s)
+[2020.07.27-04.10.29:712][991]LogAIModule: Creating AISystem for world IntroLevel
+[2020.07.27-04.10.29:713][991]LogPlayLevel: PIE: World Init took: (0.002101s)
+[2020.07.27-04.10.29:713][991]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/IntroLevel.IntroLevel to /Game/Julian/JLevels/UEDPIE_0_IntroLevel.IntroLevel (0.138168s)
+[2020.07.27-04.10.29:794][991]LogUObjectHash: Compacting FUObjectHashTables data took   8.51ms
+[2020.07.27-04.10.29:796][991]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-04.10.29:796][991]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-04.10.29:796][991]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-04.10.29:796][991]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-04.10.29:796][991]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-04.10.29:796][991]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-04.10.29:796][991]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-04.10.29:796][991]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-04.10.29:796][991]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-04.10.29:796][991]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-04.10.29:804][991]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-04.10.29:805][991]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.27-04.10.29:805][991]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-04.10.29:805][991]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-04.10.29:805][991]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-04.10.29:805][991]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-04.10.29:805][991]LogAudioMixer: Display: Channel Order:
+[2020.07.27-04.10.29:805][991]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-04.10.29:805][991]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-04.10.29:964][991]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.27-04.10.29:972][991]LogInit: FAudioDevice initialized.
+[2020.07.27-04.10.29:989][991]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.27-04.10.29:999][991]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_IntroLevel.IntroLevel up for play (max tick rate 60) at 2020.07.27-00.10.29
+[2020.07.27-04.10.30:000][991]LogWorld: Bringing up level for play took: 0.010210
+[2020.07.27-04.10.30:001][991]LogOnline: OSS: Creating online subsystem instance for: :Context_153
+[2020.07.27-04.10.30:019][991]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_IntroLevel 0.501
+[2020.07.27-04.10.30:020][991]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel' with GeneratedClass '/Game/Julian/JLevels/IntroLevel.IntroLevel_C' with ClassGeneratedBy '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel'
+[2020.07.27-04.10.45:349][863]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-04.10.45:349][863]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-04.10.45:350][863]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel' with GeneratedClass '/Game/Julian/JLevels/IntroLevel.IntroLevel_C' with ClassGeneratedBy '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel'
+[2020.07.27-04.10.45:351][863]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-04.10.45:351][863]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_IntroLevel
+[2020.07.27-04.10.45:352][863]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-04.10.45:352][863]LogWorld: UWorld::CleanupWorld for IntroLevel, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-04.10.45:354][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-04.10.45:376][863]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-04.10.45:376][863]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel' with GeneratedClass '/Game/Julian/JLevels/IntroLevel.IntroLevel_C' with ClassGeneratedBy '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel'
+[2020.07.27-04.10.45:392][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-04.10.45:452][863]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-04.10.45:457][863]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-04.10.45:468][863]LogUObjectHash: Compacting FUObjectHashTables data took   6.59ms
+[2020.07.27-04.10.45:518][864]LogPlayLevel: Display: Destroying online subsystem :Context_153
+[2020.07.27-04.10.46:708][924]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2020.07.27-04.10.54:261][347]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-04.10.54:339][347]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel' with GeneratedClass '/Game/Julian/JLevels/IntroLevel.IntroLevel_C' with ClassGeneratedBy '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel'
+[2020.07.27-04.10.54:339][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-04.10.54:339][347]PIE: New page: PIE session: IntroLevel (Jul. 26, 2020, 8:10:54 p.m.)
+[2020.07.27-04.10.54:342][347]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_IntroLevel
+[2020.07.27-04.10.54:411][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068685s)
+[2020.07.27-04.10.54:413][347]LogAIModule: Creating AISystem for world IntroLevel
+[2020.07.27-04.10.54:413][347]LogPlayLevel: PIE: World Init took: (0.002105s)
+[2020.07.27-04.10.54:413][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/IntroLevel.IntroLevel to /Game/Julian/JLevels/UEDPIE_0_IntroLevel.IntroLevel (0.071303s)
+[2020.07.27-04.10.54:506][347]LogUObjectHash: Compacting FUObjectHashTables data took   7.00ms
+[2020.07.27-04.10.54:509][347]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-04.10.54:509][347]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-04.10.54:509][347]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-04.10.54:509][347]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-04.10.54:509][347]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-04.10.54:509][347]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-04.10.54:509][347]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-04.10.54:509][347]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-04.10.54:510][347]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-04.10.54:510][347]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-04.10.54:519][347]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-04.10.54:519][347]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.27-04.10.54:519][347]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-04.10.54:519][347]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-04.10.54:519][347]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-04.10.54:519][347]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-04.10.54:519][347]LogAudioMixer: Display: Channel Order:
+[2020.07.27-04.10.54:519][347]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-04.10.54:519][347]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-04.10.54:672][347]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.27-04.10.54:677][347]LogInit: FAudioDevice initialized.
+[2020.07.27-04.10.54:693][347]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.27-04.10.54:708][347]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_IntroLevel.IntroLevel up for play (max tick rate 60) at 2020.07.27-00.10.54
+[2020.07.27-04.10.54:708][347]LogWorld: Bringing up level for play took: 0.014100
+[2020.07.27-04.10.54:708][347]LogOnline: OSS: Creating online subsystem instance for: :Context_154
+[2020.07.27-04.10.54:717][347]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_IntroLevel 1.199
+[2020.07.27-04.10.54:717][347]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel' with GeneratedClass '/Game/Julian/JLevels/IntroLevel.IntroLevel_C' with ClassGeneratedBy '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel'
+[2020.07.27-04.11.06:731][ 22]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-04.11.06:731][ 22]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-04.11.06:731][ 22]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel' with GeneratedClass '/Game/Julian/JLevels/IntroLevel.IntroLevel_C' with ClassGeneratedBy '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel'
+[2020.07.27-04.11.06:731][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-04.11.06:731][ 22]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_IntroLevel
+[2020.07.27-04.11.06:732][ 22]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-04.11.06:732][ 22]LogWorld: UWorld::CleanupWorld for IntroLevel, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-04.11.06:735][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-04.11.06:757][ 22]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-04.11.06:758][ 22]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel' with GeneratedClass '/Game/Julian/JLevels/IntroLevel.IntroLevel_C' with ClassGeneratedBy '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel'
+[2020.07.27-04.11.06:775][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-04.11.06:862][ 22]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-04.11.06:879][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-04.11.06:891][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   8.01ms
+[2020.07.27-04.11.06:945][ 23]LogPlayLevel: Display: Destroying online subsystem :Context_154
+[2020.07.27-04.11.10:179][193]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2020.07.27-04.11.12:416][304]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-04.11.12:489][304]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel' with GeneratedClass '/Game/Julian/JLevels/IntroLevel.IntroLevel_C' with ClassGeneratedBy '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel'
+[2020.07.27-04.11.12:489][304]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-04.11.12:489][304]PIE: New page: PIE session: IntroLevel (Jul. 26, 2020, 8:11:12 p.m.)
+[2020.07.27-04.11.12:491][304]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_IntroLevel
+[2020.07.27-04.11.12:542][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051358s)
+[2020.07.27-04.11.12:544][304]LogAIModule: Creating AISystem for world IntroLevel
+[2020.07.27-04.11.12:544][304]LogPlayLevel: PIE: World Init took: (0.001417s)
+[2020.07.27-04.11.12:544][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/IntroLevel.IntroLevel to /Game/Julian/JLevels/UEDPIE_0_IntroLevel.IntroLevel (0.053108s)
+[2020.07.27-04.11.12:623][304]LogUObjectHash: Compacting FUObjectHashTables data took   5.42ms
+[2020.07.27-04.11.12:624][304]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-04.11.12:624][304]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-04.11.12:624][304]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-04.11.12:624][304]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-04.11.12:624][304]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-04.11.12:624][304]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-04.11.12:625][304]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-04.11.12:625][304]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-04.11.12:625][304]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-04.11.12:625][304]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-04.11.12:631][304]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-04.11.12:631][304]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.27-04.11.12:631][304]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-04.11.12:631][304]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-04.11.12:631][304]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-04.11.12:631][304]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-04.11.12:631][304]LogAudioMixer: Display: Channel Order:
+[2020.07.27-04.11.12:631][304]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-04.11.12:631][304]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-04.11.12:764][304]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.27-04.11.12:767][304]LogInit: FAudioDevice initialized.
+[2020.07.27-04.11.12:782][304]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.27-04.11.12:792][304]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_IntroLevel.IntroLevel up for play (max tick rate 60) at 2020.07.27-00.11.12
+[2020.07.27-04.11.12:792][304]LogWorld: Bringing up level for play took: 0.008909
+[2020.07.27-04.11.12:792][304]LogOnline: OSS: Creating online subsystem instance for: :Context_155
+[2020.07.27-04.11.12:801][304]PIE: Play in editor start time for /Game/Julian/JLevels/UEDPIE_0_IntroLevel 1.283
+[2020.07.27-04.11.12:801][304]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel' with GeneratedClass '/Game/Julian/JLevels/IntroLevel.IntroLevel_C' with ClassGeneratedBy '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel'
+[2020.07.27-04.17.15:445][397]LogBlueprintUserMessages: [BP_JGameModeBase_C_0] Mision Failed
+[2020.07.27-04.17.16:477][454]LogNet: Browse: /Game/Julian/JLevels/IntroLevel
+[2020.07.27-04.17.16:477][454]LogLoad: LoadMap: /Game/Julian/JLevels/IntroLevel
+[2020.07.27-04.17.16:477][454]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_IntroLevel
+[2020.07.27-04.17.16:479][454]LogWorld: UWorld::CleanupWorld for IntroLevel, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-04.17.16:480][454]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-04.17.16:480][454]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-04.17.16:563][454]LogUObjectHash: Compacting FUObjectHashTables data took   6.00ms
+[2020.07.27-04.17.16:566][454]LogPlayLevel: Creating play world package: /Game/Julian/JLevels/UEDPIE_0_IntroLevel
+[2020.07.27-04.17.16:603][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037044s)
+[2020.07.27-04.17.16:605][454]LogAIModule: Creating AISystem for world IntroLevel
+[2020.07.27-04.17.16:605][454]LogPlayLevel: PIE: World Init took: (0.001936s)
+[2020.07.27-04.17.16:605][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Julian/JLevels/IntroLevel.IntroLevel to /Game/Julian/JLevels/UEDPIE_0_IntroLevel.IntroLevel (0.039264s)
+[2020.07.27-04.17.16:605][454]LogLoad: Game class is 'BP_JGameModeBase_C'
+[2020.07.27-04.17.16:616][454]LogWorld: Bringing World /Game/Julian/JLevels/UEDPIE_0_IntroLevel.IntroLevel up for play (max tick rate 60) at 2020.07.27-00.17.16
+[2020.07.27-04.17.16:616][454]LogWorld: Bringing up level for play took: 0.010046
+[2020.07.27-04.17.16:623][454]LogLoad: Took 0.145752 seconds to LoadMap(/Game/Julian/JLevels/UEDPIE_0_IntroLevel)
+[2020.07.27-04.17.19:611][610]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-04.17.19:611][610]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-04.17.19:611][610]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel' with GeneratedClass '/Game/Julian/JLevels/IntroLevel.IntroLevel_C' with ClassGeneratedBy '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel'
+[2020.07.27-04.17.19:613][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-04.17.19:613][610]LogWorld: BeginTearingDown for /Game/Julian/JLevels/UEDPIE_0_IntroLevel
+[2020.07.27-04.17.19:613][610]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-04.17.19:614][610]LogWorld: UWorld::CleanupWorld for IntroLevel, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-04.17.19:617][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-04.17.19:628][610]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-04.17.19:628][610]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel' with GeneratedClass '/Game/Julian/JLevels/IntroLevel.IntroLevel_C' with ClassGeneratedBy '/Game/Julian/JLevels/IntroLevel.IntroLevel:PersistentLevel.IntroLevel'
+[2020.07.27-04.17.19:635][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-04.17.19:687][610]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-04.17.19:694][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-04.17.19:703][610]LogUObjectHash: Compacting FUObjectHashTables data took   5.09ms
+[2020.07.27-04.17.19:737][611]LogPlayLevel: Display: Destroying online subsystem :Context_155
+[2020.07.27-04.17.22:020][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2020.07.27-04.17.23:234][684]LogSlate: Window 'Save Content' being destroyed
+[2020.07.27-04.17.23:357][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2020.07.27-04.17.23:944][684]LogSavePackage: Moving '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Saved/IntroLevelA3F059D04BEBAE8083B2A1992FCDA428.tmp' to '../../../../../../Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Content/Julian/JLevels/IntroLevel.umap'
+[2020.07.27-04.17.24:061][684]LogFileHelpers: Saving map 'IntroLevel' took 0.771
+[2020.07.27-04.17.24:106][684]AssetCheck: New page: Asset Save: IntroLevel
+[2020.07.27-04.17.24:106][684]LogContentValidation: Display: Validating World /Game/Julian/JLevels/IntroLevel.IntroLevel
