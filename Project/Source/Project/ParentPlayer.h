@@ -39,4 +39,7 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void GetHit(float Damage);
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool bGodMode = false;
+
 };
