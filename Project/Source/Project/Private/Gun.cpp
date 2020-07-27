@@ -8,6 +8,7 @@
 #include "Sound/SoundCue.h"
 #include "Engine/SkeletalMeshSocket.h"
 #include "JFollowEnemy.h"
+#include "Mutant.h"
 #include "Components/BoxComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 
@@ -51,6 +52,7 @@ void AGun::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* Othe
 		if (Player)
 		{
 			Player->SetOverlapedPickup(this);
+			
 		}
 	}
 }
@@ -103,7 +105,8 @@ void AGun::FightOnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor*
 {
 	if (OtherActor)
 	{
-		AJFollowEnemy* Enemy = Cast<AJFollowEnemy>(OtherActor);
+		//AJFollowEnemy* Enemy = Cast<AJFollowEnemy>(OtherActor);
+		AMutant* Enemy = Cast<AMutant>(OtherActor);
 		if (Enemy)
 		{
 			if (Enemy->TakeHitPS)
@@ -124,6 +127,7 @@ void AGun::FightOnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor*
 			{
 				UGameplayStatics::ApplyDamage(Enemy, Damage, GunInstr, this, DamageTypeClass);
 			}
+			
 		}
 	}
 }

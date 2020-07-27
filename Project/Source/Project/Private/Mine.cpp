@@ -6,6 +6,7 @@
 #include "Sound/SoundCue.h"
 #include "JFollowEnemy.h"
 #include "Kismet/GameplayStatics.h"
+#include "Components/SphereComponent.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "JBasePlayer.h"
 
@@ -13,10 +14,22 @@
 AMine::AMine()
 {
 	Damage = 20.f;
-	DefuseSphere = CreateDefaultSubobject<USphereComponent>(TEXT("DefuseSphere"));
+	/*DefuseSphere = CreateDefaultSubobject<USphereComponent>(TEXT("DefuseSphere"));
+	
+	DefuseSphere->SetupAttachment(Mesh);
+	DefuseSphere->InitSphereRadius(12.f);*/
+
+	ColliderSphere->SetupAttachment(Mesh);
+	ColliderSphere->InitSphereRadius(18.f);
+
 	WasDefused = false;
 
+	IsATrap = false;
+
 }
+
+
+
 
 void AMine::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
@@ -27,9 +40,9 @@ void AMine::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 		AJBasePlayer* Player = Cast<AJBasePlayer>(OtherActor);
 		AJFollowEnemy* Mutant = Cast<AJFollowEnemy>(OtherActor);
 
-		if (Player || Mutant)
+		if (Player)
 		{
-			if (Player->IsCrawling == false)
+			if ((Player->IsCrawling == false) || IsATrap)
 			{
 				if (BasicPSComponent)
 				{
@@ -49,6 +62,23 @@ void AMine::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 					Destroy();
 				}
 			}
+		}
+
+		if (Mutant)
+		{
+			if (BasicPSComponent)
+			{
+				UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), PSOverlap, GetActorLocation(), FRotator(0.f), true);
+
+			}
+			if (SoundFX)
+			{
+				UGameplayStatics::PlaySound2D(this, SoundFX);
+			}
+
+			UGameplayStatics::ApplyDamage(OtherActor, Damage, nullptr, this, DamageTypeClass);
+			Destroy();
+
 		}
 	}
 }

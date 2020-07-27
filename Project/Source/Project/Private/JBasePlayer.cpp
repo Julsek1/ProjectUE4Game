@@ -79,9 +79,9 @@ AJBasePlayer::AJBasePlayer()
 	IsAnnexed = false;
 	AnnexPace = 16.f;
 
-	//StealthKill
-
-	IsIDown = false;
+	
+	//equip knife
+	IsIDown = true;
 
 	IsKDown = false;
 
@@ -109,7 +109,7 @@ void AJBasePlayer::BeginPlay()
 {
 	Super::BeginPlay();
 	
-
+	IDown();
 
 }
 
@@ -174,7 +174,7 @@ void AJBasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 void AJBasePlayer::MoveForward(float Value)
 {
-	if ((Controller != nullptr) && (Value != 0.0f) && (!IsFighting) && (!IsDead) && (!IsHanging) && (!IsAgainstWall) && (!IsDefusing))
+	if ((Controller != nullptr) && (Value != 0.0f) && (!IsFighting) && (!IsDead) && (!IsHanging) && (!IsAgainstWall) && (!IsDefusing) && (!IsKilling))
 	{
 		//find forward direction
 		const FRotator Rotation = Controller->GetControlRotation();
@@ -189,7 +189,7 @@ void AJBasePlayer::MoveRight(float Value)
 {
 
 
-	if ((Controller != nullptr) && (Value != 0.0f) && (!IsFighting)  && (!IsDead) && (!IsHanging) && (!IsAgainstWall) && (!IsDefusing))
+	if ((Controller != nullptr) && (Value != 0.0f) && (!IsFighting)  && (!IsDead) && (!IsHanging) && (!IsAgainstWall) && (!IsDefusing) && (!IsKilling))
 	{
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
@@ -296,7 +296,10 @@ float AJBasePlayer::TakeDamage(float DamageAmount, FDamageEvent const& DamageEve
 	if (Hp - DamageAmount <= 0.f)
 	{
 		Hp -= DamageAmount;
+		IsDead = true;
 		Death();
+
+		
 
 		if (DamageCauser)
 		{
@@ -460,6 +463,8 @@ void AJBasePlayer::PlayerTerminated()
 {
 	GetMesh()->bPauseAnims = true;
 	GetMesh()->bNoSkeletonUpdate = true;
+	GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
 }
 
 void AJBasePlayer::CrouchBegin()
