@@ -43,7 +43,7 @@ void AShotgun::Fire(USceneComponent* Location)
 			FVector End = ForwardVector * Range + Start + Spread;
 			FCollisionQueryParams CollisionParams;
 
-			DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 0.1f, 0, 1);
+			//DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 0.1f, 0, 1);
 			GetWorld()->LineTraceMultiByChannel(OutHits, Start, End, ECollisionChannel(ECC_Pawn), CollisionParams);
 
 			for (int32 j = 0; j < OutHits.Num(); j++)

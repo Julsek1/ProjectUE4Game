@@ -1,4 +1,4 @@
-﻿Log file open, 07/27/20 11:59:42
+﻿Log file open, 07/27/20 14:01:01
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,8 +8,8 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
 LogInit: Display: Running engine for game: Project
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.138719
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.068728
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -33,6 +33,7 @@ LogPluginManager: Mounting plugin AssetManagerEditor
 LogPluginManager: Mounting plugin CryptoKeys
 LogPluginManager: Mounting plugin CurveEditorTools
 LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
 LogPluginManager: Mounting plugin FacialAnimation
 LogPluginManager: Mounting plugin GameplayTagsEditor
 LogPluginManager: Mounting plugin MacGraphicsSwitching
@@ -49,6 +50,7 @@ LogPluginManager: Mounting plugin CharacterAI
 LogPluginManager: Mounting plugin GeometryCache
 LogPluginManager: Mounting plugin PlatformCrypto
 LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PythonScriptPlugin
 LogPluginManager: Mounting plugin SkeletalReduction
 LogPluginManager: Mounting plugin MagicLeap
 LogPluginManager: Mounting plugin MagicLeapMedia
@@ -60,6 +62,7 @@ LogPluginManager: Mounting plugin MediaCompositing
 LogPluginManager: Mounting plugin MediaPlayerEditor
 LogPluginManager: Mounting plugin WebMMedia
 LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MegascansPlugin
 LogPluginManager: Mounting plugin TcpMessaging
 LogPluginManager: Mounting plugin UdpMessaging
 LogPluginManager: Mounting plugin ActorSequence
@@ -100,35 +103,6 @@ LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
 LogPluginManager: Mounting plugin ScreenshotTools
-LogInit: Warning: Incompatible or missing module: Project
-Running C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="C:/Users/julia/Documents/Project_UE4/ProjectUE4Game/Project/Project.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
-Using 'git status' to determine working set for adaptive non-unity build (C:\Users\julia\Documents\Project_UE4\ProjectUE4Game).
-Creating makefile for ProjectEditor (.uproject file is newer)
-@progress push 5%
-Parsing headers for ProjectEditor
-  Running UnrealHeaderTool "C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Project.uproject" "C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\ProjectEditor\Development\ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-Reflection code generated for ProjectEditor in 27.1590498 seconds
-@progress pop
-Building ProjectEditor...
-Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-Building 6 actions with 4 processes...
-  @progress 'Compiling C++ source code...' 0%
-  @progress 'Compiling C++ source code...' 17%
-  [1/6] Module.Project.gen.2_of_2.cpp
-  @progress 'Compiling C++ source code...' 33%
-  [2/6] Module.Project.gen.1_of_2.cpp
-  @progress 'Compiling C++ source code...' 50%
-  [3/6] Module.Project.cpp
-  @progress 'Compiling C++ source code...' 67%
-  [4/6] UE4Editor-Project.lib
-     Creating library C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project.lib and object C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project.exp
-  @progress 'Compiling C++ source code...' 83%
-  [5/6] UE4Editor-Project.dll
-     Creating library C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project.suppressed.lib and object C:\Users\julia\Documents\Project_UE4\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project.suppressed.exp
-  @progress 'Compiling C++ source code...' 100%
-  [6/6] ProjectEditor.target
-Total time in Parallel executor: 41.02 seconds
-Total execution time: 71.91 seconds
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.1.1
@@ -154,7 +128,7 @@ LogInit: Build: ++UE4+Release-4.24-CL-11590370
 LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
 LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
 LogInit: Net CL: 10570792
-LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz, GPU: Intel(R) HD Graphics 620
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: NVIDIA GeForce GTX 1650
 LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
 LogInit: Compiled with Visual C++: 19.16.27032.01
 LogInit: Build Configuration: Development

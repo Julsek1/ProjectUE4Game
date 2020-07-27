@@ -6,15 +6,16 @@
 #include "Animation/AnimInstance.h"
 #include "AssaultRifle.h"
 #include "CustomGameInstance.h"
+#include "DamageType_Melee.h"
 #include "Engine/Engine.h"
 #include "Engine/GameInstance.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
-#include "DamageType_Melee.h"
+#include "InteractableActor.h"
+#include "JSaveGame.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
 //#include "MinibossLevelPillar.h"
-#include "InteractableActor.h"
 #include "ParentEnemy.h"
 #include "Perception/AISense_Hearing.h"
 //#include "Shotgun.h"
@@ -88,7 +89,7 @@ void ATwinStickShooterPlayer::BeginPlay()
 	//CurrentWeapon = Weapons[0];
 
 	//Setup values from game instance
-	Health = GetWorld()->GetGameInstance<UCustomGameInstance>()->PlayerHealth;
+	//Health = GetWorld()->GetGameInstance<UCustomGameInstance>()->PlayerHealth;
 
 	//Setup HUD
 	auto HUD = CreateWidget<UTSHUD>(GetWorld()->GetFirstPlayerController(), HUDClass);
@@ -103,6 +104,11 @@ void ATwinStickShooterPlayer::BeginPlay()
 void ATwinStickShooterPlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	if (Health <= 0)
+	{
+		Load();
+	}
 
 	if (GetVelocity() != FVector(0.f, 0.f, 0.f))
 	{
@@ -556,4 +562,26 @@ AInteractableActor* ATwinStickShooterPlayer::LookForInteractableActor()
 	GetWorld()->LineTraceSingleByChannel(OUT OutHit, Start, End, ECollisionChannel(ECC_Visibility), CollisionParams);
 
 	return Cast<AInteractableActor>(OutHit.GetActor());
+}
+
+void ATwinStickShooterPlayer::Save()
+{
+	UJSaveGame* SaveGameInst = Cast<UJSaveGame>(UGameplayStatics::CreateSaveGameObject(UJSaveGame::StaticClass()));
+	SaveGameInst->PlayerStats.Hp = Health * 100;
+	//SaveGameInst->PlayerStats.Collectibles = Collectibles;
+
+	SaveGameInst->PlayerStats.PlayerLocation = GetActorLocation();
+	SaveGameInst->PlayerStats.PlayerRotation = GetActorRotation();
+
+	UGameplayStatics::SaveGameToSlot(SaveGameInst, SaveGameInst->NameOfPlayer, SaveGameInst->IndexUser);
+}
+
+void ATwinStickShooterPlayer::Load()
+{
+	UJSaveGame* LoadGameInst = Cast<UJSaveGame>(UGameplayStatics::CreateSaveGameObject(UJSaveGame::StaticClass()));
+	LoadGameInst = Cast<UJSaveGame>(UGameplayStatics::LoadGameFromSlot(LoadGameInst->NameOfPlayer, LoadGameInst->IndexUser));
+
+	Health = LoadGameInst->PlayerStats.Hp/100;
+	SetActorLocation(LoadGameInst->PlayerStats.PlayerLocation);
+	SetActorRotation(LoadGameInst->PlayerStats.PlayerRotation);
 }
