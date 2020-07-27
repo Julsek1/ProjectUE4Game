@@ -28,7 +28,10 @@ void AParentEnemy::BeginPlay()
 {
 	Super::BeginPlay();
 
-	Cast<UTSEnemyWidget>(WidgetComponent->GetUserWidgetObject())->Enemy = this;
+	if (WidgetComponent->GetUserWidgetObject())
+	{
+		Cast<UTSEnemyWidget>(WidgetComponent->GetUserWidgetObject())->Enemy = this;
+	}
 }
 
 // Called every frame
