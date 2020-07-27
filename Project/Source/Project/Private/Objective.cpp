@@ -3,9 +3,22 @@
 
 #include "Objective.h"
 
+#include "Engine/World.h"
+#include "GameFramework/PlayerController.h"
+#include "../TwinStickShooterPlayer.h"
+
 void AObjective::UpdateProgress()
 {
 	Progress++;
+	
+	//save
+	auto Player = Cast<ATwinStickShooterPlayer>(GetWorld()->GetFirstPlayerController()->GetPawn());
+	
+	if (Player)
+	{
+		Player->Save();
+	}
+
 	if (Progress >= Requirement)
 	{
 		bComplete = true;

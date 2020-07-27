@@ -178,6 +178,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 		bool CanPerformActions();
 
+	//Saving & Loading
+	void Save();
+	void Load();
 
 private:
 	float CharacterRotationX = 0.f;

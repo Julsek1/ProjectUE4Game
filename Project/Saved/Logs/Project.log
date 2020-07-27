@@ -17417,3 +17417,715 @@ Script Stack (0 frames):
 [2020.07.27-20.44.55:244][ 21]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel195761C8F46A93B9D8DCCBD9522D0E7E6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
 [2020.07.27-20.44.55:320][ 21]AssetCheck: New page: Asset Save: PFinalLevel1
 [2020.07.27-20.44.55:320][ 21]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-20.45.41:891][359]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2020.07.27-20.45.42:458][359]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel139912F37463C46394D9D2CBEED7DE44C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-20.45.42:541][359]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-20.45.42:541][359]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.10.17:909][805]LogHotReload: New module detected: UE4Editor-Project-0004.dll
+[2020.07.27-21.10.18:831][809]LogHotReload: Starting Hot-Reload from IDE
+[2020.07.27-21.10.18:912][809]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2020.07.27-21.10.19:176][809]LogClass: EGunState HotReload.
+[2020.07.27-21.10.19:176][809]LogClass: EFEnemyMoveStat HotReload.
+[2020.07.27-21.10.19:177][809]LogClass: PlayerStats HotReload.
+[2020.07.27-21.10.19:232][809]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0036 seconds. Added 63 classes and 3 folders.
+[2020.07.27-21.10.19:299][809]Display: HotReload successful (79 functions remapped  1 scriptstructs remapped)
+[2020.07.27-21.10.19:440][809]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2020.07.27-21.10.19:477][809]LogContentBrowser: Native class hierarchy populated in 0.0166 seconds. Added 3103 classes and 733 folders.
+[2020.07.27-21.10.19:485][809]Display: HotReload took  0.7s.
+[2020.07.27-21.10.41:737][875]LogHotReload: New module detected: UE4Editor-Project-0005.dll
+[2020.07.27-21.10.42:424][878]LogHotReload: Starting Hot-Reload from IDE
+[2020.07.27-21.10.42:570][878]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2020.07.27-21.10.42:845][878]LogClass: EGunState HotReload.
+[2020.07.27-21.10.42:845][878]LogClass: EFEnemyMoveStat HotReload.
+[2020.07.27-21.10.42:845][878]LogClass: PlayerStats HotReload.
+[2020.07.27-21.10.42:900][878]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0007 seconds. Added 63 classes and 3 folders.
+[2020.07.27-21.10.42:929][878]Display: HotReload successful (79 functions remapped  1 scriptstructs remapped)
+[2020.07.27-21.10.43:088][878]LogUObjectHash: Compacting FUObjectHashTables data took   5.18ms
+[2020.07.27-21.10.43:106][878]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 3103 classes and 733 folders.
+[2020.07.27-21.10.43:109][878]Display: HotReload took  0.7s.
+[2020.07.27-21.13.35:435][392]LogHotReload: New module detected: UE4Editor-Project-0006.dll
+[2020.07.27-21.13.36:131][395]LogHotReload: Starting Hot-Reload from IDE
+[2020.07.27-21.13.36:241][395]LogUObjectHash: Compacting FUObjectHashTables data took   5.00ms
+[2020.07.27-21.13.36:440][395]LogClass: EGunState HotReload.
+[2020.07.27-21.13.36:440][395]LogClass: EFEnemyMoveStat HotReload.
+[2020.07.27-21.13.36:440][395]LogClass: PlayerStats HotReload.
+[2020.07.27-21.13.36:510][395]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0005 seconds. Added 63 classes and 3 folders.
+[2020.07.27-21.13.36:543][395]Display: HotReload successful (79 functions remapped  1 scriptstructs remapped)
+[2020.07.27-21.13.36:687][395]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2020.07.27-21.13.36:707][395]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 3103 classes and 733 folders.
+[2020.07.27-21.13.36:709][395]Display: HotReload took  0.6s.
+[2020.07.27-21.14.00:188][465]LogHotReload: New module detected: UE4Editor-Project-0007.dll
+[2020.07.27-21.14.00:883][468]LogHotReload: Starting Hot-Reload from IDE
+[2020.07.27-21.14.00:995][468]LogUObjectHash: Compacting FUObjectHashTables data took   4.81ms
+[2020.07.27-21.14.01:206][468]LogClass: EGunState HotReload.
+[2020.07.27-21.14.01:206][468]LogClass: EFEnemyMoveStat HotReload.
+[2020.07.27-21.14.01:206][468]LogClass: PlayerStats HotReload.
+[2020.07.27-21.14.01:265][468]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0007 seconds. Added 63 classes and 3 folders.
+[2020.07.27-21.14.01:304][468]Display: HotReload successful (79 functions remapped  1 scriptstructs remapped)
+[2020.07.27-21.14.01:466][468]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2020.07.27-21.14.01:485][468]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 3103 classes and 733 folders.
+[2020.07.27-21.14.01:488][468]Display: HotReload took  0.6s.
+[2020.07.27-21.14.03:637][516]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-21.14.03:679][516]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.14.03:679][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-21.14.03:679][516]PIE: New page: PIE session: PFinalLevel1 (Jul 27, 2020, 1:14:03 PM)
+[2020.07.27-21.14.03:679][516]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-21.14.03:803][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.124465s)
+[2020.07.27-21.14.03:805][516]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.27-21.14.03:805][516]LogPlayLevel: PIE: World Init took: (0.002077s)
+[2020.07.27-21.14.03:805][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.126776s)
+[2020.07.27-21.14.03:892][516]LogUObjectHash: Compacting FUObjectHashTables data took   4.77ms
+[2020.07.27-21.14.03:893][516]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-21.14.03:893][516]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-21.14.03:893][516]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-21.14.03:893][516]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-21.14.03:893][516]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-21.14.03:893][516]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-21.14.03:893][516]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-21.14.03:893][516]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-21.14.03:894][516]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-21.14.03:894][516]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-21.14.03:916][516]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-21.14.03:916][516]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-21.14.03:917][516]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-21.14.03:917][516]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-21.14.03:917][516]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-21.14.03:917][516]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-21.14.03:917][516]LogAudioMixer: Display: Channel Order:
+[2020.07.27-21.14.03:917][516]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-21.14.03:917][516]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-21.14.03:928][516]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-21.14.03:929][516]LogInit: FAudioDevice initialized.
+[2020.07.27-21.14.03:941][516]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.27-21.14.03:970][516]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.27-17.14.03
+[2020.07.27-21.14.03:986][516]LogWorld: Bringing up level for play took: 0.043846
+[2020.07.27-21.14.03:986][516]LogOnline: OSS: Creating online subsystem instance for: :Context_143
+[2020.07.27-21.14.03:989][516]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.14.03:989][516]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.14.04:000][516]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.899
+[2020.07.27-21.14.04:000][516]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.14.05:370][590]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.14.05:380][590]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-21.14.05:400][590]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-21.14.05:400][590]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.14.05:402][590]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.14.05:402][590]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-21.14.05:402][590]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.14.05:410][590]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.14.05:422][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.14.05:452][590]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-21.14.05:452][590]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.14.05:459][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.14.05:508][590]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.14.05:512][590]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.14.05:522][590]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2020.07.27-21.14.05:544][591]LogPlayLevel: Display: Destroying online subsystem :Context_143
+[2020.07.27-21.14.07:273][689]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2020.07.27-21.14.08:299][747]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.07.27-21.14.09:646][820]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.07.27-21.14.15:311][148]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.07.27-21.14.16:188][199]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.07.27-21.14.16:407][206]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.07.27-21.14.16:974][206]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel16B0420864B8DB4293DF95FB2B3CDD6CF.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.14.17:056][206]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.14.17:056][206]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.14.18:093][268]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-21.14.18:130][268]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.14.18:130][268]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-21.14.18:130][268]PIE: New page: PIE session: PFinalLevel1 (Jul 27, 2020, 1:14:18 PM)
+[2020.07.27-21.14.18:130][268]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-21.14.18:219][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.089097s)
+[2020.07.27-21.14.18:220][268]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.27-21.14.18:220][268]LogPlayLevel: PIE: World Init took: (0.000743s)
+[2020.07.27-21.14.18:220][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.090072s)
+[2020.07.27-21.14.18:265][268]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2020.07.27-21.14.18:267][268]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-21.14.18:267][268]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-21.14.18:267][268]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-21.14.18:267][268]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-21.14.18:267][268]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-21.14.18:267][268]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-21.14.18:267][268]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-21.14.18:267][268]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-21.14.18:268][268]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-21.14.18:268][268]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-21.14.18:290][268]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-21.14.18:290][268]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-21.14.18:290][268]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-21.14.18:290][268]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-21.14.18:290][268]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-21.14.18:290][268]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-21.14.18:290][268]LogAudioMixer: Display: Channel Order:
+[2020.07.27-21.14.18:290][268]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-21.14.18:290][268]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-21.14.18:302][268]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-21.14.18:303][268]LogInit: FAudioDevice initialized.
+[2020.07.27-21.14.18:312][268]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.27-21.14.18:340][268]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.27-17.14.18
+[2020.07.27-21.14.18:356][268]LogWorld: Bringing up level for play took: 0.042591
+[2020.07.27-21.14.18:356][268]LogOnline: OSS: Creating online subsystem instance for: :Context_144
+[2020.07.27-21.14.18:359][268]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.14.18:359][268]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.14.18:370][268]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 -0.731
+[2020.07.27-21.14.18:370][268]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.14.39:081][439]LogTemp: Warning: BP_GasMask31_2
+[2020.07.27-21.14.39:081][439]LogTemp: Warning: BP_GasMask31_2
+[2020.07.27-21.14.39:081][439]LogTemp: Warning: BP_GasMask31_2
+[2020.07.27-21.14.39:081][439]LogTemp: Warning: BP_GasMask31_2
+[2020.07.27-21.14.39:081][439]LogTemp: Warning: BP_GasMask31_2
+[2020.07.27-21.14.39:081][439]LogTemp: Warning: BP_GasMask31_2
+[2020.07.27-21.14.39:081][439]LogTemp: Warning: BP_GasMask31_2
+[2020.07.27-21.14.39:081][439]LogTemp: Warning: BP_GasMask31_2
+[2020.07.27-21.14.40:450][516]LogTemp: Warning: BP_GasMask31_2
+[2020.07.27-21.14.40:450][516]LogTemp: Warning: BP_GasMask31_2
+[2020.07.27-21.15.18:335][716]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.15.18:335][716]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.15.18:335][716]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.15.18:336][716]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.15.18:336][716]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-21.15.18:336][716]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.15.18:339][716]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.15.18:352][716]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.15.18:365][716]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-21.15.18:365][716]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.15.18:373][716]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.15.18:422][716]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.15.18:425][716]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.15.18:438][716]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2020.07.27-21.15.18:461][717]LogPlayLevel: Display: Destroying online subsystem :Context_144
+[2020.07.27-21.15.19:777][788]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.07.27-21.15.20:378][788]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel14EEC04E243274EBCD4972D94CEBFF3FC.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.15.20:469][788]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.15.20:469][788]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.15.26:306][133]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2020.07.27-21.15.26:903][133]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel16B148BBC4662D2495E54E1A73DE453C2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.15.26:982][133]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.15.26:982][133]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.15.31:237][387]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.07.27-21.15.31:307][387]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_42:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.15.31:308][387]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_42:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.15.31:310][387]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_43:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.15.31:311][387]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_43:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.15.31:661][387]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
+[2020.07.27-21.15.31:668][387]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_42:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.15.31:668][387]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_42:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.15.31:670][387]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_43:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.15.31:670][387]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_43:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.15.31:672][387]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_42:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.15.31:672][387]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_42:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.15.31:688][387]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_43:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.15.31:688][387]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_43:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.15.31:690][387]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_42:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.15.31:690][387]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_42:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.15.32:058][400]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayerA1CA15654737ED47099C3AB61DA6A4D0.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.uasset'
+[2020.07.27-21.15.32:083][400]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.27-21.15.32:083][400]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.27-21.15.32:947][446]LogUObjectHash: Compacting FUObjectHashTables data took   5.29ms
+[2020.07.27-21.15.33:562][446]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel18B236CAF42F8EF72C2A8C99D2FC51956.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.15.33:650][446]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.15.33:651][446]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.15.38:984][760]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2020.07.27-21.15.39:571][760]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel10199368D4654EEC4A51ED989D20AAEFA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.15.39:653][760]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.15.39:653][760]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.16.03:204][166]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.07.27-21.16.03:225][166]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_42:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.16.03:226][166]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_42:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.16.03:227][166]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_43:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.16.03:227][166]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_43:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.16.03:597][166]LogUObjectHash: Compacting FUObjectHashTables data took   4.60ms
+[2020.07.27-21.16.03:601][166]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_42:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.16.03:601][166]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_42:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.16.03:603][166]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_43:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.16.03:603][166]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_43:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.16.03:605][166]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_42:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.16.03:605][166]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_42:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.16.03:620][166]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_43:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.16.03:621][166]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_43:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.16.03:622][166]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_42:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.16.03:623][166]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_42:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.16.03:908][176]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer85DEAE7B4E030D7EAD1E8CA2468591DA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.uasset'
+[2020.07.27-21.16.03:925][176]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.27-21.16.03:925][176]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.27-21.16.09:674][515]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
+[2020.07.27-21.16.10:260][515]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel13B76DD7E4A9855FFBD115DA124AB8551.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.16.10:338][515]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.16.10:338][515]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.16.10:651][534]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-21.16.10:703][534]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.16.10:703][534]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-21.16.10:703][534]PIE: New page: PIE session: PFinalLevel1 (Jul 27, 2020, 1:16:10 PM)
+[2020.07.27-21.16.10:703][534]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-21.16.10:799][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094712s)
+[2020.07.27-21.16.10:799][534]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.27-21.16.10:800][534]LogPlayLevel: PIE: World Init took: (0.000946s)
+[2020.07.27-21.16.10:800][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.095870s)
+[2020.07.27-21.16.10:849][534]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2020.07.27-21.16.10:850][534]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-21.16.10:850][534]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-21.16.10:850][534]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-21.16.10:850][534]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-21.16.10:850][534]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-21.16.10:850][534]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-21.16.10:850][534]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-21.16.10:850][534]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-21.16.10:850][534]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-21.16.10:850][534]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-21.16.10:872][534]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-21.16.10:872][534]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-21.16.10:872][534]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-21.16.10:872][534]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-21.16.10:872][534]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-21.16.10:872][534]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-21.16.10:872][534]LogAudioMixer: Display: Channel Order:
+[2020.07.27-21.16.10:872][534]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-21.16.10:872][534]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-21.16.10:883][534]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-21.16.10:884][534]LogInit: FAudioDevice initialized.
+[2020.07.27-21.16.10:893][534]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.27-21.16.10:922][534]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.27-17.16.10
+[2020.07.27-21.16.10:938][534]LogWorld: Bringing up level for play took: 0.043332
+[2020.07.27-21.16.10:938][534]LogOnline: OSS: Creating online subsystem instance for: :Context_145
+[2020.07.27-21.16.10:941][534]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.16.10:941][534]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.16.10:950][534]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 -0.15
+[2020.07.27-21.16.10:951][534]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.16.56:044][170]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.16.56:050][170]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-21.16.56:070][170]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-21.16.56:070][170]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.16.56:070][170]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.16.56:070][170]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-21.16.56:071][170]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.16.56:073][170]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.16.56:080][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.16.56:101][170]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-21.16.56:101][170]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.16.56:109][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.16.56:158][170]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.16.56:162][170]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.16.56:171][170]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2020.07.27-21.16.56:193][171]LogPlayLevel: Display: Destroying online subsystem :Context_145
+[2020.07.27-21.16.57:166][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2020.07.27-21.16.57:757][224]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1899E908B4F71B264673B65B8B9DEF794.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.16.57:836][224]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.16.57:836][224]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.16.59:751][339]BlueprintLog: New page: Compile BP_TwinStickShooterPlayer
+[2020.07.27-21.16.59:774][339]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_42:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.16.59:774][339]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_42:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.16.59:775][339]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_43:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.16.59:775][339]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_43:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.17.00:132][339]LogUObjectHash: Compacting FUObjectHashTables data took   5.40ms
+[2020.07.27-21.17.00:136][339]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_42:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.17.00:137][339]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_42:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.17.00:139][339]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_43:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.17.00:139][339]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_43:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.17.00:141][339]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_42:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.17.00:141][339]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_42:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.17.00:157][339]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_43:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.17.00:157][339]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_43:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.17.00:159][339]LogActor: Warning: BP_AssaultRifle_C /Engine/Transient.World_42:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.17.00:159][339]LogActor: Warning: BP_Shotgun_C /Engine/Transient.World_42:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.17.00:453][349]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TwinStickShooterPlayer9CA7A7B047B565D4583F64BDFCF4492F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.uasset'
+[2020.07.27-21.17.00:468][349]AssetCheck: New page: Asset Save: BP_TwinStickShooterPlayer
+[2020.07.27-21.17.00:469][349]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Player/BP_TwinStickShooterPlayer.BP_TwinStickShooterPlayer
+[2020.07.27-21.17.01:192][388]LogUObjectHash: Compacting FUObjectHashTables data took   5.16ms
+[2020.07.27-21.17.01:818][388]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel19666B93F41E22266872633916070D3DF.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.17.01:906][388]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.17.01:906][388]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.17.03:493][477]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2020.07.27-21.17.04:128][477]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1C173F2A7424982D3E6528787B68B9FF1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.17.04:204][477]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.17.04:204][477]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.18.40:393][837]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-21.18.40:432][837]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.18.40:432][837]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-21.18.40:432][837]PIE: New page: PIE session: PFinalLevel1 (Jul 27, 2020, 1:18:40 PM)
+[2020.07.27-21.18.40:432][837]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-21.18.40:543][837]LogPlayLevel: PIE: StaticDuplicateObject took: (0.110059s)
+[2020.07.27-21.18.40:543][837]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.27-21.18.40:544][837]LogPlayLevel: PIE: World Init took: (0.000959s)
+[2020.07.27-21.18.40:544][837]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.111260s)
+[2020.07.27-21.18.40:597][837]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2020.07.27-21.18.40:598][837]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-21.18.40:598][837]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-21.18.40:598][837]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-21.18.40:598][837]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-21.18.40:598][837]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-21.18.40:598][837]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-21.18.40:598][837]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-21.18.40:598][837]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-21.18.40:598][837]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-21.18.40:598][837]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-21.18.40:620][837]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-21.18.40:620][837]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-21.18.40:620][837]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-21.18.40:620][837]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-21.18.40:620][837]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-21.18.40:620][837]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-21.18.40:620][837]LogAudioMixer: Display: Channel Order:
+[2020.07.27-21.18.40:620][837]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-21.18.40:620][837]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-21.18.40:631][837]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-21.18.40:632][837]LogInit: FAudioDevice initialized.
+[2020.07.27-21.18.40:642][837]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.27-21.18.40:670][837]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.27-17.18.40
+[2020.07.27-21.18.40:685][837]LogWorld: Bringing up level for play took: 0.041651
+[2020.07.27-21.18.40:685][837]LogOnline: OSS: Creating online subsystem instance for: :Context_146
+[2020.07.27-21.18.40:687][837]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.18.40:688][837]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.18.40:697][837]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 -0.403
+[2020.07.27-21.18.40:698][837]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.19.18:604][ 81]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.19.18:604][ 81]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.19.18:604][ 81]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.19.18:604][ 81]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.19.18:604][ 81]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-21.19.18:604][ 81]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.19.18:608][ 81]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.19.18:615][ 81]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.19.18:625][ 81]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-21.19.18:626][ 81]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.19.18:633][ 81]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.19.18:678][ 81]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.19.18:681][ 81]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.19.18:690][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2020.07.27-21.19.18:711][ 82]LogPlayLevel: Display: Destroying online subsystem :Context_146
+[2020.07.27-21.19.25:885][502]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy
+[2020.07.27-21.21.00:464][573]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_GasMaskEnemy0D954CEC47CD6559E4350F86047308B4.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/GasMask/BT_GasMaskEnemy.uasset'
+[2020.07.27-21.21.00:481][573]AssetCheck: New page: Asset Save: BT_GasMaskEnemy
+[2020.07.27-21.21.00:481][573]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy
+[2020.07.27-21.21.50:050][101]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BT_GasMaskEnemy145E2E2E4FD836B5666FA182709F7868.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/AI/GasMask/BT_GasMaskEnemy.uasset'
+[2020.07.27-21.21.50:072][101]AssetCheck: New page: Asset Save: BT_GasMaskEnemy
+[2020.07.27-21.21.50:073][101]LogContentValidation: Display: Validating BehaviorTree /Game/Phil/AI/GasMask/BT_GasMaskEnemy.BT_GasMaskEnemy
+[2020.07.27-21.22.05:377][  7]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/AI/GasMask/AIC_GasMaskEnemy.AIC_GasMaskEnemy
+[2020.07.27-21.22.07:057][ 77]BlueprintLog: New page: Compile AIC_GasMaskEnemy
+[2020.07.27-21.22.07:448][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2020.07.27-21.23.32:664][764]LogUObjectHash: Compacting FUObjectHashTables data took   5.23ms
+[2020.07.27-21.23.33:285][764]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1501B80E84DA1CDECC027B080702BA110.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.23.33:365][764]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.23.33:365][764]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.23.33:504][772]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-21.23.33:542][772]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.23.33:543][772]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-21.23.33:543][772]PIE: New page: PIE session: PFinalLevel1 (Jul 27, 2020, 1:23:33 PM)
+[2020.07.27-21.23.33:544][772]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-21.23.33:634][772]LogPlayLevel: PIE: StaticDuplicateObject took: (0.090125s)
+[2020.07.27-21.23.33:636][772]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.27-21.23.33:636][772]LogPlayLevel: PIE: World Init took: (0.001908s)
+[2020.07.27-21.23.33:636][772]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.092227s)
+[2020.07.27-21.23.33:688][772]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2020.07.27-21.23.33:689][772]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-21.23.33:689][772]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-21.23.33:689][772]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-21.23.33:689][772]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-21.23.33:689][772]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-21.23.33:689][772]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-21.23.33:689][772]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-21.23.33:689][772]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-21.23.33:690][772]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-21.23.33:690][772]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-21.23.33:715][772]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-21.23.33:716][772]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-21.23.33:716][772]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-21.23.33:716][772]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-21.23.33:716][772]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-21.23.33:716][772]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-21.23.33:716][772]LogAudioMixer: Display: Channel Order:
+[2020.07.27-21.23.33:716][772]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-21.23.33:716][772]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-21.23.33:729][772]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-21.23.33:730][772]LogInit: FAudioDevice initialized.
+[2020.07.27-21.23.33:737][772]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.27-21.23.33:785][772]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.27-17.23.33
+[2020.07.27-21.23.33:823][772]LogWorld: Bringing up level for play took: 0.085178
+[2020.07.27-21.23.33:824][772]LogOnline: OSS: Creating online subsystem instance for: :Context_148
+[2020.07.27-21.23.33:828][772]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.23.33:829][772]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.23.33:852][772]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.752
+[2020.07.27-21.23.33:853][772]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.24.37:778][387]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.24.37:778][387]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.24.37:778][387]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.24.37:786][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.24.37:786][387]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-21.24.37:786][387]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.24.37:791][387]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.24.37:802][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.24.37:815][387]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-21.24.37:816][387]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.24.37:825][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.24.37:879][387]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.24.37:882][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.24.37:896][387]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2020.07.27-21.24.37:919][388]LogPlayLevel: Display: Destroying online subsystem :Context_148
+[2020.07.27-21.24.38:863][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.07.27-21.24.39:452][440]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel165B32F904F857E5B67D15BA99B1D58CE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.24.39:529][440]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.24.39:529][440]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.24.42:228][602]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-21.24.42:268][602]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.24.42:270][602]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-21.24.42:270][602]PIE: New page: PIE session: PFinalLevel1 (Jul 27, 2020, 1:24:42 PM)
+[2020.07.27-21.24.42:270][602]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-21.24.42:373][602]LogPlayLevel: PIE: StaticDuplicateObject took: (0.101990s)
+[2020.07.27-21.24.42:374][602]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.27-21.24.42:374][602]LogPlayLevel: PIE: World Init took: (0.001061s)
+[2020.07.27-21.24.42:374][602]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.103335s)
+[2020.07.27-21.24.42:419][602]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2020.07.27-21.24.42:419][602]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-21.24.42:419][602]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-21.24.42:420][602]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-21.24.42:420][602]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-21.24.42:420][602]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-21.24.42:420][602]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-21.24.42:420][602]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-21.24.42:420][602]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-21.24.42:420][602]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-21.24.42:420][602]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-21.24.42:442][602]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-21.24.42:442][602]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-21.24.42:442][602]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-21.24.42:442][602]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-21.24.42:442][602]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-21.24.42:442][602]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-21.24.42:442][602]LogAudioMixer: Display: Channel Order:
+[2020.07.27-21.24.42:442][602]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-21.24.42:442][602]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-21.24.42:452][602]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-21.24.42:454][602]LogInit: FAudioDevice initialized.
+[2020.07.27-21.24.42:500][602]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.24.42:501][602]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.27-21.24.42:529][602]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.27-17.24.42
+[2020.07.27-21.24.42:545][602]LogWorld: Bringing up level for play took: 0.043026
+[2020.07.27-21.24.42:545][602]LogOnline: OSS: Creating online subsystem instance for: :Context_149
+[2020.07.27-21.24.42:547][602]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.24.42:548][602]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.24.42:559][602]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 -0.541
+[2020.07.27-21.24.42:559][602]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.24.58:214][443]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.24.58:220][443]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-21.24.58:240][443]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-21.24.58:240][443]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.24.58:246][443]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.24.58:247][443]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-21.24.58:289][443]LogSlate: Window 'Project Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.07.27-21.24.58:298][443]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.24.58:300][443]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.24.58:309][443]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.24.58:327][443]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-21.24.58:327][443]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.24.58:338][443]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.24.58:393][443]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.24.58:408][443]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2020.07.27-21.24.58:432][444]LogPlayLevel: Display: Destroying online subsystem :Context_149
+[2020.07.27-21.26.03:530][126]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-21.26.03:580][126]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.26.03:582][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-21.26.03:582][126]PIE: New page: PIE session: PFinalLevel1 (Jul 27, 2020, 1:26:03 PM)
+[2020.07.27-21.26.03:582][126]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-21.26.03:677][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.095055s)
+[2020.07.27-21.26.03:678][126]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.27-21.26.03:678][126]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2020.07.27-21.26.03:678][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.096092s)
+[2020.07.27-21.26.03:731][126]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2020.07.27-21.26.03:731][126]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-21.26.03:732][126]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-21.26.03:732][126]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-21.26.03:732][126]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-21.26.03:732][126]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-21.26.03:732][126]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-21.26.03:732][126]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-21.26.03:732][126]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-21.26.03:732][126]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-21.26.03:732][126]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-21.26.03:754][126]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-21.26.03:754][126]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-21.26.03:754][126]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-21.26.03:754][126]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-21.26.03:754][126]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-21.26.03:754][126]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-21.26.03:754][126]LogAudioMixer: Display: Channel Order:
+[2020.07.27-21.26.03:754][126]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-21.26.03:754][126]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-21.26.03:764][126]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-21.26.03:765][126]LogInit: FAudioDevice initialized.
+[2020.07.27-21.26.03:771][126]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.27-21.26.03:800][126]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.27-17.26.03
+[2020.07.27-21.26.03:815][126]LogWorld: Bringing up level for play took: 0.043579
+[2020.07.27-21.26.03:815][126]LogOnline: OSS: Creating online subsystem instance for: :Context_150
+[2020.07.27-21.26.03:818][126]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.26.03:818][126]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.26.03:827][126]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.726
+[2020.07.27-21.26.03:827][126]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.27.35:446][454]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.27.35:446][454]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.27.35:446][454]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.27.35:454][454]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.27.35:454][454]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-21.27.35:454][454]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.27.35:458][454]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.27.35:466][454]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.27.35:493][454]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-21.27.35:493][454]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.27.35:502][454]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.27.35:556][454]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.27.35:559][454]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.27.35:575][454]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2020.07.27-21.27.35:600][455]LogPlayLevel: Display: Destroying online subsystem :Context_150
+[2020.07.27-21.27.41:200][576]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2020.07.27-21.27.41:786][576]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel139EC4ED24C21B59C57EBED8B8AB8E4AE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.27.41:864][576]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.27.41:864][576]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.27.58:832][588]LogUObjectHash: Compacting FUObjectHashTables data took   4.82ms
+[2020.07.27-21.27.59:446][588]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel11F6D4BE8482710445F8971B1633B5200.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.27.59:522][588]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.27.59:522][588]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.28.42:403][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall1005)
+[2020.07.27-21.28.42:606][754]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall1005)
+[2020.07.27-21.28.46:003][944]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2020.07.27-21.30.56:254][555]Cmd: DELETE
+[2020.07.27-21.30.56:254][555]Cmd: ACTOR DELETE
+[2020.07.27-21.30.56:282][555]LogEditorActor: Deleted Actor: Brush
+[2020.07.27-21.30.56:337][555]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2020.07.27-21.30.56:345][555]LogEditorActor: Deleted 1 Actors (0.090 secs)
+[2020.07.27-21.30.57:630][628]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2020.07.27-21.30.58:230][628]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1C2EE68154BE6D13900A9F0BBEC5BBBA2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.30.58:308][628]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.30.58:308][628]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.31.34:670][891]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2020.07.27-21.31.35:253][891]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel11FF7399B430284F84821D7843CE60B2C.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.31.35:329][891]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.31.35:329][891]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.31.37:725][ 29]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-21.31.37:768][ 29]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.31.37:770][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-21.31.37:770][ 29]PIE: New page: PIE session: PFinalLevel1 (Jul 27, 2020, 1:31:37 PM)
+[2020.07.27-21.31.37:771][ 29]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-21.31.37:871][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.100649s)
+[2020.07.27-21.31.37:872][ 29]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.27-21.31.37:872][ 29]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2020.07.27-21.31.37:872][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.101673s)
+[2020.07.27-21.31.37:917][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2020.07.27-21.31.37:917][ 29]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-21.31.37:918][ 29]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-21.31.37:918][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-21.31.37:918][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-21.31.37:918][ 29]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-21.31.37:918][ 29]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-21.31.37:918][ 29]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-21.31.37:918][ 29]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-21.31.37:918][ 29]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-21.31.37:918][ 29]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-21.31.37:940][ 29]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-21.31.37:940][ 29]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-21.31.37:940][ 29]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-21.31.37:940][ 29]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-21.31.37:940][ 29]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-21.31.37:940][ 29]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-21.31.37:940][ 29]LogAudioMixer: Display: Channel Order:
+[2020.07.27-21.31.37:940][ 29]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-21.31.37:940][ 29]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-21.31.37:952][ 29]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-21.31.37:953][ 29]LogInit: FAudioDevice initialized.
+[2020.07.27-21.31.37:960][ 29]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.27-21.31.37:987][ 29]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.27-17.31.37
+[2020.07.27-21.31.38:002][ 29]LogWorld: Bringing up level for play took: 0.041569
+[2020.07.27-21.31.38:003][ 29]LogOnline: OSS: Creating online subsystem instance for: :Context_151
+[2020.07.27-21.31.38:005][ 29]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.31.38:005][ 29]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.31.38:015][ 29]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.915
+[2020.07.27-21.31.38:015][ 29]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.31.56:741][109]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.31.56:741][109]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.31.56:741][109]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.31.56:748][109]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.31.56:748][109]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-21.31.56:748][109]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.31.56:752][109]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.31.56:762][109]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.31.56:770][109]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-21.31.56:771][109]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.31.56:778][109]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.31.56:823][109]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.31.56:825][109]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.31.56:838][109]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2020.07.27-21.31.56:862][110]LogPlayLevel: Display: Destroying online subsystem :Context_151
+[2020.07.27-21.31.58:049][175]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2020.07.27-21.31.58:633][175]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel127472A0F436158ABF62CE7ADAA519DA5.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.31.58:714][175]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.31.58:714][175]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.32.19:613][330]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2020.07.27-21.32.20:207][330]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1170081684684432232045F93303926A5.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.32.20:283][330]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.32.20:283][330]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.34.37:753][780]LogHotReload: New module detected: UE4Editor-Project-0008.dll
+[2020.07.27-21.34.38:441][783]LogHotReload: Starting Hot-Reload from IDE
+[2020.07.27-21.34.38:516][783]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2020.07.27-21.34.38:833][783]LogClass: EGunState HotReload.
+[2020.07.27-21.34.38:833][783]LogClass: EFEnemyMoveStat HotReload.
+[2020.07.27-21.34.38:833][783]LogClass: PlayerStats HotReload.
+[2020.07.27-21.34.38:894][783]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0005 seconds. Added 63 classes and 3 folders.
+[2020.07.27-21.34.38:930][783]Display: HotReload successful (79 functions remapped  1 scriptstructs remapped)
+[2020.07.27-21.34.39:083][783]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2020.07.27-21.34.39:108][783]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 3103 classes and 733 folders.
+[2020.07.27-21.34.39:112][783]Display: HotReload took  0.7s.
+[2020.07.27-21.34.42:643][945]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-21.34.42:687][945]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.34.42:689][945]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-21.34.42:690][945]PIE: New page: PIE session: PFinalLevel1 (Jul 27, 2020, 1:34:42 PM)
+[2020.07.27-21.34.42:690][945]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-21.34.42:805][945]LogPlayLevel: PIE: StaticDuplicateObject took: (0.114199s)
+[2020.07.27-21.34.42:806][945]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.27-21.34.42:806][945]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2020.07.27-21.34.42:806][945]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.115386s)
+[2020.07.27-21.34.42:885][945]LogUObjectHash: Compacting FUObjectHashTables data took   5.74ms
+[2020.07.27-21.34.42:889][945]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-21.34.42:889][945]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-21.34.42:889][945]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-21.34.42:889][945]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-21.34.42:889][945]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-21.34.42:889][945]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-21.34.42:889][945]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-21.34.42:889][945]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-21.34.42:889][945]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-21.34.42:889][945]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-21.34.42:911][945]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-21.34.42:911][945]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-21.34.42:912][945]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-21.34.42:912][945]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-21.34.42:912][945]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-21.34.42:912][945]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-21.34.42:912][945]LogAudioMixer: Display: Channel Order:
+[2020.07.27-21.34.42:912][945]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-21.34.42:912][945]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-21.34.42:922][945]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-21.34.42:924][945]LogInit: FAudioDevice initialized.
+[2020.07.27-21.34.42:932][945]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.27-21.34.42:959][945]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.27-17.34.42
+[2020.07.27-21.34.42:975][945]LogWorld: Bringing up level for play took: 0.042036
+[2020.07.27-21.34.42:975][945]LogOnline: OSS: Creating online subsystem instance for: :Context_152
+[2020.07.27-21.34.42:977][945]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.34.42:978][945]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.34.42:987][945]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 -0.113
+[2020.07.27-21.34.42:987][945]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.34.57:438][762]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.34.57:449][762]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-21.34.57:469][762]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-21.34.57:469][762]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.34.57:472][762]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.34.57:472][762]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-21.34.57:472][762]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.34.57:475][762]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.34.57:482][762]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.34.57:492][762]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-21.34.57:492][762]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.34.57:500][762]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.34.57:552][762]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.34.57:554][762]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.34.57:571][762]LogUObjectHash: Compacting FUObjectHashTables data took   4.81ms
+[2020.07.27-21.34.57:603][763]LogPlayLevel: Display: Destroying online subsystem :Context_152
+[2020.07.27-21.34.58:119][788]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2020.07.27-21.34.58:773][788]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1F53C9019459370EDF0279DA4FDAE8000.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.34.58:854][788]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.34.58:854][788]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
