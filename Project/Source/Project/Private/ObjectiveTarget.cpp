@@ -37,6 +37,12 @@ void UObjectiveTarget::OnComponentDestroyed(bool bDestroyingHierarchy)
 		if (Player && Player->CurrentObjective)
 		{
 			Player->CurrentObjective->UpdateProgress();
+			
+			//Save progress
+			if (bShouldSaveProgress)
+			{
+				Player->Save();
+			}
 		}
 	}
 

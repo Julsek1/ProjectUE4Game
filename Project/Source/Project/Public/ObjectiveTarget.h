@@ -16,6 +16,9 @@ public:
 	// Sets default values for this component's properties
 	UObjectiveTarget();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool bShouldSaveProgress = false;
+
 protected:
 	// Called when the game starts
 	//virtual void BeginPlay() override;

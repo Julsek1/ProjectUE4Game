@@ -18129,3 +18129,681 @@ Script Stack (0 frames):
 [2020.07.27-21.34.58:773][788]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1F53C9019459370EDF0279DA4FDAE8000.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
 [2020.07.27-21.34.58:854][788]AssetCheck: New page: Asset Save: PFinalLevel1
 [2020.07.27-21.34.58:854][788]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.37.23:795][348]LogUObjectHash: Compacting FUObjectHashTables data took   6.38ms
+[2020.07.27-21.37.24:452][348]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1914B66CF4E8BA4D5A892E2B2623AFB84.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.37.24:534][348]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.37.24:534][348]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.37.27:759][540]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.37.27:759][540]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.37.30:777][709]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.07.27-21.37.30:777][709]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.37.30:777][709]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.37.32:271][782]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.07.27-21.37.32:271][782]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.37.32:271][782]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.37.34:193][873]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.07.27-21.37.34:193][873]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.37.34:193][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.37.37:257][ 29]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.07.27-21.37.37:257][ 29]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.37.37:257][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.37.38:699][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   5.24ms
+[2020.07.27-21.37.39:316][ 63]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1895FF7ED40F2AC96D66C469B0B00B6FA.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.37.39:398][ 63]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.37.39:398][ 63]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.37.44:847][368]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
+[2020.07.27-21.37.45:500][368]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1E424A0684FD62DB4A4CB5D899FFB8CD6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.37.45:578][368]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.37.45:579][368]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.42.42:920][575]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2020.07.27-21.42.43:470][575]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1CBF9EE3844123EC96AD5A39BC656D4D2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.42.43:564][575]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.42.43:564][575]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.49.49:597][170]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.07.27-21.49.50:102][170]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel163AFB17148F39311E65C42983AC9A42E.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.49.50:193][170]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.49.50:193][170]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.57.44:114][895]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.07.27-21.57.44:619][895]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel17311B9E9428FE071C790AABC5D7056C7.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.57.44:695][895]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.57.44:695][895]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.57.54:805][499]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-21.57.54:835][499]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.57.54:835][499]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-21.57.54:836][499]PIE: New page: PIE session: PFinalLevel1 (Jul 27, 2020, 1:57:54 PM)
+[2020.07.27-21.57.54:836][499]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-21.57.54:954][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.117870s)
+[2020.07.27-21.57.54:955][499]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.27-21.57.54:955][499]LogPlayLevel: PIE: World Init took: (0.001448s)
+[2020.07.27-21.57.54:956][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.119577s)
+[2020.07.27-21.57.54:990][499]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.07.27-21.57.54:992][499]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-21.57.54:992][499]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-21.57.54:992][499]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-21.57.54:992][499]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-21.57.54:992][499]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-21.57.54:992][499]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-21.57.54:992][499]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-21.57.54:992][499]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-21.57.54:992][499]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-21.57.54:992][499]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-21.57.55:014][499]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-21.57.55:014][499]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-21.57.55:014][499]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-21.57.55:014][499]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-21.57.55:014][499]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-21.57.55:014][499]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-21.57.55:014][499]LogAudioMixer: Display: Channel Order:
+[2020.07.27-21.57.55:014][499]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-21.57.55:015][499]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-21.57.55:025][499]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-21.57.55:028][499]LogInit: FAudioDevice initialized.
+[2020.07.27-21.57.55:034][499]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.27-21.57.55:063][499]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.27-17.57.55
+[2020.07.27-21.57.55:077][499]LogWorld: Bringing up level for play took: 0.042042
+[2020.07.27-21.57.55:079][499]LogOnline: OSS: Creating online subsystem instance for: :Context_153
+[2020.07.27-21.57.55:082][499]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.57.55:082][499]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-21.57.55:092][499]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 -0.008
+[2020.07.27-21.57.55:092][499]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.58.28:943][495]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.58.28:943][495]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.58.28:943][495]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.58.28:944][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.58.28:944][495]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-21.58.28:944][495]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.58.28:949][495]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-21.58.28:962][495]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.58.28:968][495]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-21.58.28:969][495]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-21.58.28:974][495]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-21.58.29:006][495]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-21.58.29:010][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-21.58.29:024][495]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.07.27-21.58.29:050][496]LogPlayLevel: Display: Destroying online subsystem :Context_153
+[2020.07.27-21.58.29:580][524]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.07.27-21.58.30:061][524]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1304C87E04A41688E8E123AAC05E96D8B.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.58.30:141][524]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.58.30:141][524]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-21.58.32:301][649]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.07.27-21.58.32:794][649]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel10DA29DBE4FD4B8009D8FD5BFA057C3D8.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-21.58.32:880][649]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-21.58.32:880][649]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-22.02.08:584][654]LogEditorViewport: Clicking on Actor (LMB): BP_Keycard_C (BP_Keycard5)
+[2020.07.27-22.02.24:671][561]LogHotReload: New module detected: UE4Editor-Project-0009.dll
+[2020.07.27-22.02.25:593][565]LogHotReload: Starting Hot-Reload from IDE
+[2020.07.27-22.02.25:647][565]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2020.07.27-22.02.25:835][565]LogClass: Could not find existing class Objective in package /Script/Project for HotReload, assuming new class
+[2020.07.27-22.02.25:836][565]LogClass: Function UpdateProgress is new.
+[2020.07.27-22.02.25:879][565]LogClass: EGunState HotReload.
+[2020.07.27-22.02.25:879][565]LogClass: EFEnemyMoveStat HotReload.
+[2020.07.27-22.02.25:879][565]LogClass: PlayerStats HotReload.
+[2020.07.27-22.02.25:939][565]LogHotReload: Re-instancing Objective after hot-reload.
+[2020.07.27-22.02.26:206][565]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0058 seconds. Added 63 classes and 3 folders.
+[2020.07.27-22.02.26:263][565]Display: HotReload successful (78 functions remapped  1 scriptstructs remapped)
+[2020.07.27-22.02.26:366][565]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2020.07.27-22.02.26:408][565]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 3103 classes and 733 folders.
+[2020.07.27-22.02.26:414][565]Display: HotReload took  0.8s.
+[2020.07.27-22.05.38:178][137]LogHotReload: New module detected: UE4Editor-Project-0010.dll
+[2020.07.27-22.05.38:871][140]LogHotReload: Starting Hot-Reload from IDE
+[2020.07.27-22.05.38:980][140]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2020.07.27-22.05.39:135][140]LogClass: Could not find existing class Objective in package /Script/Project for HotReload, assuming new class
+[2020.07.27-22.05.39:135][140]LogClass: Function UpdateProgress is new.
+[2020.07.27-22.05.39:137][140]LogClass: Could not find existing class ObjectiveTarget in package /Script/Project for HotReload, assuming new class
+[2020.07.27-22.05.39:175][140]LogClass: EGunState HotReload.
+[2020.07.27-22.05.39:175][140]LogClass: EFEnemyMoveStat HotReload.
+[2020.07.27-22.05.39:175][140]LogClass: PlayerStats HotReload.
+[2020.07.27-22.05.39:239][140]LogHotReload: Re-instancing Objective after hot-reload.
+[2020.07.27-22.05.39:524][140]LogHotReload: Re-instancing ObjectiveTarget after hot-reload.
+[2020.07.27-22.05.39:786][140]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0005 seconds. Added 63 classes and 3 folders.
+[2020.07.27-22.05.39:816][140]Display: HotReload successful (78 functions remapped  1 scriptstructs remapped)
+[2020.07.27-22.05.39:965][140]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2020.07.27-22.05.39:990][140]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 3103 classes and 733 folders.
+[2020.07.27-22.05.39:994][140]Display: HotReload took  1.1s.
+[2020.07.27-22.05.46:493][248]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Mesh)
+[2020.07.27-22.05.52:183][571]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2020.07.27-22.05.52:674][571]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel13F634A5B43813529F0A5D98C4F835B16.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-22.05.52:760][571]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-22.05.52:760][571]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-22.06.39:901][353]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2020.07.27-22.06.40:422][353]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1655C85F24769FF4DBAD6D5A68441EAE6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-22.06.40:499][353]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-22.06.40:499][353]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-22.06.54:125][156]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2020.07.27-22.06.54:617][156]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel19E2BA9EF419655568DA068A85E535664.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-22.06.54:706][156]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-22.06.54:706][156]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-22.06.57:582][324]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.07.27-22.06.58:072][324]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel15901D3A8445C0B68580DE58627639C2F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-22.06.58:149][324]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-22.06.58:149][324]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-22.07.01:638][528]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2020.07.27-22.07.02:130][528]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1682D37454D3FB7028DC64899D9F7E67F.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-22.07.02:215][528]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-22.07.02:215][528]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-22.08.07:678][872]LogHotReload: New module detected: UE4Editor-Project-0011.dll
+[2020.07.27-22.08.08:377][875]LogHotReload: Starting Hot-Reload from IDE
+[2020.07.27-22.08.08:442][875]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.07.27-22.08.08:664][875]LogClass: EGunState HotReload.
+[2020.07.27-22.08.08:664][875]LogClass: EFEnemyMoveStat HotReload.
+[2020.07.27-22.08.08:664][875]LogClass: PlayerStats HotReload.
+[2020.07.27-22.08.08:717][875]LogContentBrowser: Native class hierarchy updated for 'Project' in 0.0005 seconds. Added 63 classes and 3 folders.
+[2020.07.27-22.08.08:747][875]Display: HotReload successful (79 functions remapped  1 scriptstructs remapped)
+[2020.07.27-22.08.08:846][875]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2020.07.27-22.08.08:865][875]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 3103 classes and 733 folders.
+[2020.07.27-22.08.08:869][875]Display: HotReload took  0.5s.
+[2020.07.27-22.08.12:007][927]LogUObjectHash: Compacting FUObjectHashTables data took   5.15ms
+[2020.07.27-22.08.12:508][927]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1E372F6CA41FA393829ED62AFB2B759AB.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-22.08.12:585][927]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-22.08.12:585][927]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-22.08.16:746][175]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-22.08.16:781][175]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.08.16:781][175]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-22.08.16:781][175]PIE: New page: PIE session: PFinalLevel1 (Jul 27, 2020, 2:08:16 PM)
+[2020.07.27-22.08.16:781][175]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-22.08.16:896][175]LogPlayLevel: PIE: StaticDuplicateObject took: (0.115439s)
+[2020.07.27-22.08.16:897][175]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.27-22.08.16:897][175]LogPlayLevel: PIE: World Init took: (0.000907s)
+[2020.07.27-22.08.16:897][175]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.116554s)
+[2020.07.27-22.08.16:952][175]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2020.07.27-22.08.16:955][175]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-22.08.16:955][175]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-22.08.16:955][175]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-22.08.16:955][175]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-22.08.16:955][175]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-22.08.16:955][175]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-22.08.16:955][175]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-22.08.16:955][175]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-22.08.16:956][175]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-22.08.16:956][175]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-22.08.16:978][175]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-22.08.16:978][175]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-22.08.16:978][175]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-22.08.16:978][175]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-22.08.16:978][175]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-22.08.16:978][175]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-22.08.16:978][175]LogAudioMixer: Display: Channel Order:
+[2020.07.27-22.08.16:978][175]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-22.08.16:978][175]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-22.08.16:989][175]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-22.08.16:992][175]LogInit: FAudioDevice initialized.
+[2020.07.27-22.08.17:002][175]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.27-22.08.17:031][175]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.27-18.08.17
+[2020.07.27-22.08.17:046][175]LogWorld: Bringing up level for play took: 0.042881
+[2020.07.27-22.08.17:046][175]LogOnline: OSS: Creating online subsystem instance for: :Context_154
+[2020.07.27-22.08.17:049][175]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-22.08.17:049][175]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-22.08.17:051][175]LogScript: Warning: Attempted to access missing property 'Description'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_ObjectiveGiverHackTerminals_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.BP_ObjectiveGiverHackTerminals2
+	Function /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.BP_ObjectiveGiverHackTerminals_C:ExecuteUbergraph_BP_ObjectiveGiverHackTerminals:00D4
+[2020.07.27-22.08.17:053][175]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Description'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_ObjectiveGiverHackTerminals Function:  Execute Ubergraph BP Objective Giver Hack Terminals Graph:  EventGraph Node:  Set Description
+[2020.07.27-22.08.17:053][175]LogScript: Warning: Attempted to assign to None
+	BP_ObjectiveGiverHackTerminals_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.BP_ObjectiveGiverHackTerminals2
+	Function /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.BP_ObjectiveGiverHackTerminals_C:ExecuteUbergraph_BP_ObjectiveGiverHackTerminals:00D4
+[2020.07.27-22.08.17:053][175]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  BP_ObjectiveGiverHackTerminals Function:  Execute Ubergraph BP Objective Giver Hack Terminals Graph:  EventGraph Node:  Set Description
+[2020.07.27-22.08.17:053][175]LogScript: Warning: Attempted to access missing property 'Requirement'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_ObjectiveGiverHackTerminals_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.BP_ObjectiveGiverHackTerminals2
+	Function /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.BP_ObjectiveGiverHackTerminals_C:ExecuteUbergraph_BP_ObjectiveGiverHackTerminals:0112
+[2020.07.27-22.08.17:053][175]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Requirement'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_ObjectiveGiverHackTerminals Function:  Execute Ubergraph BP Objective Giver Hack Terminals Graph:  EventGraph Node:  Set Requirement
+[2020.07.27-22.08.17:053][175]LogScript: Warning: Attempted to assign to None
+	BP_ObjectiveGiverHackTerminals_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.BP_ObjectiveGiverHackTerminals2
+	Function /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.BP_ObjectiveGiverHackTerminals_C:ExecuteUbergraph_BP_ObjectiveGiverHackTerminals:0112
+[2020.07.27-22.08.17:053][175]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  BP_ObjectiveGiverHackTerminals Function:  Execute Ubergraph BP Objective Giver Hack Terminals Graph:  EventGraph Node:  Set Requirement
+[2020.07.27-22.08.17:053][175]LogScript: Warning: Attempted to access missing property 'CompleteText'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_ObjectiveGiverHackTerminals_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.BP_ObjectiveGiverHackTerminals2
+	Function /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.BP_ObjectiveGiverHackTerminals_C:ExecuteUbergraph_BP_ObjectiveGiverHackTerminals:0141
+[2020.07.27-22.08.17:053][175]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'CompleteText'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_ObjectiveGiverHackTerminals Function:  Execute Ubergraph BP Objective Giver Hack Terminals Graph:  EventGraph Node:  Set CompleteText
+[2020.07.27-22.08.17:053][175]LogScript: Warning: Attempted to assign to None
+	BP_ObjectiveGiverHackTerminals_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.BP_ObjectiveGiverHackTerminals2
+	Function /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.BP_ObjectiveGiverHackTerminals_C:ExecuteUbergraph_BP_ObjectiveGiverHackTerminals:0141
+[2020.07.27-22.08.17:054][175]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  BP_ObjectiveGiverHackTerminals Function:  Execute Ubergraph BP Objective Giver Hack Terminals Graph:  EventGraph Node:  Set CompleteText
+[2020.07.27-22.08.17:054][175]LogScript: Warning: Attempted to access missing property 'Description'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_ObjectiveGiverHackTerminals_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.BP_ObjectiveGiverHackTerminals_2
+	Function /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.BP_ObjectiveGiverHackTerminals_C:ExecuteUbergraph_BP_ObjectiveGiverHackTerminals:00D4
+[2020.07.27-22.08.17:054][175]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Description'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_ObjectiveGiverHackTerminals Function:  Execute Ubergraph BP Objective Giver Hack Terminals Graph:  EventGraph Node:  Set Description
+[2020.07.27-22.08.17:054][175]LogScript: Warning: Attempted to assign to None
+	BP_ObjectiveGiverHackTerminals_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.BP_ObjectiveGiverHackTerminals_2
+	Function /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.BP_ObjectiveGiverHackTerminals_C:ExecuteUbergraph_BP_ObjectiveGiverHackTerminals:00D4
+[2020.07.27-22.08.17:054][175]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  BP_ObjectiveGiverHackTerminals Function:  Execute Ubergraph BP Objective Giver Hack Terminals Graph:  EventGraph Node:  Set Description
+[2020.07.27-22.08.17:054][175]LogScript: Warning: Attempted to access missing property 'Requirement'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_ObjectiveGiverHackTerminals_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.BP_ObjectiveGiverHackTerminals_2
+	Function /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.BP_ObjectiveGiverHackTerminals_C:ExecuteUbergraph_BP_ObjectiveGiverHackTerminals:0112
+[2020.07.27-22.08.17:054][175]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Requirement'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_ObjectiveGiverHackTerminals Function:  Execute Ubergraph BP Objective Giver Hack Terminals Graph:  EventGraph Node:  Set Requirement
+[2020.07.27-22.08.17:054][175]LogScript: Warning: Attempted to assign to None
+	BP_ObjectiveGiverHackTerminals_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.BP_ObjectiveGiverHackTerminals_2
+	Function /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.BP_ObjectiveGiverHackTerminals_C:ExecuteUbergraph_BP_ObjectiveGiverHackTerminals:0112
+[2020.07.27-22.08.17:054][175]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  BP_ObjectiveGiverHackTerminals Function:  Execute Ubergraph BP Objective Giver Hack Terminals Graph:  EventGraph Node:  Set Requirement
+[2020.07.27-22.08.17:054][175]LogScript: Warning: Attempted to access missing property 'CompleteText'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_ObjectiveGiverHackTerminals_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.BP_ObjectiveGiverHackTerminals_2
+	Function /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.BP_ObjectiveGiverHackTerminals_C:ExecuteUbergraph_BP_ObjectiveGiverHackTerminals:0141
+[2020.07.27-22.08.17:054][175]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'CompleteText'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_ObjectiveGiverHackTerminals Function:  Execute Ubergraph BP Objective Giver Hack Terminals Graph:  EventGraph Node:  Set CompleteText
+[2020.07.27-22.08.17:054][175]LogScript: Warning: Attempted to assign to None
+	BP_ObjectiveGiverHackTerminals_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.BP_ObjectiveGiverHackTerminals_2
+	Function /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.BP_ObjectiveGiverHackTerminals_C:ExecuteUbergraph_BP_ObjectiveGiverHackTerminals:0141
+[2020.07.27-22.08.17:054][175]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  BP_ObjectiveGiverHackTerminals Function:  Execute Ubergraph BP Objective Giver Hack Terminals Graph:  EventGraph Node:  Set CompleteText
+[2020.07.27-22.08.17:055][175]LogScript: Warning: Attempted to access missing property 'Description'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_ObjectiveGiverCollectKeys_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.BP_ObjectiveGiverCollectKeys_5
+	Function /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverCollectKeys.BP_ObjectiveGiverCollectKeys_C:ExecuteUbergraph_BP_ObjectiveGiverCollectKeys:00D4
+[2020.07.27-22.08.17:055][175]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Description'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_ObjectiveGiverCollectKeys Function:  Execute Ubergraph BP Objective Giver Collect Keys Graph:  EventGraph Node:  Set Description
+[2020.07.27-22.08.17:055][175]LogScript: Warning: Attempted to assign to None
+	BP_ObjectiveGiverCollectKeys_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.BP_ObjectiveGiverCollectKeys_5
+	Function /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverCollectKeys.BP_ObjectiveGiverCollectKeys_C:ExecuteUbergraph_BP_ObjectiveGiverCollectKeys:00D4
+[2020.07.27-22.08.17:055][175]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  BP_ObjectiveGiverCollectKeys Function:  Execute Ubergraph BP Objective Giver Collect Keys Graph:  EventGraph Node:  Set Description
+[2020.07.27-22.08.17:055][175]LogScript: Warning: Attempted to access missing property 'Requirement'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_ObjectiveGiverCollectKeys_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.BP_ObjectiveGiverCollectKeys_5
+	Function /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverCollectKeys.BP_ObjectiveGiverCollectKeys_C:ExecuteUbergraph_BP_ObjectiveGiverCollectKeys:0114
+[2020.07.27-22.08.17:055][175]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Requirement'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_ObjectiveGiverCollectKeys Function:  Execute Ubergraph BP Objective Giver Collect Keys Graph:  EventGraph Node:  Set Requirement
+[2020.07.27-22.08.17:055][175]LogScript: Warning: Attempted to assign to None
+	BP_ObjectiveGiverCollectKeys_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.BP_ObjectiveGiverCollectKeys_5
+	Function /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverCollectKeys.BP_ObjectiveGiverCollectKeys_C:ExecuteUbergraph_BP_ObjectiveGiverCollectKeys:0114
+[2020.07.27-22.08.17:055][175]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  BP_ObjectiveGiverCollectKeys Function:  Execute Ubergraph BP Objective Giver Collect Keys Graph:  EventGraph Node:  Set Requirement
+[2020.07.27-22.08.17:055][175]LogScript: Warning: Attempted to access missing property 'CompleteText'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_ObjectiveGiverCollectKeys_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.BP_ObjectiveGiverCollectKeys_5
+	Function /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverCollectKeys.BP_ObjectiveGiverCollectKeys_C:ExecuteUbergraph_BP_ObjectiveGiverCollectKeys:0143
+[2020.07.27-22.08.17:055][175]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'CompleteText'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_ObjectiveGiverCollectKeys Function:  Execute Ubergraph BP Objective Giver Collect Keys Graph:  EventGraph Node:  Set CompleteText
+[2020.07.27-22.08.17:055][175]LogScript: Warning: Attempted to assign to None
+	BP_ObjectiveGiverCollectKeys_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.BP_ObjectiveGiverCollectKeys_5
+	Function /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverCollectKeys.BP_ObjectiveGiverCollectKeys_C:ExecuteUbergraph_BP_ObjectiveGiverCollectKeys:0143
+[2020.07.27-22.08.17:055][175]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  BP_ObjectiveGiverCollectKeys Function:  Execute Ubergraph BP Objective Giver Collect Keys Graph:  EventGraph Node:  Set CompleteText
+[2020.07.27-22.08.17:064][175]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 -0.036
+[2020.07.27-22.08.17:065][175]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.08.17:081][175]LogScript: Warning: Attempted to access missing property 'bComplete'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_108.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_ObjectiveDescription_ColorAndOpacity_0:003E
+[2020.07.27-22.08.17:081][175]LogScript: Warning: Attempted to access missing property 'bComplete'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_108.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_ObjectiveDescription_ColorAndOpacity_0:003E
+[2020.07.27-22.08.17:081][175]LogScript: Warning: Attempted to access missing property 'Requirement'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_108.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_ObjectiveProgress_Text_0:004A
+[2020.07.27-22.08.17:128][176]LogScript: Warning: Attempted to access missing property 'bComplete'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_108.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_ObjectiveDescription_ColorAndOpacity_0:003E
+[2020.07.27-22.08.17:128][176]LogScript: Warning: Attempted to access missing property 'bComplete'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_108.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_ObjectiveDescription_ColorAndOpacity_0:003E
+[2020.07.27-22.08.17:128][176]LogScript: Warning: Attempted to access missing property 'Requirement'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_108.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_ObjectiveProgress_Text_0:004A
+[2020.07.27-22.08.17:137][177]LogScript: Warning: Attempted to access missing property 'bComplete'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_108.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_ObjectiveDescription_ColorAndOpacity_0:003E
+[2020.07.27-22.08.17:137][177]LogScript: Warning: Attempted to access missing property 'bComplete'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_108.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_ObjectiveDescription_ColorAndOpacity_0:003E
+[2020.07.27-22.08.17:137][177]LogScript: Warning: Attempted to access missing property 'Requirement'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_108.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_ObjectiveProgress_Text_0:004A
+[2020.07.27-22.08.17:173][178]LogScript: Warning: Attempted to access missing property 'bComplete'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_108.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_ObjectiveDescription_ColorAndOpacity_0:003E
+[2020.07.27-22.08.17:173][178]LogScript: Warning: Attempted to access missing property 'bComplete'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_108.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_ObjectiveDescription_ColorAndOpacity_0:003E
+[2020.07.27-22.08.17:173][178]LogScript: Warning: Attempted to access missing property 'Requirement'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_108.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_ObjectiveProgress_Text_0:004A
+[2020.07.27-22.08.17:207][179]LogScript: Warning: Attempted to access missing property 'bComplete'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_108.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_ObjectiveDescription_ColorAndOpacity_0:003E
+[2020.07.27-22.08.17:207][179]LogScript: Warning: Attempted to access missing property 'bComplete'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_TSHUD_C /Engine/Transient.UnrealEdEngine_0:CustomGameInstance_108.BP_TSHUD_C_0
+	Function /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD_C:Get_ObjectiveDescription_ColorAndOpacity_0:003E
+[2020.07.27-22.08.31:913][ 47]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-22.08.31:913][ 47]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-22.08.31:913][ 47]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.08.31:913][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-22.08.31:913][ 47]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-22.08.31:913][ 47]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-22.08.31:917][ 47]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-22.08.31:927][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-22.08.31:940][ 47]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-22.08.31:940][ 47]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.08.31:949][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-22.08.31:980][ 47]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-22.08.31:983][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-22.08.31:993][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2020.07.27-22.08.32:166][ 48]LogPlayLevel: Display: Destroying online subsystem :Context_154
+[2020.07.27-22.08.33:802][131]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.BP_ObjectiveGiverHackTerminals
+[2020.07.27-22.08.35:901][215]BlueprintLog: New page: Compile BP_ObjectiveGiverHackTerminals
+[2020.07.27-22.08.36:184][215]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2020.07.27-22.08.37:124][265]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_ObjectiveGiverHackTerminals873915DA4245D3D75A2B2BB88065EDEB.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.uasset'
+[2020.07.27-22.08.37:148][265]AssetCheck: New page: Asset Save: BP_ObjectiveGiverHackTerminals
+[2020.07.27-22.08.37:148][265]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverHackTerminals.BP_ObjectiveGiverHackTerminals
+[2020.07.27-22.08.38:906][369]LogSlate: Window 'BP_ObjectiveGiverHackTerminals' being destroyed
+[2020.07.27-22.08.38:913][369]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-22.08.38:913][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-22.08.39:751][411]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2020.07.27-22.08.40:252][411]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1210BB4114DAC240F8CE87CAA81754691.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-22.08.40:333][411]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-22.08.40:334][411]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-22.08.41:974][502]LogSlate: Window 'Message Log' being destroyed
+[2020.07.27-22.08.41:978][502]LogSlate: Window 'Message Log' being destroyed
+[2020.07.27-22.08.42:703][541]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2020.07.27-22.08.43:187][541]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1A239FC53429825ABD051DD8AAC3AE5E6.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-22.08.43:263][541]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-22.08.43:263][541]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-22.08.43:573][560]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-22.08.43:613][560]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.08.43:613][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-22.08.43:613][560]PIE: New page: PIE session: PFinalLevel1 (Jul 27, 2020, 2:08:43 PM)
+[2020.07.27-22.08.43:614][560]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-22.08.43:740][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.125299s)
+[2020.07.27-22.08.43:741][560]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.27-22.08.43:741][560]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2020.07.27-22.08.43:741][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.126327s)
+[2020.07.27-22.08.43:771][560]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.07.27-22.08.43:773][560]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-22.08.43:773][560]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-22.08.43:773][560]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-22.08.43:773][560]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-22.08.43:773][560]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-22.08.43:773][560]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-22.08.43:773][560]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-22.08.43:773][560]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-22.08.43:774][560]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-22.08.43:774][560]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-22.08.43:798][560]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-22.08.43:798][560]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-22.08.43:798][560]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-22.08.43:799][560]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-22.08.43:799][560]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-22.08.43:799][560]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-22.08.43:799][560]LogAudioMixer: Display: Channel Order:
+[2020.07.27-22.08.43:799][560]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-22.08.43:799][560]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-22.08.43:810][560]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-22.08.43:812][560]LogInit: FAudioDevice initialized.
+[2020.07.27-22.08.43:822][560]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.27-22.08.43:851][560]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.27-18.08.43
+[2020.07.27-22.08.43:871][560]LogWorld: Bringing up level for play took: 0.049033
+[2020.07.27-22.08.43:871][560]LogOnline: OSS: Creating online subsystem instance for: :Context_156
+[2020.07.27-22.08.43:874][560]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-22.08.43:875][560]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-22.08.43:876][560]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Description'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_ObjectiveGiverCollectKeys Function:  Execute Ubergraph BP Objective Giver Collect Keys Graph:  EventGraph Node:  Set Description
+[2020.07.27-22.08.43:876][560]LogScript: Warning: Attempted to assign to None
+	BP_ObjectiveGiverCollectKeys_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.BP_ObjectiveGiverCollectKeys_5
+	Function /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverCollectKeys.BP_ObjectiveGiverCollectKeys_C:ExecuteUbergraph_BP_ObjectiveGiverCollectKeys:00D4
+[2020.07.27-22.08.43:876][560]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  BP_ObjectiveGiverCollectKeys Function:  Execute Ubergraph BP Objective Giver Collect Keys Graph:  EventGraph Node:  Set Description
+[2020.07.27-22.08.43:877][560]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Requirement'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_ObjectiveGiverCollectKeys Function:  Execute Ubergraph BP Objective Giver Collect Keys Graph:  EventGraph Node:  Set Requirement
+[2020.07.27-22.08.43:877][560]LogScript: Warning: Attempted to assign to None
+	BP_ObjectiveGiverCollectKeys_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.BP_ObjectiveGiverCollectKeys_5
+	Function /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverCollectKeys.BP_ObjectiveGiverCollectKeys_C:ExecuteUbergraph_BP_ObjectiveGiverCollectKeys:0114
+[2020.07.27-22.08.43:877][560]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  BP_ObjectiveGiverCollectKeys Function:  Execute Ubergraph BP Objective Giver Collect Keys Graph:  EventGraph Node:  Set Requirement
+[2020.07.27-22.08.43:877][560]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'CompleteText'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  BP_ObjectiveGiverCollectKeys Function:  Execute Ubergraph BP Objective Giver Collect Keys Graph:  EventGraph Node:  Set CompleteText
+[2020.07.27-22.08.43:877][560]LogScript: Warning: Attempted to assign to None
+	BP_ObjectiveGiverCollectKeys_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.BP_ObjectiveGiverCollectKeys_5
+	Function /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverCollectKeys.BP_ObjectiveGiverCollectKeys_C:ExecuteUbergraph_BP_ObjectiveGiverCollectKeys:0143
+[2020.07.27-22.08.43:877][560]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  BP_ObjectiveGiverCollectKeys Function:  Execute Ubergraph BP Objective Giver Collect Keys Graph:  EventGraph Node:  Set CompleteText
+[2020.07.27-22.08.43:885][560]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.785
+[2020.07.27-22.08.43:886][560]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.08.44:655][594]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-22.08.44:655][594]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-22.08.44:655][594]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.08.44:656][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-22.08.44:656][594]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-22.08.44:657][594]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-22.08.44:666][594]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-22.08.44:693][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-22.08.44:704][594]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-22.08.44:704][594]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.08.44:713][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-22.08.44:750][594]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-22.08.44:752][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-22.08.44:760][594]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.07.27-22.08.44:873][595]LogPlayLevel: Display: Destroying online subsystem :Context_156
+[2020.07.27-22.08.46:080][655]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverCollectKeys.BP_ObjectiveGiverCollectKeys
+[2020.07.27-22.08.47:495][718]LogSlate: Window 'Message Log' being destroyed
+[2020.07.27-22.08.47:501][718]LogSlate: Window 'Message Log' being destroyed
+[2020.07.27-22.08.48:213][759]BlueprintLog: New page: Compile BP_ObjectiveGiverCollectKeys
+[2020.07.27-22.08.48:468][759]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2020.07.27-22.08.49:300][805]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_ObjectiveGiverCollectKeys9F1BE9A145FF4F47FD94D8BD0555D2EE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Objectives/BP_ObjectiveGiverCollectKeys.uasset'
+[2020.07.27-22.08.49:319][805]AssetCheck: New page: Asset Save: BP_ObjectiveGiverCollectKeys
+[2020.07.27-22.08.49:319][805]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverCollectKeys.BP_ObjectiveGiverCollectKeys
+[2020.07.27-22.08.49:884][839]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-22.08.49:884][839]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-22.08.50:925][894]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2020.07.27-22.08.51:434][894]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel12A6951544063ED09BCB83FBB16B4455D.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-22.08.51:526][894]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-22.08.51:526][894]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-22.08.52:283][940]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-22.08.52:314][940]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.08.52:315][940]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-22.08.52:315][940]PIE: New page: PIE session: PFinalLevel1 (Jul 27, 2020, 2:08:52 PM)
+[2020.07.27-22.08.52:315][940]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-22.08.52:406][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.090486s)
+[2020.07.27-22.08.52:407][940]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.27-22.08.52:407][940]LogPlayLevel: PIE: World Init took: (0.000775s)
+[2020.07.27-22.08.52:407][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.091473s)
+[2020.07.27-22.08.52:438][940]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.07.27-22.08.52:439][940]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-22.08.52:439][940]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-22.08.52:439][940]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-22.08.52:439][940]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-22.08.52:439][940]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-22.08.52:439][940]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-22.08.52:439][940]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-22.08.52:439][940]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-22.08.52:440][940]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-22.08.52:440][940]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-22.08.52:466][940]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-22.08.52:466][940]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-22.08.52:466][940]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-22.08.52:466][940]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-22.08.52:466][940]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-22.08.52:466][940]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-22.08.52:466][940]LogAudioMixer: Display: Channel Order:
+[2020.07.27-22.08.52:466][940]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-22.08.52:466][940]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-22.08.52:476][940]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-22.08.52:478][940]LogInit: FAudioDevice initialized.
+[2020.07.27-22.08.52:485][940]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.27-22.08.52:531][940]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.27-18.08.52
+[2020.07.27-22.08.52:561][940]LogWorld: Bringing up level for play took: 0.075411
+[2020.07.27-22.08.52:562][940]LogOnline: OSS: Creating online subsystem instance for: :Context_158
+[2020.07.27-22.08.52:565][940]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-22.08.52:566][940]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-22.08.52:583][940]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 -0.517
+[2020.07.27-22.08.52:584][940]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.08.53:812][  1]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-22.08.53:812][  1]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-22.08.53:812][  1]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.08.53:812][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-22.08.53:812][  1]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-22.08.53:812][  1]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-22.08.53:816][  1]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-22.08.53:828][  1]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-22.08.53:834][  1]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-22.08.53:835][  1]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.08.53:840][  1]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-22.08.53:873][  1]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-22.08.53:875][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-22.08.53:883][  1]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2020.07.27-22.08.53:918][  3]LogPlayLevel: Display: Destroying online subsystem :Context_158
+[2020.07.27-22.08.54:888][ 59]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-22.08.54:919][ 59]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.08.54:919][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-22.08.54:919][ 59]PIE: New page: PIE session: PFinalLevel1 (Jul 27, 2020, 2:08:54 PM)
+[2020.07.27-22.08.54:919][ 59]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-22.08.55:009][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.090501s)
+[2020.07.27-22.08.55:010][ 59]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.27-22.08.55:010][ 59]LogPlayLevel: PIE: World Init took: (0.000742s)
+[2020.07.27-22.08.55:010][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.091448s)
+[2020.07.27-22.08.55:044][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.07.27-22.08.55:045][ 59]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-22.08.55:045][ 59]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-22.08.55:045][ 59]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-22.08.55:045][ 59]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-22.08.55:045][ 59]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-22.08.55:045][ 59]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-22.08.55:045][ 59]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-22.08.55:045][ 59]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-22.08.55:045][ 59]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-22.08.55:045][ 59]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-22.08.55:066][ 59]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-22.08.55:066][ 59]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-22.08.55:066][ 59]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-22.08.55:066][ 59]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-22.08.55:066][ 59]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-22.08.55:066][ 59]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-22.08.55:066][ 59]LogAudioMixer: Display: Channel Order:
+[2020.07.27-22.08.55:066][ 59]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-22.08.55:066][ 59]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-22.08.55:077][ 59]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-22.08.55:078][ 59]LogInit: FAudioDevice initialized.
+[2020.07.27-22.08.55:086][ 59]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.27-22.08.55:113][ 59]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.27-18.08.55
+[2020.07.27-22.08.55:128][ 59]LogWorld: Bringing up level for play took: 0.041383
+[2020.07.27-22.08.55:128][ 59]LogOnline: OSS: Creating online subsystem instance for: :Context_159
+[2020.07.27-22.08.55:131][ 59]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-22.08.55:131][ 59]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-22.08.55:140][ 59]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.04
+[2020.07.27-22.08.55:141][ 59]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.08.58:217][236]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-22.08.58:228][236]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.27-22.08.58:248][236]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.27-22.08.58:248][236]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.08.58:249][236]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-22.08.58:249][236]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-22.08.58:249][236]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-22.08.58:251][236]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-22.08.58:259][236]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-22.08.58:283][236]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-22.08.58:284][236]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.08.58:289][236]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-22.08.58:318][236]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-22.08.58:321][236]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-22.08.58:331][236]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.07.27-22.08.58:350][237]LogPlayLevel: Display: Destroying online subsystem :Context_159
+[2020.07.27-22.08.59:074][280]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-22.08.59:107][280]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.08.59:107][280]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-22.08.59:107][280]PIE: New page: PIE session: PFinalLevel1 (Jul 27, 2020, 2:08:59 PM)
+[2020.07.27-22.08.59:107][280]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-22.08.59:196][280]LogPlayLevel: PIE: StaticDuplicateObject took: (0.089405s)
+[2020.07.27-22.08.59:196][280]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.27-22.08.59:196][280]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2020.07.27-22.08.59:197][280]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.090364s)
+[2020.07.27-22.08.59:225][280]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.07.27-22.08.59:225][280]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-22.08.59:225][280]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-22.08.59:225][280]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-22.08.59:225][280]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-22.08.59:225][280]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-22.08.59:225][280]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-22.08.59:225][280]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-22.08.59:225][280]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-22.08.59:226][280]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-22.08.59:226][280]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-22.08.59:247][280]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-22.08.59:247][280]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-22.08.59:247][280]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-22.08.59:247][280]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-22.08.59:247][280]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-22.08.59:247][280]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-22.08.59:247][280]LogAudioMixer: Display: Channel Order:
+[2020.07.27-22.08.59:247][280]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-22.08.59:247][280]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-22.08.59:258][280]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-22.08.59:259][280]LogInit: FAudioDevice initialized.
+[2020.07.27-22.08.59:264][280]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.27-22.08.59:294][280]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.27-18.08.59
+[2020.07.27-22.08.59:309][280]LogWorld: Bringing up level for play took: 0.044099
+[2020.07.27-22.08.59:309][280]LogOnline: OSS: Creating online subsystem instance for: :Context_160
+[2020.07.27-22.08.59:312][280]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-22.08.59:313][280]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-22.08.59:322][280]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 0.222
+[2020.07.27-22.08.59:322][280]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.09.04:406][575]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-22.09.04:406][575]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-22.09.04:406][575]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.09.04:407][575]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-22.09.04:407][575]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-22.09.04:407][575]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-22.09.04:411][575]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-22.09.04:420][575]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-22.09.04:444][575]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-22.09.04:444][575]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.09.04:451][575]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-22.09.04:482][575]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-22.09.04:485][575]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-22.09.04:495][575]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2020.07.27-22.09.04:514][576]LogPlayLevel: Display: Destroying online subsystem :Context_160
+[2020.07.27-22.09.16:948][310]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverCollectKeys.BP_ObjectiveGiverCollectKeys
+[2020.07.27-22.09.19:916][468]BlueprintLog: New page: Compile BP_ObjectiveGiverCollectKeys
+[2020.07.27-22.09.20:182][468]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2020.07.27-22.09.20:676][493]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_ObjectiveGiverCollectKeys34A3ADA74591F88DDA9FB29BB5366DA1.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/Objectives/BP_ObjectiveGiverCollectKeys.uasset'
+[2020.07.27-22.09.20:695][493]AssetCheck: New page: Asset Save: BP_ObjectiveGiverCollectKeys
+[2020.07.27-22.09.20:695][493]LogContentValidation: Display: Validating Blueprint /Game/Phil/Blueprints/Objectives/BP_ObjectiveGiverCollectKeys.BP_ObjectiveGiverCollectKeys
+[2020.07.27-22.09.21:626][544]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2020.07.27-22.09.22:124][544]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1AEAC44A94F4B4F1C1DAD239046518C35.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-22.09.22:212][544]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-22.09.22:212][544]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-22.09.33:719][226]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD
+[2020.07.27-22.09.36:299][346]BlueprintLog: New page: Compile BP_TSHUD
+[2020.07.27-22.09.36:378][346]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2020.07.27-22.09.36:960][374]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/BP_TSHUDBDD5AD5048319863960BBBACC32DD1C2.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Blueprints/UI/BP_TSHUD.uasset'
+[2020.07.27-22.09.36:977][374]AssetCheck: New page: Asset Save: BP_TSHUD
+[2020.07.27-22.09.36:977][374]LogContentValidation: Display: Validating WidgetBlueprint /Game/Phil/Blueprints/UI/BP_TSHUD.BP_TSHUD
+[2020.07.27-22.09.37:662][411]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2020.07.27-22.09.38:191][411]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel16CC4C18E40ADB06228CC659197107B03.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-22.09.38:266][411]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-22.09.38:266][411]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1
+[2020.07.27-22.09.38:560][429]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.27-22.09.38:595][429]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.09.38:595][429]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.27-22.09.38:595][429]PIE: New page: PIE session: PFinalLevel1 (Jul 27, 2020, 2:09:38 PM)
+[2020.07.27-22.09.38:595][429]LogPlayLevel: Creating play world package: /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-22.09.38:689][429]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093730s)
+[2020.07.27-22.09.38:690][429]LogAIModule: Creating AISystem for world PFinalLevel1
+[2020.07.27-22.09.38:690][429]LogPlayLevel: PIE: World Init took: (0.000841s)
+[2020.07.27-22.09.38:690][429]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Phil/Levels/PFinalLevel1.PFinalLevel1 to /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 (0.094789s)
+[2020.07.27-22.09.38:731][429]LogUObjectHash: Compacting FUObjectHashTables data took   4.67ms
+[2020.07.27-22.09.38:732][429]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.27-22.09.38:732][429]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.27-22.09.38:732][429]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.27-22.09.38:732][429]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.27-22.09.38:732][429]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.27-22.09.38:732][429]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.27-22.09.38:732][429]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.27-22.09.38:732][429]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.27-22.09.38:733][429]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.27-22.09.38:733][429]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.27-22.09.38:761][429]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.27-22.09.38:761][429]LogAudioMixer: Display: Name: Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-22.09.38:761][429]LogAudioMixer: Display: Is Default: Yes
+[2020.07.27-22.09.38:761][429]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.27-22.09.38:761][429]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.27-22.09.38:761][429]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.27-22.09.38:761][429]LogAudioMixer: Display: Channel Order:
+[2020.07.27-22.09.38:761][429]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.27-22.09.38:761][429]LogAudioMixer: Display: 1: FrontRight
+[2020.07.27-22.09.38:772][429]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2020.07.27-22.09.38:773][429]LogInit: FAudioDevice initialized.
+[2020.07.27-22.09.38:782][429]LogLoad: Game class is 'BP_TwinStickShooter_C'
+[2020.07.27-22.09.38:821][429]LogWorld: Bringing World /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1 up for play (max tick rate 60) at 2020.07.27-18.09.38
+[2020.07.27-22.09.38:838][429]LogWorld: Bringing up level for play took: 0.055911
+[2020.07.27-22.09.38:839][429]LogOnline: OSS: Creating online subsystem instance for: :Context_164
+[2020.07.27-22.09.38:841][429]LogActor: Warning: BP_AssaultRifle_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor_GEN_VARIABLE_BP_AssaultRifle_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-22.09.38:842][429]LogActor: Warning: BP_Shotgun_C /Game/Phil/Levels/UEDPIE_0_PFinalLevel1.PFinalLevel1:PersistentLevel.ChildActor1_GEN_VARIABLE_BP_Shotgun_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.27-22.09.38:851][429]PIE: Play in editor start time for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1 -0.249
+[2020.07.27-22.09.38:852][429]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.10.10:537][278]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-22.10.10:537][278]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-22.10.10:537][278]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.10.10:538][278]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-22.10.10:538][278]LogWorld: BeginTearingDown for /Game/Phil/Levels/UEDPIE_0_PFinalLevel1
+[2020.07.27-22.10.10:538][278]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-22.10.10:541][278]LogWorld: UWorld::CleanupWorld for PFinalLevel1, bSessionEnded=true, bCleanupResources=true
+[2020.07.27-22.10.10:551][278]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-22.10.10:566][278]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.27-22.10.10:566][278]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel' has LevelScriptBlueprint '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1' with GeneratedClass '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1_C' with ClassGeneratedBy '/Game/Phil/Levels/PFinalLevel1.PFinalLevel1:PersistentLevel.PFinalLevel1'
+[2020.07.27-22.10.10:576][278]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.27-22.10.10:619][278]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.27-22.10.10:621][278]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.27-22.10.10:630][278]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2020.07.27-22.10.10:648][279]LogPlayLevel: Display: Destroying online subsystem :Context_164
+[2020.07.27-22.10.11:285][311]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.07.27-22.10.11:773][311]LogSavePackage: Moving '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Saved/PFinalLevel1E65B20484F85C0385022AA82B56294DE.tmp' to '../../../../../../Users/philf/Desktop/School/Internship Project/ProjectUE4Game/Project/Content/Phil/Levels/PFinalLevel1.umap'
+[2020.07.27-22.10.11:855][311]AssetCheck: New page: Asset Save: PFinalLevel1
+[2020.07.27-22.10.11:855][311]LogContentValidation: Display: Validating World /Game/Phil/Levels/PFinalLevel1.PFinalLevel1

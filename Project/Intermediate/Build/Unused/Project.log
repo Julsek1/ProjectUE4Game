@@ -3,10 +3,10 @@
   Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 12 processes...
     [1/4] Module.Project.cpp
-    [2/4] UE4Editor-Project-0008.lib
-       Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0008.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0008.exp
-    [3/4] UE4Editor-Project-0008.dll
-       Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0008.suppressed.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0008.suppressed.exp
+    [2/4] UE4Editor-Project-0011.lib
+       Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0011.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0011.exp
+    [3/4] UE4Editor-Project-0011.dll
+       Creating library C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0011.suppressed.lib and object C:\Users\philf\Desktop\School\Internship Project\ProjectUE4Game\Project\Intermediate\Build\Win64\UE4Editor\Development\Project\UE4Editor-Project-0011.suppressed.exp
     [4/4] ProjectEditor.target
-  Total time in Parallel executor: 31.35 seconds
-  Total execution time: 32.27 seconds
+  Total time in Parallel executor: 32.76 seconds
+  Total execution time: 33.54 seconds
