@@ -10,14 +10,6 @@
 void AObjective::UpdateProgress()
 {
 	Progress++;
-	
-	//save
-	auto Player = Cast<ATwinStickShooterPlayer>(GetWorld()->GetFirstPlayerController()->GetPawn());
-	
-	if (Player)
-	{
-		Player->Save();
-	}
 
 	if (Progress >= Requirement)
 	{

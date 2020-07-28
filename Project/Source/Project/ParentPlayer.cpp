@@ -46,7 +46,7 @@ void AParentPlayer::Heal(float HealingAmount)
 
 void AParentPlayer::GetHit(float Damage)
 {
-	if (!bDamageImmune)
+	if (!bDamageImmune && !bGodMode)
 	{
 		Health -= Damage;
 	}
