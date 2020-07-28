@@ -49,6 +49,12 @@ void AParentPlayer::GetHit(float Damage)
 	if (!bDamageImmune && !bGodMode)
 	{
 		Health -= Damage;
+
+		if (Health <= 0)
+		{
+			bIsDead = true;
+			Health = 0;
+		}
 	}
 }
 

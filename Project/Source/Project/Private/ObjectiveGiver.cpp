@@ -15,22 +15,23 @@ AObjectiveGiver::AObjectiveGiver()
 	RootComponent = Collider;
 }
 
-// Called when the game starts or when spawned
+//Called when the game starts or when spawned
 void AObjectiveGiver::BeginPlay()
 {
 	Super::BeginPlay();
-
 	if (bSeekPlayer)
 	{
 		SetActorLocation(GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation());
 	}
 
+
 }
 
-// Called every frame
+//Called every frame
 //void AObjectiveGiver::Tick(float DeltaTime)
 //{
 //	Super::Tick(DeltaTime);
+//	
 //}
 
 //void AObjectiveGiver::NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& hit)

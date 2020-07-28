@@ -179,8 +179,15 @@ public:
 		bool CanPerformActions();
 
 	//Saving & Loading
-	void Save();
-	void Load();
+	UFUNCTION(BlueprintCallable)
+		void Save();
+	UFUNCTION(BlueprintCallable)
+		void Load();
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		bool bShouldLoadCheckpoint = false;
+
+	UFUNCTION(BlueprintCallable)
+		virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 
 private:
 	float CharacterRotationX = 0.f;
