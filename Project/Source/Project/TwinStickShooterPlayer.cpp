@@ -582,6 +582,8 @@ AInteractableActor* ATwinStickShooterPlayer::LookForInteractableActor()
 
 void ATwinStickShooterPlayer::Save()
 {
+	UE_LOG(LogTemp, Warning, TEXT("Saving"));
+
 	UJSaveGame* SaveGameInst = Cast<UJSaveGame>(UGameplayStatics::CreateSaveGameObject(UJSaveGame::StaticClass()));
 
 	SaveGameInst->PlayerStats.Hp = Health * 100;
@@ -601,13 +603,15 @@ void ATwinStickShooterPlayer::Load()
 	Health = LoadGameInst->PlayerStats.Hp / 100;
 	SetActorLocation(LoadGameInst->PlayerStats.PlayerLocation);
 	SetActorRotation(LoadGameInst->PlayerStats.PlayerRotation);
+	//bShouldLoadCheckpoint = LoadGameInst->PlayerStats.LoadCheckpoint;
 }
 
 void ATwinStickShooterPlayer::EndPlay(const EEndPlayReason::Type EndPlayReason)
 {
-	UJSaveGame* SaveGameInst = Cast<UJSaveGame>(UGameplayStatics::CreateSaveGameObject(UJSaveGame::StaticClass()));
-
-	SaveGameInst->PlayerStats.LoadCheckpoint = false;
-
-	UE_LOG(LogTemp, Warning, TEXT("%s"), SaveGameInst->PlayerStats.LoadCheckpoint ? TEXT("true") : TEXT("false"));
+	if (Health > 0)
+	{
+		UJSaveGame* SaveGameInst = Cast<UJSaveGame>(UGameplayStatics::CreateSaveGameObject(UJSaveGame::StaticClass()));
+		SaveGameInst->PlayerStats.LoadCheckpoint = false;
+		UGameplayStatics::SaveGameToSlot(SaveGameInst, SaveGameInst->NameOfPlayer, SaveGameInst->IndexUser);
+	}
 }
