@@ -319,6 +319,8 @@ float AJBasePlayer::TakeDamage(float DamageAmount, FDamageEvent const& DamageEve
 	else
 	{
 		Hp -= DamageAmount;
+
+		
 	}
 	return DamageAmount;
 }
