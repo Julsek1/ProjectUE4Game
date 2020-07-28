@@ -15,7 +15,6 @@ struct FPlayerStats
 {
 	GENERATED_BODY()
 
-
 	UPROPERTY(VisibleAnywhere, Category = "SavedData")
 	float Hp;
 
@@ -34,6 +33,8 @@ struct FPlayerStats
 	UPROPERTY(VisibleAnywhere, Category = "SavedData")
 	FString Item;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SavedData")
+		bool LoadCheckpoint;
 
 };
 

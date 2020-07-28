@@ -42,4 +42,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool bGodMode = false;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		bool bIsDead = false;
+
 };

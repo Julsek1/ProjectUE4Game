@@ -65,6 +65,19 @@ ATwinStickShooterPlayer::ATwinStickShooterPlayer()
 	//Setup laser sight
 	LaserSight = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("LaserSight"));
 	LaserSight->SetupAttachment(GetMesh());
+
+	//Checkpoint
+	UJSaveGame* LoadGameInst = Cast<UJSaveGame>(UGameplayStatics::CreateSaveGameObject(UJSaveGame::StaticClass()));
+	if (LoadGameInst)
+	{
+		LoadGameInst = Cast<UJSaveGame>(UGameplayStatics::LoadGameFromSlot(LoadGameInst->NameOfPlayer, LoadGameInst->IndexUser));
+
+		if (LoadGameInst)
+		{
+			bShouldLoadCheckpoint = LoadGameInst->PlayerStats.LoadCheckpoint;
+		}
+	}
+
 }
 
 // Called when the game starts or when spawned
@@ -107,7 +120,9 @@ void ATwinStickShooterPlayer::Tick(float DeltaTime)
 
 	if (Health <= 0)
 	{
-		Load();
+		//Load();
+		Health = 0;
+		bIsDead = true;
 	}
 
 	if (GetVelocity() != FVector(0.f, 0.f, 0.f))
@@ -568,11 +583,12 @@ AInteractableActor* ATwinStickShooterPlayer::LookForInteractableActor()
 void ATwinStickShooterPlayer::Save()
 {
 	UJSaveGame* SaveGameInst = Cast<UJSaveGame>(UGameplayStatics::CreateSaveGameObject(UJSaveGame::StaticClass()));
+
 	SaveGameInst->PlayerStats.Hp = Health * 100;
 	//SaveGameInst->PlayerStats.Collectibles = Collectibles;
-
 	SaveGameInst->PlayerStats.PlayerLocation = GetActorLocation();
 	SaveGameInst->PlayerStats.PlayerRotation = GetActorRotation();
+	SaveGameInst->PlayerStats.LoadCheckpoint = true;
 
 	UGameplayStatics::SaveGameToSlot(SaveGameInst, SaveGameInst->NameOfPlayer, SaveGameInst->IndexUser);
 }
@@ -582,7 +598,16 @@ void ATwinStickShooterPlayer::Load()
 	UJSaveGame* LoadGameInst = Cast<UJSaveGame>(UGameplayStatics::CreateSaveGameObject(UJSaveGame::StaticClass()));
 	LoadGameInst = Cast<UJSaveGame>(UGameplayStatics::LoadGameFromSlot(LoadGameInst->NameOfPlayer, LoadGameInst->IndexUser));
 
-	Health = LoadGameInst->PlayerStats.Hp/100;
+	Health = LoadGameInst->PlayerStats.Hp / 100;
 	SetActorLocation(LoadGameInst->PlayerStats.PlayerLocation);
 	SetActorRotation(LoadGameInst->PlayerStats.PlayerRotation);
+}
+
+void ATwinStickShooterPlayer::EndPlay(const EEndPlayReason::Type EndPlayReason)
+{
+	UJSaveGame* SaveGameInst = Cast<UJSaveGame>(UGameplayStatics::CreateSaveGameObject(UJSaveGame::StaticClass()));
+
+	SaveGameInst->PlayerStats.LoadCheckpoint = false;
+
+	UE_LOG(LogTemp, Warning, TEXT("%s"), SaveGameInst->PlayerStats.LoadCheckpoint ? TEXT("true") : TEXT("false"));
 }
