@@ -24,6 +24,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Data")
 	bool IsDeseased;
 
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
 	float Damage;
 
@@ -38,6 +39,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
 		USoundCue* PunchSound;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
+		bool IsDetected;
 
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")

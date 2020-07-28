@@ -71,6 +71,7 @@ float AMutant::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, A
 	}
 	else
 	{
+		
 		Hp -= DamageAmount;
 		
 	}
