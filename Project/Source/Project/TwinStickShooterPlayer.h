@@ -72,7 +72,7 @@ public:
 	//Objective
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		AObjective* CurrentObjective = nullptr;
-	UFUNCTION()
+	UFUNCTION(BlueprintCallable)
 		void ReceiveObjective(AObjective* Objective);
 
 	//Weapon
