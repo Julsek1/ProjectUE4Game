@@ -33,7 +33,7 @@ struct FPlayerStats
 	UPROPERTY(VisibleAnywhere, Category = "SavedData")
 	FString Item;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SavedData")
+	UPROPERTY(VisibleAnywhere, Category = "SavedData")
 		bool LoadCheckpoint;
 
 };

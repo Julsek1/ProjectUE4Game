@@ -283,7 +283,7 @@ void ATwinStickShooterPlayer::Heal(float HealingAmount)
 void ATwinStickShooterPlayer::ReceiveObjective(AObjective* Objective)
 {
 	//CurrentObjective = Objective;
-	Save();
+	//Save(); Do a save timer instead
 	CurrentObjective->Description = Objective->Description;
 	CurrentObjective->Requirement = Objective->Requirement;
 	CurrentObjective->Progress = Objective->Progress;
