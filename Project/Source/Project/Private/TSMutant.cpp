@@ -6,4 +6,5 @@
 ATSMutant::ATSMutant()
 {
 	EnemyName = "Mutant";
+	DamageResistance = -1.f;
 }
