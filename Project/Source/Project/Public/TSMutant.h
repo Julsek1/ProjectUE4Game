@@ -18,5 +18,5 @@ public:
 	ATSMutant();
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		float MeleeDamage = 0.15f;
+		float MeleeDamage = 0.05f;
 };
