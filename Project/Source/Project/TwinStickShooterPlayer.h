@@ -191,8 +191,7 @@ public:
 
 	//Collectible
 	void PickupCollectible();
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		int32 Collectibles = 0;
+	
 
 private:
 	float CharacterRotationX = 0.f;

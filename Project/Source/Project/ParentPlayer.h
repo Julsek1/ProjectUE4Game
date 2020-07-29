@@ -45,4 +45,7 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		bool bIsDead = false;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int32 NumberOfCollectibles = 0;
+
 };

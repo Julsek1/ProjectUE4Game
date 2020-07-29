@@ -75,7 +75,7 @@ ATwinStickShooterPlayer::ATwinStickShooterPlayer()
 		if (LoadGameInst)
 		{
 			bShouldLoadCheckpoint = LoadGameInst->PlayerStats.LoadCheckpoint;
-			Collectibles = LoadGameInst->PlayerStats.Collectibles;
+			//Collectibles = LoadGameInst->PlayerStats.Collectibles;
 		}
 	}
 
@@ -588,7 +588,7 @@ void ATwinStickShooterPlayer::Save()
 	UJSaveGame* SaveGameInst = Cast<UJSaveGame>(UGameplayStatics::CreateSaveGameObject(UJSaveGame::StaticClass()));
 
 	SaveGameInst->PlayerStats.Hp = Health * 100;
-	SaveGameInst->PlayerStats.Collectibles = Collectibles;
+	//SaveGameInst->PlayerStats.Collectibles = Collectibles;
 	SaveGameInst->PlayerStats.PlayerLocation = GetActorLocation();
 	SaveGameInst->PlayerStats.PlayerRotation = GetActorRotation();
 	SaveGameInst->PlayerStats.LoadCheckpoint = true;
@@ -604,7 +604,7 @@ void ATwinStickShooterPlayer::Load()
 	Health = LoadGameInst->PlayerStats.Hp / 100;
 	SetActorLocation(LoadGameInst->PlayerStats.PlayerLocation);
 	SetActorRotation(LoadGameInst->PlayerStats.PlayerRotation);
-	Collectibles = LoadGameInst->PlayerStats.Collectibles;
+	//Collectibles = LoadGameInst->PlayerStats.Collectibles;
 	//bShouldLoadCheckpoint = LoadGameInst->PlayerStats.LoadCheckpoint;
 }
 
@@ -614,12 +614,12 @@ void ATwinStickShooterPlayer::EndPlay(const EEndPlayReason::Type EndPlayReason)
 	{
 		UJSaveGame* SaveGameInst = Cast<UJSaveGame>(UGameplayStatics::CreateSaveGameObject(UJSaveGame::StaticClass()));
 		SaveGameInst->PlayerStats.LoadCheckpoint = false;
-		SaveGameInst->PlayerStats.Collectibles = 0;
+		//SaveGameInst->PlayerStats.Collectibles = 0;
 		UGameplayStatics::SaveGameToSlot(SaveGameInst, SaveGameInst->NameOfPlayer, SaveGameInst->IndexUser);
 	}
 }
 
 void ATwinStickShooterPlayer::PickupCollectible()
 {
-	Collectibles++;
+	NumberOfCollectibles++;
 }
