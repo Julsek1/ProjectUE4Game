@@ -41,7 +41,10 @@ public:
 		USoundCue* PunchSound;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
-		bool IsPlayerDetected = false;
+		bool IsDetected = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI")
+		bool IsStealthKilled = false;
 
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fight")
