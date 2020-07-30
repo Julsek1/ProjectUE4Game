@@ -75,6 +75,7 @@ ATwinStickShooterPlayer::ATwinStickShooterPlayer()
 		if (LoadGameInst)
 		{
 			bShouldLoadCheckpoint = LoadGameInst->PlayerStats.LoadCheckpoint;
+			//Collectibles = LoadGameInst->PlayerStats.Collectibles;
 		}
 	}
 
@@ -582,7 +583,7 @@ AInteractableActor* ATwinStickShooterPlayer::LookForInteractableActor()
 
 void ATwinStickShooterPlayer::Save()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Saving"));
+	//UE_LOG(LogTemp, Warning, TEXT("Saving"));
 
 	UJSaveGame* SaveGameInst = Cast<UJSaveGame>(UGameplayStatics::CreateSaveGameObject(UJSaveGame::StaticClass()));
 
@@ -603,6 +604,7 @@ void ATwinStickShooterPlayer::Load()
 	Health = LoadGameInst->PlayerStats.Hp / 100;
 	SetActorLocation(LoadGameInst->PlayerStats.PlayerLocation);
 	SetActorRotation(LoadGameInst->PlayerStats.PlayerRotation);
+	//Collectibles = LoadGameInst->PlayerStats.Collectibles;
 	//bShouldLoadCheckpoint = LoadGameInst->PlayerStats.LoadCheckpoint;
 }
 
@@ -612,6 +614,12 @@ void ATwinStickShooterPlayer::EndPlay(const EEndPlayReason::Type EndPlayReason)
 	{
 		UJSaveGame* SaveGameInst = Cast<UJSaveGame>(UGameplayStatics::CreateSaveGameObject(UJSaveGame::StaticClass()));
 		SaveGameInst->PlayerStats.LoadCheckpoint = false;
+		//SaveGameInst->PlayerStats.Collectibles = 0;
 		UGameplayStatics::SaveGameToSlot(SaveGameInst, SaveGameInst->NameOfPlayer, SaveGameInst->IndexUser);
 	}
+}
+
+void ATwinStickShooterPlayer::PickupCollectible()
+{
+	NumberOfCollectibles++;
 }

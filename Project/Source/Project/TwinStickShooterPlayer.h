@@ -189,6 +189,10 @@ public:
 	UFUNCTION(BlueprintCallable)
 		virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 
+	//Collectible
+	void PickupCollectible();
+	
+
 private:
 	float CharacterRotationX = 0.f;
 	float CharacterRotationY = 0.f;
