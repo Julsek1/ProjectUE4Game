@@ -42,6 +42,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool bGodMode = false;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool bIsPauseMenuShown = false;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		bool bIsDead = false;
 

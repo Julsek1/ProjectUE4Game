@@ -162,8 +162,9 @@ void AJBasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &AJBasePlayer::LeftMouseD);
 	PlayerInputComponent->BindAction("Attack", IE_Released, this, &AJBasePlayer::LeftMouseUp);
 
-	PlayerInputComponent->BindAction("Q", IE_Pressed, this, &AJBasePlayer::EscD);
-	PlayerInputComponent->BindAction("Q", IE_Released, this, &AJBasePlayer::EscUp);
+	////pause menu
+	//PlayerInputComponent->BindAction("Q", IE_Pressed, this, &AJBasePlayer::EscD);
+	//PlayerInputComponent->BindAction("Q", IE_Released, this, &AJBasePlayer::EscUp);
 
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AJBasePlayer::MoveForward);
@@ -263,7 +264,7 @@ void AJBasePlayer::LeftMouseUp()
 
 }
 
-
+//pause menu
 
 void AJBasePlayer::EscD()
 {
