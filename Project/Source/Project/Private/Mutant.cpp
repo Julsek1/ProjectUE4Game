@@ -62,6 +62,10 @@ void AMutant::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 float AMutant::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
 {
+	if (IsStealthKilled)
+	{
+		Hp = 0.f;
+	}
 
 	if (Hp - DamageAmount <= 0.f)
 	{
