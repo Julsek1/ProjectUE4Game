@@ -16,6 +16,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
 //#include "MinibossLevelPillar.h"
+#include "Misc/OutputDeviceNull.h"
 #include "ParentEnemy.h"
 #include "Perception/AISense_Hearing.h"
 //#include "Shotgun.h"
@@ -592,7 +593,7 @@ void ATwinStickShooterPlayer::Save()
 	SaveGameInst->PlayerStats.PlayerLocation = GetActorLocation();
 	SaveGameInst->PlayerStats.PlayerRotation = GetActorRotation();
 	SaveGameInst->PlayerStats.LoadCheckpoint = true;
-
+	SaveActors();
 	UGameplayStatics::SaveGameToSlot(SaveGameInst, SaveGameInst->NameOfPlayer, SaveGameInst->IndexUser);
 }
 
@@ -622,4 +623,10 @@ void ATwinStickShooterPlayer::EndPlay(const EEndPlayReason::Type EndPlayReason)
 void ATwinStickShooterPlayer::PickupCollectible()
 {
 	NumberOfCollectibles++;
+}
+
+void ATwinStickShooterPlayer::SaveActors()
+{
+	FOutputDeviceNull ar;
+	this->CallFunctionByNameWithArguments(TEXT("SaveDestroyedActors"), ar, NULL, true);
 }

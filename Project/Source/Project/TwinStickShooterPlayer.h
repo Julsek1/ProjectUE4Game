@@ -189,6 +189,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 		virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 
+
+	void SaveActors();
+
 	//Collectible
 	void PickupCollectible();
 	
