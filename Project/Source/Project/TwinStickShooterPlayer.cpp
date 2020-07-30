@@ -590,7 +590,7 @@ void ATwinStickShooterPlayer::Save()
 
 	SaveGameInst->PlayerStats.Hp = Health * 100;
 	//SaveGameInst->PlayerStats.Collectibles = Collectibles;
-	SaveGameInst->PlayerStats.PlayerLocation = GetActorLocation();
+	SaveGameInst->PlayerStats.PlayerLocation = GetActorLocation();//FVector(GetActorLocation().X, GetActorLocation().Y, GetActorLocation().Z + 50.f);
 	SaveGameInst->PlayerStats.PlayerRotation = GetActorRotation();
 	SaveGameInst->PlayerStats.LoadCheckpoint = true;
 	SaveActors();
