@@ -36,7 +36,7 @@ void ATSCollectible::NotifyActorBeginOverlap(AActor* Other)
 	if (Player != nullptr)
 	{
 		Player->PickupCollectible();
-		//Player->Save();
+		Player->Save();
 		Destroy();
 	}
 
