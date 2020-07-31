@@ -147,8 +147,6 @@ void AJBasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	check(PlayerInputComponent);
 
-	/*PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AJBasePlayer::Jump);
-	PlayerInputComponent->BindAction("Jump", IE_Released, this, &AJBasePlayer::StopJumping);*/
 
 	PlayerInputComponent->BindAction("Kill", IE_Pressed, this, &AJBasePlayer::KDown);
 	PlayerInputComponent->BindAction("Kill", IE_Released, this, &AJBasePlayer::KUp);

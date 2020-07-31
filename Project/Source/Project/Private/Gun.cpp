@@ -52,7 +52,7 @@ void AGun::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* Othe
 		if (Player)
 		{
 			Player->SetOverlapedPickup(this);
-
+			
 			
 		}
 	}
