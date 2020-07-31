@@ -132,6 +132,11 @@ void AJBasePlayer::Tick(float DeltaTime)
 	{
 		Hp = Health * 100;
 	}
+
+	else
+	{
+		Health = Hp / 100;
+	}
 }
 
 FRotator AJBasePlayer::GetSightTurning(FVector Goal)
